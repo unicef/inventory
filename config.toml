@@ -1,0 +1,75 @@
+################################# Default configuration ###################
+baseURL = "https://jwf.io/heuristics/"
+title = "Justin's Heuristics"
+theme = "dot"
+enableEmoji = true
+enableGitInfo = true
+
+[markup.goldmark.renderer]
+unsafe = true
+
+
+################################# Navigation ################################
+[[menu.main]]
+weight = 10
+name = "FAQ"
+url = "faq"
+
+[[menu.main]]
+weight = 20
+name = "pages"
+url = "pages"
+hasChildren = true
+
+    [[menu.main]]
+    parent = "pages"
+    name = "Free & Open Source Software"
+    url = "foss"
+    weight = 20
+
+
+############################# Default parameters ##########################
+[params]
+logo = "static/favicon.ico"
+
+# customize color
+primary_color = "#663399"
+body_color = "#ffccff"
+text_color = "#636363"
+text_color_dark = "#242738"
+white_color = "#ffffff"
+light_color = "#f8f9fa"
+
+# font family (choose from https://fonts.google.com/)
+font_family = "Public+Sans"
+
+# contact form action (works with https://formspree.io)
+contact_form_action = "#"
+
+
+############################## Social links ##############################
+# themify icon pack : https://themify.me/themify-icons
+
+[[params.social]]
+icon = "ti-github"
+link = "https://github.com/jwflory"
+
+[[params.social]]
+icon = "ti-twitter"
+link = "https://twitter.com/jflory7"
+
+
+################################ English Language ######################
+[Languages.en]
+languageName = "En"
+languageCode = "en-us"
+weight = 1
+home = "Home"
+copyright = "Creative Commons BY-SA 4.0"
+
+# banner
+[Languages.en.params.banner]
+title = "Justin's Heuristics"
+subtitle = "\"Heuristics is the science of finding new ways to solve problems\" (Abbott 2004, 81)"
+bg_image = "static/images/banner.jpg"
+placeholder = "Have a question? Search the site here."
