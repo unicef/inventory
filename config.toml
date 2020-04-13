@@ -34,7 +34,7 @@ logo = "static/favicon.ico"
 
 # customize color
 primary_color = "#663399"
-body_color = "#ffccff"
+body_color = "#e0e4e8"
 text_color = "#636363"
 text_color_dark = "#242738"
 white_color = "#ffffff"
