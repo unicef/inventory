@@ -1,0 +1,13 @@
+---
+title: "Reproducibility reading list"
+date: 2020-04-13
+type: "post"
+weight: 10
+
+---
+
+* [A Guide to Reproducible Code](https://www.britishecologicalsociety.org/wp-content/uploads/2019/06/BES-Guide-Reproducible-Code-2019.pdf):
+  A guide written by scientists, for scientists, on creating reproducible code.
+  Includes topics like _A simple reproducible project workflow_, _Organising projects for reproducibility_, _Reproducible reports_, and more.
+  Edited by Natalie Cooper and Pen-Yuan Hsing.
+  Featuring contributions from Mike Croucher, Laura Graham, Tamora James, Anna Krystalli, and François Michonneau.

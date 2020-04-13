@@ -33,6 +33,12 @@ hasChildren = true
     url = "hardware"
     weight = 20
 
+    [[menu.main]]
+    parent = "pages"
+    name = "Reproducibility"
+    url = "reproducibility"
+    weight = 30
+
 
 ############################# Default parameters ##########################
 [params]
