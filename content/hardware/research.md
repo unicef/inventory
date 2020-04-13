@@ -1,8 +1,7 @@
 ---
 title: "Work in progress: Open Hardware research"
-date: 2020-03-25
 type: "post"
-weight: 20
+weight: 99
 draft: true
 
 ---

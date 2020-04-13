@@ -1,9 +1,9 @@
 ---
 title: "Text editors"
-date: 2020-04-13
 weight: 30
 
 ---
+
 This page is focused on educational resources, not strictly comparisons of editors.
 
 

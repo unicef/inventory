@@ -1,6 +1,5 @@
 ---
 title: "Reproducibility reading list"
-date: 2020-04-13
 type: "post"
 weight: 10
 
