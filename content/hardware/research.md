@@ -10,31 +10,6 @@ This is a draft page.
 While it can exist in the source repo, it will not be visible on the main site until `draft: true` is removed.
 
 
-## Example projects
-
-* opentrons (has also raised VC funding)
-* adafruit
-* sparkfun
-* openROV
-* farmbot
-* IoRodeo
-* Ultimaker
-* Prusa research
-* Backyard Brains
-* Seeed Studio
-* Sanworks
-* Open Ephys
-* Safecast
-* OpenBCI
-* OLIMEX
-* Arduino
-* World Famous Electronics, maker of the [Pulse Sensor](http://www.pulsesensor.com/)
-    * This company has not ever applied for funding besides the startup crowdfunding campaign that launched us
-* list of certified hardware at www.owshwa.org https://certification.oshwa.org/list.html
-* Aleph Objects, makers of Lulz Bot family of 3D printers
-* risc-v: https://riscv.org/risc-v-history/
-
-
 ## Detailed case studies
 
 All the info passed on to me from Pen:
