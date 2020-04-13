@@ -21,8 +21,6 @@ Check out the list of [certified hardware](https://certification.oshwa.org/list.
   Open-source electronics platform based on easy-to-use hardware and software.
 * [FarmBot](https://farm.bot/)
 * [IO Rodeo](https://iorodeo.com/pages/about-us)
-* [Opentrons](https://www.opentrons.com/):
-  Also raised V.C. funding
 * [Prusa Research](https://www.prusa3d.com/):
   Manufactures 3D printers for enterprise and hobbyists.
 * [Seeed Studio](https://www.seeedstudio.com/)

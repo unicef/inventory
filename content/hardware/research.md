@@ -9,51 +9,10 @@ draft: true
 This is a draft page.
 While it can exist in the source repo, it will not be visible on the main site until `draft: true` is removed.
 
-
-## Detailed case studies
-
-All the info passed on to me from Pen:
-
-### [Opentrons](https://opentrons.com/)
-
-> Several highly successful and well-regarded biology/chemistry lab automation robots.
-> By going 100% open source they were able to substantially reduce costs and their products' prices undercuts the competition sometimes by 10x.
-> If I remember correctly Opentrons was able to get venture capital funding:
->
-> Having worked in biology labs myself, I can attest to how revolutionary their open source business model is.
-> It doesn't just save cost, but because everything is open source, scientists who use their products don't get vendor lock-in and some even create their own modifications.
-> This is shared and helps build the ecosystem around Opentrons.
-
-### [Ultimate Hacking Keyboard](https://ultimatehackingkeyboard.com/)
-
-> They bootstrapped their business by starting small plus a round of successful crowdfunding.
-> To know my knowledge this company is now self-sufficient (or close to) and their keyboard gets amazing reviews.
-> Because it's completely open source hardware (and firmware), users have gone crazy with modifications giving them essentially free advertising.
->
-> Full disclosure: I have one of their keyboards.
-
-### Crowd Supply
+## Crowd Supply
 
 > BTW, for open source hardware crowdfunding, [Crowd Supply](https://www.crowdsupply.com/) is a popular platform.
 > Not all project on it are open source, but many are.
-
-### Arduino
-
-> This is probably the most famous example.
-> The official Arduino boards are 100% open source, and again the ecosystem that being open source allows has given them tons of free publicity, and user contributions feed into their future products lowering R&D costs.
-> The business strategy for the Arduino is that anyone can directly copy, manufacture, and sell clones, but they cannot slap them "Arduino" label on it (I believe "Arduino" itself is trademarked, which does not affect its open source nature), only boards made by the company can be officially called Arduino.
-
-### [Lulzbot](https://www.lulzbot.com/about)
-
-> You may have heard of the LulzBot line of 3D printers which are, to my knowledge, 100% open source.
-> Even in the hyper competitive field of 3D printing, this company has done quite well *because* of their open source hardware.
-
-### [REMODEL toolkit](https://remodel.dk/)
-
-> There is a very interesting REMODEL toolkit that, through 7 phases of hands-on design exercises and practical experimentation, helps you uncover how to create economically sustainable open source-based business models.
-> The toolkit itself is licensed under CC BY-SA (yay!) and has been successfully used by multiple real-life businesses.
-> The creator of this toolkit is a part of the EU-funded project I'm on, and I briefly met him last October, seems like a great guy!
-
 
 ## Licensing
 
