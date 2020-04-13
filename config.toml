@@ -25,6 +25,12 @@ hasChildren = true
     parent = "pages"
     name = "Free & Open Source Software"
     url = "foss"
+    weight = 10
+
+    [[menu.main]]
+    parent = "pages"
+    name = "Open Hardware"
+    url = "hardware"
     weight = 20
 
 
