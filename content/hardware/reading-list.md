@@ -1,7 +1,7 @@
 ---
 title: "Open Hardware reading list"
 type: "post"
-weight: 10
+weight: 40
 
 ---
 
