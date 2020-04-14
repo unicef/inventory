@@ -53,6 +53,9 @@ Organizations with a specific focus to neuroscience.
 
 ## Specific products & projects
 
+* [Crowd Supply](https://www.crowdsupply.com/):
+  Popular platform for Open Hardware crowdfunding.
+  Not all funded projects are open source, but many are.
 * [OpenROV](https://github.com/OpenROV):
   Low-cost telerobotic submarine/underwater drone built with the goal of making underwater exploration and education affordable (see [Wikipedia](https://en.wikipedia.org/wiki/OpenROV))
 * [RISC-V](https://riscv.org/risc-v-history/)
