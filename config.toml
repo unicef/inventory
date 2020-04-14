@@ -29,6 +29,12 @@ hasChildren = true
 
     [[menu.main]]
     parent = "pages"
+    name = "Missions"
+    url = "missions"
+    weight = 10
+
+    [[menu.main]]
+    parent = "pages"
     name = "Open Hardware"
     url = "hardware"
     weight = 20

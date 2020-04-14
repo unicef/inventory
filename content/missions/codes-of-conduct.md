@@ -1,0 +1,114 @@
+---
+title: "Codes of Conduct"
+weight: 10
+
+---
+
+**Flory, Justin W.**
+
+[![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
+
+This Mission is a short exercise on understanding how Codes of Conduct fit into your Open Source community.
+In designing a Code of Conduct for a project community, we will explore these Requirements for this Mission:
+
+1. Quality of writing
+1. Clarity of expectations
+1. Defined structure for handling enforcement
+1. Two to four people responsible for handling sensitive reports
+1. Use an existing Code of Conduct instead of writing one yourself
+1. References
+
+
+## Quality of writing
+
+A Code of Conduct is an international document.
+Unless you have equivalent translations by native speakers of other languages, the reader may not read or speak English like a native speaker.
+So, use simple, easy to understand language and keep your vocabulary clear and simple.
+
+Consider this checklist when evaluating on evaluating quality of writing for a Code of Conduct:
+
+1. Few grammatical, technical, and semantic errors
+1. Seek feedback from diverse people who may not be native English speakers
+1. Avoids complex words or contextual phrases
+
+
+## Clarity of expectations
+
+A Code of Conduct states how your community is expected to behave.
+But it also states expectations of how things are handled when that behavior is not followed.
+A clear set of rules paired with examples makes it easier to label certain categories of wanted or unwanted community behavior.
+
+Consider this checklist when evaluating on how clear expectations are set for a Code of Conduct:
+
+1. **Essential verbosity level**
+   (a behavioral goal could be no more than 2-3 paragraphs per section)
+1. **Focus on broad identifications of negative behavior**:
+   Continually labeling toxic behavior is a never-ending rabbit hole.
+   The number of combinations and permutations of bad/toxic behavior is significantly high.
+   It is more rewarding of planning effort to define positive and welcoming behavior.
+   This will make it easier to define examples of what acceptable or exemplary behavior is like in your community.
+1. **Err on over-describing what you _do_ want instead of what you don't want**:
+   Aim on setting clear expectations for what behavior is welcomed and encouraged in a project community.
+
+
+## Defined structure for handling enforcement
+
+Inevitably, someone _will_ come along to your project who tests any thin lines in what your Code of Conduct is clear (or not) on.
+Publicly documenting how moderation and enforcement is reviewed builds trust and sets clear expectations.
+This does not mean you label out in great detail to the public on how a complaint travels through your organization.
+But it should be clear on who reviews complaints, when they see them, and why they see them.
+Even if someone does not know the result or outcome of every step, they should know what those steps are.
+
+Consider this checklist when evaluating on a defined enforcement structure:
+
+1. **Publicly explain how behavior complaints are reviewed and by whom**:
+   Identify how a complaint travels through your organization.
+   Create a network or transparent map of how a complaint is reviewed, by whom in the organization, and who defines consequences for unacceptable behavior.
+1. **Explain when someone is brought in or added to a complaint review**:
+   The consent of the reporter must always be sought for changes to view access of a private complaint.
+   The reporter should know when they will be contacted and for what.
+1. **[Art. 17 G.D.P.R.](https://gdpr-info.eu/art-17-gdpr/) - Right to erase ("right to be forgotten")**:
+   At any point, the reporter may request an end to an investigation where they are a reported victim.
+   Their identity should be erased from official records.
+   The complaint of behavior does not need to be erased nor of whom it is a complaint of.
+   But the reporter's contact information must be anonymized and disconnected from other data objects or representations.
+   (Selling or sharing private data on behavior of specific individuals may be a different legal question altogether.)
+
+
+## Two to four people responsible for handling sensitive reports
+
+Responsibility for handling sensitive reports must be explicit.
+Between two to four people should be included in handling first-contact reports.
+Having more than one person avoids bias if a report is about the person who handles reports.
+Sage Sharp has a [more thorough explanation](https://otter.technology/blog/2019/05/23/why-train-multiple-code-of-conduct-enforcers/) of why this is important.
+
+Consider this checklist when evaluating on how sensitive reports are handled:
+
+1. **Recusion in personal cases**:
+   If a complaint is about a person who oversees sensitive reports, they are immediately recused of any inclusion in the decision-making process.
+   They are treated the same as a member of the community who was the subject of a report.
+   Their role as a first-responder must not bias the first response for a complaint.
+1. **Define elevation criteria**:
+   Determine what disciplinary action is available to the group of first-responders and (approximately) when additional elevation is required.
+   This way, complaints don't get stuck in indecision.
+
+
+## Use an existing Code of Conduct instead of writing one yourself
+
+The previous sections focused on less-talked about, but equally important parts of implementing a Code of Conduct.
+But what about actually writing the "legal" text?
+A Code of Conduct is in effect a legal document.
+In the world of licenses, we are often told not to write our own licenses and instead use one already available and widely understood in our legal systems.
+
+The same mindset is useful when evaluating a Code of Conduct.
+Avoid writing your own and use one that already exists and is more widely-used if possible.
+This way, you can focus on the more challenging questions of defining enforcement instead of also becoming junior policy authors.
+
+
+## References
+
+* [Open Source Guide - Code of Conduct](https://opensource.guide/code-of-conduct/ "Your Code of Conduct)
+* Popular examples:
+    * [Contributor Covenant](https://www.contributor-covenant.org/) (_recommended_ - widely used, provides template to fill out
+    * [Django Code of Conduct](https://www.djangoproject.com/conduct/)
+    * [Citizen Code of Conduct](https://citizencodeofconduct.org/)
