@@ -107,7 +107,7 @@ This way, you can focus on the more challenging questions of defining enforcemen
 
 ## References
 
-* [Open Source Guide - Code of Conduct](https://opensource.guide/code-of-conduct/ "Your Code of Conduct)
+* [Open Source Guide - Code of Conduct](https://opensource.guide/code-of-conduct/ "Your Code of Conduct")
 * Popular examples:
     * [Contributor Covenant](https://www.contributor-covenant.org/) (_recommended_ - widely used, provides template to fill out
     * [Django Code of Conduct](https://www.djangoproject.com/conduct/)
