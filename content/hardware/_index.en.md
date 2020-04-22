@@ -11,9 +11,10 @@ Resources and advice specific to building Open Hardware projects and communities
 ## Table of contents
 
 * [Case studies]({{< relref "case-studies" >}})
-* [Project Hall of Fame]({{< relref "projects"  >}})
+* [Documentation]({{< relref "documentation" >}})
 * [Licensing]({{< relref "licensing" >}})
 * [Open Hardware reading list]({{< relref "reading-list" >}})
+* [Project Hall of Fame]({{< relref "projects"  >}})
 
 
 ## Contributors
