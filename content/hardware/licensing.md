@@ -7,6 +7,14 @@ weight: 30
 This page collects information, resources, and other details about Open Hardware licensing.
 
 
+## Documentation
+
+* [Licensing and documentation](https://openhardware4.me/open-hardware-leaders.github.io/Program/17_Week10.html):
+  Learning material provided by Open Hardware Leaders program.
+  Goal of material is to acquire best practices for hardware documentation and understand the different open licensing options available.
+  Includes an explanation video and other helpful links.
+
+
 ## Licenses
 
 There are two generally accepted Open Hardware licenses:

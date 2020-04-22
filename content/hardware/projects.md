@@ -1,6 +1,6 @@
 ---
 title: Project Hall of Fame
-weight: 20
+weight: 50
 
 ---
 
