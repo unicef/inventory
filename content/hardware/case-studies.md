@@ -22,16 +22,6 @@ Scientific-focused hardware.
 > This is shared with other scientists and builds a stronger ecosystem around Opentrons.
 
 
-## [Ultimate Hacking Keyboard](https://ultimatehackingkeyboard.com/)
-
-Consumer-focused hardware.
-
-> They bootstrapped their business by starting small.
-> They also had a successful round of crowdfunding.
-> To know my knowledge, this company is now self-sufficient (or close to), and their keyboards get amazing reviews.
-> Because hardware and firmware are fully open source, users create custom modifications and extensions that end essentially provide free advertising.
-
-
 ## Arduino
 
 > This is probably the most famous example.
@@ -48,3 +38,23 @@ Consumer-focused hardware.
 > The REMODEL toolkit that helps you uncover how to create economically sustainable open source-based business models.
 > This is done through seven phases of hands-on design exercises and practical experimentation.
 > The toolkit is licensed under CC BY-SA and has been successfully used by multiple real-life businesses.
+
+
+## Honorable mentions
+
+The following case studies are honorable mentions.
+They are honorable mentions because they either partially implement Open Hardware design or methodologies, but fall short in other ways.
+
+### [Ultimate Hacking Keyboard](https://ultimatehackingkeyboard.com/)
+
+Consumer-focused hardware.
+Source code is available online, but it is released under custom proprietary licenses.
+The custom licenses violate the [Four Freedoms](https://fsfe.org/freesoftware/) of Free Software: specifically, the freedom to use.
+However, it is still an interesting project, so it is included here as a reference.
+
+Here is what one of our contributors had to say about it:
+
+> They bootstrapped their business by starting small.
+> They also had a successful round of crowdfunding.
+> To know my knowledge, this company is now self-sufficient (or close to), and their keyboards get amazing reviews.
+> Because hardware and firmware are [public], users create custom modifications and extensions that end essentially provide free advertising.
