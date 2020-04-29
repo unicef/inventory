@@ -1,11 +1,10 @@
 ---
-title: "FOSS reading list"
-type: post
-weight: 30
+title: "Reading list: FOSS"
+weight: 40
 
 ---
 
-Various readings on Free & Open Source Software.
+Various readings on a variety of different topicsFree & Open Source Software.
 
 
 ## Governance
