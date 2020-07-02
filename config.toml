@@ -23,27 +23,33 @@ hasChildren = true
 
     [[menu.main]]
     parent = "pages"
+    name = "Developer Tools & Automation"
+    url = "dev-tools"
+    weight = 10
+
+    [[menu.main]]
+    parent = "pages"
     name = "Free & Open Source Software"
     url = "foss"
-    weight = 10
+    weight = 20
 
     [[menu.main]]
     parent = "pages"
     name = "Missions"
     url = "missions"
-    weight = 10
+    weight = 30
 
     [[menu.main]]
     parent = "pages"
     name = "Open Hardware"
     url = "hardware"
-    weight = 20
+    weight = 40
 
     [[menu.main]]
     parent = "pages"
     name = "Reproducibility"
     url = "reproducibility"
-    weight = 30
+    weight = 60
 
 
 ############################# Default parameters ##########################
