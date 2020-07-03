@@ -1,6 +1,6 @@
 ---
 title: "Reading list: FOSS"
-weight: 40
+weight: 50
 
 ---
 

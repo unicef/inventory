@@ -1,6 +1,6 @@
 ---
 title: "Reading List: Legal & Business Aspects"
-weight: 50
+weight: 60
 
 ---
 
