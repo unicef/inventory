@@ -47,6 +47,12 @@ hasChildren = true
 
     [[menu.main]]
     parent = "pages"
+    name = "Project Management"
+    url = "project-management"
+    weight = 50
+
+    [[menu.main]]
+    parent = "pages"
     name = "Reproducibility"
     url = "reproducibility"
     weight = 60
