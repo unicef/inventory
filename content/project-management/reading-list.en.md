@@ -1,6 +1,6 @@
 ---
-title: "Project management reading list"
-weight: 10
+title: "Reading List"
+weight: 20
 
 ---
 
