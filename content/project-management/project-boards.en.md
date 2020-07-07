@@ -58,7 +58,7 @@ Some of the key reasons are highlighted below:
 The TeleIRC project is a small open source community that uses project boards to guide development.
 See the below board as an example:
 
-![July 2020 screenshot of TeleIRC GitHub developer project board](/heuristics/img/project-management/teleirc-project-board.png "July 2020 screenshot of TeleIRC GitHub developer project board")
+[![July 2020 screenshot of TeleIRC GitHub developer project board (click to open)](/heuristics/img/project-management/teleirc-project-board.png "July 2020 screenshot of TeleIRC GitHub developer project board (click to open)")](https://github.com/RITlug/teleirc/projects/1?fullscreen=true)
 
 This is an advanced example.
 Guidelines that project managers use for this board are explained below:
