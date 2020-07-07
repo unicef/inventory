@@ -102,5 +102,5 @@ copyright = "Creative Commons BY-SA 4.0"
 [Languages.en.params.banner]
 title = "Justin's Heuristics"
 subtitle = "\"Heuristics is the science of finding new ways to solve problems\" (Abbott 2004, 81)"
-bg_image = "images/banner.jpg"
+bg_image = "img/banner.jpg"
 placeholder = "Have a question? Search the site here."
