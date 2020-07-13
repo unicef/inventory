@@ -5,6 +5,11 @@ language: go
 go:
   - "1.14.x"
 
+addons:
+  apt:
+    packages:
+      - asciidoctor
+
 # Download a specific version of the Hugo release tarball, extract the `hugo`
 # binary from the tarball to $GOPATH/bin so it is executable in the build env
 install: "curl --location https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_Linux-64bit.tar.gz | tar -xvz --directory=$(go env GOPATH)/bin hugo"

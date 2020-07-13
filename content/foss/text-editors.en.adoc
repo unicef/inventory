@@ -7,11 +7,11 @@ weight: 70
 This page is focused on educational resources, not strictly comparisons of editors.
 
 
-## Vim
+== Vim
 
-* [Interactive Vim tutorial](https://www.openvim.com/tutorial.html):
+* https://www.openvim.com/tutorial.html[Interactive Vim tutorial]:
   An interactive tutorial with several sections of common Vim actions.
-* [VimGolf](https://www.vimgolf.com/):
+* https://www.vimgolf.com/[VimGolf]:
   Various take-home challenges of various actions in Vim to be completed in as few keystrokes as possible.
 * _Game_:
-  [Vim Adventures](https://vim-adventures.com/), an adventure game that helps you learn Vim as you play
+  https://vim-adventures.com/[Vim Adventures], an adventure game that helps you learn Vim as you play.
