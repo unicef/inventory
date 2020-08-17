@@ -1,0 +1,100 @@
+---
+title: "Frontier technology tips"
+weight: 10
+
+---
+
+_This is a summary of a talk, "Uncharted waters: Documenting emerging technology"._
+_It was given at DevConf 2020 in Brno, Czech Republic by https://devconfcz2020a.sched.com/event/YOyU/uncharted-waters-documenting-emerging-technology[Andrew Burden]._
+
+
+== Video
+
+{{< youtube peqLYaTpPMw >}}
+
+
+== Abstract
+
+[quote, Andrew Burden]
+____
+We can’t help but feel the lure towards the hot new thing, especially when it comes to technology.
+Part of that lure is the breaking of ground, venturing into the unknown, and working on solutions to new problems.
+But a lot of the same things that make emerging technology fun and exciting to work on are exactly why it can be difficult to document.
+These challenges are quite different to those associated with mature products.
+
+This talk is for anyone working on new products and emerging technology, or just interested in learning about fast-moving documentation.
+It is for the developer as much as it is for the writer, since it usually falls to them to write the early docs before a writer is added to the team.
+____
+
+
+== Summary
+
+Lately I work with “emerging technology,” which means different things to different people.
+Regardless of what emerging tech means to you, Andrew focused on how to write documentation in a fast-paced environment with “pre-release” technology, where things change fast and suddenly.
+Normally this is an excuse to not write docs, but Andrew showed, yes!
+It is possible to write good docs, even when context changes fast and often.
+
+
+=== Key considerations of fast-paced technical writers
+
+An even balance of these considerations helps get into a user’s mindset:
+
+. Scope / scale of release
+. Release schedule
+. Developer meetings / face-time
+. Exposure with `$TECHNOLOGY`
+. Deployment experience with `$TECHNOLOGY`
+
+=== Surviving the information wall
+
+The “information wall” is the endless wall of information and things to know about a project.
+If information is endless, how do technical writers survive?
+
+* Take notes: Be like a scientist
+* Take notes about your notes
+* Be organized with your notes
+
+Obviously Andrew was getting at the value of note-taking.
+Practicing note-taking skills is critical to keep up with the pace of change.
+
+=== “Multi-Version Syndrome”
+
+Sometimes you are writing features for things that will not be released in the next release.
+There is a risk of losing information across multiple releases (e.g. publishing the wrong thing too soon, or the right thing too late).
+Clarify the release schedule as you go.
+A good safeguard against losing information is to rigorously understand release cycle cadence and priority.
+
+If your product isn’t mature yet, anticipate change instead of avoiding it.
+
+=== Access to technology is critical
+
+Technical writers are often User 0.
+To understand the technology, you need access.
+There are interactive and non-interactive ways of getting access.
+Interactive ways are preferred because they are always reproducible.
+
+* Interactive
+** Deploy your own
+** Get someone else to deploy it for you (but lose install context)
+* Non-interactive
+** Live demos
+** Demo videos
+** https://asciinema.org/[Asciicinema] (CLI-oriented)
+
+
+== Other takeaways
+
+* *Screenshots have high maintainability cost; avoid if possible*
+** Sometimes good stop-gaps until something more maintainable
+* Where to begin?
+  *Make a table-of-contents for the Minimum Viable Product*
+** Never underestimate outlines
+* *Avoid documentation scramble near release day*:
+** Make lists / check-lists
+** Take more notes
+** Pre-release checklist
+** Think now, and for the future
+* *Audit your docs*:
+  On-boarding new people is a powerful opportunity to test out your docs
+
+Thanks Andrew for a deep dive on this narrow but important topic.
