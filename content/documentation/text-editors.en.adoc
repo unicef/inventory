@@ -1,6 +1,6 @@
 ---
 title: "Text editors"
-weight: 70
+weight: 50
 
 ---
 

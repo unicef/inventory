@@ -30,7 +30,7 @@ hasChildren = true
     [[menu.main]]
     parent = "pages"
     name = "Documentation"
-    url = "docs"
+    url = "documentation"
     weight = 20
 
     [[menu.main]]

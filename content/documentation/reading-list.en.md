@@ -1,6 +1,6 @@
 ---
-title: "Reading list: FOSS"
-weight: 50
+title: "Reading list"
+weight: 10
 
 ---
 
