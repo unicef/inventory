@@ -1,5 +1,5 @@
 ################################# Default configuration ###################
-baseURL = "https://jwf.io/heuristics/"
+baseURL = "https://jwflory.gitlab.io/heuristics/"
 title = "Justin's Heuristics"
 theme = "dot"
 enableEmoji = true
