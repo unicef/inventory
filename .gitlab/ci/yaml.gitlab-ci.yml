@@ -1,0 +1,8 @@
+---
+# Yamllint of *.yml for .gitlab-ci.yml.
+# This uses rules from project root `.yamllint`.
+yaml_lint:
+  image: pipelinecomponents/yamllint:latest
+  script:
+    - yamllint --config-file .yamllintrc .gitlab-ci.yml
+    - yamllint --config-file .yamllintrc .gitlab/ci
