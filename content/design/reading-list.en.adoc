@@ -1,0 +1,12 @@
+---
+title: "Design & UX Reading List"
+weight: 10
+
+---
+
+Various readings and learnings about design.
+Usually with some kind of Open Source overlap or context.
+
+* https://hrcd.pubpub.org/pub/traumaanddesign[Trauma & design PubPub]:
+  Some basic definitions key to understanding the relationship between trauma and design.
+  Maintained by https://kathep.com/[Katherine Hepworth], https://hrcd.pubpub.org/user/kat-lo[Kat Lo], https://hrcd.pubpub.org/user/eriol-fox[Eriol Fox], and https://hrcd.pubpub.org/user/s-o-2[Soraya O].
