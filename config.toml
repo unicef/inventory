@@ -53,6 +53,12 @@ hasChildren = true
 
     [[menu.main]]
     parent = "pages"
+    name = "Meta"
+    url = "meta"
+    weight = 55
+
+    [[menu.main]]
+    parent = "pages"
     name = "Missions"
     url = "missions"
     weight = 60
