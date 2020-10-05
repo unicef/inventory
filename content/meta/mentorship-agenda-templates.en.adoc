@@ -1,12 +1,12 @@
 ---
-title: "Mentorship meeting agenda templates"
+title: "Mentorship meeting templates"
 weight: 40
 
 ---
+:toc:
 
-This page is a copy-paste template of various meeting agenda templates.
+This page is a copy-paste template of various templates I use for Open Source Mentorship meetings.
 I use these for my private notes about each team's progress.
-I fill these in during our calls!
 
 
 == Induction agenda template
@@ -21,6 +21,29 @@ I fill these in during our calls!
 * *Needs assessment*:
 * *Open source strategy*:
 * *Action items for next time*:
+
+
+== Initial research template
+
+A template to help me prepare for Open Source induction calls.
+I have to get to know who I am talking to!
+
+* *Tech stack*:
+* *Elevator pitch*:
+* *Expected Results*:
+* *Quarter-by-quarter breakdowns*:
+** _Q1_:
+** _Q2_:
+** _Q3_:
+** _Q4_:
+* *Revenue streams*:
+* *Collaborations*:
+* *Open Source*:
+** _Current_ (if any):
+** _Future_:
+* *Team*:
+* *Repository Overview*:
+* *Initial thoughts / recommendations*:
 
 
 == Email summary template
