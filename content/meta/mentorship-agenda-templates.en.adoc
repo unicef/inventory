@@ -1,0 +1,28 @@
+---
+title: "Mentorship meeting agenda templates"
+weight: 40
+
+---
+
+This page is a copy-paste template of various meeting agenda templates.
+I use these for my private notes about each team's progress.
+I fill these in during our calls!
+
+
+== Induction agenda template
+
+* *Agenda*:
+** Introductions
+** Offer to record call
+** Review O.S. Terms of Reference
+** Review frequently-used resources (i.e. Open Source Heuristics & evaluation rubric)
+** link:++{{< ref "meta/needs-assessment-template" >}}++[Needs assessment] (Q&A)
+** Open source strategy (12-month vision, 1-month action plan)
+* *Needs assessment*:
+* *Open source strategy*:
+* *Action items for next time*:
+
+
+== Email summary template
+
+Coming soon.
