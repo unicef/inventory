@@ -1,0 +1,40 @@
+---
+title: Project Hall of Fame
+weight: 20
+
+---
+
+This page is a collection of good examples of Open Source documentation projects.
+The projects and examples listed here are not endorsements.
+It is a collection of good examples to inspire your own Open Source documentation!
+
+
+== General
+
+The projects listed here are either agnostic to a specific tool-chain, or they are an aggregation of several existing documentation projects.
+
+* https://github.com/derberg/awesome-docs-with-static-site-generators[*Awesome Docs with Static Site Generators*]:
+  This repo is suppose to give you a bunch of links to themes or ready implementations of documentation portals.
+  They will help you to quickly get some good samples to play with a static site generator that you are interested with.
+
+
+== Golang Hugo
+
+These examples are good examples of documentation written using the https://gohugo.io/[Hugo] documentation tool-chain.
+
+* https://gitlab.com/jwflory/heuristics[*Open Source Heuristics*]:
+  This very website you are reading right now?
+  The content is written in a mix of AsciiDoc and Markdown, and published with Hugo.
+
+
+== Python Sphinx
+
+These examples are good examples of documentation written using the https://www.sphinx-doc.org/[Python Sphinx] documentation tool-chain.
+Sphinx has integrations that simplify writing API documentation for Python projects, based on code comments in doc-strings.
+
+* https://github.com/jwflory/sphinx-docs-opinionated-quickstart[*sphinx-docs-opinionated-quickstart*]:
+  Quick-start, opinionated template repository to add Sphinx-based documentation to an existing project.
+  Includes ready-to-use https://travis-ci.com/github/jwflory/sphinx-docs-opinionated-quickstart[Travis CI] and https://sphinx-docs-opinionated-quickstart.readthedocs.io/[ReadTheDocs.org] configuration files, so you can start writing your docs, and spend less time figuring out tools.
+* https://parsy.readthedocs.io/[*parsy*]:
+  Parsy is an easy way to combine simple, small parsers into complex, larger parsers.
+  If it means anything to you, it's a monadic parser combinator library for LL(infinity) grammars in the spirit of https://github.com/haskell/parsec[Parsec], http://parsnip-parser.sourceforge.net/[Parsnip], and https://github.com/jneen/parsimmon[Parsimmon].
