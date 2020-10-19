@@ -1,0 +1,34 @@
+---
+title: "Reading List: Legal & Business Aspects"
+weight: 60
+
+---
+
+This reading list is a collection of resources on legal and business aspects of open source.
+Legal and business aspects of an open source project are part of the foundation for building your project and community.
+The resources linked here are intended to give you a better idea of open source from a legal perspective.
+
+
+== Foundations
+
+* https://opensource.org/osd-annotated[The Open Source Definition (Annotated)] - _Open Source Initiative_
+* https://opensource.org/licenses/alphabetical[Open Source Licenses by Name] - _Open Source Initiative_
+* https://opensource.com/resources/what-is-copyleft[What is copyleft?] - _https://twitter.com/FunnelFiasco[Ben Cotton], Opensource.com_
+
+
+== Choosing a license
+
+* https://choosealicense.com/[Choose an open source license] - _curated by GitHub_
+* https://tldrlegal.com/[TLDRLegal - Software licenses explained in plain English] - _FOSSA, Inc_
+* Copyleft licenses:
+** https://www.quora.com/What-is-the-difference-between-GPL-AGPL-and-LGPL-licenses[What is the difference between GPL, AGPL and LGPL licenses?] - _Quora_
+** https://www.gnu.org/licenses/why-affero-gpl.en.html[Why the Affero GPL] - _Free Software Foundation (FSF)_
+
+
+== License examples
+
+* https://www.openstreetmap.org/copyright[OpenStreetMap - Copyright and License] - _OpenStreetMap_
+** Good example of a project with an open data license
+* Open Data Commons Open Database License (ODbL)
+** https://opendatacommons.org/licenses/odbl/[Overview]
+** https://opendatacommons.org/licenses/odbl/summary/[Human-readable summary]
