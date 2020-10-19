@@ -15,9 +15,14 @@ It is a collection of good examples to inspire your own Open Source documentatio
 
 The projects listed below aggregate several existing documentation projects:
 
+* https://github.com/vipulgupta2048/awesome-documentation[*Awesome Documentation*]:
+  Community-curated resource with examples of great documentation in Open Source projects.
 * https://github.com/derberg/awesome-docs-with-static-site-generators[*Awesome Docs with Static Site Generators*]:
   This repo is suppose to give you a bunch of links to themes or ready implementations of documentation portals.
   They will help you to quickly get some good samples to play with a static site generator that you are interested with.
+* https://project-awesome.org/matiassingers/awesome-readme[*Awesome READMEs*]:
+  A curated list of awesome READMEs.
+  Find the source content https://github.com/matiassingers/awesome-readme[on GitHub].
 
 
 [[toolchains]]
