@@ -3,22 +3,30 @@ title: Project Hall of Fame
 weight: 20
 
 ---
+:toc:
 
 This page is a collection of good examples of Open Source documentation projects.
 The projects and examples listed here are not endorsements.
 It is a collection of good examples to inspire your own Open Source documentation!
 
 
-== General
+[[aggregations]]
+== Aggregations
 
-The projects listed here are either agnostic to a specific tool-chain, or they are an aggregation of several existing documentation projects.
+The projects listed below aggregate several existing documentation projects:
 
 * https://github.com/derberg/awesome-docs-with-static-site-generators[*Awesome Docs with Static Site Generators*]:
   This repo is suppose to give you a bunch of links to themes or ready implementations of documentation portals.
   They will help you to quickly get some good samples to play with a static site generator that you are interested with.
 
 
-== Golang Hugo
+[[toolchains]]
+== Toolchain-specific examples
+
+These examples are aggregated by specific toolchains commonly used for Open Source documentation.
+
+[[hugo]]
+=== Golang Hugo
 
 These examples are good examples of documentation written using the https://gohugo.io/[Hugo] documentation tool-chain.
 
@@ -26,8 +34,8 @@ These examples are good examples of documentation written using the https://gohu
   This very website you are reading right now?
   The content is written in a mix of AsciiDoc and Markdown, and published with Hugo.
 
-
-== Python Sphinx
+[[sphinx]]
+=== Python Sphinx
 
 These examples are good examples of documentation written using the https://www.sphinx-doc.org/[Python Sphinx] documentation tool-chain.
 Sphinx has integrations that simplify writing API documentation for Python projects, based on code comments in doc-strings.
