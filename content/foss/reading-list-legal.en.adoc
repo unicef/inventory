@@ -51,6 +51,14 @@ These resources will help you figure out the differences between the most common
 These are a collection of specific examples or scenarios with Open Source licenses.
 They may cover specific projects using a specific license, or may be more general-purpose considerations for any license.
 
+[[examples-software]]
+=== Software licenses
+
+* https://web.archive.org/web/20201022120640/https://raymii.org/s/blog/I_enforced_the_AGPL_on_my_code_heres_how_it_went.html[I enforced the AGPL on my code, here's how it went]:
+  When enforcing a copyleft license resulted in non-cooperation instead of collaboration.
+  While effective at protecting your work, copyleft licenses can be overwhelming to others who do not understand Open Source.
+  The practical example in this article is a good reminder of possible outcomes when it comes to enforcing copyleft licenses.
+
 [[examples-content]]
 === Content licenses
 
