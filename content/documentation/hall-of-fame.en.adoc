@@ -1,5 +1,5 @@
 ---
-title: Project Hall of Fame
+title: Documentation Hall of Fame
 weight: 20
 
 ---
@@ -23,6 +23,31 @@ The projects listed below aggregate several existing documentation projects:
 * https://project-awesome.org/matiassingers/awesome-readme[*Awesome READMEs*]:
   A curated list of awesome READMEs.
   Find the source content https://github.com/matiassingers/awesome-readme[on GitHub].
+
+
+[[dev-docs]]
+== Developer documentation
+
+These examples show projects that offer clear and concise documentation for developers:
+
+* *Small project*:
+  https://docs.teleirc.com/[TeleIRC]
+** Small project with over 20 contributors and over five years of activity.
+** Developer docs are focused on explaining key topics that come up often with new contributors:
+*** Coding conventions by project maintainers
+*** Contributing guidelines
+*** Architecture/state diagram
+*** Code testing best practices
+
+* *Medium to large projects*:
+** https://docs.mongodb.com/manual/[MongoDB]
+** https://laravel.com/docs/[Laravel]
+
+* *Large project*:
+  https://jupyterlab.readthedocs.io/en/latest/developer/repo.html[JupyterLab]
+** JupyterLab is a large project with over 300 contributors and used by nearly 30,000 GitHub users.
+** Extensive and well-organized developer documentation on a range of topics.
+   Not only coding.
 
 
 [[toolchains]]
