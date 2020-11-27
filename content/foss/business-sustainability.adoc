@@ -1,0 +1,71 @@
+---
+title: Business sustainability for Open Source
+weight: 10
+
+---
+:toc:
+
+This page collects information, best practices, and other resources for business sustainability of Open Source projects.
+
+////
+[[foundations]]
+== Foundations
+////
+
+[[business-models]]
+== Business models
+
+Specific business models or approaches used by other Open Source projects and communities.
+This section is small but will continue to grow as more knowledge is collected and centralized together.
+
+[[business-models--training]]
+=== Training & support
+
+One popular approach to business sustainability is offering training and support for your Open Source product.
+Your project is Open Source.
+You may also have documentation that explains how to use it.
+However, some clients need extra support to integrate new technology into a complex environment.
+Training and support for using the Open Source software is used by a range of Open Source projects.
+
+This section explores specific examples to review for inspiration and ideas on what this looks like.
+
+[[training--red-hat]]
+==== Red Hat
+
+https://www.redhat.com/en[Red Hat] is a well-known U.S. software company known for their Open Source operating system, Red Hat Enterprise Linux (RHEL).
+In addition to RHEL, Red Hat has several other products for enterprise software development with Open Source technology and tools.
+In many cases, Red Hat is either the largest or one of the largest contributors to several Open Source technologies.
+However, Red Hat also recognizes the need to validate end-user knowledge of their technologies and to create new relationships with users of their technology.
+In addition to creating a new revenue stream for the business, it also puts them closer to the needs and feedback of their clients or future clients.
+
+*For validation of end-user knowledge*, Red Hat has an extensive portfolio of certifications.
+A selection is shown below:
+
+* https://www.redhat.com/en/services/certifications[Red Hat certification portal]
+  (_all certifications_)
+** https://www.redhat.com/en/services/certification/rhcsa[Red Hat Certified System Administrator]
+** https://www.redhat.com/en/services/certification/rhca[Red Hat Certified Architect]
+** https://www.redhat.com/en/services/certification/red-hat-certified-specialist-in-containers-and-kubernetes[Red Hat Certified Specialist in Containers and Kubernetes]
+
+[[training--dronfies]]
+==== Dronfies Labs & Portable UTM (Uruguay)
+
+Dronfies Lab, a https://www.unicef.org/innovation/venturefund/dronescohort/DronfiesLabs[UNICEF Innovation investee], creates the Open Source tool Portable UTM.
+Portable UTM is an Open Source https://www.nasa.gov/ames/utm/[Unmanned Aircraft Systems Traffic Management] system, or U.T.M., for low-connectivity environments in order to support drone delivery and emergency response.
+It is developed with respect to the NASA UAS Service Supplier Specification.
+Dronfies provides a https://dronfies.com/case/unicef-innovation-fund/[profile of their collaboration] with UNICEF Innovation during their investment period with the Fund.
+
+Dronfies uses training as a way to both generate revenue and also to empower their users to use their tools most effectively.
+Dronfies training is made more competitive by their compliance with the NASA UAS Service Supplier Specification.
+Receiving training by Dronfies with Portable UTM enables trainees to work with other tools that also comply with the common standard.
+Additionally, training services builds end-user knowledge of the application.
+New users get up to speed faster by using the new tool according to best practices.
+
+https://portableutm.com/#[*Learn more on the Portable UTM website*].
+
+[[training--stock-knowledge]]
+==== Stock Knowledge (The Philippines)
+
+https://www.theknowledgetools.com/[Stock Knowledge] is a Summer 2020 https://www.generationunlimited.org/[Generation Unlimited] inductee with the UNICEF Innovation Fund.
+Stock Knowledge uses training as a method to support their Open Source Learning Management System (L.M.S.).
+Check back for more info soon.
