@@ -73,7 +73,7 @@ It makes this requirement in the context of the WIPO Copyright Treaty to strengt
 [[user-product-rules]]
 === User Product rules
 
-The https://www.gnu.org/licenses/gpl-faq.html#Tivoization [GPL Frequently Asked Questions page] explains this well:
+The https://www.gnu.org/licenses/gpl-faq.html#Tivoization[GPL Frequently Asked Questions page] explains this well:
 
 [quote,GPL Frequently Asked Questions]
 ____
