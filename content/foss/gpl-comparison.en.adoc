@@ -29,24 +29,49 @@ It included language to avoid this loophole, which commonly became known as http
 [[tivoization-opinions]]
 === Other opinions
 
+The GPLv3 was generally well-received.
+However, there are criticisms over the GPLv3 and its restrictions.
+
+[[tivoization-linux]]
+==== Linus Torvalds and Linux
+
 Not everyone agreed to the added language to the GPLv3.
 One of the largest projects to adopt the GPLv2, Linux, chose not to upgrade the license.
 Linus Torvalds, the lead developer of Linux, asserts that the https://www.youtube.com/watch?v=PaKIZ7gJlRU[GPLv3 goes against what the GPLv2 means] for him as a software developer:
 
 {{< youtube PaKIZ7gJlRU >}}
 
+[[tivoization-implementation]]
+==== Bradley Kuhn on implementation
+
+Some Software Freedom activists believe the GPLv3 did not actually close the "Tivoization" loophole.
+https://en.wikipedia.org/wiki/Bradley_M._Kuhn[Bradley M. Kuhn], Policy Fellow and Hacker-in-Residence of the Software Freedom Conservancy, notes challenges on this issue in spite of the GPLv3.
+
+[quote,Bradley M. Kuhn]
+____
+The narrative about addressing [Tivoization] in GPLv3 was centered around the first discussion draft, but no one ever made the case (rather they made the assumption) that "scripts used to install" wouldn't include everything that GPLv3 Installation Information requires.
+If you look at Draft 1 of GPLv3, you see the Installation Information definition is substantially broader.
+So, a question to ask at the end of the GPLv3 process, when looking at the final draft, is "Is there anything in GPLv3's definition of Installation Information that would not be required to produce as a 'script used to control installation'"?
+That's an open question [and] people disagree.
+____
+
+
+[[legal]]
+== Legal overview
+
+The rest of this document takes a focused look at precise differences between the two licenses.
+These came from a direct comparison between the two texts.
 
 [[anti-circumvention]]
-== Anti-Circumvention Law
+=== Anti-Circumvention Law
 
 In section 3, the GPL offers protections for user rights from anti-circumvention law.
 This makes an interesting external reference to https://en.wikisource.org/wiki/WIPO_Copyright_Treaty#Article_11._Obligations_concerning_Technological_Measures[article 11] of the https://en.wikipedia.org/wiki/WIPO_Copyright_Treaty[WIPO Copyright Treaty] signed on 20 December 1996.
 It appears to make clear provisions that waive legal power to forbid circumvention of the GPLv3-covered work.
 It makes this requirement in the context of the WIPO Copyright Treaty to strengthen its appeal.
 
-
 [[user-product-rules]]
-== User Product rules
+=== User Product rules
 
 The https://www.gnu.org/licenses/gpl-faq.html#Tivoization [GPL Frequently Asked Questions page] explains this well:
 
@@ -63,9 +88,8 @@ User Products is a term specially defined in the license;
 examples of User Products include portable music players, digital video recorders, and home security systems.
 ____
 
-
 [[cure-period]]
-== Cure period and the GPL Cooperation Commitment
+=== Cure period and the GPL Cooperation Commitment
 
 The GPLv3 includes an explicit cure period.
 A cure period is like a grace period to fix a violation of the License.
@@ -73,12 +97,13 @@ Violators have 30 days after notification of noncompliance to "reinstate" their 
 If the violation is cured in the cure period, there is no harm, no foul.
 
 Technically, with the GPLv2, an actor may choose to immediately pursue legal action for noncompliance with the terms of the GPLv2.
-This led to the creation of the https://gplcc.github.io/gplcc/[*GPL Cooperation Commitment*], driven by Red Hat.
+In September 2015, the Free Software Foundation and https://sfconservancy.org/about/[Software Freedom Conservancy] jointly published the https://www.fsf.org/licensing/enforcement-principles[Principles of Community-Oriented Enforcement].
+This was the first call-to-action to propose the backport of the GPLv3 termination clause to GPLv2.
+These guidelines inspired the creation of the https://gplcc.github.io/gplcc/[*GPL Cooperation Commitment*] in 2017, driven by Red Hat.
 In order to address this imbalance in GPLv2 license enforcement, Red Hat, IBM, Google, and Facebook announced the GPL Cooperation Commitment in November 2017 to apply the GPLv3 cure provisions for their GPLv2 and LGPLv2.x licensed software.
 
-
 [[legalese]]
-== "Legalese"
+=== "Legalese"
 
 The GPLv3 is nearly double the length of the GPLv2 (5,644 words vs. 2,971 words).
 The GPLv3 reads more like a legal document than the GPLv2.
