@@ -25,13 +25,19 @@ jobs:
       - image: cibuilds/base:latest
     working_directory: ~/hugo
     environment:
-      HUGO_BUILD_DIR: ~/hugo/public
+      HUGO_BUILD_DIR: ~/hugo/inventory/public
     steps:
-      # checkout the generated html
+      # deploy.sh dependencies
+      - run: apk add rsync
+
+      # clone repo (required to access `.circleci/deploy.sh`)
+      - run: git clone --depth=1 https://github.com/unicef/inventory.git
+
+      # checkout generated html
       - attach_workspace:
-          at: public
+          at: inventory
 
       # deploy to production
       - deploy:
           name: Deploy to GitHub Pages
-          command: ./.circleci/deploy.sh
+          command: ./inventory/.circleci/deploy.sh
