@@ -28,7 +28,7 @@ jobs:
       HUGO_BUILD_DIR: ~/hugo/public
     steps:
       # install git and asciidoc
-      - run: apk update && apk add git asciidoc
+      - run: apt-get --yes update && apt-get install --yes git asciidoc
 
       # checkout the repository
       - checkout
