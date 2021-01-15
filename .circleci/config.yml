@@ -22,23 +22,16 @@ workflows:
 jobs:
   deploy:
     docker:
-      - image: cibuilds/hugo:latest
+      - image: cibuilds/base:latest
     working_directory: ~/hugo
     environment:
       HUGO_BUILD_DIR: ~/hugo/public
     steps:
-      # install git and asciidoc
-      - run: apk update && apk add git asciidoc
+      # checkout the generated html
+      - attach_workspace:
+          at: public
 
-      # checkout the repository
-      - checkout
-
-      # install git submodules for managing third-party dependencies
-      - run: git submodule sync && git submodule update --init
-
-      # build with Hugo
-      - run: HUGO_ENV=production hugo -v -d $HUGO_BUILD_DIR
-
+      # deploy to production
       - deploy:
           name: Deploy to GitHub Pages
           command: ./.circleci/deploy.sh
