@@ -1,5 +1,0 @@
----
-include:
-  - local: .gitlab/ci/yaml.gitlab-ci.yml
-  - local: .gitlab/ci/hugo.gitlab-ci.yml
-  - local: .gitlab/ci/pages.gitlab-ci.yml

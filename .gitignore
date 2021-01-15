@@ -10,6 +10,8 @@ hugo.exe
 hugo.darwin
 hugo.linux
 
+##### ---- htmlproofer ---- #####
+/tmp/
 
 
 ######################## ----- OPERATING SYSTEMS ----- ########################
