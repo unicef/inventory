@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>UNICEF O.S. Inventory</title>
-    <link>https://unicef.gitlab.io/inventory/</link>
+    <link>https://unicef.github.io/inventory/</link>
     <description>Recent content on UNICEF O.S. Inventory</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>Creative Commons BY-SA 4.0</copyright><atom:link href="https://unicef.gitlab.io/inventory/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>Creative Commons BY-SA 4.0</copyright><atom:link href="https://unicef.github.io/inventory/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Introduction to Open Source Hardware</title>
-      <link>https://unicef.gitlab.io/inventory/hardware/intro/</link>
+      <link>https://unicef.github.io/inventory/hardware/intro/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://unicef.gitlab.io/inventory/hardware/intro/</guid>
+      <guid>https://unicef.github.io/inventory/hardware/intro/</guid>
       <description>So… you want to know about Open Source Hardware? This page is an introduction to what Open Source Hardware means, how it works, and why it matters. Other pages in this Open Source Heuristic category will expand your understanding of Open Source Hardware; however, if you need a place to begin, this is a good start!
  See the following sections below:
   What is Open Source Hardware?
@@ -21,10 +21,10 @@
     
     <item>
       <title>Business sustainability for Open Source</title>
-      <link>https://unicef.gitlab.io/inventory/foss/business-sustainability/</link>
+      <link>https://unicef.github.io/inventory/foss/business-sustainability/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://unicef.gitlab.io/inventory/foss/business-sustainability/</guid>
+      <guid>https://unicef.github.io/inventory/foss/business-sustainability/</guid>
       <description>This page collects information, best practices, and other resources for business sustainability of Open Source projects.
  Business models Specific business models or approaches used by other Open Source projects and communities. This section is small but will continue to grow as more knowledge is collected and centralized together.
  Training &amp;amp; support One popular approach to business sustainability is offering training and support for your Open Source product. Your project is Open Source.</description>
@@ -32,10 +32,10 @@
     
     <item>
       <title>Case studies</title>
-      <link>https://unicef.gitlab.io/inventory/hardware/case-studies/</link>
+      <link>https://unicef.github.io/inventory/hardware/case-studies/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://unicef.gitlab.io/inventory/hardware/case-studies/</guid>
+      <guid>https://unicef.github.io/inventory/hardware/case-studies/</guid>
       <description>Below are more detailed case studios of different Open Hardware organizations, projects, and products. Unlike the Projects page, these examples are more detailed and provide more context.
 Opentrons Scientific-focused hardware.
  Several highly successful and well-regarded biology/chemistry lab automation robots. By going 100% open source, they substantially reduced costs. Their products&#39; prices sometimes undercuts competition by 10x. They also acquired venture capital (V.C.) funding.
@@ -44,10 +44,10 @@ Having worked in biology labs myself, I can attest to how revolutionary their op
     
     <item>
       <title>Codes of Conduct</title>
-      <link>https://unicef.gitlab.io/inventory/missions/codes-of-conduct/</link>
+      <link>https://unicef.github.io/inventory/missions/codes-of-conduct/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://unicef.gitlab.io/inventory/missions/codes-of-conduct/</guid>
+      <guid>https://unicef.github.io/inventory/missions/codes-of-conduct/</guid>
       <description>Flory, Justin W.
 
 This Mission is a short exercise on understanding how Codes of Conduct fit into your Open Source community. In designing a Code of Conduct for a project community, we will explore these Requirements for this Mission:
@@ -56,20 +56,20 @@ This Mission is a short exercise on understanding how Codes of Conduct fit into 
     
     <item>
       <title>Continuous Integration (CI)</title>
-      <link>https://unicef.gitlab.io/inventory/dev-tools/continuous-integration/</link>
+      <link>https://unicef.github.io/inventory/dev-tools/continuous-integration/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://unicef.gitlab.io/inventory/dev-tools/continuous-integration/</guid>
+      <guid>https://unicef.github.io/inventory/dev-tools/continuous-integration/</guid>
       <description>This guide is an introduction to Continuous Integration (C.I.) for open source projects. In this guide, you will learn about the following topics:
  What is CI and why does it matter? CI platforms Tips and tricks Examples Other resources  What is CI and why does it matter? Continuous Integration can be a few different things. However, for the open source context, think of CI as the tool or platform which runs a code test suite.</description>
     </item>
     
     <item>
       <title>Design &amp; UX Reading List</title>
-      <link>https://unicef.gitlab.io/inventory/design/reading-list/</link>
+      <link>https://unicef.github.io/inventory/design/reading-list/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://unicef.gitlab.io/inventory/design/reading-list/</guid>
+      <guid>https://unicef.github.io/inventory/design/reading-list/</guid>
       <description>Various readings and learnings about design. Usually with some kind of Open Source overlap or context.
    Trauma &amp;amp; design PubPub: Some basic definitions key to understanding the relationship between trauma and design. Maintained by Katherine Hepworth, Kat Lo, Eriol Fox, and Soraya O.
    </description>
@@ -77,39 +77,39 @@ This Mission is a short exercise on understanding how Codes of Conduct fit into 
     
     <item>
       <title>Frontier technology tips</title>
-      <link>https://unicef.gitlab.io/inventory/documentation/frontier-tech-tips/</link>
+      <link>https://unicef.github.io/inventory/documentation/frontier-tech-tips/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://unicef.gitlab.io/inventory/documentation/frontier-tech-tips/</guid>
+      <guid>https://unicef.github.io/inventory/documentation/frontier-tech-tips/</guid>
       <description>This is a summary of a talk, &amp;#34;Uncharted waters: Documenting emerging technology&amp;#34;. It was given at DevConf 2020 in Brno, Czech Republic by Andrew Burden.
  Video      Abstract  We can’t help but feel the lure towards the hot new thing, especially when it comes to technology. Part of that lure is the breaking of ground, venturing into the unknown, and working on solutions to new problems.</description>
     </item>
     
     <item>
       <title>Project boards</title>
-      <link>https://unicef.gitlab.io/inventory/project-management/project-boards/</link>
+      <link>https://unicef.github.io/inventory/project-management/project-boards/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://unicef.gitlab.io/inventory/project-management/project-boards/</guid>
+      <guid>https://unicef.github.io/inventory/project-management/project-boards/</guid>
       <description>This guide is an introduction to project boards for your open source project. By the end of this guide, you will have a basic understanding of how to run project planning in an open, transparent way to your community. What this guide is NOT is a guide to agile/scrum development. You should have a basic understanding of agile, scrum, and/or kanban before reading this article.
 The following topics are covered:</description>
     </item>
     
     <item>
       <title>Reproducibility reading list</title>
-      <link>https://unicef.gitlab.io/inventory/reproducibility/reading-list/</link>
+      <link>https://unicef.github.io/inventory/reproducibility/reading-list/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://unicef.gitlab.io/inventory/reproducibility/reading-list/</guid>
+      <guid>https://unicef.github.io/inventory/reproducibility/reading-list/</guid>
       <description> A Guide to Reproducible Code: A guide written by scientists, for scientists, on creating reproducible code. Includes topics like A simple reproducible project workflow, Organising projects for reproducibility, Reproducible reports, and more. Edited by Natalie Cooper and Pen-Yuan Hsing. Featuring contributions from Mike Croucher, Laura Graham, Tamora James, Anna Krystalli, and François Michonneau.  </description>
     </item>
     
     <item>
       <title>Contributor License Agreements (CLAs)</title>
-      <link>https://unicef.gitlab.io/inventory/foss/contributor-license-agreement-cla/</link>
+      <link>https://unicef.github.io/inventory/foss/contributor-license-agreement-cla/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://unicef.gitlab.io/inventory/foss/contributor-license-agreement-cla/</guid>
+      <guid>https://unicef.github.io/inventory/foss/contributor-license-agreement-cla/</guid>
       <description>Originally authored by Mike Nolan, edited and maintained by Justin W. Flory.
 This page introduces Contributor License Agreements (shortened C.L.As) in open source projects.
 What are they for? Contributor License Agreements (CLAs) are often used in open source projects to form a legal agreement between an individual or company and a project maintainer. This agreement usually includes a waiver of copyright (although not always) as well as the right to patent their contribution.</description>
@@ -117,20 +117,20 @@ What are they for? Contributor License Agreements (CLAs) are often used in open 
     
     <item>
       <title>Documentation</title>
-      <link>https://unicef.gitlab.io/inventory/hardware/documentation/</link>
+      <link>https://unicef.github.io/inventory/hardware/documentation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://unicef.gitlab.io/inventory/hardware/documentation/</guid>
+      <guid>https://unicef.github.io/inventory/hardware/documentation/</guid>
       <description>This page offers information and resources about documenting Open Hardware projects.
 Conventions &amp;amp; standards  Open Know-How Manifest Specification: &amp;ldquo;The objective of this specification is to improve the open-ness of know-how for making hardware by improving the discoverability, portability and translatability of knowledge.&amp;rdquo; Provides a format and specification for how to document and release Open Hardware projects and design schematics.  </description>
     </item>
     
     <item>
       <title>Documentation Hall of Fame</title>
-      <link>https://unicef.gitlab.io/inventory/documentation/hall-of-fame/</link>
+      <link>https://unicef.github.io/inventory/documentation/hall-of-fame/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://unicef.gitlab.io/inventory/documentation/hall-of-fame/</guid>
+      <guid>https://unicef.github.io/inventory/documentation/hall-of-fame/</guid>
       <description>This page is a collection of good examples of Open Source documentation projects. The projects and examples listed here are not endorsements. It is a collection of good examples to inspire your own Open Source documentation!
  Aggregations The projects listed below aggregate several existing documentation projects:
    Awesome Documentation: Community-curated resource with examples of great documentation in Open Source projects.
@@ -139,10 +139,10 @@ Conventions &amp;amp; standards  Open Know-How Manifest Specification: &amp;ldqu
     
     <item>
       <title>Good first issues</title>
-      <link>https://unicef.gitlab.io/inventory/missions/good-first-issue/</link>
+      <link>https://unicef.github.io/inventory/missions/good-first-issue/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://unicef.gitlab.io/inventory/missions/good-first-issue/</guid>
+      <guid>https://unicef.github.io/inventory/missions/good-first-issue/</guid>
       <description>Flory, Justin W.
     This Mission is a guide to making &amp;#34;good first issues&amp;#34; (shortened to G.F.I.&amp;#39;s) for your Open Source community. To create good GFIs, we will explore these Objectives for this Mission:
   GFIs exist
@@ -158,20 +158,20 @@ Conventions &amp;amp; standards  Open Know-How Manifest Specification: &amp;ldqu
     
     <item>
       <title>Reading List</title>
-      <link>https://unicef.gitlab.io/inventory/project-management/reading-list/</link>
+      <link>https://unicef.github.io/inventory/project-management/reading-list/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://unicef.gitlab.io/inventory/project-management/reading-list/</guid>
+      <guid>https://unicef.github.io/inventory/project-management/reading-list/</guid>
       <description>This is a reading list of resources around project management and product development. While there are many resources on these topics around the web, this reading list focuses specifically on an open source perspective.
 Defining strategy  6 steps to perfecting an open source product strategy - Michael DeHaan A Free Guide for Setting Your Open Source Strategy - Linux Foundation Producing Open Source Software - Karl Fogel (includes resources on almost all major topics) Setting an Open Source Strategy - Linux Foundation  Managing in the open  How we organize GitHub issues: A simple styleguide for tagging - Zach Dunn @zachdunn  Methodologies  Why (some) agile teams fail - Jen Krieger @mrry550  </description>
     </item>
     
     <item>
       <title>Governance</title>
-      <link>https://unicef.gitlab.io/inventory/foss/governance/</link>
+      <link>https://unicef.github.io/inventory/foss/governance/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://unicef.gitlab.io/inventory/foss/governance/</guid>
+      <guid>https://unicef.github.io/inventory/foss/governance/</guid>
       <description>This page defines and provides examples of Open Source governance. This includes Open Source project governance models, examples of other projects, frameworks for decision-making, and more.
  This page is a work-in-progress. Check back later for future additions.
  What is Open Source governance? The phrase &amp;#34;Open Source governance&amp;#34; generally refers to the decision-making model or documented process for how an Open Source project makes decisions. Sustainable governance is essential if an Open Source project will last, especially if it involves multiple stakeholders and collaborators.</description>
@@ -179,10 +179,10 @@ Defining strategy  6 steps to perfecting an open source product strategy - Micha
     
     <item>
       <title>GPLv2 vs. GPLv3</title>
-      <link>https://unicef.gitlab.io/inventory/foss/gpl-comparison/</link>
+      <link>https://unicef.github.io/inventory/foss/gpl-comparison/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://unicef.gitlab.io/inventory/foss/gpl-comparison/</guid>
+      <guid>https://unicef.github.io/inventory/foss/gpl-comparison/</guid>
       <description>The information shared on this page does not constitute legal or financial advice.
  This page provides an interpretation of the key differences between v2 and v3 of the GNU Public License, or G.P.L. The key differences are summarized in each section below.
  Why update? Stallman’s objection to Tivoization In the early 2000s, American corporation TiVo Inc. was criticized by the Free Software community for their popular digital video recorder (DVR) product.</description>
@@ -190,10 +190,10 @@ Defining strategy  6 steps to perfecting an open source product strategy - Micha
     
     <item>
       <title>Licensing</title>
-      <link>https://unicef.gitlab.io/inventory/hardware/licensing/</link>
+      <link>https://unicef.github.io/inventory/hardware/licensing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://unicef.gitlab.io/inventory/hardware/licensing/</guid>
+      <guid>https://unicef.github.io/inventory/hardware/licensing/</guid>
       <description>This page collects information, resources, and other details about Open Hardware licensing.
 Documentation  Licensing and documentation: Learning material provided by Open Hardware Leaders program. Goal of material is to acquire best practices for hardware documentation and understand the different open licensing options available. Includes an explanation video and other helpful links.  Licenses There are two generally accepted Open Hardware licenses:
  CERN Open Hardware Licence TAPR Open Hardware License  Each can come with its own strategy.</description>
@@ -201,10 +201,10 @@ Documentation  Licensing and documentation: Learning material provided by Open H
     
     <item>
       <title>Reading list</title>
-      <link>https://unicef.gitlab.io/inventory/documentation/reading-list/</link>
+      <link>https://unicef.github.io/inventory/documentation/reading-list/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://unicef.gitlab.io/inventory/documentation/reading-list/</guid>
+      <guid>https://unicef.github.io/inventory/documentation/reading-list/</guid>
       <description>Various readings on a variety of different topics related to different kinds of documentation.
  Basics   How to write effective documentation for your open source project: Documentation quality can make the difference in people trying your project or passing it by.
   What is good documentation for software projects?: Mixing experienced tech writers with open source communities reveals new approaches for creating better docs.
@@ -213,10 +213,10 @@ Documentation  Licensing and documentation: Learning material provided by Open H
     
     <item>
       <title>Mentorship meeting templates</title>
-      <link>https://unicef.gitlab.io/inventory/meta/mentorship-templates/</link>
+      <link>https://unicef.github.io/inventory/meta/mentorship-templates/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://unicef.gitlab.io/inventory/meta/mentorship-templates/</guid>
+      <guid>https://unicef.github.io/inventory/meta/mentorship-templates/</guid>
       <description>This page is a copy-paste template of various templates I use for Open Source Mentorship meetings. I use these for my private notes about each team’s progress.
  Induction agenda template   Agenda:
   Introductions
@@ -229,20 +229,20 @@ Documentation  Licensing and documentation: Learning material provided by Open H
     
     <item>
       <title>Open Hardware reading list</title>
-      <link>https://unicef.gitlab.io/inventory/hardware/reading-list/</link>
+      <link>https://unicef.github.io/inventory/hardware/reading-list/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://unicef.gitlab.io/inventory/hardware/reading-list/</guid>
+      <guid>https://unicef.github.io/inventory/hardware/reading-list/</guid>
       <description>A collection of various readings and articles related to Open Hardware.
 Legal and Business Aspects  Emerging Business Models for Open Source Hardware: Many ideas on open hardware business models. Focuses more narrowly for science use cases, but still a helpful perspective. Free Innovation, Eric von Hippel Why public institutions should release more of their hardware designs as Open-Source Hardware: Opinion article from the open hardware initiator at CERN, Javier Serrano.</description>
     </item>
     
     <item>
       <title>Fedora</title>
-      <link>https://unicef.gitlab.io/inventory/communities/fedora/</link>
+      <link>https://unicef.github.io/inventory/communities/fedora/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://unicef.gitlab.io/inventory/communities/fedora/</guid>
+      <guid>https://unicef.github.io/inventory/communities/fedora/</guid>
       <description>&amp;#34;Fedora&amp;#34; is not only a kind of hat, but also a large Open Source community with a unique role in the Open Source ecosystem. This page provides an overview of the Fedora Linux distribution, project, and community.
  What is Fedora? Fedora is three different things, rolled into one.
  Linux kernel distribution Fedora is a Linux kernel distribution. The Linux kernel is just one part of a computer system.</description>
@@ -250,19 +250,19 @@ Legal and Business Aspects  Emerging Business Models for Open Source Hardware: M
     
     <item>
       <title>Needs assessment interview template</title>
-      <link>https://unicef.gitlab.io/inventory/meta/needs-assessment-template/</link>
+      <link>https://unicef.github.io/inventory/meta/needs-assessment-template/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://unicef.gitlab.io/inventory/meta/needs-assessment-template/</guid>
+      <guid>https://unicef.github.io/inventory/meta/needs-assessment-template/</guid>
       <description>This document is an interview template for needs assessments with UNICEF Innovation Fund cohorts in Open Source induction calls. The needs assessment is a tool to collect background and context for each team’s experience and familiarity with open source. It also builds understanding for participation in existing open source communities. This template provides structure and guidance on what to ask to any team at the beginning of an Open Source Mentorship program.</description>
     </item>
     
     <item>
       <title>Project Hall of Fame</title>
-      <link>https://unicef.gitlab.io/inventory/hardware/projects/</link>
+      <link>https://unicef.github.io/inventory/hardware/projects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://unicef.gitlab.io/inventory/hardware/projects/</guid>
+      <guid>https://unicef.github.io/inventory/hardware/projects/</guid>
       <description>This page collects various Open Hardware projects. These projects are not officially endorsed, but are listed here as a convenience to generate a list of examples for reference. For more detailed overviews, see the Case Studies page.
 Check out the list of certified hardware from the Open Source Hardware Association for more inspiration.
 Businesses &amp;amp; companies  Adafruit Industries Aleph Objects: Makers of LulzBot family of 3D printers. Purchased by Fargo Additive Manufacturing Equipment 3D in 2019.</description>
@@ -270,20 +270,20 @@ Businesses &amp;amp; companies  Adafruit Industries Aleph Objects: Makers of Lul
     
     <item>
       <title>Reading list: FOSS</title>
-      <link>https://unicef.gitlab.io/inventory/foss/reading-list-foss/</link>
+      <link>https://unicef.github.io/inventory/foss/reading-list-foss/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://unicef.gitlab.io/inventory/foss/reading-list-foss/</guid>
+      <guid>https://unicef.github.io/inventory/foss/reading-list-foss/</guid>
       <description>Readings on a variety of topics about Free &amp;amp; Open Source Software.
  Foundations   Four Freedoms of Free Software: Before understanding anything else about Open Source, you must first understand the core foundation of what decades of Open Source development built upon: the Four Freedoms. The Four Freedoms can be remembered as the freedoms to Read, Run, Revise, &amp;amp; Redistribute. This article from Free Software Foundation Europe explains more about the essential four freedoms guaranteed by all users of Open Source technology.</description>
     </item>
     
     <item>
       <title>Text editors</title>
-      <link>https://unicef.gitlab.io/inventory/documentation/text-editors/</link>
+      <link>https://unicef.github.io/inventory/documentation/text-editors/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://unicef.gitlab.io/inventory/documentation/text-editors/</guid>
+      <guid>https://unicef.github.io/inventory/documentation/text-editors/</guid>
       <description>This page is focused on educational resources, not strictly comparisons of editors.
  Vim   Interactive Vim tutorial: An interactive tutorial with several sections of common Vim actions.
   VimGolf: Various take-home challenges of various actions in Vim to be completed in as few keystrokes as possible.
@@ -293,10 +293,10 @@ Businesses &amp;amp; companies  Adafruit Industries Aleph Objects: Makers of Lul
     
     <item>
       <title>Reading List: Legal &amp; Business Aspects</title>
-      <link>https://unicef.gitlab.io/inventory/foss/reading-list-legal/</link>
+      <link>https://unicef.github.io/inventory/foss/reading-list-legal/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://unicef.gitlab.io/inventory/foss/reading-list-legal/</guid>
+      <guid>https://unicef.github.io/inventory/foss/reading-list-legal/</guid>
       <description>This reading list is a collection of resources on legal and business aspects of open source. Legal and business aspects of an open source project are part of the foundation for building your project and community. The resources linked here are intended to give you a better idea of open source from a legal perspective.
  Foundations   The Open Source Definition (Annotated) - Open Source Initiative
   Open Source Licenses by Name - Open Source Initiative</description>
@@ -304,10 +304,10 @@ Businesses &amp;amp; companies  Adafruit Industries Aleph Objects: Makers of Lul
     
     <item>
       <title>Public Lab</title>
-      <link>https://unicef.gitlab.io/inventory/communities/public-lab/</link>
+      <link>https://unicef.github.io/inventory/communities/public-lab/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://unicef.gitlab.io/inventory/communities/public-lab/</guid>
+      <guid>https://unicef.github.io/inventory/communities/public-lab/</guid>
       <description>Public Lab is a community of practice that has informally collaborated with UNICEF Innovation Fund team members in the past. To learn more about this community, reach out to your assigned Open Source Mentor or see the contact info below.
  About Public Lab  Access to knowledge is a fundamental right. When people want to investigate their environment, Public Lab is the place to go to find and share knowledge, equipment, and community.</description>
     </item>

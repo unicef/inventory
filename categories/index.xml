@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on UNICEF O.S. Inventory</title>
-    <link>https://unicef.gitlab.io/inventory/categories/</link>
+    <link>https://unicef.github.io/inventory/categories/</link>
     <description>Recent content in Categories on UNICEF O.S. Inventory</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>Creative Commons BY-SA 4.0</copyright><atom:link href="https://unicef.gitlab.io/inventory/categories/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>Creative Commons BY-SA 4.0</copyright><atom:link href="https://unicef.github.io/inventory/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
