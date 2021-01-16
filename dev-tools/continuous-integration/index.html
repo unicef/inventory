@@ -1,0 +1,999 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+  <meta charset="utf-8">
+  <title>Continuous Integration (CI)</title>
+
+  <meta name="generator" content="Hugo 0.80.0" />
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  
+  <!-- ** Plugins Needed for the Project ** -->
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://jwflory.gitlab.io/heuristics/plugins/bootstrap/bootstrap.min.css">
+
+  <!-- themefy-icon -->
+  <link rel="stylesheet" href="https://jwflory.gitlab.io/heuristics/plugins/themify-icons/themify-icons.css">
+
+  <!-- highlight -->
+  <link rel="stylesheet" href="https://jwflory.gitlab.io/heuristics/plugins/highlight/hybrid.css">
+
+  <!--Favicon-->
+  <link rel="icon" href="https://jwflory.gitlab.io/heuristics/images/favicon.png" type="image/x-icon">
+
+  <!-- fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Public%2bSans:300,400,700&display=swap" rel="stylesheet">
+  
+  <style>
+  :root{
+    --primary-color:#663399;
+    --body-color:#e0e4e8;
+    --text-color:#636363;
+    --text-color-dark:#242738;
+    --white-color:#ffffff;
+    --light-color:#f8f9fa;
+    --font-family:Public+Sans;
+  }
+  </style>
+
+<!-- Main Stylesheet -->
+
+<link rel="stylesheet" href="https://jwflory.gitlab.io/heuristics/css/style.min.css" media="screen">
+
+<!-- jquiry -->
+<script src="https://jwflory.gitlab.io/heuristics/plugins/jquery/jquery-1.12.4.js"></script>
+
+<!-- jquary ui -->
+<script src="https://jwflory.gitlab.io/heuristics/plugins/jquery/jquery-ui.js"></script>
+
+<!-- Bootstrap JS -->
+<script src="https://jwflory.gitlab.io/heuristics/plugins/bootstrap/bootstrap.min.js"></script>
+
+<!-- match-height JS -->
+<script src="https://jwflory.gitlab.io/heuristics/plugins/match-height/jquery.matchHeight-min.js"></script>
+
+<!-- highlight -->
+<script src="https://jwflory.gitlab.io/heuristics/plugins/highlight/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+</head>
+  
+  <body>
+    
+    <!-- header -->
+    <header class="shadow-bottom sticky-top bg-white">
+      <nav class="navbar navbar-expand-md navbar-light">
+  <div class="container">
+    <a class="navbar-brand px-2" href="/heuristics">
+      
+      
+      
+      Justin&#39;s Heuristics
+      
+    </a>
+    <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation"
+      aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse text-center" id="navigation">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link text-dark" href="/heuristics">Home</a>
+        </li>
+        
+        
+        <li class="nav-item">
+          <a class="nav-link text-dark" href="/heuristics/faq">FAQ</a>
+        </li>
+        
+        
+        
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-dark" href="#" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            pages
+          </a>
+          <div class="dropdown-menu">
+            
+            <a class="dropdown-item" href="/heuristics/communities">Communities</a>
+            
+            <a class="dropdown-item" href="/heuristics/design">Design</a>
+            
+            <a class="dropdown-item" href="/heuristics/dev-tools">Developer Tools &amp; Automation</a>
+            
+            <a class="dropdown-item" href="/heuristics/documentation">Documentation</a>
+            
+            <a class="dropdown-item" href="/heuristics/foss">Free &amp; Open Source Software</a>
+            
+            <a class="dropdown-item" href="/heuristics/meta">Meta</a>
+            
+            <a class="dropdown-item" href="/heuristics/missions">Missions</a>
+            
+            <a class="dropdown-item" href="/heuristics/hardware">Open Hardware</a>
+            
+            <a class="dropdown-item" href="/heuristics/project-management">Project Management</a>
+            
+            <a class="dropdown-item" href="/heuristics/reproducibility">Reproducibility</a>
+            
+          </div>
+        </li>
+        
+        
+      </ul>
+      
+    </div>
+  </div>
+</nav>
+    </header>
+    <!-- /header -->
+    
+    
+
+<!-- details page -->
+<section class="single section pb-0">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-3">
+        <div class="bg-white pl-lg-4 py-4 pr-4 mb-5 mb-lg-0 sticky-top top-100 overflow-hidden">
+          <ul class="list-styled">
+            
+            <a class="d-block h4 back-btn" href="/heuristics"></a>
+            
+              
+            
+              
+            
+               
+              
+
+
+
+
+
+
+
+
+<li data-nav-id="https://jwflory.gitlab.io/heuristics/dev-tools/" title="Developer Tools &amp; Automation" class="sidelist
+  ">
+  <a href="https://jwflory.gitlab.io/heuristics/dev-tools/">
+    Developer Tools &amp; Automation
+  </a>
+  
+  
+    <ul>
+      
+        
+          
+
+
+
+
+
+
+
+
+<li data-nav-id="https://jwflory.gitlab.io/heuristics/dev-tools/continuous-integration/" title="Continuous Integration (CI)" class="sidelist
+  active">
+  <a href="https://jwflory.gitlab.io/heuristics/dev-tools/continuous-integration/">
+    Continuous Integration (CI)
+  </a>
+  
+  
+</li>
+
+
+        
+      
+    </ul>
+  
+</li>
+
+
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+          </ul>
+        </div>
+      </div>
+      <div class="col-lg-9">
+        <div class="p-lg-5 p-4 bg-white">
+          <h2 class="mb-5">Continuous Integration (CI)</h2>
+          
+          <div class="content"><p>This guide is an introduction to Continuous Integration (C.I.) for open source projects.
+In this guide, you will learn about the following topics:</p>
+<ol>
+<li>What is CI and why does it matter?</li>
+<li>CI platforms</li>
+<li>Tips and tricks</li>
+<li>Examples</li>
+<li>Other resources</li>
+</ol>
+<h2 id="what-is-ci-and-why-does-it-matter">What is CI and why does it matter?</h2>
+<p>Continuous Integration can be a few different things.
+However, for the open source context, think of CI as the tool or platform which runs a code test suite.
+A CI platform will run an open source project&rsquo;s code test suite and report the test results back in real-time.
+You can even get this feedback before adding new code into a project.</p>
+<h3 id="tests-vs-ci">Tests vs. CI</h3>
+<p>It is important to distinguish code test suites from CI platforms.</p>
+<p>A code test suite usually means the <strong>actual tests</strong> themselves.
+The tests might use a framework like <a href="https://docs.pytest.org/">Pytest</a>, <a href="https://github.com/google/googletest/">Google Test</a>, <a href="https://golang.org/pkg/testing/">go test</a>, <a href="https://mochajs.org/">Mocha</a>, <a href="https://rspec.info/">RSpec</a>, or one of countless others.
+When the test suite is run, it provides some kind of guarantee that the code shipped works as designed and as it should.</p>
+<p>CI platforms can be simple or complex.
+At their simplest, they are &ldquo;wrappers&rdquo; for the code test suite.
+A <strong>CI job</strong> sets up the infrastructure and environment needed for the software, and then runs the code test suite.</p>
+<p>So, in a way, a CI platform is a tool to automate running your code test suite and allows you to integrate test results into the development process.</p>
+<h3 id="benefits">Benefits</h3>
+<p>Using a CI platform provides benefits both for agile software development <em>and</em> open source.</p>
+<p>For agile software development, a CI platform enables developers to get real-time feedback about whether new changes are compatible with existing code in the project.
+Before code gets added, a developer gets a green flag or a red flag for the results of the test suite.
+Developers will be able to avoid common human errors and mistakes in their code before they are added.</p>
+<p>The open source view is both practical and also psychological:</p>
+<ol>
+<li><em>Practical</em>:
+New contributors or team members can use a test suite to avoid making common mistakes while learning a new codebase.</li>
+<li><em>Psychological</em>:
+Open source contributors are more confident to make changes because there is a safety net, in case there are unexpected side effects from their changes.</li>
+</ol>
+<p>The practical benefits apply equally to your core team members and outside contributors.
+In a <strong>Pull Request</strong>, a CI platform will post the test results into the Pull Request.
+A developer or core team member will know immediately whether the test suite is still working, or if their changes may have introduced new bugs.</p>
+<p>The psychological benefits are more focused towards anyone (new team members or outside contributors) who are still new to the project.
+It is difficult for someone to step up and decide to contribute to an open source project!
+A test suite and CI platform makes it easier by letting a new contributor be bold in making new changes, provided the test suite still passes at the end.
+The contributor can run the test suite locally before they propose their changes to the project.</p>
+<h2 id="ci-platforms">CI platforms</h2>
+<p>There are many different CI platforms available.
+Which one is best for you depends on your specific needs, what features are available, and what kinds of third-party integrations you need.
+This guide will not cover them all, but here are some of the most popular ones:</p>
+<ul>
+<li><a href="https://travis-ci.org/">Travis CI</a></li>
+<li><a href="https://circleci.com/">Circle CI</a></li>
+<li><a href="https://github.com/features/actions">GitHub Actions</a></li>
+<li><a href="https://docs.gitlab.com/ee/ci/">GitLab CI</a></li>
+<li><a href="https://www.jenkins.io/">Jenkins</a> (powerful, but notoriously difficult to set up)</li>
+</ul>
+<p>Note that all of these platforms have generous no-cost plans for software released under open source licenses.
+However, usually you will have to pay if using CI on a private or hidden repository.</p>
+<p>Additionally, all of these platforms have extensive documentation.
+Read up on their docs to learn more!</p>
+<h2 id="tips-and-tricks">Tips and tricks</h2>
+<p>This is a short list of tips, tricks, and common traps to avoid when integrating CI into your project:</p>
+<ol>
+<li><strong>All changes should be Pull Requests</strong>:
+To get the most benefit out of a CI tool, all changes to your codebase should be made via a Pull Request.
+No committing directly to <code>master</code> or <code>production</code>!</li>
+<li><strong>Use caching for faster builds</strong>:
+All CI platforms usually have some kind of caching feature, if configured.
+Especially for larger projects, this can lead to huge speed-ups with how long your test suite takes to run.</li>
+<li><strong>Block new changes from merging if tests fail</strong>:
+If your test suite reports back with errors, do not add the proposed code into the main codebase.
+Fix the code for the tests first, and then add the changes.
+If you must make a one-time exception, do not delay in fixing your tests as soon as possible.
+Otherwise, developers might ignore them altogether (even for valid tests).</li>
+<li><strong>Keep writing tests</strong>:
+As long as you are writing new code, you should also be writing new tests.
+Remember, the benefits of CI will not be realized if you are not consistently testing your code.</li>
+</ol>
+<h2 id="examples">Examples</h2>
+<p>Need some examples of projects using a Continuous Integration pipeline?
+Check out some of the examples below!</p>
+<ul>
+<li>(Go) <strong>proton-bridge</strong>:
+<a href="https://github.com/ProtonMail/proton-bridge">git repo</a>, <a href="https://github.com/ProtonMail/proton-bridge/blob/5348ae7d183da194bd3f051ca723ca2efb99da7a/.gitlab-ci.yml">GitLab CI config</a>, <a href="https://github.com/ProtonMail/proton-bridge/blob/5348ae7d183da194bd3f051ca723ca2efb99da7a/.golangci.yml">golang-ci config</a></li>
+<li>(Go) <strong>TeleIRC</strong>:
+<a href="https://github.com/RITlug/teleirc">git repo</a>, <a href="https://github.com/RITlug/teleirc/blob/master/.travis.yml">Travis CI config</a>, <a href="https://travis-ci.org/github/RITlug/teleirc">Travis CI builds</a></li>
+<li>(Python) <strong>datanommer</strong>:
+<a href="https://github.com/fedora-infra/datanommer">git repo</a>, <a href="https://github.com/fedora-infra/datanommer/blob/develop/.travis.yml">Travis CI config</a>, <a href="https://travis-ci.org/github/fedora-infra/datanommer">Travis CI builds</a></li>
+<li>(Ruby) <strong>fossrit.github.io</strong>:
+<a href="https://github.com/FOSSRIT/fossrit.github.io">git repo</a>, <a href="https://github.com/FOSSRIT/fossrit.github.io/blob/master/.travis.yml">Travis CI config</a>, <a href="https://travis-ci.org/github/FOSSRIT/fossrit.github.io">Travis CI builds</a></li>
+</ul>
+<h2 id="other-resources">Other resources</h2>
+<p>Curious to know more?
+The resources below explain other concepts about Continuous Integration in greater detail:</p>
+<ul>
+<li><a href="https://codeship.com/continuous-integration-essentials">Continuous Integration Essentials</a> - <em>Codeship</em></li>
+</ul>
+</div>
+          
+          <p class="post-meta border-bottom pb-3 mb-0 mt-3">Updated on 02 Jul 2020</p>
+          <nav class="pagination mt-3">
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            <a class="nav nav-prev" href="https://jwflory.gitlab.io/heuristics/dev-tools/"><i class="ti-arrow-left mr-2"></i> <span class="d-none d-md-block">Developer Tools &amp; Automation</span></a>
+            
+            
+            <a class="nav nav-next" href="https://jwflory.gitlab.io/heuristics/documentation/"> <span class="d-none d-md-block">Documentation</span><i class="ti-arrow-right ml-2"></i></a>
+            
+          </nav>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /details page -->
+
+
+
+
+
+    <!-- footer -->
+<footer class="section pb-0">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 text-md-left text-center">
+       <p>Creative Commons BY-SA 4.0</p>
+      </div>
+      <div class="col-md-4 text-md-right text-center">
+        <ul class="list-inline mb-3">
+          
+          <li class="list-inline-item"><a class="text-color d-inline-block p-2" href="https://github.com/jwflory"><i class="ti-github"></i></a></li>
+          
+          <li class="list-inline-item"><a class="text-color d-inline-block p-2" href="https://twitter.com/jflory7"><i class="ti-twitter"></i></a></li>
+          
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- /footer -->
+
+<!-- Main Script -->
+
+<script src="https://jwflory.gitlab.io/heuristics/js/script.min.js"></script>
+  </body>
+
+</html>
