@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Project Management on Justin&#39;s Heuristics</title>
-    <link>https://jwflory.gitlab.io/heuristics/project-management/</link>
-    <description>Recent content in Project Management on Justin&#39;s Heuristics</description>
+    <title>Project Management on UNICEF O.S. Inventory</title>
+    <link>https://unicef.gitlab.io/inventory/project-management/</link>
+    <description>Recent content in Project Management on UNICEF O.S. Inventory</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>Creative Commons BY-SA 4.0</copyright><atom:link href="https://jwflory.gitlab.io/heuristics/project-management/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>Creative Commons BY-SA 4.0</copyright><atom:link href="https://unicef.gitlab.io/inventory/project-management/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Project boards</title>
-      <link>https://jwflory.gitlab.io/heuristics/project-management/project-boards/</link>
+      <link>https://unicef.gitlab.io/inventory/project-management/project-boards/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://jwflory.gitlab.io/heuristics/project-management/project-boards/</guid>
+      <guid>https://unicef.gitlab.io/inventory/project-management/project-boards/</guid>
       <description>This guide is an introduction to project boards for your open source project. By the end of this guide, you will have a basic understanding of how to run project planning in an open, transparent way to your community. What this guide is NOT is a guide to agile/scrum development. You should have a basic understanding of agile, scrum, and/or kanban before reading this article.
 The following topics are covered:</description>
     </item>
     
     <item>
       <title>Reading List</title>
-      <link>https://jwflory.gitlab.io/heuristics/project-management/reading-list/</link>
+      <link>https://unicef.gitlab.io/inventory/project-management/reading-list/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://jwflory.gitlab.io/heuristics/project-management/reading-list/</guid>
+      <guid>https://unicef.gitlab.io/inventory/project-management/reading-list/</guid>
       <description>This is a reading list of resources around project management and product development. While there are many resources on these topics around the web, this reading list focuses specifically on an open source perspective.
 Defining strategy  6 steps to perfecting an open source product strategy - Michael DeHaan A Free Guide for Setting Your Open Source Strategy - Linux Foundation Producing Open Source Software - Karl Fogel (includes resources on almost all major topics) Setting an Open Source Strategy - Linux Foundation  Managing in the open  How we organize GitHub issues: A simple styleguide for tagging - Zach Dunn @zachdunn  Methodologies  Why (some) agile teams fail - Jen Krieger @mrry550  </description>
     </item>

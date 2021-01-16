@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Open Hardware on Justin&#39;s Heuristics</title>
-    <link>https://jwflory.gitlab.io/heuristics/hardware/</link>
-    <description>Recent content in Open Hardware on Justin&#39;s Heuristics</description>
+    <title>Open Hardware on UNICEF O.S. Inventory</title>
+    <link>https://unicef.gitlab.io/inventory/hardware/</link>
+    <description>Recent content in Open Hardware on UNICEF O.S. Inventory</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>Creative Commons BY-SA 4.0</copyright><atom:link href="https://jwflory.gitlab.io/heuristics/hardware/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>Creative Commons BY-SA 4.0</copyright><atom:link href="https://unicef.gitlab.io/inventory/hardware/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Introduction to Open Source Hardware</title>
-      <link>https://jwflory.gitlab.io/heuristics/hardware/intro/</link>
+      <link>https://unicef.gitlab.io/inventory/hardware/intro/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://jwflory.gitlab.io/heuristics/hardware/intro/</guid>
+      <guid>https://unicef.gitlab.io/inventory/hardware/intro/</guid>
       <description>So… you want to know about Open Source Hardware? This page is an introduction to what Open Source Hardware means, how it works, and why it matters. Other pages in this Open Source Heuristic category will expand your understanding of Open Source Hardware; however, if you need a place to begin, this is a good start!
  See the following sections below:
   What is Open Source Hardware?
@@ -21,10 +21,10 @@
     
     <item>
       <title>Case studies</title>
-      <link>https://jwflory.gitlab.io/heuristics/hardware/case-studies/</link>
+      <link>https://unicef.gitlab.io/inventory/hardware/case-studies/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://jwflory.gitlab.io/heuristics/hardware/case-studies/</guid>
+      <guid>https://unicef.gitlab.io/inventory/hardware/case-studies/</guid>
       <description>Below are more detailed case studios of different Open Hardware organizations, projects, and products. Unlike the Projects page, these examples are more detailed and provide more context.
 Opentrons Scientific-focused hardware.
  Several highly successful and well-regarded biology/chemistry lab automation robots. By going 100% open source, they substantially reduced costs. Their products&#39; prices sometimes undercuts competition by 10x. They also acquired venture capital (V.C.) funding.
@@ -33,20 +33,20 @@ Having worked in biology labs myself, I can attest to how revolutionary their op
     
     <item>
       <title>Documentation</title>
-      <link>https://jwflory.gitlab.io/heuristics/hardware/documentation/</link>
+      <link>https://unicef.gitlab.io/inventory/hardware/documentation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://jwflory.gitlab.io/heuristics/hardware/documentation/</guid>
+      <guid>https://unicef.gitlab.io/inventory/hardware/documentation/</guid>
       <description>This page offers information and resources about documenting Open Hardware projects.
 Conventions &amp;amp; standards  Open Know-How Manifest Specification: &amp;ldquo;The objective of this specification is to improve the open-ness of know-how for making hardware by improving the discoverability, portability and translatability of knowledge.&amp;rdquo; Provides a format and specification for how to document and release Open Hardware projects and design schematics.  </description>
     </item>
     
     <item>
       <title>Licensing</title>
-      <link>https://jwflory.gitlab.io/heuristics/hardware/licensing/</link>
+      <link>https://unicef.gitlab.io/inventory/hardware/licensing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://jwflory.gitlab.io/heuristics/hardware/licensing/</guid>
+      <guid>https://unicef.gitlab.io/inventory/hardware/licensing/</guid>
       <description>This page collects information, resources, and other details about Open Hardware licensing.
 Documentation  Licensing and documentation: Learning material provided by Open Hardware Leaders program. Goal of material is to acquire best practices for hardware documentation and understand the different open licensing options available. Includes an explanation video and other helpful links.  Licenses There are two generally accepted Open Hardware licenses:
  CERN Open Hardware Licence TAPR Open Hardware License  Each can come with its own strategy.</description>
@@ -54,20 +54,20 @@ Documentation  Licensing and documentation: Learning material provided by Open H
     
     <item>
       <title>Open Hardware reading list</title>
-      <link>https://jwflory.gitlab.io/heuristics/hardware/reading-list/</link>
+      <link>https://unicef.gitlab.io/inventory/hardware/reading-list/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://jwflory.gitlab.io/heuristics/hardware/reading-list/</guid>
+      <guid>https://unicef.gitlab.io/inventory/hardware/reading-list/</guid>
       <description>A collection of various readings and articles related to Open Hardware.
 Legal and Business Aspects  Emerging Business Models for Open Source Hardware: Many ideas on open hardware business models. Focuses more narrowly for science use cases, but still a helpful perspective. Free Innovation, Eric von Hippel Why public institutions should release more of their hardware designs as Open-Source Hardware: Opinion article from the open hardware initiator at CERN, Javier Serrano.</description>
     </item>
     
     <item>
       <title>Project Hall of Fame</title>
-      <link>https://jwflory.gitlab.io/heuristics/hardware/projects/</link>
+      <link>https://unicef.gitlab.io/inventory/hardware/projects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://jwflory.gitlab.io/heuristics/hardware/projects/</guid>
+      <guid>https://unicef.gitlab.io/inventory/hardware/projects/</guid>
       <description>This page collects various Open Hardware projects. These projects are not officially endorsed, but are listed here as a convenience to generate a list of examples for reference. For more detailed overviews, see the Case Studies page.
 Check out the list of certified hardware from the Open Source Hardware Association for more inspiration.
 Businesses &amp;amp; companies  Adafruit Industries Aleph Objects: Makers of LulzBot family of 3D printers. Purchased by Fargo Additive Manufacturing Equipment 3D in 2019.</description>

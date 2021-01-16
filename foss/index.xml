@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Free &amp; Open Source Software on Justin&#39;s Heuristics</title>
-    <link>https://jwflory.gitlab.io/heuristics/foss/</link>
-    <description>Recent content in Free &amp; Open Source Software on Justin&#39;s Heuristics</description>
+    <title>Free &amp; Open Source Software on UNICEF O.S. Inventory</title>
+    <link>https://unicef.gitlab.io/inventory/foss/</link>
+    <description>Recent content in Free &amp; Open Source Software on UNICEF O.S. Inventory</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>Creative Commons BY-SA 4.0</copyright><atom:link href="https://jwflory.gitlab.io/heuristics/foss/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>Creative Commons BY-SA 4.0</copyright><atom:link href="https://unicef.gitlab.io/inventory/foss/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Business sustainability for Open Source</title>
-      <link>https://jwflory.gitlab.io/heuristics/foss/business-sustainability/</link>
+      <link>https://unicef.gitlab.io/inventory/foss/business-sustainability/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://jwflory.gitlab.io/heuristics/foss/business-sustainability/</guid>
+      <guid>https://unicef.gitlab.io/inventory/foss/business-sustainability/</guid>
       <description>This page collects information, best practices, and other resources for business sustainability of Open Source projects.
  Business models Specific business models or approaches used by other Open Source projects and communities. This section is small but will continue to grow as more knowledge is collected and centralized together.
  Training &amp;amp; support One popular approach to business sustainability is offering training and support for your Open Source product. Your project is Open Source.</description>
@@ -20,10 +20,10 @@
     
     <item>
       <title>Contributor License Agreements (CLAs)</title>
-      <link>https://jwflory.gitlab.io/heuristics/foss/contributor-license-agreement-cla/</link>
+      <link>https://unicef.gitlab.io/inventory/foss/contributor-license-agreement-cla/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://jwflory.gitlab.io/heuristics/foss/contributor-license-agreement-cla/</guid>
+      <guid>https://unicef.gitlab.io/inventory/foss/contributor-license-agreement-cla/</guid>
       <description>Originally authored by Mike Nolan, edited and maintained by Justin W. Flory.
 This page introduces Contributor License Agreements (shortened C.L.As) in open source projects.
 What are they for? Contributor License Agreements (CLAs) are often used in open source projects to form a legal agreement between an individual or company and a project maintainer. This agreement usually includes a waiver of copyright (although not always) as well as the right to patent their contribution.</description>
@@ -31,10 +31,10 @@ What are they for? Contributor License Agreements (CLAs) are often used in open 
     
     <item>
       <title>Governance</title>
-      <link>https://jwflory.gitlab.io/heuristics/foss/governance/</link>
+      <link>https://unicef.gitlab.io/inventory/foss/governance/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://jwflory.gitlab.io/heuristics/foss/governance/</guid>
+      <guid>https://unicef.gitlab.io/inventory/foss/governance/</guid>
       <description>This page defines and provides examples of Open Source governance. This includes Open Source project governance models, examples of other projects, frameworks for decision-making, and more.
  This page is a work-in-progress. Check back later for future additions.
  What is Open Source governance? The phrase &amp;#34;Open Source governance&amp;#34; generally refers to the decision-making model or documented process for how an Open Source project makes decisions. Sustainable governance is essential if an Open Source project will last, especially if it involves multiple stakeholders and collaborators.</description>
@@ -42,10 +42,10 @@ What are they for? Contributor License Agreements (CLAs) are often used in open 
     
     <item>
       <title>GPLv2 vs. GPLv3</title>
-      <link>https://jwflory.gitlab.io/heuristics/foss/gpl-comparison/</link>
+      <link>https://unicef.gitlab.io/inventory/foss/gpl-comparison/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://jwflory.gitlab.io/heuristics/foss/gpl-comparison/</guid>
+      <guid>https://unicef.gitlab.io/inventory/foss/gpl-comparison/</guid>
       <description>The information shared on this page does not constitute legal or financial advice.
  This page provides an interpretation of the key differences between v2 and v3 of the GNU Public License, or G.P.L. The key differences are summarized in each section below.
  Why update? Stallman’s objection to Tivoization In the early 2000s, American corporation TiVo Inc. was criticized by the Free Software community for their popular digital video recorder (DVR) product.</description>
@@ -53,20 +53,20 @@ What are they for? Contributor License Agreements (CLAs) are often used in open 
     
     <item>
       <title>Reading list: FOSS</title>
-      <link>https://jwflory.gitlab.io/heuristics/foss/reading-list-foss/</link>
+      <link>https://unicef.gitlab.io/inventory/foss/reading-list-foss/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://jwflory.gitlab.io/heuristics/foss/reading-list-foss/</guid>
+      <guid>https://unicef.gitlab.io/inventory/foss/reading-list-foss/</guid>
       <description>Readings on a variety of topics about Free &amp;amp; Open Source Software.
  Foundations   Four Freedoms of Free Software: Before understanding anything else about Open Source, you must first understand the core foundation of what decades of Open Source development built upon: the Four Freedoms. The Four Freedoms can be remembered as the freedoms to Read, Run, Revise, &amp;amp; Redistribute. This article from Free Software Foundation Europe explains more about the essential four freedoms guaranteed by all users of Open Source technology.</description>
     </item>
     
     <item>
       <title>Reading List: Legal &amp; Business Aspects</title>
-      <link>https://jwflory.gitlab.io/heuristics/foss/reading-list-legal/</link>
+      <link>https://unicef.gitlab.io/inventory/foss/reading-list-legal/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://jwflory.gitlab.io/heuristics/foss/reading-list-legal/</guid>
+      <guid>https://unicef.gitlab.io/inventory/foss/reading-list-legal/</guid>
       <description>This reading list is a collection of resources on legal and business aspects of open source. Legal and business aspects of an open source project are part of the foundation for building your project and community. The resources linked here are intended to give you a better idea of open source from a legal perspective.
  Foundations   The Open Source Definition (Annotated) - Open Source Initiative
   Open Source Licenses by Name - Open Source Initiative</description>
