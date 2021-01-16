@@ -1,6 +1,6 @@
 ################################# Default configuration ###################
-baseURL = "https://jwflory.gitlab.io/heuristics/"
-title = "Justin's Heuristics"
+baseURL = "https://unicef.github.io/inventory/"
+title = "UNICEF O.S. Inventory"
 theme = "dot"
 enableEmoji = true
 enableGitInfo = true
@@ -88,15 +88,15 @@ hasChildren = true
 #logo = "favicon.ico"
 
 # customize color
-primary_color = "#663399"
+primary_color = "#00BDF2"
 body_color = "#e0e4e8"
 text_color = "#636363"
-text_color_dark = "#242738"
+text_color_dark = "#003E5D"
 white_color = "#ffffff"
 light_color = "#f8f9fa"
 
 # font family (choose from https://fonts.google.com/)
-font_family = "Public+Sans"
+font_family = "Open+Sans"
 
 # contact form action (works with https://formspree.io)
 contact_form_action = "#"
@@ -111,7 +111,7 @@ link = "https://github.com/jwflory"
 
 [[params.social]]
 icon = "ti-twitter"
-link = "https://twitter.com/jflory7"
+link = "https://twitter.com/jwf_foss"
 
 
 ################################ English Language ######################
@@ -124,7 +124,7 @@ copyright = "Creative Commons BY-SA 4.0"
 
 # banner
 [Languages.en.params.banner]
-title = "Justin's Heuristics"
-subtitle = "\"Heuristics is the science of finding new ways to solve problems\" (Abbott 2004, 81)"
+title = "UNICEF Open Source Inventory"
+subtitle = "A UNICEF Global Innovation knowledge base of best practices and resources for working and leading Open."
 bg_image = "img/banner.jpg"
 placeholder = "Have a question? Search the site here."

@@ -27,5 +27,5 @@ Provided you meet the following terms:
 {{< faq "Is this site open source?" >}}
 Yes.
 You can find it on GitHub.
-[github.com/jwflory/heuristics](https://github.com/jwflory/heuristics)
+[github.com/unicef/inventory](https://github.com/unicef/inventory)
 {{</ faq >}}

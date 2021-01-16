@@ -15,7 +15,7 @@ I use these for my private notes about each team's progress.
 ** Introductions
 ** Offer to record call
 ** Review O.S. Terms of Reference
-** Review frequently-used resources (i.e. Open Source Heuristics & evaluation rubric)
+** Review frequently-used resources (i.e. UNICEF Open Source Inventory & evaluation rubric)
 ** link:++{{< ref "meta/needs-assessment-template" >}}++[Needs assessment] (Q&A)
 ** Open source strategy (12-month vision, 1-month action plan)
 * *Needs assessment*:
