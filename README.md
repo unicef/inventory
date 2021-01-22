@@ -1,8 +1,8 @@
-[inventory][0]
-==============
+[inventory](https://unicef.github.io/inventory/)
+================================================
 
-[![License: CC BY-SA 4.0][1]][2]
-[![Build Status][3]][4]
+[![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0)
+[![Build Status](https://circleci.com/gh/unicef/inventory/tree/main.svg?style=shield)](https://app.circleci.com/pipelines/github/unicef/inventory?branch=main)
 
 Innovation Inventory.
 A UNICEF Global Innovation knowledge base of best practices and resources for working and leading Open.
@@ -11,7 +11,7 @@ A UNICEF Global Innovation knowledge base of best practices and resources for wo
 ## About
 
 This repository is a collection of various information about Open Source best practices.
-It was originally created to support [UNICEF Innovation Fund][5] teams in building Open Source projects and communities.
+It was originally created to support [UNICEF Innovation Fund](https://unicefinnovationfund.org/) teams in building Open Source projects and communities.
 The information here can be applied generally to Open Source projects.
 
 This repository also includes an inventory of Innovation Fund companies and their Open Source intellectual property.
@@ -19,7 +19,7 @@ This repository also includes an inventory of Innovation Fund companies and thei
 
 ## Legal
 
-Licensed under [Creative Commons Attribution-ShareAlike 4.0 International][2].
+Licensed under [Creative Commons Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0).
 Not a lawyer?
 This basically means you are free to:
 
@@ -37,12 +37,3 @@ Provided you meet the following terms:
   If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.
 * **No additional restrictions**:
   You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.
-
-
----
-[0]: https://unicef.github.io/inventory/
-[1]: https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)
-[2]: https://creativecommons.org/licenses/by-sa/4.0
-[3]: https://circleci.com/gh/unicef/inventory/tree/main.svg?style=shield)
-[4]: https://app.circleci.com/pipelines/github/unicef/inventory?branch=main
-[5]: https://unicefinnovationfund.org/
