@@ -93,8 +93,10 @@ It gets the team thinking about where we are going and what the next steps might
 These questions were once included in the needs assessment, but are no longer asked.
 This is because the answers to these questions are either documented elsewhere, or they are better answered asynchronously.
 
-. What is your product elevator pitch?
-  (i.e. describe project in 2-3 sentences)
-. If you could grade how well your team does open source, what grade would you give yourself and why?
-. Do you hold daily or weekly meetings to track progress with the core development team?
-. Did you receive peer reviews on your code base in the last three months by someone outside of your organization?
+{{< faq "See archived questions" >}}
+1. What is your product elevator pitch?
+   (i.e. describe project in 2-3 sentences)
+1. If you could grade how well your team does open source, what grade would you give yourself and why?
+1. Do you hold daily or weekly meetings to track progress with the core development team?
+1. Did you receive peer reviews on your code base in the last three months by someone outside of your organization?
+{{</ faq >}}
