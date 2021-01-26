@@ -107,11 +107,11 @@ contact_form_action = "#"
 
 [[params.social]]
 icon = "ti-github"
-link = "https://github.com/jwflory"
+link = "https://github.com/unicef/inventory"
 
 [[params.social]]
 icon = "ti-twitter"
-link = "https://twitter.com/jwf_foss"
+link = "https://twitter.com/UNICEFinnovate"
 
 
 ################################ English Language ######################
