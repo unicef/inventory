@@ -3,14 +3,17 @@
 version: 2.1
 
 orbs:
-  hugo: circleci/hugo@1.2.1
+  hugo: circleci/hugo@1.2.2
 
 workflows:
   main:
     jobs:
       - hugo/build:
           asciidoc: true
-          html-proofer: false
+          html-proofer: true
+          htmlproofer-http-status-ignore: "'0,999'"
+          htmlproofer-url-ignore: "'/inventory/'"
+          htmlproofer-timeframe: "'6w'"
           version: "latest"
       - deploy:
           filters:
