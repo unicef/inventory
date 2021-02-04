@@ -1,6 +1,6 @@
 ---
 title: "Project boards"
-weight: 10
+weight: 20
 
 ---
 
