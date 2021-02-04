@@ -2,7 +2,7 @@
 <html lang="en-us">
   <head>
   <meta charset="utf-8">
-  <title>Needs assessment interview template</title>
+  <title>Issue templates</title>
 
   <meta name="generator" content="Hugo 0.80.0" />
 
@@ -153,6 +153,12 @@
             
               
             
+              
+            
+              
+            
+              
+            
                
               
 
@@ -163,10 +169,10 @@
 
 
 
-<li data-nav-id="https://unicef.github.io/inventory/meta/" title="Meta" class="sidelist
+<li data-nav-id="https://unicef.github.io/inventory/project-management/" title="Project Management" class="sidelist
   ">
-  <a href="https://unicef.github.io/inventory/meta/">
-    Meta
+  <a href="https://unicef.github.io/inventory/project-management/">
+    Project Management
   </a>
   
   
@@ -182,10 +188,10 @@
 
 
 
-<li data-nav-id="https://unicef.github.io/inventory/meta/mentorship-templates/" title="Mentorship meeting templates" class="sidelist
-  ">
-  <a href="https://unicef.github.io/inventory/meta/mentorship-templates/">
-    Mentorship meeting templates
+<li data-nav-id="https://unicef.github.io/inventory/project-management/issue-templates/" title="Issue templates" class="sidelist
+  active">
+  <a href="https://unicef.github.io/inventory/project-management/issue-templates/">
+    Issue templates
   </a>
   
   
@@ -204,10 +210,32 @@
 
 
 
-<li data-nav-id="https://unicef.github.io/inventory/meta/needs-assessment-template/" title="Needs assessment interview template" class="sidelist
-  active">
-  <a href="https://unicef.github.io/inventory/meta/needs-assessment-template/">
-    Needs assessment interview template
+<li data-nav-id="https://unicef.github.io/inventory/project-management/project-boards/" title="Project boards" class="sidelist
+  ">
+  <a href="https://unicef.github.io/inventory/project-management/project-boards/">
+    Project boards
+  </a>
+  
+  
+</li>
+
+
+        
+      
+        
+          
+
+
+
+
+
+
+
+
+<li data-nav-id="https://unicef.github.io/inventory/project-management/reading-list/" title="Reading List" class="sidelist
+  ">
+  <a href="https://unicef.github.io/inventory/project-management/reading-list/">
+    Reading List
   </a>
   
   
@@ -225,217 +253,130 @@
             
               
             
-              
-            
-              
-            
-              
-            
           </ul>
         </div>
       </div>
       <div class="col-lg-9">
         <div class="p-lg-5 p-4 bg-white">
-          <h2 class="mb-5">Needs assessment interview template</h2>
+          <h2 class="mb-5">Issue templates</h2>
           
           <div class="content"><div class="paragraph">
-<p>This document is an interview template for needs assessments with <a href="https://unicefinnovationfund.org/">UNICEF Innovation Fund</a> cohorts in Open Source induction calls.
-The needs assessment is a tool to collect background and context for each team’s experience and familiarity with open source.
-It also builds understanding for participation in existing open source communities.
-This template provides structure and guidance on what to ask to any team at the beginning of an Open Source Mentorship program.</p>
+<p>This guide is an introduction to <strong>issue templates</strong> in an Open Source project.
+While this guide is customized to GitHub, the advice provided here is general and can be applied to other collaboration platforms that offer templating.
+By the end of this guide, you will have a basic understanding of why issue templates are important and how to set up effective templates for your project.
+This guide is complementary to an agile or scrum workflow, if your team already uses one of these methods of project management.</p>
 </div>
-<div class="sect1">
-<h2 id="_your_current_situation">Your current situation</h2>
-<div class="sectionbody">
 <div class="paragraph">
-<p>This section helps us understand where each team is at the moment.</p>
+<p>The following topics are covered:</p>
 </div>
 <div class="olist arabic">
 <ol class="arabic">
 <li>
-<p>What current milestones is the team working towards?
-Can be development and/or business.</p>
+<p>About issue templates</p>
 </li>
 <li>
-<p>How much of your project source code is already on a git hosting platform, e.g. GitHub / GitLab?
-Either public or private is okay.</p>
+<p>Case study: TeleIRC</p>
 </li>
 <li>
-<p>Based on what you know about Open Source today, what challenges or concerns do you have about Open Source specifically?</p>
-</li>
-<li>
-<p>Is there any prior Open Source development experience on your team?</p>
-</li>
-<li>
-<p>Do you have an existing user community?</p>
-</li>
-<li>
-<p>Does your project source code extend or make improvements to an already-existing Open Source project?
-(a.k.a. upstream)</p>
+<p>Additional resources</p>
 </li>
 </ol>
 </div>
-</div>
-</div>
 <div class="sect1">
-<h2 id="_project_management">Project management</h2>
+<h2 id="_about_issue_templates">About issue templates</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>These questions explore project management and any tools or processes that are already in place.</p>
+<p>Issue templates are a common feature of GitHub, GitLab, and other git forges.
+They allow you to pre-populate a new issue with template text.
+Issue templates can also automatically apply an assignee or label to a template, depending on the type of feedback it is.
+Some common issue templates in Open Source projects may look like the following:</p>
 </div>
-<div class="olist arabic">
-<ol class="arabic">
+<div class="ulist">
+<ul>
 <li>
-<p>Is your team fully remote, partially remote, or all in-person?</p>
+<p>Bug reports</p>
 </li>
 <li>
-<p>Does your team use a project management methodology?
-(e.g. agile, scrum, waterfall)</p>
+<p>New feature requests</p>
 </li>
 <li>
-<p>How often does your development team meet?</p>
+<p>Improvements to existing functionality</p>
 </li>
-<li>
-<p>What project management tools are you already using?
-(e.g. Trello, Asana, GitHub Projects, JIRA, etc.)</p>
-</li>
-</ol>
+</ul>
 </div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="development">Development best practices</h2>
-<div class="sectionbody">
 <div class="paragraph">
-<p>These questions explore development best practices and how the team produces source code.
-It covers a range of periphery activities around development, such as unit testing, static analysis, automation, and more.
-The goal is to understand where the team is currently, and where Open Source Mentorship will focus initially.
-This intersects with other topics like <a href="https://unicef.github.io/inventory/dev-tools/continuous-integration/">Continuous Integration</a>.</p>
+<p>These are three common templates, but your project may use more or less depending on the unique context of your project.
+Issue templates are effective tools to structure new feedback and save time in the Open Source development life-cycle.</p>
+</div>
+<div class="paragraph">
+<p>See the official <a href="https://docs.github.com/en/github/building-a-strong-community/configuring-issue-templates-for-your-repository#configuring-the-template-chooser">GitHub documentation for issue templates</a> to learn more about using issue templates on GitHub.</p>
 </div>
 <div class="sect2">
-<h3 id="_testing">Testing</h3>
-<div class="olist arabic">
-<ol class="arabic">
-<li>
-<p>Does the current project source code have <strong>ANY</strong> unit, functional, and/or integration tests?</p>
-<div class="olist loweralpha">
-<ol class="loweralpha" type="a">
-<li>
-<p><em>If yes</em>:
-Estimate a percentage of how much code is currently tested.</p>
-</li>
-<li>
-<p><em>If yes</em>:
-What testing frameworks are used?</p>
-</li>
-</ol>
+<h3 id="_why">Why?</h3>
+<div class="paragraph">
+<p>Issue templates are helpful for both newcomers and core team members in your community.
+Project newcomers benefit from extra guidance and prompts on what to include in their reports.
+They might be asked to provide specific information, like what version of the application they use, what web browser or operating system they use, and so forth.
+It also saves core team members time in reviewing new feedback from the community.
+The necessary information is provided in the original comment; you do not have to follow-up and ask for more common information.</p>
 </div>
-</li>
-</ol>
-</div>
-</div>
-<div class="sect2">
-<h3 id="_tooling">Tooling</h3>
-<div class="olist arabic">
-<ol class="arabic">
-<li>
-<p>Do you already use any static analysis or code health-checking tools?</p>
-</li>
-<li>
-<p>Are any automation tools already in use?
-(e.g. Ansible, Chef, Docker containers, GitHub Actions, etc.)</p>
-</li>
-</ol>
-</div>
-</div>
-<div class="sect2">
-<h3 id="_workflow">Workflow</h3>
-<div class="olist arabic">
-<ol class="arabic">
-<li>
-<p>Is any developer on the team able to add code directly to the product, or are contributions peer-reviewed before merging?</p>
-</li>
-</ol>
+<div class="paragraph">
+<p>Issue templates are not always useful in the earliest stages of an Open Source project.
+However, they are a strategic tool to scale participation in your project as you grow your community.
+Over time, you will invite more people to participate in your Open Source code, whether it is end-users, customers and clients, academic researchers, or grassroots activists.
+Issue templates help you engage a community in the earliest stages of growth in an Open Source project.</p>
 </div>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_documentation">Documentation</h2>
+<h2 id="_case_study_teleirc">Case study: TeleIRC</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>These questions explore documentation culture.
-Some teams may do this better than others at the start, but the goal is to establish a baseline.</p>
+<p>To demonstrate how issue templates work, we will look at the <a href="https://github.com/RITlug/teleirc">TeleIRC</a> project.
+TeleIRC is an Open Source back-end application to connect <a href="https://telegram.org">Telegram</a> groups and <a href="https://en.wikipedia.org/wiki/Internet_Relay_Chat">Internet Relay Chat</a> channels together.
+TeleIRC uses issue templates to structure different types of feedback from developers and end-users.
+Take a look at the four templates available in the project:</p>
 </div>
-<div class="olist arabic">
-<ol class="arabic">
-<li>
-<p><strong>READMEs</strong>:
-Do core repositories have a README file that explains what the repo is, how it works at a high-level, and how that single repo integrates into your overall product?</p>
-</li>
-<li>
-<p><strong>Developer documentation</strong>:
-Is any documentation already written about how to set up a local development environment for any of your projects?
-Does not have to be stored in git.</p>
-</li>
-</ol>
+<div class="imageblock">
+<div class="content">
+<a class="image" href="https://github.com/RITlug/teleirc/issues/new/choose"><img src="/inventory/img/project-management/teleirc-issue-templates.png" alt="Four issue templates available for the TeleIRC project."/></a>
+</div>
+</div>
+<div class="paragraph">
+<p>The following screenshot shows an example of a reporter using the &#34;bug report&#34; template to report a bug:</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<a class="image" href="https://github.com/RITlug/teleirc/issues/359"><img src="/inventory/img/project-management/teleirc-bug-template-example.png" alt="Screenshot of a TeleIRC bug report completed using the issue template."/></a>
+</div>
+</div>
+<div class="paragraph">
+<p>These templates are used to quickly diagnose problems, discover interests in new features, and cut some of the chase out of troubleshooting.
+Find the exact templates used by the TeleIRC project in their <a href="https://github.com/RITlug/teleirc/tree/master/.github/ISSUE_TEMPLATE"><code>.github/</code> folder</a>.</p>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_vision">Vision</h2>
+<h2 id="_additional_resources">Additional resources</h2>
 <div class="sectionbody">
-<div class="paragraph">
-<p>These questions explore Open Source vision.
-It gets the team thinking about where we are going and what the next steps might be in reaching that vision.</p>
-</div>
-<div class="olist arabic">
-<ol class="arabic">
+<div class="ulist">
+<ul>
 <li>
-<p>What does success look like in a world in 12 months when you have launched your Open Source projects?</p>
+<p><a href="https://github.com/devspace/awesome-github-templates"><strong>devspace/awesome-github-templates</strong></a>:
+Curated list of GitHub Issues and Pull Requests templates</p>
 </li>
 <li>
-<p>Name one thing that needs to change today on your team in order to accomplish this vision.
-(suggestion:
-everyone on the call should answer this one!)</p>
+<p><a href="https://github.com/stevemao/github-issue-templates"><strong>stevemao/github-issue-templates</strong></a>:
+Wide range of issue templates you can customize for your own repositories.</p>
 </li>
-</ol>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="archived">Archived questions</h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>These questions were once included in the needs assessment, but are no longer asked.
-This is because the answers to these questions are either documented elsewhere, or they are better answered asynchronously.</p>
-</div>
-<div class="paragraph">
-
-
-<div class="card mb-4 rounded-0 shadow border-0">
-  <div class="card-header rounded-0 bg-white border p-0 border-0">
-    <a class="card-link h4 d-flex tex-dark mb-0 py-3 px-4 justify-content-between" data-toggle="collapse" href="#see-archived-questions">
-      <span>See archived questions</span> <i class="ti-plus text-primary text-right"></i>
-    </a>
-  </div>
-  <div id="see-archived-questions" class="collapse" data-parent="#accordion">
-    <div class="card-body font-secondary text-color"><ol>
-<li>What is your product elevator pitch?
-(i.e. describe project in 2-3 sentences)</li>
-<li>If you could grade how well your team does open source, what grade would you give yourself and why?</li>
-<li>Do you hold daily or weekly meetings to track progress with the core development team?</li>
-<li>Did you receive peer reviews on your code base in the last three months by someone outside of your organization?</li>
-</ol>
-</div>
-  </div>
-</div>
+</ul>
 </div>
 </div>
 </div>
 </div>
           
-          <p class="post-meta border-bottom pb-3 mb-0 mt-3">Updated on 25 Jan 2021</p>
+          <p class="post-meta border-bottom pb-3 mb-0 mt-3">Updated on 04 Feb 2021</p>
           <nav class="pagination mt-3">
             
             
@@ -785,62 +726,6 @@ This is because the answers to these questions are either documented elsewhere, 
             
             
             
-            
-
-            
-            
-            
-
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-            
-
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-            
-
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
 
             
             
@@ -894,70 +779,6 @@ This is because the answers to these questions are either documented elsewhere, 
             
             
 
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-            
-
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-            
-
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-            
-
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-            
-
-            
-            
-            
             
             
             
@@ -1062,6 +883,123 @@ This is because the answers to these questions are either documented elsewhere, 
             
             
             
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
             
             
             
@@ -1095,10 +1033,10 @@ This is because the answers to these questions are either documented elsewhere, 
             
 
             
-            <a class="nav nav-prev" href="https://unicef.github.io/inventory/meta/mentorship-templates/"><i class="ti-arrow-left mr-2"></i> <span class="d-none d-md-block">Mentorship meeting templates</span></a>
+            <a class="nav nav-prev" href="https://unicef.github.io/inventory/project-management/"><i class="ti-arrow-left mr-2"></i> <span class="d-none d-md-block">Project Management</span></a>
             
             
-            <a class="nav nav-next" href="https://unicef.github.io/inventory/missions/"> <span class="d-none d-md-block">Missions</span><i class="ti-arrow-right ml-2"></i></a>
+            <a class="nav nav-next" href="https://unicef.github.io/inventory/project-management/project-boards/"> <span class="d-none d-md-block">Project boards</span><i class="ti-arrow-right ml-2"></i></a>
             
           </nav>
         </div>

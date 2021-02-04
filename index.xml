@@ -86,13 +86,12 @@ This Mission is a short exercise on understanding how Codes of Conduct fit into 
     </item>
     
     <item>
-      <title>Project boards</title>
-      <link>https://unicef.github.io/inventory/project-management/project-boards/</link>
+      <title>Issue templates</title>
+      <link>https://unicef.github.io/inventory/project-management/issue-templates/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://unicef.github.io/inventory/project-management/project-boards/</guid>
-      <description>This guide is an introduction to project boards for your open source project. By the end of this guide, you will have a basic understanding of how to run project planning in an open, transparent way to your community. What this guide is NOT is a guide to agile/scrum development. You should have a basic understanding of agile, scrum, and/or kanban before reading this article.
-The following topics are covered:</description>
+      <guid>https://unicef.github.io/inventory/project-management/issue-templates/</guid>
+      <description>This guide is an introduction to issue templates in an Open Source project. While this guide is customized to GitHub, the advice provided here is general and can be applied to other collaboration platforms that offer templating. By the end of this guide, you will have a basic understanding of why issue templates are important and how to set up effective templates for your project. This guide is complementary to an agile or scrum workflow, if your team already uses one of these methods of project management.</description>
     </item>
     
     <item>
@@ -157,13 +156,13 @@ Conventions &amp;amp; standards  Open Know-How Manifest Specification: &amp;ldqu
     </item>
     
     <item>
-      <title>Reading List</title>
-      <link>https://unicef.github.io/inventory/project-management/reading-list/</link>
+      <title>Project boards</title>
+      <link>https://unicef.github.io/inventory/project-management/project-boards/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://unicef.github.io/inventory/project-management/reading-list/</guid>
-      <description>This is a reading list of resources around project management and product development. While there are many resources on these topics around the web, this reading list focuses specifically on an open source perspective.
-Defining strategy  6 steps to perfecting an open source product strategy - Michael DeHaan A Free Guide for Setting Your Open Source Strategy - Linux Foundation Producing Open Source Software - Karl Fogel (includes resources on almost all major topics) Setting an Open Source Strategy - Linux Foundation  Managing in the open  How we organize GitHub issues: A simple styleguide for tagging - Zach Dunn @zachdunn  Methodologies  Why (some) agile teams fail - Jen Krieger @mrry550  </description>
+      <guid>https://unicef.github.io/inventory/project-management/project-boards/</guid>
+      <description>This guide is an introduction to project boards for your open source project. By the end of this guide, you will have a basic understanding of how to run project planning in an open, transparent way to your community. What this guide is NOT is a guide to agile/scrum development. You should have a basic understanding of agile, scrum, and/or kanban before reading this article.
+The following topics are covered:</description>
     </item>
     
     <item>
@@ -197,6 +196,16 @@ Defining strategy  6 steps to perfecting an open source product strategy - Micha
       <description>This page collects information, resources, and other details about Open Hardware licensing.
 Documentation  Licensing and documentation: Learning material provided by Open Hardware Leaders program. Goal of material is to acquire best practices for hardware documentation and understand the different open licensing options available. Includes an explanation video and other helpful links.  Licenses There are two generally accepted Open Hardware licenses:
  CERN Open Hardware Licence TAPR Open Hardware License  Each can come with its own strategy.</description>
+    </item>
+    
+    <item>
+      <title>Reading List</title>
+      <link>https://unicef.github.io/inventory/project-management/reading-list/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unicef.github.io/inventory/project-management/reading-list/</guid>
+      <description>This is a reading list of resources around project management and product development. While there are many resources on these topics around the web, this reading list focuses specifically on an open source perspective.
+Defining strategy  6 steps to perfecting an open source product strategy - Michael DeHaan A Free Guide for Setting Your Open Source Strategy - Linux Foundation Producing Open Source Software - Karl Fogel (includes resources on almost all major topics) Setting an Open Source Strategy - Linux Foundation  Managing in the open  How we organize GitHub issues: A simple styleguide for tagging - Zach Dunn @zachdunn  Methodologies  Why (some) agile teams fail - Jen Krieger @mrry550  </description>
     </item>
     
     <item>
