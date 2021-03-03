@@ -1,6 +1,6 @@
 ---
-title: "Mentorship meeting templates"
-weight: 40
+title: "Templates for programme mentors"
+weight: 60
 
 ---
 :toc:
