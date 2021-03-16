@@ -101,12 +101,64 @@ ____
 ** Docusaurus
    (Facebook)
 
-
 [[offered-ci]]
 === Continuous Integration for continuous contribution
 
+____
+As in life, Open Source projects will change over time.
+As you manage new changes to the source code of a project, how do you verify that new changes do not break existing code?
+You can spend time manually validating changes and testing them locally.
+But you can also automate it using workflow automation tools.
+This module introduces Continuous Integration (C.I.) and Continuous Deployment (C.D.) in an Open Source context.
+
+By the end of this module, your project will have a working CI/CD pipeline for your Open Source repositories.
+New changes to the repositories will be validated against a basic set of tests, depending on what kind of software you are building.
+This module is for any Open Source project, at any stage, that wants to improve code quality, code health, and save time from manually testing and validating new code changes.
+____
+
+*Topics included*:
+
+* CI/CD platforms
+  (e.g. Circle CI, GitHub Actions, Jenkins, etc.)
+* Code test coverage and unit tests, if applicable
+* Deploy new changes to software or documentation to a testing or production environment
+* Pull Request Workflows with a CI pipeline
+* Code health tools to monitor and alert to best practices and warning signs
+
 [[offered-archetypes]]
 === Archetypes: Shape and size of Open Source over time
+
+____
+Building an Open Source community is like building a house.
+Before you can invite people over, you need a solid foundation to build your community on.
+If you have completed the previous modules, your project is primed for working with new contributors.
+This reflective module introduces you to the Mozilla Open Source Archetypes report and understanding a theory of change for Open Source.
+
+By the end of this module, you will have an understanding of the different forms an Open Source project and community may take.
+You will also be able to identify where your project falls and make predictions on where it will go next.
+This module is for any Open Source project anticipating growth, change, or evolution to its code or the community.
+____
+
+*Topics included*:
+
+* Project archetypes:
+** Business-to-Business (B2B) Open Source
+** Multi-Vendor Infrastructure
+** Rocket Ship to Mars
+** Controlled Ecosystem
+** Wide Open
+** Mass Market
+** Speciality Library
+** Trusted Vendor
+** Upstream Dependency
+* Business models:
+** Professional/enterprise versions
+** Services around your product
+** Services _*are*_ your product
+** Content
+** Packaging
+** Franchising
+** Training
 
 
 == Module programming
