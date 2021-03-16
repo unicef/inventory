@@ -31,9 +31,8 @@
  Innovation Fund grantees
   UNICEF colleagues
   Other groups
-     12-month roadmap
-  Q1
-  Q2</description>
+     References
+   Programme team The Open Source Mentorship programme is administered by the Innovation Fund Open Source Technical Advisor.</description>
     </item>
     
     <item>
@@ -109,6 +108,21 @@ This Mission is a short exercise on understanding how Codes of Conduct fit into 
       
       <guid>https://unicef.github.io/inventory/project-management/issue-templates/</guid>
       <description>This guide is an introduction to issue templates in an Open Source project. While this guide is customized to GitHub, the advice provided here is general and can be applied to other collaboration platforms that offer templating. By the end of this guide, you will have a basic understanding of why issue templates are important and how to set up effective templates for your project. This guide is complementary to an agile or scrum workflow, if your team already uses one of these methods of project management.</description>
+    </item>
+    
+    <item>
+      <title>Modules</title>
+      <link>https://unicef.github.io/inventory/meta/modules/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unicef.github.io/inventory/meta/modules/</guid>
+      <description>The UNICEF Open Source Mentorship programme offers multiple learning modules and mentorship topics. This page provides an overview of the different modules currently offered through the Open Source Mentorship programme.
+  Offered modules
+ Legal &amp;amp; Licensing: Foundations of Open Source intellectual property
+  Launching your Open Source project
+  Open Source documentation
+  Continuous Integration for continuous contribution
+  Archetypes: Shape and size of Open Source over time</description>
     </item>
     
     <item>
@@ -238,22 +252,6 @@ Defining strategy  6 steps to perfecting an open source product strategy - Micha
     </item>
     
     <item>
-      <title>Mentorship meeting templates</title>
-      <link>https://unicef.github.io/inventory/meta/mentorship-templates/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://unicef.github.io/inventory/meta/mentorship-templates/</guid>
-      <description>This page is a copy-paste template of various templates I use for Open Source Mentorship meetings. I use these for my private notes about each team’s progress.
- Induction agenda template   Agenda:
-  Introductions
-  Offer to record call
-  Review O.S. Terms of Reference
-  Review frequently-used resources (i.e. UNICEF Open Source Inventory &amp;amp; evaluation rubric)
-  Needs assessment (Q&amp;amp;A)
-  Open source strategy (12-month vision, 1-month action plan)</description>
-    </item>
-    
-    <item>
       <title>Open Hardware reading list</title>
       <link>https://unicef.github.io/inventory/hardware/reading-list/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -326,6 +324,22 @@ Businesses &amp;amp; companies  Adafruit Industries Aleph Objects: Makers of Lul
       <description>This reading list is a collection of resources on legal and business aspects of open source. Legal and business aspects of an open source project are part of the foundation for building your project and community. The resources linked here are intended to give you a better idea of open source from a legal perspective.
  Foundations   The Open Source Definition (Annotated) - Open Source Initiative
   Open Source Licenses by Name - Open Source Initiative</description>
+    </item>
+    
+    <item>
+      <title>Templates for programme mentors</title>
+      <link>https://unicef.github.io/inventory/meta/templates/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unicef.github.io/inventory/meta/templates/</guid>
+      <description>This page is a copy-paste template of various templates I use for Open Source Mentorship meetings. I use these for my private notes about each team’s progress.
+ Induction agenda template   Agenda:
+  Introductions
+  Offer to record call
+  Review O.S. Terms of Reference
+  Review frequently-used resources (i.e. UNICEF Open Source Inventory &amp;amp; evaluation rubric)
+  Needs assessment (Q&amp;amp;A)
+  Open source strategy (12-month vision, 1-month action plan)</description>
     </item>
     
     <item>

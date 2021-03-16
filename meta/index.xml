@@ -19,25 +19,23 @@
  Innovation Fund grantees
   UNICEF colleagues
   Other groups
-     12-month roadmap
-  Q1
-  Q2</description>
+     References
+   Programme team The Open Source Mentorship programme is administered by the Innovation Fund Open Source Technical Advisor.</description>
     </item>
     
     <item>
-      <title>Mentorship meeting templates</title>
-      <link>https://unicef.github.io/inventory/meta/mentorship-templates/</link>
+      <title>Modules</title>
+      <link>https://unicef.github.io/inventory/meta/modules/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://unicef.github.io/inventory/meta/mentorship-templates/</guid>
-      <description>This page is a copy-paste template of various templates I use for Open Source Mentorship meetings. I use these for my private notes about each team’s progress.
- Induction agenda template   Agenda:
-  Introductions
-  Offer to record call
-  Review O.S. Terms of Reference
-  Review frequently-used resources (i.e. UNICEF Open Source Inventory &amp;amp; evaluation rubric)
-  Needs assessment (Q&amp;amp;A)
-  Open source strategy (12-month vision, 1-month action plan)</description>
+      <guid>https://unicef.github.io/inventory/meta/modules/</guid>
+      <description>The UNICEF Open Source Mentorship programme offers multiple learning modules and mentorship topics. This page provides an overview of the different modules currently offered through the Open Source Mentorship programme.
+  Offered modules
+ Legal &amp;amp; Licensing: Foundations of Open Source intellectual property
+  Launching your Open Source project
+  Open Source documentation
+  Continuous Integration for continuous contribution
+  Archetypes: Shape and size of Open Source over time</description>
     </item>
     
     <item>
@@ -47,6 +45,22 @@
       
       <guid>https://unicef.github.io/inventory/meta/needs-assessment-template/</guid>
       <description>This document is an interview template for needs assessments with UNICEF Innovation Fund cohorts in Open Source induction calls. The needs assessment is a tool to collect background and context for each team’s experience and familiarity with open source. It also builds understanding for participation in existing open source communities. This template provides structure and guidance on what to ask to any team at the beginning of an Open Source Mentorship program.</description>
+    </item>
+    
+    <item>
+      <title>Templates for programme mentors</title>
+      <link>https://unicef.github.io/inventory/meta/templates/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unicef.github.io/inventory/meta/templates/</guid>
+      <description>This page is a copy-paste template of various templates I use for Open Source Mentorship meetings. I use these for my private notes about each team’s progress.
+ Induction agenda template   Agenda:
+  Introductions
+  Offer to record call
+  Review O.S. Terms of Reference
+  Review frequently-used resources (i.e. UNICEF Open Source Inventory &amp;amp; evaluation rubric)
+  Needs assessment (Q&amp;amp;A)
+  Open source strategy (12-month vision, 1-month action plan)</description>
     </item>
     
   </channel>

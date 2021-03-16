@@ -1,218 +1,135 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://unicef.github.io/inventory/hardware/intro/</loc>
     <lastmod>2020-12-07T16:29:14-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://unicef.github.io/inventory/meta/overview/</loc>
-    <lastmod>2021-02-08T21:10:01-05:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2021-03-16T13:43:53-04:00</lastmod>
+  </url><url>
     <loc>https://unicef.github.io/inventory/foss/business-sustainability/</loc>
     <lastmod>2020-11-27T15:54:26-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://unicef.github.io/inventory/hardware/case-studies/</loc>
     <lastmod>2020-04-22T12:23:47-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://unicef.github.io/inventory/missions/codes-of-conduct/</loc>
     <lastmod>2020-08-17T17:46:53-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://unicef.github.io/inventory/dev-tools/continuous-integration/</loc>
     <lastmod>2020-07-02T16:56:45-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://unicef.github.io/inventory/design/reading-list/</loc>
     <lastmod>2020-08-28T16:51:57-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://unicef.github.io/inventory/documentation/frontier-tech-tips/</loc>
     <lastmod>2020-08-17T19:00:49-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://unicef.github.io/inventory/project-management/issue-templates/</loc>
     <lastmod>2021-02-04T07:01:03-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://unicef.github.io/inventory/meta/modules/</loc>
+    <lastmod>2021-03-16T13:43:53-04:00</lastmod>
+  </url><url>
     <loc>https://unicef.github.io/inventory/reproducibility/reading-list/</loc>
     <lastmod>2020-04-13T18:15:26-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://unicef.github.io/inventory/foss/contributor-license-agreement-cla/</loc>
     <lastmod>2020-04-29T11:27:54-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://unicef.github.io/inventory/hardware/documentation/</loc>
     <lastmod>2020-04-22T12:54:33-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://unicef.github.io/inventory/documentation/hall-of-fame/</loc>
     <lastmod>2021-01-15T20:57:27-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://unicef.github.io/inventory/missions/good-first-issue/</loc>
     <lastmod>2020-08-28T16:31:27-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://unicef.github.io/inventory/project-management/project-boards/</loc>
     <lastmod>2021-02-04T07:01:03-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://unicef.github.io/inventory/foss/governance/</loc>
     <lastmod>2020-12-30T14:43:18-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://unicef.github.io/inventory/foss/gpl-comparison/</loc>
     <lastmod>2020-12-03T12:16:39-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://unicef.github.io/inventory/hardware/licensing/</loc>
     <lastmod>2020-04-22T12:54:33-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://unicef.github.io/inventory/project-management/reading-list/</loc>
     <lastmod>2021-02-04T07:01:03-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://unicef.github.io/inventory/documentation/reading-list/</loc>
     <lastmod>2020-10-12T22:39:31-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://unicef.github.io/inventory/meta/mentorship-templates/</loc>
-    <lastmod>2021-01-15T20:57:27-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://unicef.github.io/inventory/hardware/reading-list/</loc>
     <lastmod>2020-04-22T12:54:33-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://unicef.github.io/inventory/communities/fedora/</loc>
     <lastmod>2020-11-09T17:54:15-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://unicef.github.io/inventory/meta/needs-assessment-template/</loc>
     <lastmod>2021-01-25T15:47:03-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://unicef.github.io/inventory/hardware/projects/</loc>
     <lastmod>2020-04-22T12:54:33-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://unicef.github.io/inventory/foss/reading-list-foss/</loc>
     <lastmod>2020-10-22T09:01:20-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://unicef.github.io/inventory/documentation/text-editors/</loc>
     <lastmod>2020-08-17T16:35:00-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://unicef.github.io/inventory/foss/reading-list-legal/</loc>
     <lastmod>2020-10-22T09:00:05-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://unicef.github.io/inventory/meta/templates/</loc>
+    <lastmod>2021-03-16T13:43:53-04:00</lastmod>
+  </url><url>
     <loc>https://unicef.github.io/inventory/communities/public-lab/</loc>
     <lastmod>2020-08-28T20:18:37-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://unicef.github.io/inventory/categories/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://unicef.github.io/inventory/communities/</loc>
     <lastmod>2020-08-28T20:18:37-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://unicef.github.io/inventory/design/</loc>
     <lastmod>2020-08-28T16:51:57-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://unicef.github.io/inventory/dev-tools/</loc>
     <lastmod>2020-07-07T11:55:05-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://unicef.github.io/inventory/documentation/</loc>
     <lastmod>2020-08-17T16:35:00-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://unicef.github.io/inventory/foss/</loc>
     <lastmod>2020-04-13T18:15:26-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://unicef.github.io/inventory/faq/</loc>
     <lastmod>2021-01-15T20:57:27-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://unicef.github.io/inventory/meta/</loc>
     <lastmod>2020-10-05T10:19:27-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://unicef.github.io/inventory/missions/</loc>
     <lastmod>2020-04-14T17:32:54-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://unicef.github.io/inventory/hardware/</loc>
     <lastmod>2020-12-07T16:29:14-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://unicef.github.io/inventory/project-management/</loc>
     <lastmod>2020-07-03T10:41:30-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://unicef.github.io/inventory/reproducibility/</loc>
     <lastmod>2020-04-13T18:15:26-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://unicef.github.io/inventory/tags/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://unicef.github.io/inventory/</loc>
-    <lastmod>2021-02-08T21:10:01-05:00</lastmod>
+    <lastmod>2021-03-16T13:43:53-04:00</lastmod>
   </url>
-  
 </urlset>
