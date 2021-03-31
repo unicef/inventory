@@ -1,0 +1,45 @@
+---
+title: "Community Management Reading List"
+weight: 30
+
+---
+
+This page is a reading list of resources about project management, product development, and community management.
+It is a catch-all reading list for anything related to supporting the humans behind the Open Source projects.
+While there are many resources on these topics around the web, this reading list focuses specifically on an Open Source perspective.
+If you are familiar with the role of a developer advocate, there is some overlap between the responsibilities of that type of position.
+
+
+== Foundations
+
+* [Open Source Guides](https://opensource.guide/) - _curated by GitHub_
+    * Covers a broad range of topics and concepts to allow you to focus in on specific areas
+* [Introduction to Open Source](https://www.digitalocean.com/community/tutorial_series/an-introduction-to-open-source) - _Digital Ocean_
+* [Frequently asked questions about open source](https://opensource.com/resources) - _Opensource.com_
+
+
+== Defining strategy
+
+* https://opensource.com/article/17/9/demystifying-open-source-product-strategy[6 steps to perfecting an Open Source product strategy] - _https://twitter.com/laserllama[Michael DeHaan]_
+* https://www.linuxfoundation.org/blog/2018/11/a-free-guide-for-setting-your-open-source-strategy/[A Free Guide for Setting Your Open Source Strategy] - _Linux Foundation_
+* https://producingoss.com/[Producing Open Source Software] - _Karl Fogel_
+  (*includes resources on almost all major topics*)
+* https://www.linuxfoundation.org/resources/open-source-guides/setting-an-open-source-strategy/[Setting an Open Source Strategy] - _Linux Foundation_
+
+
+== Managing in the open
+
+* https://robinpowered.com/blog/best-practice-system-for-organizing-and-tagging-github-issues/[How we organize GitHub issues: A simple styleguide for tagging] - _link:https://github.com/zachdunn[Zach Dunn (@zachdunn)]_
+* (_video_) [Have It Your Way: Maximizing Drive-Thru Contributions](https://archive.org/details/ato2017-drivethru) - _VM Brasseur [@vmbrasseur](https://github.com/vmbrasseur)_
+
+
+== Methodologies
+
+* https://opensource.com/article/18/6/agile-vision-consider[Why (some) agile teams fail] - _https://github.com/mrry550[Jen Krieger (@mrry550)]_
+
+
+== Additional readings
+
+* (_book_) [Forge Your Future with Open Source](https://fossforge.com/) - _VM Brasseur [@vmbrasseur](https://github.com/vmbrasseur)_
+    * This is an excellent peer-reviewed book about building and growing FOSS projects and a community around the project.
+      It is well worth the $20 USD cost.
