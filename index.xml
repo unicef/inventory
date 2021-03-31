@@ -36,6 +36,24 @@
     </item>
     
     <item>
+      <title>AI Ethics &amp; Transparency Roadmap - Template</title>
+      <link>https://unicef.github.io/inventory/data/milestone-roadmap/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unicef.github.io/inventory/data/milestone-roadmap/</guid>
+      <description>This is your at a glance version of the document. Details and resources are below.
+  Milestone 1: Understanding the Data Flow
+ Data Ecosystem Map
+  Information Sharing Protocol
+     Milestone 2: Understanding the Algorithm
+ Dataset Structure
+  Common Traps Mitigations
+     Milestone 3: Sharing the Model
+ Model Card Created
+      Understanding Data Flow   Primary Goal: Create documentation that ensures you know what data you’re using and how you plan on sharing it.</description>
+    </item>
+    
+    <item>
       <title>Business sustainability for Open Source</title>
       <link>https://unicef.github.io/inventory/foss/business-sustainability/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -187,6 +205,23 @@ Conventions &amp;amp; standards  Open Know-How Manifest Specification: &amp;ldqu
     </item>
     
     <item>
+      <title>Machine Learning Model Card</title>
+      <link>https://unicef.github.io/inventory/data/model-card/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unicef.github.io/inventory/data/model-card/</guid>
+      <description>The following is an editable version of the model card proposed in arxiv.org/abs/1810.03993.
+ Model details Basic information about the model.
+   Person or organization developing model
+  Date of last update
+  Model version
+  Model type (information about training algorithms, parameters, fairness constraints or other applied approaches, and features)
+  Paper or other resource for more information
+  Citation details
+  License</description>
+    </item>
+    
+    <item>
       <title>Project boards</title>
       <link>https://unicef.github.io/inventory/project-management/project-boards/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -205,6 +240,27 @@ The following topics are covered:</description>
       <description>This page defines and provides examples of Open Source governance. This includes Open Source project governance models, examples of other projects, frameworks for decision-making, and more.
  This page is a work-in-progress. Check back later for future additions.
  What is Open Source governance? The phrase &amp;#34;Open Source governance&amp;#34; generally refers to the decision-making model or documented process for how an Open Source project makes decisions. Sustainable governance is essential if an Open Source project will last, especially if it involves multiple stakeholders and collaborators.</description>
+    </item>
+    
+    <item>
+      <title>Common traps to avoid when building AI systems</title>
+      <link>https://unicef.github.io/inventory/data/traps/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unicef.github.io/inventory/data/traps/</guid>
+      <description>Assessing common mistakes that lead to unintended side effects.
+ Framing Trap Failure to model the entire system over which a social criterion, such as fairness, will be enforced.
+ For this trap, we will want to look at our outcome variables. Are these variables a proxy of the actual outcome you wish to achieve? What evidence of existing negative bias currently exists with regards to these variables?
+   Portability Trap Failure to understand how repurposing algorithmic solutions designed for one social context may be misleading, inaccurate, or otherwise do harm when applied to a different context.</description>
+    </item>
+    
+    <item>
+      <title>Community Management Reading List</title>
+      <link>https://unicef.github.io/inventory/project-management/reading-list/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unicef.github.io/inventory/project-management/reading-list/</guid>
+      <description>This page is a reading list of resources about project management, product development, and community management. It is a catch-all reading list for anything related to supporting the humans behind the Open Source projects. While there are many resources on these topics around the web, this reading list focuses specifically on an Open Source perspective. If you are familiar with the role of a developer advocate, there is some overlap between the responsibilities of that type of position.</description>
     </item>
     
     <item>
@@ -230,16 +286,6 @@ Documentation  Licensing and documentation: Learning material provided by Open H
     </item>
     
     <item>
-      <title>Reading List</title>
-      <link>https://unicef.github.io/inventory/project-management/reading-list/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://unicef.github.io/inventory/project-management/reading-list/</guid>
-      <description>This is a reading list of resources around project management and product development. While there are many resources on these topics around the web, this reading list focuses specifically on an open source perspective.
-Defining strategy  6 steps to perfecting an open source product strategy - Michael DeHaan A Free Guide for Setting Your Open Source Strategy - Linux Foundation Producing Open Source Software - Karl Fogel (includes resources on almost all major topics) Setting an Open Source Strategy - Linux Foundation  Managing in the open  How we organize GitHub issues: A simple styleguide for tagging - Zach Dunn @zachdunn  Methodologies  Why (some) agile teams fail - Jen Krieger @mrry550  </description>
-    </item>
-    
-    <item>
       <title>Reading list</title>
       <link>https://unicef.github.io/inventory/documentation/reading-list/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -248,7 +294,7 @@ Defining strategy  6 steps to perfecting an open source product strategy - Micha
       <description>Various readings on a variety of different topics related to different kinds of documentation.
  Basics   How to write effective documentation for your open source project: Documentation quality can make the difference in people trying your project or passing it by.
   What is good documentation for software projects?: Mixing experienced tech writers with open source communities reveals new approaches for creating better docs.
-   Español   Documenta tu proyecto con README.</description>
+  Your step-by-step guide to more effective documentation - Lauri Apple (@LappleApple)</description>
     </item>
     
     <item>
@@ -340,6 +386,17 @@ Businesses &amp;amp; companies  Adafruit Industries Aleph Objects: Makers of Lul
   Review frequently-used resources (i.e. UNICEF Open Source Inventory &amp;amp; evaluation rubric)
   Needs assessment (Q&amp;amp;A)
   Open source strategy (12-month vision, 1-month action plan)</description>
+    </item>
+    
+    <item>
+      <title>Outreach reading list</title>
+      <link>https://unicef.github.io/inventory/foss/reading-list-outreach/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unicef.github.io/inventory/foss/reading-list-outreach/</guid>
+      <description>This reading list focuses on ways to promote and share your Open Source project with the world. Generally these resources are more helpful once you have built up the foundation for your Open Source project. You should have a game plan for community management in place before spending time on outreach.
+   What success really looks like in Open Source - Nadia Eghbal @nayafia
+   </description>
     </item>
     
     <item>

@@ -27,13 +27,12 @@ The following topics are covered:</description>
     </item>
     
     <item>
-      <title>Reading List</title>
+      <title>Community Management Reading List</title>
       <link>https://unicef.github.io/inventory/project-management/reading-list/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://unicef.github.io/inventory/project-management/reading-list/</guid>
-      <description>This is a reading list of resources around project management and product development. While there are many resources on these topics around the web, this reading list focuses specifically on an open source perspective.
-Defining strategy  6 steps to perfecting an open source product strategy - Michael DeHaan A Free Guide for Setting Your Open Source Strategy - Linux Foundation Producing Open Source Software - Karl Fogel (includes resources on almost all major topics) Setting an Open Source Strategy - Linux Foundation  Managing in the open  How we organize GitHub issues: A simple styleguide for tagging - Zach Dunn @zachdunn  Methodologies  Why (some) agile teams fail - Jen Krieger @mrry550  </description>
+      <description>This page is a reading list of resources about project management, product development, and community management. It is a catch-all reading list for anything related to supporting the humans behind the Open Source projects. While there are many resources on these topics around the web, this reading list focuses specifically on an Open Source perspective. If you are familiar with the role of a developer advocate, there is some overlap between the responsibilities of that type of position.</description>
     </item>
     
   </channel>
