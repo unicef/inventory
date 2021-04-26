@@ -1,7 +1,7 @@
 ################################# Default configuration ###################
 baseURL = "https://unicef.github.io/inventory/"
 title = "UNICEF O.S. Inventory"
-theme = "dot"
+theme = "inventory"
 enableEmoji = true
 enableGitInfo = true
 
