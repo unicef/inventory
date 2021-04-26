@@ -17,6 +17,11 @@ The information here can be applied generally to Open Source projects.
 This repository also includes an inventory of Innovation Fund companies and their Open Source intellectual property.
 
 
+## Contributing
+
+See [CONTRIBUTING.md](https://github.com/unicef/inventory/blob/main/.github/CONTRIBUTING.md "UNICEF Open Source Inventory contributing guidelines").
+
+
 ## Legal
 
 Licensed under [Creative Commons Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0).
