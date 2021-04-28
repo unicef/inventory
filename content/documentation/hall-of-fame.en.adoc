@@ -42,6 +42,9 @@ These examples show projects that offer clear and concise documentation for deve
 * *Medium to large projects*:
 ** https://docs.mongodb.com/manual/[MongoDB]
 ** https://laravel.com/docs/[Laravel]
+** https://google.github.io/mediapipe/[*Google MediaPipe*]:
+   MediaPipe offers cross-platform, customizable ML solutions for live and streaming media.
+   MediaPipe documentation clearly explains what MediaPipe is, its strongest benefits as a tool for developers, and helpful information to start using it.
 
 * *Large project*:
   https://jupyterlab.readthedocs.io/en/latest/developer/repo.html[JupyterLab]
