@@ -1,10 +1,14 @@
-################################# Default configuration ###################
+################################# Base configuration ###################
 baseURL = "https://unicef.github.io/inventory/"
 title = "UNICEF O.S. Inventory"
 theme = "inventory"
 enableEmoji = true
 enableGitInfo = true
 
+# Google Analytics
+googleAnalytics = "" # paste your analytics ID here. (Ex: UA-123-45)
+
+# Allow unsafe HTML
 [markup.goldmark.renderer]
 unsafe = true
 
@@ -93,6 +97,11 @@ hasChildren = true
 # Need to replace with SVG logo
 #logo = "favicon.ico"
 
+# OpenGraph / Twitter Card metadata
+description = "UNICEF Open Source Inventory. A knowledge base of best practices and resources for working Open."
+author = "Justin W. Flory, UNICEF Office of Innovation, and others"
+image = "img/UN072995.jpg"
+
 # customize color
 primary_color = "#00BDF2"
 body_color = "#e0e4e8"
@@ -113,16 +122,18 @@ contact_form_action = "#"
 
 [[params.social]]
 icon = "ti-github"
+name = "UNICEF Open Source Inventory on GitHub"
 link = "https://github.com/unicef/inventory"
 
 [[params.social]]
 icon = "ti-twitter"
+name = "@UNICEFinnovate on Twitter"
 link = "https://twitter.com/UNICEFinnovate"
 
 
 ################################ English Language ######################
 [Languages.en]
-languageName = "En"
+languageName = "en"
 languageCode = "en-us"
 weight = 1
 home = "Home"
