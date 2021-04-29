@@ -47,12 +47,14 @@ Linus Torvalds, the lead developer of Linux, asserts that the https://www.youtub
 Some Software Freedom activists believe the GPLv3 did not actually close the "Tivoization" loophole.
 https://en.wikipedia.org/wiki/Bradley_M._Kuhn[Bradley M. Kuhn], Policy Fellow and Hacker-in-Residence of the Software Freedom Conservancy, notes challenges on this issue in spite of the GPLv3.
 
-[quote,Bradley M. Kuhn]
+[quote,Bradley M. Kuhn,role="user-quote"]
 ____
 The narrative about addressing [Tivoization] in GPLv3 was centered around the first discussion draft, but no one ever made the case (rather they made the assumption) that "scripts used to install" wouldn't include everything that GPLv3 Installation Information requires.
 If you look at Draft 1 of GPLv3, you see the Installation Information definition is substantially broader.
 So, a question to ask at the end of the GPLv3 process, when looking at the final draft, is "Is there anything in GPLv3's definition of Installation Information that would not be required to produce as a 'script used to control installation'"?
 That's an open question [and] people disagree.
+
+image::https://upload.wikimedia.org/wikipedia/commons/c/c1/Bradley_M._Kuhn.jpg[Bradley Kuhn]
 ____
 
 
