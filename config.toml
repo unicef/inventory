@@ -146,6 +146,19 @@ subtitle = "A UNICEF Global Innovation knowledge base of best practices and reso
 bg_image = "img/banner.jpg"
 placeholder = "Have a question? Search the site here."
 
+[Languages.es]
+languageName = "es"
+languageCode = "es-mx"
+weight = 2
+home = "Página principal"
+copyright = "Creative Commons BY-SA 4.0"
+
+# banner
+[Languages.es.params.banner]
+title = "Inventario de Open Source de UNICEF"
+subtitle = "Una base de conocimientos de innovación mundial del UNICEF sobre mejores prácticas y recursos para trabajar y dirigir Open."
+bg_image = "img/banner.jpg"
+placeholder = "¿Tienes una pregunta? Busque en el sitio aquí."
 
 [markup]
 [markup.highlight]
