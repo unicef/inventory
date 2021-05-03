@@ -3,6 +3,7 @@ title: "Frontier technology tips"
 weight: 10
 description: A summary of Andrew Burden's DevConf 2020 talk about best practices for documenting emerging technology.
 tags: ["innovation"]
+categories: "documentation"
 
 ---
 

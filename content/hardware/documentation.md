@@ -3,7 +3,7 @@ title: Documentation
 weight: 20
 description: How does documentation work for Open Source Hardware? This page provides a brief introduction.
 tags: ["reading list"]
-
+categories: "hardware"
 ---
 
 This page offers information and resources about documenting Open Hardware projects.

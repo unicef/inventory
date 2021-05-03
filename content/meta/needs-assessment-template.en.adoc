@@ -3,7 +3,7 @@ title: "Needs assessment interview template"
 weight: 50
 description: Interview template for UNICEF mentors when meeting a team for the first time.
 tags: ["tools"]
-
+categories: "meta"
 ---
 
 This document is an interview template for needs assessments with https://unicefinnovationfund.org/[UNICEF Innovation Fund] cohorts in Open Source induction calls.

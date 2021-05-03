@@ -3,7 +3,7 @@ title: "Issue templates"
 weight: 10
 description: An introduction to issue templates for new Open Source project or community managers.
 tags: ["community"]
-
+categories: "project-management"
 ---
 
 This guide is an introduction to *issue templates* in an Open Source project.
