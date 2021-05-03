@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>template on UNICEF O.S. Inventory</title>
+    <link>https://unicef.github.io/inventory/tags/template/</link>
+    <description>Recent content in template on UNICEF O.S. Inventory</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Creative Commons BY-SA 4.0</copyright><atom:link href="https://unicef.github.io/inventory/tags/template/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI Ethics &amp; Transparency Roadmap - Template</title>
+      <link>https://unicef.github.io/inventory/data/milestone-roadmap/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unicef.github.io/inventory/data/milestone-roadmap/</guid>
+      <description>This is your at a glance version of the document. Details and resources are below.
+  Milestone 1: Understanding the Data Flow
+ Data Ecosystem Map
+  Information Sharing Protocol
+     Milestone 2: Understanding the Algorithm
+ Dataset Structure
+  Common Traps Mitigations
+     Milestone 3: Sharing the Model
+ Model Card Created
+      Understanding Data Flow   Primary Goal: Create documentation that ensures you know what data you’re using and how you plan on sharing it.</description>
+    </item>
+    
+    <item>
+      <title>Machine Learning Model Card</title>
+      <link>https://unicef.github.io/inventory/data/model-card/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unicef.github.io/inventory/data/model-card/</guid>
+      <description>The following is an editable version of the model card proposed in arxiv.org/abs/1810.03993.
+ Model details Basic information about the model.
+   Person or organization developing model
+  Date of last update
+  Model version
+  Model type (information about training algorithms, parameters, fairness constraints or other applied approaches, and features)
+  Paper or other resource for more information
+  Citation details
+  License</description>
+    </item>
+    
+  </channel>
+</rss>

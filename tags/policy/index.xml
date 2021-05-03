@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>policy on UNICEF O.S. Inventory</title>
+    <link>https://unicef.github.io/inventory/tags/policy/</link>
+    <description>Recent content in policy on UNICEF O.S. Inventory</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Creative Commons BY-SA 4.0</copyright><atom:link href="https://unicef.github.io/inventory/tags/policy/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Governance</title>
+      <link>https://unicef.github.io/inventory/foss/governance/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unicef.github.io/inventory/foss/governance/</guid>
+      <description>This page defines and provides examples of Open Source governance. This includes Open Source project governance models, examples of other projects, frameworks for decision-making, and more.
+ This page is a work-in-progress. Check back later for future additions.
+ What is Open Source governance? The phrase &amp;#34;Open Source governance&amp;#34; generally refers to the decision-making model or documented process for how an Open Source project makes decisions. Sustainable governance is essential if an Open Source project will last, especially if it involves multiple stakeholders and collaborators.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>legal on UNICEF O.S. Inventory</title>
+    <link>https://unicef.github.io/inventory/tags/legal/</link>
+    <description>Recent content in legal on UNICEF O.S. Inventory</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Creative Commons BY-SA 4.0</copyright><atom:link href="https://unicef.github.io/inventory/tags/legal/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Modules</title>
+      <link>https://unicef.github.io/inventory/meta/modules/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unicef.github.io/inventory/meta/modules/</guid>
+      <description>The UNICEF Open Source Mentorship programme offers multiple learning modules and mentorship topics. This page provides an overview of the different modules currently offered through the Open Source Mentorship programme.
+  Offered modules
+ Legal &amp;amp; Licensing: Foundations of Open Source intellectual property
+  Launching your Open Source project
+  Open Source documentation
+  Continuous Integration for continuous contribution
+  Archetypes: Shape and size of Open Source over time</description>
+    </item>
+    
+    <item>
+      <title>Contributor License Agreements (CLAs)</title>
+      <link>https://unicef.github.io/inventory/foss/contributor-license-agreement-cla/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unicef.github.io/inventory/foss/contributor-license-agreement-cla/</guid>
+      <description>Originally authored by Mike Nolan, edited and maintained by Justin W. Flory.
+This page introduces Contributor License Agreements (shortened C.L.As) in open source projects.
+What are they for? Contributor License Agreements (CLAs) are often used in open source projects to form a legal agreement between an individual or company and a project maintainer. This agreement usually includes a waiver of copyright (although not always) as well as the right to patent their contribution.</description>
+    </item>
+    
+    <item>
+      <title>GPLv2 vs. GPLv3</title>
+      <link>https://unicef.github.io/inventory/foss/gpl-comparison/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unicef.github.io/inventory/foss/gpl-comparison/</guid>
+      <description>The information shared on this page does not constitute legal or financial advice.
+ This page provides an interpretation of the key differences between v2 and v3 of the GNU Public License, or G.P.L. The key differences are summarized in each section below.
+ Why update? Stallman’s objection to Tivoization In the early 2000s, American corporation TiVo Inc. was criticized by the Free Software community for their popular digital video recorder (DVR) product.</description>
+    </item>
+    
+    <item>
+      <title>Licensing</title>
+      <link>https://unicef.github.io/inventory/hardware/licensing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unicef.github.io/inventory/hardware/licensing/</guid>
+      <description>This page collects information, resources, and other details about Open Hardware licensing.
+Documentation  Licensing and documentation: Learning material provided by Open Hardware Leaders program. Goal of material is to acquire best practices for hardware documentation and understand the different open licensing options available. Includes an explanation video and other helpful links.  Licenses There are two generally accepted Open Hardware licenses:
+ CERN Open Hardware Licence TAPR Open Hardware License  Each can come with its own strategy.</description>
+    </item>
+    
+  </channel>
+</rss>

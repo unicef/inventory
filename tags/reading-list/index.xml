@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>reading list on UNICEF O.S. Inventory</title>
+    <link>https://unicef.github.io/inventory/tags/reading-list/</link>
+    <description>Recent content in reading list on UNICEF O.S. Inventory</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Creative Commons BY-SA 4.0</copyright><atom:link href="https://unicef.github.io/inventory/tags/reading-list/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Design &amp; UX Reading List</title>
+      <link>https://unicef.github.io/inventory/design/reading-list/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unicef.github.io/inventory/design/reading-list/</guid>
+      <description>Various readings and learnings about design. Usually with some kind of Open Source overlap or context.
+   Trauma &amp;amp; design PubPub: Some basic definitions key to understanding the relationship between trauma and design. Maintained by Katherine Hepworth, Kat Lo, Eriol Fox, and Soraya O.
+   </description>
+    </item>
+    
+    <item>
+      <title>Reproducibility reading list</title>
+      <link>https://unicef.github.io/inventory/reproducibility/reading-list/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unicef.github.io/inventory/reproducibility/reading-list/</guid>
+      <description> A Guide to Reproducible Code: A guide written by scientists, for scientists, on creating reproducible code. Includes topics like A simple reproducible project workflow, Organising projects for reproducibility, Reproducible reports, and more. Edited by Natalie Cooper and Pen-Yuan Hsing. Featuring contributions from Mike Croucher, Laura Graham, Tamora James, Anna Krystalli, and François Michonneau.  </description>
+    </item>
+    
+    <item>
+      <title>Documentation</title>
+      <link>https://unicef.github.io/inventory/hardware/documentation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unicef.github.io/inventory/hardware/documentation/</guid>
+      <description>This page offers information and resources about documenting Open Hardware projects.
+Conventions &amp;amp; standards  Open Know-How Manifest Specification: &amp;ldquo;The objective of this specification is to improve the open-ness of know-how for making hardware by improving the discoverability, portability and translatability of knowledge.&amp;rdquo; Provides a format and specification for how to document and release Open Hardware projects and design schematics.  </description>
+    </item>
+    
+    <item>
+      <title>Community Management Reading List</title>
+      <link>https://unicef.github.io/inventory/project-management/reading-list/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unicef.github.io/inventory/project-management/reading-list/</guid>
+      <description>This page is a reading list of resources about project management, product development, and community management. It is a catch-all reading list for anything related to supporting the humans behind the Open Source projects. While there are many resources on these topics around the web, this reading list focuses specifically on an Open Source perspective. If you are familiar with the role of a developer advocate, there is some overlap between the responsibilities of that type of position.</description>
+    </item>
+    
+    <item>
+      <title>Reading list</title>
+      <link>https://unicef.github.io/inventory/documentation/reading-list/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unicef.github.io/inventory/documentation/reading-list/</guid>
+      <description>Various readings on a variety of different topics related to different kinds of documentation.
+ Basics   How to write effective documentation for your open source project: Documentation quality can make the difference in people trying your project or passing it by.
+  What is good documentation for software projects?: Mixing experienced tech writers with open source communities reveals new approaches for creating better docs.
+  Your step-by-step guide to more effective documentation - Lauri Apple (@LappleApple)</description>
+    </item>
+    
+    <item>
+      <title>Open Hardware reading list</title>
+      <link>https://unicef.github.io/inventory/hardware/reading-list/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unicef.github.io/inventory/hardware/reading-list/</guid>
+      <description>A collection of various readings and articles related to Open Hardware.
+Legal and Business Aspects  Emerging Business Models for Open Source Hardware: Many ideas on open hardware business models. Focuses more narrowly for science use cases, but still a helpful perspective. Free Innovation, Eric von Hippel Why public institutions should release more of their hardware designs as Open-Source Hardware: Opinion article from the open hardware initiator at CERN, Javier Serrano.</description>
+    </item>
+    
+    <item>
+      <title>Reading list: FOSS</title>
+      <link>https://unicef.github.io/inventory/foss/reading-list-foss/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unicef.github.io/inventory/foss/reading-list-foss/</guid>
+      <description>Readings on a variety of topics about Free &amp;amp; Open Source Software.
+ Foundations   Four Freedoms of Free Software: Before understanding anything else about Open Source, you must first understand the core foundation of what decades of Open Source development built upon: the Four Freedoms. The Four Freedoms can be remembered as the freedoms to Read, Run, Revise, &amp;amp; Redistribute. This article from Free Software Foundation Europe explains more about the essential four freedoms guaranteed by all users of Open Source technology.</description>
+    </item>
+    
+    <item>
+      <title>Reading List: Legal &amp; Business Aspects</title>
+      <link>https://unicef.github.io/inventory/foss/reading-list-legal/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unicef.github.io/inventory/foss/reading-list-legal/</guid>
+      <description>This reading list is a collection of resources on legal and business aspects of open source. Legal and business aspects of an open source project are part of the foundation for building your project and community. The resources linked here are intended to give you a better idea of open source from a legal perspective.
+ Foundations   The Open Source Definition (Annotated) - Open Source Initiative
+  Open Source Licenses by Name - Open Source Initiative</description>
+    </item>
+    
+    <item>
+      <title>Outreach reading list</title>
+      <link>https://unicef.github.io/inventory/foss/reading-list-outreach/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unicef.github.io/inventory/foss/reading-list-outreach/</guid>
+      <description>This reading list focuses on ways to promote and share your Open Source project with the world. Generally these resources are more helpful once you have built up the foundation for your Open Source project. You should have a game plan for community management in place before spending time on outreach.
+   What success really looks like in Open Source - Nadia Eghbal @nayafia
+   </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>design on UNICEF O.S. Inventory</title>
+    <link>https://unicef.github.io/inventory/tags/design/</link>
+    <description>Recent content in design on UNICEF O.S. Inventory</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Creative Commons BY-SA 4.0</copyright><atom:link href="https://unicef.github.io/inventory/tags/design/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Machine Learning Model Card</title>
+      <link>https://unicef.github.io/inventory/data/model-card/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unicef.github.io/inventory/data/model-card/</guid>
+      <description>The following is an editable version of the model card proposed in arxiv.org/abs/1810.03993.
+ Model details Basic information about the model.
+   Person or organization developing model
+  Date of last update
+  Model version
+  Model type (information about training algorithms, parameters, fairness constraints or other applied approaches, and features)
+  Paper or other resource for more information
+  Citation details
+  License</description>
+    </item>
+    
+    <item>
+      <title>Common traps to avoid when building AI systems</title>
+      <link>https://unicef.github.io/inventory/data/traps/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unicef.github.io/inventory/data/traps/</guid>
+      <description>Assessing common mistakes that lead to unintended side effects.
+ Framing Trap Failure to model the entire system over which a social criterion, such as fairness, will be enforced.
+ For this trap, we will want to look at our outcome variables. Are these variables a proxy of the actual outcome you wish to achieve? What evidence of existing negative bias currently exists with regards to these variables?
+   Portability Trap Failure to understand how repurposing algorithmic solutions designed for one social context may be misleading, inaccurate, or otherwise do harm when applied to a different context.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -94,7 +94,7 @@ This Mission is a short exercise on understanding how Codes of Conduct fit into 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://unicef.github.io/inventory/dev-tools/continuous-integration/</guid>
-      <description>This guide is an introduction to Continuous Integration (C.I.) for open source projects. In this guide, you will learn about the following topics:
+      <description>This guide is an introduction to Continuous Integration (C.I.) for Open Source projects. In this guide, you will learn about the following topics:
  What is CI and why does it matter? CI platforms Tips and tricks Examples Other resources  What is CI and why does it matter? Continuous Integration can be a few different things. However, for the open source context, think of CI as the tool or platform which runs a code test suite.</description>
     </item>
     
@@ -308,7 +308,7 @@ Legal and Business Aspects  Emerging Business Models for Open Source Hardware: M
     </item>
     
     <item>
-      <title>Fedora</title>
+      <title>Fedora Project</title>
       <link>https://unicef.github.io/inventory/communities/fedora/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       

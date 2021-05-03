@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>innovation on UNICEF O.S. Inventory</title>
+    <link>https://unicef.github.io/inventory/tags/innovation/</link>
+    <description>Recent content in innovation on UNICEF O.S. Inventory</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Creative Commons BY-SA 4.0</copyright><atom:link href="https://unicef.github.io/inventory/tags/innovation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Frontier technology tips</title>
+      <link>https://unicef.github.io/inventory/documentation/frontier-tech-tips/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unicef.github.io/inventory/documentation/frontier-tech-tips/</guid>
+      <description>This is a summary of a talk, &amp;#34;Uncharted waters: Documenting emerging technology&amp;#34;. It was given at DevConf 2020 in Brno, Czech Republic by Andrew Burden.
+ Video      Abstract  We can’t help but feel the lure towards the hot new thing, especially when it comes to technology. Part of that lure is the breaking of ground, venturing into the unknown, and working on solutions to new problems.</description>
+    </item>
+    
+  </channel>
+</rss>

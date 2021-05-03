@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>community on UNICEF O.S. Inventory</title>
+    <link>https://unicef.github.io/inventory/tags/community/</link>
+    <description>Recent content in community on UNICEF O.S. Inventory</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Creative Commons BY-SA 4.0</copyright><atom:link href="https://unicef.github.io/inventory/tags/community/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Codes of Conduct</title>
+      <link>https://unicef.github.io/inventory/missions/codes-of-conduct/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unicef.github.io/inventory/missions/codes-of-conduct/</guid>
+      <description>Flory, Justin W.
+
+This Mission is a short exercise on understanding how Codes of Conduct fit into your Open Source community. In designing a Code of Conduct for a project community, we will explore these Requirements for this Mission:
+ Quality of writing Clarity of expectations Defined structure for handling enforcement Two to four people responsible for handling sensitive reports Use an existing Code of Conduct instead of writing one yourself References  Quality of writing A Code of Conduct is an international document.</description>
+    </item>
+    
+    <item>
+      <title>Issue templates</title>
+      <link>https://unicef.github.io/inventory/project-management/issue-templates/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unicef.github.io/inventory/project-management/issue-templates/</guid>
+      <description>This guide is an introduction to issue templates in an Open Source project. While this guide is customized to GitHub, the advice provided here is general and can be applied to other collaboration platforms that offer templating. By the end of this guide, you will have a basic understanding of why issue templates are important and how to set up effective templates for your project. This guide is complementary to an agile or scrum workflow, if your team already uses one of these methods of project management.</description>
+    </item>
+    
+    <item>
+      <title>Good first issues</title>
+      <link>https://unicef.github.io/inventory/missions/good-first-issue/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unicef.github.io/inventory/missions/good-first-issue/</guid>
+      <description>Flory, Justin W.
+    This Mission is a guide to making &amp;#34;good first issues&amp;#34; (shortened to G.F.I.&amp;#39;s) for your Open Source community. To create good GFIs, we will explore these Objectives for this Mission:
+  GFIs exist
+  Assignee ratio
+  Simple language
+  Actionable
+  Purpose
+  Deadlines
+  Low committment
+  References
+   GFIs exist The first requirement to having good GFIs is to… create GFIs!</description>
+    </item>
+    
+    <item>
+      <title>Project boards</title>
+      <link>https://unicef.github.io/inventory/project-management/project-boards/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unicef.github.io/inventory/project-management/project-boards/</guid>
+      <description>This guide is an introduction to project boards for your open source project. By the end of this guide, you will have a basic understanding of how to run project planning in an open, transparent way to your community. What this guide is NOT is a guide to agile/scrum development. You should have a basic understanding of agile, scrum, and/or kanban before reading this article.
+The following topics are covered:</description>
+    </item>
+    
+  </channel>
+</rss>

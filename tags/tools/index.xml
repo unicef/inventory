@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>tools on UNICEF O.S. Inventory</title>
+    <link>https://unicef.github.io/inventory/tags/tools/</link>
+    <description>Recent content in tools on UNICEF O.S. Inventory</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Creative Commons BY-SA 4.0</copyright><atom:link href="https://unicef.github.io/inventory/tags/tools/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Needs assessment interview template</title>
+      <link>https://unicef.github.io/inventory/meta/needs-assessment-template/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unicef.github.io/inventory/meta/needs-assessment-template/</guid>
+      <description>This document is an interview template for needs assessments with UNICEF Innovation Fund cohorts in Open Source induction calls. The needs assessment is a tool to collect background and context for each team’s experience and familiarity with open source. It also builds understanding for participation in existing open source communities. This template provides structure and guidance on what to ask to any team at the beginning of an Open Source Mentorship program.</description>
+    </item>
+    
+    <item>
+      <title>Text editors</title>
+      <link>https://unicef.github.io/inventory/documentation/text-editors/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unicef.github.io/inventory/documentation/text-editors/</guid>
+      <description>This page is focused on educational resources, not strictly comparisons of editors.
+ Vim   Interactive Vim tutorial: An interactive tutorial with several sections of common Vim actions.
+  VimGolf: Various take-home challenges of various actions in Vim to be completed in as few keystrokes as possible.
+  Game: Vim Adventures, an adventure game that helps you learn Vim as you play.
+     </description>
+    </item>
+    
+    <item>
+      <title>Templates for programme mentors</title>
+      <link>https://unicef.github.io/inventory/meta/templates/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unicef.github.io/inventory/meta/templates/</guid>
+      <description>This page is a copy-paste template of various templates I use for Open Source Mentorship meetings. I use these for my private notes about each team’s progress.
+ Induction agenda template   Agenda:
+  Introductions
+  Offer to record call
+  Review O.S. Terms of Reference
+  Review frequently-used resources (i.e. UNICEF Open Source Inventory &amp;amp; evaluation rubric)
+  Needs assessment (Q&amp;amp;A)
+  Open source strategy (12-month vision, 1-month action plan)</description>
+    </item>
+    
+  </channel>
+</rss>
