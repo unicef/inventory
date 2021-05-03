@@ -1,6 +1,8 @@
 ---
 title: "Good first issues"
 weight: 20
+description: Embark on a mission to enable new contributors to your Open Source project with Good First Issues (GFIs).
+tags: ["community"]
 
 ---
 

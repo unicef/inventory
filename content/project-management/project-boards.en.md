@@ -1,6 +1,8 @@
 ---
 title: "Project boards"
 weight: 20
+description: An introduction to project/kanban boards for new Open Source project or community managers.
+tags: ["community"]
 
 ---
 

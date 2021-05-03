@@ -1,6 +1,8 @@
 ---
 title: "Open Hardware reading list"
 weight: 40
+description: Various readings and learnings about Open Source Hardware that do not belong on another page.
+tags: ["reading list"]
 
 ---
 

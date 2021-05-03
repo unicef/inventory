@@ -1,7 +1,8 @@
 ---
 title: "Reproducibility reading list"
-type: "post"
 weight: 10
+description: Various readings and learnings about reproducibility in an Open Source context.
+tags: ["reading list"]
 
 ---
 

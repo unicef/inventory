@@ -1,6 +1,8 @@
 ---
 title: Governance
 weight: 25
+description: Best practices and examples of governance in real Open Source projects.
+tags: ["policy"]
 
 ---
 

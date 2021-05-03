@@ -1,6 +1,8 @@
 ---
 title: "Common traps to avoid when building AI systems"
 weight: 30
+description: Assessing common AI/ML mistakes that lead to unintended side effects.
+tags: ["design"]
 
 ---
 _Assessing common mistakes that lead to unintended side effects._
