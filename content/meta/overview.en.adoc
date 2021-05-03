@@ -3,6 +3,7 @@ title: "Open Source Mentorship programme overview"
 weight: 1
 description: An introduction to the UNICEF Open Source Mentorship programme. Hosted by the Office of Innovation.
 tags: []
+categories: "meta"
 
 ---
 // document settings

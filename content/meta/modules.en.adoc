@@ -3,6 +3,7 @@ title: "Modules"
 weight: 10
 description: Overview of learning modules currently offered through the UNICEF Open Source Mentorship programme.
 tags: ["docs", "legal", "testing"]
+categories: "meta"
 
 ---
 // document settings
