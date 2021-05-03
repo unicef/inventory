@@ -1,6 +1,8 @@
 ---
 title: "Community Management Reading List"
 weight: 30
+description: Various readings and learnings about community management in an Open Source context.
+tags: ["reading list"]
 
 ---
 

@@ -1,6 +1,8 @@
 ---
-title: "Public Lab"
+title: Public Lab
 weight: 100
+description: Public Lab is a community and a non-profit, democratizing science to address environmental issues that affect people.
+tags: ["citizen science", "environment"]
 
 ---
 

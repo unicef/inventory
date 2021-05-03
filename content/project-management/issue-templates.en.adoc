@@ -1,6 +1,8 @@
 ---
 title: "Issue templates"
 weight: 10
+description: An introduction to issue templates for new Open Source project or community managers.
+tags: ["community"]
 
 ---
 

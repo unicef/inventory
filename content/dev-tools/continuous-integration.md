@@ -1,10 +1,12 @@
 ---
 title: "Continuous Integration (CI)"
 weight: 10
+description: An introduction to creating a Continuous Integration (CI) pipeline for an Open Source project.
+tags: ["testing"]
 
 ---
 
-This guide is an introduction to Continuous Integration (C.I.) for open source projects.
+This guide is an introduction to Continuous Integration (C.I.) for Open Source projects.
 In this guide, you will learn about the following topics:
 
 1. What is CI and why does it matter?

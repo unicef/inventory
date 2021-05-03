@@ -1,6 +1,8 @@
 ---
 title: Licensing
 weight: 30
+description: Information, resources, and details about common licenses used for Open Source Hardware projects.
+tags: ["legal"]
 
 ---
 

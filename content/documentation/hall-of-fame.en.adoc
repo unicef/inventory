@@ -1,6 +1,8 @@
 ---
 title: Documentation Hall of Fame
 weight: 20
+description: Real examples of Open Source projects with excellent documentation.
+tags: ["hall of fame"]
 
 ---
 :toc:
