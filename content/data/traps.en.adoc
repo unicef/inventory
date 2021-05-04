@@ -6,6 +6,7 @@ tags: ["design"]
 
 ---
 _Assessing common mistakes that lead to unintended side effects._
+Information summarized from https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3265913[_Fairness and Abstraction in Sociotechnical Systems_], a paper published at the 2019 ACM Conference on Fairness, Accountability, and Transparency.
 
 
 == Framing Trap
@@ -51,3 +52,14 @@ _Failure to recognize the possibility that the best solution to a problem may no
 Will this technology elevate social values which can be quantified?
 Will it devalue those which cannot?
 What values might take a back seat if this technology is implemented?
+
+
+== Attributions
+
+Thanks to the publishers of the https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3265913[original paper]:
+
+* *Andrew D. Selbst* (UCLA School of Law)
+* *Danah Boyd* (Data & Society Research Institute; Microsoft Research)
+* *Sorelle Friedler* (Haverford College)
+* *Suresh Venkatasubramanian* (University of Utah)
+* *Janet Vertesi* (Princeton University)
