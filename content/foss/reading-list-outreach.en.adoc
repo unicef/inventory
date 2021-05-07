@@ -3,6 +3,7 @@ title: "Outreach reading list"
 weight: 70
 description: Various readings and learnings about outreach and marketing in an Open Source context.
 tags: ["reading list"]
+categories: "foss"
 
 ---
 

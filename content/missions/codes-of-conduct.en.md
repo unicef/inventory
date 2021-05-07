@@ -3,7 +3,7 @@ title: "Codes of Conduct"
 weight: 10
 description: Embark on a mission to add a Code of Conduct to your Open Source community.
 tags: ["community"]
-
+categories: "missions"
 ---
 
 **Flory, Justin W.**

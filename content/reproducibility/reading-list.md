@@ -3,7 +3,7 @@ title: "Reproducibility reading list"
 weight: 10
 description: Various readings and learnings about reproducibility in an Open Source context.
 tags: ["reading list"]
-
+categories: "reproducibility"
 ---
 
 * [A Guide to Reproducible Code](https://www.britishecologicalsociety.org/wp-content/uploads/2019/06/BES-Guide-Reproducible-Code-2019.pdf):

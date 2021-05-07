@@ -3,7 +3,7 @@ title: Case studies
 weight: 10
 description: Detailed case studies and analysis of different Open Hardware organizations, projects, and products.
 tags: ["hall of fame"]
-
+categories: "hardware"
 ---
 
 Below are more detailed case studios of different Open Hardware organizations, projects, and products.

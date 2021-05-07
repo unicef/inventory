@@ -116,6 +116,8 @@ font_family = "Open+Sans"
 # contact form action (works with https://formspree.io)
 contact_form_action = "#"
 
+# related article number limit
+article_count = 3
 
 ############################## Social links ##############################
 # themify icon pack : https://themify.me/themify-icons
@@ -145,3 +147,8 @@ title = "UNICEF Open Source Inventory"
 subtitle = "A UNICEF Global Innovation knowledge base of best practices and resources for working and leading Open."
 bg_image = "img/banner.jpg"
 placeholder = "Have a question? Search the site here."
+
+
+############################## Related Articles #############################
+[taxonomies]
+  category = "categories"

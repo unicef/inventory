@@ -3,6 +3,7 @@ title: "Continuous Integration (CI)"
 weight: 10
 description: An introduction to creating a Continuous Integration (CI) pipeline for an Open Source project.
 tags: ["testing"]
+categories: "dev-tools"
 
 ---
 
