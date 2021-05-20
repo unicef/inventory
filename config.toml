@@ -6,7 +6,7 @@ enableEmoji = true
 enableGitInfo = true
 
 # Google Analytics
-googleAnalytics = "" # paste your analytics ID here. (Ex: UA-123-45)
+googleAnalytics = "G-80FMX4TPM0"
 
 # Allow unsafe HTML
 [markup.goldmark.renderer]
