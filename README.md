@@ -1,6 +1,11 @@
 [inventory](https://unicef.github.io/inventory/)
 ================================================
 
+<!--
+    Style rule: one sentence per line please!
+    This makes git diffs easier to read. :)
+-->
+
 [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0)
 [![Build Status](https://circleci.com/gh/unicef/inventory/tree/main.svg?style=shield)](https://app.circleci.com/pipelines/github/unicef/inventory?branch=main)
 
@@ -20,6 +25,7 @@ This repository also includes an inventory of Innovation Fund companies and thei
 ## Contributing
 
 See [CONTRIBUTING.md](https://github.com/unicef/inventory/blob/main/.github/CONTRIBUTING.md "UNICEF Open Source Inventory contributing guidelines").
+See the [maintainer's guide](https://unicef.github.io/inventory/meta/maintainers-guide/ "Maintainer's guide for O.S. Inventory") for more information about how this repository is managed and governed.
 
 
 ## Legal

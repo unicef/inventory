@@ -26,15 +26,15 @@ Please make a best effort to follow these conventions at all times, unless there
 
 All issue and pull request labels belong to one of the meta-categories of labels below:
 
-. *_C_omponent*:
+. *_C_ omponent*:
   Used for indicating what component, or part, of the applications is related.
   In a large project, there are different kinds of components that exist together in a repository.
   The UNICEF Open Source Inventory includes content management, front-end code, and back-end code.
   Usually indicates what kind of maintainer is needed to move forward.
-. *_I_nclusion*:
+. *_I_ nclusion*:
   Used for community inclusion topics.
   Issues or pull requests tagged with inclusion labels typically impact the contribution workflow and other people working on the project.
-. *_T_ype*:
+. *_T_ ype*:
   What types of issues and pull requests do we get?
   These labels indicate whether something _new_ is added or if improvements are made to existing components.
 . *_X_*:
