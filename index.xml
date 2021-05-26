@@ -129,6 +129,16 @@ This Mission is a short exercise on understanding how Codes of Conduct fit into 
     </item>
     
     <item>
+      <title>Maintainer&#39;s guide for O.S. Inventory</title>
+      <link>https://unicef.github.io/inventory/meta/maintainers-guide/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unicef.github.io/inventory/meta/maintainers-guide/</guid>
+      <description>This document is a maintainer’s guide for the UNICEF Open Source Inventory. Yes, this very site! This guide covers key information and helpful resources, as well as best practices when maintaining the O.S. Inventory.
+ Contribution conventions This section explains contribution conventions for the Open Source Inventory. These are common conventions that all contributors are asked to make when contributing to this repository. Please make a best effort to follow these conventions at all times, unless there is a justified reason to break convention.</description>
+    </item>
+    
+    <item>
       <title>Modules</title>
       <link>https://unicef.github.io/inventory/meta/modules/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
