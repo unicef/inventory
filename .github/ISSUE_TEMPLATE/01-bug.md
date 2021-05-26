@@ -2,8 +2,8 @@
 name: Bug report
 about: 'Notice something wrong? Open a bug report to help us investigate.'
 title: '[HUGO] '
-labels: bug, needs triage
-assignees: 'jwflory'
+labels: ['T: bug', '?: needs triage']
+assignees: ''
 
 ---
 

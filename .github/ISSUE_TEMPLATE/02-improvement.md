@@ -2,8 +2,8 @@
 name: Improvement to existing functionality
 about: 'Suggest an improvement to something that already exists.'
 title: '[HUGO] '
-labels: improvement, needs triage
-assignees: 'jwflory'
+labels: ['T: improvement', '?: needs triage']
+assignees: ''
 
 ---
 

@@ -3,6 +3,7 @@ name: Content improvements, suggestions, corrections
 about: 'Anything to do with the information published on the site itself should use this template. Unrelated to website UI/UX and features.'
 title: '[CONTENT] '
 labels: documentation, needs triage
+labels: ['C: content', '?: needs triage']
 assignees: 'jwflory'
 
 ---

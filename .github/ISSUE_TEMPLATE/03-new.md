@@ -2,8 +2,8 @@
 name: New feature request
 about: 'Bring creative new ideas for something we have not seen before here. This template helps you propose a new idea for the project.'
 title: '[HUGO] '
-labels: needs triage, new change
-assignees: 'jwflory'
+labels: ['T: new change', '?: needs triage']
+assignees: ''
 
 ---
 
