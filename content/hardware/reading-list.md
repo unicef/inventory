@@ -9,6 +9,22 @@ tags: ["reading list"]
 A collection of various readings and articles related to Open Hardware.
 
 
+## Innovation
+
+* [**How Low and Middle-Income Countries Are Innovating to Combat Covid**](https://hbr.org/2021/06/how-low-and-middle-income-countries-are-innovating-to-combat-covid), _HBR.org_, 9 June 2021:
+  "One-fifth of the innovative solutions to fight the Covid-19 pandemic have emerged from low and middle-income countries, and these responses offer promising insights for how we think about, manage, and enable innovation.
+  As the international community now faces the historic challenge of vaccinating the world, more attention and resources must be directed to the innovators who are developing technically novel, contextually relevant, and socially inclusive alternatives to mainstream innovation management practices."
+
+> For example, innovators in low- and middle-income countries have developed numerous solutions that rely almost entirely on off-the-shelf parts that can be found in hardware stores.
+> One example that quickly reached the Indian market is the AgVa portable ventilator, which:
+>
+> * Doesn’t need an oxygen supply (it oxygenates room air)
+> * Builds on the computational power of mobile phones and a dedicated app
+> * Weighs a fraction of typical commercial ventilators, making it easily portable
+> * Has open-source specifications, making it adaptable for use in other countries and contexts
+> * Costs less than a tenth of conventional ventilators and can be produced much more quickly.
+
+
 ## Legal and Business Aspects
 
 * [Emerging Business Models for Open Source Hardware](https://openhardware.metajnl.com/articles/10.5334/joh.4/):
