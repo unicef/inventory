@@ -11,11 +11,11 @@ A collection of various readings and articles related to Open Hardware.
 
 == Innovation
 
-* https://hbr.org/2021/06/how-low-and-middle-income-countries-are-innovating-to-combat-covid[*How Low and Middle-Income Countries Are Innovating to Combat Covid*], _HBR.org_, 9 June 2021:
+* https://hbr.org/2021/06/how-low-and-middle-income-countries-are-innovating-to-combat-covid[*How Low and Middle-Income Countries Are Innovating to Combat Covid*], _HBR.org_:
   "One-fifth of the innovative solutions to fight the Covid-19 pandemic have emerged from low and middle-income countries, and these responses offer promising insights for how we think about, manage, and enable innovation.
   As the international community now faces the historic challenge of vaccinating the world, more attention and resources must be directed to the innovators who are developing technically novel, contextually relevant, and socially inclusive alternatives to mainstream innovation management practices."
 
-[quote, hbr.org, Published 9 June 2021, Rights reserved to Harvard Business Review]
+[quote, hbr.org, Published 9 June 2021 - copyright Harvard Business Review and shared under Fair Use or §107 Copyright Law of the United States (Title 17)]
 ____
 For example, innovators in low- and middle-income countries have developed numerous solutions that rely almost entirely on off-the-shelf parts that can be found in hardware stores.
 One example that quickly reached the Indian market is the AgVa portable ventilator, which:
