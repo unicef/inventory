@@ -74,8 +74,7 @@ The git submodule must be updated from the content repository.
 
 The shell commands below were tested with the git command line client, version 2.31 or later:
 
-[source,sh]
-----
+{{< highlight bash "linenos=table,hl_lines=8 15-17,linenostart=1" >}}
 git submodule update --remote --rebase
 cd themes/inventory/
 git fetch
@@ -83,7 +82,7 @@ git checkout <latest commit hash>
 cd ../../
 git add themes/inventory
 git commit --signoff
-----
+{{< / highlight >}}
 
 [[conventions-priorities]]
 === How development decisions are prioritized
