@@ -145,3 +145,18 @@ title = "UNICEF Open Source Inventory"
 subtitle = "A UNICEF Global Innovation knowledge base of best practices and resources for working and leading Open."
 bg_image = "img/banner.jpg"
 placeholder = "Have a question? Search the site here."
+
+
+[markup]
+[markup.highlight]
+anchorLineNos = false
+codeFences = true
+guessSyntax = false
+hl_Lines = ''
+lineAnchors = ''
+lineNoStart = 1
+lineNos = false
+lineNumbersInTable = true
+noClasses = true
+style = 'murphy'
+tabWidth = 4
