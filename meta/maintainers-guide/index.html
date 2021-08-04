@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <title>Maintainer&#39;s guide for O.S. Inventory</title>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <meta name="generator" content="Hugo 0.86.0" />
+  <meta name="generator" content="Hugo 0.86.1" />
   <meta name="description" content="Maintainer&#39;s guide for O.S. Inventory - UNICEF O.S. Inventory ">
   
   <!-- ** CSS Plugins Needed for the Project ** -->
@@ -97,7 +97,7 @@ if (!doNotTrack) {
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://unicef.github.io/inventory/meta/maintainers-guide/" /><meta property="article:section" content="meta" />
 
-<meta property="article:modified_time" content="2021-05-26T14:59:36-04:00" />
+<meta property="article:modified_time" content="2021-08-04T17:45:53+01:00" />
 
 
 <meta name="twitter:card" content="summary"/>
@@ -490,15 +490,26 @@ The git submodule must be updated from the content repository.</p>
 <div class="paragraph">
 <p>The shell commands below were tested with the git command line client, version 2.31 or later:</p>
 </div>
-<div class="listingblock">
-<div class="content">
-<pre class="highlight"><code class="language-sh" data-lang="sh">git submodule update --remote --rebase
-cd themes/inventory/
+<div class="paragraph">
+<div class="highlight"><div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">5
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">6
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">7
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git submodule update --remote --rebase
+<span style="color:#072">cd</span> themes/inventory/
 git fetch
 git checkout &lt;latest commit hash&gt;
-cd ../../
+<span style="color:#072">cd</span> ../../
 git add themes/inventory
-git commit --signoff</code></pre>
+git commit --signoff</code></pre></td></tr></table>
+</div>
 </div>
 </div>
 </div>
@@ -640,7 +651,7 @@ Hugo templates are context-aware and make a large number of values available as 
 </div>
 </div>
           
-          <p class="post-meta border-bottom pb-3 mb-0 mt-3">Updated on 26 May 2021</p>
+          <p class="post-meta border-bottom pb-3 mb-0 mt-3">Updated on 04 Aug 2021</p>
           <nav class="pagination mt-3">
             
             
