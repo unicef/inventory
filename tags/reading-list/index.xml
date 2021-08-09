@@ -24,7 +24,8 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://unicef.github.io/inventory/reproducibility/reading-list/</guid>
-      <description> A Guide to Reproducible Code: A guide written by scientists, for scientists, on creating reproducible code. Includes topics like A simple reproducible project workflow, Organising projects for reproducibility, Reproducible reports, and more. Edited by Natalie Cooper and Pen-Yuan Hsing. Featuring contributions from Mike Croucher, Laura Graham, Tamora James, Anna Krystalli, and François Michonneau.  </description>
+      <description>  A Guide to Reproducible Code: A guide written by scientists, for scientists, on creating reproducible code. Includes topics like A simple reproducible project workflow, Organising projects for reproducibility, Reproducible reports, and more. Edited by Natalie Cooper and Pen-Yuan Hsing. Featuring contributions from Mike Croucher, Laura Graham, Tamora James, Anna Krystalli, and François Michonneau.
+   </description>
     </item>
     
     <item>
@@ -34,7 +35,8 @@
       
       <guid>https://unicef.github.io/inventory/hardware/documentation/</guid>
       <description>This page offers information and resources about documenting Open Hardware projects.
-Conventions &amp;amp; standards  Open Know-How Manifest Specification: &amp;ldquo;The objective of this specification is to improve the open-ness of know-how for making hardware by improving the discoverability, portability and translatability of knowledge.&amp;rdquo; Provides a format and specification for how to document and release Open Hardware projects and design schematics.  </description>
+ Conventions &amp;amp; standards   Open Know-How Manifest Specification: &amp;#34;The objective of this specification is to improve the open-ness of know-how for making hardware by improving the discoverability, portability and translatability of knowledge.&amp;#34; Provides a format and specification for how to document and release Open Hardware projects and design schematics.
+     </description>
     </item>
     
     <item>

@@ -97,7 +97,7 @@ if (!doNotTrack) {
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://unicef.github.io/inventory/dev-tools/continuous-integration/" /><meta property="article:section" content="dev-tools" />
 
-<meta property="article:modified_time" content="2021-05-03T11:15:05-04:00" />
+<meta property="article:modified_time" content="2021-08-09T05:53:26-04:00" />
 
 
 <meta name="twitter:card" content="summary"/>
@@ -288,103 +288,231 @@ if (!doNotTrack) {
           <div class="p-lg-5 p-4 bg-white">
             <h2 class="mb-5">Continuous Integration (CI)</h2>
             
-            <div class="content"><p>This guide is an introduction to Continuous Integration (C.I.) for Open Source projects.
+            <div class="content"><div class="paragraph">
+<p>This guide is an introduction to Continuous Integration (C.I.) for Open Source projects.
 In this guide, you will learn about the following topics:</p>
-<ol>
-<li>What is CI and why does it matter?</li>
-<li>CI platforms</li>
-<li>Tips and tricks</li>
-<li>Examples</li>
-<li>Other resources</li>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p><a href="#what-why">What is CI and why does it matter?</a></p>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p><a href="#tests-vs-ci">Tests vs. CI</a></p>
+</li>
+<li>
+<p><a href="#benefits">Benefits</a></p>
+</li>
 </ol>
-<h2 id="what-is-ci-and-why-does-it-matter">What is CI and why does it matter?</h2>
+</div>
+</li>
+<li>
+<p><a href="#platforms">CI platforms</a></p>
+</li>
+<li>
+<p><a href="#tips">Tips and tricks</a></p>
+</li>
+<li>
+<p><a href="#examples">Examples</a></p>
+</li>
+<li>
+<p><a href="#resources">Other resources</a></p>
+</li>
+</ol>
+</div>
+<div class="sect1">
+<h2 id="what-why">What is CI and why does it matter?</h2>
+<div class="sectionbody">
+<div class="paragraph">
 <p>Continuous Integration can be a few different things.
 However, for the open source context, think of CI as the tool or platform which runs a code test suite.
-A CI platform will run an open source project&rsquo;s code test suite and report the test results back in real-time.
+A CI platform will run an open source project’s code test suite and report the test results back in real-time.
 You can even get this feedback before adding new code into a project.</p>
-<h3 id="tests-vs-ci">Tests vs. CI</h3>
+</div>
+<div class="sect2">
+<h3 id="tests-vs-ci">Tests vs. CI</h3>
+<div class="paragraph">
 <p>It is important to distinguish code test suites from CI platforms.</p>
+</div>
+<div class="paragraph">
 <p>A code test suite usually means the <strong>actual tests</strong> themselves.
 The tests might use a framework like <a href="https://docs.pytest.org/">Pytest</a>, <a href="https://github.com/google/googletest/">Google Test</a>, <a href="https://golang.org/pkg/testing/">go test</a>, <a href="https://mochajs.org/">Mocha</a>, <a href="https://rspec.info/">RSpec</a>, or one of countless others.
 When the test suite is run, it provides some kind of guarantee that the code shipped works as designed and as it should.</p>
+</div>
+<div class="paragraph">
 <p>CI platforms can be simple or complex.
-At their simplest, they are &ldquo;wrappers&rdquo; for the code test suite.
+At their simplest, they are &#34;wrappers&#34; for the code test suite.
 A <strong>CI job</strong> sets up the infrastructure and environment needed for the software, and then runs the code test suite.</p>
+</div>
+<div class="paragraph">
 <p>So, in a way, a CI platform is a tool to automate running your code test suite and allows you to integrate test results into the development process.</p>
+</div>
+</div>
+<div class="sect2">
 <h3 id="benefits">Benefits</h3>
+<div class="paragraph">
 <p>Using a CI platform provides benefits both for agile software development <em>and</em> open source.</p>
+</div>
+<div class="paragraph">
 <p>For agile software development, a CI platform enables developers to get real-time feedback about whether new changes are compatible with existing code in the project.
 Before code gets added, a developer gets a green flag or a red flag for the results of the test suite.
 Developers will be able to avoid common human errors and mistakes in their code before they are added.</p>
+</div>
+<div class="paragraph">
 <p>The open source view is both practical and also psychological:</p>
-<ol>
-<li><em>Practical</em>:
-New contributors or team members can use a test suite to avoid making common mistakes while learning a new codebase.</li>
-<li><em>Psychological</em>:
-Open source contributors are more confident to make changes because there is a safety net, in case there are unexpected side effects from their changes.</li>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p><em>Practical</em>:
+New contributors or team members can use a test suite to avoid making common mistakes while learning a new codebase.</p>
+</li>
+<li>
+<p><em>Psychological</em>:
+Open source contributors are more confident to make changes because there is a safety net, in case there are unexpected side effects from their changes.</p>
+</li>
 </ol>
+</div>
+<div class="paragraph">
 <p>The practical benefits apply equally to your core team members and outside contributors.
 In a <strong>Pull Request</strong>, a CI platform will post the test results into the Pull Request.
 A developer or core team member will know immediately whether the test suite is still working, or if their changes may have introduced new bugs.</p>
+</div>
+<div class="paragraph">
 <p>The psychological benefits are more focused towards anyone (new team members or outside contributors) who are still new to the project.
 It is difficult for someone to step up and decide to contribute to an open source project!
 A test suite and CI platform makes it easier by letting a new contributor be bold in making new changes, provided the test suite still passes at the end.
 The contributor can run the test suite locally before they propose their changes to the project.</p>
-<h2 id="ci-platforms">CI platforms</h2>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="platforms">CI platforms</h2>
+<div class="sectionbody">
+<div class="paragraph">
 <p>There are many different CI platforms available.
 Which one is best for you depends on your specific needs, what features are available, and what kinds of third-party integrations you need.
 This guide will not cover them all, but here are some of the most popular ones:</p>
+</div>
+<div class="ulist">
 <ul>
-<li><a href="https://travis-ci.org/">Travis CI</a></li>
-<li><a href="https://circleci.com/">Circle CI</a></li>
-<li><a href="https://github.com/features/actions">GitHub Actions</a></li>
-<li><a href="https://docs.gitlab.com/ee/ci/">GitLab CI</a></li>
-<li><a href="https://www.jenkins.io/">Jenkins</a> (powerful, but notoriously difficult to set up)</li>
+<li>
+<p><a href="https://circleci.com/">Circle CI</a></p>
+</li>
+<li>
+<p><a href="https://github.com/features/actions">GitHub Actions</a></p>
+</li>
+<li>
+<p><a href="https://docs.gitlab.com/ee/ci/">GitLab CI</a></p>
+</li>
+<li>
+<p><a href="https://www.jenkins.io/">Jenkins</a>
+(powerful, but notoriously difficult to set up)</p>
+</li>
+<li>
+<p><a href="https://travis-ci.org/">Travis CI</a></p>
+</li>
 </ul>
-<p>Note that all of these platforms have generous no-cost plans for software released under open source licenses.
-However, usually you will have to pay if using CI on a private or hidden repository.</p>
-<p>Additionally, all of these platforms have extensive documentation.
-Read up on their docs to learn more!</p>
-<h2 id="tips-and-tricks">Tips and tricks</h2>
+</div>
+<div class="paragraph">
+<p>Note many of these platforms have no-cost plans for software released under open source licenses.
+However, usually you will have to pay if using CI on a private or hidden repository.
+Additionally, all of these platforms have extensive documentation. Read up on their docs to learn more!</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="tips">Tips and tricks</h2>
+<div class="sectionbody">
+<div class="paragraph">
 <p>This is a short list of tips, tricks, and common traps to avoid when integrating CI into your project:</p>
-<ol>
-<li><strong>All changes should be Pull Requests</strong>:
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p><strong>All changes should be Pull Requests</strong>:
 To get the most benefit out of a CI tool, all changes to your codebase should be made via a Pull Request.
-No committing directly to <code>master</code> or <code>production</code>!</li>
-<li><strong>Use caching for faster builds</strong>:
+No committing directly to <code>master</code> or <code>production</code>!</p>
+</li>
+<li>
+<p><strong>Use caching for faster builds</strong>:
 All CI platforms usually have some kind of caching feature, if configured.
-Especially for larger projects, this can lead to huge speed-ups with how long your test suite takes to run.</li>
-<li><strong>Block new changes from merging if tests fail</strong>:
+Especially for larger projects, this can lead to huge speed-ups with how long your test suite takes to run.</p>
+</li>
+<li>
+<p><strong>Block new changes from merging if tests fail</strong>:
 If your test suite reports back with errors, do not add the proposed code into the main codebase.
 Fix the code for the tests first, and then add the changes.
 If you must make a one-time exception, do not delay in fixing your tests as soon as possible.
-Otherwise, developers might ignore them altogether (even for valid tests).</li>
-<li><strong>Keep writing tests</strong>:
+Otherwise, developers might ignore them altogether (even for valid tests).</p>
+</li>
+<li>
+<p><strong>Keep writing tests</strong>:
 As long as you are writing new code, you should also be writing new tests.
-Remember, the benefits of CI will not be realized if you are not consistently testing your code.</li>
+Remember, the benefits of CI will not be realized if you are not consistently testing your code.</p>
+</li>
 </ol>
+</div>
+</div>
+</div>
+<div class="sect1">
 <h2 id="examples">Examples</h2>
+<div class="sectionbody">
+<div class="paragraph">
 <p>Need some examples of projects using a Continuous Integration pipeline?
 Check out some of the examples below!</p>
+</div>
+<div class="ulist">
 <ul>
-<li>(Go) <strong>proton-bridge</strong>:
-<a href="https://github.com/ProtonMail/proton-bridge">git repo</a>, <a href="https://github.com/ProtonMail/proton-bridge/blob/5348ae7d183da194bd3f051ca723ca2efb99da7a/.gitlab-ci.yml">GitLab CI config</a>, <a href="https://github.com/ProtonMail/proton-bridge/blob/5348ae7d183da194bd3f051ca723ca2efb99da7a/.golangci.yml">golang-ci config</a></li>
-<li>(Go) <strong>TeleIRC</strong>:
-<a href="https://github.com/RITlug/teleirc">git repo</a>, <a href="https://github.com/RITlug/teleirc/blob/master/.travis.yml">Travis CI config</a>, <a href="https://travis-ci.org/github/RITlug/teleirc">Travis CI builds</a></li>
-<li>(Python) <strong>datanommer</strong>:
-<a href="https://github.com/fedora-infra/datanommer">git repo</a>, <a href="https://github.com/fedora-infra/datanommer/blob/develop/.travis.yml">Travis CI config</a>, <a href="https://travis-ci.org/github/fedora-infra/datanommer">Travis CI builds</a></li>
-<li>(Ruby) <strong>fossrit.github.io</strong>:
-<a href="https://github.com/FOSSRIT/fossrit.github.io">git repo</a>, <a href="https://github.com/FOSSRIT/fossrit.github.io/blob/master/.travis.yml">Travis CI config</a>, <a href="https://travis-ci.org/github/FOSSRIT/fossrit.github.io">Travis CI builds</a></li>
-</ul>
-<h2 id="other-resources">Other resources</h2>
-<p>Curious to know more?
-The resources below explain other concepts about Continuous Integration in greater detail:</p>
-<ul>
-<li><a href="https://codeship.com/continuous-integration-essentials">Continuous Integration Essentials</a> - <em>Codeship</em></li>
+<li>
+<p>(Go) <strong>proton-bridge</strong>:
+<a href="https://github.com/ProtonMail/proton-bridge">git repo</a>,
+<a href="https://github.com/ProtonMail/proton-bridge/blob/5348ae7d183da194bd3f051ca723ca2efb99da7a/.gitlab-ci.yml">GitLab CI config</a>,
+<a href="https://github.com/ProtonMail/proton-bridge/blob/5348ae7d183da194bd3f051ca723ca2efb99da7a/.golangci.yml">golang-ci config</a></p>
+</li>
+<li>
+<p>(Go) <strong>TeleIRC</strong>:
+<a href="https://github.com/RITlug/teleirc">git repo</a>,
+<a href="https://github.com/RITlug/teleirc/blob/master/.travis.yml">Travis CI config</a>,
+<a href="https://travis-ci.org/github/RITlug/teleirc">Travis CI builds</a></p>
+</li>
+<li>
+<p>(Python) <strong>datanommer</strong>:
+<a href="https://github.com/fedora-infra/datanommer">git repo</a>,
+<a href="https://github.com/fedora-infra/datanommer/blob/develop/.travis.yml">Travis CI config</a>,
+<a href="https://travis-ci.org/github/fedora-infra/datanommer">Travis CI builds</a></p>
+</li>
+<li>
+<p>(Ruby) <strong>fossrit.github.io</strong>:
+<a href="https://github.com/FOSSRIT/fossrit.github.io">git repo</a>,
+<a href="https://github.com/FOSSRIT/fossrit.github.io/blob/master/.travis.yml">Travis CI config</a>,
+<a href="https://travis-ci.org/github/FOSSRIT/fossrit.github.io">Travis CI builds</a></p>
+</li>
 </ul>
 </div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="resources">Other resources</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Curious to know more?
+The resources below explain other concepts about Continuous Integration in greater detail:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="https://codeship.com/continuous-integration-essentials">Continuous Integration Essentials</a> - <em>Codeship</em></p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
             
-            <p class="post-meta border-bottom pb-3 mb-0 mt-3">Updated on 03 May 2021</p>
+            <p class="post-meta border-bottom pb-3 mb-0 mt-3">Updated on 09 Aug 2021</p>
             <nav class="pagination mt-3">
               
               

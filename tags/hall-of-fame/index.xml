@@ -14,9 +14,9 @@
       
       <guid>https://unicef.github.io/inventory/hardware/case-studies/</guid>
       <description>Below are more detailed case studios of different Open Hardware organizations, projects, and products. Unlike the Projects page, these examples are more detailed and provide more context.
-Opentrons Scientific-focused hardware.
- Several highly successful and well-regarded biology/chemistry lab automation robots. By going 100% open source, they substantially reduced costs. Their products&#39; prices sometimes undercuts competition by 10x. They also acquired venture capital (V.C.) funding.
-Having worked in biology labs myself, I can attest to how revolutionary their open source business model is.</description>
+ Opentrons Scientific-focused hardware.
+  Several highly successful and well-regarded biology/chemistry lab automation robots. By going 100% open source, they substantially reduced costs. Their products’ prices sometimes undercuts competition by 10x. They also acquired venture capital (V.C.) funding.
+ Having worked in biology labs myself, I can attest to how revolutionary their open source business model is.</description>
     </item>
     
     <item>
@@ -38,8 +38,9 @@ Having worked in biology labs myself, I can attest to how revolutionary their op
       
       <guid>https://unicef.github.io/inventory/hardware/projects/</guid>
       <description>This page collects various Open Hardware projects. These projects are not officially endorsed, but are listed here as a convenience to generate a list of examples for reference. For more detailed overviews, see the Case Studies page.
-Check out the list of certified hardware from the Open Source Hardware Association for more inspiration.
-Businesses &amp;amp; companies  Adafruit Industries Aleph Objects: Makers of LulzBot family of 3D printers. Purchased by Fargo Additive Manufacturing Equipment 3D in 2019.</description>
+ Check out the list of certified hardware from the Open Source Hardware Association for more inspiration.
+ Businesses &amp;amp; companies   Adafruit Industries
+  Aleph Objects: Makers of LulzBot family of 3D printers.</description>
     </item>
     
   </channel>
