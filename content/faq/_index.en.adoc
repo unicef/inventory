@@ -3,6 +3,8 @@ title: "Frequently Asked Questions"
 
 ---
 
+// The content written in the FAQ blocks is only parsed as Markdown! 💀
+
 {{< faq "How is content on this site licensed?" >}}
 Licensed under [Creative Commons Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/).
 Not a lawyer?
@@ -18,14 +20,13 @@ Provided you meet the following terms:
 * **Attribution**:
   You must give appropriate credit, provide a link to the license, and indicate if changes were made.
   You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
-* **ShareAlike**:
+* **Share-Alike**:
   If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.
 * **No additional restrictions**:
   You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.
 {{</ faq >}}
 
 {{< faq "Is this site open source?" >}}
-Yes.
-You can find it on GitHub.
+Yes. You can find it on GitHub.
 [github.com/unicef/inventory](https://github.com/unicef/inventory)
 {{</ faq >}}
