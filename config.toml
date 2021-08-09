@@ -1,4 +1,4 @@
-################################# Base configuration ###################
+############################# Base configuration #############################
 baseURL = "https://unicef.github.io/inventory/"
 title = "UNICEF O.S. Inventory"
 theme = "inventory"
@@ -13,7 +13,7 @@ googleAnalytics = "G-80FMX4TPM0"
 unsafe = true
 
 
-################################# Navigation ################################
+############################# Navigation #############################
 [[menu.main]]
 weight = 10
 name = "FAQ"
@@ -92,7 +92,7 @@ hasChildren = true
     weight = 110
 
 
-############################# Default parameters ##########################
+############################# Default parameters #############################
 [params]
 # Need to replace with SVG logo
 #logo = "favicon.ico"
@@ -117,7 +117,7 @@ font_family = "Open+Sans"
 contact_form_action = "#"
 
 
-############################## Social links ##############################
+############################# Social links #############################
 # themify icon pack : https://themify.me/themify-icons
 
 [[params.social]]
@@ -131,7 +131,26 @@ name = "@UNICEFinnovate on Twitter"
 link = "https://twitter.com/UNICEFinnovate"
 
 
-################################ English Language ######################
+############################# Highlight syntax for code blocks #############################
+[markup]
+[markup.highlight]
+anchorLineNos = false
+codeFences = true
+guessSyntax = false
+hl_Lines = ''
+lineAnchors = ''
+lineNoStart = 1
+lineNos = false
+lineNumbersInTable = true
+noClasses = true
+style = 'murphy'
+tabWidth = 4
+
+#######################################################################################
+#                             Multilingual configurations                             #
+#######################################################################################
+
+############################# English #############################
 [Languages.en]
 languageName = "en"
 languageCode = "en-us"
@@ -146,6 +165,8 @@ subtitle = "A UNICEF Global Innovation knowledge base of best practices and reso
 bg_image = "img/banner.jpg"
 placeholder = "Have a question? Search the site here."
 
+
+############################# Español / Spanish #############################
 [Languages.es]
 languageName = "es"
 languageCode = "es-mx"
@@ -159,17 +180,3 @@ title = "Inventario de Open Source de UNICEF"
 subtitle = "Una base de conocimientos de innovación mundial del UNICEF sobre mejores prácticas y recursos para trabajar y dirigir Open."
 bg_image = "img/banner.jpg"
 placeholder = "¿Tienes una pregunta? Busque en el sitio aquí."
-
-[markup]
-[markup.highlight]
-anchorLineNos = false
-codeFences = true
-guessSyntax = false
-hl_Lines = ''
-lineAnchors = ''
-lineNoStart = 1
-lineNos = false
-lineNumbersInTable = true
-noClasses = true
-style = 'murphy'
-tabWidth = 4
