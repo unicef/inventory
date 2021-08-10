@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>documentation on UNICEF O.S. Inventory</title>
+    <link>https://unicef.github.io/inventory/categories/documentation/</link>
+    <description>Recent content in documentation on UNICEF O.S. Inventory</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Creative Commons BY-SA 4.0</copyright><atom:link href="https://unicef.github.io/inventory/categories/documentation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Frontier technology tips</title>
+      <link>https://unicef.github.io/inventory/documentation/frontier-tech-tips/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unicef.github.io/inventory/documentation/frontier-tech-tips/</guid>
+      <description>This is a summary of a talk, &amp;#34;Uncharted waters: Documenting emerging technology&amp;#34;. It was given at DevConf 2020 in Brno, Czech Republic by Andrew Burden.
+ Video      Abstract  We can’t help but feel the lure towards the hot new thing, especially when it comes to technology. Part of that lure is the breaking of ground, venturing into the unknown, and working on solutions to new problems.</description>
+    </item>
+    
+    <item>
+      <title>Documentation Hall of Fame</title>
+      <link>https://unicef.github.io/inventory/documentation/hall-of-fame/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unicef.github.io/inventory/documentation/hall-of-fame/</guid>
+      <description>This page is a collection of good examples of Open Source documentation projects. The projects and examples listed here are not endorsements. It is a collection of good examples to inspire your own Open Source documentation!
+ Aggregations The projects listed below aggregate several existing documentation projects:
+   Awesome Documentation: Community-curated resource with examples of great documentation in Open Source projects.
+  Awesome Docs with Static Site Generators: This repo is suppose to give you a bunch of links to themes or ready implementations of documentation portals.</description>
+    </item>
+    
+    <item>
+      <title>Reading list</title>
+      <link>https://unicef.github.io/inventory/documentation/reading-list/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unicef.github.io/inventory/documentation/reading-list/</guid>
+      <description>Various readings on a variety of different topics related to different kinds of documentation.
+ Basics   How to write effective documentation for your open source project: Documentation quality can make the difference in people trying your project or passing it by.
+  What is good documentation for software projects?: Mixing experienced tech writers with open source communities reveals new approaches for creating better docs.
+  Your step-by-step guide to more effective documentation - Lauri Apple (@LappleApple)</description>
+    </item>
+    
+    <item>
+      <title>Text editors</title>
+      <link>https://unicef.github.io/inventory/documentation/text-editors/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unicef.github.io/inventory/documentation/text-editors/</guid>
+      <description>This page is focused on educational resources, not strictly comparisons of editors.
+ Vim   Interactive Vim tutorial: An interactive tutorial with several sections of common Vim actions.
+  VimGolf: Various take-home challenges of various actions in Vim to be completed in as few keystrokes as possible.
+  Game: Vim Adventures, an adventure game that helps you learn Vim as you play.
+     </description>
+    </item>
+    
+  </channel>
+</rss>

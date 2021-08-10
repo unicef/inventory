@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>hardware on UNICEF O.S. Inventory</title>
+    <link>https://unicef.github.io/inventory/categories/hardware/</link>
+    <description>Recent content in hardware on UNICEF O.S. Inventory</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Creative Commons BY-SA 4.0</copyright><atom:link href="https://unicef.github.io/inventory/categories/hardware/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introduction to Open Source Hardware</title>
+      <link>https://unicef.github.io/inventory/hardware/intro/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unicef.github.io/inventory/hardware/intro/</guid>
+      <description>So… you want to know about Open Source Hardware? This page is an introduction to what Open Source Hardware means, how it works, and why it matters. Other pages in this Open Source Heuristic category will expand your understanding of Open Source Hardware; however, if you need a place to begin, this is a good start!
+ See the following sections below:
+  What is Open Source Hardware?
+ Takeaway</description>
+    </item>
+    
+    <item>
+      <title>Case studies</title>
+      <link>https://unicef.github.io/inventory/hardware/case-studies/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unicef.github.io/inventory/hardware/case-studies/</guid>
+      <description>Below are more detailed case studios of different Open Hardware organizations, projects, and products. Unlike the Projects page, these examples are more detailed and provide more context.
+ Opentrons Scientific-focused hardware.
+  Several highly successful and well-regarded biology/chemistry lab automation robots. By going 100% open source, they substantially reduced costs. Their products’ prices sometimes undercuts competition by 10x. They also acquired venture capital (V.C.) funding.
+ Having worked in biology labs myself, I can attest to how revolutionary their open source business model is.</description>
+    </item>
+    
+    <item>
+      <title>Documentation</title>
+      <link>https://unicef.github.io/inventory/hardware/documentation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unicef.github.io/inventory/hardware/documentation/</guid>
+      <description>This page offers information and resources about documenting Open Hardware projects.
+ Conventions &amp;amp; standards   Open Know-How Manifest Specification: &amp;#34;The objective of this specification is to improve the open-ness of know-how for making hardware by improving the discoverability, portability and translatability of knowledge.&amp;#34; Provides a format and specification for how to document and release Open Hardware projects and design schematics.
+     </description>
+    </item>
+    
+    <item>
+      <title>Licensing</title>
+      <link>https://unicef.github.io/inventory/hardware/licensing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unicef.github.io/inventory/hardware/licensing/</guid>
+      <description>This page collects information, resources, and other details about Open Hardware licensing.
+ Documentation   Licensing and documentation: Learning material provided by Open Hardware Leaders program. Goal of material is to acquire best practices for hardware documentation and understand the different open licensing options available. Includes an explanation video and other helpful links.
+     Licenses There are two generally accepted Open Hardware licenses:
+   CERN Open Hardware Licence</description>
+    </item>
+    
+    <item>
+      <title>Open Hardware reading list</title>
+      <link>https://unicef.github.io/inventory/hardware/reading-list/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unicef.github.io/inventory/hardware/reading-list/</guid>
+      <description>A collection of various readings and articles related to Open Hardware.
+ Innovation   How Low and Middle-Income Countries Are Innovating to Combat Covid, HBR.org: &amp;#34;One-fifth of the innovative solutions to fight the Covid-19 pandemic have emerged from low and middle-income countries, and these responses offer promising insights for how we think about, manage, and enable innovation. As the international community now faces the historic challenge of vaccinating the world, more attention and resources must be directed to the innovators who are developing technically novel, contextually relevant, and socially inclusive alternatives to mainstream innovation management practices.</description>
+    </item>
+    
+    <item>
+      <title>Project Hall of Fame</title>
+      <link>https://unicef.github.io/inventory/hardware/projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unicef.github.io/inventory/hardware/projects/</guid>
+      <description>This page collects various Open Hardware projects. These projects are not officially endorsed, but are listed here as a convenience to generate a list of examples for reference. For more detailed overviews, see the Case Studies page.
+ Check out the list of certified hardware from the Open Source Hardware Association for more inspiration.
+ Businesses &amp;amp; companies   Adafruit Industries
+  Aleph Objects: Makers of LulzBot family of 3D printers.</description>
+    </item>
+    
+  </channel>
+</rss>

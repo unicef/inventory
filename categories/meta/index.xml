@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>meta on UNICEF O.S. Inventory</title>
+    <link>https://unicef.github.io/inventory/categories/meta/</link>
+    <description>Recent content in meta on UNICEF O.S. Inventory</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Creative Commons BY-SA 4.0</copyright><atom:link href="https://unicef.github.io/inventory/categories/meta/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Open Source Mentorship programme overview</title>
+      <link>https://unicef.github.io/inventory/meta/overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unicef.github.io/inventory/meta/overview/</guid>
+      <description>This page documents and explains the general structure, approach, and methods of the Open Source Mentorship programme hosted on this website. The Open Source Mentorship programme is offered by the UNICEF Innovation Fund. See the table of contents for navigating.
+  Programme team
+  Eligibility
+ Innovation Fund grantees
+  UNICEF colleagues
+  Other groups
+     References
+   Programme team The Open Source Mentorship programme is administered by the Innovation Fund Open Source Technical Advisor.</description>
+    </item>
+    
+    <item>
+      <title>Modules</title>
+      <link>https://unicef.github.io/inventory/meta/modules/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unicef.github.io/inventory/meta/modules/</guid>
+      <description>The UNICEF Open Source Mentorship programme offers multiple learning modules and mentorship topics. This page provides an overview of the different modules currently offered through the Open Source Mentorship programme.
+  Offered modules
+ Legal &amp;amp; Licensing: Foundations of Open Source intellectual property
+  Launching your Open Source project
+  Open Source documentation
+  Continuous Integration for continuous contribution
+  Archetypes: Shape and size of Open Source over time</description>
+    </item>
+    
+    <item>
+      <title>Needs assessment interview template</title>
+      <link>https://unicef.github.io/inventory/meta/needs-assessment-template/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unicef.github.io/inventory/meta/needs-assessment-template/</guid>
+      <description>This document is an interview template for needs assessments with UNICEF Innovation Fund cohorts in Open Source induction calls. The needs assessment is a tool to collect background and context for each team’s experience and familiarity with open source. It also builds understanding for participation in existing open source communities. This template provides structure and guidance on what to ask to any team at the beginning of an Open Source Mentorship program.</description>
+    </item>
+    
+    <item>
+      <title>Templates for programme mentors</title>
+      <link>https://unicef.github.io/inventory/meta/templates/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unicef.github.io/inventory/meta/templates/</guid>
+      <description>This page is a copy-paste template of various templates I use for Open Source Mentorship meetings. I use these for my private notes about each team’s progress.
+ Induction agenda template   Agenda:
+  Introductions
+  Offer to record call
+  Review O.S. Terms of Reference
+  Review frequently-used resources (i.e. UNICEF Open Source Inventory &amp;amp; evaluation rubric)
+  Needs assessment (Q&amp;amp;A)
+  Open source strategy (12-month vision, 1-month action plan)</description>
+    </item>
+    
+    <item>
+      <title>Workflow: Update external UNICEF metrics</title>
+      <link>https://unicef.github.io/inventory/meta/workflow-metrics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unicef.github.io/inventory/meta/workflow-metrics/</guid>
+      <description>Open Source data and analytics are used across multiple tools and documents for talking about Innovation Fund portfolio companies. When updating data sources in official UNICEF portals, follow this process for the quickest way of updating metrics.
+  Open data input source (e.g. Sharepoint doc, Google Doc shared with company, etc.)
+  Open Cauldron.io dashboard for company/project
+  Look at annual ranges first before doing quarterly ranges. Some metrics need to be collected manually for annual ranges:</description>
+    </item>
+    
+    <item>
+      <title>Workplan: Bridge Fund cohort</title>
+      <link>https://unicef.github.io/inventory/meta/workplan-bridge-funding/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unicef.github.io/inventory/meta/workplan-bridge-funding/</guid>
+      <description>This page documents the workplan requirements for the Bridge Fund cohort of the UNICEF Innovation Fund. These graduation expectations are in place for UNICEF grantees receiving follow-on funding from UNICEF. See the table of contents for navigating.
+  Mission
+  Vision
+  Community
+  Timeline
+ Q1
+  Q2
+  Q3
+  Q4
+     References
+   Mission Bridging humanitarian Open Source works and communities to the wider Open Source ecosystem.</description>
+    </item>
+    
+  </channel>
+</rss>

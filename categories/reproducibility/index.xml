@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>reproducibility on UNICEF O.S. Inventory</title>
+    <link>https://unicef.github.io/inventory/categories/reproducibility/</link>
+    <description>Recent content in reproducibility on UNICEF O.S. Inventory</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Creative Commons BY-SA 4.0</copyright><atom:link href="https://unicef.github.io/inventory/categories/reproducibility/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Reproducibility reading list</title>
+      <link>https://unicef.github.io/inventory/reproducibility/reading-list/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unicef.github.io/inventory/reproducibility/reading-list/</guid>
+      <description>  A Guide to Reproducible Code: A guide written by scientists, for scientists, on creating reproducible code. Includes topics like A simple reproducible project workflow, Organising projects for reproducibility, Reproducible reports, and more. Edited by Natalie Cooper and Pen-Yuan Hsing. Featuring contributions from Mike Croucher, Laura Graham, Tamora James, Anna Krystalli, and François Michonneau.
+   </description>
+    </item>
+    
+    <item>
+      <title>Reproducibility</title>
+      <link>https://unicef.github.io/inventory/reproducibility/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unicef.github.io/inventory/reproducibility/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
