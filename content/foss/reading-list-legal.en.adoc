@@ -3,6 +3,7 @@ title: "Reading List: Legal & Business Aspects"
 weight: 60
 description: Various readings and learnings about business and legal aspects of Open Source intellectual property.
 tags: ["reading list"]
+categories: "foss"
 
 ---
 :toc:

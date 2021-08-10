@@ -116,6 +116,9 @@ font_family = "Open+Sans"
 # contact form action (works with https://formspree.io)
 contact_form_action = "#"
 
+# related article number limit
+article_count = 3
+
 
 ############################# Social links #############################
 # themify icon pack : https://themify.me/themify-icons
@@ -145,6 +148,11 @@ lineNumbersInTable = true
 noClasses = true
 style = 'murphy'
 tabWidth = 4
+
+############################# Related Articles #############################
+[taxonomies]
+  category = "categories"
+
 
 #######################################################################################
 #                             Multilingual configurations                             #

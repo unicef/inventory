@@ -3,6 +3,7 @@ title: "Templates for programme mentors"
 weight: 60
 description: Various templates and reusable copytext for UNICEF Open Source Mentorship programme mentors.
 tags: ["tools"]
+categories: "meta"
 
 ---
 :toc:
