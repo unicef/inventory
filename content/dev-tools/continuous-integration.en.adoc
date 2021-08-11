@@ -141,4 +141,5 @@ Check out some of the examples below!
 Curious to know more?
 The resources below explain other concepts about Continuous Integration in greater detail:
 
+* https://medium.com/nerds-malt/choosing-a-ci-that-grows-at-the-same-pace-as-a-scale-up-f4e1c0648084[Choosing a CI that grows at the same pace as a scale-up] - _Johan Lorenzo_, Lead Software Engineer at Malt
 * https://codeship.com/continuous-integration-essentials[Continuous Integration Essentials] - _Codeship_
