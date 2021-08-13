@@ -161,5 +161,5 @@ These pages are helpful primers:
 The diagram below explains how the Continuous Integration pipeline is set up to deploy HTML from git to production:
 
 [link=https://lucid.app/lucidchart/fe753cdb-c591-4f3c-894e-da8921342d1f/edit]
-image::/inventory/img/meta/ci-pipeline.png[Continuous Integration pipeline workflow. How changes flow from GitHub to production.]
+image::/inventory/images/meta/ci-pipeline.png[Continuous Integration pipeline workflow. How changes flow from GitHub to production.]
 
