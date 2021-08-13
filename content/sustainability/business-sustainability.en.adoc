@@ -3,7 +3,9 @@ title: Business sustainability for Open Source
 weight: 10
 description: Information, best practices, and resources about Open Source business sustainability and business models.
 tags: ["sustainability"]
-categories: "foss"
+categories: "sustainability"
+aliases:
+    - /foss/business-sustainability/
 
 ---
 :toc:

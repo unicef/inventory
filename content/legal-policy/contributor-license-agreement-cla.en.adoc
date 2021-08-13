@@ -3,7 +3,9 @@ title: "Contributor License Agreements (CLAs)"
 weight: 20
 description: When does your Open Source project need a CLA? What alternatives exist? Cover your copyright in this intro to CLAs.
 tags: ["legal"]
-categories: "foss"
+categories: "legal"
+aliases:
+    - /foss/contributor-license-agreement-cla/
 
 ---
 :toc:
