@@ -100,7 +100,7 @@ hasChildren = true
 # OpenGraph / Twitter Card metadata
 description = "UNICEF Open Source Inventory. A UNICEF Global Innovation knowledge base of best practices and resources for working and leading Open."
 author = "Justin W. Flory, UNICEF Office of Innovation, and others"
-image = "img/UNI309823.jpg"
+image = "images/UNI309823.jpg"
 
 # customize color
 primary_color = "#00BDF2"
@@ -170,7 +170,7 @@ copyright = "Creative Commons BY-SA 4.0"
 [Languages.en.params.banner]
 title = "UNICEF Open Source Inventory"
 subtitle = "A UNICEF Global Innovation knowledge base of best practices and resources for working and leading Open."
-bg_image = "img/banner.jpg"
+bg_image = "images/banner.jpg"
 placeholder = "Have a question? Search the site here."
 
 
@@ -186,5 +186,5 @@ copyright = "Creative Commons BY-SA 4.0"
 [Languages.es.params.banner]
 title = "Inventario de Open Source de UNICEF"
 subtitle = "Una base de conocimientos de innovación mundial del UNICEF sobre mejores prácticas y recursos para trabajar y dirigir Open."
-bg_image = "img/banner.jpg"
+bg_image = "images/banner.jpg"
 placeholder = "¿Tienes una pregunta? Busque en el sitio aquí."

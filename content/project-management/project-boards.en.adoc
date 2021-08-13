@@ -64,7 +64,7 @@ The TeleIRC project is a small open source community that uses project boards to
 See the below board as an example:
 
 [link=https://github.com/RITlug/teleirc/projects/1?fullscreen=true]
-image::/inventory/img/project-management/teleirc-project-board.png[July 2020 screenshot of TeleIRC GitHub developer project board (click to open),title="July 2020 screenshot of TeleIRC GitHub developer project board (click to open)"]
+image::/inventory/image/project-management/teleirc-project-board.png[July 2020 screenshot of TeleIRC GitHub developer project board (click to open),title="July 2020 screenshot of TeleIRC GitHub developer project board (click to open)"]
 
 This is an advanced example.
 Guidelines that project managers use for this board are explained below:

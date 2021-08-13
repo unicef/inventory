@@ -57,12 +57,12 @@ TeleIRC uses issue templates to structure different types of feedback from devel
 Take a look at the four templates available in the project:
 
 [link=https://github.com/RITlug/teleirc/issues/new/choose]
-image::/inventory/img/project-management/teleirc-issue-templates.png[Four issue templates available for the TeleIRC project.]
+image::/inventory/images/project-management/teleirc-issue-templates.png[Four issue templates available for the TeleIRC project.]
 
 The following screenshot shows an example of a reporter using the "bug report" template to report a bug:
 
 [link=https://github.com/RITlug/teleirc/issues/359]
-image::/inventory/img/project-management/teleirc-bug-template-example.png[Screenshot of a TeleIRC bug report completed using the issue template.]
+image::/inventory/images/project-management/teleirc-bug-template-example.png[Screenshot of a TeleIRC bug report completed using the issue template.]
 
 These templates are used to quickly diagnose problems, discover interests in new features, and cut some of the chase out of troubleshooting.
 Find the exact templates used by the TeleIRC project in their https://github.com/RITlug/teleirc/tree/master/.github/ISSUE_TEMPLATE[`.github/` folder].
