@@ -1,0 +1,7 @@
+---
+title: "Governance"
+icon: "ti-ink-pen"
+description: "Frameworks, models, and references of building a governance structure for Open works."
+type: "docs"
+
+---

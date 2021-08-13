@@ -1,0 +1,7 @@
+---
+title: "Legal & Policy"
+icon: "ti-anchor"
+description: "Fundamental legal and policy considerations to help anchor down your Open work."
+type: "docs"
+
+---
