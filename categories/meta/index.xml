@@ -24,6 +24,19 @@
     </item>
     
     <item>
+      <title>How to create a new Inventory category</title>
+      <link>https://unicef.github.io/inventory/meta/create-new-category/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unicef.github.io/inventory/meta/create-new-category/</guid>
+      <description>This how-to article explains how to create a new category in the Open Source Inventory.
+ Steps  Create a new folder in the content/ directory.
+  Create a _index.en.adoc page in the new directory (see template).
+  Add the category to config.yml as a child to [[menu.main]]. See other categories in the config as an example.
+     Template for new index pages Use this base template for the front-matter of a new index page:</description>
+    </item>
+    
+    <item>
       <title>Modules</title>
       <link>https://unicef.github.io/inventory/meta/modules/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

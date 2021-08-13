@@ -129,37 +129,25 @@
     </item>
     
     <item>
+      <title>How to create a new Inventory category</title>
+      <link>https://unicef.github.io/inventory/meta/create-new-category/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unicef.github.io/inventory/meta/create-new-category/</guid>
+      <description>This how-to article explains how to create a new category in the Open Source Inventory.
+ Steps  Create a new folder in the content/ directory.
+  Create a _index.en.adoc page in the new directory (see template).
+  Add the category to config.yml as a child to [[menu.main]]. See other categories in the config as an example.
+     Template for new index pages Use this base template for the front-matter of a new index page:</description>
+    </item>
+    
+    <item>
       <title>Issue templates</title>
       <link>https://unicef.github.io/inventory/project-management/issue-templates/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://unicef.github.io/inventory/project-management/issue-templates/</guid>
       <description>This guide is an introduction to issue templates in an Open Source project. While this guide is customized to GitHub, the advice provided here is general and can be applied to other collaboration platforms that offer templating. By the end of this guide, you will have a basic understanding of why issue templates are important and how to set up effective templates for your project. This guide is complementary to an agile or scrum workflow, if your team already uses one of these methods of project management.</description>
-    </item>
-    
-    <item>
-      <title>Maintainer&#39;s guide for O.S. Inventory</title>
-      <link>https://unicef.github.io/inventory/meta/maintainers-guide/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://unicef.github.io/inventory/meta/maintainers-guide/</guid>
-      <description>This document is a maintainer’s guide for the UNICEF Open Source Inventory. Yes, this very site! This guide covers key information and helpful resources, as well as best practices when maintaining the O.S. Inventory.
- Contribution conventions This section explains contribution conventions for the Open Source Inventory. These are common conventions that all contributors are asked to make when contributing to this repository. Please make a best effort to follow these conventions at all times, unless there is a justified reason to break convention.</description>
-    </item>
-    
-    <item>
-      <title>Modules</title>
-      <link>https://unicef.github.io/inventory/meta/modules/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://unicef.github.io/inventory/meta/modules/</guid>
-      <description>The UNICEF Open Source Mentorship programme offers multiple learning modules and mentorship topics. This page provides an overview of the different modules currently offered through the Open Source Mentorship programme.
-  Offered modules
- Legal &amp;amp; Licensing: Foundations of Open Source intellectual property
-  Launching your Open Source project
-  Open Source documentation
-  Continuous Integration for continuous contribution
-  Archetypes: Shape and size of Open Source over time</description>
     </item>
     
     <item>
@@ -243,6 +231,16 @@
     </item>
     
     <item>
+      <title>Maintainer&#39;s guide for O.S. Inventory</title>
+      <link>https://unicef.github.io/inventory/meta/maintainers-guide/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unicef.github.io/inventory/meta/maintainers-guide/</guid>
+      <description>This document is a maintainer’s guide for the UNICEF Open Source Inventory. Yes, this very site! This guide covers key information and helpful resources, as well as best practices when maintaining the O.S. Inventory.
+ Contribution conventions This section explains contribution conventions for the Open Source Inventory. These are common conventions that all contributors are asked to make when contributing to this repository. Please make a best effort to follow these conventions at all times, unless there is a justified reason to break convention.</description>
+    </item>
+    
+    <item>
       <title>Project boards</title>
       <link>https://unicef.github.io/inventory/project-management/project-boards/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -304,6 +302,21 @@
  Documentation   Licensing and documentation: Learning material provided by Open Hardware Leaders program. Goal of material is to acquire best practices for hardware documentation and understand the different open licensing options available. Includes an explanation video and other helpful links.
      Licenses There are two generally accepted Open Hardware licenses:
    CERN Open Hardware Licence</description>
+    </item>
+    
+    <item>
+      <title>Modules</title>
+      <link>https://unicef.github.io/inventory/meta/modules/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unicef.github.io/inventory/meta/modules/</guid>
+      <description>The UNICEF Open Source Mentorship programme offers multiple learning modules and mentorship topics. This page provides an overview of the different modules currently offered through the Open Source Mentorship programme.
+  Offered modules
+ Legal &amp;amp; Licensing: Foundations of Open Source intellectual property
+  Launching your Open Source project
+  Open Source documentation
+  Continuous Integration for continuous contribution
+  Archetypes: Shape and size of Open Source over time</description>
     </item>
     
     <item>
