@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>sustainability on UNICEF O.S. Inventory</title>
+    <link>https://unicef.github.io/inventory/categories/sustainability/</link>
+    <description>Recent content in sustainability on UNICEF O.S. Inventory</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Creative Commons BY-SA 4.0</copyright><atom:link href="https://unicef.github.io/inventory/categories/sustainability/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Business sustainability for Open Source</title>
+      <link>https://unicef.github.io/inventory/sustainability/business-sustainability/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unicef.github.io/inventory/sustainability/business-sustainability/</guid>
+      <description>This page collects information, best practices, and other resources for business sustainability of Open Source projects.
+ Business models Specific business models or approaches used by other Open Source projects and communities. This section is small but will continue to grow as more knowledge is collected and centralized together.
+ Training &amp;amp; support One popular approach to business sustainability is offering training and support for your Open Source product. Your project is Open Source.</description>
+    </item>
+    
+  </channel>
+</rss>

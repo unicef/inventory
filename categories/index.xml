@@ -53,11 +53,11 @@
     </item>
     
     <item>
-      <title>foss</title>
-      <link>https://unicef.github.io/inventory/categories/foss/</link>
+      <title>governance</title>
+      <link>https://unicef.github.io/inventory/categories/governance/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://unicef.github.io/inventory/categories/foss/</guid>
+      <guid>https://unicef.github.io/inventory/categories/governance/</guid>
       <description></description>
     </item>
     
@@ -67,6 +67,15 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://unicef.github.io/inventory/categories/hardware/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>legal</title>
+      <link>https://unicef.github.io/inventory/categories/legal/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unicef.github.io/inventory/categories/legal/</guid>
       <description></description>
     </item>
     
@@ -103,6 +112,15 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://unicef.github.io/inventory/categories/reproducibility/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sustainability</title>
+      <link>https://unicef.github.io/inventory/categories/sustainability/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unicef.github.io/inventory/categories/sustainability/</guid>
       <description></description>
     </item>
     
