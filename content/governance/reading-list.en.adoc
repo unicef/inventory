@@ -3,7 +3,9 @@ title: "Reading list: FOSS"
 weight: 50
 description: Various readings and learnings about Free and Open Source Software.
 tags: ["reading list"]
-categories: "foss"
+categories: "governance"
+aliases:
+    - /foss/reading-list-foss/
 
 ---
 :toc:

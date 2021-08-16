@@ -3,7 +3,9 @@ title: "GPLv2 vs. GPLv3"
 weight: 30
 description: A deep dive on the exact differences between the Free Software Foundation's two versions of the GPL license.
 tags: ["legal"]
-categories: "foss"
+categories: "legal"
+aliases:
+    - /foss/gpl-comparison/
 
 ---
 *The information shared on this page does not constitute legal or financial advice*.
