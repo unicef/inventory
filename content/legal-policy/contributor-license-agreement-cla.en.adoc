@@ -8,6 +8,7 @@ aliases:
     - /foss/contributor-license-agreement-cla/
 
 ---
+:author: Mike Nolan; Justin W. Flory
 :toc:
 
 _Originally authored by https://nolski.rocks[Mike Nolan], edited and maintained by https://jwf.io[Justin W. Flory]._
