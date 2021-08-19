@@ -13,9 +13,9 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://unicef.github.io/inventory/legal-policy/contributor-license-agreement-cla/</guid>
-      <description>Originally authored by Mike Nolan, edited and maintained by Justin W. Flory.
+      <description>Table of Contents 1. What are they for? 1.1. Criticism of CLAs   2. What alternatives exist? 2.1. Fedora Project Contributor Agreement (FPCA)   3. What do I need for my own CLA?   Originally authored by Mike Nolan, edited and maintained by Justin W. Flory.
  This page introduces Contributor License Agreements (shortened C.L.As) in Open Source projects.
- What are they for? Contributor License Agreements (CLAs) are often used in Open Source projects to form a legal agreement between an individual or company and a project maintainer. This agreement usually includes a waiver of copyright (although not always) as well as the right to patent their contribution.</description>
+ 1. What are they for? Contributor License Agreements (CLAs) are often used in Open Source projects to form a legal agreement between an individual or company and a project maintainer.</description>
     </item>
     
     <item>
@@ -24,9 +24,8 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://unicef.github.io/inventory/legal-policy/gpl-comparison/</guid>
-      <description>The information shared on this page does not constitute legal or financial advice.
- This page provides an interpretation of the key differences between v2 and v3 of the GNU Public License, or G.P.L. The key differences are summarized in each section below.
- Why update? Stallman’s objection to Tivoization In the early 2000s, American corporation TiVo Inc. was criticized by the Free Software community for their popular digital video recorder (DVR) product.</description>
+      <description>Table of Contents 1. Why update? Stallman’s objection to Tivoization 1.1. Other opinions   2. Legal overview 2.1. Anti-Circumvention Law 2.2. User Product rules 2.3. Cure period and the GPL Cooperation Commitment 2.4. &amp;#34;Legalese&amp;#34;     The information shared on this page does not constitute legal or financial advice.
+ This page provides an interpretation of the key differences between v2 and v3 of the GNU Public License, or G.</description>
     </item>
     
     <item>
@@ -35,9 +34,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://unicef.github.io/inventory/legal-policy/reading-list/</guid>
-      <description>This reading list is a collection of resources on legal and business aspects of open source. Legal and business aspects of an open source project are part of the foundation for building your project and community. The resources linked here are intended to give you a better idea of open source from a legal perspective.
- Foundations   The Open Source Definition (Annotated) - Open Source Initiative
-  Open Source Licenses by Name - Open Source Initiative</description>
+      <description>Table of Contents 1. Foundations 2. Choosing a license 2.1. Choosing permissive 2.2. Choosing copyleft   3. Examples 3.1. Software licenses 3.2. Content licenses 3.3. Data licenses     This reading list is a collection of resources on legal and business aspects of open source. Legal and business aspects of an open source project are part of the foundation for building your project and community. The resources linked here are intended to give you a better idea of open source from a legal perspective.</description>
     </item>
     
   </channel>

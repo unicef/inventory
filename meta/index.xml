@@ -20,7 +20,7 @@
   UNICEF colleagues
   Other groups
      References
-   Programme team The Open Source Mentorship programme is administered by the Innovation Fund Open Source Technical Advisor.</description>
+   1. Programme team The Open Source Mentorship programme is administered by the Innovation Fund Open Source Technical Advisor.</description>
     </item>
     
     <item>
@@ -29,11 +29,10 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://unicef.github.io/inventory/meta/create-new-category/</guid>
-      <description>This how-to article explains how to create a new category in the Open Source Inventory.
- Steps  Create a new folder in the content/ directory.
+      <description>Table of Contents 1. Steps 2. Template for new index pages 2.1. Choose an icon     This how-to article explains how to create a new category in the Open Source Inventory.
+ 1. Steps  Create a new folder in the content/ directory.
   Create a _index.en.adoc page in the new directory (see template).
-  Add the category to config.yml as a child to [[menu.main]]. See other categories in the config as an example.
-     Template for new index pages Use this base template for the front-matter of a new index page:</description>
+  Add the category to config.yml as a child to [[menu.main]]. See other categories in the config as an example.</description>
     </item>
     
     <item>
@@ -42,8 +41,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://unicef.github.io/inventory/meta/maintainers-guide/</guid>
-      <description>This document is a maintainer’s guide for the UNICEF Open Source Inventory. Yes, this very site! This guide covers key information and helpful resources, as well as best practices when maintaining the O.S. Inventory.
- Contribution conventions This section explains contribution conventions for the Open Source Inventory. These are common conventions that all contributors are asked to make when contributing to this repository. Please make a best effort to follow these conventions at all times, unless there is a justified reason to break convention.</description>
+      <description>Table of Contents 1. Contribution conventions 1.1. Label conventions 1.2. Commit message conventions 1.3. How to update git submodule as a maintainer 1.4. How development decisions are prioritized   2. Common resources and cheat sheets 2.1. AsciiDoc syntax cheat sheet 2.2. Hugo documentation 2.3. CI pipeline (diagram)     This document is a maintainer’s guide for the UNICEF Open Source Inventory. Yes, this very site! This guide covers key information and helpful resources, as well as best practices when maintaining the O.</description>
     </item>
     
     <item>
@@ -52,13 +50,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://unicef.github.io/inventory/meta/modules/</guid>
-      <description>The UNICEF Open Source Mentorship programme offers multiple learning modules and mentorship topics. This page provides an overview of the different modules currently offered through the Open Source Mentorship programme.
-  Offered modules
- Legal &amp;amp; Licensing: Foundations of Open Source intellectual property
-  Launching your Open Source project
-  Open Source documentation
-  Continuous Integration for continuous contribution
-  Archetypes: Shape and size of Open Source over time</description>
+      <description>Table of Contents 1. Offered modules 1.1. Legal &amp;amp; Licensing: Foundations of Open Source intellectual property 1.2. Launching your Open Source project 1.3. Open Source documentation 1.4. Continuous Integration for continuous contribution 1.5. Archetypes: Shape and size of Open Source over time   2. Module programming 2.1. 12-month Innovation Fund contracts     The UNICEF Open Source Mentorship programme offers multiple learning modules and mentorship topics. This page provides an overview of the different modules currently offered through the Open Source Mentorship programme.</description>
     </item>
     
     <item>
@@ -76,14 +68,12 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://unicef.github.io/inventory/meta/templates/</guid>
-      <description>This page is a copy-paste template of various templates I use for Open Source Mentorship meetings. I use these for my private notes about each team’s progress.
- Induction agenda template   Agenda:
+      <description>Table of Contents 1. Induction agenda template 2. Initial research template 3. Email summary template   This page is a copy-paste template of various templates I use for Open Source Mentorship meetings. I use these for my private notes about each team’s progress.
+ 1. Induction agenda template   Agenda:
   Introductions
   Offer to record call
   Review O.S. Terms of Reference
-  Review frequently-used resources (i.e. UNICEF Open Source Inventory &amp;amp; evaluation rubric)
-  Needs assessment (Q&amp;amp;A)
-  Open source strategy (12-month vision, 1-month action plan)</description>
+  Review frequently-used resources (i.</description>
     </item>
     
     <item>
@@ -104,17 +94,8 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://unicef.github.io/inventory/meta/workplan-bridge-funding/</guid>
-      <description>This page documents the workplan requirements for the Bridge Fund cohort of the UNICEF Innovation Fund. These graduation expectations are in place for UNICEF grantees receiving follow-on funding from UNICEF. See the table of contents for navigating.
-  Mission
-  Vision
-  Community
-  Timeline
- Q1
-  Q2
-  Q3
-  Q4
-     References
-   Mission Bridging humanitarian Open Source works and communities to the wider Open Source ecosystem.</description>
+      <description>Table of Contents 1. Mission 2. Vision 3. Community 4. Timeline 4.1. Q1 4.2. Q2 4.3. Q3 4.4. Q4   5. References   This page documents the workplan requirements for the Bridge Fund cohort of the UNICEF Innovation Fund. These graduation expectations are in place for UNICEF grantees receiving follow-on funding from UNICEF. See the table of contents for navigating.
+ 1. Mission Bridging humanitarian Open Source works and communities to the wider Open Source ecosystem.</description>
     </item>
     
   </channel>

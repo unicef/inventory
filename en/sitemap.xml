@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://unicef.github.io/inventory/hardware/intro/</loc>
-    <lastmod>2021-08-10T17:43:46+01:00</lastmod>
+    <lastmod>2021-08-19T18:37:17+01:00</lastmod>
   </url><url>
     <loc>https://unicef.github.io/inventory/meta/overview/</loc>
     <lastmod>2021-08-16T10:52:00-04:00</lastmod>
@@ -18,10 +18,10 @@
     <lastmod>2021-08-10T17:43:46+01:00</lastmod>
   </url><url>
     <loc>https://unicef.github.io/inventory/missions/codes-of-conduct/</loc>
-    <lastmod>2021-08-10T17:43:46+01:00</lastmod>
+    <lastmod>2021-08-19T18:37:17+01:00</lastmod>
   </url><url>
     <loc>https://unicef.github.io/inventory/dev-tools/continuous-integration/</loc>
-    <lastmod>2021-08-11T09:34:42+02:00</lastmod>
+    <lastmod>2021-08-19T18:37:17+01:00</lastmod>
   </url><url>
     <loc>https://unicef.github.io/inventory/design/reading-list/</loc>
     <lastmod>2021-08-10T17:43:46+01:00</lastmod>
@@ -30,7 +30,7 @@
     <lastmod>2021-08-10T17:43:46+01:00</lastmod>
   </url><url>
     <loc>https://unicef.github.io/inventory/meta/create-new-category/</loc>
-    <lastmod>2021-08-13T10:45:58-04:00</lastmod>
+    <lastmod>2021-08-19T18:37:17+01:00</lastmod>
   </url><url>
     <loc>https://unicef.github.io/inventory/project-management/issue-templates/</loc>
     <lastmod>2021-08-13T11:18:05-04:00</lastmod>
@@ -39,7 +39,7 @@
     <lastmod>2021-08-10T17:43:46+01:00</lastmod>
   </url><url>
     <loc>https://unicef.github.io/inventory/legal-policy/contributor-license-agreement-cla/</loc>
-    <lastmod>2021-08-16T10:52:00-04:00</lastmod>
+    <lastmod>2021-08-19T18:37:17+01:00</lastmod>
   </url><url>
     <loc>https://unicef.github.io/inventory/hardware/documentation/</loc>
     <lastmod>2021-08-10T17:43:46+01:00</lastmod>
@@ -54,25 +54,25 @@
     <lastmod>2021-08-10T17:43:46+01:00</lastmod>
   </url><url>
     <loc>https://unicef.github.io/inventory/meta/maintainers-guide/</loc>
-    <lastmod>2021-08-13T11:18:05-04:00</lastmod>
+    <lastmod>2021-08-19T18:37:17+01:00</lastmod>
   </url><url>
     <loc>https://unicef.github.io/inventory/project-management/project-boards/</loc>
-    <lastmod>2021-08-13T11:18:05-04:00</lastmod>
+    <lastmod>2021-08-19T18:37:17+01:00</lastmod>
   </url><url>
     <loc>https://unicef.github.io/inventory/governance/governance/</loc>
-    <lastmod>2021-08-16T10:52:00-04:00</lastmod>
+    <lastmod>2021-08-19T18:37:17+01:00</lastmod>
   </url><url>
     <loc>https://unicef.github.io/inventory/data/traps/</loc>
     <lastmod>2021-08-10T17:43:46+01:00</lastmod>
   </url><url>
     <loc>https://unicef.github.io/inventory/legal-policy/gpl-comparison/</loc>
-    <lastmod>2021-08-16T10:52:00-04:00</lastmod>
+    <lastmod>2021-08-19T18:37:17+01:00</lastmod>
   </url><url>
     <loc>https://unicef.github.io/inventory/hardware/licensing/</loc>
     <lastmod>2021-08-10T17:43:46+01:00</lastmod>
   </url><url>
     <loc>https://unicef.github.io/inventory/meta/modules/</loc>
-    <lastmod>2021-08-13T10:45:58-04:00</lastmod>
+    <lastmod>2021-08-19T18:37:17+01:00</lastmod>
   </url><url>
     <loc>https://unicef.github.io/inventory/documentation/reading-list/</loc>
     <lastmod>2021-08-10T17:43:46+01:00</lastmod>
@@ -108,13 +108,13 @@
     <lastmod>2021-08-10T17:43:46+01:00</lastmod>
   </url><url>
     <loc>https://unicef.github.io/inventory/meta/workplan-bridge-funding/</loc>
-    <lastmod>2021-08-10T17:43:46+01:00</lastmod>
+    <lastmod>2021-08-19T18:37:17+01:00</lastmod>
   </url><url>
     <loc>https://unicef.github.io/inventory/communities/public-lab/</loc>
     <lastmod>2021-08-10T17:43:46+01:00</lastmod>
   </url><url>
     <loc>https://unicef.github.io/inventory/categories/</loc>
-    <lastmod>2021-08-16T10:52:00-04:00</lastmod>
+    <lastmod>2021-08-19T18:37:17+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
@@ -145,7 +145,7 @@
     <lastmod>2021-08-10T17:43:46+01:00</lastmod>
   </url><url>
     <loc>https://unicef.github.io/inventory/categories/dev-tools/</loc>
-    <lastmod>2021-08-11T09:34:42+02:00</lastmod>
+    <lastmod>2021-08-19T18:37:17+01:00</lastmod>
   </url><url>
     <loc>https://unicef.github.io/inventory/dev-tools/</loc>
     <lastmod>2021-08-09T05:53:26-04:00</lastmod>
@@ -163,13 +163,13 @@
     <lastmod>2021-08-16T10:52:00-04:00</lastmod>
   </url><url>
     <loc>https://unicef.github.io/inventory/categories/governance/</loc>
-    <lastmod>2021-08-16T10:52:00-04:00</lastmod>
+    <lastmod>2021-08-19T18:37:17+01:00</lastmod>
   </url><url>
     <loc>https://unicef.github.io/inventory/categories/hardware/</loc>
-    <lastmod>2021-08-10T17:43:46+01:00</lastmod>
+    <lastmod>2021-08-19T18:37:17+01:00</lastmod>
   </url><url>
     <loc>https://unicef.github.io/inventory/categories/legal/</loc>
-    <lastmod>2021-08-16T10:52:00-04:00</lastmod>
+    <lastmod>2021-08-19T18:37:17+01:00</lastmod>
   </url><url>
     <loc>https://unicef.github.io/inventory/legal-policy/</loc>
     <lastmod>2021-08-16T10:52:00-04:00</lastmod>
@@ -178,13 +178,13 @@
     <lastmod>2020-10-05T10:19:27-04:00</lastmod>
   </url><url>
     <loc>https://unicef.github.io/inventory/categories/meta/</loc>
-    <lastmod>2021-08-16T10:52:00-04:00</lastmod>
+    <lastmod>2021-08-19T18:37:17+01:00</lastmod>
   </url><url>
     <loc>https://unicef.github.io/inventory/missions/</loc>
     <lastmod>2021-08-09T05:53:26-04:00</lastmod>
   </url><url>
     <loc>https://unicef.github.io/inventory/categories/missions/</loc>
-    <lastmod>2021-08-10T17:43:46+01:00</lastmod>
+    <lastmod>2021-08-19T18:37:17+01:00</lastmod>
   </url><url>
     <loc>https://unicef.github.io/inventory/hardware/</loc>
     <lastmod>2020-12-07T16:29:14-05:00</lastmod>
@@ -193,7 +193,7 @@
     <lastmod>2021-08-09T05:53:26-04:00</lastmod>
   </url><url>
     <loc>https://unicef.github.io/inventory/categories/project-management/</loc>
-    <lastmod>2021-08-16T10:52:00-04:00</lastmod>
+    <lastmod>2021-08-19T18:37:17+01:00</lastmod>
   </url><url>
     <loc>https://unicef.github.io/inventory/reproducibility/</loc>
     <lastmod>2021-08-10T17:43:46+01:00</lastmod>
@@ -208,7 +208,7 @@
     <lastmod>2021-08-16T10:52:00-04:00</lastmod>
   </url><url>
     <loc>https://unicef.github.io/inventory/</loc>
-    <lastmod>2021-08-16T10:52:00-04:00</lastmod>
+    <lastmod>2021-08-19T18:37:17+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"

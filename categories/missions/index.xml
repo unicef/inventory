@@ -13,12 +13,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://unicef.github.io/inventory/missions/codes-of-conduct/</guid>
-      <description>This Mission is a short exercise on understanding how Codes of Conduct fit into your Open Source community. In designing a Code of Conduct for a project community, we will explore these Requirements for this Mission:
-  Quality of writing
-  Clarity of expectations
-  Defined structure for handling enforcement
-  Two to four people responsible for handling sensitive reports
-  Use an existing Code of Conduct instead of writing one yourself</description>
+      <description>Table of Contents 1. Quality of writing 2. Clarity of expectations 3. Defined structure for handling enforcement 4. Two to four people responsible for handling sensitive reports 5. Use an existing Code of Conduct instead of writing one yourself 6. References      This Mission is a short exercise on understanding how Codes of Conduct fit into your Open Source community. In designing a Code of Conduct for a project community, we will explore these Requirements for this Mission:</description>
     </item>
     
     <item>
@@ -37,7 +32,7 @@
   Deadlines
   Low committment
   References
-   GFIs exist The first requirement to having good GFIs is to… create GFIs!</description>
+   1. GFIs exist The first requirement to having good GFIs is to… create GFIs!</description>
     </item>
     
   </channel>

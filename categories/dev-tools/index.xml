@@ -13,15 +13,8 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://unicef.github.io/inventory/dev-tools/continuous-integration/</guid>
-      <description>This guide is an introduction to Continuous Integration (C.I.) for Open Source projects. In this guide, you will learn about the following topics:
-  What is CI and why does it matter?
- Tests vs. CI
-  Benefits
-     CI platforms
-  Tips and tricks
-  Examples
-  Other resources
-   What is CI and why does it matter? Continuous Integration can be a few different things.</description>
+      <description>Table of Contents 1. What is CI and why does it matter? 1.1. Tests vs. CI 1.2. Benefits   2. CI platforms 3. Tips and tricks 4. Examples 5. Other resources   This guide is an introduction to Continuous Integration (C.I.) for Open Source projects. In this guide, you will learn about the following topics:
+ 1. What is CI and why does it matter? Continuous Integration can be a few different things.</description>
     </item>
     
   </channel>

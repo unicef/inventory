@@ -104,7 +104,7 @@ if (!doNotTrack) {
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://unicef.github.io/inventory/meta/maintainers-guide/" /><meta property="article:section" content="meta" />
 
-<meta property="article:modified_time" content="2021-08-13T11:18:05-04:00" />
+<meta property="article:modified_time" content="2021-08-19T18:37:17+01:00" />
 
 
 <meta name="twitter:card" content="summary"/>
@@ -192,7 +192,7 @@ if (!doNotTrack) {
         
         
         
-        <option id="en" value="https://unicef.github.io/inventory/communities/public-lab/" selected>en
+        <option id="en" value="https://unicef.github.io/inventory/data/traps/" selected>en
         </option>
         
         
@@ -482,14 +482,33 @@ if (!doNotTrack) {
           <div class="p-lg-5 p-4 bg-white" id="content">
             <h2 class="mb-5" id="title">Maintainer&#39;s guide for O.S. Inventory</h2>
             
-            <div class="content">
+            <div class="content"><div id="toc" class="toc">
+<div id="toctitle">Table of Contents</div>
+<ul class="sectlevel1">
+<li><a href="#conventions">1. Contribution conventions</a>
+<ul class="sectlevel2">
+<li><a href="#conventions-labels">1.1. Label conventions</a></li>
+<li><a href="#conventions-commits">1.2. Commit message conventions</a></li>
+<li><a href="#conventions-submodule">1.3. How to update git submodule as a maintainer</a></li>
+<li><a href="#conventions-priorities">1.4. How development decisions are prioritized</a></li>
+</ul>
+</li>
+<li><a href="#resources">2. Common resources and cheat sheets</a>
+<ul class="sectlevel2">
+<li><a href="#resources-asciidoc">2.1. AsciiDoc syntax cheat sheet</a></li>
+<li><a href="#resources-hugo">2.2. Hugo documentation</a></li>
+<li><a href="#resources-ci">2.3. CI pipeline (diagram)</a></li>
+</ul>
+</li>
+</ul>
+</div>
 <div class="paragraph">
 <p>This document is a maintainer’s guide for the UNICEF Open Source Inventory.
 Yes, this very site!
 This guide covers key information and helpful resources, as well as best practices when maintaining the O.S. Inventory.</p>
 </div>
 <div class="sect1">
-<h2 id="conventions">Contribution conventions&nbsp;<a class="hanchor" href="#conventions">🔗</a> </h2>
+<h2 id="conventions">1. Contribution conventions&nbsp;<a class="hanchor" href="#conventions">🔗</a> </h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p>This section explains contribution conventions for the Open Source Inventory.
@@ -497,7 +516,7 @@ These are common conventions that all contributors are asked to make when contri
 Please make a best effort to follow these conventions at all times, unless there is a justified reason to break convention.</p>
 </div>
 <div class="sect2">
-<h3 id="conventions-labels">Label conventions&nbsp;<a class="hanchor" href="#conventions-labels">🔗</a> </h3>
+<h3 id="conventions-labels">1.1. Label conventions&nbsp;<a class="hanchor" href="#conventions-labels">🔗</a> </h3>
 <div class="paragraph">
 <p>All issue and pull request labels belong to one of the meta-categories of labels below:</p>
 </div>
@@ -534,7 +553,7 @@ Usually indicates experienced maintainer action is required to move forward.</p>
 </div>
 </div>
 <div class="sect2">
-<h3 id="conventions-commits">Commit message conventions&nbsp;<a class="hanchor" href="#conventions-commits">🔗</a> </h3>
+<h3 id="conventions-commits">1.2. Commit message conventions&nbsp;<a class="hanchor" href="#conventions-commits">🔗</a> </h3>
 <div class="olist arabic">
 <ol class="arabic">
 <li>
@@ -556,7 +575,7 @@ Do not allow merge commits.</p>
 </div>
 </div>
 <div class="sect2">
-<h3 id="conventions-submodule">How to update git submodule as a maintainer&nbsp;<a class="hanchor" href="#conventions-submodule">🔗</a> </h3>
+<h3 id="conventions-submodule">1.3. How to update git submodule as a maintainer&nbsp;<a class="hanchor" href="#conventions-submodule">🔗</a> </h3>
 <div class="paragraph">
 <p>There are two components to this Hugo website:
 <strong>content repository</strong> (<a href="https://github.com/unicef/inventory">unicef/inventory</a>) and <strong>theme repository</strong> (<a href="https://github.com/unicef/inventory-hugo-theme">unicef/inventory-hugo-theme</a>).</p>
@@ -569,7 +588,7 @@ Therefore, whenever changes are made to the upstream theme repository, the git s
 The git submodule must be updated from the content repository.</p>
 </div>
 <div class="sect3">
-<h4 id="conventions-submodule-example">Example: git in command line&nbsp;<a class="hanchor" href="#conventions-submodule-example">🔗</a> </h4>
+<h4 id="conventions-submodule-example">1.3.1. Example: git in command line&nbsp;<a class="hanchor" href="#conventions-submodule-example">🔗</a> </h4>
 <div class="paragraph">
 <p>The shell commands below were tested with the git command line client, version 2.31 or later:</p>
 </div>
@@ -598,7 +617,7 @@ git commit --signoff</code></pre></td></tr></table>
 </div>
 </div>
 <div class="sect2">
-<h3 id="conventions-priorities">How development decisions are prioritized&nbsp;<a class="hanchor" href="#conventions-priorities">🔗</a> </h3>
+<h3 id="conventions-priorities">1.4. How development decisions are prioritized&nbsp;<a class="hanchor" href="#conventions-priorities">🔗</a> </h3>
 <div class="paragraph">
 <p>Development decisions are prioritized according to the needs of the following stakeholders:</p>
 </div>
@@ -632,14 +651,14 @@ Over time, if this list creates friction, this part of the maintainer’s guide 
 </div>
 </div>
 <div class="sect1">
-<h2 id="resources">Common resources and cheat sheets&nbsp;<a class="hanchor" href="#resources">🔗</a> </h2>
+<h2 id="resources">2. Common resources and cheat sheets&nbsp;<a class="hanchor" href="#resources">🔗</a> </h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p>This section provides common resources, links, and references for different subject material covered in the project.
 See the sub-headings below for quick references on any aspect of the UNICEF Open Source Inventory.</p>
 </div>
 <div class="sect2">
-<h3 id="resources-asciidoc">AsciiDoc syntax cheat sheet&nbsp;<a class="hanchor" href="#resources-asciidoc">🔗</a> </h3>
+<h3 id="resources-asciidoc">2.1. AsciiDoc syntax cheat sheet&nbsp;<a class="hanchor" href="#resources-asciidoc">🔗</a> </h3>
 <div class="quoteblock">
 <blockquote>
 <div class="paragraph">
@@ -666,7 +685,7 @@ Most importantly, note that <a href="https://asciidoctor.org/docs/asciidoc-recom
 </div>
 </div>
 <div class="sect2">
-<h3 id="resources-hugo">Hugo documentation&nbsp;<a class="hanchor" href="#resources-hugo">🔗</a> </h3>
+<h3 id="resources-hugo">2.2. Hugo documentation&nbsp;<a class="hanchor" href="#resources-hugo">🔗</a> </h3>
 <div class="dlist">
 <dl>
 <dt class="hdlist1"><a href="https://gohugo.io/documentation/"><strong>Hugo Documentation</strong></a></dt>
@@ -688,7 +707,7 @@ If you hit a bug or something seems wrong, open an issue and seek help from a ma
 </dl>
 </div>
 <div class="sect3">
-<h4 id="resources-hugo-reading">Suggested reading&nbsp;<a class="hanchor" href="#resources-hugo-reading">🔗</a> </h4>
+<h4 id="resources-hugo-reading">2.2.1. Suggested reading&nbsp;<a class="hanchor" href="#resources-hugo-reading">🔗</a> </h4>
 <div class="paragraph">
 <p>Not sure where to start?
 These pages are helpful primers:</p>
@@ -720,7 +739,7 @@ Hugo templates are context-aware and make a large number of values available as 
 </div>
 </div>
 <div class="sect2">
-<h3 id="resources-ci">CI pipeline (diagram)&nbsp;<a class="hanchor" href="#resources-ci">🔗</a> </h3>
+<h3 id="resources-ci">2.3. CI pipeline (diagram)&nbsp;<a class="hanchor" href="#resources-ci">🔗</a> </h3>
 <div class="paragraph">
 <p>The diagram below explains how the Continuous Integration pipeline is set up to deploy HTML from git to production:</p>
 </div>
@@ -734,7 +753,7 @@ Hugo templates are context-aware and make a large number of values available as 
 </div>
 </div>
             
-            <p class="post-meta border-bottom pb-3 mb-0 mt-3">Updated on 13 Aug 2021</p>
+            <p class="post-meta border-bottom pb-3 mb-0 mt-3">Updated on 19 Aug 2021</p>
             <nav class="pagination mt-3">
               
               

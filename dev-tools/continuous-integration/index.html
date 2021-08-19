@@ -104,7 +104,7 @@ if (!doNotTrack) {
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://unicef.github.io/inventory/dev-tools/continuous-integration/" /><meta property="article:section" content="dev-tools" />
 
-<meta property="article:modified_time" content="2021-08-11T09:34:42+02:00" />
+<meta property="article:modified_time" content="2021-08-19T18:37:17+01:00" />
 
 
 <meta name="twitter:card" content="summary"/>
@@ -192,7 +192,7 @@ if (!doNotTrack) {
         
         
         
-        <option id="en" value="https://unicef.github.io/inventory/communities/public-lab/" selected>en
+        <option id="en" value="https://unicef.github.io/inventory/data/traps/" selected>en
         </option>
         
         
@@ -328,41 +328,27 @@ if (!doNotTrack) {
           <div class="p-lg-5 p-4 bg-white" id="content">
             <h2 class="mb-5" id="title">Continuous Integration (CI)</h2>
             
-            <div class="content"><div class="paragraph">
+            <div class="content"><div id="toc" class="toc">
+<div id="toctitle">Table of Contents</div>
+<ul class="sectlevel1">
+<li><a href="#what-why">1. What is CI and why does it matter?</a>
+<ul class="sectlevel2">
+<li><a href="#tests-vs-ci">1.1. Tests vs. CI</a></li>
+<li><a href="#benefits">1.2. Benefits</a></li>
+</ul>
+</li>
+<li><a href="#platforms">2. CI platforms</a></li>
+<li><a href="#tips">3. Tips and tricks</a></li>
+<li><a href="#examples">4. Examples</a></li>
+<li><a href="#resources">5. Other resources</a></li>
+</ul>
+</div>
+<div class="paragraph">
 <p>This guide is an introduction to Continuous Integration (C.I.) for Open Source projects.
 In this guide, you will learn about the following topics:</p>
 </div>
-<div class="olist arabic">
-<ol class="arabic">
-<li>
-<p><a href="#what-why">What is CI and why does it matter?</a></p>
-<div class="olist loweralpha">
-<ol class="loweralpha" type="a">
-<li>
-<p><a href="#tests-vs-ci">Tests vs. CI</a></p>
-</li>
-<li>
-<p><a href="#benefits">Benefits</a></p>
-</li>
-</ol>
-</div>
-</li>
-<li>
-<p><a href="#platforms">CI platforms</a></p>
-</li>
-<li>
-<p><a href="#tips">Tips and tricks</a></p>
-</li>
-<li>
-<p><a href="#examples">Examples</a></p>
-</li>
-<li>
-<p><a href="#resources">Other resources</a></p>
-</li>
-</ol>
-</div>
 <div class="sect1">
-<h2 id="what-why">What is CI and why does it matter?&nbsp;<a class="hanchor" href="#what-why">🔗</a> </h2>
+<h2 id="what-why">1. What is CI and why does it matter?&nbsp;<a class="hanchor" href="#what-why">🔗</a> </h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p>Continuous Integration can be a few different things.
@@ -371,7 +357,7 @@ A CI platform will run an open source project’s code test suite and report the
 You can even get this feedback before adding new code into a project.</p>
 </div>
 <div class="sect2">
-<h3 id="tests-vs-ci">Tests vs. CI&nbsp;<a class="hanchor" href="#tests-vs-ci">🔗</a> </h3>
+<h3 id="tests-vs-ci">1.1. Tests vs. CI&nbsp;<a class="hanchor" href="#tests-vs-ci">🔗</a> </h3>
 <div class="paragraph">
 <p>It is important to distinguish code test suites from CI platforms.</p>
 </div>
@@ -390,7 +376,7 @@ A <strong>CI job</strong> sets up the infrastructure and environment needed for 
 </div>
 </div>
 <div class="sect2">
-<h3 id="benefits">Benefits&nbsp;<a class="hanchor" href="#benefits">🔗</a> </h3>
+<h3 id="benefits">1.2. Benefits&nbsp;<a class="hanchor" href="#benefits">🔗</a> </h3>
 <div class="paragraph">
 <p>Using a CI platform provides benefits both for agile software development <em>and</em> open source.</p>
 </div>
@@ -429,7 +415,7 @@ The contributor can run the test suite locally before they propose their changes
 </div>
 </div>
 <div class="sect1">
-<h2 id="platforms">CI platforms&nbsp;<a class="hanchor" href="#platforms">🔗</a> </h2>
+<h2 id="platforms">2. CI platforms&nbsp;<a class="hanchor" href="#platforms">🔗</a> </h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p>There are many different CI platforms available.
@@ -464,7 +450,7 @@ Additionally, all of these platforms have extensive documentation. Read up on th
 </div>
 </div>
 <div class="sect1">
-<h2 id="tips">Tips and tricks&nbsp;<a class="hanchor" href="#tips">🔗</a> </h2>
+<h2 id="tips">3. Tips and tricks&nbsp;<a class="hanchor" href="#tips">🔗</a> </h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p>This is a short list of tips, tricks, and common traps to avoid when integrating CI into your project:</p>
@@ -498,7 +484,7 @@ Remember, the benefits of CI will not be realized if you are not consistently te
 </div>
 </div>
 <div class="sect1">
-<h2 id="examples">Examples&nbsp;<a class="hanchor" href="#examples">🔗</a> </h2>
+<h2 id="examples">4. Examples&nbsp;<a class="hanchor" href="#examples">🔗</a> </h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p>Need some examples of projects using a Continuous Integration pipeline?
@@ -535,7 +521,7 @@ Check out some of the examples below!</p>
 </div>
 </div>
 <div class="sect1">
-<h2 id="resources">Other resources&nbsp;<a class="hanchor" href="#resources">🔗</a> </h2>
+<h2 id="resources">5. Other resources&nbsp;<a class="hanchor" href="#resources">🔗</a> </h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p>Curious to know more?
@@ -555,7 +541,7 @@ The resources below explain other concepts about Continuous Integration in great
 </div>
 </div>
             
-            <p class="post-meta border-bottom pb-3 mb-0 mt-3">Updated on 11 Aug 2021</p>
+            <p class="post-meta border-bottom pb-3 mb-0 mt-3">Updated on 19 Aug 2021</p>
             <nav class="pagination mt-3">
               
               

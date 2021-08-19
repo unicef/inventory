@@ -22,7 +22,7 @@
   Common Traps Mitigations
      Milestone 3: Sharing the Model
  Model Card Created
-      Understanding Data Flow   Primary Goal: Create documentation that ensures you know what data you’re using and how you plan on sharing it.</description>
+      1.</description>
     </item>
     
     <item>
@@ -32,14 +32,13 @@
       
       <guid>https://unicef.github.io/inventory/data/model-card/</guid>
       <description>The following is an editable version of the model card proposed in arxiv.org/abs/1810.03993.
- Model details Basic information about the model.
+ 1. Model details Basic information about the model.
    Person or organization developing model
   Date of last update
   Model version
   Model type (information about training algorithms, parameters, fairness constraints or other applied approaches, and features)
   Paper or other resource for more information
-  Citation details
-  License</description>
+  Citation details</description>
     </item>
     
     <item>
@@ -49,7 +48,7 @@
       
       <guid>https://unicef.github.io/inventory/data/traps/</guid>
       <description>Assessing common mistakes that lead to unintended side effects. Information summarized from Fairness and Abstraction in Sociotechnical Systems, a paper published at the 2019 ACM Conference on Fairness, Accountability, and Transparency.
- Framing Trap Failure to model the entire system over which a social criterion, such as fairness, will be enforced.
+ 1. Framing Trap Failure to model the entire system over which a social criterion, such as fairness, will be enforced.
  For this trap, we will want to look at our outcome variables. Are these variables a proxy of the actual outcome you wish to achieve?</description>
     </item>
     

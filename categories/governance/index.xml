@@ -13,9 +13,9 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://unicef.github.io/inventory/governance/governance/</guid>
-      <description>This page defines and provides examples of Open Source governance. This includes Open Source project governance models, examples of other projects, frameworks for decision-making, and more.
+      <description>Table of Contents 1. What is Open Source governance? 2. Models 3. Examples 3.1. Linux kernel 3.2. Fedora Project   4. Resources 4.1. Exploratory 4.2. Journalism     This page defines and provides examples of Open Source governance. This includes Open Source project governance models, examples of other projects, frameworks for decision-making, and more.
  This page is a work-in-progress. Check back later for future additions.
- What is Open Source governance? The phrase &amp;#34;Open Source governance&amp;#34; generally refers to the decision-making model or documented process for how an Open Source project makes decisions. Sustainable governance is essential if an Open Source project will last, especially if it involves multiple stakeholders and collaborators.</description>
+ 1.</description>
     </item>
     
     <item>
@@ -24,8 +24,8 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://unicef.github.io/inventory/governance/reading-list/</guid>
-      <description>Readings on a variety of topics about Free &amp;amp; Open Source Software.
- Foundations   Four Freedoms of Free Software: Before understanding anything else about Open Source, you must first understand the core foundation of what decades of Open Source development built upon: the Four Freedoms. The Four Freedoms can be remembered as the freedoms to Read, Run, Revise, &amp;amp; Redistribute. This article from Free Software Foundation Europe explains more about the essential four freedoms guaranteed by all users of Open Source technology.</description>
+      <description>Table of Contents 1. Foundations 2. Governance   Readings on a variety of topics about Free &amp;amp; Open Source Software.
+ 1. Foundations   Four Freedoms of Free Software: Before understanding anything else about Open Source, you must first understand the core foundation of what decades of Open Source development built upon: the Four Freedoms. The Four Freedoms can be remembered as the freedoms to Read, Run, Revise, &amp;amp; Redistribute.</description>
     </item>
     
   </channel>
