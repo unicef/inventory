@@ -22,7 +22,11 @@
   <link href="https://fonts.googleapis.com/css?family=Open%2bSans:300,400,700&display=swap" rel="stylesheet">
 
   <!-- fonts -->
- <script src="https://kit.fontawesome.com/9196e0632a.js" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/9196e0632a.js" crossorigin="anonymous"></script>
+
+  <!-- PDF.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.9.359/pdf.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.3/html2pdf.bundle.js"></script>
   
   <style>
   :root{
@@ -188,7 +192,7 @@ if (!doNotTrack) {
         
         
         
-        <option id="en" value="https://unicef.github.io/inventory/communities/fedora/" selected>en
+        <option id="en" value="https://unicef.github.io/inventory/communities/public-lab/" selected>en
         </option>
         
         
@@ -445,6 +449,11 @@ if (!doNotTrack) {
             
               
             
+            
+            <div>
+                <button class="btn btn-primary btn-block" id="generatePDF" > Get Pdf  </button>
+            </div>
+            
           </ul>
         </div>
       </div>
@@ -470,8 +479,8 @@ if (!doNotTrack) {
    document.writeln(path);
 </script>
           </div>
-          <div class="p-lg-5 p-4 bg-white">
-            <h2 class="mb-5">Modules</h2>
+          <div class="p-lg-5 p-4 bg-white" id="content">
+            <h2 class="mb-5" id="title">Modules</h2>
             
             <div class="content">
 <div class="paragraph">
@@ -1878,19 +1887,17 @@ Target 40% code coverage, if applicable.</p>
                           
 
                             <div class="col-sm-4 my-2">
-                              <a href="https://unicef.github.io/inventory/meta/workplan-bridge-funding/">
+                              <a href="https://unicef.github.io/inventory/meta/overview/">
                                 <div class="card text-center">
                                   
                                   <div class="card-body">
-                                    <h5 class="card-title">Workplan: Bridge Fund cohort</h5>
-                                    <p class="card-subtitle mb-2 text-muted">Open Source workplan requirements for UNICEF Open Source Mentorship programme. These requirements apply to companies in the Bridge Fund cohort.</p>
+                                    <h5 class="card-title">Open Source Mentorship programme overview</h5>
+                                    <p class="card-subtitle mb-2 text-muted">An introduction to the UNICEF Open Source Mentorship programme. Hosted by the Office of Innovation.</p>
                                   </div>
                                 </div>
                               </a>
                             </div>
 
-                          
-                        
                           
                         
                           
@@ -1902,6 +1909,22 @@ Target 40% code coverage, if applicable.</p>
                                   <div class="card-body">
                                     <h5 class="card-title">Templates for programme mentors</h5>
                                     <p class="card-subtitle mb-2 text-muted">Various templates and reusable copytext for UNICEF Open Source Mentorship programme mentors.</p>
+                                  </div>
+                                </div>
+                              </a>
+                            </div>
+
+                          
+                        
+                          
+
+                            <div class="col-sm-4 my-2">
+                              <a href="https://unicef.github.io/inventory/meta/workflow-metrics/">
+                                <div class="card text-center">
+                                  
+                                  <div class="card-body">
+                                    <h5 class="card-title">Workflow: Update external UNICEF metrics</h5>
+                                    <p class="card-subtitle mb-2 text-muted">How a UNICEF contractor manages and updates metrics about Innovation Fund portfolio company projects.</p>
                                   </div>
                                 </div>
                               </a>

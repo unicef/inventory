@@ -22,7 +22,11 @@
   <link href="https://fonts.googleapis.com/css?family=Open%2bSans:300,400,700&display=swap" rel="stylesheet">
 
   <!-- fonts -->
- <script src="https://kit.fontawesome.com/9196e0632a.js" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/9196e0632a.js" crossorigin="anonymous"></script>
+
+  <!-- PDF.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.9.359/pdf.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.3/html2pdf.bundle.js"></script>
   
   <style>
   :root{
@@ -188,7 +192,7 @@ if (!doNotTrack) {
         
         
         
-        <option id="en" value="https://unicef.github.io/inventory/communities/fedora/" selected>en
+        <option id="en" value="https://unicef.github.io/inventory/communities/public-lab/" selected>en
         </option>
         
         
@@ -401,6 +405,11 @@ if (!doNotTrack) {
             
               
             
+            
+            <div>
+                <button class="btn btn-primary btn-block" id="generatePDF" > Get Pdf  </button>
+            </div>
+            
           </ul>
         </div>
       </div>
@@ -426,8 +435,8 @@ if (!doNotTrack) {
    document.writeln(path);
 </script>
           </div>
-          <div class="p-lg-5 p-4 bg-white">
-            <h2 class="mb-5">Case studies</h2>
+          <div class="p-lg-5 p-4 bg-white" id="content">
+            <h2 class="mb-5" id="title">Case studies</h2>
             
             <div class="content">
 <div class="paragraph">
@@ -1417,12 +1426,28 @@ Because hardware and firmware are [public], users create custom modifications an
                           
 
                             <div class="col-sm-4 my-2">
-                              <a href="https://unicef.github.io/inventory/hardware/licensing/">
+                              <a href="https://unicef.github.io/inventory/hardware/documentation/">
                                 <div class="card text-center">
                                   
                                   <div class="card-body">
-                                    <h5 class="card-title">Licensing</h5>
-                                    <p class="card-subtitle mb-2 text-muted">Information, resources, and details about common licenses used for Open Source Hardware projects.</p>
+                                    <h5 class="card-title">Documentation</h5>
+                                    <p class="card-subtitle mb-2 text-muted">How does documentation work for Open Source Hardware? This page provides a brief introduction.</p>
+                                  </div>
+                                </div>
+                              </a>
+                            </div>
+
+                          
+                        
+                          
+
+                            <div class="col-sm-4 my-2">
+                              <a href="https://unicef.github.io/inventory/hardware/intro/">
+                                <div class="card text-center">
+                                  
+                                  <div class="card-body">
+                                    <h5 class="card-title">Introduction to Open Source Hardware</h5>
+                                    <p class="card-subtitle mb-2 text-muted">So, you want to know about Open Source Hardware? Start here to get an introduction to the landscape in the 2020s.</p>
                                   </div>
                                 </div>
                               </a>
@@ -1439,22 +1464,6 @@ Because hardware and firmware are [public], users create custom modifications an
                                   <div class="card-body">
                                     <h5 class="card-title">Open Hardware reading list</h5>
                                     <p class="card-subtitle mb-2 text-muted">Various readings and learnings about Open Source Hardware that do not belong on another page.</p>
-                                  </div>
-                                </div>
-                              </a>
-                            </div>
-
-                          
-                        
-                          
-
-                            <div class="col-sm-4 my-2">
-                              <a href="https://unicef.github.io/inventory/hardware/documentation/">
-                                <div class="card text-center">
-                                  
-                                  <div class="card-body">
-                                    <h5 class="card-title">Documentation</h5>
-                                    <p class="card-subtitle mb-2 text-muted">How does documentation work for Open Source Hardware? This page provides a brief introduction.</p>
                                   </div>
                                 </div>
                               </a>

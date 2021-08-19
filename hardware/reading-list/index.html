@@ -22,7 +22,11 @@
   <link href="https://fonts.googleapis.com/css?family=Open%2bSans:300,400,700&display=swap" rel="stylesheet">
 
   <!-- fonts -->
- <script src="https://kit.fontawesome.com/9196e0632a.js" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/9196e0632a.js" crossorigin="anonymous"></script>
+
+  <!-- PDF.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.9.359/pdf.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.3/html2pdf.bundle.js"></script>
   
   <style>
   :root{
@@ -188,7 +192,7 @@ if (!doNotTrack) {
         
         
         
-        <option id="en" value="https://unicef.github.io/inventory/communities/fedora/" selected>en
+        <option id="en" value="https://unicef.github.io/inventory/communities/public-lab/" selected>en
         </option>
         
         
@@ -401,6 +405,11 @@ if (!doNotTrack) {
             
               
             
+            
+            <div>
+                <button class="btn btn-primary btn-block" id="generatePDF" > Get Pdf  </button>
+            </div>
+            
           </ul>
         </div>
       </div>
@@ -426,8 +435,8 @@ if (!doNotTrack) {
    document.writeln(path);
 </script>
           </div>
-          <div class="p-lg-5 p-4 bg-white">
-            <h2 class="mb-5">Open Hardware reading list</h2>
+          <div class="p-lg-5 p-4 bg-white" id="content">
+            <h2 class="mb-5" id="title">Open Hardware reading list</h2>
             
             <div class="content"><div class="paragraph">
 <p>A collection of various readings and articles related to Open Hardware.</p>
@@ -1445,12 +1454,12 @@ Note this is likely most helpful for academics and researchers.</p>
                           
 
                             <div class="col-sm-4 my-2">
-                              <a href="https://unicef.github.io/inventory/hardware/projects/">
+                              <a href="https://unicef.github.io/inventory/hardware/case-studies/">
                                 <div class="card text-center">
                                   
                                   <div class="card-body">
-                                    <h5 class="card-title">Project Hall of Fame</h5>
-                                    <p class="card-subtitle mb-2 text-muted">Various Open Source Hardware projects and links back to their projects and/or communities.</p>
+                                    <h5 class="card-title">Case studies</h5>
+                                    <p class="card-subtitle mb-2 text-muted">Detailed case studies and analysis of different Open Hardware organizations, projects, and products.</p>
                                   </div>
                                 </div>
                               </a>

@@ -22,7 +22,11 @@
   <link href="https://fonts.googleapis.com/css?family=Open%2bSans:300,400,700&display=swap" rel="stylesheet">
 
   <!-- fonts -->
- <script src="https://kit.fontawesome.com/9196e0632a.js" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/9196e0632a.js" crossorigin="anonymous"></script>
+
+  <!-- PDF.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.9.359/pdf.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.3/html2pdf.bundle.js"></script>
   
   <style>
   :root{
@@ -188,7 +192,7 @@ if (!doNotTrack) {
         
         
         
-        <option id="en" value="https://unicef.github.io/inventory/communities/fedora/" selected>en
+        <option id="en" value="https://unicef.github.io/inventory/communities/public-lab/" selected>en
         </option>
         
         
@@ -313,6 +317,11 @@ if (!doNotTrack) {
             
               
             
+            
+            <div>
+                <button class="btn btn-primary btn-block" id="generatePDF" > Get Pdf  </button>
+            </div>
+            
           </ul>
         </div>
       </div>
@@ -338,8 +347,8 @@ if (!doNotTrack) {
    document.writeln(path);
 </script>
           </div>
-          <div class="p-lg-5 p-4 bg-white">
-            <h2 class="mb-5">Public Lab</h2>
+          <div class="p-lg-5 p-4 bg-white" id="content">
+            <h2 class="mb-5" id="title">Public Lab</h2>
             
             <div class="content"><div class="imageblock">
 <div class="content">
