@@ -8,7 +8,9 @@ set -e
 DEPLOY_DIR=~/project
 
 # trust GitHub server keys
-mkdir ~/.ssh/
+if [ ! -d ~/.ssh/ ]; then
+  mkdir ~/.ssh/
+fi
 ssh-keyscan github.com >> ~/.ssh/known_hosts
 
 # stage generated HTML for GitHub Pages

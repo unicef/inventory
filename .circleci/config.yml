@@ -30,6 +30,11 @@ jobs:
     environment:
       HUGO_BUILD_DIR: ~/hugo/inventory/public
     steps:
+      # add repository deploy key (for pull/push access)
+      - add_ssh_keys:
+          fingerprints:
+            - "21:74:62:c8:10:59:77:7c:9d:96:cf:c8:69:84:1f:bb"
+
       # deploy.sh dependencies
       - run: apk add rsync
 
