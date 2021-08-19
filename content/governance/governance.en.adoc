@@ -8,14 +8,13 @@ aliases:
     - /foss/governance/
 
 ---
+:toc:
 
 This page defines and provides examples of Open Source governance.
 This includes Open Source project governance models, examples of other projects, frameworks for decision-making, and more.
 
 This page is a work-in-progress.
 Check back later for future additions.
-
-:toc:
 
 
 [[about]]

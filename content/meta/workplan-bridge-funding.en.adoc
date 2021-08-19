@@ -8,6 +8,7 @@ categories: "meta"
 ---
 // document settings
 :hide-uri-scheme:
+:toc:
 // reference links
 :unicef-advisor: Justin W. Flory
 :unicef-advisor-email: jflory [at] unicef [dot] org
@@ -15,19 +16,6 @@ categories: "meta"
 This page documents the workplan requirements for the Bridge Fund cohort of the UNICEF Innovation Fund.
 These graduation expectations are in place for UNICEF grantees receiving follow-on funding from UNICEF.
 See the table of contents for navigating.
-
-//TODO fix hugo theme to correctly render toc attributes instead of hand-typing them out
-// https://github.com/unicef/inventory/issues/29
-//:toc:
-. link:#mission[Mission]
-. link:#vision[Vision]
-. link:#community[Community]
-. link:#timeline[Timeline]
-.. link:#timeline-q1[Q1]
-.. link:#timeline-q2[Q2]
-.. link:#timeline-q3[Q3]
-.. link:#timeline-q4[Q4]
-. link:#references[References]
 
 
 [[mission]]

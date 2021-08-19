@@ -6,20 +6,12 @@ tags: ["community"]
 categories: "project-management"
 
 ---
+:toc:
 
 This guide is an introduction to *project boards* for your open source project.
 By the end of this guide, you will have a basic understanding of how to run project planning in an open, transparent way to your community.
 What this guide is _NOT_ is a guide to agile/scrum development.
 You should have a basic understanding of agile, scrum, and/or kanban before reading this article.
-
-The following topics are covered:
-
-:toc:
-
-. About project boards
-. Case study: TeleIRC
-. Examples
-. Additional resources
 
 
 == About project boards

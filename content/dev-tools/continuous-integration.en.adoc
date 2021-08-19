@@ -6,20 +6,10 @@ tags: ["testing"]
 categories: "dev-tools"
 
 ---
+:toc:
 
 This guide is an introduction to Continuous Integration (C.I.) for Open Source projects.
 In this guide, you will learn about the following topics:
-
-//:toc:
-
-[arabic]
-. link:#what-why[What is CI and why does it matter?]
-.. link:#tests-vs-ci[Tests vs. CI]
-.. link:#benefits[Benefits]
-. link:#platforms[CI platforms]
-. link:#tips[Tips and tricks]
-. link:#examples[Examples]
-. link:#resources[Other resources]
 
 
 [[what-why]]

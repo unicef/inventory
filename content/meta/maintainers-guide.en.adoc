@@ -7,7 +7,6 @@ tags: ["docs", "testing"]
 ---
 // document settings
 :toc:
-:hide-uri-scheme:
 
 This document is a maintainer's guide for the UNICEF Open Source Inventory.
 Yes, this very site!

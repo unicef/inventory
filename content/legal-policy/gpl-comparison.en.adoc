@@ -8,12 +8,12 @@ aliases:
     - /foss/gpl-comparison/
 
 ---
+:toc:
+
 *The information shared on this page does not constitute legal or financial advice*.
 
 This page provides an interpretation of the key differences between v2 and v3 of the GNU Public License, or G.P.L.
 The key differences are summarized in each section below.
-
-:toc:
 
 
 [[tivoization]]

@@ -7,25 +7,12 @@ categories: "hardware"
 
 ---
 :definition: https://www.oshwa.org/definition/
+:toc:
 
 So… you want to know about Open Source Hardware?
 This page is an introduction to what Open Source Hardware means, how it works, and why it matters.
 Other pages in this Open Source Heuristic category will expand your understanding of Open Source Hardware;
 however, if you need a place to begin, this is a good start!
-
-See the following sections below:
-
-:toc:
-
-. link:#overview[What is Open Source Hardware?]
-.. link:#overview-takeaway[Takeaway]
-. link:#examples[Where does Open Source Hardware exist today?]
-. link:#benefits[Why Open Source Hardware is a win for your project]
-.. link:#benefits-reproducibility[Reason no. 1: Reproducibility]
-.. link:#benefits-community[Reason no. 2: Community participation]
-.. link:#benefits-trademark[Reason no. 3: Trademark protections]
-. link:#oshwa[Open Source Hardware Association]
-. link:#resources[Resources and other references]
 
 
 [[overview]]
