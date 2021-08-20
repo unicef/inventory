@@ -8,14 +8,13 @@
     <language>en-us</language>
     <copyright>Creative Commons BY-SA 4.0</copyright><atom:link href="https://unicef.github.io/inventory/categories/sustainability/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Business sustainability for Open Source</title>
-      <link>https://unicef.github.io/inventory/sustainability/business-sustainability/</link>
+      <title>Open-first business approaches</title>
+      <link>https://unicef.github.io/inventory/sustainability/approaches/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://unicef.github.io/inventory/sustainability/business-sustainability/</guid>
-      <description>Table of Contents 1. Business models 1.1. Training &amp;amp; support     This page collects information, best practices, and other resources for business sustainability of Open Source projects.
- 1. Business models Specific business models or approaches used by other Open Source projects and communities. This section is small but will continue to grow as more knowledge is collected and centralized together.
- 1.1. Training &amp;amp; support One popular approach to business sustainability is offering training and support for your Open Source product.</description>
+      <guid>https://unicef.github.io/inventory/sustainability/approaches/</guid>
+      <description>Table of Contents 1. Asking the right question 2. Seven approaches for building Open works 2.1. Enterprise or targeted versions 2.2. Services around your product 2.3. Services are your product 2.4. Content 2.5. Packaging 2.6. Franchising 2.7. Training     This page collects information, best practices, and references about sustainable Open-first business approaches.
+ How do you build a sustainable business approach when you work Open? While the Open Source model of working is not completely new, it is a new way of working for many people who have not previously participated in highly collaborative, distributed communities.</description>
     </item>
     
   </channel>

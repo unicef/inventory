@@ -11,9 +11,6 @@
     <loc>https://unicef.github.io/inventory/data/milestone-roadmap/</loc>
     <lastmod>2021-08-10T17:43:46+01:00</lastmod>
   </url><url>
-    <loc>https://unicef.github.io/inventory/sustainability/business-sustainability/</loc>
-    <lastmod>2021-08-16T10:52:00-04:00</lastmod>
-  </url><url>
     <loc>https://unicef.github.io/inventory/hardware/case-studies/</loc>
     <lastmod>2021-08-10T17:43:46+01:00</lastmod>
   </url><url>
@@ -34,6 +31,9 @@
   </url><url>
     <loc>https://unicef.github.io/inventory/project-management/issue-templates/</loc>
     <lastmod>2021-08-13T11:18:05-04:00</lastmod>
+  </url><url>
+    <loc>https://unicef.github.io/inventory/sustainability/approaches/</loc>
+    <lastmod>2021-08-20T06:32:48-04:00</lastmod>
   </url><url>
     <loc>https://unicef.github.io/inventory/reproducibility/reading-list/</loc>
     <lastmod>2021-08-10T17:43:46+01:00</lastmod>
@@ -114,7 +114,7 @@
     <lastmod>2021-08-10T17:43:46+01:00</lastmod>
   </url><url>
     <loc>https://unicef.github.io/inventory/categories/</loc>
-    <lastmod>2021-08-19T18:37:17+01:00</lastmod>
+    <lastmod>2021-08-20T06:32:48-04:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
@@ -205,10 +205,10 @@
     <lastmod>2021-08-16T10:52:00-04:00</lastmod>
   </url><url>
     <loc>https://unicef.github.io/inventory/categories/sustainability/</loc>
-    <lastmod>2021-08-16T10:52:00-04:00</lastmod>
+    <lastmod>2021-08-20T06:32:48-04:00</lastmod>
   </url><url>
     <loc>https://unicef.github.io/inventory/</loc>
-    <lastmod>2021-08-19T18:37:17+01:00</lastmod>
+    <lastmod>2021-08-20T06:32:48-04:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
