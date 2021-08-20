@@ -180,7 +180,7 @@ languageName = "en"
 languageCode = "en-us"
 weight = 1
 home = "Home"
-copyright = "Creative Commons BY-SA 4.0"
+copyright = "Creative Commons BY-SA 4.0. Site theme maintained by UNICEF. Original theme, Dot, created by ThemeFisher."
 
 # banner
 [Languages.en.params.banner]
