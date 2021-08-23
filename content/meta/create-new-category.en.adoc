@@ -1,8 +1,8 @@
 ---
 title: "How to create a new Inventory category"
 weight: 10
-description: Overview of learning modules currently offered through the UNICEF Open Source Mentorship programme.
-tags: ["docs", "legal", "testing"]
+description: Guidance on creating a new content category in the Open Source Inventory.
+tags: ["admin"]
 categories: "meta"
 
 ---
