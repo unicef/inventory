@@ -167,6 +167,7 @@ sectionNumbers = true
 
 ############################# Related Articles #############################
 [taxonomies]
+  alert = "alerts"
   category = "categories"
   downloadable = "downloadBtn"
 
