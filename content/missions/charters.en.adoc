@@ -147,7 +147,7 @@ Often, these statements are written with broad strokes but may focus on a specif
 [[community-examples]]
 ==== Examples
 
-* [*Fedora Project community statement*]:
+* https://docs.fedoraproject.org/en-US/project/#_our_community[*Fedora Project community statement*]:
   Fedora specifically identifies both full-time employees and community volunteers in their community.
   Furthermore, they identify key roles that make up the project community:
   software engineers, designers and artists, system administrators, web designers, writers, speakers, translators, and more.
