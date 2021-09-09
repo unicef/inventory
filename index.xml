@@ -62,12 +62,12 @@
     </item>
     
     <item>
-      <title>Codes of Conduct</title>
-      <link>https://unicef.github.io/inventory/missions/codes-of-conduct/</link>
+      <title>Charters</title>
+      <link>https://unicef.github.io/inventory/missions/charters/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://unicef.github.io/inventory/missions/codes-of-conduct/</guid>
-      <description>Table of Contents 1. Quality of writing 2. Clarity of expectations 3. Defined structure for handling enforcement 4. Two to four people responsible for handling sensitive reports 5. Use an existing Code of Conduct instead of writing one yourself 6. References      This Mission is a short exercise on understanding how Codes of Conduct fit into your Open Source community. In designing a Code of Conduct for a project community, we will explore these Requirements for this Mission:</description>
+      <guid>https://unicef.github.io/inventory/missions/charters/</guid>
+      <description>Table of Contents 1. Launch checklist 1.1. Who? 1.2. What?   2. Preparing for take-off 2.1. Process 2.2. Platform   3. Take-off! Time to launch 3.1. Vision and mission 3.2. Community statement 3.3. Licensing approach 3.4. Code of Conduct 3.5. Trademark identification   4. Destination: Sustainable governance 4.1. Note on revisions   5. References 6. Thanks   This Mission is a guide to project charters. A project charter is important in an Open Source context because it acts as an anchor across the project’s lifetime and provides a framework for making decisions and prioritizing future development work.</description>
     </item>
     
     <item>
@@ -154,6 +154,15 @@
     </item>
     
     <item>
+      <title>Codes of Conduct</title>
+      <link>https://unicef.github.io/inventory/missions/codes-of-conduct/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unicef.github.io/inventory/missions/codes-of-conduct/</guid>
+      <description>Table of Contents 1. Quality of writing 2. Clarity of expectations 3. Defined structure for handling enforcement 4. Two to four people responsible for handling sensitive reports 5. Use an existing Code of Conduct instead of writing one yourself 6. References      This Mission is a short exercise on understanding how Codes of Conduct fit into your Open Source community. In designing a Code of Conduct for a project community, we will explore these Requirements for this Mission:</description>
+    </item>
+    
+    <item>
       <title>Contributor License Agreements (CLAs)</title>
       <link>https://unicef.github.io/inventory/legal-policy/contributor-license-agreement-cla/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -184,25 +193,6 @@
       <description>Table of Contents 1. Aggregations 2. Developer documentation 3. Toolchain-specific examples 3.1. Golang Hugo 3.2. Python Sphinx     This page is a collection of good examples of Open Source documentation projects. The projects and examples listed here are not endorsements. It is a collection of good examples to inspire your own Open Source documentation!
  1. Aggregations The projects listed below aggregate several existing documentation projects:
    Awesome Documentation: Community-curated resource with examples of great documentation in Open Source projects.</description>
-    </item>
-    
-    <item>
-      <title>Good first issues</title>
-      <link>https://unicef.github.io/inventory/missions/good-first-issue/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://unicef.github.io/inventory/missions/good-first-issue/</guid>
-      <description>Flory, Justin W.
-    This Mission is a guide to making &amp;#34;good first issues&amp;#34; (shortened to G.F.I.&amp;#39;s) for your Open Source community. To create good GFIs, we will explore these Objectives for this Mission:
-  GFIs exist
-  Assignee ratio
-  Simple language
-  Actionable
-  Purpose
-  Deadlines
-  Low committment
-  References
-   1. GFIs exist The first requirement to having good GFIs is to… create GFIs!</description>
     </item>
     
     <item>
@@ -259,6 +249,25 @@
       <description>Assessing common mistakes that lead to unintended side effects. Information summarized from Fairness and Abstraction in Sociotechnical Systems, a paper published at the 2019 ACM Conference on Fairness, Accountability, and Transparency.
  1. Framing Trap Failure to model the entire system over which a social criterion, such as fairness, will be enforced.
  For this trap, we will want to look at our outcome variables. Are these variables a proxy of the actual outcome you wish to achieve?</description>
+    </item>
+    
+    <item>
+      <title>Good first issues</title>
+      <link>https://unicef.github.io/inventory/missions/good-first-issue/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unicef.github.io/inventory/missions/good-first-issue/</guid>
+      <description>Flory, Justin W.
+    This Mission is a guide to making &amp;#34;good first issues&amp;#34; (shortened to G.F.I.&amp;#39;s) for your Open Source community. To create good GFIs, we will explore these Objectives for this Mission:
+  GFIs exist
+  Assignee ratio
+  Simple language
+  Actionable
+  Purpose
+  Deadlines
+  Low committment
+  References
+   1. GFIs exist The first requirement to having good GFIs is to… create GFIs!</description>
     </item>
     
     <item>

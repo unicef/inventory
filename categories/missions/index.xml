@@ -8,6 +8,15 @@
     <language>en-us</language>
     <copyright>Creative Commons BY-SA 4.0. Site theme maintained by UNICEF. Original theme, Dot, created by ThemeFisher.</copyright><atom:link href="https://unicef.github.io/inventory/categories/missions/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Charters</title>
+      <link>https://unicef.github.io/inventory/missions/charters/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unicef.github.io/inventory/missions/charters/</guid>
+      <description>Table of Contents 1. Launch checklist 1.1. Who? 1.2. What?   2. Preparing for take-off 2.1. Process 2.2. Platform   3. Take-off! Time to launch 3.1. Vision and mission 3.2. Community statement 3.3. Licensing approach 3.4. Code of Conduct 3.5. Trademark identification   4. Destination: Sustainable governance 4.1. Note on revisions   5. References 6. Thanks   This Mission is a guide to project charters. A project charter is important in an Open Source context because it acts as an anchor across the project’s lifetime and provides a framework for making decisions and prioritizing future development work.</description>
+    </item>
+    
+    <item>
       <title>Codes of Conduct</title>
       <link>https://unicef.github.io/inventory/missions/codes-of-conduct/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
