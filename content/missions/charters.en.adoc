@@ -28,7 +28,7 @@ In order to implement a successful project charter, the design process should in
 [[checklist-who]]
 === Who?
 
-This list is not fixed or rugged.
+This list is not fixed or rigid.
 Every organization may look different.
 Use your own creativity to decide if the description matches another role in your organization, or whether there is a team equipped to support the work described in the list below.
 
@@ -205,7 +205,15 @@ Building consensus and unity around a project charter builds a solid foundation 
 While a charter may not seem essential in the earliest phases of a project, it provides a structure for the project to operate within.
 It also makes this structure clear to newcomers in the future, who were not present at the founding of your project.
 Over time, a project charter acts as a map to keep the project focused on living out the community values.
-In similar ways to a constitution in a nation-state, a project charter provides the founding framework for the long-term future of a project community.
+Similar to how a constitution functions in a nation-state, a project charter provides the founding framework for the long-term future of a project community.
+
+[[destination-revisions]]
+=== Note on revisions
+
+Over time, a project may grow in necessary ways that are beyond the original project charter.
+A method to change or update the charter after its launch is important.
+This shouldn't happen often, but over time governance or other structures may need to change to meet the evolving community landscape.
+For example, the Fedora Project documents its https://docs.fedoraproject.org/en-US/council/#_making_decisions[decision-making process] in its charter.
 
 
 [[references]]
