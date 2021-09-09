@@ -6,6 +6,7 @@ tags: ["policy"]
 categories: "governance"
 aliases:
     - /foss/governance/
+downloadBtn: "true"
 
 ---
 :toc:

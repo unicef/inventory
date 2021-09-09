@@ -6,6 +6,7 @@ tags: ["reading list"]
 categories: "project-management"
 aliases:
     - /foss/reading-list-outreach/
+downloadBtn: "true"
 
 ---
 

@@ -6,6 +6,7 @@ tags: ["legal"]
 categories: "legal"
 aliases:
     - /foss/gpl-comparison/
+downloadBtn: "true"
 
 ---
 :toc:

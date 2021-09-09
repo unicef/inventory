@@ -4,6 +4,7 @@ weight: 10
 description: An introduction to issue templates for new Open Source project or community managers.
 tags: ["community"]
 categories: "project-management"
+downloadBtn: "true"
 
 ---
 

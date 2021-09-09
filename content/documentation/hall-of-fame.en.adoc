@@ -4,6 +4,7 @@ weight: 20
 description: Real examples of Open Source projects with excellent documentation.
 tags: ["hall of fame"]
 categories: "documentation"
+downloadBtn: "true"
 
 ---
 :toc:

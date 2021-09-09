@@ -6,6 +6,7 @@ tags: ["legal"]
 categories: "legal"
 aliases:
     - /foss/contributor-license-agreement-cla/
+downloadBtn: "true"
 
 ---
 :author: Mike Nolan; Justin W. Flory

@@ -4,6 +4,7 @@ weight: 10
 description: Various readings and learnings about design in an Open Source context.
 tags: ["reading list"]
 categories: "design"
+downloadBtn: "true"
 
 ---
 
