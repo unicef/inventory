@@ -21,7 +21,7 @@ _What do you need to be successful to "launch" your project charter?_
 
 Project charters are the backbone of an Open Source project.
 When implemented justly in a fair community, they serve as guide-rails for the project over its lifetime.
-In order to implement a successful project charter, the design process should include key stakeholders from the beginning.
+In order to implement a successful project charter, the design process should include key members from the beginning.
 
 [[checklist-who]]
 === Who?
@@ -74,12 +74,12 @@ This section describes actions to take in advance of writing the first complete 
 === Process
 
 * *Give sufficient time to think ahead*:
-  Do not rush a meeting with stakeholders to "pick their brain".
+  Do not rush a meeting with project members to "pick their brain".
   Give folks a chance to think ahead of a meeting and give them context about what the meeting will be about.
   This gives all meeting participants sufficient context before the meeting, to make the best use of time together.
   In a start-up context, this may be a few days; in a larger team or project, it could be a week or two.
 * *Brainstorm with inclusive methods*:
-  Encourage more input methods in the design process, especially when the stakeholder group is larger.
+  Encourage more input methods in the design process, especially when the project member group is larger.
   In addition to spoken word in an audio/video meeting, consider asynchronous and non-verbal methods of contribution.
   This could mean adding notes to a document, leaving comments in a form or at a specific mail address, or something else.
   However, it is important that any method offered is weighted evenly in the decision-making process.
@@ -91,7 +91,7 @@ This section describes actions to take in advance of writing the first complete 
   Identify public platforms where the project charter could live.
   This could be a company website, a project website, a git repository, or somewhere else visible in the project community.
 * *Accessible editors*:
-  All key stakeholders should feel empowered to use the chosen tools to propose future changes and revisions, if necessary.
+  All key project members should feel empowered to use the chosen tools to propose future changes and revisions, if necessary.
   This improves equity across role types to encourage a more flat hierarchy.
 
 
@@ -118,7 +118,7 @@ This is the role of the mission statement.
 Atlassian provides https://web.archive.org/web/20210703102327/https://www.atlassian.com/work-management/project-management/mission-and-vision[further reading] on the definitions of each, with examples.
 
 Explore what this might look like for your project.
-The more stakeholders who authentically sign on and agree to the vision and mission statements, the more likely they are to stick.
+The more project members who authentically sign on and agree to the vision and mission statements, the more likely they are to stick.
 
 [[vision-mission--examples]]
 ==== Examples
@@ -142,8 +142,8 @@ The more stakeholders who authentically sign on and agree to the vision and miss
 *Draft a commitment to the Open Source community*.
 
 A community is one of the most rewarding parts to cultivate around an Open Source work.
-By creating an Open Source work, there is an expectation or assumption for others to be involved.
-A community statement is an opportunity to define what community means to the project stakeholders.
+By creating an Open Source work, there is an expectation or assumption to involve others.
+A community statement is an opportunity to define what community means to the project members.
 Often, these statements are written with broad strokes but may focus on a specific set of groups who may be more impacted by the Open Source work.
 
 [[community-examples]]
@@ -170,8 +170,9 @@ For more guidance on understanding the different approaches of licensing, see li
 
 *Adopt a Code of Conduct and schedule human resources accordingly*.
 
-A Code of Conduct is the framework relied on when there is strife in the community.
-It is important to adopt a Code of Conduct aligned to the project values.
+A Code of Conduct is the framework to frame an inclusive, welcoming environment.
+It is also relied on when there is strife in the community.
+It is important to adopt a Code of Conduct aligned to project values.
 Scheduling sufficient resources to its enforcement is also required for a sustainable human process.
 Consider the https://web.archive.org/web/20210815163252/https://arstechnica.com/gadgets/2021/08/the-perl-foundation-is-fragmenting-over-code-of-conduct-enforcement/[Perl Foundation] and its impact in the fragmentation of the Perl programming language community.
 
@@ -209,5 +210,5 @@ In similar ways to a constitution in a nation-state, a project charter provides 
 == References
 
 * https://chaoss.community/about/charter/[*CHAOSS Project charter*]:
-  A more comprehensive charter for a community with several stakeholders and funders.
+  A more comprehensive charter for a community with several project members and funders.
   While this level of detail is not required, the CHAOSS charter is a good example of other important provisions in a charter.
