@@ -49,6 +49,8 @@ Use your own creativity to decide if the description matches another role in you
 * *Agreed understanding of division of labor*:
   A project charter is an external view of a workflow compatible with an internal view of your organization hierarchy.
   When you arrive at drafting a project charter, there should be a common understanding of who participates internally with the project.
+  Details like staffing, human resources, resource allocation, and internal process alignment are important but do not belong in a project charter.
+  These details are good to document in an internal Open Source policy for the company or organization.
 * *Ability to schedule resources*:
   Project charters are aspirational, and sometimes require a firm commitment of resources by the organization.
   The aspirations of the charter may require more cross-organizational collaboration.
