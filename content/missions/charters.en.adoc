@@ -20,6 +20,8 @@ This Mission unpacks what goes into creating good project charters and why it is
 _What do you need to be successful to "launch" your project charter?_
 
 Project charters are the backbone of an Open Source project.
+They shine a light on things that are often kept in a mysterious black box, especially with regard to how decisions are made and paths to leadership.
+A project charter also ensures that the community has a shared understanding and a single source of truth.
 When implemented justly in a fair community, they serve as guide-rails for the project over its lifetime.
 In order to implement a successful project charter, the design process should include key members from the beginning.
 
