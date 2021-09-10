@@ -14,6 +14,18 @@
                 href="https://unicef.github.io/inventory/es/categories/"
                 />
   </url><url>
+    <loc>https://unicef.github.io/inventory/es/downloadbtn/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://unicef.github.io/inventory/downloadbtn/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://unicef.github.io/inventory/es/downloadbtn/"
+                />
+  </url><url>
     <loc>https://unicef.github.io/inventory/es/</loc>
     <xhtml:link
                 rel="alternate"

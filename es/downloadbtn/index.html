@@ -2,10 +2,10 @@
 <html lang="es-mx">
   <head>
   <meta charset="utf-8">
-  <title>UNICEF O.S. Inventory</title>
+  <title>DownloadBtn</title>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="generator" content="Hugo 0.88.1" />
-  <meta name="description" content="UNICEF O.S. Inventory - UNICEF O.S. Inventory ">
+  <meta name="description" content="DownloadBtn - UNICEF O.S. Inventory ">
   
   <!-- ** CSS Plugins Needed for the Project ** -->
   
@@ -94,19 +94,19 @@ if (!doNotTrack) {
   
   <meta property="og:image:type" content="image/jpeg">
 
-<meta name="twitter:title" content="UNICEF O.S. Inventory"/>
+<meta name="twitter:title" content="DownloadBtn"/>
 <meta name="twitter:description" content="UNICEF Open Source Inventory. A UNICEF Global Innovation knowledge base of best practices and resources for working and leading Open."/>
 
 
 
-<meta property="og:title" content="UNICEF O.S. Inventory" />
+<meta property="og:title" content="DownloadBtn" />
 <meta property="og:description" content="UNICEF Open Source Inventory. A UNICEF Global Innovation knowledge base of best practices and resources for working and leading Open." />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="https://unicef.github.io/inventory/es/" />
+<meta property="og:url" content="https://unicef.github.io/inventory/es/downloadbtn/" />
 
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="UNICEF O.S. Inventory"/>
+<meta name="twitter:title" content="DownloadBtn"/>
 <meta name="twitter:description" content="UNICEF Open Source Inventory. A UNICEF Global Innovation knowledge base of best practices and resources for working and leading Open."/>
 
 
@@ -116,8 +116,8 @@ if (!doNotTrack) {
   <body>
     
     <!-- header -->
-    <header class="banner overlay bg-cover" data-background="https://unicef.github.io/inventory/images/banner.jpg">
-      <nav class="navbar navbar-expand-md navbar-dark">
+    <header class="shadow-bottom sticky-top bg-white">
+      <nav class="navbar navbar-expand-md navbar-light">
   <div class="container px-2 px-md-0">
     <a class="navbar-brand px-2" href="/inventory/es">
       
@@ -180,7 +180,7 @@ if (!doNotTrack) {
         
       </ul>
       
-      <select class="lang-list " id="select-language"
+      <select class="lang-list dark mb-3 mb-md-0" id="select-language"
         onchange="location = this.value;">
         
         
@@ -190,7 +190,7 @@ if (!doNotTrack) {
         
         
         
-        <option id="en" value="https://unicef.github.io/inventory/">en</option>
+        <option id="en" value="https://unicef.github.io/inventory/categories/">en</option>
         
         
         
@@ -204,7 +204,7 @@ if (!doNotTrack) {
         
         
         
-        <option id="es" value="https://unicef.github.io/inventory/es/" selected>es
+        <option id="es" value="https://unicef.github.io/inventory/es/categories/" selected>es
         </option>
         
         
@@ -216,77 +216,125 @@ if (!doNotTrack) {
   </div>
 </nav>
 
-      <!-- banner -->
-<div class="container section">
-	<div class="row">
-		<div class="col-lg-8 text-center mx-auto">
-			<h1 class="text-white mb-3">Inventario de Open Source de UNICEF</h1>
-			<p class="text-white mb-4">Una base de conocimientos de innovación mundial del UNICEF sobre mejores prácticas y recursos para trabajar y dirigir Open.</p>
-			<div class="position-relative">
-				<input id="search" class="form-control" placeholder="¿Tienes una pregunta? Busque en el sitio aquí.">
-				<i class="ti-search search-icon"></i>
-				
-				
-				
-				
-				<script>
-					$(function() {
-					var projects = [
-						
-						{
-							value: "Categories",
-							label: "<p></p>",
-							url:"https:\/\/unicef.github.io\/inventory\/es\/categories\/"
-						},
-						
-						{
-							value: "DownloadBtn",
-							label: "<p></p>",
-							url:"https:\/\/unicef.github.io\/inventory\/es\/downloadbtn\/"
-						},
-						
-						{
-							value: "UNICEF O.S. Inventory",
-							label: "<p></p>",
-							url:"https:\/\/unicef.github.io\/inventory\/es\/"
-						},
-						
-					];
-					$( "#search" ).autocomplete({
-						source: projects
-					})
-					.data( "ui-autocomplete" )._renderItem = function( ul, item ) {
-						return $( "<li>" )
-						.append( "<a href=" + item.url + " + \" &quot;\" +  >" + item.value + "</a>" + item.label )
-						.appendTo( ul );
-					};
-					});
-				</script>
-			</div>
-		</div>
-	</div>
-</div>
-<!-- /banner -->
     </header>
     <!-- /header -->
     
     
 
-  <!-- topics -->
-  <section class="section">
-    <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-12 text-center">
-          <h2 class="section-title"></h2>
+<!-- details page -->
+<section class="single section-sm pb-0">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-3">
+        <div class="sidebar">
+        <a class="back-btn" href="/inventory/es" aria-label="back"></a>
+          <ul class="list-styled">
+            
+            
+            
+          </ul>
         </div>
-        <!-- topic-item -->
+      </div>
+      <div class="col-lg-9">
         
+        <div>
+          <div class="bg-white" style="margin:auto">
+            <script language="JavaScript">
+
+   String.prototype.capitalizeFirstLetter = function() {
+      return this.charAt(0).toUpperCase() + this.slice(1);
+   }
+
+   var path = "<a style='margin-left:2%' href='https:\/\/unicef.github.io\/inventory\/'>Home</a>";
+   var href = document.location.href;
+   var s = href.split("/");
+   for (var i=3;i<(s.length-2);i++) {
+      path+=" &gt;  <a href=\""+href.substring(0,href.indexOf("/"+s[i])+s[i].length+1)+"/\">"+s[i].capitalizeFirstLetter()+"</a> ";
+   }
+   i=s.length-1;
+   path+="<a href=\""+href.substring(0,href.indexOf(s[i])+s[i].length)+"\">"+s[i]+"</a>";
+   path+="  &gt;  <b>DownloadBtn</b>";
+   document.writeln(path);
+</script>
+          </div>
+          <div class="p-lg-5 p-4 bg-white" id="content">
+            <h2 class="mb-5" id="title">DownloadBtn</h2>
+            
+            <div class="bg-light p-4">
+              <ul class="page-list">
+                
+
+
+
+
+
+
+
+
+<li data-nav-id="https://unicef.github.io/inventory/es/downloadbtn/" title="DownloadBtn" class="sidelist
+  active">
+  <a href="https://unicef.github.io/inventory/es/downloadbtn/">
+    DownloadBtn
+  </a>
+  
+  
+</li>
+
+
+              </ul>
+            </div>
+            
+            <p class="post-meta border-bottom pb-3 mb-0 mt-3">Updated on 01 Jan 0001</p>
+            <nav class="pagination mt-3">
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+
+              
+              
+              
+              
+              
+
+              
+              
+              
+              
+
+              
+              
+            </nav>
+
+            
+              <section class="my-3 py-3" id="related-articles">
+                
+                
+                
+                <h5 class="text-center">Related Articles</h5>
+                <div class="row">
+                    
+                  </div>
+              </section>
+            
+
+          </div>
+        </div>
       </div>
     </div>
-  </section>
-  <!-- /topics -->
+  </div>
+</section>
+<!-- /details page -->
 
-  
+
+
+
 
 
     <!-- footer -->
