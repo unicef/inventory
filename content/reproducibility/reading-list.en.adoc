@@ -4,6 +4,7 @@ weight: 10
 description: Various readings and learnings about reproducibility in an Open Source context.
 tags: ["reading list"]
 categories: "reproducibility"
+downloadBtn: "true"
 
 ---
 

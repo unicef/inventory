@@ -4,6 +4,7 @@ weight: 50
 description: The Fedora Project is a community of people working together to build a free and open source operating system.
 tags: ["linux"]
 categories: "communities"
+downloadBtn: "true"
 
 ---
 :toc:

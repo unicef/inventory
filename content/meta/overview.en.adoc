@@ -6,6 +6,7 @@ tags: []
 categories: "meta"
 aliases:
     - /foss/
+downloadBtn: "true"
 
 ---
 // document settings

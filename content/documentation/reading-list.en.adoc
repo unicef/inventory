@@ -4,6 +4,7 @@ weight: 30
 description: Various readings and learnings about documentation in an Open Source context.
 tags: ["reading list"]
 categories: "documentation"
+downloadBtn: "true"
 
 ---
 

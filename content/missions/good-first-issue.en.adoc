@@ -4,6 +4,7 @@ weight: 30
 description: Embark on a mission to enable new contributors to your Open Source project with Good First Issues (GFIs).
 tags: ["community"]
 categories: "missions"
+downloadBtn: "true"
 
 ---
 

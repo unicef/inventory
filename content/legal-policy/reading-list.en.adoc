@@ -6,6 +6,7 @@ tags: ["reading list"]
 categories: "legal"
 aliases:
     - /foss/reading-list-legal/
+downloadBtn: "true"
 
 ---
 :toc:

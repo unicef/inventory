@@ -6,6 +6,7 @@ tags: ["reading list"]
 categories: "governance"
 aliases:
     - /foss/reading-list-foss/
+downloadBtn: "true"
 
 ---
 :toc:
