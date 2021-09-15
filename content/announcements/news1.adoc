@@ -1,6 +1,0 @@
----
-title: Test 1
-alerts: "alert"
-
----
-Test content 1
