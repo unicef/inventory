@@ -2,6 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://unicef.github.io/inventory/es/alerts/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://unicef.github.io/inventory/alerts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://unicef.github.io/inventory/es/alerts/"
+                />
+  </url><url>
     <loc>https://unicef.github.io/inventory/es/categories/</loc>
     <xhtml:link
                 rel="alternate"

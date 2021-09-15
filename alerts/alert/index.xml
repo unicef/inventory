@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>alert on UNICEF O.S. Inventory</title>
+    <link>https://unicef.github.io/inventory/alerts/alert/</link>
+    <description>Recent content in alert on UNICEF O.S. Inventory</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Creative Commons BY-SA 4.0. Site theme maintained by UNICEF. Original theme, Dot, created by ThemeFisher.</copyright><atom:link href="https://unicef.github.io/inventory/alerts/alert/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>New article: Project charters</title>
+      <link>https://unicef.github.io/inventory/announcements/charter-published/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unicef.github.io/inventory/announcements/charter-published/</guid>
+      <description>In August 2021 Mentorship calls, start-up teams discussed project charters with Justin. We talked through how to create one for your project. Review this new guided mission to launch your own.
+ </description>
+    </item>
+    
+  </channel>
+</rss>

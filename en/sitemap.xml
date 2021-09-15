@@ -119,6 +119,22 @@
     <loc>https://unicef.github.io/inventory/communities/public-lab/</loc>
     <lastmod>2021-09-10T13:22:39+01:00</lastmod>
   </url><url>
+    <loc>https://unicef.github.io/inventory/alerts/alert/</loc>
+    <lastmod>2021-09-15T09:59:12+01:00</lastmod>
+  </url><url>
+    <loc>https://unicef.github.io/inventory/alerts/</loc>
+    <lastmod>2021-09-15T09:59:12+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://unicef.github.io/inventory/es/alerts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://unicef.github.io/inventory/alerts/"
+                />
+  </url><url>
     <loc>https://unicef.github.io/inventory/categories/</loc>
     <lastmod>2021-09-10T13:22:39+01:00</lastmod>
     <xhtml:link
@@ -205,6 +221,12 @@
     <loc>https://unicef.github.io/inventory/categories/missions/</loc>
     <lastmod>2021-09-10T13:22:39+01:00</lastmod>
   </url><url>
+    <loc>https://unicef.github.io/inventory/announcements/charter-published/</loc>
+    <lastmod>2021-09-15T09:59:12+01:00</lastmod>
+  </url><url>
+    <loc>https://unicef.github.io/inventory/announcements/</loc>
+    <lastmod>2021-09-15T09:59:12+01:00</lastmod>
+  </url><url>
     <loc>https://unicef.github.io/inventory/hardware/</loc>
     <lastmod>2020-12-07T16:29:14-05:00</lastmod>
   </url><url>
@@ -230,7 +252,7 @@
     <lastmod>2021-09-10T13:22:39+01:00</lastmod>
   </url><url>
     <loc>https://unicef.github.io/inventory/</loc>
-    <lastmod>2021-09-10T13:22:39+01:00</lastmod>
+    <lastmod>2021-09-15T09:59:12+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
