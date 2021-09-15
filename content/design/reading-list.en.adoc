@@ -14,3 +14,6 @@ Usually with some kind of Open Source overlap or context.
 * https://hrcd.pubpub.org/pub/traumaanddesign[Trauma & design PubPub]:
   Some basic definitions key to understanding the relationship between trauma and design.
   Maintained by https://kathep.com/[Katherine Hepworth], https://hrcd.pubpub.org/user/kat-lo[Kat Lo], https://hrcd.pubpub.org/user/eriol-fox[Eriol Fox], and https://hrcd.pubpub.org/user/s-o-2[Soraya O].
+* https://github.com/Erioldoesdesign/opendesign[Ushahidi Open Design], maintained by https://erioldoesdesign.com/[Eriol Fox]:
+  A collection of resources, notes, and other written content for distributed, asynchronous design contributions to software projects.
+  This content was originally created as part of a role with the https://www.ushahidi.com/[Ushahidi project].
