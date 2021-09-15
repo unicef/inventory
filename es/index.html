@@ -21,12 +21,12 @@
   <!-- fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open%2bSans:300,400,700&display=swap" rel="stylesheet">
 
-  <!-- fonts -->
-  <script src="https://kit.fontawesome.com/9196e0632a.js" crossorigin="anonymous"></script>
-
   <!-- PDF.js -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.9.359/pdf.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.3/html2pdf.bundle.js"></script>
+
+  <!-- fonts -->
+  <script src="https://kit.fontawesome.com/9196e0632a.js" crossorigin="anonymous"></script>
   
   <style>
   :root{
@@ -268,12 +268,26 @@ if (!doNotTrack) {
 </div>
 <!-- /banner -->
     </header>
+    
+
+
+  <script>
+    remSpace()
+  </script>
+
+
+
+<script>
+  function remSpace() {
+    document.getElementById("section").style.paddingTop = "3rem";
+  }
+</script>
     <!-- /header -->
     
     
 
   <!-- topics -->
-  <section class="section">
+  <section class="section" id="section">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-12 text-center">
