@@ -25,10 +25,10 @@
     
     <item>
       <title>How to create a new Inventory category</title>
-      <link>https://unicef.github.io/inventory/meta/create-new-category/</link>
+      <link>https://unicef.github.io/inventory/meta/inventory/create-new-category/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://unicef.github.io/inventory/meta/create-new-category/</guid>
+      <guid>https://unicef.github.io/inventory/meta/inventory/create-new-category/</guid>
       <description>Table of Contents 1. Steps 2. Template for new index pages 2.1. Choose an icon     This how-to article explains how to create a new category in the Open Source Inventory.
  1. Steps  Create a new folder in the content/ directory.
   Create a _index.en.adoc page in the new directory (see template).
@@ -46,10 +46,10 @@
     
     <item>
       <title>How to create a new Inventory Mission</title>
-      <link>https://unicef.github.io/inventory/meta/create-new-mission/</link>
+      <link>https://unicef.github.io/inventory/meta/inventory/create-new-mission/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://unicef.github.io/inventory/meta/create-new-mission/</guid>
+      <guid>https://unicef.github.io/inventory/meta/inventory/create-new-mission/</guid>
       <description>Table of Contents 1. Steps 2. Front-matter data values   This how-to article explains how to create a new category in the Open Source Inventory. This how-to article explains how to create a new Mission in the Open Source Inventory.
  1. Steps  Copy the Mission template as a new file using the file committed at content/meta/_template.en.adoc.
   Edit the template front-matter to include a weight, description, tags, and categories (see descriptions below).</description>
