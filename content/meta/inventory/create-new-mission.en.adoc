@@ -1,9 +1,12 @@
 ---
 title: "How to create a new Inventory Mission"
-weight: 14
+weight: 20
 description: Guidance on creating a new Mission in the Open Source Inventory.
 tags: ["content"]
 categories: "meta"
+aliases:
+    - /meta/create-new-mission/
+downloadBtn: "true"
 
 ---
 :toc:
