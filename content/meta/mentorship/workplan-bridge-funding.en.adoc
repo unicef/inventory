@@ -1,9 +1,11 @@
 ---
 title: "Workplan: Bridge Fund cohort"
-weight: 80
+weight: 50
 description: Open Source workplan requirements for UNICEF Open Source Mentorship programme. These requirements apply to companies in the Bridge Fund cohort.
 tags: []
 categories: "meta"
+aliases:
+    - /meta/workplan-bridge-funding/
 downloadBtn: "true"
 
 ---

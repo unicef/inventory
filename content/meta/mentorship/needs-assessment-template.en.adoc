@@ -1,9 +1,11 @@
 ---
 title: "Needs assessment interview template"
-weight: 50
+weight: 20
 description: Interview template for UNICEF mentors when meeting a team for the first time.
 tags: ["tools"]
 categories: "meta"
+aliases:
+    - /meta/needs-assessment-template/
 downloadBtn: "true"
 
 ---
