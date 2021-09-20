@@ -4,6 +4,8 @@ weight: 10
 description: Guidance on creating a new content category in the Open Source Inventory.
 tags: ["admin"]
 categories: "meta"
+aliases:
+    - /meta/create-new-category/
 downloadBtn: "true"
 
 ---
