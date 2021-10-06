@@ -115,10 +115,10 @@ author = "Justin W. Flory, UNICEF Office of Innovation, and others"
 image = "images/UNI309823.jpg"
 
 # customize color
-primary_color = "#00BDF2"
-body_color = "#e0e4e8"
-text_color = "#636363"
-text_color_dark = "#003E5D"
+primary_color = "#1CABE2"
+body_color = "#D8D1C9"
+text_color = "#777779"
+text_color_dark = "#374EA2"
 white_color = "#ffffff"
 light_color = "#f8f9fa"
 
