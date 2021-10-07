@@ -106,8 +106,7 @@ hasChildren = true
 
 ############################# Default parameters #############################
 [params]
-# Need to replace with SVG logo
-#logo = "favicon.ico"
+logo = "images/unicef-logo.png"
 
 # OpenGraph / Twitter Card metadata
 description = "UNICEF Open Source Inventory. A UNICEF Global Innovation knowledge base of best practices and resources for working and leading Open."
