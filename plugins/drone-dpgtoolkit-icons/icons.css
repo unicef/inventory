@@ -1,0 +1,42 @@
+.analytics {
+    background-image: url("Analytics.fw.png");
+}
+
+.guides {
+    background-image: url("Guides.fw.png");
+}
+
+.learning {
+    background-image: url("Learning.fw.png");
+}
+
+.regs {
+    background-image: url("REGs.fw.png");
+}
+
+.software {
+    background-image: url("Software.fw.png");
+}
+
+.startups {
+    background-image: url("Startups.fw.png");
+}
+
+.analytics,
+.guides,
+.learning,
+.regs,
+.software,
+.startups {
+    display: inline-block;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    background-size: 60px;
+    background-repeat: no-repeat;
+    width: 60px;
+    height: 60px;
+    margin: auto;
+}
