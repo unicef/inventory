@@ -106,7 +106,6 @@ hasChildren = true
 
 ############################# Default parameters #############################
 [params]
-# Need to replace with SVG logo
 logo = "images/unicef-logo.png"
 
 # OpenGraph / Twitter Card metadata
