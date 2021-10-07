@@ -1,7 +1,6 @@
 ---
-name: Bug report
-about: 'Notice something wrong? Open a bug report to help us investigate.'
-title: '[HUGO] '
+name: Report a problem
+about: 'Is something wrong on the Open Source Inventory? Report a problem with this template.'
 labels: ['T: bug', '?: needs triage']
 assignees: ''
 
@@ -9,36 +8,22 @@ assignees: ''
 
 # Summary
 
-<!-- One sentence description of what the bug is. -->
+<!-- One sentence description of what the issue is. -->
 
 
-# Standard debugging steps
+## What you expected to happen
 
-## How to reproduce?
+<!-- A short description of what you expected. -->
 
-<!-- For example:
-1. Go to '...'
-2. Click on '....'
-3. Scroll down to '....'
-4. See error
--->
 
-## Expected behavior
+## What actually happened
 
-<!-- A clear and concise description of what you expected to happen. -->
+<!-- A short description of the problem you noticed, or what actually happened. -->
 
 **Screenshots**:
 <!-- If applicable, add screenshots to help explain your problem. -->
 
-## Stacktrace
-
-<!-- If you have a stacktrace or log, paste it between the quoted lines below: -->
-
-```
-paste logs here
-```
-
 
 # Other details
 
-<!-- Add any other context about the problem here. If not, leave blank. -->
+<!-- Add any context about the issue here. If not necessary, delete this section. -->
