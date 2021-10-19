@@ -220,6 +220,18 @@ sectionNumbers = true
   downloadable = "downloadBtn"
 
 
+############################# Team Profiles #############################
+[[cascade]]
+  type = 'profiles'
+  [cascade._target]
+    path = '/cohorts/*/**'
+
+[[cascade]]
+  type = 'team'
+  [cascade._target]
+    path = '/cohorts/**'
+
+
 #######################################################################################
 #                             Multilingual configurations                             #
 #######################################################################################
