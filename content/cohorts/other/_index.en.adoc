@@ -1,0 +1,7 @@
+---
+title: "Others"
+icon: "shapes"
+description: "Develop a more ethical, transparent, and safe AI system with these resources."
+type: "profiles"
+
+---

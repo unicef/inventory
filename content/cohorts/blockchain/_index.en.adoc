@@ -1,0 +1,8 @@
+---
+title: "Blockchain"
+icon: "btc"
+description: "UNICEF Ventures explores technologies, such as blockchain, with the potential to impact children and young people globally, providing them with information, opportunity and choice."
+type: profiles
+
+
+---

@@ -1,0 +1,34 @@
+---
+title: "Grassroot Economics"
+description: Prospering economies built by thriving communities.
+tags: ["team"]
+categories: "team"
+type: "profiles"
+weight: 40
+country: "USA"
+date: 2021-07-25
+github: "https://github.com/GrassrootsEconomics"
+gitlab: "https://gitlab.com/grassrootseconomics"
+linkedin: "https://www.linkedin.com/company/grassecon"
+twitter: "https://twitter.com/grassecon"
+website: "https://www.grassrootseconomics.org/"
+community: "https://wa.me/254757628885"
+logo: "https://gitlab.com/uploads/-/system/group/avatar/7914527/gef.pure-logo.COLOR-trans2_sm.png"
+sdgs:
+    - 1
+    - 8
+    - 11
+dpgs:
+    - Relevance to Sustainable Development Goals
+    - Use of Approved Open Licenses
+    - Clear Ownership
+    -  Adherence to Privacy and Applicable Laws
+
+
+---
+
+Grassroots Economics is a non-profit foundation that seeks to empower marginalized communities to take charge of their own livelihoods and economic future. We focus on community development through economic empowerment, basic income and community currency programs. Beneficiaries of our programs include small businesses and people living in informal settlements as well as rural areas. 
+
+Our goal is to improve the lives of those who are most vulnerable. 
+ 
+ 

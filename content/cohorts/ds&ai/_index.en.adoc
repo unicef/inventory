@@ -1,0 +1,7 @@
+---
+title: "Data Science & AI"
+icon: "line-chart"
+description: "Data can provide the global community, governments,and international organizations like UNICEF with new and faster ways of analysing the world that generate critical insights into the needs of vulnerable populations, and where best to invest our scarce resources in emergency response."
+type: "profiles"
+
+---

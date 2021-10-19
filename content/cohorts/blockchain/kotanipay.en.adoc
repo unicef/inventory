@@ -1,0 +1,29 @@
+---
+title: "Kotani Pay"
+description: Africa's most reliable off-ramps APIs
+tags: ["team"]
+categories: "team"
+type: "profiles"
+weight: 40
+country: "Kenya"
+date: 2021-07-26
+github: "https://github.com/KotaniLabs"
+linkedin: "https://www.linkedin.com/company/kotanipay"
+twitter: "https://twitter.com/kotanipay"
+website: "https://kotanipay.com/"
+community: "https://t.me/kotanipay"
+logo: "https://avatars.githubusercontent.com/u/46516163?s=200&v=4"
+sdgs:
+    - 1
+    - 8
+dpgs:
+    - Relevance to Sustainable Development Goals
+    - Use of Approved Open Licenses
+    - Do No Harm by Design 
+---
+
+Kotani Pay is a technology stack that enables blockchain protocols, dapps, and blockchain fintech companies to integrate seamlessly to local payment channels providing them with a reliable on ramp and off ramp service to reach a wider customer base in Africa.
+
+Our technology is enabling companies that are pushing the boundaries of innovation in lending, savings, insurance, gig work and community incentive systems.
+ 
+ 
