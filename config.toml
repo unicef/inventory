@@ -104,6 +104,50 @@ hasChildren = true
     weight = 130
 
 
+[[menu.main]]
+weight = 30
+name = "cohorts"
+url = "cohorts"
+hasChildren = true
+
+  [[menu.main]]
+    parent = "cohorts"
+    name = "All"
+    url = "cohorts"
+    weight = 10
+    
+  [[menu.main]]
+    parent = "cohorts"
+    name = "Blockchain"
+    url = "cohorts/blockchain"
+    weight = 20
+
+  [[menu.main]]
+    parent = "cohorts"
+    name = "Drones"
+    url = "cohorts/drones"
+    weight = 30
+
+  [[menu.main]]
+    parent = "cohorts"
+    name = "Data Science & AI"
+    url = "cohorts/dsai"
+    weight = 30
+
+  [[menu.main]]
+    parent = "cohorts"
+    name = "VR + AR"
+    url = "cohorts/vr+ar"
+    weight = 30
+
+  [[menu.main]]
+    parent = "cohorts"
+    name = "Others"
+    url = "cohorts/others"
+    weight = 30
+
+
+
 ############################# Default parameters #############################
 [params]
 logo = "images/unicef-logo.png"
