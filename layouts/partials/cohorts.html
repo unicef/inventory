@@ -1,0 +1,242 @@
+
+{{ "<!-- details page -->" | safeHTML }}
+<section class="single section-sm pb-0">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-3">
+        <div class="sidebar">
+        <a class="back-btn" href="{{ .Site.BaseURL | relLangURL }}" aria-label="back"></a>
+          <ul class="list-styled">
+            {{ $currentNode := . }}
+            {{range .Site.Home.Sections.ByWeight}}
+              {{ if eq .FirstSection $currentNode.FirstSection }}
+              {{ template "section-tree-nav" dict "sect" . "currentnode" $currentNode}}
+              {{ end }}
+            {{ end }}
+            {{ if .Content }}
+            <div>
+                <button class="btn btn-primary btn-block" id="generatePDF" > Get Pdf  </button>
+            </div>
+            {{ end }}
+          </ul>
+        </div>
+      </div>
+      <div class="col-lg-9">
+        
+        <div>
+          <div class="bg-white" style="margin:auto">
+            {{ partial "breadcrumb.html" . }}
+          </div>
+          <div class="p-lg-5 p-4 bg-white" id="content">
+            <h2 class="mb-5" id="title">{{ .Title }}</h2>
+            {{ if .Content }}
+             <div class="content">
+              <h2>About</h2>
+              <p>{{ .Content }}</p>
+             </div>
+             <div>
+              <h2>DPG Indicators</h2>
+              <p>The Digital Public Goods Standard is a set of specifications and guidelines designed to maximise consensus about whether a digital solution conforms to the definition set by the UN Secretary-General in the 2020 Roadmap for Digital Cooperation, which states that a DPG, “is open source software, open data, open AI models, open standards and open content that adhere to privacy and other applicable best practices, do no harm and are of high relevance for attainment of the UN’s 2030 Sustainable Development Goals (SDGs)”. Learn more about the DPG <a href="https://digitalpublicgoods.net/standard/">here</a>.</p>
+              <p>Below are the DPG indicators {{.Params.Title}} has met:</p>
+              <ul>
+                {{ range .Params.dpgs }}
+                  <li><i class="fa fa-check mr-2" aria-hidden="true"></i>{{ . }}</li>
+                {{ end }}
+              </ul>
+             </div>
+             <div class="mt-5">
+              <h2>Aligned SDGs</h2>
+              <div>
+                {{ range .Params.sdgs }}
+                  {{ $num:= . }}
+                  {{ $base:= "images/sdgs/sdg" }}
+                  {{ $ext:= ".png" }}
+
+                  {{ $sdg:= printf "%s" $ext | printf "%s%s" $num | printf "%s%s" $base | printf "%s" }}
+                  
+                  <img src="{{ $sdg | absURL }}" class="w-25 h-25" alt="SDG {{ . }}" />
+                {{ end }}
+              </div>
+             </div>
+             <div class="mt-5">
+              <h2>Learn more</h2>
+              {{ if .Params.github }}
+              <div>
+              <p><a href="{{ .Params.github }}"><i class="fa fa-github fa-2x"></i></a> Checkout our GitHub <a href="{{ .Params.github }}">repo</a>  </p>
+              </div>
+              {{end}}
+              {{ if .Params.gitlab }}
+              <div>
+              <p><a href="{{ .Params.gitlab }}"><i class="fa fa-gitlab fa-2x"></i></a> Checkout our GitLab <a href="{{ .Params.gitlab }}">repo</a>  </p>
+              </div>
+              {{end}}
+              {{ if .Params.twitter }}
+              <div>
+              <p><a href="{{ .Params.twitter }}"><i class="fa fa-twitter fa-2x"></i></a> Follow us on <a href="{{ .Params.twitter }}">twitter</a>  </p>
+              </div>
+              {{end}}
+              {{ if .Params.linkedin }}
+              <div>
+              <p><a href="{{ .Params.linkedin }}"><i class="fa fa-linkedin fa-2x"></i></a> Connect with us on <a href="{{ .Params.linkedin }}">linkedin</a>  </p>
+              </div>
+              {{end}}
+              {{ if .Params.website }}
+              <div>
+              <p><a href="{{ .Params.website }}"><i class="fa fa-globe fa-2x"></i></a> Visit our <a href="{{ .Params.website }}">website</a>  </p>
+              </div>
+              {{end}}
+              {{ if .Params.community }}
+              <div>
+              <p><a href="{{ .Params.community }}"><i class="fa fa-users fa-2x"></i></a> Join our <a href="{{ .Params.community }}">community</a> and ask us your questions </p>
+              </div>
+              {{end}}
+              
+              <div>
+                
+              </div>
+             </div>
+            {{ else }}
+            <div class="bg-light row pt-3">
+            {{range .Pages}}
+                <div class="col-md-6 col-sm-12 card-deck">
+                    <div class="card col mb-3 py-3 border-light" style="background-color: white;">
+                            <div class="row">
+                                <div class="col">
+                                    <img src="{{.Params.logo}}"  alt="{{ .Params.Title }} Logo" srcset="" class="rounded-circle img-fluid">
+                                </div>
+                                <div class="col align-items-center">
+                                    <h3>{{ .Params.Title }}</h3>
+                                    <p style="font-size: 0.8rem">{{ .Params.Description }}</p>
+                                </div>
+                            </div>
+                            <div class="row d-flex justify-content-between mx-3 my-2" style="font-size: 0.75rem">
+                                <span><i class="fa fa-map-marker mr-1"></i>{{ .Params.country }}</span>
+                                <span><i class="fa fa-calendar mr-1"></i>{{ dateFormat "Monday, Jan 2, 2006" .Params.date }}</span>
+                            </div>
+                            <div class="row d-flex justify-content-between mx-3">
+                                <a href="{{ .Params.github }}"><i class="fa fa-github fa-0.75x"></i></a>
+                                <a href="{{ .Params.linkedin }}"><i class="fa fa-linkedin fa-0.75x"></i></a>
+                                <a href="{{ .Params.twitter }}"><i class="fa fa-twitter fa-0.75x"></i></a>
+                                <a href="{{ .Params.website }}"><i class="fa fa-globe fa-0.75x"></i></a>
+                                <span><a href="{{ .Permalink }}"><button  class="learn-more" style="background-color: #00BDF2;border-color: #00BDF2;border: none;text-align: center;padding: 6px;border-radius: 15px;color: white; font-size: 0.75rem;">Learn more <i class="fa fa-arrow-right"></i></button></a></span>
+                            </div>
+                        </div>
+                </div>
+            {{end}}
+            </div>
+            {{ end }}
+            <p class="post-meta border-bottom pb-3 mb-0 mt-3">Updated on {{ .Lastmod.Format "02 Jan 2006" }}</p>
+            <nav class="pagination mt-3">
+              <!-- Next prev page -->
+              {{ $currentNode := . }}
+              {{ template "menu-nextprev" dict "menu" .Site.Home "currentnode" $currentNode }}
+              {{ define "menu-nextprev" }}
+              {{$currentNode := .currentnode }}
+              {{ if ne .menu.Params.hidden true}}
+              {{if hasPrefix $currentNode.Permalink .menu.Permalink }}
+              {{ $currentNode.Scratch.Set "NextPageOK" "OK" }}
+              {{ $currentNode.Scratch.Set "prevPage" ($currentNode.Scratch.Get "prevPageTmp") }}
+              {{else}}
+              {{if eq ($currentNode.Scratch.Get "NextPageOK") "OK"}}
+              {{ $currentNode.Scratch.Set "NextPageOK" nil }}
+              {{ $currentNode.Scratch.Set "nextPage" .menu }}
+              {{end}}
+              {{end}}
+              {{ $currentNode.Scratch.Set "prevPageTmp" .menu }}
+
+              {{ $currentNode.Scratch.Set "pages" .menu.Pages }}
+              {{ if .menu.IsHome}}
+              {{ $currentNode.Scratch.Set "pages" .menu.Sections }}
+              {{ else if .menu.Sections}}
+              {{ $currentNode.Scratch.Set "pages" (.menu.Pages | union .menu.Sections) }}
+              {{end}}
+              {{ $pages := ($currentNode.Scratch.Get "pages") }}
+
+              {{ range $pages.ByWeight  }}
+              {{ template "menu-nextprev" dict "menu" . "currentnode" $currentNode }}
+              {{end}}
+              {{ end }}
+              {{ end }}
+
+              {{with ($.Scratch.Get "prevPage")}}
+              <a class="nav nav-prev" href="{{.Permalink }}" aria-label="Previous page" ><i class="ti-arrow-left mr-2"></i> <span class="d-none d-md-block">{{.Title}}</span></a>
+              {{end}}
+              {{with ($.Scratch.Get "nextPage")}}
+              <a class="nav nav-next" href="{{.Permalink }}" aria-label="Previous page" > <span class="d-none d-md-block">{{.Title}}</span><i class="ti-arrow-right ml-2"></i></a>
+              {{end}}
+            </nav>
+
+            <!-- Related Articles Section -->
+              <section class="my-3 py-3" id="related-articles">
+                {{ $c := .Section }}
+                {{ $p := .Params.Categories }}
+                {{ $t := .Params.Title }}
+                <h5 class="text-center">Related Articles</h5>
+                <div class="row">
+                    {{ range $key, $taxonomy := .Site.Taxonomies.categories }}
+                      {{ if eq $key $p }}
+                        {{ range shuffle ($taxonomy.Pages) | first $.Site.Params.article_count }}
+                          {{ if ne .Title $t }}
+
+                            <div class="col-sm-4 my-2">
+                              <a href="{{ .Permalink }}">
+                                <div class="card text-center">
+                                  {{ if isset .Params "image" }}
+                                    <img class="card-img-top" {{ with .Params.image }} src="{{ . }}"{{ end }} alt="{{ .Params.Title }}">
+                                  {{ end }}
+                                  <div class="card-body">
+                                    <h5 class="card-title">{{ .Title }}</h5>
+                                    <p class="card-subtitle mb-2 text-muted">{{ .Params.Description }}</p>
+                                  </div>
+                                </div>
+                              </a>
+                            </div>
+
+                          {{ end }}
+                        {{ end }}
+                      {{ end }}
+                    {{ end }}
+                  </div>
+              </section>
+            <!-- End of related articles section-->
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{ "<!-- /details page -->" | safeHTML }}
+
+<!-- templates -->
+{{ define "section-tree-nav" }}
+{{ $showvisitedlinks := .showvisitedlinks }}
+{{ $currentNode := .currentnode }}
+{{with .sect}}
+{{safeHTML .Params.head}}
+{{ $fileUniqueID := "" }}
+{{ with .File }}{{ $fileUniqueID = .UniqueID }}{{ end }}
+{{ $currentNodeFileUniqueID := "" }}
+{{ with $currentNode.File }}{{ $currentNodeFileUniqueID = .UniqueID }}{{ end }}
+<li data-nav-id="{{.Permalink}}" title="{{.Title}}" class="sidelist
+  {{if eq $fileUniqueID $currentNodeFileUniqueID}}active{{end}}">
+  <a href="{{.Permalink}}">
+    {{safeHTML .Params.Pre}}{{or .Params.menuTitle .LinkTitle .Title}}{{safeHTML .Params.Post}}
+  </a>
+  {{ $numberOfPages := (add (len .Pages) (len .Sections)) }}
+  {{ if ne $numberOfPages 0 }}
+    <ul>
+      {{ range .Pages.ByWeight }}
+        {{ if and .Params.hidden (not $.showhidden) }}
+        {{else}}
+          {{ template "section-tree-nav" dict "sect" . "currentnode" $currentNode }}
+        {{end}}
+      {{end}}
+    </ul>
+  {{ end }}
+</li>
+{{ end }}
+{{ end }}
+
+<script>
+</script>
