@@ -126,7 +126,7 @@ hasChildren = true
     parent = "cohorts"
     name = "Drones"
     url = "cohorts/drones"
-    weight = 30
+    weight = 40
 
   [[menu.main]]
     parent = "cohorts"
@@ -138,13 +138,13 @@ hasChildren = true
     parent = "cohorts"
     name = "VR + AR"
     url = "cohorts/vr+ar"
-    weight = 30
+    weight = 50
 
   [[menu.main]]
     parent = "cohorts"
     name = "Others"
     url = "cohorts/others"
-    weight = 30
+    weight = 60
 
 
 
