@@ -1,0 +1,7 @@
+---
+title: "Enhance your CircleCI pipeline with these four extensions"
+alerts: "alert"
+
+---
+Are you using https://circleci.com/product/[CircleCI] to create a continuous integration pipeline for your project?
+Check out the latest post on the Venture Fund forum on https://unicef-if.discourse.group/t/enhance-your-circleci-pipeline-with-these-four-extensions/139?u=jwf[*four extensions to enhance your CI pipeline*].
