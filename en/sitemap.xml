@@ -123,10 +123,10 @@
     <lastmod>2021-09-10T13:22:39+01:00</lastmod>
   </url><url>
     <loc>https://unicef.github.io/inventory/alerts/alert/</loc>
-    <lastmod>2021-09-15T09:59:12+01:00</lastmod>
+    <lastmod>2021-11-02T09:43:45-04:00</lastmod>
   </url><url>
     <loc>https://unicef.github.io/inventory/alerts/</loc>
-    <lastmod>2021-09-15T09:59:12+01:00</lastmod>
+    <lastmod>2021-11-02T09:43:45-04:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
@@ -193,6 +193,9 @@
                 hreflang="en"
                 href="https://unicef.github.io/inventory/downloadbtn/"
                 />
+  </url><url>
+    <loc>https://unicef.github.io/inventory/announcements/circleci-orbs/</loc>
+    <lastmod>2021-11-02T09:43:45-04:00</lastmod>
   </url><url>
     <loc>https://unicef.github.io/inventory/faq/</loc>
     <lastmod>2021-08-09T05:53:26-04:00</lastmod>
@@ -261,7 +264,7 @@
     <lastmod>2021-10-07T09:58:51+01:00</lastmod>
   </url><url>
     <loc>https://unicef.github.io/inventory/</loc>
-    <lastmod>2021-10-07T09:58:51+01:00</lastmod>
+    <lastmod>2021-11-02T09:43:45-04:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
