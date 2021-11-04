@@ -102,16 +102,40 @@ These investments into the Moodle L.M.S. by Blackboard were followed with code c
 [[resources]]
 == Resources
 
-*Trademark rules and guidelines from other Open Source projects*:
+Various resources and information pertaining to trademarks in an open-source context.
 
+[[resources-examples]]
+=== Implementations & examples
+
+Trademark rules and guidelines from other Open Source projects.
+
+* http://www.apache.org/foundation/marks/[Apache Software Foundation trademark policy]
 * https://fedoraproject.org/wiki/Legal:Trademark_guidelines[Fedora Project trademark guidelines]
-* https://www.linuxfoundation.org/trademark-usage[The “Linux®” Trademark]
+* https://www.linuxfoundation.org/trademark-usage/[Linux Foundation trademark usage]
+** https://www.linuxfoundation.org/trademark-usage[The “Linux®” Trademark]
 * https://moodle.com/trademarks/[The Moodle Trademark]
 * https://www.python.org/psf/trademarks/[Python Software Foundation]
 
-*Templates and tools to help you create your own trademark policy*:
+[[resources-readings]]
+=== Related readings
+
+* https://web.archive.org/web/20211104210547/https://www.linuxfoundation.org/blog/driving-compatibility-with-code-and-specifications-through-conformance-trademark-programs/[Driving Compatibility with Code and Specifications through Conformance Trademark Programs].
+  _The Linux Foundation®_, 2020 July 2.
+* https://web.archive.org/web/20210428001205/https://www.linuxfoundation.org/blog/open-source-communities-and-trademarks-a-reprise/[Open Source Communities and Trademarks: A Reprise]
+  _The Linux Foundation®_, 2020 July 8.
+
+[[resources-tools]]
+=== Templates & tools
+
+Templates and tools to help you create your own trademark policy.
 
 * GitHub's Minimum Viable Governance (MVG) https://github.com/github/MVG/blob/main/org-docs/TRADEMARKS.md[template for trademark policy]
 * https://modeltrademarkguidelines.org/index.php/Home:_Model_Trademark_Guidelines[Model Trademark Guidelines Project]:
 ** https://modeltrademarkguidelines.org/index.php/Model_Trademark_Guidelines[Official guidelines]
 ** https://modeltrademarkguidelines.org/index.php/Case_law[Case law]
+
+
+[[thanks]]
+== Thanks
+
+Special thanks to https://aniszczyk.org/[Chris Aniszczyk] for his contribution in this article.
