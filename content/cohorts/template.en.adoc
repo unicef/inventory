@@ -1,0 +1,29 @@
+---
+title: "Startup title"
+description: Very breif one-line description about startup
+draft: true
+tags: ["team"]
+categories: "team"
+type: "profiles"
+country: "your-location"
+date: 2021-07-25
+github: "https://github.com/your-repo"
+gitlab: "https://gitlab.com/you-repo"
+linkedin: "linkedin-link"
+twitter: "twitter-link"
+website: "your-website-link"
+community: "link-to-most-active-community-public-chat"
+logo: "stable-link-to-logo"
+sdgs:
+    - 1
+    - 8
+    - 11
+dpgs:
+    - 6
+    - 9
+
+
+---
+
+Description about this startup goes here
+ 

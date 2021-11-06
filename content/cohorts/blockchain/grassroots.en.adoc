@@ -5,7 +5,7 @@ tags: ["team"]
 categories: "team"
 type: "profiles"
 weight: 40
-country: "USA"
+country: "Kenya"
 date: 2021-07-25
 github: "https://github.com/GrassrootsEconomics"
 gitlab: "https://gitlab.com/grassrootseconomics"
