@@ -19,10 +19,8 @@ sdgs:
     - 8
     - 11
 dpgs:
-    - Relevance to Sustainable Development Goals
-    - Use of Approved Open Licenses
-    - Clear Ownership
-    -  Adherence to Privacy and Applicable Laws
+    - 6
+    - 9
 
 
 ---

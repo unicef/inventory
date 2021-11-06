@@ -34,16 +34,27 @@
               <h2>About</h2>
               <p>{{ .Content }}</p>
              </div>
+
              <div>
               <h2>DPG Indicators</h2>
               <p>The Digital Public Goods Standard is a set of specifications and guidelines designed to maximise consensus about whether a digital solution conforms to the definition set by the UN Secretary-General in the 2020 Roadmap for Digital Cooperation, which states that a DPG, “is open source software, open data, open AI models, open standards and open content that adhere to privacy and other applicable best practices, do no harm and are of high relevance for attainment of the UN’s 2030 Sustainable Development Goals (SDGs)”. Learn more about the DPG <a href="https://digitalpublicgoods.net/standard/">here</a>.</p>
               <p>Below are the DPG indicators {{.Params.Title}} has met:</p>
               <ul>
                 {{ range .Params.dpgs }}
-                  <li><i class="fa fa-check mr-2" aria-hidden="true"></i>{{ . }}</li>
+                  {{ $num:= . }}
+                  {{ $base:= "dpg" }}
+                  {{ $dpg:= printf "%s" $num | printf "%s%s" $base | printf "%s" }}
+                  {{ range $dpg_i := $.Site.Params.dpgs }}
+                    {{ range $key, $value := $dpg_i }}
+                      {{ if eq $key $dpg }}
+                        <li><i class="fa fa-check mr-2" aria-hidden="true"></i>{{ $value }}</li>
+                      {{ end }}
+                    {{ end }}
+                  {{ end }}
                 {{ end }}
               </ul>
              </div>
+
              <div class="mt-5">
               <h2>Aligned SDGs</h2>
               <div>
@@ -58,6 +69,7 @@
                 {{ end }}
               </div>
              </div>
+
              <div class="mt-5">
               <h2>Learn more</h2>
               {{ if .Params.github }}
@@ -237,6 +249,3 @@
 </li>
 {{ end }}
 {{ end }}
-
-<script>
-</script>

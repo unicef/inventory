@@ -17,9 +17,9 @@ sdgs:
     - 1
     - 8
 dpgs:
-    - Relevance to Sustainable Development Goals
-    - Use of Approved Open Licenses
-    - Do No Harm by Design 
+    - 1
+    - 4
+    - 7
 ---
 
 Kotani Pay is a technology stack that enables blockchain protocols, dapps, and blockchain fintech companies to integrate seamlessly to local payment channels providing them with a reliable on ramp and off ramp service to reach a wider customer base in Africa.
