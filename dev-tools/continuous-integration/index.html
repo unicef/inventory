@@ -1,1734 +1,496 @@
 <!DOCTYPE html>
 <html lang="en-us">
-  <head>
-  <meta charset="utf-8">
-  <title>Continuous Integration (CI)</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <meta name="generator" content="Hugo 0.89.0" />
-  <meta name="description" content="Continuous Integration (CI) - UNICEF O.S. Inventory ">
-  
-  <!-- ** CSS Plugins Needed for the Project ** -->
-  
-  <!-- Bootstrap -->
-  <link rel="stylesheet" href="https://unicef.github.io/inventory/plugins/bootstrap/bootstrap.min.css">
-
-  <!-- themefy-icon -->
-  <link rel="stylesheet" href="https://unicef.github.io/inventory/plugins/themify-icons/themify-icons.css">
-
-  <!-- drones-categories-icon -->
-  <link rel="stylesheet" href="https://unicef.github.io/inventory/plugins/drone-dpgtoolkit-icons/icons.css">
-
-  <!--Favicon-->
-  <link rel="icon" href="https://unicef.github.io/inventory/images/favicon.png" type="image/x-icon">
-
-  <!-- fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open%2bSans:300,400,700&display=swap" rel="stylesheet">
-
-  <!-- PDF.js -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.9.359/pdf.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.3/html2pdf.bundle.js"></script>
-
-  <!-- fonts -->
-  <script src="https://kit.fontawesome.com/9196e0632a.js" crossorigin="anonymous"></script>
-  
-  <style>
-  :root{
-    --primary-color:#1CABE2;
-    --body-color:#D8D1C9;
-    --text-color:#777779;
-    --text-color-dark:#374EA2;
-    --white-color:#ffffff;
-    --light-color:#f8f9fa;
-    --font-family:Open+Sans;
-  }
-  </style>
-
-<!-- Main Stylesheet -->
-
-<link href="https://unicef.github.io/inventory/css/style.min.css" rel="stylesheet" media="screen"/>
-  
-<!-- ** JS Plugins Needed for the Project ** -->
-
-<!-- jquiry -->
-<script src="https://unicef.github.io/inventory/plugins/jquery/jquery-1.12.4.js"></script>
-
-<!-- jquary ui -->
-<script src="https://unicef.github.io/inventory/plugins/jquery/jquery-ui.js"></script>
-
-<!-- Bootstrap JS -->
-<script src="https://unicef.github.io/inventory/plugins/bootstrap/bootstrap.min.js"></script>
-
-<!-- match-height JS -->
-<script src="https://unicef.github.io/inventory/plugins/match-height/jquery.matchHeight-min.js"></script>
-
-
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-80FMX4TPM0"></script>
-<script>
-var doNotTrack = false;
-if (!doNotTrack) {
-	window.dataLayer = window.dataLayer || [];
-	function gtag(){dataLayer.push(arguments);}
-	gtag('js', new Date());
-	gtag('config', 'G-80FMX4TPM0', { 'anonymize_ip': false });
-}
-</script>
-
-  
-
-  <!-- create /layouts/partials/overrides/header.html in your own theme or root directory to add your custom content here -->
-
-
-
-
-
-
-
-
-  <meta property="og:image" content="https://unicef.github.io/inventory/images/UNI309823.jpg" />
-  
-    
-    
-      <meta name="twitter:image" content="https://unicef.github.io/inventory/images/UNI309823.jpg"/>
-      <meta name="twitter:card" content="summary_large_image">
-    
-    <meta property="og:image:width" content="1440">
-    <meta property="og:image:height" content="960">
-    
-  
-  <meta property="og:image:type" content="image/jpeg">
-
-<meta name="twitter:title" content="Continuous Integration (CI)"/>
-<meta name="twitter:description" content="An introduction to creating a Continuous Integration (CI) pipeline for an Open Source project."/>
-
-
-
-<meta property="og:title" content="Continuous Integration (CI)" />
-<meta property="og:description" content="An introduction to creating a Continuous Integration (CI) pipeline for an Open Source project." />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://unicef.github.io/inventory/dev-tools/continuous-integration/" /><meta property="article:section" content="dev-tools" />
-
-<meta property="article:modified_time" content="2021-09-10T13:22:39+01:00" />
-
-
-<meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Continuous Integration (CI)"/>
-<meta name="twitter:description" content="An introduction to creating a Continuous Integration (CI) pipeline for an Open Source project."/>
-
-
-</head>
-
-  
-  <body>
-    
-    <!-- header -->
-    <header class="shadow-bottom sticky-top bg-white">
-      <nav class="navbar navbar-expand-md navigation">
-  <div class="container px-2 px-md-0">
-      
-      
-    <a class="navbar-brand px-2" href="https://www.unicef.org/">
-      
-      
-      <div class="text-center">
-      <img class="img-fluid" src="https://unicef.github.io/inventory/images/unicef-logo.png" alt="UNICEF O.S. Inventory"> 
-      <a class="text-white d-block" href="/inventory">UNICEF O.S. Inventory</a>
-      </div>
-      
-      
-    </a>
-    <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation"
+	<head>
+		<meta charset="utf-8">
+		<title>Continuous Integration (CI)</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<meta name="generator" content="Hugo 0.89.0" />
+		<meta name="description" content="Continuous Integration (CI) - UNICEF O.S. Inventory ">
+		<!-- ** CSS Plugins Needed for the Project ** -->
+		<!-- Bootstrap -->
+		<link rel="stylesheet" href="https://unicef.github.io/inventory/plugins/bootstrap/bootstrap.min.css">
+		<!-- themefy-icon -->
+		<link rel="stylesheet" href="https://unicef.github.io/inventory/plugins/themify-icons/themify-icons.css">
+		<!-- drones-categories-icon -->
+		<link rel="stylesheet" href="https://unicef.github.io/inventory/plugins/drone-dpgtoolkit-icons/icons.css">
+		<!--Favicon-->
+		<link rel="icon" href="https://unicef.github.io/inventory/images/favicon.png" type="image/x-icon">
+		<!-- fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Open%2bSans:300,400,700&display=swap" rel="stylesheet">
+		<!-- PDF.js -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.9.359/pdf.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.3/html2pdf.bundle.js"></script>
+		<!-- fonts -->
+		<script src="https://kit.fontawesome.com/9196e0632a.js" crossorigin="anonymous"></script>
+		<style>
+			:root{
+			  --primary-color:#1CABE2;
+			  --body-color:#D8D1C9;
+			  --text-color:#777779;
+			  --text-color-dark:#374EA2;
+			  --white-color:#ffffff;
+			  --light-color:#f8f9fa;
+			  --font-family:Open+Sans;
+			}
+		</style>
+		<!-- Main Stylesheet -->
+		<link href="https://unicef.github.io/inventory/css/style.min.css" rel="stylesheet" media="screen"/>
+		<!-- ** JS Plugins Needed for the Project ** -->
+		<!-- jquiry -->
+		<script src="https://unicef.github.io/inventory/plugins/jquery/jquery-1.12.4.js"></script>
+		<!-- jquary ui -->
+		<script src="https://unicef.github.io/inventory/plugins/jquery/jquery-ui.js"></script>
+		<!-- Bootstrap JS -->
+		<script src="https://unicef.github.io/inventory/plugins/bootstrap/bootstrap.min.js"></script>
+		<!-- match-height JS -->
+		<script src="https://unicef.github.io/inventory/plugins/match-height/jquery.matchHeight-min.js"></script>
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-80FMX4TPM0"></script>
+		<script>
+			var doNotTrack = false;
+			if (!doNotTrack) {
+				window.dataLayer = window.dataLayer || [];
+				function gtag(){dataLayer.push(arguments);}
+				gtag('js', new Date());
+				gtag('config', 'G-80FMX4TPM0', { 'anonymize_ip': false });
+			}
+		</script>
+		<!-- create /layouts/partials/overrides/header.html in your own theme or root directory to add your custom content here -->
+		<meta property="og:image" content="https://unicef.github.io/inventory/images/UNI309823.jpg" />
+		<meta name="twitter:image" content="https://unicef.github.io/inventory/images/UNI309823.jpg"/>
+		<meta name="twitter:card" content="summary_large_image">
+		<meta property="og:image:width" content="1440">
+		<meta property="og:image:height" content="960">
+		<meta property="og:image:type" content="image/jpeg">
+		<meta name="twitter:title" content="Continuous Integration (CI)"/>
+		<meta name="twitter:description" content="An introduction to creating a Continuous Integration (CI) pipeline for an Open Source project."/>
+		<meta property="og:title" content="Continuous Integration (CI)" />
+		<meta property="og:description" content="An introduction to creating a Continuous Integration (CI) pipeline for an Open Source project." />
+		<meta property="og:type" content="article" />
+		<meta property="og:url" content="https://unicef.github.io/inventory/dev-tools/continuous-integration/" /><meta property="article:section" content="dev-tools" />
+		<meta property="article:modified_time" content="2021-09-10T13:22:39+01:00" />
+		<meta name="twitter:card" content="summary"/>
+		<meta name="twitter:title" content="Continuous Integration (CI)"/>
+		<meta name="twitter:description" content="An introduction to creating a Continuous Integration (CI) pipeline for an Open Source project."/>
+	</head>
+	<body>
+		<!-- header -->
+		<header class="shadow-bottom sticky-top bg-white">
+			<nav class="navbar navbar-expand-md navigation">
+				<div class="container px-2 px-md-0">
+					<a class="navbar-brand px-2" href="https://www.unicef.org/">
+						<div class="text-center">
+							<img class="img-fluid" src="https://unicef.github.io/inventory/images/unicef-logo.png" alt="UNICEF O.S. Inventory">
+							<a class="text-white d-block" href="/inventory">UNICEF O.S. Inventory</a>
+						</div>
+					</a>
+					<button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation"
       aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse text-center" id="navigation">
-      <ul class="navbar-nav ml-auto">
-        
-        
-        <li class="nav-item">
-          <a class="nav-link text-white" href="https://unicef.github.io/inventory/faq">FAQ</a>
-        </li>
-        
-        
-        
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-toggle="dropdown"
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse text-center" id="navigation">
+						<ul class="navbar-nav ml-auto">
+							<li class="nav-item">
+								<a class="nav-link text-white" href="https://unicef.github.io/inventory/faq">FAQ</a>
+							</li>
+							<li class="nav-item dropdown">
+								<a class="nav-link dropdown-toggle text-white" href="#" role="button" data-toggle="dropdown"
             aria-haspopup="true" aria-expanded="false">
-            pages
-          </a>
-          <div class="dropdown-menu">
-            
-            <a class="dropdown-item" href="https://unicef.github.io/inventory/communities">Communities</a>
-            
-            <a class="dropdown-item" href="https://unicef.github.io/inventory/data">Data Ethics &amp; Transparency</a>
-            
-            <a class="dropdown-item" href="https://unicef.github.io/inventory/design">Design</a>
-            
-            <a class="dropdown-item" href="https://unicef.github.io/inventory/dev-tools">Developer Tools &amp; Automation</a>
-            
-            <a class="dropdown-item" href="https://unicef.github.io/inventory/documentation">Documentation</a>
-            
-            <a class="dropdown-item" href="https://unicef.github.io/inventory/governance">Governance</a>
-            
-            <a class="dropdown-item" href="https://unicef.github.io/inventory/legal-policy">Legal &amp; Policy</a>
-            
-            <a class="dropdown-item" href="https://unicef.github.io/inventory/meta">Meta</a>
-            
-            <a class="dropdown-item" href="https://unicef.github.io/inventory/missions">Missions</a>
-            
-            <a class="dropdown-item" href="https://unicef.github.io/inventory/hardware">Open Hardware</a>
-            
-            <a class="dropdown-item" href="https://unicef.github.io/inventory/project-management">Project Management</a>
-            
-            <a class="dropdown-item" href="https://unicef.github.io/inventory/reproducibility">Reproducibility</a>
-            
-            <a class="dropdown-item" href="https://unicef.github.io/inventory/sustainability">Sustainability</a>
-            
-          </div>
-        </li>
-        
-        
-      </ul>
-      
-      <select class="lang-list bg-primary dark mb-3 mb-md-0" id="select-language"
+									pages
+								</a>
+								<div class="dropdown-menu">
+									<a class="dropdown-item" href="https://unicef.github.io/inventory/communities">Communities</a>
+									<a class="dropdown-item" href="https://unicef.github.io/inventory/data">Data Ethics &amp; Transparency</a>
+									<a class="dropdown-item" href="https://unicef.github.io/inventory/design">Design</a>
+									<a class="dropdown-item" href="https://unicef.github.io/inventory/dev-tools">Developer Tools &amp; Automation</a>
+									<a class="dropdown-item" href="https://unicef.github.io/inventory/documentation">Documentation</a>
+									<a class="dropdown-item" href="https://unicef.github.io/inventory/governance">Governance</a>
+									<a class="dropdown-item" href="https://unicef.github.io/inventory/legal-policy">Legal &amp; Policy</a>
+									<a class="dropdown-item" href="https://unicef.github.io/inventory/meta">Meta</a>
+									<a class="dropdown-item" href="https://unicef.github.io/inventory/missions">Missions</a>
+									<a class="dropdown-item" href="https://unicef.github.io/inventory/hardware">Open Hardware</a>
+									<a class="dropdown-item" href="https://unicef.github.io/inventory/project-management">Project Management</a>
+									<a class="dropdown-item" href="https://unicef.github.io/inventory/reproducibility">Reproducibility</a>
+									<a class="dropdown-item" href="https://unicef.github.io/inventory/sustainability">Sustainability</a>
+								</div>
+							</li>
+						</ul>
+						<select class="lang-list bg-primary dark mb-3 mb-md-0" id="select-language"
         onchange="location = this.value;">
-        
-        
-        
-        
-        
-        
-        
-        
-        <option id="en" value="https://unicef.github.io/inventory/communities/fedora/" selected>en
-        </option>
-        
-        
-        
-        
-        
-        
-      </select>
-      
-    </div>
-  </div>
-    <p class="text-white h6 unicef-glob">Visit <a href="https://www.unicef.org/" class="text-white">UNICEF Global <i class="fas fa-angle-double-right"></i></a></p>
-</nav>
-
-    </header>
-    <!-- /header -->
-    
-    
-
-
-
-
-  <div class="">
-  <div class="alert alert-primary alert-dismissible fade show mx-auto px-5 my-3 col-fixed mb-0" role="alert">
-    <div class="d-flex justify-content-center px-0">
-    
-      <div id="carouselExampleControls" class="carousel slide px-0" data-ride="carousel">
-        <div class="carousel-inner">
-        
-            
-              <div class="carousel-item active">
-                <h5 class="alert-heading">Enhance your CircleCI pipeline with these four extensions</h5>
-                <p mx-0><div class="paragraph">
-<p>Are you using <a href="https://circleci.com/product/">CircleCI</a> to create a continuous integration pipeline for your project?
-Check out the latest post on the Venture Fund forum on <a href="https://unicef-if.discourse.group/t/enhance-your-circleci-pipeline-with-these-four-extensions/139?u=jwf"><strong>four extensions to enhance your CI pipeline</strong></a>.</p>
-</div>
-</p>
-              </div>
-            
-            
-              <div class="carousel-item px-0">
-                <h5 class="alert-heading">New article: Project charters</h5>
-                <p mx-0><div class="paragraph">
-<p>In August 2021 Mentorship calls, start-up teams discussed project charters with Justin.
-We talked through how to create one for your project.
-Review this <em>new</em> <a href="https://unicef.github.io/inventory/missions/charters/">guided mission</a> to launch your own.</p>
-</div>
-</p>
-              </div>
-            
-          
-        </div>
-      </div>
-    </div>
-    <div>
-
-      <a class="carousel-control-prev" style="justify-content:left" href="#carouselExampleControls" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="carousel-control-next" style="justify-content:right" href="#carouselExampleControls" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
-    </div>
-    
-    
-    <button type="button" class="close" data-dismiss="alert" aria-label="Close" onClick=remSpace()>
-        <span aria-hidden="true">&times;</span>
-    </button>
-    
-      
-    </div>
-  </div>
-  </div>
-
-
-
-<script>
-  function remSpace() {
-    document.getElementById("section").style.paddingTop = "3rem";
-  }
-</script>
-<!-- details page -->
-<section class="single section-sm main-section" id="section">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-3">
-        <div class="sidebar">
-        <a class="back-btn" href="/inventory" aria-label="back"></a>
-          <ul class="list-styled">
-            
-            
-              
-            
-              
-            
-              
-            
-              
-              
-
-
-
-
-
-
-
-
-<li data-nav-id="https://unicef.github.io/inventory/dev-tools/" title="Developer Tools &amp; Automation" class="sidelist
+							<option id="en" value="https://unicef.github.io/inventory/governance/governance/" selected>en
+							</option>
+						</select>
+					</div>
+				</div>
+				<p class="text-white h6 unicef-glob">Visit <a href="https://www.unicef.org/" class="text-white">UNICEF Global <i class="fas fa-angle-double-right"></i></a></p>
+			</nav>
+		</header>
+		<!-- /header -->
+		<div class="">
+			<div class="alert alert-primary alert-dismissible fade show mx-auto px-5 my-3 col-fixed mb-0" role="alert">
+				<div class="d-flex justify-content-center px-0">
+					<div id="carouselExampleControls" class="carousel slide px-0" data-ride="carousel">
+						<div class="carousel-inner">
+							<div class="carousel-item active">
+								<h5 class="alert-heading">Enhance your CircleCI pipeline with these four extensions</h5>
+								<p mx-0>
+									<div class="paragraph">
+										<p>Are you using <a href="https://circleci.com/product/">CircleCI</a> to create a continuous integration pipeline for your project?
+											Check out the latest post on the Venture Fund forum on <a href="https://unicef-if.discourse.group/t/enhance-your-circleci-pipeline-with-these-four-extensions/139?u=jwf"><strong>four extensions to enhance your CI pipeline</strong></a>.</p>
+									</div>
+								</p>
+							</div>
+							<div class="carousel-item px-0">
+								<h5 class="alert-heading">New article: Project charters</h5>
+								<p mx-0>
+									<div class="paragraph">
+										<p>In August 2021 Mentorship calls, start-up teams discussed project charters with Justin.
+											We talked through how to create one for your project.
+											Review this <em>new</em> <a href="https://unicef.github.io/inventory/missions/charters/">guided mission</a> to launch your own.</p>
+									</div>
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div>
+					<a class="carousel-control-prev" style="justify-content:left" href="#carouselExampleControls" role="button" data-slide="prev">
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						<span class="sr-only">Previous</span>
+					</a>
+					<a class="carousel-control-next" style="justify-content:right" href="#carouselExampleControls" role="button" data-slide="next">
+						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						<span class="sr-only">Next</span>
+					</a>
+				</div>
+				<button type="button" class="close" data-dismiss="alert" aria-label="Close" onClick=remSpace()>
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+		</div>
+	</div>
+	<script>
+		function remSpace() {
+		  document.getElementById("section").style.paddingTop = "3rem";
+		}
+	</script>
+	<!-- details page -->
+	<section class="single section-sm main-section" id="section">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-3">
+					<div class="sidebar">
+						<a class="back-btn" href="/inventory" aria-label="back"></a>
+						<ul class="list-styled">
+							<li data-nav-id="https://unicef.github.io/inventory/dev-tools/" title="Developer Tools &amp; Automation" class="sidelist
   ">
-  <a href="https://unicef.github.io/inventory/dev-tools/">
-    Developer Tools &amp; Automation
-  </a>
-  
-  
-    <ul>
-      
-        
-          
-
-
-
-
-
-
-
-
-<li data-nav-id="https://unicef.github.io/inventory/dev-tools/continuous-integration/" title="Continuous Integration (CI)" class="sidelist
+								<a href="https://unicef.github.io/inventory/dev-tools/">
+									Developer Tools &amp; Automation
+								</a>
+								<ul>
+									<li data-nav-id="https://unicef.github.io/inventory/dev-tools/continuous-integration/" title="Continuous Integration (CI)" class="sidelist
   active">
-  <a href="https://unicef.github.io/inventory/dev-tools/continuous-integration/">
-    Continuous Integration (CI)
-  </a>
-  
-  
-</li>
-
-
-        
-      
-    </ul>
-  
-</li>
-
-
-              
-            
-              
-            
-              
-            
-              
-            
-              
-            
-              
-            
-              
-            
-              
-            
-              
-            
-              
-            
-              
-            
-              
-            
-            
-              
-                <div>
-                    <button class="btn btn-primary btn-block" id="generatePDF" > Get Pdf  </button>
-                </div>
-              
-            
-          </ul>
-        </div>
-      </div>
-      <div class="col-lg-9">
-        
-        <div class="bg-white" style="margin:auto">
-          <script language="JavaScript">
-
-   String.prototype.capitalizeFirstLetter = function() {
-      return this.charAt(0).toUpperCase() + this.slice(1);
-   }
-
-   var path = "<a style='margin-left:2%' href='https:\/\/unicef.github.io\/inventory\/'>Home</a>";
-   var href = document.location.href;
-   var s = href.split("/");
-   for (var i=3;i<(s.length-2);i++) {
-      path+=" &gt;  <a href=\""+href.substring(0,href.indexOf("/"+s[i])+s[i].length+1)+"/\">"+s[i].capitalizeFirstLetter()+"</a> ";
-   }
-   i=s.length-1;
-   path+="<a href=\""+href.substring(0,href.indexOf(s[i])+s[i].length)+"\">"+s[i]+"</a>";
-   path+="  &gt;  <b>Continuous Integration (CI)</b>";
-   document.writeln(path);
-</script>
-        </div>
-        
-        <div class="p-lg-5 p-4 bg-white" id="content">
-          <h2 class="mb-5" id="title">Continuous Integration (CI)</h2>
-          
-          <div class="content"><div id="toc" class="toc">
-<div id="toctitle">Table of Contents</div>
-<ul class="sectlevel1">
-<li><a href="#what-why">1. What is CI and why does it matter?</a>
-<ul class="sectlevel2">
-<li><a href="#tests-vs-ci">1.1. Tests vs. CI</a></li>
-<li><a href="#benefits">1.2. Benefits</a></li>
-</ul>
-</li>
-<li><a href="#platforms">2. CI platforms</a></li>
-<li><a href="#tips">3. Tips and tricks</a></li>
-<li><a href="#examples">4. Examples</a></li>
-<li><a href="#resources">5. Other resources</a></li>
-</ul>
-</div>
-<div class="paragraph">
-<p>This guide is an introduction to Continuous Integration (C.I.) for Open Source projects.
-In this guide, you will learn about the following topics:</p>
-</div>
-<div class="sect1">
-<h2 id="what-why">1. What is CI and why does it matter?&nbsp;<a class="hanchor" href="#what-why">🔗</a> </h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>Continuous Integration can be a few different things.
-However, for the open source context, think of CI as the tool or platform which runs a code test suite.
-A CI platform will run an open source project’s code test suite and report the test results back in real-time.
-You can even get this feedback before adding new code into a project.</p>
-</div>
-<div class="sect2">
-<h3 id="tests-vs-ci">1.1. Tests vs. CI&nbsp;<a class="hanchor" href="#tests-vs-ci">🔗</a> </h3>
-<div class="paragraph">
-<p>It is important to distinguish code test suites from CI platforms.</p>
-</div>
-<div class="paragraph">
-<p>A code test suite usually means the <strong>actual tests</strong> themselves.
-The tests might use a framework like <a href="https://docs.pytest.org/">Pytest</a>, <a href="https://github.com/google/googletest/">Google Test</a>, <a href="https://golang.org/pkg/testing/">go test</a>, <a href="https://mochajs.org/">Mocha</a>, <a href="https://rspec.info/">RSpec</a>, or one of countless others.
-When the test suite is run, it provides some kind of guarantee that the code shipped works as designed and as it should.</p>
-</div>
-<div class="paragraph">
-<p>CI platforms can be simple or complex.
-At their simplest, they are &#34;wrappers&#34; for the code test suite.
-A <strong>CI job</strong> sets up the infrastructure and environment needed for the software, and then runs the code test suite.</p>
-</div>
-<div class="paragraph">
-<p>So, in a way, a CI platform is a tool to automate running your code test suite and allows you to integrate test results into the development process.</p>
-</div>
-</div>
-<div class="sect2">
-<h3 id="benefits">1.2. Benefits&nbsp;<a class="hanchor" href="#benefits">🔗</a> </h3>
-<div class="paragraph">
-<p>Using a CI platform provides benefits both for agile software development <em>and</em> open source.</p>
-</div>
-<div class="paragraph">
-<p>For agile software development, a CI platform enables developers to get real-time feedback about whether new changes are compatible with existing code in the project.
-Before code gets added, a developer gets a green flag or a red flag for the results of the test suite.
-Developers will be able to avoid common human errors and mistakes in their code before they are added.</p>
-</div>
-<div class="paragraph">
-<p>The open source view is both practical and also psychological:</p>
-</div>
-<div class="olist arabic">
-<ol class="arabic">
-<li>
-<p><em>Practical</em>:
-New contributors or team members can use a test suite to avoid making common mistakes while learning a new codebase.</p>
-</li>
-<li>
-<p><em>Psychological</em>:
-Open source contributors are more confident to make changes because there is a safety net, in case there are unexpected side effects from their changes.</p>
-</li>
-</ol>
-</div>
-<div class="paragraph">
-<p>The practical benefits apply equally to your core team members and outside contributors.
-In a <strong>Pull Request</strong>, a CI platform will post the test results into the Pull Request.
-A developer or core team member will know immediately whether the test suite is still working, or if their changes may have introduced new bugs.</p>
-</div>
-<div class="paragraph">
-<p>The psychological benefits are more focused towards anyone (new team members or outside contributors) who are still new to the project.
-It is difficult for someone to step up and decide to contribute to an open source project!
-A test suite and CI platform makes it easier by letting a new contributor be bold in making new changes, provided the test suite still passes at the end.
-The contributor can run the test suite locally before they propose their changes to the project.</p>
-</div>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="platforms">2. CI platforms&nbsp;<a class="hanchor" href="#platforms">🔗</a> </h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>There are many different CI platforms available.
-Which one is best for you depends on your specific needs, what features are available, and what kinds of third-party integrations you need.
-This guide will not cover them all, but here are some of the most popular ones:</p>
-</div>
-<div class="ulist">
-<ul>
-<li>
-<p><a href="https://circleci.com/">Circle CI</a></p>
-</li>
-<li>
-<p><a href="https://github.com/features/actions">GitHub Actions</a></p>
-</li>
-<li>
-<p><a href="https://docs.gitlab.com/ee/ci/">GitLab CI</a></p>
-</li>
-<li>
-<p><a href="https://www.jenkins.io/">Jenkins</a>
-(powerful, but notoriously difficult to set up)</p>
-</li>
-<li>
-<p><a href="https://travis-ci.org/">Travis CI</a></p>
-</li>
-</ul>
-</div>
-<div class="paragraph">
-<p>Note many of these platforms have no-cost plans for software released under open source licenses.
-However, usually you will have to pay if using CI on a private or hidden repository.
-Additionally, all of these platforms have extensive documentation. Read up on their docs to learn more!</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="tips">3. Tips and tricks&nbsp;<a class="hanchor" href="#tips">🔗</a> </h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>This is a short list of tips, tricks, and common traps to avoid when integrating CI into your project:</p>
-</div>
-<div class="olist arabic">
-<ol class="arabic">
-<li>
-<p><strong>All changes should be Pull Requests</strong>:
-To get the most benefit out of a CI tool, all changes to your codebase should be made via a Pull Request.
-No committing directly to <code>master</code> or <code>production</code>!</p>
-</li>
-<li>
-<p><strong>Use caching for faster builds</strong>:
-All CI platforms usually have some kind of caching feature, if configured.
-Especially for larger projects, this can lead to huge speed-ups with how long your test suite takes to run.</p>
-</li>
-<li>
-<p><strong>Block new changes from merging if tests fail</strong>:
-If your test suite reports back with errors, do not add the proposed code into the main codebase.
-Fix the code for the tests first, and then add the changes.
-If you must make a one-time exception, do not delay in fixing your tests as soon as possible.
-Otherwise, developers might ignore them altogether (even for valid tests).</p>
-</li>
-<li>
-<p><strong>Keep writing tests</strong>:
-As long as you are writing new code, you should also be writing new tests.
-Remember, the benefits of CI will not be realized if you are not consistently testing your code.</p>
-</li>
-</ol>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="examples">4. Examples&nbsp;<a class="hanchor" href="#examples">🔗</a> </h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>Need some examples of projects using a Continuous Integration pipeline?
-Check out some of the examples below!</p>
-</div>
-<div class="ulist">
-<ul>
-<li>
-<p>(Go) <strong>proton-bridge</strong>:
-<a href="https://github.com/ProtonMail/proton-bridge">git repo</a>,
-<a href="https://github.com/ProtonMail/proton-bridge/blob/5348ae7d183da194bd3f051ca723ca2efb99da7a/.gitlab-ci.yml">GitLab CI config</a>,
-<a href="https://github.com/ProtonMail/proton-bridge/blob/5348ae7d183da194bd3f051ca723ca2efb99da7a/.golangci.yml">golang-ci config</a></p>
-</li>
-<li>
-<p>(Go) <strong>TeleIRC</strong>:
-<a href="https://github.com/RITlug/teleirc">git repo</a>,
-<a href="https://github.com/RITlug/teleirc/blob/master/.travis.yml">Travis CI config</a>,
-<a href="https://travis-ci.org/github/RITlug/teleirc">Travis CI builds</a></p>
-</li>
-<li>
-<p>(Python) <strong>datanommer</strong>:
-<a href="https://github.com/fedora-infra/datanommer">git repo</a>,
-<a href="https://github.com/fedora-infra/datanommer/blob/develop/.travis.yml">Travis CI config</a>,
-<a href="https://travis-ci.org/github/fedora-infra/datanommer">Travis CI builds</a></p>
-</li>
-<li>
-<p>(Ruby) <strong>fossrit.github.io</strong>:
-<a href="https://github.com/FOSSRIT/fossrit.github.io">git repo</a>,
-<a href="https://github.com/FOSSRIT/fossrit.github.io/blob/master/.travis.yml">Travis CI config</a>,
-<a href="https://travis-ci.org/github/FOSSRIT/fossrit.github.io">Travis CI builds</a></p>
-</li>
-</ul>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="resources">5. Other resources&nbsp;<a class="hanchor" href="#resources">🔗</a> </h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>Curious to know more?
-The resources below explain other concepts about Continuous Integration in greater detail:</p>
-</div>
-<div class="ulist">
-<ul>
-<li>
-<p><a href="https://medium.com/nerds-malt/choosing-a-ci-that-grows-at-the-same-pace-as-a-scale-up-f4e1c0648084">Choosing a CI that grows at the same pace as a scale-up</a> - <em>Johan Lorenzo</em>, Lead Software Engineer at Malt</p>
-</li>
-<li>
-<p><a href="https://codeship.com/continuous-integration-essentials">Continuous Integration Essentials</a> - <em>Codeship</em></p>
-</li>
-</ul>
-</div>
-</div>
-</div>
-</div>
-          
-          <p class="post-meta border-bottom pb-3 mb-0 mt-3">Updated on 10 Sep 2021</p>
-          <nav class="pagination mt-3">
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-            
-            
-            
-
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-            
-
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-            
-
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-            
-
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-            
-
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-            
-
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-            
-
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-            
-
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-            
-
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-            
-
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-            
-
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-            
-
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-            
-
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-            
-
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-            
-
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-            
-
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-            
-
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-            
-
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-            
-
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-            
-
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-            
-
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-            
-
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-            
-
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-            
-
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-            
-
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-            
-
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-            
-            
-            
-
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-            
-
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-            
-
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-            
-
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-            
-
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-            
-
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-            
-
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-            
-
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-            
-
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-            
-
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-            
-
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-            
-
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-            
-
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-            
-
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-            
-
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-            
-
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-            
-
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-            
-
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-            
-
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-            
-
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-            
-
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-            
-
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-            
-
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-            
-
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-            
-
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-            
-
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-            
-
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-            
-
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-            
-
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-            
-
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-            
-
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-            
-
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-            
-
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-            
-
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-            
-
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            <a class="nav nav-prev" href="https://unicef.github.io/inventory/dev-tools/" aria-label="Previous page" ><i class="ti-arrow-left mr-2"></i> <span class="d-none d-md-block">Developer Tools &amp; Automation</span></a>
-            
-            
-            <a class="nav nav-next" href="https://unicef.github.io/inventory/documentation/" aria-label="Previous page" > <span class="d-none d-md-block">Documentation</span><i class="ti-arrow-right ml-2"></i></a>
-            
-          </nav>
-
-          
-          <section class="my-3 py-3" id="related-articles">
-            
-            
-            
-            
-            <h5 class="text-center">Related Articles</h5>
-            <div class="row">
-                
-                  
-                
-                  
-                
-                  
-                
-                  
-                  
-                    
-                      
-                    
-                  
-                  
-                
-                  
-                
-                  
-                
-                  
-                
-                  
-                
-                  
-                
-                  
-                
-                  
-                
-                  
-                
-                  
-                
-              </div>
-          </section>
-              
-
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+										<a href="https://unicef.github.io/inventory/dev-tools/continuous-integration/">
+											Continuous Integration (CI)
+										</a>
+									</li>
+								</ul>
+							</li>
+							<div>
+								<button class="btn btn-primary btn-block" id="generatePDF" > Get Pdf  </button>
+							</div>
+						</ul>
+					</div>
+				</div>
+				<div class="col-lg-9">
+					<div class="bg-white" style="margin:auto">
+						<script language="JavaScript">
+							String.prototype.capitalizeFirstLetter = function() {
+							   return this.charAt(0).toUpperCase() + this.slice(1);
+							}
+							
+							var path = "<a style='margin-left:2%' href='https:\/\/unicef.github.io\/inventory\/'>Home</a>";
+							var href = document.location.href;
+							var s = href.split("/");
+							for (var i=3;i<(s.length-2);i++) {
+							   path+=" &gt;  <a href=\""+href.substring(0,href.indexOf("/"+s[i])+s[i].length+1)+"/\">"+s[i].capitalizeFirstLetter()+"</a> ";
+							}
+							i=s.length-1;
+							path+="<a href=\""+href.substring(0,href.indexOf(s[i])+s[i].length)+"\">"+s[i]+"</a>";
+							path+="  &gt;  <b>Continuous Integration (CI)</b>";
+							document.writeln(path);
+						</script>
+					</div>
+					<div class="p-lg-5 p-4 bg-white" id="content">
+						<h2 class="mb-5" id="title">Continuous Integration (CI)</h2>
+						<div class="content">
+							<div id="toc" class="toc">
+								<div id="toctitle">Table of Contents</div>
+								<ul class="sectlevel1">
+									<li><a href="#what-why">1. What is CI and why does it matter?</a>
+										<ul class="sectlevel2">
+											<li><a href="#tests-vs-ci">1.1. Tests vs. CI</a></li>
+											<li><a href="#benefits">1.2. Benefits</a></li>
+										</ul>
+									</li>
+									<li><a href="#platforms">2. CI platforms</a></li>
+									<li><a href="#tips">3. Tips and tricks</a></li>
+									<li><a href="#examples">4. Examples</a></li>
+									<li><a href="#resources">5. Other resources</a></li>
+								</ul>
+							</div>
+							<div class="paragraph">
+								<p>This guide is an introduction to Continuous Integration (C.I.) for Open Source projects.
+									In this guide, you will learn about the following topics:</p>
+							</div>
+							<div class="sect1">
+								<h2 id="what-why">1. What is CI and why does it matter?&nbsp;<a class="hanchor" href="#what-why">🔗</a> </h2>
+								<div class="sectionbody">
+									<div class="paragraph">
+										<p>Continuous Integration can be a few different things.
+											However, for the open source context, think of CI as the tool or platform which runs a code test suite.
+											A CI platform will run an open source project’s code test suite and report the test results back in real-time.
+											You can even get this feedback before adding new code into a project.</p>
+									</div>
+									<div class="sect2">
+										<h3 id="tests-vs-ci">1.1. Tests vs. CI&nbsp;<a class="hanchor" href="#tests-vs-ci">🔗</a> </h3>
+										<div class="paragraph">
+											<p>It is important to distinguish code test suites from CI platforms.</p>
+										</div>
+										<div class="paragraph">
+											<p>A code test suite usually means the <strong>actual tests</strong> themselves.
+												The tests might use a framework like <a href="https://docs.pytest.org/">Pytest</a>, <a href="https://github.com/google/googletest/">Google Test</a>, <a href="https://golang.org/pkg/testing/">go test</a>, <a href="https://mochajs.org/">Mocha</a>, <a href="https://rspec.info/">RSpec</a>, or one of countless others.
+												When the test suite is run, it provides some kind of guarantee that the code shipped works as designed and as it should.</p>
+										</div>
+										<div class="paragraph">
+											<p>CI platforms can be simple or complex.
+												At their simplest, they are &#34;wrappers&#34; for the code test suite.
+												A <strong>CI job</strong> sets up the infrastructure and environment needed for the software, and then runs the code test suite.</p>
+										</div>
+										<div class="paragraph">
+											<p>So, in a way, a CI platform is a tool to automate running your code test suite and allows you to integrate test results into the development process.</p>
+										</div>
+									</div>
+									<div class="sect2">
+										<h3 id="benefits">1.2. Benefits&nbsp;<a class="hanchor" href="#benefits">🔗</a> </h3>
+										<div class="paragraph">
+											<p>Using a CI platform provides benefits both for agile software development <em>and</em> open source.</p>
+										</div>
+										<div class="paragraph">
+											<p>For agile software development, a CI platform enables developers to get real-time feedback about whether new changes are compatible with existing code in the project.
+												Before code gets added, a developer gets a green flag or a red flag for the results of the test suite.
+												Developers will be able to avoid common human errors and mistakes in their code before they are added.</p>
+										</div>
+										<div class="paragraph">
+											<p>The open source view is both practical and also psychological:</p>
+										</div>
+										<div class="olist arabic">
+											<ol class="arabic">
+												<li>
+													<p><em>Practical</em>:
+														New contributors or team members can use a test suite to avoid making common mistakes while learning a new codebase.</p>
+												</li>
+												<li>
+													<p><em>Psychological</em>:
+														Open source contributors are more confident to make changes because there is a safety net, in case there are unexpected side effects from their changes.</p>
+												</li>
+											</ol>
+										</div>
+										<div class="paragraph">
+											<p>The practical benefits apply equally to your core team members and outside contributors.
+												In a <strong>Pull Request</strong>, a CI platform will post the test results into the Pull Request.
+												A developer or core team member will know immediately whether the test suite is still working, or if their changes may have introduced new bugs.</p>
+										</div>
+										<div class="paragraph">
+											<p>The psychological benefits are more focused towards anyone (new team members or outside contributors) who are still new to the project.
+												It is difficult for someone to step up and decide to contribute to an open source project!
+												A test suite and CI platform makes it easier by letting a new contributor be bold in making new changes, provided the test suite still passes at the end.
+												The contributor can run the test suite locally before they propose their changes to the project.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="sect1">
+								<h2 id="platforms">2. CI platforms&nbsp;<a class="hanchor" href="#platforms">🔗</a> </h2>
+								<div class="sectionbody">
+									<div class="paragraph">
+										<p>There are many different CI platforms available.
+											Which one is best for you depends on your specific needs, what features are available, and what kinds of third-party integrations you need.
+											This guide will not cover them all, but here are some of the most popular ones:</p>
+									</div>
+									<div class="ulist">
+										<ul>
+											<li>
+												<p><a href="https://circleci.com/">Circle CI</a></p>
+											</li>
+											<li>
+												<p><a href="https://github.com/features/actions">GitHub Actions</a></p>
+											</li>
+											<li>
+												<p><a href="https://docs.gitlab.com/ee/ci/">GitLab CI</a></p>
+											</li>
+											<li>
+												<p><a href="https://www.jenkins.io/">Jenkins</a>
+													(powerful, but notoriously difficult to set up)</p>
+											</li>
+											<li>
+												<p><a href="https://travis-ci.org/">Travis CI</a></p>
+											</li>
+										</ul>
+									</div>
+									<div class="paragraph">
+										<p>Note many of these platforms have no-cost plans for software released under open source licenses.
+											However, usually you will have to pay if using CI on a private or hidden repository.
+											Additionally, all of these platforms have extensive documentation. Read up on their docs to learn more!</p>
+									</div>
+								</div>
+							</div>
+							<div class="sect1">
+								<h2 id="tips">3. Tips and tricks&nbsp;<a class="hanchor" href="#tips">🔗</a> </h2>
+								<div class="sectionbody">
+									<div class="paragraph">
+										<p>This is a short list of tips, tricks, and common traps to avoid when integrating CI into your project:</p>
+									</div>
+									<div class="olist arabic">
+										<ol class="arabic">
+											<li>
+												<p><strong>All changes should be Pull Requests</strong>:
+													To get the most benefit out of a CI tool, all changes to your codebase should be made via a Pull Request.
+													No committing directly to <code>master</code> or <code>production</code>!</p>
+											</li>
+											<li>
+												<p><strong>Use caching for faster builds</strong>:
+													All CI platforms usually have some kind of caching feature, if configured.
+													Especially for larger projects, this can lead to huge speed-ups with how long your test suite takes to run.</p>
+											</li>
+											<li>
+												<p><strong>Block new changes from merging if tests fail</strong>:
+													If your test suite reports back with errors, do not add the proposed code into the main codebase.
+													Fix the code for the tests first, and then add the changes.
+													If you must make a one-time exception, do not delay in fixing your tests as soon as possible.
+													Otherwise, developers might ignore them altogether (even for valid tests).</p>
+											</li>
+											<li>
+												<p><strong>Keep writing tests</strong>:
+													As long as you are writing new code, you should also be writing new tests.
+													Remember, the benefits of CI will not be realized if you are not consistently testing your code.</p>
+											</li>
+										</ol>
+									</div>
+								</div>
+							</div>
+							<div class="sect1">
+								<h2 id="examples">4. Examples&nbsp;<a class="hanchor" href="#examples">🔗</a> </h2>
+								<div class="sectionbody">
+									<div class="paragraph">
+										<p>Need some examples of projects using a Continuous Integration pipeline?
+											Check out some of the examples below!</p>
+									</div>
+									<div class="ulist">
+										<ul>
+											<li>
+												<p>(Go) <strong>proton-bridge</strong>:
+													<a href="https://github.com/ProtonMail/proton-bridge">git repo</a>,
+													<a href="https://github.com/ProtonMail/proton-bridge/blob/5348ae7d183da194bd3f051ca723ca2efb99da7a/.gitlab-ci.yml">GitLab CI config</a>,
+													<a href="https://github.com/ProtonMail/proton-bridge/blob/5348ae7d183da194bd3f051ca723ca2efb99da7a/.golangci.yml">golang-ci config</a></p>
+											</li>
+											<li>
+												<p>(Go) <strong>TeleIRC</strong>:
+													<a href="https://github.com/RITlug/teleirc">git repo</a>,
+													<a href="https://github.com/RITlug/teleirc/blob/master/.travis.yml">Travis CI config</a>,
+													<a href="https://travis-ci.org/github/RITlug/teleirc">Travis CI builds</a></p>
+											</li>
+											<li>
+												<p>(Python) <strong>datanommer</strong>:
+													<a href="https://github.com/fedora-infra/datanommer">git repo</a>,
+													<a href="https://github.com/fedora-infra/datanommer/blob/develop/.travis.yml">Travis CI config</a>,
+													<a href="https://travis-ci.org/github/fedora-infra/datanommer">Travis CI builds</a></p>
+											</li>
+											<li>
+												<p>(Ruby) <strong>fossrit.github.io</strong>:
+													<a href="https://github.com/FOSSRIT/fossrit.github.io">git repo</a>,
+													<a href="https://github.com/FOSSRIT/fossrit.github.io/blob/master/.travis.yml">Travis CI config</a>,
+													<a href="https://travis-ci.org/github/FOSSRIT/fossrit.github.io">Travis CI builds</a></p>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="sect1">
+								<h2 id="resources">5. Other resources&nbsp;<a class="hanchor" href="#resources">🔗</a> </h2>
+								<div class="sectionbody">
+									<div class="paragraph">
+										<p>Curious to know more?
+											The resources below explain other concepts about Continuous Integration in greater detail:</p>
+									</div>
+									<div class="ulist">
+										<ul>
+											<li>
+												<p><a href="https://medium.com/nerds-malt/choosing-a-ci-that-grows-at-the-same-pace-as-a-scale-up-f4e1c0648084">Choosing a CI that grows at the same pace as a scale-up</a> - <em>Johan Lorenzo</em>, Lead Software Engineer at Malt</p>
+											</li>
+											<li>
+												<p><a href="https://codeship.com/continuous-integration-essentials">Continuous Integration Essentials</a> - <em>Codeship</em></p>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+						<p class="post-meta border-bottom pb-3 mb-0 mt-3">Updated on 10 Sep 2021</p>
+						<nav class="pagination mt-3">
+							<a class="nav nav-prev" href="https://unicef.github.io/inventory/dev-tools/" aria-label="Previous page" ><i class="ti-arrow-left mr-2"></i> <span class="d-none d-md-block">Developer Tools &amp; Automation</span></a>
+							<a class="nav nav-next" href="https://unicef.github.io/inventory/documentation/" aria-label="Previous page" > <span class="d-none d-md-block">Documentation</span><i class="ti-arrow-right ml-2"></i></a>
+						</nav>
+						<section class="my-3 py-3" id="related-articles">
+							<h5 class="text-center">Related Articles</h5>
+							<div class="row">
+							</div>
+						</section>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 </section>
 <!-- /details page -->
-
-
-
-
-
-
-    <!-- footer -->
+<!-- footer -->
 <footer class="section bg-primary p-4">
-  <div class="container">
-    <div class="row align-items-center">
-    <div class="col-md-3 text-md-left text-center">
-       <ul>
-        <li><a class="nav-link text-white" href="/inventory">HOME</a></li>
-        
-          
-            <li class="nav-item">
-              <a class="nav-link text-white text-uppercase" href="https://unicef.github.io/inventory/faq">FAQ</a>
-            </li>
-          
-        
-          
-        
-       </ul>
-      </div>
-      <div class="col-md-6 text-md-center text-center">
-       <p class="mb-md-0 mb-4 text-white">The UNICEF Open Source Inventory is a knowledge-base of best practices, resources, and information about working and leading Open. This is maintained as part of the Open Source Mentorship programme offered by the UNICEF Innovation Fund. The Inventory provides mentorship and guidance to anyone seeking to adopt best practices in their journey to building an Open Source project and community. It is self-serve, and can be used at various phases of building a project and community.</p>
-      </div>
-      <div class="col-md-3 text-md-right text-center">
-        <ul class="text-white">
-          <li class="nav-item">
-              <a class="nav-link text-white font-weight-bold" href="https://www.unicef.org/">UNICEF Global</a>
-          </li>
-          <li class="nav-item">
-              <a class="nav-link text-white font-weight-bold" href="https://www.unicefinnovationfund.org/">UNICEF Innovation Fund</a>
-          </li>
-          <li class="nav-item">
-              <a class="nav-link text-white font-weight-bold" href="https://www.unicef.org/legal">Legal</a>
-              <p class="h6 text-md-right font-weight-light">Find legal information and policies related to UNICEF's digital communications</p>
-          </li>
-        </ul>
-        <ul class="list-inline">
-          
-          <li class="list-inline-item"><a class="text-color d-inline-block p-2 text-white" href="https://github.com/unicef/inventory" aria-label="UNICEF Open Source Inventory on GitHub"><i class="ti-github"></i></a></li>
-          
-          <li class="list-inline-item"><a class="text-color d-inline-block p-2 text-white" href="https://twitter.com/UNICEFinnovate" aria-label="@UNICEFinnovate on Twitter"><i class="ti-twitter"></i></a></li>
-          
-        </ul>
-      </div>
-    </div>
-  </div>
-  <p class="text-md-center text-center text-white mt-3 h6 font-italic">Creative Commons BY-SA 4.0. Site theme maintained by UNICEF. Original theme, Dot, created by ThemeFisher.</p>
+	<div class="container">
+		<div class="row align-items-center">
+			<div class="col-md-3 text-md-left text-center">
+				<ul>
+					<li><a class="nav-link text-white" href="/inventory">HOME</a></li>
+					<li class="nav-item">
+						<a class="nav-link text-white text-uppercase" href="https://unicef.github.io/inventory/faq">FAQ</a>
+					</li>
+				</ul>
+			</div>
+			<div class="col-md-6 text-md-center text-center">
+				<p class="mb-md-0 mb-4 text-white">The UNICEF Open Source Inventory is a knowledge-base of best practices, resources, and information about working and leading Open. This is maintained as part of the Open Source Mentorship programme offered by the UNICEF Innovation Fund. The Inventory provides mentorship and guidance to anyone seeking to adopt best practices in their journey to building an Open Source project and community. It is self-serve, and can be used at various phases of building a project and community.</p>
+			</div>
+			<div class="col-md-3 text-md-right text-center">
+				<ul class="text-white">
+					<li class="nav-item">
+						<a class="nav-link text-white font-weight-bold" href="https://www.unicef.org/">UNICEF Global</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link text-white font-weight-bold" href="https://www.unicefinnovationfund.org/">UNICEF Innovation Fund</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link text-white font-weight-bold" href="https://www.unicef.org/legal">Legal</a>
+						<p class="h6 text-md-right font-weight-light">Find legal information and policies related to UNICEF's digital communications</p>
+					</li>
+				</ul>
+				<ul class="list-inline">
+					<li class="list-inline-item"><a class="text-color d-inline-block p-2 text-white" href="https://github.com/unicef/inventory" aria-label="UNICEF Open Source Inventory on GitHub"><i class="ti-github"></i></a></li>
+					<li class="list-inline-item"><a class="text-color d-inline-block p-2 text-white" href="https://twitter.com/UNICEFinnovate" aria-label="@UNICEFinnovate on Twitter"><i class="ti-twitter"></i></a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<p class="text-md-center text-center text-white mt-3 h6 font-italic">Creative Commons BY-SA 4.0. Site theme maintained by UNICEF. Original theme, Dot, created by ThemeFisher.</p>
 </footer>
 <!-- /footer -->
-
 <!-- Main Script -->
-
 <script src="https://unicef.github.io/inventory/js/script.min.js"></script>
-  </body>
-
+</body>
 </html>

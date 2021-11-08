@@ -1,1730 +1,472 @@
 <!DOCTYPE html>
 <html lang="en-us">
-  <head>
-  <meta charset="utf-8">
-  <title>Governance</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <meta name="generator" content="Hugo 0.89.0" />
-  <meta name="description" content="Governance - UNICEF O.S. Inventory ">
-  
-  <!-- ** CSS Plugins Needed for the Project ** -->
-  
-  <!-- Bootstrap -->
-  <link rel="stylesheet" href="https://unicef.github.io/inventory/plugins/bootstrap/bootstrap.min.css">
-
-  <!-- themefy-icon -->
-  <link rel="stylesheet" href="https://unicef.github.io/inventory/plugins/themify-icons/themify-icons.css">
-
-  <!-- drones-categories-icon -->
-  <link rel="stylesheet" href="https://unicef.github.io/inventory/plugins/drone-dpgtoolkit-icons/icons.css">
-
-  <!--Favicon-->
-  <link rel="icon" href="https://unicef.github.io/inventory/images/favicon.png" type="image/x-icon">
-
-  <!-- fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open%2bSans:300,400,700&display=swap" rel="stylesheet">
-
-  <!-- PDF.js -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.9.359/pdf.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.3/html2pdf.bundle.js"></script>
-
-  <!-- fonts -->
-  <script src="https://kit.fontawesome.com/9196e0632a.js" crossorigin="anonymous"></script>
-  
-  <style>
-  :root{
-    --primary-color:#1CABE2;
-    --body-color:#D8D1C9;
-    --text-color:#777779;
-    --text-color-dark:#374EA2;
-    --white-color:#ffffff;
-    --light-color:#f8f9fa;
-    --font-family:Open+Sans;
-  }
-  </style>
-
-<!-- Main Stylesheet -->
-
-<link href="https://unicef.github.io/inventory/css/style.min.css" rel="stylesheet" media="screen"/>
-  
-<!-- ** JS Plugins Needed for the Project ** -->
-
-<!-- jquiry -->
-<script src="https://unicef.github.io/inventory/plugins/jquery/jquery-1.12.4.js"></script>
-
-<!-- jquary ui -->
-<script src="https://unicef.github.io/inventory/plugins/jquery/jquery-ui.js"></script>
-
-<!-- Bootstrap JS -->
-<script src="https://unicef.github.io/inventory/plugins/bootstrap/bootstrap.min.js"></script>
-
-<!-- match-height JS -->
-<script src="https://unicef.github.io/inventory/plugins/match-height/jquery.matchHeight-min.js"></script>
-
-
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-80FMX4TPM0"></script>
-<script>
-var doNotTrack = false;
-if (!doNotTrack) {
-	window.dataLayer = window.dataLayer || [];
-	function gtag(){dataLayer.push(arguments);}
-	gtag('js', new Date());
-	gtag('config', 'G-80FMX4TPM0', { 'anonymize_ip': false });
-}
-</script>
-
-  
-
-  <!-- create /layouts/partials/overrides/header.html in your own theme or root directory to add your custom content here -->
-
-
-
-
-
-
-
-
-  <meta property="og:image" content="https://unicef.github.io/inventory/images/UNI309823.jpg" />
-  
-    
-    
-      <meta name="twitter:image" content="https://unicef.github.io/inventory/images/UNI309823.jpg"/>
-      <meta name="twitter:card" content="summary_large_image">
-    
-    <meta property="og:image:width" content="1440">
-    <meta property="og:image:height" content="960">
-    
-  
-  <meta property="og:image:type" content="image/jpeg">
-
-<meta name="twitter:title" content="Governance"/>
-<meta name="twitter:description" content="Best practices and examples of governance in real Open Source projects."/>
-
-
-
-<meta property="og:title" content="Governance" />
-<meta property="og:description" content="Best practices and examples of governance in real Open Source projects." />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://unicef.github.io/inventory/governance/governance/" /><meta property="article:section" content="governance" />
-
-<meta property="article:modified_time" content="2021-09-10T13:22:39+01:00" />
-
-
-<meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Governance"/>
-<meta name="twitter:description" content="Best practices and examples of governance in real Open Source projects."/>
-
-
-</head>
-
-  
-  <body>
-    
-    <!-- header -->
-    <header class="shadow-bottom sticky-top bg-white">
-      <nav class="navbar navbar-expand-md navigation">
-  <div class="container px-2 px-md-0">
-      
-      
-    <a class="navbar-brand px-2" href="https://www.unicef.org/">
-      
-      
-      <div class="text-center">
-      <img class="img-fluid" src="https://unicef.github.io/inventory/images/unicef-logo.png" alt="UNICEF O.S. Inventory"> 
-      <a class="text-white d-block" href="/inventory">UNICEF O.S. Inventory</a>
-      </div>
-      
-      
-    </a>
-    <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation"
+	<head>
+		<meta charset="utf-8">
+		<title>Governance</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<meta name="generator" content="Hugo 0.89.0" />
+		<meta name="description" content="Governance - UNICEF O.S. Inventory ">
+		<!-- ** CSS Plugins Needed for the Project ** -->
+		<!-- Bootstrap -->
+		<link rel="stylesheet" href="https://unicef.github.io/inventory/plugins/bootstrap/bootstrap.min.css">
+		<!-- themefy-icon -->
+		<link rel="stylesheet" href="https://unicef.github.io/inventory/plugins/themify-icons/themify-icons.css">
+		<!-- drones-categories-icon -->
+		<link rel="stylesheet" href="https://unicef.github.io/inventory/plugins/drone-dpgtoolkit-icons/icons.css">
+		<!--Favicon-->
+		<link rel="icon" href="https://unicef.github.io/inventory/images/favicon.png" type="image/x-icon">
+		<!-- fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Open%2bSans:300,400,700&display=swap" rel="stylesheet">
+		<!-- PDF.js -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.9.359/pdf.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.3/html2pdf.bundle.js"></script>
+		<!-- fonts -->
+		<script src="https://kit.fontawesome.com/9196e0632a.js" crossorigin="anonymous"></script>
+		<style>
+			:root{
+			  --primary-color:#1CABE2;
+			  --body-color:#D8D1C9;
+			  --text-color:#777779;
+			  --text-color-dark:#374EA2;
+			  --white-color:#ffffff;
+			  --light-color:#f8f9fa;
+			  --font-family:Open+Sans;
+			}
+		</style>
+		<!-- Main Stylesheet -->
+		<link href="https://unicef.github.io/inventory/css/style.min.css" rel="stylesheet" media="screen"/>
+		<!-- ** JS Plugins Needed for the Project ** -->
+		<!-- jquiry -->
+		<script src="https://unicef.github.io/inventory/plugins/jquery/jquery-1.12.4.js"></script>
+		<!-- jquary ui -->
+		<script src="https://unicef.github.io/inventory/plugins/jquery/jquery-ui.js"></script>
+		<!-- Bootstrap JS -->
+		<script src="https://unicef.github.io/inventory/plugins/bootstrap/bootstrap.min.js"></script>
+		<!-- match-height JS -->
+		<script src="https://unicef.github.io/inventory/plugins/match-height/jquery.matchHeight-min.js"></script>
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-80FMX4TPM0"></script>
+		<script>
+			var doNotTrack = false;
+			if (!doNotTrack) {
+				window.dataLayer = window.dataLayer || [];
+				function gtag(){dataLayer.push(arguments);}
+				gtag('js', new Date());
+				gtag('config', 'G-80FMX4TPM0', { 'anonymize_ip': false });
+			}
+		</script>
+		<!-- create /layouts/partials/overrides/header.html in your own theme or root directory to add your custom content here -->
+		<meta property="og:image" content="https://unicef.github.io/inventory/images/UNI309823.jpg" />
+		<meta name="twitter:image" content="https://unicef.github.io/inventory/images/UNI309823.jpg"/>
+		<meta name="twitter:card" content="summary_large_image">
+		<meta property="og:image:width" content="1440">
+		<meta property="og:image:height" content="960">
+		<meta property="og:image:type" content="image/jpeg">
+		<meta name="twitter:title" content="Governance"/>
+		<meta name="twitter:description" content="Best practices and examples of governance in real Open Source projects."/>
+		<meta property="og:title" content="Governance" />
+		<meta property="og:description" content="Best practices and examples of governance in real Open Source projects." />
+		<meta property="og:type" content="article" />
+		<meta property="og:url" content="https://unicef.github.io/inventory/governance/governance/" /><meta property="article:section" content="governance" />
+		<meta property="article:modified_time" content="2021-09-10T13:22:39+01:00" />
+		<meta name="twitter:card" content="summary"/>
+		<meta name="twitter:title" content="Governance"/>
+		<meta name="twitter:description" content="Best practices and examples of governance in real Open Source projects."/>
+	</head>
+	<body>
+		<!-- header -->
+		<header class="shadow-bottom sticky-top bg-white">
+			<nav class="navbar navbar-expand-md navigation">
+				<div class="container px-2 px-md-0">
+					<a class="navbar-brand px-2" href="https://www.unicef.org/">
+						<div class="text-center">
+							<img class="img-fluid" src="https://unicef.github.io/inventory/images/unicef-logo.png" alt="UNICEF O.S. Inventory">
+							<a class="text-white d-block" href="/inventory">UNICEF O.S. Inventory</a>
+						</div>
+					</a>
+					<button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation"
       aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse text-center" id="navigation">
-      <ul class="navbar-nav ml-auto">
-        
-        
-        <li class="nav-item">
-          <a class="nav-link text-white" href="https://unicef.github.io/inventory/faq">FAQ</a>
-        </li>
-        
-        
-        
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-toggle="dropdown"
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse text-center" id="navigation">
+						<ul class="navbar-nav ml-auto">
+							<li class="nav-item">
+								<a class="nav-link text-white" href="https://unicef.github.io/inventory/faq">FAQ</a>
+							</li>
+							<li class="nav-item dropdown">
+								<a class="nav-link dropdown-toggle text-white" href="#" role="button" data-toggle="dropdown"
             aria-haspopup="true" aria-expanded="false">
-            pages
-          </a>
-          <div class="dropdown-menu">
-            
-            <a class="dropdown-item" href="https://unicef.github.io/inventory/communities">Communities</a>
-            
-            <a class="dropdown-item" href="https://unicef.github.io/inventory/data">Data Ethics &amp; Transparency</a>
-            
-            <a class="dropdown-item" href="https://unicef.github.io/inventory/design">Design</a>
-            
-            <a class="dropdown-item" href="https://unicef.github.io/inventory/dev-tools">Developer Tools &amp; Automation</a>
-            
-            <a class="dropdown-item" href="https://unicef.github.io/inventory/documentation">Documentation</a>
-            
-            <a class="dropdown-item" href="https://unicef.github.io/inventory/governance">Governance</a>
-            
-            <a class="dropdown-item" href="https://unicef.github.io/inventory/legal-policy">Legal &amp; Policy</a>
-            
-            <a class="dropdown-item" href="https://unicef.github.io/inventory/meta">Meta</a>
-            
-            <a class="dropdown-item" href="https://unicef.github.io/inventory/missions">Missions</a>
-            
-            <a class="dropdown-item" href="https://unicef.github.io/inventory/hardware">Open Hardware</a>
-            
-            <a class="dropdown-item" href="https://unicef.github.io/inventory/project-management">Project Management</a>
-            
-            <a class="dropdown-item" href="https://unicef.github.io/inventory/reproducibility">Reproducibility</a>
-            
-            <a class="dropdown-item" href="https://unicef.github.io/inventory/sustainability">Sustainability</a>
-            
-          </div>
-        </li>
-        
-        
-      </ul>
-      
-      <select class="lang-list bg-primary dark mb-3 mb-md-0" id="select-language"
+									pages
+								</a>
+								<div class="dropdown-menu">
+									<a class="dropdown-item" href="https://unicef.github.io/inventory/communities">Communities</a>
+									<a class="dropdown-item" href="https://unicef.github.io/inventory/data">Data Ethics &amp; Transparency</a>
+									<a class="dropdown-item" href="https://unicef.github.io/inventory/design">Design</a>
+									<a class="dropdown-item" href="https://unicef.github.io/inventory/dev-tools">Developer Tools &amp; Automation</a>
+									<a class="dropdown-item" href="https://unicef.github.io/inventory/documentation">Documentation</a>
+									<a class="dropdown-item" href="https://unicef.github.io/inventory/governance">Governance</a>
+									<a class="dropdown-item" href="https://unicef.github.io/inventory/legal-policy">Legal &amp; Policy</a>
+									<a class="dropdown-item" href="https://unicef.github.io/inventory/meta">Meta</a>
+									<a class="dropdown-item" href="https://unicef.github.io/inventory/missions">Missions</a>
+									<a class="dropdown-item" href="https://unicef.github.io/inventory/hardware">Open Hardware</a>
+									<a class="dropdown-item" href="https://unicef.github.io/inventory/project-management">Project Management</a>
+									<a class="dropdown-item" href="https://unicef.github.io/inventory/reproducibility">Reproducibility</a>
+									<a class="dropdown-item" href="https://unicef.github.io/inventory/sustainability">Sustainability</a>
+								</div>
+							</li>
+						</ul>
+						<select class="lang-list bg-primary dark mb-3 mb-md-0" id="select-language"
         onchange="location = this.value;">
-        
-        
-        
-        
-        
-        
-        
-        
-        <option id="en" value="https://unicef.github.io/inventory/communities/fedora/" selected>en
-        </option>
-        
-        
-        
-        
-        
-        
-      </select>
-      
-    </div>
-  </div>
-    <p class="text-white h6 unicef-glob">Visit <a href="https://www.unicef.org/" class="text-white">UNICEF Global <i class="fas fa-angle-double-right"></i></a></p>
-</nav>
-
-    </header>
-    <!-- /header -->
-    
-    
-
-
-
-
-  <div class="">
-  <div class="alert alert-primary alert-dismissible fade show mx-auto px-5 my-3 col-fixed mb-0" role="alert">
-    <div class="d-flex justify-content-center px-0">
-    
-      <div id="carouselExampleControls" class="carousel slide px-0" data-ride="carousel">
-        <div class="carousel-inner">
-        
-            
-              <div class="carousel-item active">
-                <h5 class="alert-heading">Enhance your CircleCI pipeline with these four extensions</h5>
-                <p mx-0><div class="paragraph">
-<p>Are you using <a href="https://circleci.com/product/">CircleCI</a> to create a continuous integration pipeline for your project?
-Check out the latest post on the Venture Fund forum on <a href="https://unicef-if.discourse.group/t/enhance-your-circleci-pipeline-with-these-four-extensions/139?u=jwf"><strong>four extensions to enhance your CI pipeline</strong></a>.</p>
-</div>
-</p>
-              </div>
-            
-            
-              <div class="carousel-item px-0">
-                <h5 class="alert-heading">New article: Project charters</h5>
-                <p mx-0><div class="paragraph">
-<p>In August 2021 Mentorship calls, start-up teams discussed project charters with Justin.
-We talked through how to create one for your project.
-Review this <em>new</em> <a href="https://unicef.github.io/inventory/missions/charters/">guided mission</a> to launch your own.</p>
-</div>
-</p>
-              </div>
-            
-          
-        </div>
-      </div>
-    </div>
-    <div>
-
-      <a class="carousel-control-prev" style="justify-content:left" href="#carouselExampleControls" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="carousel-control-next" style="justify-content:right" href="#carouselExampleControls" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
-    </div>
-    
-    
-    <button type="button" class="close" data-dismiss="alert" aria-label="Close" onClick=remSpace()>
-        <span aria-hidden="true">&times;</span>
-    </button>
-    
-      
-    </div>
-  </div>
-  </div>
-
-
-
-<script>
-  function remSpace() {
-    document.getElementById("section").style.paddingTop = "3rem";
-  }
-</script>
-<!-- details page -->
-<section class="single section-sm main-section" id="section">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-3">
-        <div class="sidebar">
-        <a class="back-btn" href="/inventory" aria-label="back"></a>
-          <ul class="list-styled">
-            
-            
-              
-            
-              
-            
-              
-            
-              
-            
-              
-            
-              
-            
-              
-              
-
-
-
-
-
-
-
-
-<li data-nav-id="https://unicef.github.io/inventory/governance/" title="Governance" class="sidelist
+							<option id="en" value="https://unicef.github.io/inventory/governance/governance/" selected>en
+							</option>
+						</select>
+					</div>
+				</div>
+				<p class="text-white h6 unicef-glob">Visit <a href="https://www.unicef.org/" class="text-white">UNICEF Global <i class="fas fa-angle-double-right"></i></a></p>
+			</nav>
+		</header>
+		<!-- /header -->
+		<div class="">
+			<div class="alert alert-primary alert-dismissible fade show mx-auto px-5 my-3 col-fixed mb-0" role="alert">
+				<div class="d-flex justify-content-center px-0">
+					<div id="carouselExampleControls" class="carousel slide px-0" data-ride="carousel">
+						<div class="carousel-inner">
+							<div class="carousel-item active">
+								<h5 class="alert-heading">Enhance your CircleCI pipeline with these four extensions</h5>
+								<p mx-0>
+									<div class="paragraph">
+										<p>Are you using <a href="https://circleci.com/product/">CircleCI</a> to create a continuous integration pipeline for your project?
+											Check out the latest post on the Venture Fund forum on <a href="https://unicef-if.discourse.group/t/enhance-your-circleci-pipeline-with-these-four-extensions/139?u=jwf"><strong>four extensions to enhance your CI pipeline</strong></a>.</p>
+									</div>
+								</p>
+							</div>
+							<div class="carousel-item px-0">
+								<h5 class="alert-heading">New article: Project charters</h5>
+								<p mx-0>
+									<div class="paragraph">
+										<p>In August 2021 Mentorship calls, start-up teams discussed project charters with Justin.
+											We talked through how to create one for your project.
+											Review this <em>new</em> <a href="https://unicef.github.io/inventory/missions/charters/">guided mission</a> to launch your own.</p>
+									</div>
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div>
+					<a class="carousel-control-prev" style="justify-content:left" href="#carouselExampleControls" role="button" data-slide="prev">
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						<span class="sr-only">Previous</span>
+					</a>
+					<a class="carousel-control-next" style="justify-content:right" href="#carouselExampleControls" role="button" data-slide="next">
+						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						<span class="sr-only">Next</span>
+					</a>
+				</div>
+				<button type="button" class="close" data-dismiss="alert" aria-label="Close" onClick=remSpace()>
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+		</div>
+	</div>
+	<script>
+		function remSpace() {
+		  document.getElementById("section").style.paddingTop = "3rem";
+		}
+	</script>
+	<!-- details page -->
+	<section class="single section-sm main-section" id="section">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-3">
+					<div class="sidebar">
+						<a class="back-btn" href="/inventory" aria-label="back"></a>
+						<ul class="list-styled">
+							<li data-nav-id="https://unicef.github.io/inventory/governance/" title="Governance" class="sidelist
   ">
-  <a href="https://unicef.github.io/inventory/governance/">
-    Governance
-  </a>
-  
-  
-    <ul>
-      
-        
-          
-
-
-
-
-
-
-
-
-<li data-nav-id="https://unicef.github.io/inventory/governance/governance/" title="Governance" class="sidelist
+								<a href="https://unicef.github.io/inventory/governance/">
+									Governance
+								</a>
+								<ul>
+									<li data-nav-id="https://unicef.github.io/inventory/governance/governance/" title="Governance" class="sidelist
   active">
-  <a href="https://unicef.github.io/inventory/governance/governance/">
-    Governance
-  </a>
-  
-  
-</li>
-
-
-        
-      
-        
-          
-
-
-
-
-
-
-
-
-<li data-nav-id="https://unicef.github.io/inventory/governance/reading-list/" title="Reading list: FOSS" class="sidelist
+										<a href="https://unicef.github.io/inventory/governance/governance/">
+											Governance
+										</a>
+									</li>
+									<li data-nav-id="https://unicef.github.io/inventory/governance/reading-list/" title="Reading list: FOSS" class="sidelist
   ">
-  <a href="https://unicef.github.io/inventory/governance/reading-list/">
-    Reading list: FOSS
-  </a>
-  
-  
-</li>
-
-
-        
-      
-    </ul>
-  
-</li>
-
-
-              
-            
-              
-            
-              
-            
-              
-            
-              
-            
-              
-            
-              
-            
-              
-            
-              
-            
-            
-              
-                <div>
-                    <button class="btn btn-primary btn-block" id="generatePDF" > Get Pdf  </button>
-                </div>
-              
-            
-          </ul>
-        </div>
-      </div>
-      <div class="col-lg-9">
-        
-        <div class="bg-white" style="margin:auto">
-          <script language="JavaScript">
-
-   String.prototype.capitalizeFirstLetter = function() {
-      return this.charAt(0).toUpperCase() + this.slice(1);
-   }
-
-   var path = "<a style='margin-left:2%' href='https:\/\/unicef.github.io\/inventory\/'>Home</a>";
-   var href = document.location.href;
-   var s = href.split("/");
-   for (var i=3;i<(s.length-2);i++) {
-      path+=" &gt;  <a href=\""+href.substring(0,href.indexOf("/"+s[i])+s[i].length+1)+"/\">"+s[i].capitalizeFirstLetter()+"</a> ";
-   }
-   i=s.length-1;
-   path+="<a href=\""+href.substring(0,href.indexOf(s[i])+s[i].length)+"\">"+s[i]+"</a>";
-   path+="  &gt;  <b>Governance</b>";
-   document.writeln(path);
-</script>
-        </div>
-        
-        <div class="p-lg-5 p-4 bg-white" id="content">
-          <h2 class="mb-5" id="title">Governance</h2>
-          
-          <div class="content"><div id="toc" class="toc">
-<div id="toctitle">Table of Contents</div>
-<ul class="sectlevel1">
-<li><a href="#about">1. What is Open Source governance?</a></li>
-<li><a href="#models">2. Models</a></li>
-<li><a href="#examples">3. Examples</a>
-<ul class="sectlevel2">
-<li><a href="#examples-linux">3.1. Linux kernel</a></li>
-<li><a href="#examples-fedora">3.2. Fedora Project</a></li>
-</ul>
-</li>
-<li><a href="#resources">4. Resources</a>
-<ul class="sectlevel2">
-<li><a href="#resources-exploratory">4.1. Exploratory</a></li>
-<li><a href="#resources-journalism">4.2. Journalism</a></li>
-</ul>
-</li>
-</ul>
-</div>
-<div class="paragraph">
-<p>This page defines and provides examples of Open Source governance.
-This includes Open Source project governance models, examples of other projects, frameworks for decision-making, and more.</p>
-</div>
-<div class="paragraph">
-<p>This page is a work-in-progress.
-Check back later for future additions.</p>
-</div>
-<div class="sect1">
-<h2 id="about">1. What is Open Source governance?&nbsp;<a class="hanchor" href="#about">🔗</a> </h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>The phrase &#34;Open Source governance&#34; generally refers to the decision-making model or documented process for how an Open Source project makes decisions.
-Sustainable governance is essential if an Open Source project will last, especially if it involves multiple stakeholders and collaborators.
-But what governance models or frameworks are sustainable?
-What makes sense for your Open Source project?
-The answer is, it depends.</p>
-</div>
-<div class="paragraph">
-<p>Documenting and defining a governance model for a project is a radical act of transparency.
-It is an advance commitment to deciding how decisions are made, who gets to have a say, and how community feedback is factored into the process.
-Sometimes governance models need to be changed in the future; this is normal.
-A good governance model captures the core values and beliefs of the project, and gives key stakeholders a voice in the future of the project.
-It also includes a process to adapt or change, to accommodate unexpected changes in society and norms over time.</p>
-</div>
-<div class="paragraph">
-<p>This page serves as a reference point for you to determine a governance model for your Open Source project.
-Although models and examples are included below, do not take them as an absolute truth.
-There is room for creativity and adaption; the right governance model for your project might be a combination of the models explained here.</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="models">2. Models&nbsp;<a class="hanchor" href="#models">🔗</a> </h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>This section is deferred.
-A list of examples or generic examples will be added later.
-For now, check out <a href="https://www.redhat.com/en/blog/understanding-open-source-governance-models">this Red Hat blog post</a> for several models based on real Open Source projects.</p>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="examples">3. Examples&nbsp;<a class="hanchor" href="#examples">🔗</a> </h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>Examples and explanations of governance models in popular, well-known Open Source projects.</p>
-</div>
-<div class="sect2">
-<h3 id="examples-linux">3.1. Linux kernel&nbsp;<a class="hanchor" href="#examples-linux">🔗</a> </h3>
-<div class="paragraph">
-<p><em>Coming soon</em>.</p>
-</div>
-</div>
-<div class="sect2">
-<h3 id="examples-fedora">3.2. Fedora Project&nbsp;<a class="hanchor" href="#examples-fedora">🔗</a> </h3>
-<div class="paragraph">
-<p>What is Fedora?</p>
-</div>
-<div class="quoteblock">
-<blockquote>
-<div class="paragraph">
-<p>The Fedora Project is a community of people working together to build a free and open source software platform and to collaborate on and share user-focused solutions built on that platform.
-Or, in plain English, we make an operating system and we make it easy for you do useful stuff with it.</p>
-</div>
-<div class="paragraph">
-<p>The Fedora community includes thousands of individuals with different views and approaches, but together we share some common values.
-We call these the “Four Foundations”:
-Freedom, Friends, Features, and First.</p>
-</div>
-</blockquote>
-<div class="attribution">
-— Fedora Project documentation<br/>
-<cite>https://docs.fedoraproject.org/en-US/project/</cite>
-</div>
-</div>
-<div class="paragraph">
-<p>The <a href="https://docs.fedoraproject.org/en-US/council/">Fedora Council</a> is our overall leadership and governance body.
-Most of the project is then roughly organized under <a href="https://docs.fedoraproject.org/en-US/fesco/">FESCo</a> (the Fedora Engineering Steering Committee) or the <a href="https://docs.fedoraproject.org/en-US/mindshare-committee/">Mindshare Committee</a>.</p>
-</div>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="resources">4. Resources&nbsp;<a class="hanchor" href="#resources">🔗</a> </h2>
-<div class="sectionbody">
-<div class="paragraph">
-<p>This section includes various resources and readings for you to continue your self-education about Open Source governance.</p>
-</div>
-<div class="sect2">
-<h3 id="resources-exploratory">4.1. Exploratory&nbsp;<a class="hanchor" href="#resources-exploratory">🔗</a> </h3>
-<div class="paragraph">
-<p>Links and resources to tools that will help you explore and learn more about governance.</p>
-</div>
-<div class="ulist">
-<ul>
-<li>
-<p><a href="https://sustainers.github.io/governance-readiness/"><strong>Governance Readiness Checklist</strong></a>:
-A light-weight framework to define the governance model in your software project.
-It is hard to know where to begin if you do not know the questions to ask.
-This quick checklist, created by the Sustain O.S.S. Governance Working Group, includes key questions and considerations for crafting a governance model for your Open Source project.</p>
-</li>
-<li>
-<p><a href="https://fossgovernance.org/getting-started"><strong>FOSS Governance Collection</strong></a>:
-Comprehensive library of governance models used by real Open Source projects, foundations, non-profits, and more.
-Especially useful if you are looking for examples or inspiration to follow.</p>
-</li>
-<li>
-<p><a href="https://discourse.sustainoss.org/t/governance-readiness-working-group/298?u=jwf"><strong>Sustain O.S.S. Governance Working Group</strong></a>:
-A volunteer-driven Working Group of people interested in the governance of Open Source projects.
-This is a great place to ask questions and engage with a wider community of professionals about Open Source governance and best practices.</p>
-</li>
-<li>
-<p><a href="https://opensource.guide/leadership-and-governance/"><strong>Leadership and Governance</strong></a>:
-Growing open source projects can benefit from formal rules for making decisions.
-This guide from GitHub helps you understand governance for your growing project.
-[<em>opensource.guide</em>]</p>
-</li>
-</ul>
-</div>
-</div>
-<div class="sect2">
-<h3 id="resources-journalism">4.2. Journalism&nbsp;<a class="hanchor" href="#resources-journalism">🔗</a> </h3>
-<div class="paragraph">
-<p>Articles and blog posts about Open Source governance.</p>
-</div>
-<div class="ulist">
-<ul>
-<li>
-<p><a href="https://www.infoworld.com/article/3451796/3-models-for-open-source-governance.html"><strong>3 models for open source governance</strong></a>:
-How to balance makers and takers to scale and sustain open source projects, companies, and ecosystems
-(part 4).
-[<em>infoworld.com</em>]</p>
-</li>
-<li>
-<p><a href="https://opensource.com/article/20/5/open-source-governance"><strong>What is open source project governance?</strong></a>:
-Clearly defining roles and responsibilities is essential to effective open source community management.
-Here are some ways to help you organize.
-[<em>opensource.com</em>]</p>
-</li>
-<li>
-<p><a href="https://www.redhat.com/en/blog/understanding-open-source-governance-models"><strong>Understanding open source governance models</strong></a>:
-Open source projects usually operate according to rules, customs, and processes that determine which contributors have the authority to perform certain tasks.
-Understanding those rules can increase your chances of contributing successfully and positively to a project.
-This article provides six examples of common frameworks used for Open Source governance.
-[<em>redhat.com</em>]</p>
-</li>
-</ul>
-</div>
-</div>
-</div>
-</div>
-</div>
-          
-          <p class="post-meta border-bottom pb-3 mb-0 mt-3">Updated on 10 Sep 2021</p>
-          <nav class="pagination mt-3">
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-            
-            
-            
-
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-            
-
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-            
-
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-            
-
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-            
-
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-            
-
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-            
-
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-            
-
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-            
-
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-            
-
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-            
-
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-            
-
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-            
-
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-            
-
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-            
-
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-            
-
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-            
-
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-            
-
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-            
-
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-            
-
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-            
-
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-            
-
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-            
-
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-            
-
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-            
-
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-            
-
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-            
-            
-            
-
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-            
-
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-            
-
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-            
-
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-            
-
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-            
-
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-            
-
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-            
-
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-            
-
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-            
-
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-            
-
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-            
-
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-            
-
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-            
-
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-            
-
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-            
-
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-            
-
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-            
-
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-            
-
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-            
-
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-            
-
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-            
-
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-            
-
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-            
-
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-            
-
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-            
-
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-            
-
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-            
-
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-            
-
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-            
-
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-            
-
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-            
-
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-            
-
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-            
-
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            
-            
-
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-            <a class="nav nav-prev" href="https://unicef.github.io/inventory/governance/" aria-label="Previous page" ><i class="ti-arrow-left mr-2"></i> <span class="d-none d-md-block">Governance</span></a>
-            
-            
-            <a class="nav nav-next" href="https://unicef.github.io/inventory/governance/reading-list/" aria-label="Previous page" > <span class="d-none d-md-block">Reading list: FOSS</span><i class="ti-arrow-right ml-2"></i></a>
-            
-          </nav>
-
-          
-          <section class="my-3 py-3" id="related-articles">
-            
-            
-            
-            
-            <h5 class="text-center">Related Articles</h5>
-            <div class="row">
-                
-                  
-                
-                  
-                
-                  
-                
-                  
-                
-                  
-                
-                  
-                  
-                    
-                      
-                    
-                      
-                        <div class="col-sm-4 my-2">
-                          <a href="https://unicef.github.io/inventory/governance/reading-list/">
-                            <div class="card text-center">
-                              
-                              <div class="card-body">
-                                <h5 class="card-title">Reading list: FOSS</h5>
-                                <p class="card-subtitle mb-2 text-muted">Various readings and learnings about Free and Open Source Software.</p>
-                              </div>
-                            </div>
-                          </a>
-                        </div>
-                      
-                    
-                  
-                  
-                
-                  
-                
-                  
-                
-                  
-                
-                  
-                
-                  
-                
-                  
-                
-                  
-                
-              </div>
-          </section>
-              
-
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+										<a href="https://unicef.github.io/inventory/governance/reading-list/">
+											Reading list: FOSS
+										</a>
+									</li>
+								</ul>
+							</li>
+							<div>
+								<button class="btn btn-primary btn-block" id="generatePDF" > Get Pdf  </button>
+							</div>
+						</ul>
+					</div>
+				</div>
+				<div class="col-lg-9">
+					<div class="bg-white" style="margin:auto">
+						<script language="JavaScript">
+							String.prototype.capitalizeFirstLetter = function() {
+							   return this.charAt(0).toUpperCase() + this.slice(1);
+							}
+							
+							var path = "<a style='margin-left:2%' href='https:\/\/unicef.github.io\/inventory\/'>Home</a>";
+							var href = document.location.href;
+							var s = href.split("/");
+							for (var i=3;i<(s.length-2);i++) {
+							   path+=" &gt;  <a href=\""+href.substring(0,href.indexOf("/"+s[i])+s[i].length+1)+"/\">"+s[i].capitalizeFirstLetter()+"</a> ";
+							}
+							i=s.length-1;
+							path+="<a href=\""+href.substring(0,href.indexOf(s[i])+s[i].length)+"\">"+s[i]+"</a>";
+							path+="  &gt;  <b>Governance</b>";
+							document.writeln(path);
+						</script>
+					</div>
+					<div class="p-lg-5 p-4 bg-white" id="content">
+						<h2 class="mb-5" id="title">Governance</h2>
+						<div class="content">
+							<div id="toc" class="toc">
+								<div id="toctitle">Table of Contents</div>
+								<ul class="sectlevel1">
+									<li><a href="#about">1. What is Open Source governance?</a></li>
+									<li><a href="#models">2. Models</a></li>
+									<li><a href="#examples">3. Examples</a>
+										<ul class="sectlevel2">
+											<li><a href="#examples-linux">3.1. Linux kernel</a></li>
+											<li><a href="#examples-fedora">3.2. Fedora Project</a></li>
+										</ul>
+									</li>
+									<li><a href="#resources">4. Resources</a>
+										<ul class="sectlevel2">
+											<li><a href="#resources-exploratory">4.1. Exploratory</a></li>
+											<li><a href="#resources-journalism">4.2. Journalism</a></li>
+										</ul>
+									</li>
+								</ul>
+							</div>
+							<div class="paragraph">
+								<p>This page defines and provides examples of Open Source governance.
+									This includes Open Source project governance models, examples of other projects, frameworks for decision-making, and more.</p>
+							</div>
+							<div class="paragraph">
+								<p>This page is a work-in-progress.
+									Check back later for future additions.</p>
+							</div>
+							<div class="sect1">
+								<h2 id="about">1. What is Open Source governance?&nbsp;<a class="hanchor" href="#about">🔗</a> </h2>
+								<div class="sectionbody">
+									<div class="paragraph">
+										<p>The phrase &#34;Open Source governance&#34; generally refers to the decision-making model or documented process for how an Open Source project makes decisions.
+											Sustainable governance is essential if an Open Source project will last, especially if it involves multiple stakeholders and collaborators.
+											But what governance models or frameworks are sustainable?
+											What makes sense for your Open Source project?
+											The answer is, it depends.</p>
+									</div>
+									<div class="paragraph">
+										<p>Documenting and defining a governance model for a project is a radical act of transparency.
+											It is an advance commitment to deciding how decisions are made, who gets to have a say, and how community feedback is factored into the process.
+											Sometimes governance models need to be changed in the future; this is normal.
+											A good governance model captures the core values and beliefs of the project, and gives key stakeholders a voice in the future of the project.
+											It also includes a process to adapt or change, to accommodate unexpected changes in society and norms over time.</p>
+									</div>
+									<div class="paragraph">
+										<p>This page serves as a reference point for you to determine a governance model for your Open Source project.
+											Although models and examples are included below, do not take them as an absolute truth.
+											There is room for creativity and adaption; the right governance model for your project might be a combination of the models explained here.</p>
+									</div>
+								</div>
+							</div>
+							<div class="sect1">
+								<h2 id="models">2. Models&nbsp;<a class="hanchor" href="#models">🔗</a> </h2>
+								<div class="sectionbody">
+									<div class="paragraph">
+										<p>This section is deferred.
+											A list of examples or generic examples will be added later.
+											For now, check out <a href="https://www.redhat.com/en/blog/understanding-open-source-governance-models">this Red Hat blog post</a> for several models based on real Open Source projects.</p>
+									</div>
+								</div>
+							</div>
+							<div class="sect1">
+								<h2 id="examples">3. Examples&nbsp;<a class="hanchor" href="#examples">🔗</a> </h2>
+								<div class="sectionbody">
+									<div class="paragraph">
+										<p>Examples and explanations of governance models in popular, well-known Open Source projects.</p>
+									</div>
+									<div class="sect2">
+										<h3 id="examples-linux">3.1. Linux kernel&nbsp;<a class="hanchor" href="#examples-linux">🔗</a> </h3>
+										<div class="paragraph">
+											<p><em>Coming soon</em>.</p>
+										</div>
+									</div>
+									<div class="sect2">
+										<h3 id="examples-fedora">3.2. Fedora Project&nbsp;<a class="hanchor" href="#examples-fedora">🔗</a> </h3>
+										<div class="paragraph">
+											<p>What is Fedora?</p>
+										</div>
+										<div class="quoteblock">
+											<blockquote>
+												<div class="paragraph">
+													<p>The Fedora Project is a community of people working together to build a free and open source software platform and to collaborate on and share user-focused solutions built on that platform.
+														Or, in plain English, we make an operating system and we make it easy for you do useful stuff with it.</p>
+												</div>
+												<div class="paragraph">
+													<p>The Fedora community includes thousands of individuals with different views and approaches, but together we share some common values.
+														We call these the “Four Foundations”:
+														Freedom, Friends, Features, and First.</p>
+												</div>
+											</blockquote>
+											<div class="attribution">
+												— Fedora Project documentation<br/>
+												<cite>https://docs.fedoraproject.org/en-US/project/</cite>
+											</div>
+										</div>
+										<div class="paragraph">
+											<p>The <a href="https://docs.fedoraproject.org/en-US/council/">Fedora Council</a> is our overall leadership and governance body.
+												Most of the project is then roughly organized under <a href="https://docs.fedoraproject.org/en-US/fesco/">FESCo</a> (the Fedora Engineering Steering Committee) or the <a href="https://docs.fedoraproject.org/en-US/mindshare-committee/">Mindshare Committee</a>.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="sect1">
+								<h2 id="resources">4. Resources&nbsp;<a class="hanchor" href="#resources">🔗</a> </h2>
+								<div class="sectionbody">
+									<div class="paragraph">
+										<p>This section includes various resources and readings for you to continue your self-education about Open Source governance.</p>
+									</div>
+									<div class="sect2">
+										<h3 id="resources-exploratory">4.1. Exploratory&nbsp;<a class="hanchor" href="#resources-exploratory">🔗</a> </h3>
+										<div class="paragraph">
+											<p>Links and resources to tools that will help you explore and learn more about governance.</p>
+										</div>
+										<div class="ulist">
+											<ul>
+												<li>
+													<p><a href="https://sustainers.github.io/governance-readiness/"><strong>Governance Readiness Checklist</strong></a>:
+														A light-weight framework to define the governance model in your software project.
+														It is hard to know where to begin if you do not know the questions to ask.
+														This quick checklist, created by the Sustain O.S.S. Governance Working Group, includes key questions and considerations for crafting a governance model for your Open Source project.</p>
+												</li>
+												<li>
+													<p><a href="https://fossgovernance.org/getting-started"><strong>FOSS Governance Collection</strong></a>:
+														Comprehensive library of governance models used by real Open Source projects, foundations, non-profits, and more.
+														Especially useful if you are looking for examples or inspiration to follow.</p>
+												</li>
+												<li>
+													<p><a href="https://discourse.sustainoss.org/t/governance-readiness-working-group/298?u=jwf"><strong>Sustain O.S.S. Governance Working Group</strong></a>:
+														A volunteer-driven Working Group of people interested in the governance of Open Source projects.
+														This is a great place to ask questions and engage with a wider community of professionals about Open Source governance and best practices.</p>
+												</li>
+												<li>
+													<p><a href="https://opensource.guide/leadership-and-governance/"><strong>Leadership and Governance</strong></a>:
+														Growing open source projects can benefit from formal rules for making decisions.
+														This guide from GitHub helps you understand governance for your growing project.
+														[<em>opensource.guide</em>]</p>
+												</li>
+											</ul>
+										</div>
+									</div>
+									<div class="sect2">
+										<h3 id="resources-journalism">4.2. Journalism&nbsp;<a class="hanchor" href="#resources-journalism">🔗</a> </h3>
+										<div class="paragraph">
+											<p>Articles and blog posts about Open Source governance.</p>
+										</div>
+										<div class="ulist">
+											<ul>
+												<li>
+													<p><a href="https://www.infoworld.com/article/3451796/3-models-for-open-source-governance.html"><strong>3 models for open source governance</strong></a>:
+														How to balance makers and takers to scale and sustain open source projects, companies, and ecosystems
+														(part 4).
+														[<em>infoworld.com</em>]</p>
+												</li>
+												<li>
+													<p><a href="https://opensource.com/article/20/5/open-source-governance"><strong>What is open source project governance?</strong></a>:
+														Clearly defining roles and responsibilities is essential to effective open source community management.
+														Here are some ways to help you organize.
+														[<em>opensource.com</em>]</p>
+												</li>
+												<li>
+													<p><a href="https://www.redhat.com/en/blog/understanding-open-source-governance-models"><strong>Understanding open source governance models</strong></a>:
+														Open source projects usually operate according to rules, customs, and processes that determine which contributors have the authority to perform certain tasks.
+														Understanding those rules can increase your chances of contributing successfully and positively to a project.
+														This article provides six examples of common frameworks used for Open Source governance.
+														[<em>redhat.com</em>]</p>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<p class="post-meta border-bottom pb-3 mb-0 mt-3">Updated on 10 Sep 2021</p>
+						<nav class="pagination mt-3">
+							<a class="nav nav-prev" href="https://unicef.github.io/inventory/governance/" aria-label="Previous page" ><i class="ti-arrow-left mr-2"></i> <span class="d-none d-md-block">Governance</span></a>
+							<a class="nav nav-next" href="https://unicef.github.io/inventory/governance/reading-list/" aria-label="Previous page" > <span class="d-none d-md-block">Reading list: FOSS</span><i class="ti-arrow-right ml-2"></i></a>
+						</nav>
+						<section class="my-3 py-3" id="related-articles">
+							<h5 class="text-center">Related Articles</h5>
+							<div class="row">
+								<div class="col-sm-4 my-2">
+									<a href="https://unicef.github.io/inventory/governance/reading-list/">
+										<div class="card text-center">
+											<div class="card-body">
+												<h5 class="card-title">Reading list: FOSS</h5>
+												<p class="card-subtitle mb-2 text-muted">Various readings and learnings about Free and Open Source Software.</p>
+											</div>
+										</div>
+									</a>
+								</div>
+							</div>
+						</section>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 </section>
 <!-- /details page -->
-
-
-
-
-
-
-    <!-- footer -->
+<!-- footer -->
 <footer class="section bg-primary p-4">
-  <div class="container">
-    <div class="row align-items-center">
-    <div class="col-md-3 text-md-left text-center">
-       <ul>
-        <li><a class="nav-link text-white" href="/inventory">HOME</a></li>
-        
-          
-            <li class="nav-item">
-              <a class="nav-link text-white text-uppercase" href="https://unicef.github.io/inventory/faq">FAQ</a>
-            </li>
-          
-        
-          
-        
-       </ul>
-      </div>
-      <div class="col-md-6 text-md-center text-center">
-       <p class="mb-md-0 mb-4 text-white">The UNICEF Open Source Inventory is a knowledge-base of best practices, resources, and information about working and leading Open. This is maintained as part of the Open Source Mentorship programme offered by the UNICEF Innovation Fund. The Inventory provides mentorship and guidance to anyone seeking to adopt best practices in their journey to building an Open Source project and community. It is self-serve, and can be used at various phases of building a project and community.</p>
-      </div>
-      <div class="col-md-3 text-md-right text-center">
-        <ul class="text-white">
-          <li class="nav-item">
-              <a class="nav-link text-white font-weight-bold" href="https://www.unicef.org/">UNICEF Global</a>
-          </li>
-          <li class="nav-item">
-              <a class="nav-link text-white font-weight-bold" href="https://www.unicefinnovationfund.org/">UNICEF Innovation Fund</a>
-          </li>
-          <li class="nav-item">
-              <a class="nav-link text-white font-weight-bold" href="https://www.unicef.org/legal">Legal</a>
-              <p class="h6 text-md-right font-weight-light">Find legal information and policies related to UNICEF's digital communications</p>
-          </li>
-        </ul>
-        <ul class="list-inline">
-          
-          <li class="list-inline-item"><a class="text-color d-inline-block p-2 text-white" href="https://github.com/unicef/inventory" aria-label="UNICEF Open Source Inventory on GitHub"><i class="ti-github"></i></a></li>
-          
-          <li class="list-inline-item"><a class="text-color d-inline-block p-2 text-white" href="https://twitter.com/UNICEFinnovate" aria-label="@UNICEFinnovate on Twitter"><i class="ti-twitter"></i></a></li>
-          
-        </ul>
-      </div>
-    </div>
-  </div>
-  <p class="text-md-center text-center text-white mt-3 h6 font-italic">Creative Commons BY-SA 4.0. Site theme maintained by UNICEF. Original theme, Dot, created by ThemeFisher.</p>
+	<div class="container">
+		<div class="row align-items-center">
+			<div class="col-md-3 text-md-left text-center">
+				<ul>
+					<li><a class="nav-link text-white" href="/inventory">HOME</a></li>
+					<li class="nav-item">
+						<a class="nav-link text-white text-uppercase" href="https://unicef.github.io/inventory/faq">FAQ</a>
+					</li>
+				</ul>
+			</div>
+			<div class="col-md-6 text-md-center text-center">
+				<p class="mb-md-0 mb-4 text-white">The UNICEF Open Source Inventory is a knowledge-base of best practices, resources, and information about working and leading Open. This is maintained as part of the Open Source Mentorship programme offered by the UNICEF Innovation Fund. The Inventory provides mentorship and guidance to anyone seeking to adopt best practices in their journey to building an Open Source project and community. It is self-serve, and can be used at various phases of building a project and community.</p>
+			</div>
+			<div class="col-md-3 text-md-right text-center">
+				<ul class="text-white">
+					<li class="nav-item">
+						<a class="nav-link text-white font-weight-bold" href="https://www.unicef.org/">UNICEF Global</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link text-white font-weight-bold" href="https://www.unicefinnovationfund.org/">UNICEF Innovation Fund</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link text-white font-weight-bold" href="https://www.unicef.org/legal">Legal</a>
+						<p class="h6 text-md-right font-weight-light">Find legal information and policies related to UNICEF's digital communications</p>
+					</li>
+				</ul>
+				<ul class="list-inline">
+					<li class="list-inline-item"><a class="text-color d-inline-block p-2 text-white" href="https://github.com/unicef/inventory" aria-label="UNICEF Open Source Inventory on GitHub"><i class="ti-github"></i></a></li>
+					<li class="list-inline-item"><a class="text-color d-inline-block p-2 text-white" href="https://twitter.com/UNICEFinnovate" aria-label="@UNICEFinnovate on Twitter"><i class="ti-twitter"></i></a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<p class="text-md-center text-center text-white mt-3 h6 font-italic">Creative Commons BY-SA 4.0. Site theme maintained by UNICEF. Original theme, Dot, created by ThemeFisher.</p>
 </footer>
 <!-- /footer -->
-
 <!-- Main Script -->
-
 <script src="https://unicef.github.io/inventory/js/script.min.js"></script>
-  </body>
-
+</body>
 </html>
