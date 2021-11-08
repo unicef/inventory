@@ -37,5 +37,14 @@
       <description>Table of Contents 1. Foundations 2. Choosing a license 2.1. Choosing permissive 2.2. Choosing copyleft   3. Examples 3.1. Software licenses 3.2. Content licenses 3.3. Data licenses     This reading list is a collection of resources on legal and business aspects of open source. Legal and business aspects of an open source project are part of the foundation for building your project and community. The resources linked here are intended to give you a better idea of open source from a legal perspective.</description>
     </item>
     
+    <item>
+      <title>Trademark strategies</title>
+      <link>https://unicef.github.io/inventory/legal-policy/trademark/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unicef.github.io/inventory/legal-policy/trademark/</guid>
+      <description>Table of Contents 1. What are trademarks? 2. Why trademarks matter in Open Source 2.1. Separating company and project trademarks: When to do it?   3. Case study: Business models &amp;amp; Moodle 4. Resources 4.1. Implementations &amp;amp; examples 4.2. Related readings 4.3. Templates &amp;amp; tools   5. Thanks   Launching an Open Source project has many considerations. Trademarks are one such consideration and are commonly misunderstood. However, trademarks are an important legal aspect of building a sustainable Open Source product and community.</description>
+    </item>
+    
   </channel>
 </rss>
