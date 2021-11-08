@@ -15,14 +15,33 @@ workflows:
           htmlproofer-url-ignore: "'/inventory/'"
           htmlproofer-timeframe: "'6w'"
           version: "latest"
+      - html-tidy:
+          filters:
+            branches:
+              only: main
+          requires:
+            - hugo/build
       - deploy:
           filters:
             branches:
               only: main
           requires:
             - hugo/build
+            - html-tidy
 
 jobs:
+  html-tidy:
+    docker:
+      - image: cimg/ruby:3.0
+    steps:
+      - run: gem install htmlbeautifier
+      - attach_workspace:
+          at: .
+      - run: htmlbeautifier --tab $(find public/ -name '*.html' -print)
+      - persist_to_workspace:
+          root: .
+          paths:
+            - public
   deploy:
     docker:
       - image: cibuilds/base:latest
