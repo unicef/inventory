@@ -115,7 +115,7 @@ hasChildren = true
     name = "All"
     url = "cohorts"
     weight = 10
-    
+
   [[menu.main]]
     parent = "cohorts"
     name = "Blockchain"
@@ -131,13 +131,13 @@ hasChildren = true
   [[menu.main]]
     parent = "cohorts"
     name = "Data Science & AI"
-    url = "cohorts/dsai"
+    url = "cohorts/ds-ai"
     weight = 30
 
   [[menu.main]]
     parent = "cohorts"
     name = "VR + AR"
-    url = "cohorts/vr+ar"
+    url = "cohorts/vr-ar"
     weight = 50
 
   [[menu.main]]
