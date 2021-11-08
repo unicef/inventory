@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "Kotani Pay"
 description: Africa's most reliable off-ramps APIs
 tags: ["team"]
@@ -25,5 +26,5 @@ dpgs:
 Kotani Pay is a technology stack that enables blockchain protocols, dapps, and blockchain fintech companies to integrate seamlessly to local payment channels providing them with a reliable on ramp and off ramp service to reach a wider customer base in Africa.
 
 Our technology is enabling companies that are pushing the boundaries of innovation in lending, savings, insurance, gig work and community incentive systems.
- 
- 
+
+

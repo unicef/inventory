@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "Grassroot Economics"
 description: Prospering economies built by thriving communities.
 tags: ["team"]
@@ -25,8 +26,8 @@ dpgs:
 
 ---
 
-Grassroots Economics is a non-profit foundation that seeks to empower marginalized communities to take charge of their own livelihoods and economic future. We focus on community development through economic empowerment, basic income and community currency programs. Beneficiaries of our programs include small businesses and people living in informal settlements as well as rural areas. 
+Grassroots Economics is a non-profit foundation that seeks to empower marginalized communities to take charge of their own livelihoods and economic future. We focus on community development through economic empowerment, basic income and community currency programs. Beneficiaries of our programs include small businesses and people living in informal settlements as well as rural areas.
 
-Our goal is to improve the lives of those who are most vulnerable. 
- 
- 
+Our goal is to improve the lives of those who are most vulnerable.
+
+
