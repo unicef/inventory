@@ -1,0 +1,7 @@
+---
+title: "Others"
+icon: "shapes"
+description: "Browse other UNICEF Innovation Fund start-ups and Open Source projects from a range of frontier technology areas."
+type: "profiles"
+
+---

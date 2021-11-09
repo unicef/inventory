@@ -104,6 +104,50 @@ hasChildren = true
     weight = 130
 
 
+[[menu.main]]
+weight = 30
+name = "cohorts"
+url = "cohorts"
+hasChildren = true
+
+  [[menu.main]]
+    parent = "cohorts"
+    name = "All"
+    url = "cohorts"
+    weight = 10
+
+  [[menu.main]]
+    parent = "cohorts"
+    name = "Blockchain"
+    url = "cohorts/blockchain"
+    weight = 20
+
+  [[menu.main]]
+    parent = "cohorts"
+    name = "Drones"
+    url = "cohorts/drones"
+    weight = 40
+
+  [[menu.main]]
+    parent = "cohorts"
+    name = "Data Science & AI"
+    url = "cohorts/ds-ai"
+    weight = 30
+
+  [[menu.main]]
+    parent = "cohorts"
+    name = "VR + AR"
+    url = "cohorts/vr-ar"
+    weight = 50
+
+  [[menu.main]]
+    parent = "cohorts"
+    name = "Others"
+    url = "cohorts/others"
+    weight = 60
+
+
+
 ############################# Default parameters #############################
 [params]
 logo = "images/unicef-logo.png"
@@ -129,6 +173,18 @@ contact_form_action = "#"
 
 # related article number limit
 article_count = 3
+
+############################# DPGs #############################
+[[params.dpgs]]
+  dpg1 = "Relevance to Sustainable Development Goals"
+  dpg2 = "Use of Approved Open Licenses"
+  dpg3 = "Clear Ownership"
+  dpg4 = "Platform Independence"
+  dpg5 = "Documentation"
+  dpg6 = "Mechanism for Extracting Data"
+  dpg7 = "Adherence to Privacy and Applicable Laws"
+  dpg8 = "Adherence to Standards & Best Practices"
+  dpg9 = "Do No Harm by Design"
 
 
 ############################# Social links #############################
@@ -174,6 +230,18 @@ sectionNumbers = true
   alert = "alerts"
   category = "categories"
   downloadable = "downloadBtn"
+
+
+############################# Team Profiles #############################
+[[cascade]]
+  type = 'profiles'
+  [cascade._target]
+    path = '/cohorts/*/**'
+
+[[cascade]]
+  type = 'team'
+  [cascade._target]
+    path = '/cohorts/**'
 
 
 #######################################################################################
