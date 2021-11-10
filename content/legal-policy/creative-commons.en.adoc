@@ -38,6 +38,7 @@ The UNICEF Venture Fund recognizes the following licenses as acceptable as open 
 * *CC BY-SA 4.0* (https://creativecommons.org/licenses/by-sa/4.0/[Creative Commons Attribution-ShareAlike 4.0 International]) (_preferred_)
 * *CC BY-NC 4.0* (https://creativecommons.org/licenses/by-nc/4.0/[Attribution-NonCommercial 4.0 International])
 * *CC BY-NC-SA 4.0* (https://creativecommons.org/licenses/by-nc-sa/4.0/[Attribution-NonCommercial-ShareAlike 4.0 International])
+* *CC0* (https://creativecommons.org/share-your-work/public-domain/cc0/[“No Rights Reserved”], or _Public Domain Dedication_)
 
 
 [[free-culture]]
@@ -48,6 +49,7 @@ Only two Creative Commons license variants are https://freedomdefined.org/Licens
 
 * *CC BY 4.0* (https://creativecommons.org/licenses/by/4.0/[Creative Commons Attribution 4.0 International])
 * *CC BY-SA 4.0* (https://creativecommons.org/licenses/by-sa/4.0/[Creative Commons Attribution-ShareAlike 4.0 International])
+* *CC0* (https://creativecommons.org/share-your-work/public-domain/cc0/[“No Rights Reserved”], or _Public Domain Dedication_)
 
 These are considered compatible with Free Cultural Works, because they do not restrict any of the essential freedoms.
 There are four essential freedoms defined in the Free Cultural Works definition:
