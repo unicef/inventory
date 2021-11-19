@@ -1,0 +1,39 @@
+---
+title: I-STEM
+weight: 35
+categories: "team"
+tags: ["team"]
+type: profiles
+
+description: Empowering people with disabilities using technology, community and support services.
+country: India
+date: 2020-09-25
+github: https://github.com/I-Stem
+linkedin: https://www.linkedin.com/company/inclusive-stem/about/
+twitter: https://twitter.com/istemtech
+website: https://www.inclusivestem.org/
+community: https://unicef-if.discourse.group/c/projects/i-stem/12
+logo: /inventory/cohorts/logo-istem.png
+sdgs:
+    - 4
+dpgs:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 8
+
+---
+
+*A tech-powered assistive technology company working to enhance access to digital services.*
+
+The core services of the I-Stem portal are content conversion of difficult format types (documents and audio/video) into accessible formats for people with print disabilities and those who are deaf or hard of hearing using advances in AI, besides providing tech-powered mentorship and inclusive hiring solutions.
+This not only helps institutes and organizations that currently use manual processes for accessibility conversion save up to 70% in accessibility conversion cost and meet their legal compliance, but also enhances access to information and opportunities for people with disabilities.
+
+The I-Stem portal provides document accessibility services (the conversion of inaccessible documents including documents with complex layouts, math etc. into accessible formats for people with print disabilities), audio/video accessibility services (high-quality captioning including the ability to train custom models for domain-specific terminology and visual content extraction from videos) and community services (mentorship request and inclusive hiring/employer connect).
+There are currently nearly 500 individuals with disabilities on the platform and pilots with two academic institutes are ongoing.
+Average text accuracy = 91.74%.
+Average F1 score = 0.87.
+Average table text accuracy= 90.84%
