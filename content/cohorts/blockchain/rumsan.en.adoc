@@ -1,0 +1,29 @@
+---
+title: Rumsan
+categories: "team"
+tags: ["team"]
+type: profiles
+
+description: A digital cash and voucher management system (Rahat) to help build financial inclusion, accessibility and accountability for vulnerable communities.
+country: Nepal
+date: 2021-07-25
+github: https://github.com/esatya
+linkedin: https://www.linkedin.com/company/esatya/
+twitter: https://twitter.com/rahataid
+website: https://rahat.io/
+community: ""
+logo: /inventory/cohorts/logo-rumsan.png
+sdgs:
+    - 1
+    - 8
+    - 9
+dpgs:
+    - 1
+    - 2
+
+---
+
+Rumsan is a blockchain innovation company focused on social impact.
+https://rahat.io[*Rahat*], developed by Rumsan, is an open source blockchain-based CVA management system.
+Rahat manages and monitors the flow of transactions in aid distribution projects.
+With its real-time visibility to the flow of funds, Rahat builds transparency, accountability and financial inclusivity to maximize support for marginalized communities.
