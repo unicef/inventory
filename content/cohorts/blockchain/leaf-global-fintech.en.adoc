@@ -1,0 +1,43 @@
+---
+title: Leaf Global Fintech
+weight: 30
+categories: "team"
+tags: ["team"]
+type: profiles
+
+description: A virtual bank for vulnerable populations, allowing for the storage and transport of assets across borders from a mobile device (without a smartphone).
+country: Rwanda
+date: 2021-07-25
+github: https://github.com/LeafGlobalFintech
+linkedin: https://www.linkedin.com/company/leaf-global-fintech/
+twitter: https://twitter.com/LeafGlobalTech
+website: https://leafglobalfintech.com/
+community: ""
+logo: /inventory/cohorts/logo-leaf-global-fintech.jpg
+sdgs:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    - 16
+    - 17
+dpgs:
+    - 1
+    - 2
+
+---
+
+A virtual bank for vulnerable populations, allowing for the storage and transport of assets across borders from a mobile device (without a smartphone).
+Protects customers’ savings through blockchain technology without exposure to volatile cryptocurrencies.
+Identity is linked through biometric authentication so that a refugee could lose their documentation and still access their finances.
