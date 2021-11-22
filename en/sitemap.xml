@@ -71,6 +71,9 @@
     <loc>https://unicef.github.io/inventory/legal-policy/creative-commons/</loc>
     <lastmod>2021-11-11T08:31:45-05:00</lastmod>
   </url><url>
+    <loc>https://unicef.github.io/inventory/cohorts/blockchain/leaf-global-fintech/</loc>
+    <lastmod>2021-11-22T10:59:45-05:00</lastmod>
+  </url><url>
     <loc>https://unicef.github.io/inventory/data/traps/</loc>
     <lastmod>2021-09-10T13:22:39+01:00</lastmod>
   </url><url>
@@ -128,6 +131,35 @@
     <loc>https://unicef.github.io/inventory/communities/public-lab/</loc>
     <lastmod>2021-09-10T13:22:39+01:00</lastmod>
   </url><url>
+    <loc>https://unicef.github.io/inventory/categories/</loc>
+    <lastmod>2021-11-22T10:59:45-05:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://unicef.github.io/inventory/es/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://unicef.github.io/inventory/categories/"
+                />
+  </url><url>
+    <loc>https://unicef.github.io/inventory/categories/team/</loc>
+    <lastmod>2021-11-22T10:59:45-05:00</lastmod>
+  </url><url>
+    <loc>https://unicef.github.io/inventory/</loc>
+    <lastmod>2021-11-22T10:59:45-05:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://unicef.github.io/inventory/es/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://unicef.github.io/inventory/"
+                />
+  </url><url>
     <loc>https://unicef.github.io/inventory/alerts/alert/</loc>
     <lastmod>2021-11-02T09:43:45-04:00</lastmod>
   </url><url>
@@ -146,19 +178,6 @@
   </url><url>
     <loc>https://unicef.github.io/inventory/cohorts/blockchain/</loc>
     <lastmod>2021-11-09T18:28:08+01:00</lastmod>
-  </url><url>
-    <loc>https://unicef.github.io/inventory/categories/</loc>
-    <lastmod>2021-11-11T08:31:45-05:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://unicef.github.io/inventory/es/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://unicef.github.io/inventory/categories/"
-                />
   </url><url>
     <loc>https://unicef.github.io/inventory/cohorts/</loc>
     <lastmod>2021-11-09T18:28:08+01:00</lastmod>
@@ -283,19 +302,6 @@
   </url><url>
     <loc>https://unicef.github.io/inventory/downloadbtn/true/</loc>
     <lastmod>2021-11-11T08:31:45-05:00</lastmod>
-  </url><url>
-    <loc>https://unicef.github.io/inventory/</loc>
-    <lastmod>2021-11-11T08:31:45-05:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://unicef.github.io/inventory/es/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://unicef.github.io/inventory/"
-                />
   </url><url>
     <loc>https://unicef.github.io/inventory/cohorts/vr-ar/</loc>
     <lastmod>2021-11-09T18:28:08+01:00</lastmod>

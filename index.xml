@@ -6,7 +6,8 @@
     <description>Recent content on UNICEF O.S. Inventory</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>Creative Commons BY-SA 4.0. Site theme maintained by UNICEF. Original theme, Dot, created by ThemeFisher.</copyright><atom:link href="https://unicef.github.io/inventory/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>Creative Commons BY-SA 4.0. Site theme maintained by UNICEF. Original theme, Dot, created by ThemeFisher.</copyright>
+    <lastBuildDate>Sun, 25 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://unicef.github.io/inventory/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Introduction to Open Source Hardware</title>
       <link>https://unicef.github.io/inventory/hardware/intro/</link>
@@ -256,6 +257,16 @@
       
       <guid>https://unicef.github.io/inventory/legal-policy/creative-commons/</guid>
       <description>Table of Contents 1. What are Creative Commons licenses? 2. Acceptable licenses for UNICEF Venture Fund 3. Free Cultural Works 3.1. Why does UNICEF prefer Free Culture licenses?   4. Resources   1. What are Creative Commons licenses? The Creative Commons licenses are a family of licenses meant for &amp;#34;open&amp;#34; content. The licenses are maintained by the Creative Commons, &amp;#34;a nonprofit organization that helps overcome legal obstacles to the sharing of knowledge and creativity to address the world’s pressing challenges.</description>
+    </item>
+    
+    <item>
+      <title>Leaf Global Fintech</title>
+      <link>https://unicef.github.io/inventory/cohorts/blockchain/leaf-global-fintech/</link>
+      <pubDate>Sun, 25 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://unicef.github.io/inventory/cohorts/blockchain/leaf-global-fintech/</guid>
+      <description>A virtual bank for vulnerable populations, allowing for the storage and transport of assets across borders from a mobile device (without a smartphone). Protects customers’ savings through blockchain technology without exposure to volatile cryptocurrencies. Identity is linked through biometric authentication so that a refugee could lose their documentation and still access their finances.
+ </description>
     </item>
     
     <item>
