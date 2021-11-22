@@ -5,7 +5,7 @@ categories: "team"
 tags: ["team"]
 type: profiles
 
-description: Platform for teachers to make tailored learning STEM content content with VR.
+description: Platform for teachers to make tailored learning STEM content with VR.
 country: Serbia
 date: 2020-09-25
 github: https://github.com/ScioXR
