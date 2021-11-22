@@ -1,0 +1,36 @@
+---
+title: ScioXR
+weight: 50
+categories: "team"
+tags: ["team"]
+type: profiles
+
+description: Platform for teachers to make tailored learning STEM content with VR.
+country: Serbia
+date: 2020-09-25
+github: https://github.com/ScioXR
+linkedin: ""
+twitter: https://twitter.com/ScioXr
+website: https://scioxr.com/
+community: ""
+logo: /inventory/cohorts/logo-scioxr.png
+sdgs:
+    - 4
+dpgs:
+    - 1
+    - 2
+    - 4
+    - 5
+    - 8
+
+---
+
+*link:http://www.propter.rs/[Propter D.O.O] are developing ScioXR, a VR/AR software platform that delivers immersive learning games and experiences that empower students to learn about the world around them.*
+
+Technology around us has gone a long way since the beginning of our millennium.
+Yet, most of our classrooms remain more or less the same as they were at the end of the 20th century.
+This especially applies to the STEM (Science, Technology, Engineering and Mathematics) field.
+Propter seeks to modernize the contemporary classroom and spark the student’s interest for new technologies and prepare them for the 21st century job market.
+This is done by engaging students as early as possible in the real-world STEM ecosystem.
+For students to fully grasp applications of the knowledge they are acquiring, we need to provide them with problems whose context they can experience and relate to.
+ScioXR seeks to address this problem and solve it by introducing the latest achievements in VR/AR technology into the modern classroom.
