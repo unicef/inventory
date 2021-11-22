@@ -14,8 +14,8 @@ twitter: https://twitter.com/LeafGlobalTech
 website: https://leafglobalfintech.com/
 community: ""
 logo: /inventory/cohorts/logo-leaf-global-fintech.jpg
-# sdgs: to be completed!
-sdgs: []
+sdgs:
+    - 8
 dpgs:
     - 1
     - 2
