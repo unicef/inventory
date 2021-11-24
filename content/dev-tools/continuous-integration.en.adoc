@@ -74,7 +74,7 @@ This guide will not cover them all, but here are some of the most popular ones:
 * https://docs.gitlab.com/ee/ci/[GitLab CI]
 * https://www.jenkins.io/[Jenkins]
   (powerful, but notoriously difficult to set up)
-* https://travis-ci.org/[Travis CI]
+* https://semaphoreci.com/[Semaphore]
 
 Note many of these platforms have no-cost plans for software released under open source licenses.
 However, usually you will have to pay if using CI on a private or hidden repository.
@@ -111,20 +111,19 @@ Check out some of the examples below!
 * (Go) *proton-bridge*:
   https://github.com/ProtonMail/proton-bridge[git repo],
   https://github.com/ProtonMail/proton-bridge/blob/5348ae7d183da194bd3f051ca723ca2efb99da7a/.gitlab-ci.yml[GitLab CI config],
-  https://github.com/ProtonMail/proton-bridge/blob/5348ae7d183da194bd3f051ca723ca2efb99da7a/.golangci.yml[golang-ci config]
-* (Go) *TeleIRC*:
-  https://github.com/RITlug/teleirc[git repo],
-  https://github.com/RITlug/teleirc/blob/master/.travis.yml[Travis CI config],
-  https://travis-ci.org/github/RITlug/teleirc[Travis CI builds]
-* (Python) *datanommer*:
-  https://github.com/fedora-infra/datanommer[git repo],
-  https://github.com/fedora-infra/datanommer/blob/develop/.travis.yml[Travis CI config],
-  https://travis-ci.org/github/fedora-infra/datanommer[Travis CI builds]
-* (Ruby) *fossrit.github.io*:
-  https://github.com/FOSSRIT/fossrit.github.io[git repo],
-  https://github.com/FOSSRIT/fossrit.github.io/blob/master/.travis.yml[Travis CI config],
-  https://travis-ci.org/github/FOSSRIT/fossrit.github.io[Travis CI builds]
-
+  https://github.com/ProtonMail/proton-bridge/blob/5348ae7d183da194bd3f051ca723ca2efb99da7a/.golangci.yml[golang-ci
+  config]
+* (JavaScript) *React*:
+  https://github.com/facebook/react[git repo]
+  https://github.com/facebook/react/blob/a52d76b877cbb7d62f914d32dfede1275da18337/.circleci/config.yml[CircleCI config]
+* (JavaScript) *jest*:
+  https://github.com/facebook/jest[git repo]
+  https://github.com/facebook/jest/blob/f41e128c169a1296595fe1bc480ddede320a8730/.github/workflows/nodejs.yml[GitHub
+  Action config]
+* (Rust) *Conduit*:
+  https://gitlab.com/famedly/conduit/[git repo]
+  https://gitlab.com/famedly/conduit/-/blob/afa5d449c605b6ddae8d2397b2996fda356f8b78/.gitlab-ci.yml[GitLab
+  CI config]
 
 [[resources]]
 == Other resources
