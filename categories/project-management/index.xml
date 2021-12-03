@@ -17,15 +17,6 @@
     </item>
     
     <item>
-      <title>Project boards</title>
-      <link>https://unicef.github.io/inventory/project-management/project-boards/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://unicef.github.io/inventory/project-management/project-boards/</guid>
-      <description>Table of Contents 1. About project boards 1.1. Why?   2. Case study: TeleIRC 3. Examples 4. Additional resources   This guide is an introduction to project boards for your open source project. By the end of this guide, you will have a basic understanding of how to run project planning in an open, transparent way to your community. What this guide is NOT is a guide to agile/scrum development.</description>
-    </item>
-    
-    <item>
       <title>Outreach reading list</title>
       <link>https://unicef.github.io/inventory/project-management/reading-list/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -34,6 +25,15 @@
       <description>This reading list focuses on ways to promote and share your Open Source project with the world. Generally these resources are more helpful once you have built up the foundation for your Open Source project. You should have a game plan for community management in place before spending time on outreach.
    What success really looks like in Open Source - Nadia Eghbal @nayafia
    </description>
+    </item>
+    
+    <item>
+      <title>Project boards</title>
+      <link>https://unicef.github.io/inventory/project-management/project-boards/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unicef.github.io/inventory/project-management/project-boards/</guid>
+      <description>Table of Contents 1. About project boards 1.1. Why?   2. Case study: TeleIRC 3. Examples 4. Additional resources   This guide is an introduction to project boards for your open source project. By the end of this guide, you will have a basic understanding of how to run project planning in an open, transparent way to your community. What this guide is NOT is a guide to agile/scrum development.</description>
     </item>
     
   </channel>

@@ -67,7 +67,7 @@
 		<meta property="og:description" content="Guidance on creating a new Mission in the Open Source Inventory." />
 		<meta property="og:type" content="article" />
 		<meta property="og:url" content="https://unicef.github.io/inventory/meta/inventory/create-new-mission/" /><meta property="article:section" content="meta" />
-		<meta property="article:modified_time" content="2021-09-20T09:09:44-04:00" />
+		<meta property="article:modified_time" content="2021-12-03T13:35:25+01:00" />
 		<meta name="twitter:card" content="summary"/>
 		<meta name="twitter:title" content="How to create a new Inventory Mission"/>
 		<meta name="twitter:description" content="Guidance on creating a new Mission in the Open Source Inventory."/>
@@ -130,7 +130,7 @@
 						</ul>
 						<select class="lang-list bg-primary dark mb-3 mb-md-0" id="select-language"
         onchange="location = this.value;">
-							<option id="en" value="https://unicef.github.io/inventory/data/milestone-roadmap/" selected>en
+							<option id="en" value="https://unicef.github.io/inventory/meta/mentorship/modules/" selected>en
 							</option>
 						</select>
 					</div>
@@ -201,12 +201,6 @@
 									Meta
 								</a>
 								<ul>
-									<li data-nav-id="https://unicef.github.io/inventory/meta/workflow-metrics/" title="Workflow: Update external UNICEF metrics" class="sidelist
-  ">
-										<a href="https://unicef.github.io/inventory/meta/workflow-metrics/">
-											Workflow: Update external UNICEF metrics
-										</a>
-									</li>
 									<li data-nav-id="https://unicef.github.io/inventory/meta/inventory/" title="Open Source Inventory maintenance" class="sidelist
   ">
 										<a href="https://unicef.github.io/inventory/meta/inventory/">
@@ -276,6 +270,12 @@
 												</a>
 											</li>
 										</ul>
+									</li>
+									<li data-nav-id="https://unicef.github.io/inventory/meta/workflow-metrics/" title="Workflow: Update external UNICEF metrics" class="sidelist
+  ">
+										<a href="https://unicef.github.io/inventory/meta/workflow-metrics/">
+											Workflow: Update external UNICEF metrics
+										</a>
 									</li>
 								</ul>
 							</li>
@@ -352,10 +352,9 @@
 									<div class="listingblock">
 										<div class="content">
 											<pre class="highlight"><code class="language-yaml" data-lang="yaml">title: Build a rocketship <b class="conum">(1)</b>
-weight: 10 <b class="conum">(2)</b>
-description: Embark on a new mission to build your first rocketship to Mars. <b class="conum">(3)</b>
-tags: [&#34;design&#34;, &#34;hardware&#34;, &#34;teamwork&#34;] <b class="conum">(4)</b>
-categories: &#34;missions&#34; <b class="conum">(5)</b></code></pre>
+description: Embark on a new mission to build your first rocketship to Mars. <b class="conum">(2)</b>
+categories: &#34;missions&#34; <b class="conum">(3)</b>
+tags: [&#34;design&#34;, &#34;hardware&#34;, &#34;teamwork&#34;] <b class="conum">(4)</b></code></pre>
 										</div>
 									</div>
 									<div class="colist arabic">
@@ -364,23 +363,20 @@ categories: &#34;missions&#34; <b class="conum">(5)</b></code></pre>
 												<p><code>title</code> is a noun in plural form. It clearly defines what the Mission topic is.</p>
 											</li>
 											<li>
-												<p><code>weight</code> is set to maintain alphabetical sort order on all Missions. Check other Missions first to find the right value.</p>
-											</li>
-											<li>
 												<p><code>description</code> is one, at most two, sentences to describe the Mission topic.</p>
 											</li>
 											<li>
-												<p><code>tags</code> is a descriptive list of words to describe key elements of the Mission. Check other Missions to see tags already in use.</p>
+												<p><code>categories</code> is a single value and must always be set to <code>missions</code> for a new Mission.</p>
 											</li>
 											<li>
-												<p><code>categories</code> is a single value and must always be set to <code>missions</code> for a new Mission.</p>
+												<p><code>tags</code> is a descriptive list of words to describe key elements of the Mission. Check other Missions to see tags already in use.</p>
 											</li>
 										</ol>
 									</div>
 								</div>
 							</div>
 						</div>
-						<p class="post-meta border-bottom pb-3 mb-0 mt-3">Updated on 20 Sep 2021</p>
+						<p class="post-meta border-bottom pb-3 mb-0 mt-3">Updated on 03 Dec 2021</p>
 						<nav class="pagination mt-3">
 							<a class="nav nav-prev" href="https://unicef.github.io/inventory/meta/inventory/create-new-category/" aria-label="Previous page" ><i class="ti-arrow-left mr-2"></i> <span class="d-none d-md-block">How to create a new Inventory category</span></a>
 							<a class="nav nav-next" href="https://unicef.github.io/inventory/meta/inventory/maintainers-guide/" aria-label="Previous page" > <span class="d-none d-md-block">Maintainer&#39;s guide for O.S. Inventory</span><i class="ti-arrow-right ml-2"></i></a>
@@ -389,21 +385,21 @@ categories: &#34;missions&#34; <b class="conum">(5)</b></code></pre>
 							<h5 class="text-center">Related Articles</h5>
 							<div class="row">
 								<div class="col-sm-4 my-2">
-									<a href="https://unicef.github.io/inventory/meta/inventory/create-new-category/">
+									<a href="https://unicef.github.io/inventory/meta/mentorship/overview/">
 										<div class="card text-center">
 											<div class="card-body">
-												<h5 class="card-title">How to create a new Inventory category</h5>
-												<p class="card-subtitle mb-2 text-muted">Guidance on creating a new content category in the Open Source Inventory.</p>
+												<h5 class="card-title">Open Source Mentorship programme overview</h5>
+												<p class="card-subtitle mb-2 text-muted">An introduction to the UNICEF Open Source Mentorship programme. Hosted by the Office of Innovation.</p>
 											</div>
 										</div>
 									</a>
 								</div>
 								<div class="col-sm-4 my-2">
-									<a href="https://unicef.github.io/inventory/meta/workflow-metrics/">
+									<a href="https://unicef.github.io/inventory/meta/mentorship/onboarding/">
 										<div class="card text-center">
 											<div class="card-body">
-												<h5 class="card-title">Workflow: Update external UNICEF metrics</h5>
-												<p class="card-subtitle mb-2 text-muted">How a UNICEF contractor manages and updates metrics about Innovation Fund portfolio company projects.</p>
+												<h5 class="card-title">On-boarding guide for UNICEF Innovation Fund teams</h5>
+												<p class="card-subtitle mb-2 text-muted">Terms of reference for being on-boarded to the UNICEF Open Source Mentorship programme as a start-up.</p>
 											</div>
 										</div>
 									</a>

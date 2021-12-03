@@ -34,6 +34,26 @@
     </item>
     
     <item>
+      <title>Leaf Global Fintech</title>
+      <link>https://unicef.github.io/inventory/cohorts/blockchain/leaf-global-fintech/</link>
+      <pubDate>Sun, 25 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://unicef.github.io/inventory/cohorts/blockchain/leaf-global-fintech/</guid>
+      <description>A virtual bank for vulnerable populations, allowing for the storage and transport of assets across borders from a mobile device (without a smartphone). Protects customers’ savings through blockchain technology without exposure to volatile cryptocurrencies. Identity is linked through biometric authentication so that a refugee could lose their documentation and still access their finances.
+ </description>
+    </item>
+    
+    <item>
+      <title>ScioXR</title>
+      <link>https://unicef.github.io/inventory/cohorts/vr-ar/scioxr/</link>
+      <pubDate>Fri, 25 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://unicef.github.io/inventory/cohorts/vr-ar/scioxr/</guid>
+      <description>Propter D.O.O are developing ScioXR, a VR/AR software platform that delivers immersive learning games and experiences that empower students to learn about the world around them.
+ Technology around us has gone a long way since the beginning of our millennium. Yet, most of our classrooms remain more or less the same as they were at the end of the 20th century. This especially applies to the STEM (Science, Technology, Engineering and Mathematics) field.</description>
+    </item>
+    
+    <item>
       <title>AI Ethics &amp; Transparency Roadmap - Template</title>
       <link>https://unicef.github.io/inventory/data/milestone-roadmap/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -72,6 +92,26 @@
     </item>
     
     <item>
+      <title>Codes of Conduct</title>
+      <link>https://unicef.github.io/inventory/missions/codes-of-conduct/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unicef.github.io/inventory/missions/codes-of-conduct/</guid>
+      <description>Table of Contents 1. Quality of writing 2. Clarity of expectations 3. Defined structure for handling enforcement 4. Two to four people responsible for handling sensitive reports 5. Use an existing Code of Conduct instead of writing one yourself 6. References      This Mission is a short exercise on understanding how Codes of Conduct fit into your Open Source community. In designing a Code of Conduct for a project community, we will explore these Requirements for this Mission:</description>
+    </item>
+    
+    <item>
+      <title>Common traps to avoid when building AI systems</title>
+      <link>https://unicef.github.io/inventory/data/traps/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unicef.github.io/inventory/data/traps/</guid>
+      <description>Assessing common mistakes that lead to unintended side effects. Information summarized from Fairness and Abstraction in Sociotechnical Systems, a paper published at the 2019 ACM Conference on Fairness, Accountability, and Transparency.
+ 1. Framing Trap Failure to model the entire system over which a social criterion, such as fairness, will be enforced.
+ For this trap, we will want to look at our outcome variables. Are these variables a proxy of the actual outcome you wish to achieve?</description>
+    </item>
+    
+    <item>
       <title>Continuous Integration (CI)</title>
       <link>https://unicef.github.io/inventory/dev-tools/continuous-integration/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -79,86 +119,6 @@
       <guid>https://unicef.github.io/inventory/dev-tools/continuous-integration/</guid>
       <description>Table of Contents 1. What is CI and why does it matter? 1.1. Tests vs. CI 1.2. Benefits   2. CI platforms 3. Tips and tricks 4. Examples 5. Other resources   This guide is an introduction to Continuous Integration (C.I.) for Open Source projects. In this guide, you will learn about the following topics:
  1. What is CI and why does it matter? Continuous Integration can be a few different things.</description>
-    </item>
-    
-    <item>
-      <title>Design &amp; UX Reading List</title>
-      <link>https://unicef.github.io/inventory/design/reading-list/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://unicef.github.io/inventory/design/reading-list/</guid>
-      <description>Various readings and learnings about design. Usually with some kind of Open Source overlap or context.
-   Trauma &amp;amp; design PubPub: Some basic definitions key to understanding the relationship between trauma and design. Maintained by KJ Hepworth, Kat Lo, Eriol Fox, and Shirin Mori.
-  Ushahidi Open Design, maintained by Eriol Fox: A collection of resources, notes, and other written content for distributed, asynchronous design contributions to software projects.</description>
-    </item>
-    
-    <item>
-      <title>Frontier technology tips</title>
-      <link>https://unicef.github.io/inventory/documentation/frontier-tech-tips/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://unicef.github.io/inventory/documentation/frontier-tech-tips/</guid>
-      <description>This is a summary of a talk, &amp;#34;Uncharted waters: Documenting emerging technology&amp;#34;. It was given at DevConf 2020 in Brno, Czech Republic by Andrew Burden.
- 1. Video      2. Abstract  We can’t help but feel the lure towards the hot new thing, especially when it comes to technology. Part of that lure is the breaking of ground, venturing into the unknown, and working on solutions to new problems.</description>
-    </item>
-    
-    <item>
-      <title>How to create a new Inventory category</title>
-      <link>https://unicef.github.io/inventory/meta/inventory/create-new-category/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://unicef.github.io/inventory/meta/inventory/create-new-category/</guid>
-      <description>Table of Contents 1. Steps 2. Template for new index pages 2.1. Choose an icon     This how-to article explains how to create a new category in the Open Source Inventory.
- 1. Steps  Create a new folder in the content/ directory.
-  Create a _index.en.adoc page in the new directory (see template).
-  Add the category to config.yml as a child to [[menu.main]]. See other categories in the config as an example.</description>
-    </item>
-    
-    <item>
-      <title>Issue templates</title>
-      <link>https://unicef.github.io/inventory/project-management/issue-templates/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://unicef.github.io/inventory/project-management/issue-templates/</guid>
-      <description>This guide is an introduction to issue templates in an Open Source project. While this guide is customized to GitHub, the advice provided here is general and can be applied to other collaboration platforms that offer templating. By the end of this guide, you will have a basic understanding of why issue templates are important and how to set up effective templates for your project. This guide is complementary to an agile or scrum workflow, if your team already uses one of these methods of project management.</description>
-    </item>
-    
-    <item>
-      <title>Modules</title>
-      <link>https://unicef.github.io/inventory/meta/mentorship/modules/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://unicef.github.io/inventory/meta/mentorship/modules/</guid>
-      <description>Table of Contents 1. Offered modules 1.1. Legal &amp;amp; Licensing: Foundations of Open Source intellectual property 1.2. Launching your Open Source project 1.3. Open Source documentation 1.4. Continuous Integration for continuous contribution 1.5. Archetypes: Shape and size of Open Source over time   2. Module programming 2.1. 12-month Innovation Fund contracts     The UNICEF Open Source Mentorship programme offers multiple learning modules and mentorship topics. This page provides an overview of the different modules currently offered through the Open Source Mentorship programme.</description>
-    </item>
-    
-    <item>
-      <title>Open-first business approaches</title>
-      <link>https://unicef.github.io/inventory/sustainability/approaches/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://unicef.github.io/inventory/sustainability/approaches/</guid>
-      <description>Table of Contents 1. Asking the right question 2. Seven approaches for building Open works 2.1. Enterprise or targeted versions 2.2. Services around your product 2.3. Services are your product 2.4. Content 2.5. Packaging 2.6. Franchising 2.7. Training     This page collects information, best practices, and references about sustainable Open-first business approaches.
- How do you build a sustainable business approach when you work Open? While the Open Source model of working is not completely new, it is a new way of working for many people who have not previously participated in highly collaborative, distributed communities.</description>
-    </item>
-    
-    <item>
-      <title>Reproducibility reading list</title>
-      <link>https://unicef.github.io/inventory/reproducibility/reading-list/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://unicef.github.io/inventory/reproducibility/reading-list/</guid>
-      <description>  A Guide to Reproducible Code: A guide written by scientists, for scientists, on creating reproducible code. Includes topics like A simple reproducible project workflow, Organising projects for reproducibility, Reproducible reports, and more. Edited by Natalie Cooper and Pen-Yuan Hsing. Featuring contributions from Mike Croucher, Laura Graham, Tamora James, Anna Krystalli, and François Michonneau.
-   </description>
-    </item>
-    
-    <item>
-      <title>Codes of Conduct</title>
-      <link>https://unicef.github.io/inventory/missions/codes-of-conduct/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://unicef.github.io/inventory/missions/codes-of-conduct/</guid>
-      <description>Table of Contents 1. Quality of writing 2. Clarity of expectations 3. Defined structure for handling enforcement 4. Two to four people responsible for handling sensitive reports 5. Use an existing Code of Conduct instead of writing one yourself 6. References      This Mission is a short exercise on understanding how Codes of Conduct fit into your Open Source community. In designing a Code of Conduct for a project community, we will explore these Requirements for this Mission:</description>
     </item>
     
     <item>
@@ -170,6 +130,17 @@
       <description>Table of Contents 1. What are they for? 1.1. Criticism of CLAs   2. What alternatives exist? 2.1. Fedora Project Contributor Agreement (FPCA)   3. What do I need for my own CLA?   Originally authored by Mike Nolan, edited and maintained by Justin W. Flory.
  This page introduces Contributor License Agreements (shortened C.L.As) in Open Source projects.
  1. What are they for? Contributor License Agreements (CLAs) are often used in Open Source projects to form a legal agreement between an individual or company and a project maintainer.</description>
+    </item>
+    
+    <item>
+      <title>Design &amp; UX Reading List</title>
+      <link>https://unicef.github.io/inventory/design/reading-list/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unicef.github.io/inventory/design/reading-list/</guid>
+      <description>Various readings and learnings about design. Usually with some kind of Open Source overlap or context.
+   Trauma &amp;amp; design PubPub: Some basic definitions key to understanding the relationship between trauma and design. Maintained by KJ Hepworth, Kat Lo, Eriol Fox, and Shirin Mori.
+  Ushahidi Open Design, maintained by Eriol Fox: A collection of resources, notes, and other written content for distributed, asynchronous design contributions to software projects.</description>
     </item>
     
     <item>
@@ -195,89 +166,42 @@
     </item>
     
     <item>
-      <title>How to create a new Inventory Mission</title>
-      <link>https://unicef.github.io/inventory/meta/inventory/create-new-mission/</link>
+      <title>Drones</title>
+      <link>https://unicef.github.io/inventory/cohorts/drones/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://unicef.github.io/inventory/meta/inventory/create-new-mission/</guid>
-      <description>Table of Contents 1. Steps 2. Front-matter data values   This how-to article explains how to create a new category in the Open Source Inventory. This how-to article explains how to create a new Mission in the Open Source Inventory.
- 1. Steps  Copy the Mission template as a new file using the file committed at content/meta/_template.en.adoc.
-  Edit the template front-matter to include a weight, description, tags, and categories (see descriptions below).</description>
+      <guid>https://unicef.github.io/inventory/cohorts/drones/</guid>
+      <description></description>
     </item>
     
     <item>
-      <title>Machine Learning Model Card</title>
-      <link>https://unicef.github.io/inventory/data/model-card/</link>
+      <title>Enhance your CircleCI pipeline with these four extensions</title>
+      <link>https://unicef.github.io/inventory/announcements/circleci-orbs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://unicef.github.io/inventory/data/model-card/</guid>
-      <description>The following is an editable version of the model card proposed in arxiv.org/abs/1810.03993.
- 1. Model details Basic information about the model.
-   Person or organization developing model
-  Date of last update
-  Model version
-  Model type (information about training algorithms, parameters, fairness constraints or other applied approaches, and features)
-  Paper or other resource for more information
-  Citation details</description>
-    </item>
-    
-    <item>
-      <title>Needs assessment interview template</title>
-      <link>https://unicef.github.io/inventory/meta/mentorship/needs-assessment-template/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://unicef.github.io/inventory/meta/mentorship/needs-assessment-template/</guid>
-      <description>This document is an interview template for needs assessments with UNICEF Innovation Fund cohorts in Open Source induction calls. The needs assessment is a tool to collect background and context for each team’s experience and familiarity with open source. It also builds understanding for participation in existing open source communities. This template provides structure and guidance on what to ask to any team at the beginning of an Open Source Mentorship program.</description>
-    </item>
-    
-    <item>
-      <title>Project boards</title>
-      <link>https://unicef.github.io/inventory/project-management/project-boards/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://unicef.github.io/inventory/project-management/project-boards/</guid>
-      <description>Table of Contents 1. About project boards 1.1. Why?   2. Case study: TeleIRC 3. Examples 4. Additional resources   This guide is an introduction to project boards for your open source project. By the end of this guide, you will have a basic understanding of how to run project planning in an open, transparent way to your community. What this guide is NOT is a guide to agile/scrum development.</description>
-    </item>
-    
-    <item>
-      <title>Governance</title>
-      <link>https://unicef.github.io/inventory/governance/governance/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://unicef.github.io/inventory/governance/governance/</guid>
-      <description>Table of Contents 1. What is Open Source governance? 2. Models 3. Examples 3.1. Linux kernel 3.2. Fedora Project   4. Resources 4.1. Exploratory 4.2. Journalism     This page defines and provides examples of Open Source governance. This includes Open Source project governance models, examples of other projects, frameworks for decision-making, and more.
- This page is a work-in-progress. Check back later for future additions.
- 1.</description>
-    </item>
-    
-    <item>
-      <title>Intro to Creative Commons licenses</title>
-      <link>https://unicef.github.io/inventory/legal-policy/creative-commons/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://unicef.github.io/inventory/legal-policy/creative-commons/</guid>
-      <description>Table of Contents 1. What are Creative Commons licenses? 2. Acceptable licenses for UNICEF Venture Fund 3. Free Cultural Works 3.1. Why does UNICEF prefer Free Culture licenses?   4. Resources   1. What are Creative Commons licenses? The Creative Commons licenses are a family of licenses meant for &amp;#34;open&amp;#34; content. The licenses are maintained by the Creative Commons, &amp;#34;a nonprofit organization that helps overcome legal obstacles to the sharing of knowledge and creativity to address the world’s pressing challenges.</description>
-    </item>
-    
-    <item>
-      <title>Leaf Global Fintech</title>
-      <link>https://unicef.github.io/inventory/cohorts/blockchain/leaf-global-fintech/</link>
-      <pubDate>Sun, 25 Jul 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://unicef.github.io/inventory/cohorts/blockchain/leaf-global-fintech/</guid>
-      <description>A virtual bank for vulnerable populations, allowing for the storage and transport of assets across borders from a mobile device (without a smartphone). Protects customers’ savings through blockchain technology without exposure to volatile cryptocurrencies. Identity is linked through biometric authentication so that a refugee could lose their documentation and still access their finances.
+      <guid>https://unicef.github.io/inventory/announcements/circleci-orbs/</guid>
+      <description>Are you using CircleCI to create a continuous integration pipeline for your project? Check out the latest post on the Venture Fund forum on four extensions to enhance your CI pipeline.
  </description>
     </item>
     
     <item>
-      <title>Common traps to avoid when building AI systems</title>
-      <link>https://unicef.github.io/inventory/data/traps/</link>
+      <title>Fedora Project</title>
+      <link>https://unicef.github.io/inventory/communities/fedora/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://unicef.github.io/inventory/data/traps/</guid>
-      <description>Assessing common mistakes that lead to unintended side effects. Information summarized from Fairness and Abstraction in Sociotechnical Systems, a paper published at the 2019 ACM Conference on Fairness, Accountability, and Transparency.
- 1. Framing Trap Failure to model the entire system over which a social criterion, such as fairness, will be enforced.
- For this trap, we will want to look at our outcome variables. Are these variables a proxy of the actual outcome you wish to achieve?</description>
+      <guid>https://unicef.github.io/inventory/communities/fedora/</guid>
+      <description>Table of Contents 1. What is Fedora? 1.1. Linux kernel distribution 1.2. Project 1.3. Community   2. Background 3. Get involved with Fedora      &amp;#34;Fedora&amp;#34; is not only a kind of hat, but also a large Open Source community with a unique role in the Open Source ecosystem. This page provides an overview of the Fedora Linux distribution, project, and community.
+ 1. What is Fedora?</description>
+    </item>
+    
+    <item>
+      <title>Frontier technology tips</title>
+      <link>https://unicef.github.io/inventory/documentation/frontier-tech-tips/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unicef.github.io/inventory/documentation/frontier-tech-tips/</guid>
+      <description>This is a summary of a talk, &amp;#34;Uncharted waters: Documenting emerging technology&amp;#34;. It was given at DevConf 2020 in Brno, Czech Republic by Andrew Burden.
+ 1. Video      2. Abstract  We can’t help but feel the lure towards the hot new thing, especially when it comes to technology. Part of that lure is the breaking of ground, venturing into the unknown, and working on solutions to new problems.</description>
     </item>
     
     <item>
@@ -300,6 +224,17 @@
     </item>
     
     <item>
+      <title>Governance</title>
+      <link>https://unicef.github.io/inventory/governance/governance/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unicef.github.io/inventory/governance/governance/</guid>
+      <description>Table of Contents 1. What is Open Source governance? 2. Models 3. Examples 3.1. Linux kernel 3.2. Fedora Project   4. Resources 4.1. Exploratory 4.2. Journalism     This page defines and provides examples of Open Source governance. This includes Open Source project governance models, examples of other projects, frameworks for decision-making, and more.
+ This page is a work-in-progress. Check back later for future additions.
+ 1.</description>
+    </item>
+    
+    <item>
       <title>GPLv2 vs. GPLv3</title>
       <link>https://unicef.github.io/inventory/legal-policy/gpl-comparison/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -307,6 +242,47 @@
       <guid>https://unicef.github.io/inventory/legal-policy/gpl-comparison/</guid>
       <description>Table of Contents 1. Why update? Stallman’s objection to Tivoization 1.1. Other opinions   2. Legal overview 2.1. Anti-Circumvention Law 2.2. User Product rules 2.3. Cure period and the GPL Cooperation Commitment 2.4. &amp;#34;Legalese&amp;#34;     The information shared on this page does not constitute legal or financial advice.
  This page provides an interpretation of the key differences between v2 and v3 of the GNU Public License, or G.</description>
+    </item>
+    
+    <item>
+      <title>How to create a new Inventory category</title>
+      <link>https://unicef.github.io/inventory/meta/inventory/create-new-category/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unicef.github.io/inventory/meta/inventory/create-new-category/</guid>
+      <description>Table of Contents 1. Steps 2. Template for new index pages 2.1. Choose an icon     This how-to article explains how to create a new category in the Open Source Inventory.
+ 1. Steps  Create a new folder in the content/ directory.
+  Create a _index.en.adoc page in the new directory (see template).
+  Add the category to config.yml as a child to [[menu.main]]. See other categories in the config as an example.</description>
+    </item>
+    
+    <item>
+      <title>How to create a new Inventory Mission</title>
+      <link>https://unicef.github.io/inventory/meta/inventory/create-new-mission/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unicef.github.io/inventory/meta/inventory/create-new-mission/</guid>
+      <description>Table of Contents 1. Steps 2. Front-matter data values   This how-to article explains how to create a new category in the Open Source Inventory. This how-to article explains how to create a new Mission in the Open Source Inventory.
+ 1. Steps  Copy the Mission template as a new file using the file committed at content/meta/_template.en.adoc.
+  Edit the template front-matter to include a weight, description, tags, and categories (see descriptions below).</description>
+    </item>
+    
+    <item>
+      <title>Intro to Creative Commons licenses</title>
+      <link>https://unicef.github.io/inventory/legal-policy/creative-commons/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unicef.github.io/inventory/legal-policy/creative-commons/</guid>
+      <description>Table of Contents 1. What are Creative Commons licenses? 2. Acceptable licenses for UNICEF Venture Fund 3. Free Cultural Works 3.1. Why does UNICEF prefer Free Culture licenses?   4. Resources   1. What are Creative Commons licenses? The Creative Commons licenses are a family of licenses meant for &amp;#34;open&amp;#34; content. The licenses are maintained by the Creative Commons, &amp;#34;a nonprofit organization that helps overcome legal obstacles to the sharing of knowledge and creativity to address the world’s pressing challenges.</description>
+    </item>
+    
+    <item>
+      <title>Issue templates</title>
+      <link>https://unicef.github.io/inventory/project-management/issue-templates/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unicef.github.io/inventory/project-management/issue-templates/</guid>
+      <description>This guide is an introduction to issue templates in an Open Source project. While this guide is customized to GitHub, the advice provided here is general and can be applied to other collaboration platforms that offer templating. By the end of this guide, you will have a basic understanding of why issue templates are important and how to set up effective templates for your project. This guide is complementary to an agile or scrum workflow, if your team already uses one of these methods of project management.</description>
     </item>
     
     <item>
@@ -320,12 +296,56 @@
     </item>
     
     <item>
+      <title>Machine Learning Model Card</title>
+      <link>https://unicef.github.io/inventory/data/model-card/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unicef.github.io/inventory/data/model-card/</guid>
+      <description>The following is an editable version of the model card proposed in arxiv.org/abs/1810.03993.
+ 1. Model details Basic information about the model.
+   Person or organization developing model
+  Date of last update
+  Model version
+  Model type (information about training algorithms, parameters, fairness constraints or other applied approaches, and features)
+  Paper or other resource for more information
+  Citation details</description>
+    </item>
+    
+    <item>
       <title>Maintainer&#39;s guide for O.S. Inventory</title>
       <link>https://unicef.github.io/inventory/meta/inventory/maintainers-guide/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://unicef.github.io/inventory/meta/inventory/maintainers-guide/</guid>
       <description>Table of Contents 1. Contribution conventions 1.1. Label conventions 1.2. Commit message conventions 1.3. How to update git submodule as a maintainer 1.4. How development decisions are prioritized   2. Common resources and cheat sheets 2.1. AsciiDoc syntax cheat sheet 2.2. Hugo documentation 2.3. CI pipeline (diagram)     This document is a maintainer’s guide for the UNICEF Open Source Inventory. Yes, this very site! This guide covers key information and helpful resources, as well as best practices when maintaining the O.</description>
+    </item>
+    
+    <item>
+      <title>Modules</title>
+      <link>https://unicef.github.io/inventory/meta/mentorship/modules/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unicef.github.io/inventory/meta/mentorship/modules/</guid>
+      <description>Table of Contents 1. Offered modules 1.1. Legal &amp;amp; Licensing: Foundations of Open Source intellectual property 1.2. Launching your Open Source project 1.3. Open Source documentation 1.4. Continuous Integration for continuous contribution 1.5. Archetypes: Shape and size of Open Source over time   2. Module programming 2.1. 12-month Innovation Fund contracts     The UNICEF Open Source Mentorship programme offers multiple learning modules and mentorship topics. This page provides an overview of the different modules currently offered through the Open Source Mentorship programme.</description>
+    </item>
+    
+    <item>
+      <title>Needs assessment interview template</title>
+      <link>https://unicef.github.io/inventory/meta/mentorship/needs-assessment-template/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unicef.github.io/inventory/meta/mentorship/needs-assessment-template/</guid>
+      <description>This document is an interview template for needs assessments with UNICEF Innovation Fund cohorts in Open Source induction calls. The needs assessment is a tool to collect background and context for each team’s experience and familiarity with open source. It also builds understanding for participation in existing open source communities. This template provides structure and guidance on what to ask to any team at the beginning of an Open Source Mentorship program.</description>
+    </item>
+    
+    <item>
+      <title>New article: Project charters</title>
+      <link>https://unicef.github.io/inventory/announcements/charter-published/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unicef.github.io/inventory/announcements/charter-published/</guid>
+      <description>In August 2021 Mentorship calls, start-up teams discussed project charters with Justin. We talked through how to create one for your project. Review this new guided mission to launch your own.
+ </description>
     </item>
     
     <item>
@@ -336,6 +356,68 @@
       <guid>https://unicef.github.io/inventory/meta/mentorship/onboarding/</guid>
       <description>Table of Contents 1. Summary of UNICEF Open Source Mentorship 1.1. Monthly 60m check-ins 1.2. Ad-hoc 30m meetings   2. Meet the Inventory 3. Topics covered in Open Source Mentorship   This document is for teams newly joining the UNICEF Innovation Fund. It provides a high-level overview to the UNICEF Open Source Mentorship programme, a unique perk and strategic asset of being a UNICEF investee.
  1. Summary of UNICEF Open Source Mentorship Your assigned Open Source Mentor from the Innovation Fund can be found on the programme team list.</description>
+    </item>
+    
+    <item>
+      <title>Open Hardware reading list</title>
+      <link>https://unicef.github.io/inventory/hardware/reading-list/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unicef.github.io/inventory/hardware/reading-list/</guid>
+      <description>A collection of various readings and articles related to Open Hardware.
+ 1. Innovation   How Low and Middle-Income Countries Are Innovating to Combat Covid, HBR.org: &amp;#34;One-fifth of the innovative solutions to fight the Covid-19 pandemic have emerged from low and middle-income countries, and these responses offer promising insights for how we think about, manage, and enable innovation. As the international community now faces the historic challenge of vaccinating the world, more attention and resources must be directed to the innovators who are developing technically novel, contextually relevant, and socially inclusive alternatives to mainstream innovation management practices.</description>
+    </item>
+    
+    <item>
+      <title>Open-first business approaches</title>
+      <link>https://unicef.github.io/inventory/sustainability/approaches/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unicef.github.io/inventory/sustainability/approaches/</guid>
+      <description>Table of Contents 1. Asking the right question 2. Seven approaches for building Open works 2.1. Enterprise or targeted versions 2.2. Services around your product 2.3. Services are your product 2.4. Content 2.5. Packaging 2.6. Franchising 2.7. Training     This page collects information, best practices, and references about sustainable Open-first business approaches.
+ How do you build a sustainable business approach when you work Open? While the Open Source model of working is not completely new, it is a new way of working for many people who have not previously participated in highly collaborative, distributed communities.</description>
+    </item>
+    
+    <item>
+      <title>Outreach reading list</title>
+      <link>https://unicef.github.io/inventory/project-management/reading-list/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unicef.github.io/inventory/project-management/reading-list/</guid>
+      <description>This reading list focuses on ways to promote and share your Open Source project with the world. Generally these resources are more helpful once you have built up the foundation for your Open Source project. You should have a game plan for community management in place before spending time on outreach.
+   What success really looks like in Open Source - Nadia Eghbal @nayafia
+   </description>
+    </item>
+    
+    <item>
+      <title>Project boards</title>
+      <link>https://unicef.github.io/inventory/project-management/project-boards/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unicef.github.io/inventory/project-management/project-boards/</guid>
+      <description>Table of Contents 1. About project boards 1.1. Why?   2. Case study: TeleIRC 3. Examples 4. Additional resources   This guide is an introduction to project boards for your open source project. By the end of this guide, you will have a basic understanding of how to run project planning in an open, transparent way to your community. What this guide is NOT is a guide to agile/scrum development.</description>
+    </item>
+    
+    <item>
+      <title>Project Hall of Fame</title>
+      <link>https://unicef.github.io/inventory/hardware/projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unicef.github.io/inventory/hardware/projects/</guid>
+      <description>This page collects various Open Hardware projects. These projects are not officially endorsed, but are listed here as a convenience to generate a list of examples for reference. For more detailed overviews, see the Case Studies page.
+ Check out the list of certified hardware from the Open Source Hardware Association for more inspiration.
+ 1. Businesses &amp;amp; companies   Adafruit Industries
+  Aleph Objects: Makers of LulzBot family of 3D printers.</description>
+    </item>
+    
+    <item>
+      <title>Public Lab</title>
+      <link>https://unicef.github.io/inventory/communities/public-lab/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unicef.github.io/inventory/communities/public-lab/</guid>
+      <description>Public Lab is a community of practice that has informally collaborated with UNICEF Innovation Fund team members in the past. To learn more about this community, reach out to your assigned Open Source Mentor or see the contact info below.
+ 1. About Public Lab  Access to knowledge is a fundamental right. When people want to investigate their environment, Public Lab is the place to go to find and share knowledge, equipment, and community.</description>
     </item>
     
     <item>
@@ -351,13 +433,32 @@
     </item>
     
     <item>
-      <title>Open Hardware reading list</title>
-      <link>https://unicef.github.io/inventory/hardware/reading-list/</link>
+      <title>Reading list: FOSS</title>
+      <link>https://unicef.github.io/inventory/governance/reading-list/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://unicef.github.io/inventory/hardware/reading-list/</guid>
-      <description>A collection of various readings and articles related to Open Hardware.
- 1. Innovation   How Low and Middle-Income Countries Are Innovating to Combat Covid, HBR.org: &amp;#34;One-fifth of the innovative solutions to fight the Covid-19 pandemic have emerged from low and middle-income countries, and these responses offer promising insights for how we think about, manage, and enable innovation. As the international community now faces the historic challenge of vaccinating the world, more attention and resources must be directed to the innovators who are developing technically novel, contextually relevant, and socially inclusive alternatives to mainstream innovation management practices.</description>
+      <guid>https://unicef.github.io/inventory/governance/reading-list/</guid>
+      <description>Table of Contents 1. Foundations 2. Governance   Readings on a variety of topics about Free &amp;amp; Open Source Software.
+ 1. Foundations   Four Freedoms of Free Software: Before understanding anything else about Open Source, you must first understand the core foundation of what decades of Open Source development built upon: the Four Freedoms. The Four Freedoms can be remembered as the freedoms to Read, Run, Revise, &amp;amp; Redistribute.</description>
+    </item>
+    
+    <item>
+      <title>Reading List: Legal &amp; Business Aspects</title>
+      <link>https://unicef.github.io/inventory/legal-policy/reading-list/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unicef.github.io/inventory/legal-policy/reading-list/</guid>
+      <description>Table of Contents 1. Foundations 2. Choosing a license 2.1. Choosing permissive 2.2. Choosing copyleft   3. Examples 3.1. Software licenses 3.2. Content licenses 3.3. Data licenses     This reading list is a collection of resources on legal and business aspects of open source. Legal and business aspects of an open source project are part of the foundation for building your project and community. The resources linked here are intended to give you a better idea of open source from a legal perspective.</description>
+    </item>
+    
+    <item>
+      <title>Reproducibility reading list</title>
+      <link>https://unicef.github.io/inventory/reproducibility/reading-list/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unicef.github.io/inventory/reproducibility/reading-list/</guid>
+      <description>  A Guide to Reproducible Code: A guide written by scientists, for scientists, on creating reproducible code. Includes topics like A simple reproducible project workflow, Organising projects for reproducibility, Reproducible reports, and more. Edited by Natalie Cooper and Pen-Yuan Hsing. Featuring contributions from Mike Croucher, Laura Graham, Tamora James, Anna Krystalli, and François Michonneau.
+   </description>
     </item>
     
     <item>
@@ -375,48 +476,6 @@
     </item>
     
     <item>
-      <title>ScioXR</title>
-      <link>https://unicef.github.io/inventory/cohorts/vr-ar/scioxr/</link>
-      <pubDate>Fri, 25 Sep 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://unicef.github.io/inventory/cohorts/vr-ar/scioxr/</guid>
-      <description>Propter D.O.O are developing ScioXR, a VR/AR software platform that delivers immersive learning games and experiences that empower students to learn about the world around them.
- Technology around us has gone a long way since the beginning of our millennium. Yet, most of our classrooms remain more or less the same as they were at the end of the 20th century. This especially applies to the STEM (Science, Technology, Engineering and Mathematics) field.</description>
-    </item>
-    
-    <item>
-      <title>Fedora Project</title>
-      <link>https://unicef.github.io/inventory/communities/fedora/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://unicef.github.io/inventory/communities/fedora/</guid>
-      <description>Table of Contents 1. What is Fedora? 1.1. Linux kernel distribution 1.2. Project 1.3. Community   2. Background 3. Get involved with Fedora      &amp;#34;Fedora&amp;#34; is not only a kind of hat, but also a large Open Source community with a unique role in the Open Source ecosystem. This page provides an overview of the Fedora Linux distribution, project, and community.
- 1. What is Fedora?</description>
-    </item>
-    
-    <item>
-      <title>Project Hall of Fame</title>
-      <link>https://unicef.github.io/inventory/hardware/projects/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://unicef.github.io/inventory/hardware/projects/</guid>
-      <description>This page collects various Open Hardware projects. These projects are not officially endorsed, but are listed here as a convenience to generate a list of examples for reference. For more detailed overviews, see the Case Studies page.
- Check out the list of certified hardware from the Open Source Hardware Association for more inspiration.
- 1. Businesses &amp;amp; companies   Adafruit Industries
-  Aleph Objects: Makers of LulzBot family of 3D printers.</description>
-    </item>
-    
-    <item>
-      <title>Reading list: FOSS</title>
-      <link>https://unicef.github.io/inventory/governance/reading-list/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://unicef.github.io/inventory/governance/reading-list/</guid>
-      <description>Table of Contents 1. Foundations 2. Governance   Readings on a variety of topics about Free &amp;amp; Open Source Software.
- 1. Foundations   Four Freedoms of Free Software: Before understanding anything else about Open Source, you must first understand the core foundation of what decades of Open Source development built upon: the Four Freedoms. The Four Freedoms can be remembered as the freedoms to Read, Run, Revise, &amp;amp; Redistribute.</description>
-    </item>
-    
-    <item>
       <title>Text editors</title>
       <link>https://unicef.github.io/inventory/documentation/text-editors/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -427,36 +486,6 @@
   VimGolf: Various take-home challenges of various actions in Vim to be completed in as few keystrokes as possible.
   Game: Vim Adventures, an adventure game that helps you learn Vim as you play.
      </description>
-    </item>
-    
-    <item>
-      <title>Workplan: Bridge Fund cohort</title>
-      <link>https://unicef.github.io/inventory/meta/mentorship/workplan-bridge-funding/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://unicef.github.io/inventory/meta/mentorship/workplan-bridge-funding/</guid>
-      <description>Table of Contents 1. Mission 2. Vision 3. Community 4. Timeline 4.1. Q1 4.2. Q2 4.3. Q3 4.4. Q4   5. References   This page documents the workplan requirements for the Bridge Fund cohort of the UNICEF Innovation Fund. These graduation expectations are in place for UNICEF grantees receiving follow-on funding from UNICEF. See the table of contents for navigating.
- 1. Mission Bridging humanitarian Open Source works and communities to the wider Open Source ecosystem.</description>
-    </item>
-    
-    <item>
-      <title>Reading List: Legal &amp; Business Aspects</title>
-      <link>https://unicef.github.io/inventory/legal-policy/reading-list/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://unicef.github.io/inventory/legal-policy/reading-list/</guid>
-      <description>Table of Contents 1. Foundations 2. Choosing a license 2.1. Choosing permissive 2.2. Choosing copyleft   3. Examples 3.1. Software licenses 3.2. Content licenses 3.3. Data licenses     This reading list is a collection of resources on legal and business aspects of open source. Legal and business aspects of an open source project are part of the foundation for building your project and community. The resources linked here are intended to give you a better idea of open source from a legal perspective.</description>
-    </item>
-    
-    <item>
-      <title>Outreach reading list</title>
-      <link>https://unicef.github.io/inventory/project-management/reading-list/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://unicef.github.io/inventory/project-management/reading-list/</guid>
-      <description>This reading list focuses on ways to promote and share your Open Source project with the world. Generally these resources are more helpful once you have built up the foundation for your Open Source project. You should have a game plan for community management in place before spending time on outreach.
-   What success really looks like in Open Source - Nadia Eghbal @nayafia
-   </description>
     </item>
     
     <item>
@@ -481,42 +510,13 @@
     </item>
     
     <item>
-      <title>Public Lab</title>
-      <link>https://unicef.github.io/inventory/communities/public-lab/</link>
+      <title>Workplan: Bridge Fund cohort</title>
+      <link>https://unicef.github.io/inventory/meta/mentorship/workplan-bridge-funding/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://unicef.github.io/inventory/communities/public-lab/</guid>
-      <description>Public Lab is a community of practice that has informally collaborated with UNICEF Innovation Fund team members in the past. To learn more about this community, reach out to your assigned Open Source Mentor or see the contact info below.
- 1. About Public Lab  Access to knowledge is a fundamental right. When people want to investigate their environment, Public Lab is the place to go to find and share knowledge, equipment, and community.</description>
-    </item>
-    
-    <item>
-      <title>Drones</title>
-      <link>https://unicef.github.io/inventory/cohorts/drones/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://unicef.github.io/inventory/cohorts/drones/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Enhance your CircleCI pipeline with these four extensions</title>
-      <link>https://unicef.github.io/inventory/announcements/circleci-orbs/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://unicef.github.io/inventory/announcements/circleci-orbs/</guid>
-      <description>Are you using CircleCI to create a continuous integration pipeline for your project? Check out the latest post on the Venture Fund forum on four extensions to enhance your CI pipeline.
- </description>
-    </item>
-    
-    <item>
-      <title>New article: Project charters</title>
-      <link>https://unicef.github.io/inventory/announcements/charter-published/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://unicef.github.io/inventory/announcements/charter-published/</guid>
-      <description>In August 2021 Mentorship calls, start-up teams discussed project charters with Justin. We talked through how to create one for your project. Review this new guided mission to launch your own.
- </description>
+      <guid>https://unicef.github.io/inventory/meta/mentorship/workplan-bridge-funding/</guid>
+      <description>Table of Contents 1. Mission 2. Vision 3. Community 4. Timeline 4.1. Q1 4.2. Q2 4.3. Q3 4.4. Q4   5. References   This page documents the workplan requirements for the Bridge Fund cohort of the UNICEF Innovation Fund. These graduation expectations are in place for UNICEF grantees receiving follow-on funding from UNICEF. See the table of contents for navigating.
+ 1. Mission Bridging humanitarian Open Source works and communities to the wider Open Source ecosystem.</description>
     </item>
     
   </channel>

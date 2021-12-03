@@ -26,6 +26,17 @@
     </item>
     
     <item>
+      <title>Common traps to avoid when building AI systems</title>
+      <link>https://unicef.github.io/inventory/data/traps/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unicef.github.io/inventory/data/traps/</guid>
+      <description>Assessing common mistakes that lead to unintended side effects. Information summarized from Fairness and Abstraction in Sociotechnical Systems, a paper published at the 2019 ACM Conference on Fairness, Accountability, and Transparency.
+ 1. Framing Trap Failure to model the entire system over which a social criterion, such as fairness, will be enforced.
+ For this trap, we will want to look at our outcome variables. Are these variables a proxy of the actual outcome you wish to achieve?</description>
+    </item>
+    
+    <item>
       <title>Machine Learning Model Card</title>
       <link>https://unicef.github.io/inventory/data/model-card/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -39,17 +50,6 @@
   Model type (information about training algorithms, parameters, fairness constraints or other applied approaches, and features)
   Paper or other resource for more information
   Citation details</description>
-    </item>
-    
-    <item>
-      <title>Common traps to avoid when building AI systems</title>
-      <link>https://unicef.github.io/inventory/data/traps/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://unicef.github.io/inventory/data/traps/</guid>
-      <description>Assessing common mistakes that lead to unintended side effects. Information summarized from Fairness and Abstraction in Sociotechnical Systems, a paper published at the 2019 ACM Conference on Fairness, Accountability, and Transparency.
- 1. Framing Trap Failure to model the entire system over which a social criterion, such as fairness, will be enforced.
- For this trap, we will want to look at our outcome variables. Are these variables a proxy of the actual outcome you wish to achieve?</description>
     </item>
     
   </channel>
