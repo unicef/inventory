@@ -1,12 +1,12 @@
 ---
 title: "Common traps to avoid when building AI systems"
-weight: 30
 description: Assessing common AI/ML mistakes that lead to unintended side effects.
 tags: ["design"]
 categories: "data"
 downloadBtn: "true"
 
 ---
+
 _Assessing common mistakes that lead to unintended side effects._
 Information summarized from https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3265913[_Fairness and Abstraction in Sociotechnical Systems_], a paper published at the 2019 ACM Conference on Fairness, Accountability, and Transparency.
 

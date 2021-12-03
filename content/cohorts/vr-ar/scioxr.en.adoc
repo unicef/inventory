@@ -1,6 +1,5 @@
 ---
 title: ScioXR
-weight: 50
 categories: "team"
 tags: ["team"]
 type: profiles

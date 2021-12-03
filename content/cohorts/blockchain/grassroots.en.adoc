@@ -5,7 +5,6 @@ description: Prospering economies built by thriving communities.
 tags: ["team"]
 categories: "team"
 type: "profiles"
-weight: 40
 country: "Kenya"
 date: 2021-07-25
 github: "https://github.com/GrassrootsEconomics"

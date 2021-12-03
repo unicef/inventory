@@ -1,6 +1,5 @@
 ---
 title: "Machine Learning Model Card"
-weight: 20
 description: Model cards help you document how your model was made. Use this overview to make your own model cards.
 tags: ["design", "template"]
 categories: "data"

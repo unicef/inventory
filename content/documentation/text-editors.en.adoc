@@ -1,6 +1,5 @@
 ---
 title: "Text editors"
-weight: 50
 description: Educational resources, guides, and information about text editors and IDEs.
 tags: ["tools"]
 categories: "documentation"

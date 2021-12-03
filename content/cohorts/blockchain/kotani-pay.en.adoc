@@ -5,7 +5,6 @@ description: Africa's most reliable off-ramps APIs
 tags: ["team"]
 categories: "team"
 type: "profiles"
-weight: 40
 country: "Kenya"
 date: 2021-07-26
 github: "https://github.com/KotaniLabs"

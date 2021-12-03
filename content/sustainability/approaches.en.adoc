@@ -1,6 +1,5 @@
 ---
 title: Open-first business approaches
-weight: 10
 description: Information, best practices, and references about sustainable Open-first business approaches.
 tags: ["sustainability"]
 categories: "sustainability"

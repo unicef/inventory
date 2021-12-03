@@ -1,6 +1,5 @@
 ---
 title: Leaf Global Fintech
-weight: 30
 categories: "team"
 tags: ["team"]
 type: profiles

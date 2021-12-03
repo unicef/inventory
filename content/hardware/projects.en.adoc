@@ -1,6 +1,5 @@
 ---
 title: Project Hall of Fame
-weight: 50
 description: Various Open Source Hardware projects and links back to their projects and/or communities.
 tags: ["hall of fame"]
 categories: "hardware"
