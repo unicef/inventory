@@ -1,6 +1,5 @@
 ---
 title: "Maintainer's guide for O.S. Inventory"
-weight: 30
 description: Overview of learning modules currently offered through the UNICEF Open Source Mentorship programme.
 tags: ["docs", "testing"]
 aliases:

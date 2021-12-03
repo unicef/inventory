@@ -1,9 +1,9 @@
 ---
 title: "Charters"
-weight: 10
 description: Embark on a mission to create a project charter for your Open Source work.
 tags: ["documentation"]
 categories: "missions"
+downloadBtn: "true"
 
 ---
 :author: Justin W. Flory

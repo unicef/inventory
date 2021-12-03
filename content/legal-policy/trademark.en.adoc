@@ -1,6 +1,5 @@
 ---
 title: "Trademark strategies"
-weight: 70
 description: Guidance on developing a strategy for Open Source trademarks and branding.
 tags: ["trademark", "legal"]
 categories: "legal"

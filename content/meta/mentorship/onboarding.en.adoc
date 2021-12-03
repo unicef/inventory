@@ -1,6 +1,5 @@
 ---
 title: "On-boarding guide for UNICEF Innovation Fund teams"
-weight: 30
 description: Terms of reference for being on-boarded to the UNICEF Open Source Mentorship programme as a start-up.
 tags: [""]
 categories: "meta"

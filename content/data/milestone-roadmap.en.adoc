@@ -1,6 +1,5 @@
 ---
 title: "AI Ethics & Transparency Roadmap - Template"
-weight: 10
 description: How do you document your machine learning development process? This guide shares transparency best practices.
 tags: ["template"]
 categories: "data"

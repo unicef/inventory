@@ -1,6 +1,5 @@
 ---
 title: "Workflow: Update external UNICEF metrics"
-weight: 70
 description: How a UNICEF contractor manages and updates metrics about Innovation Fund portfolio company projects.
 tags: ["workflows"]
 categories: "meta"

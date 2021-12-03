@@ -1,6 +1,5 @@
 ---
 title: "How to create a new Inventory category"
-weight: 10
 description: Guidance on creating a new content category in the Open Source Inventory.
 tags: ["admin"]
 categories: "meta"

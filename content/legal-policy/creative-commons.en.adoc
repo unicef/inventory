@@ -1,6 +1,5 @@
 ---
 title: "Intro to Creative Commons licenses"
-weight: 25
 description: A crash course on Creative Commons licenses and how they are applied at the UNICEF Venture Fund.
 tags: ["content", "licenses", "legal"]
 categories: "legal"

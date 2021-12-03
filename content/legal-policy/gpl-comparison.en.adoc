@@ -1,6 +1,5 @@
 ---
 title: "GPLv2 vs. GPLv3"
-weight: 30
 description: A deep dive on the exact differences between the Free Software Foundation's two versions of the GPL license.
 tags: ["legal"]
 categories: "legal"
