@@ -1,0 +1,65 @@
+---
+title: Treejer
+categories: "team"
+tags: ["team"]
+type: profiles
+
+description: Forest-based climate action protocol to track trees and growth, a financing tool to facilitate micro-loans and payments to rural tree planters.
+country: Iran
+date: 2021-07-25
+github: https://github.com/treejer
+linkedin: https://www.linkedin.com/company/treejer/
+twitter: https://twitter.com/treejertalks
+website: https://treejer.com/
+community: https://discuss.treejer.com/
+logo: /inventory/cohorts/logo-treejer.png
+sdgs:
+    - 1
+    - 2
+    - 9
+    - 10
+    - 11
+    - 13
+    - 15
+dpgs:
+    - 1
+    - 2
+    - 4
+    - 5
+
+---
+
+Treejer (trēʒər) is an open protocol connecting funders to rural planters worldwide.
+The project is experimenting with cutting-edge concepts such as decentralized finance (DeFi), non-fungible tokens (NFTs) and smart contracts to unlock new opportunities for climate finance, rural development and carbon credits.
+The team has on-boarded planters from over 10 countries located in the Latin America, Africa and Middle East.
+Users are enabled to make ecological and social impact even in unbanked communities.
+
+The protocol consists of several smart contracts and two main interfaces linked to them:
+
+. link:#web[Web interface for funders at treejer.com]
+. link:#app[Mobile app for tree planters]
+
+
+[[web]]
+== Web Interface
+
+Using Treejer's web interface, users can start a forest and add trees.
+They see a track the forest status and get updates from planters.
+The interface allows to send tree gifts to others.
+
+image::1-my-forest.jpg[Screenshot of the My Forest application.]
+
+image::2-tree-of-life.jpg[Screenshot of a tree profile, with location and GPS coordinates.]
+
+Each tree is represented by a clean NFT on Polygon network (Ethereum's sidechain) and is traceable by design.
+Real-life and on-chain attributes of the trees are accessible to everyone.
+Trees are individually profiled and each one has its own unique attributes, similar to collectibles.
+The team aims to make climate finance more fun for users.
+
+
+[[app]]
+== Mobile App
+
+Rural planters use a dedicated mobile application to join Treejer, submit trees, update their status and receive rewards.
+
+image::3-ranger-app.jpg[Treejer's mobile application, the Ranger app.]
