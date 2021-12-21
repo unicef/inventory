@@ -8,10 +8,16 @@ enableGitInfo = true
 # Google Analytics
 googleAnalytics = "G-80FMX4TPM0"
 
+
+############################# Security configuration #############################
+
 # Allow unsafe HTML
 [markup.goldmark.renderer]
 unsafe = true
 
+[security]
+    [security.exec]
+        allow = ['^dart-sass-embedded$', '^go$', '^npx$', '^postcss$', '^asciidoctor$']
 
 ############################# Navigation #############################
 [[menu.main]]
