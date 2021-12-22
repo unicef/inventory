@@ -42,12 +42,6 @@ hasChildren = true
 
     [[menu.main]]
     parent = "pages"
-    name = "Design"
-    url = "design"
-    weight = 30
-
-    [[menu.main]]
-    parent = "pages"
     name = "Developer Tools & Automation"
     url = "dev-tools"
     weight = 40
