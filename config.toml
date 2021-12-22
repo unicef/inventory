@@ -11,13 +11,10 @@ googleAnalytics = "G-80FMX4TPM0"
 
 ############################# Security configuration #############################
 
-# Allow unsafe HTML
-[markup.goldmark.renderer]
-unsafe = true
-
 [security]
     [security.exec]
         allow = ['^dart-sass-embedded$', '^go$', '^npx$', '^postcss$', '^asciidoctor$']
+
 
 ############################# Navigation #############################
 [[menu.main]]
@@ -153,7 +150,6 @@ hasChildren = true
     weight = 60
 
 
-
 ############################# Default parameters #############################
 [params]
 logo = "images/unicef-logo.png"
@@ -179,6 +175,7 @@ contact_form_action = "#"
 
 # related article number limit
 article_count = 3
+
 
 ############################# DPGs #############################
 [[params.dpgs]]
@@ -230,6 +227,11 @@ tabWidth = 4
 [markup.asciidocExt]
 preserveTOC = true
 sectionNumbers = true
+
+# Allow unsafe HTML
+[markup.goldmark.renderer]
+unsafe = true
+
 
 ############################# Related Articles #############################
 [taxonomies]
