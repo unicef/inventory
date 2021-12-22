@@ -28,6 +28,7 @@
 			  --body-color:#D8D1C9;
 			  --text-color:#777779;
 			  --text-color-dark:#374EA2;
+			  --text-title-color:;
 			  --white-color:#ffffff;
 			  --light-color:#f8f9fa;
 			  --font-family:Open+Sans;
@@ -76,12 +77,14 @@
 		<header class="shadow-bottom sticky-top bg-white">
 			<nav class="navbar navbar-expand-md navbar-dark" style=" background-color: #1CABE2">
 				<div class="container px-2 px-md-0">
-					<a class="navbar-brand px-2" href="https://www.unicef.org/">
-						<div class="text-center nav-heading">
-							<img class="img-fluid nav-img" src="https://unicef.github.io/inventory/images/unicef-logo.png" alt="UNICEF O.S. Inventory">
-							<a class="text-white d-block nav-title" href="/inventory">UNICEF O.S. Inventory</a>
-						</div>
-					</a>
+					<div id="site-brand">
+						<a class="navbar-brand px-2" href="https://www.unicef.org/">
+							<div class="text-center nav-heading">
+								<img class="img-fluid nav-img" src="https://unicef.github.io/inventory/images/unicef-logo.png" alt="UNICEF O.S. Inventory">
+								<a class="d-block nav-title" href="/inventory">UNICEF O.S. Inventory</a>
+							</div>
+						</a>
+					</div>
 					<button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation"
       aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
 						<span class="navbar-toggler-icon"></span>
@@ -129,7 +132,7 @@
 						</ul>
 						<select class="lang-list bg-primary dark mb-3 mb-md-0" id="select-language"
         onchange="location = this.value;">
-							<option id="en" value="https://unicef.github.io/inventory/legal-policy/reading-list/" selected>en
+							<option id="en" value="https://unicef.github.io/inventory/communities/" selected>en
 							</option>
 						</select>
 					</div>
@@ -307,7 +310,7 @@
 					</li>
 					<li class="nav-item">
 						<a class="nav-link text-white font-weight-bold" href="https://www.unicef.org/legal">Legal</a>
-						<p class="h6 text-md-right font-weight-light">Find legal information and policies related to UNICEF's digital communications</p>
+						<p class="h6 text-md-right font-weight-light"></p>
 					</li>
 				</ul>
 				<ul class="list-inline">
