@@ -112,17 +112,6 @@
     </item>
     
     <item>
-      <title>Design &amp; UX Reading List</title>
-      <link>https://unicef.github.io/inventory/design/reading-list/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://unicef.github.io/inventory/design/reading-list/</guid>
-      <description>Various readings and learnings about design. Usually with some kind of Open Source overlap or context.
-   Trauma &amp;amp; design PubPub: Some basic definitions key to understanding the relationship between trauma and design. Maintained by KJ Hepworth, Kat Lo, Eriol Fox, and Shirin Mori.
-  Ushahidi Open Design, maintained by Eriol Fox: A collection of resources, notes, and other written content for distributed, asynchronous design contributions to software projects.</description>
-    </item>
-    
-    <item>
       <title>Documentation</title>
       <link>https://unicef.github.io/inventory/hardware/documentation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
