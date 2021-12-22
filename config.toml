@@ -190,6 +190,18 @@ article_count = 3
   dpg9 = "Do No Harm by Design"
 
 
+############################# Brand & identity #############################
+[params.brand]
+parent_org_name = "UNICEF Global"
+parent_org_url = "https://www.unicef.org/"
+parent_org_url_legal = "https://www.unicef.org/legal"
+
+[params.footer]
+mainSite = "https://www.unicefinnovationfund.org/"
+mainSiteName = "UNICEF Innovation Fund"
+description = "The UNICEF Open Source Inventory is a knowledge-base of best practices, resources, and information about working and leading Open. This is maintained as part of the Open Source Mentorship programme offered by the UNICEF Innovation Fund. The Inventory provides mentorship and guidance to anyone seeking to adopt best practices in their journey to building an Open Source project and community. It is self-serve, and can be used at various phases of building a project and community."
+
+
 ############################# Social links #############################
 # themify icon pack : https://themify.me/themify-icons
 
@@ -202,11 +214,6 @@ link = "https://github.com/unicef/inventory"
 icon = "ti-twitter"
 name = "@UNICEFinnovate on Twitter"
 link = "https://twitter.com/UNICEFinnovate"
-
-[params.footer]
-mainSite = "https://www.unicefinnovationfund.org/"
-mainSiteName = "UNICEF Innovation Fund"
-description = "The UNICEF Open Source Inventory is a knowledge-base of best practices, resources, and information about working and leading Open. This is maintained as part of the Open Source Mentorship programme offered by the UNICEF Innovation Fund. The Inventory provides mentorship and guidance to anyone seeking to adopt best practices in their journey to building an Open Source project and community. It is self-serve, and can be used at various phases of building a project and community."
 
 
 ############################# Markup tweaks and customization #############################
