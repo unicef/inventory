@@ -3,26 +3,26 @@
 # Force-push the built HTML to the `gh-pages` branch.
 #
 
-set -e
+set -eu
 
 DEPLOY_DIR=~/project
 
 # trust GitHub server keys
-if [ ! -d ~/.ssh/ ]; then
+if [[ ! -d ~/.ssh/ ]]; then
   mkdir ~/.ssh/
 fi
 ssh-keyscan github.com >> ~/.ssh/known_hosts
 
 # stage generated HTML for GitHub Pages
-git clone --quiet --branch=gh-pages $CIRCLE_REPOSITORY_URL $DEPLOY_DIR
-rsync --archive --recursive --verbose --remove-source-files $HOME/hugo/$CIRCLE_PROJECT_REPONAME/public/* $DEPLOY_DIR
+git clone --quiet --branch=gh-pages "$CIRCLE_REPOSITORY_URL" "$DEPLOY_DIR"
+rsync --archive --recursive --verbose --remove-source-files $HOME/hugo/$CIRCLE_PROJECT_REPONAME/public/* "$DEPLOY_DIR"
 
 # git client setup
-cd $DEPLOY_DIR
+cd "$DEPLOY_DIR"
 git config --global push.default simple
-git config --global user.email $(git --no-pager show --no-patch --format='%ae' HEAD)
+git config --global user.email "$(git --no-pager show --no-patch --format='%ae' HEAD)"
 if [ -n $CIRCLE_USERNAME ]; then
-  git config --global user.name $CIRCLE_USERNAME
+  git config --global user.name "$CIRCLE_USERNAME"
 else
   git config --global user.name "Committer not registered on CircleCI"
 fi
