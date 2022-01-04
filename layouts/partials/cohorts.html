@@ -110,15 +110,15 @@
             {{ else }}
             <div class="bg-light row pt-3">
             {{range .Pages}}
-                <div class="col-md-6 col-sm-12 card-deck">
-                    <div class="card col mb-3 py-3 border-light" style="background-color: white;">
+                <div class="col-md-6 col-sm-12 card-deck cohort-cards">
+                    <div class="card col mb-3 py-3 border-light relative " style="background-color: white;">
                             <div class="">
-                                <div class="w-50 float-left m-2">
+                                <div class="w-25 float-left m-2">
                                     <img src="{{.Params.logo}}"  alt="{{ .Params.Title }} Logo" srcset="" class="rounded-circle img-fluid">
                                 </div>
                                 
-                                    <h3>{{ .Params.Title }}</h3>
-                                    <p style="font-size: 0.8rem">{{ .Params.Description }}</p>
+                                    <h4>{{ .Params.Title }}</h4>
+                                    <p class="text-left" style="font-size: 0.8rem">{{ .Params.Description }}</p>
                               
                             </div>
                             <div class="row d-flex justify-content-between mx-3 my-2" style="font-size: 0.75rem">
