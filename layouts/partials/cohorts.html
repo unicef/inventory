@@ -112,14 +112,14 @@
             {{range .Pages}}
                 <div class="col-md-6 col-sm-12 card-deck">
                     <div class="card col mb-3 py-3 border-light" style="background-color: white;">
-                            <div class="row">
-                                <div class="col">
+                            <div class="">
+                                <div class="w-50 float-left m-2">
                                     <img src="{{.Params.logo}}"  alt="{{ .Params.Title }} Logo" srcset="" class="rounded-circle img-fluid">
                                 </div>
-                                <div class="col align-items-center">
+                                
                                     <h3>{{ .Params.Title }}</h3>
                                     <p style="font-size: 0.8rem">{{ .Params.Description }}</p>
-                                </div>
+                              
                             </div>
                             <div class="row d-flex justify-content-between mx-3 my-2" style="font-size: 0.75rem">
                                 <span><i class="fa fa-map-marker mr-1"></i>{{ .Params.country }}</span>
