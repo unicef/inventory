@@ -8,26 +8,28 @@ This page explains logistics of contributing, how to set up the project locally,
 ## Is your contribution content, code, or something else?
 
 First, decide if you are interested in submitting either **content**, **code**, or something else.
-This project has capacity to accept new changes and revisions to existing content, and a limited amount of code to improve the Inventory site UI/UX.
-We are interested in other types of contributions beyond these, but these are what we are currently ready to handle.
+We accept both updates & revisions to existing content and code to improve the user interface and experience.
+Other contribution ideas are welcome, but if you do not see something listed here, you may have to propose it.
 
 
 ## Propose new ideas
 
 Do you have new ideas for content?
 Is there incorrect information on the website?
-Have ideas on how to make the site better?
+Have ideas on how to make the site look-and-feel better?
 **Everything starts first as an issue-driven discussion**.
-Open a GitHub issue to raise your idea or proposal to the UNICEF Community.
+Open a GitHub issue to raise your idea or proposal to the UNICEF Community:
 
-### [Open an issue on GitHub.com](https://github.com/unicef/inventory/issues/new/choose)
+### **For content & writing**: [unicef/inventory](https://github.com/unicef/inventory/issues/new/choose)
+
+### **For design & code**: [unicef/inventory-hugo-theme](https://github.com/unicef/inventory-hugo-theme/issues/new/choose)
 
 
-## Set up a development environment
+## Create a local environment of the Inventory
 
-If you intend to contribute content or code to the UNICEF Open Source Inventory, you need a development environment.
-The development environment is how you run a copy of the website locally on your machine.
-This way, you can test your changes first before you submit them for review upstream.
+If you intend to contribute content or code to the UNICEF Open Source Inventory, you need a local environment.
+The local environment is how you run a copy of the website on your own machine.
+This way, you can test changes first before submitting them for review.
 
 ### Pre-requirements
 
@@ -41,7 +43,7 @@ This way, you can test your changes first before you submit them for review upst
 
 ### Clone repository
 
-You need to clone the [git submodule]() of the [unicef/inventory-hugo-theme]() repository for the site to build correctly.
+You need to clone the [git submodule](https://www.atlassian.com/git/tutorials/git-submodule) of the [unicef/inventory-hugo-theme](https://github.com/unicef/inventory-hugo-theme) repository for the site to build correctly.
 Use the following command to clone the git repository:
 
 ```bash
