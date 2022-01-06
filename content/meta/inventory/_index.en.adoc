@@ -1,7 +1,6 @@
 ---
 title: "Open Source Inventory maintenance"
 description: "Documentation and reference material about this website, the Open Source Inventory."
-type: "docs"
 
 ---
 
