@@ -1,7 +1,6 @@
 ---
 title: "Open Source Mentorship"
 description: "Documentation and reference material about the UNICEF Open Source Mentorship programme."
-type: "docs"
 
 ---
 
