@@ -3,7 +3,7 @@
 
 == Our Pledge
 
-We as members, contributors, and leaders pledge to make participation in our community a harassment-free experience for everyone, regardless of age, body size, visible or invisible disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, religion, or sexual identity and orientation.
+We as members, contributors, and leaders pledge to make participation in our community a harassment-free experience for everyone, regardless of age, body size, visible or invisible disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, caste, color, religion, or sexual identity and orientation.
 
 We pledge to act and interact in ways that contribute to an open, welcoming, diverse, inclusive, and healthy community.
 
@@ -42,9 +42,9 @@ Examples of representing our community include using an official e-mail address,
 
 == Enforcement
 
-Instances of abusive, harassing, or otherwise unacceptable behavior may be reported to the community leaders responsible for enforcement at UNICEF through email.
+Instances of abusive, harassing, or otherwise unacceptable behavior may be reported to the community leaders responsible for enforcement at UNICEF Office of Global Innovation through email.
 The primary point-of-contact for Code of Conduct issues is Justin W. Flory <jflory@unicef.org>.
-If a complaint is about or concerns the primary point-of-contact, email the UNICEF Innovation Fund management <venturefund@unicef.org>.
+If a complaint is about or concerns the primary point-of-contact, email the UNICEF Venture Fund management <venturefund@unicef.org>.
 All complaints will be reviewed and investigated promptly and fairly.
 
 All community leaders are obligated to respect the privacy and security of the reporter of any incident.
@@ -95,7 +95,7 @@ A permanent ban from any sort of public interaction within the community.
 
 == Attribution
 
-This Code of Conduct is adapted from the Contributor Covenant, version 2.0, available at https://www.contributor-covenant.org/version/2/0/code_of_conduct.html.
+This Code of Conduct is adapted from the Contributor Covenant, version 2.1, available at https://www.contributor-covenant.org/version/2/1/code_of_conduct.html.
 
 Community Impact Guidelines were inspired by Mozilla's code of conduct enforcement ladder.
 
