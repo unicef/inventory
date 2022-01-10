@@ -11,7 +11,7 @@ github: https://github.com/KotaniLabs
 linkedin: https://www.linkedin.com/company/kotanipay/
 twitter: https://twitter.com/kotanipay
 website: https://kotanipay.com/
-community: https://t.me/kotanipay
+community: https://t.me/+LTmfpS8m2ltlOTY0
 logo: /inventory/cohorts/logo-kotani-pay.png
 sdgs:
     - 8
