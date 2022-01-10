@@ -1,0 +1,49 @@
+---
+title: VRapeutic
+weight: 80
+categories: "team"
+tags: ["team"]
+type: profiles
+
+description: VR content for children diagnosed with ADHD and autism for skill-based learning.
+country: Egypt
+date: 2020-09-25
+github: https://github.com/VRapeutic
+linkedin: https://www.linkedin.com/company/vrapeutic/
+twitter: https://twitter.com/myvrapeutic
+website: https://myvrapeutic.com/
+community: ""
+logo: /inventory/cohorts/logo-vrapeutic.png
+sdgs:
+    - 4
+dpgs:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+
+---
+
+*VRapeutic develops virtual reality software modules specially tailored to instill cognitive, social, academic, and motor skills in children and young adults.*
+
+VRapeutic creates VR content for children diagnosed with ADHD and autism for skill-based learning.
+We do in months what is currently done in years, by realizing the potential of virtual reality-based rehabilitation in the field of learning and developmental disorders, such as autism, ADHD, cerebral palsy, in addition to others.
+
+For children with disabilities there is a lack of commercialized solutions that realize the potential of virtual reality and immersive technologies, as an intervention approach in this field.
+This is despite the ever-growing body of research that highlights the potential of VR/AR as a learning tool.
+Meanwhile, it would take tens of years of therapy and can take up to $2.5M to raise a child with a learning challenge using the classical intervention approaches.
+
+VRapeautic design engaging and immersive virtual environments that are specially tailored to instill diverse life skills in children, such as social, motor, cognitive, and academic skills.
+The team delivers software, installed on VR headsets, to therapy centers, and content is delivered under full supervision from therapists.
+The educational scenarios are customizable, traceable, affordable, efficient, and can be enriched with AI and sensor-enabled experiences.
+Children's responses and interactions are accessible on the cloud, which bolster scalability, and empower therapists to plan ahead for therapy sessions respectively.
+A library of modules currently includes five modules for attention skills and two modules for motor skills, with 70% of the modules currently provided under open source licenses and are WebXR-ready.
+We are currently collaborating with 5 centers in 2 countries, giving us access to 100+ children.
+Although the mobility restrictions due to COVID have slowed down the validation experiments, available results have shown approximately 40% increase in the Attention Performance Index of the TOVA test in approximately one month of usage.
+Impulsivity and response time have also shown promising improvements.
+We have also started research collaborations with two universities to create alternative channels for validating and using the product, in parallel to the collaborations with therapy centers.
