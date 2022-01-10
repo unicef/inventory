@@ -77,7 +77,7 @@
 		<!-- header -->
 		<header class="shadow-bottom sticky-top bg-white">
 			<nav class="navbar navbar-expand-md navbar-dark" style=" background-color: #1CABE2">
-				<div class="container px-2 px-md-0">
+				<div class="container px-2 px-md-0 navigation-bar">
 					<div id="site-brand">
 						<a class="navbar-brand px-2" href="https://www.unicef.org/">
 							<div class="text-center nav-heading">
@@ -156,320 +156,327 @@
 					<div class="col-lg-3">
 						<div class="sidebar">
 							<a class="back-btn" href="/inventory" aria-label="back"></a>
-							<ul class="list-styled">
+							<ul>
 								<li data-nav-id="https://unicef.github.io/inventory/dev-tools/" title="Developer Tools &amp; Automation" class="sidelist
   ">
-									<a href="https://unicef.github.io/inventory/dev-tools/">
+									<a href="https://unicef.github.io/inventory/dev-tools/" class="font-weight-bold">
 										Developer Tools &amp; Automation
 									</a>
-									<ul>
-										<li data-nav-id="https://unicef.github.io/inventory/dev-tools/continuous-integration/" title="Continuous Integration (CI)" class="sidelist
+									<div class="accordion" id="accordionExample">
+										<ul>
+											<li data-nav-id="https://unicef.github.io/inventory/dev-tools/continuous-integration/" title="Continuous Integration (CI)" class="sidelist
   active">
-											<a href="https://unicef.github.io/inventory/dev-tools/continuous-integration/">
-												Continuous Integration (CI)
-											</a>
-										</li>
-									</ul>
-								</li>
-								<div>
-									<button class="btn btn-primary btn-block" id="generatePDF" > Get Pdf  </button>
-								</div>
-							</ul>
-						</div>
-					</div>
-					<div class="col-lg-9">
-						<div class="bg-white" style="margin:auto">
-							<script language="JavaScript">
-								String.prototype.capitalizeFirstLetter = function() {
-								   return this.charAt(0).toUpperCase() + this.slice(1);
-								}
-
-								var path = "<a style='margin-left:2%' href='https:\/\/unicef.github.io\/inventory\/'>Home</a>";
-								var href = document.location.href;
-								var s = href.split("/");
-								for (var i=3;i<(s.length-2);i++) {
-								   path+=" &gt;  <a href=\""+href.substring(0,href.indexOf("/"+s[i])+s[i].length+1)+"/\">"+s[i].capitalizeFirstLetter()+"</a> ";
-								}
-								i=s.length-1;
-								path+="<a href=\""+href.substring(0,href.indexOf(s[i])+s[i].length)+"\">"+s[i]+"</a>";
-								path+="  &gt;  <b>Continuous Integration (CI)</b>";
-								document.writeln(path);
-							</script>
-						</div>
-						<div class="p-lg-5 p-4 bg-white" id="content">
-							<h2 class="mb-5" id="title">Continuous Integration (CI)</h2>
-							<div class="content">
-								<div id="toc" class="toc">
-									<div id="toctitle">Table of Contents</div>
-									<ul class="sectlevel1">
-										<li><a href="#what-why">1. What is CI and why does it matter?</a>
-											<ul class="sectlevel2">
-												<li><a href="#tests-vs-ci">1.1. Tests vs. CI</a></li>
-												<li><a href="#benefits">1.2. Benefits</a></li>
+												<div class="container">
+													<div class="row">
+														<div class="col-10">
+															<a href="https://unicef.github.io/inventory/dev-tools/continuous-integration/" class="">
+																Continuous Integration (CI)
+															</a>
+														</div>
+													</div>
+												</li>
 											</ul>
-										</li>
-										<li><a href="#platforms">2. CI platforms</a></li>
-										<li><a href="#tips">3. Tips and tricks</a></li>
-										<li><a href="#examples">4. Examples</a></li>
-										<li><a href="#resources">5. Other resources</a></li>
-									</ul>
-								</div>
-								<div class="paragraph">
-									<p>This guide is an introduction to Continuous Integration (C.I.) for Open Source projects.
-										In this guide, you will learn about the following topics:</p>
-								</div>
-								<div class="sect1">
-									<h2 id="what-why">1. What is CI and why does it matter?&nbsp;<a class="hanchor" href="#what-why">🔗</a> </h2>
-									<div class="sectionbody">
-										<div class="paragraph">
-											<p>Continuous Integration can be a few different things.
-												However, for the open source context, think of CI as the tool or platform which runs a code test suite.
-												A CI platform will run an open source project’s code test suite and report the test results back in real-time.
-												You can even get this feedback before adding new code into a project.</p>
 										</div>
-										<div class="sect2">
-											<h3 id="tests-vs-ci">1.1. Tests vs. CI&nbsp;<a class="hanchor" href="#tests-vs-ci">🔗</a> </h3>
+									</li>
+									<div>
+										<button class="btn btn-primary btn-block" id="generatePDF">Get Pdf</button>
+									</div>
+								</ul>
+							</div>
+						</div>
+						<div class="col-lg-9">
+							<div class="bg-white" style="margin:auto">
+								<script language="JavaScript">
+									String.prototype.capitalizeFirstLetter = function() {
+									   return this.charAt(0).toUpperCase() + this.slice(1);
+									}
+
+									var path = "<a style='margin-left:2%' href='https:\/\/unicef.github.io\/inventory\/'>Home</a>";
+									var href = document.location.href;
+									var s = href.split("/");
+									for (var i=3;i<(s.length-2);i++) {
+									   path+=" &gt;  <a href=\""+href.substring(0,href.indexOf("/"+s[i])+s[i].length+1)+"/\">"+s[i].capitalizeFirstLetter()+"</a> ";
+									}
+									i=s.length-1;
+									path+="<a href=\""+href.substring(0,href.indexOf(s[i])+s[i].length)+"\">"+s[i]+"</a>";
+									path+="  &gt;  <b>Continuous Integration (CI)</b>";
+									document.writeln(path);
+								</script>
+							</div>
+							<div class="p-lg-5 p-4 bg-white" id="content">
+								<h2 class="mb-5" id="title">Continuous Integration (CI)</h2>
+								<div class="content">
+									<div id="toc" class="toc">
+										<div id="toctitle">Table of Contents</div>
+										<ul class="sectlevel1">
+											<li><a href="#what-why">1. What is CI and why does it matter?</a>
+												<ul class="sectlevel2">
+													<li><a href="#tests-vs-ci">1.1. Tests vs. CI</a></li>
+													<li><a href="#benefits">1.2. Benefits</a></li>
+												</ul>
+											</li>
+											<li><a href="#platforms">2. CI platforms</a></li>
+											<li><a href="#tips">3. Tips and tricks</a></li>
+											<li><a href="#examples">4. Examples</a></li>
+											<li><a href="#resources">5. Other resources</a></li>
+										</ul>
+									</div>
+									<div class="paragraph">
+										<p>This guide is an introduction to Continuous Integration (C.I.) for Open Source projects.
+											In this guide, you will learn about the following topics:</p>
+									</div>
+									<div class="sect1">
+										<h2 id="what-why">1. What is CI and why does it matter?&nbsp;<a class="hanchor" href="#what-why">🔗</a> </h2>
+										<div class="sectionbody">
 											<div class="paragraph">
-												<p>It is important to distinguish code test suites from CI platforms.</p>
+												<p>Continuous Integration can be a few different things.
+													However, for the open source context, think of CI as the tool or platform which runs a code test suite.
+													A CI platform will run an open source project’s code test suite and report the test results back in real-time.
+													You can even get this feedback before adding new code into a project.</p>
 											</div>
-											<div class="paragraph">
-												<p>A code test suite usually means the <strong>actual tests</strong> themselves.
-													The tests might use a framework like <a href="https://docs.pytest.org/">Pytest</a>, <a href="https://github.com/google/googletest/">Google Test</a>, <a href="https://golang.org/pkg/testing/">go test</a>, <a href="https://mochajs.org/">Mocha</a>, <a href="https://rspec.info/">RSpec</a>, or one of countless others.
-													When the test suite is run, it provides some kind of guarantee that the code shipped works as designed and as it should.</p>
+											<div class="sect2">
+												<h3 id="tests-vs-ci">1.1. Tests vs. CI&nbsp;<a class="hanchor" href="#tests-vs-ci">🔗</a> </h3>
+												<div class="paragraph">
+													<p>It is important to distinguish code test suites from CI platforms.</p>
+												</div>
+												<div class="paragraph">
+													<p>A code test suite usually means the <strong>actual tests</strong> themselves.
+														The tests might use a framework like <a href="https://docs.pytest.org/">Pytest</a>, <a href="https://github.com/google/googletest/">Google Test</a>, <a href="https://golang.org/pkg/testing/">go test</a>, <a href="https://mochajs.org/">Mocha</a>, <a href="https://rspec.info/">RSpec</a>, or one of countless others.
+														When the test suite is run, it provides some kind of guarantee that the code shipped works as designed and as it should.</p>
+												</div>
+												<div class="paragraph">
+													<p>CI platforms can be simple or complex.
+														At their simplest, they are &#34;wrappers&#34; for the code test suite.
+														A <strong>CI job</strong> sets up the infrastructure and environment needed for the software, and then runs the code test suite.</p>
+												</div>
+												<div class="paragraph">
+													<p>So, in a way, a CI platform is a tool to automate running your code test suite and allows you to integrate test results into the development process.</p>
+												</div>
 											</div>
-											<div class="paragraph">
-												<p>CI platforms can be simple or complex.
-													At their simplest, they are &#34;wrappers&#34; for the code test suite.
-													A <strong>CI job</strong> sets up the infrastructure and environment needed for the software, and then runs the code test suite.</p>
-											</div>
-											<div class="paragraph">
-												<p>So, in a way, a CI platform is a tool to automate running your code test suite and allows you to integrate test results into the development process.</p>
+											<div class="sect2">
+												<h3 id="benefits">1.2. Benefits&nbsp;<a class="hanchor" href="#benefits">🔗</a> </h3>
+												<div class="paragraph">
+													<p>Using a CI platform provides benefits both for agile software development <em>and</em> open source.</p>
+												</div>
+												<div class="paragraph">
+													<p>For agile software development, a CI platform enables developers to get real-time feedback about whether new changes are compatible with existing code in the project.
+														Before code gets added, a developer gets a green flag or a red flag for the results of the test suite.
+														Developers will be able to avoid common human errors and mistakes in their code before they are added.</p>
+												</div>
+												<div class="paragraph">
+													<p>The open source view is both practical and also psychological:</p>
+												</div>
+												<div class="olist arabic">
+													<ol class="arabic">
+														<li>
+															<p><em>Practical</em>:
+																New contributors or team members can use a test suite to avoid making common mistakes while learning a new codebase.</p>
+														</li>
+														<li>
+															<p><em>Psychological</em>:
+																Open source contributors are more confident to make changes because there is a safety net, in case there are unexpected side effects from their changes.</p>
+														</li>
+													</ol>
+												</div>
+												<div class="paragraph">
+													<p>The practical benefits apply equally to your core team members and outside contributors.
+														In a <strong>Pull Request</strong>, a CI platform will post the test results into the Pull Request.
+														A developer or core team member will know immediately whether the test suite is still working, or if their changes may have introduced new bugs.</p>
+												</div>
+												<div class="paragraph">
+													<p>The psychological benefits are more focused towards anyone (new team members or outside contributors) who are still new to the project.
+														It is difficult for someone to step up and decide to contribute to an open source project!
+														A test suite and CI platform makes it easier by letting a new contributor be bold in making new changes, provided the test suite still passes at the end.
+														The contributor can run the test suite locally before they propose their changes to the project.</p>
+												</div>
 											</div>
 										</div>
-										<div class="sect2">
-											<h3 id="benefits">1.2. Benefits&nbsp;<a class="hanchor" href="#benefits">🔗</a> </h3>
+									</div>
+									<div class="sect1">
+										<h2 id="platforms">2. CI platforms&nbsp;<a class="hanchor" href="#platforms">🔗</a> </h2>
+										<div class="sectionbody">
 											<div class="paragraph">
-												<p>Using a CI platform provides benefits both for agile software development <em>and</em> open source.</p>
+												<p>There are many different CI platforms available.
+													Which one is best for you depends on your specific needs, what features are available, and what kinds of third-party integrations you need.
+													This guide will not cover them all, but here are some of the most popular ones:</p>
+											</div>
+											<div class="ulist">
+												<ul>
+													<li>
+														<p><a href="https://circleci.com/">Circle CI</a></p>
+													</li>
+													<li>
+														<p><a href="https://github.com/features/actions">GitHub Actions</a></p>
+													</li>
+													<li>
+														<p><a href="https://docs.gitlab.com/ee/ci/">GitLab CI</a></p>
+													</li>
+													<li>
+														<p><a href="https://www.jenkins.io/">Jenkins</a>
+															(powerful, but notoriously difficult to set up)</p>
+													</li>
+													<li>
+														<p><a href="https://semaphoreci.com/">Semaphore</a></p>
+													</li>
+												</ul>
 											</div>
 											<div class="paragraph">
-												<p>For agile software development, a CI platform enables developers to get real-time feedback about whether new changes are compatible with existing code in the project.
-													Before code gets added, a developer gets a green flag or a red flag for the results of the test suite.
-													Developers will be able to avoid common human errors and mistakes in their code before they are added.</p>
+												<p>Note many of these platforms have no-cost plans for software released under open source licenses.
+													However, usually you will have to pay if using CI on a private or hidden repository.
+													Additionally, all of these platforms have extensive documentation. Read up on their docs to learn more!</p>
 											</div>
+										</div>
+									</div>
+									<div class="sect1">
+										<h2 id="tips">3. Tips and tricks&nbsp;<a class="hanchor" href="#tips">🔗</a> </h2>
+										<div class="sectionbody">
 											<div class="paragraph">
-												<p>The open source view is both practical and also psychological:</p>
+												<p>This is a short list of tips, tricks, and common traps to avoid when integrating CI into your project:</p>
 											</div>
 											<div class="olist arabic">
 												<ol class="arabic">
 													<li>
-														<p><em>Practical</em>:
-															New contributors or team members can use a test suite to avoid making common mistakes while learning a new codebase.</p>
+														<p><strong>All changes should be Pull Requests</strong>:
+															To get the most benefit out of a CI tool, all changes to your codebase should be made via a Pull Request.
+															No committing directly to <code>master</code> or <code>production</code>!</p>
 													</li>
 													<li>
-														<p><em>Psychological</em>:
-															Open source contributors are more confident to make changes because there is a safety net, in case there are unexpected side effects from their changes.</p>
+														<p><strong>Use caching for faster builds</strong>:
+															All CI platforms usually have some kind of caching feature, if configured.
+															Especially for larger projects, this can lead to huge speed-ups with how long your test suite takes to run.</p>
+													</li>
+													<li>
+														<p><strong>Block new changes from merging if tests fail</strong>:
+															If your test suite reports back with errors, do not add the proposed code into the main codebase.
+															Fix the code for the tests first, and then add the changes.
+															If you must make a one-time exception, do not delay in fixing your tests as soon as possible.
+															Otherwise, developers might ignore them altogether (even for valid tests).</p>
+													</li>
+													<li>
+														<p><strong>Keep writing tests</strong>:
+															As long as you are writing new code, you should also be writing new tests.
+															Remember, the benefits of CI will not be realized if you are not consistently testing your code.</p>
 													</li>
 												</ol>
 											</div>
+										</div>
+									</div>
+									<div class="sect1">
+										<h2 id="examples">4. Examples&nbsp;<a class="hanchor" href="#examples">🔗</a> </h2>
+										<div class="sectionbody">
 											<div class="paragraph">
-												<p>The practical benefits apply equally to your core team members and outside contributors.
-													In a <strong>Pull Request</strong>, a CI platform will post the test results into the Pull Request.
-													A developer or core team member will know immediately whether the test suite is still working, or if their changes may have introduced new bugs.</p>
+												<p>Need some examples of projects using a Continuous Integration pipeline?
+													Check out some of the examples below!</p>
 											</div>
+											<div class="ulist">
+												<ul>
+													<li>
+														<p>(Go) <strong>proton-bridge</strong>:
+															<a href="https://github.com/ProtonMail/proton-bridge">git repo</a>,
+															<a href="https://github.com/ProtonMail/proton-bridge/blob/5348ae7d183da194bd3f051ca723ca2efb99da7a/.gitlab-ci.yml">GitLab CI config</a>,
+															<a href="https://github.com/ProtonMail/proton-bridge/blob/5348ae7d183da194bd3f051ca723ca2efb99da7a/.golangci.yml">golang-ci
+																config</a></p>
+													</li>
+													<li>
+														<p>(JavaScript) <strong>React</strong>:
+															<a href="https://github.com/facebook/react">git repo</a>
+															<a href="https://github.com/facebook/react/blob/a52d76b877cbb7d62f914d32dfede1275da18337/.circleci/config.yml">CircleCI config</a></p>
+													</li>
+													<li>
+														<p>(JavaScript) <strong>jest</strong>:
+															<a href="https://github.com/facebook/jest">git repo</a>
+															<a href="https://github.com/facebook/jest/blob/f41e128c169a1296595fe1bc480ddede320a8730/.github/workflows/nodejs.yml">GitHub
+																Action config</a></p>
+													</li>
+													<li>
+														<p>(Rust) <strong>Conduit</strong>:
+															<a href="https://gitlab.com/famedly/conduit/">git repo</a>
+															<a href="https://gitlab.com/famedly/conduit/-/blob/afa5d449c605b6ddae8d2397b2996fda356f8b78/.gitlab-ci.yml">GitLab
+																CI config</a></p>
+													</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+									<div class="sect1">
+										<h2 id="resources">5. Other resources&nbsp;<a class="hanchor" href="#resources">🔗</a> </h2>
+										<div class="sectionbody">
 											<div class="paragraph">
-												<p>The psychological benefits are more focused towards anyone (new team members or outside contributors) who are still new to the project.
-													It is difficult for someone to step up and decide to contribute to an open source project!
-													A test suite and CI platform makes it easier by letting a new contributor be bold in making new changes, provided the test suite still passes at the end.
-													The contributor can run the test suite locally before they propose their changes to the project.</p>
+												<p>Curious to know more?
+													The resources below explain other concepts about Continuous Integration in greater detail:</p>
+											</div>
+											<div class="ulist">
+												<ul>
+													<li>
+														<p><a href="https://medium.com/nerds-malt/choosing-a-ci-that-grows-at-the-same-pace-as-a-scale-up-f4e1c0648084">Choosing a CI that grows at the same pace as a scale-up</a> - <em>Johan Lorenzo</em>, Lead Software Engineer at Malt</p>
+													</li>
+													<li>
+														<p><a href="https://codeship.com/continuous-integration-essentials">Continuous Integration Essentials</a> - <em>Codeship</em></p>
+													</li>
+												</ul>
 											</div>
 										</div>
 									</div>
 								</div>
-								<div class="sect1">
-									<h2 id="platforms">2. CI platforms&nbsp;<a class="hanchor" href="#platforms">🔗</a> </h2>
-									<div class="sectionbody">
-										<div class="paragraph">
-											<p>There are many different CI platforms available.
-												Which one is best for you depends on your specific needs, what features are available, and what kinds of third-party integrations you need.
-												This guide will not cover them all, but here are some of the most popular ones:</p>
-										</div>
-										<div class="ulist">
-											<ul>
-												<li>
-													<p><a href="https://circleci.com/">Circle CI</a></p>
-												</li>
-												<li>
-													<p><a href="https://github.com/features/actions">GitHub Actions</a></p>
-												</li>
-												<li>
-													<p><a href="https://docs.gitlab.com/ee/ci/">GitLab CI</a></p>
-												</li>
-												<li>
-													<p><a href="https://www.jenkins.io/">Jenkins</a>
-														(powerful, but notoriously difficult to set up)</p>
-												</li>
-												<li>
-													<p><a href="https://semaphoreci.com/">Semaphore</a></p>
-												</li>
-											</ul>
-										</div>
-										<div class="paragraph">
-											<p>Note many of these platforms have no-cost plans for software released under open source licenses.
-												However, usually you will have to pay if using CI on a private or hidden repository.
-												Additionally, all of these platforms have extensive documentation. Read up on their docs to learn more!</p>
-										</div>
+								<p class="post-meta border-bottom pb-3 mb-0 mt-3">Updated on 03 Dec 2021</p>
+								<nav class="pagination mt-3">
+									<a class="nav nav-prev" href="https://unicef.github.io/inventory/dev-tools/" aria-label="Previous page" ><i class="ti-arrow-left mr-2"></i> <span class="d-none d-md-block">Developer Tools &amp; Automation</span></a>
+									<a class="nav nav-next" href="https://unicef.github.io/inventory/documentation/" aria-label="Previous page" > <span class="d-none d-md-block">Documentation</span><i class="ti-arrow-right ml-2"></i></a>
+								</nav>
+								<section class="my-3 py-3" id="related-articles">
+									<h5 class="text-center">Related Articles</h5>
+									<div class="row">
 									</div>
-								</div>
-								<div class="sect1">
-									<h2 id="tips">3. Tips and tricks&nbsp;<a class="hanchor" href="#tips">🔗</a> </h2>
-									<div class="sectionbody">
-										<div class="paragraph">
-											<p>This is a short list of tips, tricks, and common traps to avoid when integrating CI into your project:</p>
-										</div>
-										<div class="olist arabic">
-											<ol class="arabic">
-												<li>
-													<p><strong>All changes should be Pull Requests</strong>:
-														To get the most benefit out of a CI tool, all changes to your codebase should be made via a Pull Request.
-														No committing directly to <code>master</code> or <code>production</code>!</p>
-												</li>
-												<li>
-													<p><strong>Use caching for faster builds</strong>:
-														All CI platforms usually have some kind of caching feature, if configured.
-														Especially for larger projects, this can lead to huge speed-ups with how long your test suite takes to run.</p>
-												</li>
-												<li>
-													<p><strong>Block new changes from merging if tests fail</strong>:
-														If your test suite reports back with errors, do not add the proposed code into the main codebase.
-														Fix the code for the tests first, and then add the changes.
-														If you must make a one-time exception, do not delay in fixing your tests as soon as possible.
-														Otherwise, developers might ignore them altogether (even for valid tests).</p>
-												</li>
-												<li>
-													<p><strong>Keep writing tests</strong>:
-														As long as you are writing new code, you should also be writing new tests.
-														Remember, the benefits of CI will not be realized if you are not consistently testing your code.</p>
-												</li>
-											</ol>
-										</div>
-									</div>
-								</div>
-								<div class="sect1">
-									<h2 id="examples">4. Examples&nbsp;<a class="hanchor" href="#examples">🔗</a> </h2>
-									<div class="sectionbody">
-										<div class="paragraph">
-											<p>Need some examples of projects using a Continuous Integration pipeline?
-												Check out some of the examples below!</p>
-										</div>
-										<div class="ulist">
-											<ul>
-												<li>
-													<p>(Go) <strong>proton-bridge</strong>:
-														<a href="https://github.com/ProtonMail/proton-bridge">git repo</a>,
-														<a href="https://github.com/ProtonMail/proton-bridge/blob/5348ae7d183da194bd3f051ca723ca2efb99da7a/.gitlab-ci.yml">GitLab CI config</a>,
-														<a href="https://github.com/ProtonMail/proton-bridge/blob/5348ae7d183da194bd3f051ca723ca2efb99da7a/.golangci.yml">golang-ci
-															config</a></p>
-												</li>
-												<li>
-													<p>(JavaScript) <strong>React</strong>:
-														<a href="https://github.com/facebook/react">git repo</a>
-														<a href="https://github.com/facebook/react/blob/a52d76b877cbb7d62f914d32dfede1275da18337/.circleci/config.yml">CircleCI config</a></p>
-												</li>
-												<li>
-													<p>(JavaScript) <strong>jest</strong>:
-														<a href="https://github.com/facebook/jest">git repo</a>
-														<a href="https://github.com/facebook/jest/blob/f41e128c169a1296595fe1bc480ddede320a8730/.github/workflows/nodejs.yml">GitHub
-															Action config</a></p>
-												</li>
-												<li>
-													<p>(Rust) <strong>Conduit</strong>:
-														<a href="https://gitlab.com/famedly/conduit/">git repo</a>
-														<a href="https://gitlab.com/famedly/conduit/-/blob/afa5d449c605b6ddae8d2397b2996fda356f8b78/.gitlab-ci.yml">GitLab
-															CI config</a></p>
-												</li>
-											</ul>
-										</div>
-									</div>
-								</div>
-								<div class="sect1">
-									<h2 id="resources">5. Other resources&nbsp;<a class="hanchor" href="#resources">🔗</a> </h2>
-									<div class="sectionbody">
-										<div class="paragraph">
-											<p>Curious to know more?
-												The resources below explain other concepts about Continuous Integration in greater detail:</p>
-										</div>
-										<div class="ulist">
-											<ul>
-												<li>
-													<p><a href="https://medium.com/nerds-malt/choosing-a-ci-that-grows-at-the-same-pace-as-a-scale-up-f4e1c0648084">Choosing a CI that grows at the same pace as a scale-up</a> - <em>Johan Lorenzo</em>, Lead Software Engineer at Malt</p>
-												</li>
-												<li>
-													<p><a href="https://codeship.com/continuous-integration-essentials">Continuous Integration Essentials</a> - <em>Codeship</em></p>
-												</li>
-											</ul>
-										</div>
-									</div>
-								</div>
+								</section>
 							</div>
-							<p class="post-meta border-bottom pb-3 mb-0 mt-3">Updated on 03 Dec 2021</p>
-							<nav class="pagination mt-3">
-								<a class="nav nav-prev" href="https://unicef.github.io/inventory/dev-tools/" aria-label="Previous page" ><i class="ti-arrow-left mr-2"></i> <span class="d-none d-md-block">Developer Tools &amp; Automation</span></a>
-								<a class="nav nav-next" href="https://unicef.github.io/inventory/documentation/" aria-label="Previous page" > <span class="d-none d-md-block">Documentation</span><i class="ti-arrow-right ml-2"></i></a>
-							</nav>
-							<section class="my-3 py-3" id="related-articles">
-								<h5 class="text-center">Related Articles</h5>
-								<div class="row">
-								</div>
-							</section>
 						</div>
 					</div>
 				</div>
 			</div>
-		</div>
-	</section>
-	<!-- /details page -->
-	<!-- footer -->
-	<footer class="section bg-primary p-4">
-		<div class="container">
-			<div class="row align-items-center">
-				<div class="col-md-3 text-md-left text-center">
-					<ul>
-						<li><a class="nav-link text-white" href="/inventory">HOME</a></li>
-						<li class="nav-item">
-							<a class="nav-link text-white text-uppercase" href="https://unicef.github.io/inventory/faq">FAQ</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link text-white text-uppercase" href="https://unicef.github.io/inventory/cohorts">cohorts</a>
-						</li>
-					</ul>
-				</div>
-				<div class="col-md-6 text-md-center text-center">
-					<p class="mb-md-0 mb-4 text-white">The UNICEF Open Source Inventory is a knowledge-base of best practices, resources, and information about working and leading Open. This is maintained as part of the Open Source Mentorship programme offered by the UNICEF Innovation Fund. The Inventory provides mentorship and guidance to anyone seeking to adopt best practices in their journey to building an Open Source project and community. It is self-serve, and can be used at various phases of building a project and community.</p>
-				</div>
-				<div class="col-md-3 text-md-right text-center">
-					<ul class="text-white">
-						<li class="nav-item">
-							<a class="nav-link text-white font-weight-bold" href="https://www.unicef.org/">UNICEF Global</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link text-white font-weight-bold" href="https://www.unicefinnovationfund.org/">UNICEF Innovation Fund</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link text-white font-weight-bold" href="https://www.unicef.org/legal">Legal</a>
-							<p class="h6 text-md-right font-weight-light"></p>
-						</li>
-					</ul>
-					<ul class="list-inline">
-						<li class="list-inline-item"><a class="text-color d-inline-block p-2 text-white" href="https://github.com/unicef/inventory" aria-label="UNICEF Open Source Inventory on GitHub"><i class="ti-github"></i></a></li>
-						<li class="list-inline-item"><a class="text-color d-inline-block p-2 text-white" href="https://twitter.com/UNICEFinnovate" aria-label="@UNICEFinnovate on Twitter"><i class="ti-twitter"></i></a></li>
-					</ul>
+		</section>
+		<!-- /details page -->
+		<!-- footer -->
+		<footer class="section bg-primary p-4">
+			<div class="container">
+				<div class="row align-items-center">
+					<div class="col-md-3 text-md-left text-center">
+						<ul>
+							<li><a class="nav-link text-white" href="/inventory">HOME</a></li>
+							<li class="nav-item">
+								<a class="nav-link text-white text-uppercase" href="https://unicef.github.io/inventory/faq">FAQ</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link text-white text-uppercase" href="https://unicef.github.io/inventory/cohorts">cohorts</a>
+							</li>
+						</ul>
+					</div>
+					<div class="col-md-6 text-md-center text-center">
+						<p class="mb-md-0 mb-4 text-white">The UNICEF Open Source Inventory is a knowledge-base of best practices, resources, and information about working and leading Open. This is maintained as part of the Open Source Mentorship programme offered by the UNICEF Innovation Fund. The Inventory provides mentorship and guidance to anyone seeking to adopt best practices in their journey to building an Open Source project and community. It is self-serve, and can be used at various phases of building a project and community.</p>
+					</div>
+					<div class="col-md-3 text-md-right text-center">
+						<ul class="text-white">
+							<li class="nav-item">
+								<a class="nav-link text-white font-weight-bold" href="https://www.unicef.org/">UNICEF Global</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link text-white font-weight-bold" href="https://www.unicefinnovationfund.org/">UNICEF Innovation Fund</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link text-white font-weight-bold" href="https://www.unicef.org/legal">Legal</a>
+								<p class="h6 text-md-right font-weight-light"></p>
+							</li>
+						</ul>
+						<ul class="list-inline">
+							<li class="list-inline-item"><a class="text-color d-inline-block p-2 text-white" href="https://github.com/unicef/inventory" aria-label="UNICEF Open Source Inventory on GitHub"><i class="ti-github"></i></a></li>
+							<li class="list-inline-item"><a class="text-color d-inline-block p-2 text-white" href="https://twitter.com/UNICEFinnovate" aria-label="@UNICEFinnovate on Twitter"><i class="ti-twitter"></i></a></li>
+						</ul>
+					</div>
 				</div>
 			</div>
-		</div>
-		<p class="text-md-center text-center text-white mt-3 h6 font-italic">Creative Commons BY-SA 4.0. Site theme maintained by UNICEF. Original theme, Dot, created by ThemeFisher.</p>
-	</footer>
-	<!-- /footer -->
-	<!-- Main Script -->
-	<script src="https://unicef.github.io/inventory/js/script.min.js"></script>
-</body>
+			<p class="text-md-center text-center text-white mt-3 h6 font-italic">Creative Commons BY-SA 4.0. Site theme maintained by UNICEF. Original theme, Dot, created by ThemeFisher.</p>
+		</footer>
+		<!-- /footer -->
+		<!-- Main Script -->
+		<script src="https://unicef.github.io/inventory/js/script.min.js"></script>
+	</body>
 </html>

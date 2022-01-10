@@ -77,7 +77,7 @@
 		<!-- header -->
 		<header class="shadow-bottom sticky-top bg-white">
 			<nav class="navbar navbar-expand-md navbar-dark" style=" background-color: #1CABE2">
-				<div class="container px-2 px-md-0">
+				<div class="container px-2 px-md-0 navigation-bar">
 					<div id="site-brand">
 						<a class="navbar-brand px-2" href="https://www.unicef.org/">
 							<div class="text-center nav-heading">
@@ -156,222 +156,234 @@
 					<div class="col-lg-3">
 						<div class="sidebar">
 							<a class="back-btn" href="/inventory" aria-label="back"></a>
-							<ul class="list-styled">
+							<ul>
 								<li data-nav-id="https://unicef.github.io/inventory/data/" title="Data Ethics &amp; Transparency" class="sidelist
   ">
-									<a href="https://unicef.github.io/inventory/data/">
+									<a href="https://unicef.github.io/inventory/data/" class="font-weight-bold">
 										Data Ethics &amp; Transparency
 									</a>
-									<ul>
-										<li data-nav-id="https://unicef.github.io/inventory/data/milestone-roadmap/" title="AI Ethics &amp; Transparency Roadmap - Template" class="sidelist
+									<div class="accordion" id="accordionExample">
+										<ul>
+											<li data-nav-id="https://unicef.github.io/inventory/data/milestone-roadmap/" title="AI Ethics &amp; Transparency Roadmap - Template" class="sidelist
   ">
-											<a href="https://unicef.github.io/inventory/data/milestone-roadmap/">
-												AI Ethics &amp; Transparency Roadmap - Template
-											</a>
-										</li>
-										<li data-nav-id="https://unicef.github.io/inventory/data/traps/" title="Common traps to avoid when building AI systems" class="sidelist
+												<div class="container">
+													<div class="row">
+														<div class="col-10">
+															<a href="https://unicef.github.io/inventory/data/milestone-roadmap/" class="">
+																AI Ethics &amp; Transparency Roadmap - Template
+															</a>
+														</div>
+													</div>
+												</li>
+												<li data-nav-id="https://unicef.github.io/inventory/data/traps/" title="Common traps to avoid when building AI systems" class="sidelist
   ">
-											<a href="https://unicef.github.io/inventory/data/traps/">
-												Common traps to avoid when building AI systems
-											</a>
-										</li>
-										<li data-nav-id="https://unicef.github.io/inventory/data/model-card/" title="Machine Learning Model Card" class="sidelist
+													<div class="container">
+														<div class="row">
+															<div class="col-10">
+																<a href="https://unicef.github.io/inventory/data/traps/" class="">
+																	Common traps to avoid when building AI systems
+																</a>
+															</div>
+														</div>
+													</li>
+													<li data-nav-id="https://unicef.github.io/inventory/data/model-card/" title="Machine Learning Model Card" class="sidelist
   ">
-											<a href="https://unicef.github.io/inventory/data/model-card/">
-												Machine Learning Model Card
-											</a>
-										</li>
-										<li data-nav-id="https://unicef.github.io/inventory/data/policy-guidance-children/" title="Policy guidance on AI for children (via unicef.org)" class="sidelist
+														<div class="container">
+															<div class="row">
+																<div class="col-10">
+																	<a href="https://unicef.github.io/inventory/data/model-card/" class="">
+																		Machine Learning Model Card
+																	</a>
+																</div>
+															</div>
+														</li>
+														<li data-nav-id="https://unicef.github.io/inventory/data/policy-guidance-children/" title="Policy guidance on AI for children (via unicef.org)" class="sidelist
   active">
-											<a href="https://unicef.github.io/inventory/data/policy-guidance-children/">
-												Policy guidance on AI for children (via unicef.org)
-											</a>
-										</li>
-									</ul>
-								</li>
-							</ul>
-						</div>
-					</div>
-					<div class="col-lg-9">
-						<div class="bg-white" style="margin:auto">
-							<script language="JavaScript">
-								String.prototype.capitalizeFirstLetter = function() {
-								   return this.charAt(0).toUpperCase() + this.slice(1);
-								}
+															<div class="container">
+																<div class="row">
+																	<div class="col-10">
+																		<a href="https://unicef.github.io/inventory/data/policy-guidance-children/" class="">
+																			Policy guidance on AI for children (via unicef.org)
+																		</a>
+																	</div>
+																</div>
+															</li>
+														</ul>
+													</div>
+												</li>
+											</ul>
+										</div>
+									</div>
+									<div class="col-lg-9">
+										<div class="bg-white" style="margin:auto">
+											<script language="JavaScript">
+												String.prototype.capitalizeFirstLetter = function() {
+												   return this.charAt(0).toUpperCase() + this.slice(1);
+												}
 
-								var path = "<a style='margin-left:2%' href='https:\/\/unicef.github.io\/inventory\/'>Home</a>";
-								var href = document.location.href;
-								var s = href.split("/");
-								for (var i=3;i<(s.length-2);i++) {
-								   path+=" &gt;  <a href=\""+href.substring(0,href.indexOf("/"+s[i])+s[i].length+1)+"/\">"+s[i].capitalizeFirstLetter()+"</a> ";
-								}
-								i=s.length-1;
-								path+="<a href=\""+href.substring(0,href.indexOf(s[i])+s[i].length)+"\">"+s[i]+"</a>";
-								path+="  &gt;  <b>Policy guidance on AI for children (via unicef.org)</b>";
-								document.writeln(path);
-							</script>
-						</div>
-						<div class="p-lg-5 p-4 bg-white" id="content">
-							<h2 class="mb-5" id="title">Policy guidance on AI for children (via unicef.org)</h2>
-							<div class="content">
-								<div class="paragraph">
-									<p>As part of our <a href="https://www.unicef.org/globalinsight/featured-projects/ai-children">AI for children project</a>, UNICEF has developed this policy guidance to promote children’s rights in government and private sector AI policies and practices, and to raise awareness of how AI systems can uphold or undermine these rights.
-										The policy guidance explores AI systems, and considers the ways in which they impact children.</p>
-								</div>
-								<div class="sect1">
-									<h2 id="url">1. Read in full: <a href="https://www.unicef.org/globalinsight/reports/policy-guidance-ai-children"><strong>unicef.org/globalinsight/reports/policy-guidance-ai-children</strong></a>&nbsp;<a class="hanchor" href="#url">🔗</a> </h2>
-									<div class="sectionbody">
-										<div class="paragraph">
-											<p>Drawing on the Convention on the Rights of the Child, the guidance offers nine requirements for child-centered AI:</p>
+												var path = "<a style='margin-left:2%' href='https:\/\/unicef.github.io\/inventory\/'>Home</a>";
+												var href = document.location.href;
+												var s = href.split("/");
+												for (var i=3;i<(s.length-2);i++) {
+												   path+=" &gt;  <a href=\""+href.substring(0,href.indexOf("/"+s[i])+s[i].length+1)+"/\">"+s[i].capitalizeFirstLetter()+"</a> ";
+												}
+												i=s.length-1;
+												path+="<a href=\""+href.substring(0,href.indexOf(s[i])+s[i].length)+"\">"+s[i]+"</a>";
+												path+="  &gt;  <b>Policy guidance on AI for children (via unicef.org)</b>";
+												document.writeln(path);
+											</script>
 										</div>
-										<div class="olist arabic">
-											<ol class="arabic">
-												<li>
-													<p>Support children’s development and well-being</p>
-												</li>
-												<li>
-													<p>Ensure inclusion of and for children</p>
-												</li>
-												<li>
-													<p>Prioritize fairness and non-discrimination for children</p>
-												</li>
-												<li>
-													<p>Protect children’s data and privacy</p>
-												</li>
-												<li>
-													<p>Ensure safety for children</p>
-												</li>
-												<li>
-													<p>Provide transparency, explainability, and accountability for children</p>
-												</li>
-												<li>
-													<p>Empower governments and businesses with knowledge of AI and children’s rights</p>
-												</li>
-												<li>
-													<p>Prepare children for present and future developments in AI</p>
-												</li>
-												<li>
-													<p>Create an enabling environment</p>
-												</li>
-											</ol>
-										</div>
-										<div class="paragraph">
-											<p>To support implementation of the guidance, a list of online resources and a set of practical implementation tools are provided, including:</p>
-										</div>
-										<div class="olist arabic">
-											<ol class="arabic">
-												<li>
-													<p><a href="https://www.unicef.org/globalinsight/media/1166/file/UNICEF-Global-Insight-tools-to-operationalize-AI-policy-guidance-2020.pdf">Roadmap for policymakers</a></p>
-												</li>
-												<li>
-													<p><a href="https://www.unicef.org/globalinsight/media/1166/file/UNICEF-Global-Insight-tools-to-operationalize-AI-policy-guidance-2020.pdf">AI for children development canvas</a></p>
-												</li>
-												<li>
-													<p><a href="https://www.unicef.org/globalinsight/media/2336/file">AI guide for parents</a></p>
-												</li>
-												<li>
-													<p><a href="https://www.unicef.org/globalinsight/media/2341/file">AI guide for teens</a></p>
-												</li>
-											</ol>
-										</div>
-										<div class="paragraph">
-											<p>To see how the guidance has been applied in practice, read about the eight <a href="https://www.unicef.org/globalinsight/policy-guidance-ai-children-pilot-testing-and-case-studies">case studies</a>.</p>
-										</div>
-										<div class="paragraph">
-											<p><a href="https://www.unicef.org/globalinsight/reports/policy-guidance-ai-children"><strong><em>Read more on unicef.org</em></strong></a>.</p>
+										<div class="p-lg-5 p-4 bg-white" id="content">
+											<h2 class="mb-5" id="title">Policy guidance on AI for children (via unicef.org)</h2>
+											<div class="content">
+												<div class="paragraph">
+													<p>As part of our <a href="https://www.unicef.org/globalinsight/featured-projects/ai-children">AI for children project</a>, UNICEF has developed this policy guidance to promote children’s rights in government and private sector AI policies and practices, and to raise awareness of how AI systems can uphold or undermine these rights.
+														The policy guidance explores AI systems, and considers the ways in which they impact children.</p>
+												</div>
+												<div class="sect1">
+													<h2 id="url">1. Read in full: <a href="https://www.unicef.org/globalinsight/reports/policy-guidance-ai-children"><strong>unicef.org/globalinsight/reports/policy-guidance-ai-children</strong></a>&nbsp;<a class="hanchor" href="#url">🔗</a> </h2>
+													<div class="sectionbody">
+														<div class="paragraph">
+															<p>Drawing on the Convention on the Rights of the Child, the guidance offers nine requirements for child-centered AI:</p>
+														</div>
+														<div class="olist arabic">
+															<ol class="arabic">
+																<li>
+																	<p>Support children’s development and well-being</p>
+																</li>
+																<li>
+																	<p>Ensure inclusion of and for children</p>
+																</li>
+																<li>
+																	<p>Prioritize fairness and non-discrimination for children</p>
+																</li>
+																<li>
+																	<p>Protect children’s data and privacy</p>
+																</li>
+																<li>
+																	<p>Ensure safety for children</p>
+																</li>
+																<li>
+																	<p>Provide transparency, explainability, and accountability for children</p>
+																</li>
+																<li>
+																	<p>Empower governments and businesses with knowledge of AI and children’s rights</p>
+																</li>
+																<li>
+																	<p>Prepare children for present and future developments in AI</p>
+																</li>
+																<li>
+																	<p>Create an enabling environment</p>
+																</li>
+															</ol>
+														</div>
+														<div class="paragraph">
+															<p>To support implementation of the guidance, a list of online resources and a set of practical implementation tools are provided, including:</p>
+														</div>
+														<div class="olist arabic">
+															<ol class="arabic">
+																<li>
+																	<p><a href="https://www.unicef.org/globalinsight/media/1166/file/UNICEF-Global-Insight-tools-to-operationalize-AI-policy-guidance-2020.pdf">Roadmap for policymakers</a></p>
+																</li>
+																<li>
+																	<p><a href="https://www.unicef.org/globalinsight/media/1166/file/UNICEF-Global-Insight-tools-to-operationalize-AI-policy-guidance-2020.pdf">AI for children development canvas</a></p>
+																</li>
+																<li>
+																	<p><a href="https://www.unicef.org/globalinsight/media/2336/file">AI guide for parents</a></p>
+																</li>
+																<li>
+																	<p><a href="https://www.unicef.org/globalinsight/media/2341/file">AI guide for teens</a></p>
+																</li>
+															</ol>
+														</div>
+														<div class="paragraph">
+															<p>To see how the guidance has been applied in practice, read about the eight <a href="https://www.unicef.org/globalinsight/policy-guidance-ai-children-pilot-testing-and-case-studies">case studies</a>.</p>
+														</div>
+														<div class="paragraph">
+															<p><a href="https://www.unicef.org/globalinsight/reports/policy-guidance-ai-children"><strong><em>Read more on unicef.org</em></strong></a>.</p>
+														</div>
+													</div>
+												</div>
+											</div>
+											<p class="post-meta border-bottom pb-3 mb-0 mt-3">Updated on 21 Dec 2021</p>
+											<nav class="pagination mt-3">
+												<a class="nav nav-prev" href="https://unicef.github.io/inventory/data/model-card/" aria-label="Previous page" ><i class="ti-arrow-left mr-2"></i> <span class="d-none d-md-block">Machine Learning Model Card</span></a>
+												<a class="nav nav-next" href="https://unicef.github.io/inventory/dev-tools/" aria-label="Previous page" > <span class="d-none d-md-block">Developer Tools &amp; Automation</span><i class="ti-arrow-right ml-2"></i></a>
+											</nav>
+											<section class="my-3 py-3" id="related-articles">
+												<h5 class="text-center">Related Articles</h5>
+												<div class="row">
+													<div class="col-sm-4 my-2">
+														<a href="https://unicef.github.io/inventory/data/traps/">
+															<div class="card text-center">
+																<div class="card-body">
+																	<h5 class="card-title">Common traps to avoid when building AI systems</h5>
+																	<p class="card-subtitle mb-2 text-muted">Assessing common AI/ML mistakes that lead to unintended side effects.</p>
+																</div>
+															</div>
+														</a>
+													</div>
+													<div class="col-sm-4 my-2">
+														<a href="https://unicef.github.io/inventory/data/milestone-roadmap/">
+															<div class="card text-center">
+																<div class="card-body">
+																	<h5 class="card-title">AI Ethics &amp; Transparency Roadmap - Template</h5>
+																	<p class="card-subtitle mb-2 text-muted">How do you document your machine learning development process? This guide shares transparency best practices.</p>
+																</div>
+															</div>
+														</a>
+													</div>
+												</div>
+											</section>
 										</div>
 									</div>
 								</div>
 							</div>
-							<p class="post-meta border-bottom pb-3 mb-0 mt-3">Updated on 21 Dec 2021</p>
-							<nav class="pagination mt-3">
-								<a class="nav nav-prev" href="https://unicef.github.io/inventory/data/model-card/" aria-label="Previous page" ><i class="ti-arrow-left mr-2"></i> <span class="d-none d-md-block">Machine Learning Model Card</span></a>
-								<a class="nav nav-next" href="https://unicef.github.io/inventory/dev-tools/" aria-label="Previous page" > <span class="d-none d-md-block">Developer Tools &amp; Automation</span><i class="ti-arrow-right ml-2"></i></a>
-							</nav>
-							<section class="my-3 py-3" id="related-articles">
-								<h5 class="text-center">Related Articles</h5>
-								<div class="row">
-									<div class="col-sm-4 my-2">
-										<a href="https://unicef.github.io/inventory/data/traps/">
-											<div class="card text-center">
-												<div class="card-body">
-													<h5 class="card-title">Common traps to avoid when building AI systems</h5>
-													<p class="card-subtitle mb-2 text-muted">Assessing common AI/ML mistakes that lead to unintended side effects.</p>
-												</div>
-											</div>
-										</a>
-									</div>
-									<div class="col-sm-4 my-2">
-										<a href="https://unicef.github.io/inventory/data/milestone-roadmap/">
-											<div class="card text-center">
-												<div class="card-body">
-													<h5 class="card-title">AI Ethics &amp; Transparency Roadmap - Template</h5>
-													<p class="card-subtitle mb-2 text-muted">How do you document your machine learning development process? This guide shares transparency best practices.</p>
-												</div>
-											</div>
-										</a>
-									</div>
-									<div class="col-sm-4 my-2">
-										<a href="https://unicef.github.io/inventory/data/model-card/">
-											<div class="card text-center">
-												<div class="card-body">
-													<h5 class="card-title">Machine Learning Model Card</h5>
-													<p class="card-subtitle mb-2 text-muted">Model cards help you document how your model was made. Use this overview to make your own model cards.</p>
-												</div>
-											</div>
-										</a>
-									</div>
-								</div>
-							</section>
 						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- /details page -->
-	<!-- footer -->
-	<footer class="section bg-primary p-4">
-		<div class="container">
-			<div class="row align-items-center">
-				<div class="col-md-3 text-md-left text-center">
-					<ul>
-						<li><a class="nav-link text-white" href="/inventory">HOME</a></li>
-						<li class="nav-item">
-							<a class="nav-link text-white text-uppercase" href="https://unicef.github.io/inventory/faq">FAQ</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link text-white text-uppercase" href="https://unicef.github.io/inventory/cohorts">cohorts</a>
-						</li>
-					</ul>
-				</div>
-				<div class="col-md-6 text-md-center text-center">
-					<p class="mb-md-0 mb-4 text-white">The UNICEF Open Source Inventory is a knowledge-base of best practices, resources, and information about working and leading Open. This is maintained as part of the Open Source Mentorship programme offered by the UNICEF Innovation Fund. The Inventory provides mentorship and guidance to anyone seeking to adopt best practices in their journey to building an Open Source project and community. It is self-serve, and can be used at various phases of building a project and community.</p>
-				</div>
-				<div class="col-md-3 text-md-right text-center">
-					<ul class="text-white">
-						<li class="nav-item">
-							<a class="nav-link text-white font-weight-bold" href="https://www.unicef.org/">UNICEF Global</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link text-white font-weight-bold" href="https://www.unicefinnovationfund.org/">UNICEF Innovation Fund</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link text-white font-weight-bold" href="https://www.unicef.org/legal">Legal</a>
-							<p class="h6 text-md-right font-weight-light"></p>
-						</li>
-					</ul>
-					<ul class="list-inline">
-						<li class="list-inline-item"><a class="text-color d-inline-block p-2 text-white" href="https://github.com/unicef/inventory" aria-label="UNICEF Open Source Inventory on GitHub"><i class="ti-github"></i></a></li>
-						<li class="list-inline-item"><a class="text-color d-inline-block p-2 text-white" href="https://twitter.com/UNICEFinnovate" aria-label="@UNICEFinnovate on Twitter"><i class="ti-twitter"></i></a></li>
-					</ul>
-				</div>
-			</div>
-		</div>
-		<p class="text-md-center text-center text-white mt-3 h6 font-italic">Creative Commons BY-SA 4.0. Site theme maintained by UNICEF. Original theme, Dot, created by ThemeFisher.</p>
-	</footer>
-	<!-- /footer -->
-	<!-- Main Script -->
-	<script src="https://unicef.github.io/inventory/js/script.min.js"></script>
-</body>
-</html>
+					</section>
+					<!-- /details page -->
+					<!-- footer -->
+					<footer class="section bg-primary p-4">
+						<div class="container">
+							<div class="row align-items-center">
+								<div class="col-md-3 text-md-left text-center">
+									<ul>
+										<li><a class="nav-link text-white" href="/inventory">HOME</a></li>
+										<li class="nav-item">
+											<a class="nav-link text-white text-uppercase" href="https://unicef.github.io/inventory/faq">FAQ</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link text-white text-uppercase" href="https://unicef.github.io/inventory/cohorts">cohorts</a>
+										</li>
+									</ul>
+								</div>
+								<div class="col-md-6 text-md-center text-center">
+									<p class="mb-md-0 mb-4 text-white">The UNICEF Open Source Inventory is a knowledge-base of best practices, resources, and information about working and leading Open. This is maintained as part of the Open Source Mentorship programme offered by the UNICEF Innovation Fund. The Inventory provides mentorship and guidance to anyone seeking to adopt best practices in their journey to building an Open Source project and community. It is self-serve, and can be used at various phases of building a project and community.</p>
+								</div>
+								<div class="col-md-3 text-md-right text-center">
+									<ul class="text-white">
+										<li class="nav-item">
+											<a class="nav-link text-white font-weight-bold" href="https://www.unicef.org/">UNICEF Global</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link text-white font-weight-bold" href="https://www.unicefinnovationfund.org/">UNICEF Innovation Fund</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link text-white font-weight-bold" href="https://www.unicef.org/legal">Legal</a>
+											<p class="h6 text-md-right font-weight-light"></p>
+										</li>
+									</ul>
+									<ul class="list-inline">
+										<li class="list-inline-item"><a class="text-color d-inline-block p-2 text-white" href="https://github.com/unicef/inventory" aria-label="UNICEF Open Source Inventory on GitHub"><i class="ti-github"></i></a></li>
+										<li class="list-inline-item"><a class="text-color d-inline-block p-2 text-white" href="https://twitter.com/UNICEFinnovate" aria-label="@UNICEFinnovate on Twitter"><i class="ti-twitter"></i></a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<p class="text-md-center text-center text-white mt-3 h6 font-italic">Creative Commons BY-SA 4.0. Site theme maintained by UNICEF. Original theme, Dot, created by ThemeFisher.</p>
+					</footer>
+					<!-- /footer -->
+					<!-- Main Script -->
+					<script src="https://unicef.github.io/inventory/js/script.min.js"></script>
+				</body>
+			</html>

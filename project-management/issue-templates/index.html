@@ -77,7 +77,7 @@
 		<!-- header -->
 		<header class="shadow-bottom sticky-top bg-white">
 			<nav class="navbar navbar-expand-md navbar-dark" style=" background-color: #1CABE2">
-				<div class="container px-2 px-md-0">
+				<div class="container px-2 px-md-0 navigation-bar">
 					<div id="site-brand">
 						<a class="navbar-brand px-2" href="https://www.unicef.org/">
 							<div class="text-center nav-heading">
@@ -156,255 +156,272 @@
 					<div class="col-lg-3">
 						<div class="sidebar">
 							<a class="back-btn" href="/inventory" aria-label="back"></a>
-							<ul class="list-styled">
+							<ul>
 								<li data-nav-id="https://unicef.github.io/inventory/project-management/" title="Project Management" class="sidelist
   ">
-									<a href="https://unicef.github.io/inventory/project-management/">
+									<a href="https://unicef.github.io/inventory/project-management/" class="font-weight-bold">
 										Project Management
 									</a>
-									<ul>
-										<li data-nav-id="https://unicef.github.io/inventory/project-management/issue-templates/" title="Issue templates" class="sidelist
+									<div class="accordion" id="accordionExample">
+										<ul>
+											<li data-nav-id="https://unicef.github.io/inventory/project-management/issue-templates/" title="Issue templates" class="sidelist
   active">
-											<a href="https://unicef.github.io/inventory/project-management/issue-templates/">
-												Issue templates
-											</a>
-										</li>
-										<li data-nav-id="https://unicef.github.io/inventory/project-management/reading-list/" title="Outreach reading list" class="sidelist
+												<div class="container">
+													<div class="row">
+														<div class="col-10">
+															<a href="https://unicef.github.io/inventory/project-management/issue-templates/" class="">
+																Issue templates
+															</a>
+														</div>
+													</div>
+												</li>
+												<li data-nav-id="https://unicef.github.io/inventory/project-management/reading-list/" title="Outreach reading list" class="sidelist
   ">
-											<a href="https://unicef.github.io/inventory/project-management/reading-list/">
-												Outreach reading list
-											</a>
-										</li>
-										<li data-nav-id="https://unicef.github.io/inventory/project-management/project-boards/" title="Project boards" class="sidelist
+													<div class="container">
+														<div class="row">
+															<div class="col-10">
+																<a href="https://unicef.github.io/inventory/project-management/reading-list/" class="">
+																	Outreach reading list
+																</a>
+															</div>
+														</div>
+													</li>
+													<li data-nav-id="https://unicef.github.io/inventory/project-management/project-boards/" title="Project boards" class="sidelist
   ">
-											<a href="https://unicef.github.io/inventory/project-management/project-boards/">
-												Project boards
-											</a>
-										</li>
-									</ul>
-								</li>
-								<div>
-									<button class="btn btn-primary btn-block" id="generatePDF" > Get Pdf  </button>
+														<div class="container">
+															<div class="row">
+																<div class="col-10">
+																	<a href="https://unicef.github.io/inventory/project-management/project-boards/" class="">
+																		Project boards
+																	</a>
+																</div>
+															</div>
+														</li>
+													</ul>
+												</div>
+											</li>
+											<div>
+												<button class="btn btn-primary btn-block" id="generatePDF">Get Pdf</button>
+											</div>
+										</ul>
+									</div>
 								</div>
-							</ul>
-						</div>
-					</div>
-					<div class="col-lg-9">
-						<div class="bg-white" style="margin:auto">
-							<script language="JavaScript">
-								String.prototype.capitalizeFirstLetter = function() {
-								   return this.charAt(0).toUpperCase() + this.slice(1);
-								}
+								<div class="col-lg-9">
+									<div class="bg-white" style="margin:auto">
+										<script language="JavaScript">
+											String.prototype.capitalizeFirstLetter = function() {
+											   return this.charAt(0).toUpperCase() + this.slice(1);
+											}
 
-								var path = "<a style='margin-left:2%' href='https:\/\/unicef.github.io\/inventory\/'>Home</a>";
-								var href = document.location.href;
-								var s = href.split("/");
-								for (var i=3;i<(s.length-2);i++) {
-								   path+=" &gt;  <a href=\""+href.substring(0,href.indexOf("/"+s[i])+s[i].length+1)+"/\">"+s[i].capitalizeFirstLetter()+"</a> ";
-								}
-								i=s.length-1;
-								path+="<a href=\""+href.substring(0,href.indexOf(s[i])+s[i].length)+"\">"+s[i]+"</a>";
-								path+="  &gt;  <b>Issue templates</b>";
-								document.writeln(path);
-							</script>
-						</div>
-						<div class="p-lg-5 p-4 bg-white" id="content">
-							<h2 class="mb-5" id="title">Issue templates</h2>
-							<div class="content">
-								<div class="paragraph">
-									<p>This guide is an introduction to <strong>issue templates</strong> in an Open Source project.
-										While this guide is customized to GitHub, the advice provided here is general and can be applied to other collaboration platforms that offer templating.
-										By the end of this guide, you will have a basic understanding of why issue templates are important and how to set up effective templates for your project.
-										This guide is complementary to an agile or scrum workflow, if your team already uses one of these methods of project management.</p>
-								</div>
-								<div class="paragraph">
-									<p>The following topics are covered:</p>
-								</div>
-								<div class="olist arabic">
-									<ol class="arabic">
-										<li>
-											<p>About issue templates</p>
-										</li>
-										<li>
-											<p>Case study: TeleIRC</p>
-										</li>
-										<li>
-											<p>Additional resources</p>
-										</li>
-									</ol>
-								</div>
-								<div class="sect1">
-									<h2 id="_about_issue_templates">1. About issue templates&nbsp;<a class="hanchor" href="#_about_issue_templates">🔗</a> </h2>
-									<div class="sectionbody">
-										<div class="paragraph">
-											<p>Issue templates are a common feature of GitHub, GitLab, and other git forges.
-												They allow you to pre-populate a new issue with template text.
-												Issue templates can also automatically apply an assignee or label to a template, depending on the type of feedback it is.
-												Some common issue templates in Open Source projects may look like the following:</p>
-										</div>
-										<div class="ulist">
-											<ul>
-												<li>
-													<p>Bug reports</p>
-												</li>
-												<li>
-													<p>New feature requests</p>
-												</li>
-												<li>
-													<p>Improvements to existing functionality</p>
-												</li>
-											</ul>
-										</div>
-										<div class="paragraph">
-											<p>These are three common templates, but your project may use more or less depending on the unique context of your project.
-												Issue templates are effective tools to structure new feedback and save time in the Open Source development life-cycle.</p>
-										</div>
-										<div class="paragraph">
-											<p>See the official <a href="https://docs.github.com/en/github/building-a-strong-community/configuring-issue-templates-for-your-repository#configuring-the-template-chooser">GitHub documentation for issue templates</a> to learn more about using issue templates on GitHub.</p>
-										</div>
-										<div class="sect2">
-											<h3 id="_why">1.1. Why?&nbsp;<a class="hanchor" href="#_why">🔗</a> </h3>
+											var path = "<a style='margin-left:2%' href='https:\/\/unicef.github.io\/inventory\/'>Home</a>";
+											var href = document.location.href;
+											var s = href.split("/");
+											for (var i=3;i<(s.length-2);i++) {
+											   path+=" &gt;  <a href=\""+href.substring(0,href.indexOf("/"+s[i])+s[i].length+1)+"/\">"+s[i].capitalizeFirstLetter()+"</a> ";
+											}
+											i=s.length-1;
+											path+="<a href=\""+href.substring(0,href.indexOf(s[i])+s[i].length)+"\">"+s[i]+"</a>";
+											path+="  &gt;  <b>Issue templates</b>";
+											document.writeln(path);
+										</script>
+									</div>
+									<div class="p-lg-5 p-4 bg-white" id="content">
+										<h2 class="mb-5" id="title">Issue templates</h2>
+										<div class="content">
 											<div class="paragraph">
-												<p>Issue templates are helpful for both newcomers and core team members in your community.
-													Project newcomers benefit from extra guidance and prompts on what to include in their reports.
-													They might be asked to provide specific information, like what version of the application they use, what web browser or operating system they use, and so forth.
-													It also saves core team members time in reviewing new feedback from the community.
-													The necessary information is provided in the original comment; you do not have to follow-up and ask for more common information.</p>
+												<p>This guide is an introduction to <strong>issue templates</strong> in an Open Source project.
+													While this guide is customized to GitHub, the advice provided here is general and can be applied to other collaboration platforms that offer templating.
+													By the end of this guide, you will have a basic understanding of why issue templates are important and how to set up effective templates for your project.
+													This guide is complementary to an agile or scrum workflow, if your team already uses one of these methods of project management.</p>
 											</div>
 											<div class="paragraph">
-												<p>Issue templates are not always useful in the earliest stages of an Open Source project.
-													However, they are a strategic tool to scale participation in your project as you grow your community.
-													Over time, you will invite more people to participate in your Open Source code, whether it is end-users, customers and clients, academic researchers, or grassroots activists.
-													Issue templates help you engage a community in the earliest stages of growth in an Open Source project.</p>
+												<p>The following topics are covered:</p>
+											</div>
+											<div class="olist arabic">
+												<ol class="arabic">
+													<li>
+														<p>About issue templates</p>
+													</li>
+													<li>
+														<p>Case study: TeleIRC</p>
+													</li>
+													<li>
+														<p>Additional resources</p>
+													</li>
+												</ol>
+											</div>
+											<div class="sect1">
+												<h2 id="_about_issue_templates">1. About issue templates&nbsp;<a class="hanchor" href="#_about_issue_templates">🔗</a> </h2>
+												<div class="sectionbody">
+													<div class="paragraph">
+														<p>Issue templates are a common feature of GitHub, GitLab, and other git forges.
+															They allow you to pre-populate a new issue with template text.
+															Issue templates can also automatically apply an assignee or label to a template, depending on the type of feedback it is.
+															Some common issue templates in Open Source projects may look like the following:</p>
+													</div>
+													<div class="ulist">
+														<ul>
+															<li>
+																<p>Bug reports</p>
+															</li>
+															<li>
+																<p>New feature requests</p>
+															</li>
+															<li>
+																<p>Improvements to existing functionality</p>
+															</li>
+														</ul>
+													</div>
+													<div class="paragraph">
+														<p>These are three common templates, but your project may use more or less depending on the unique context of your project.
+															Issue templates are effective tools to structure new feedback and save time in the Open Source development life-cycle.</p>
+													</div>
+													<div class="paragraph">
+														<p>See the official <a href="https://docs.github.com/en/github/building-a-strong-community/configuring-issue-templates-for-your-repository#configuring-the-template-chooser">GitHub documentation for issue templates</a> to learn more about using issue templates on GitHub.</p>
+													</div>
+													<div class="sect2">
+														<h3 id="_why">1.1. Why?&nbsp;<a class="hanchor" href="#_why">🔗</a> </h3>
+														<div class="paragraph">
+															<p>Issue templates are helpful for both newcomers and core team members in your community.
+																Project newcomers benefit from extra guidance and prompts on what to include in their reports.
+																They might be asked to provide specific information, like what version of the application they use, what web browser or operating system they use, and so forth.
+																It also saves core team members time in reviewing new feedback from the community.
+																The necessary information is provided in the original comment; you do not have to follow-up and ask for more common information.</p>
+														</div>
+														<div class="paragraph">
+															<p>Issue templates are not always useful in the earliest stages of an Open Source project.
+																However, they are a strategic tool to scale participation in your project as you grow your community.
+																Over time, you will invite more people to participate in your Open Source code, whether it is end-users, customers and clients, academic researchers, or grassroots activists.
+																Issue templates help you engage a community in the earliest stages of growth in an Open Source project.</p>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="sect1">
+												<h2 id="_case_study_teleirc">2. Case study: TeleIRC&nbsp;<a class="hanchor" href="#_case_study_teleirc">🔗</a> </h2>
+												<div class="sectionbody">
+													<div class="paragraph">
+														<p>To demonstrate how issue templates work, we will look at the <a href="https://github.com/RITlug/teleirc">TeleIRC</a> project.
+															TeleIRC is an Open Source back-end application to connect <a href="https://telegram.org">Telegram</a> groups and <a href="https://en.wikipedia.org/wiki/Internet_Relay_Chat">Internet Relay Chat</a> channels together.
+															TeleIRC uses issue templates to structure different types of feedback from developers and end-users.
+															Take a look at the four templates available in the project:</p>
+													</div>
+													<div class="imageblock">
+														<div class="content">
+															<a class="image" href="https://github.com/RITlug/teleirc/issues/new/choose"><img src="/inventory/images/project-management/teleirc-issue-templates.png" alt="Four issue templates available for the TeleIRC project."/></a>
+														</div>
+													</div>
+													<div class="paragraph">
+														<p>The following screenshot shows an example of a reporter using the &#34;bug report&#34; template to report a bug:</p>
+													</div>
+													<div class="imageblock">
+														<div class="content">
+															<a class="image" href="https://github.com/RITlug/teleirc/issues/359"><img src="/inventory/images/project-management/teleirc-bug-template-example.png" alt="Screenshot of a TeleIRC bug report completed using the issue template."/></a>
+														</div>
+													</div>
+													<div class="paragraph">
+														<p>These templates are used to quickly diagnose problems, discover interests in new features, and cut some of the chase out of troubleshooting.
+															Find the exact templates used by the TeleIRC project in their <a href="https://github.com/RITlug/teleirc/tree/master/.github/ISSUE_TEMPLATE"><code>.github/</code> folder</a>.</p>
+													</div>
+												</div>
+											</div>
+											<div class="sect1">
+												<h2 id="_additional_resources">3. Additional resources&nbsp;<a class="hanchor" href="#_additional_resources">🔗</a> </h2>
+												<div class="sectionbody">
+													<div class="ulist">
+														<ul>
+															<li>
+																<p><a href="https://github.com/devspace/awesome-github-templates"><strong>devspace/awesome-github-templates</strong></a>:
+																	Curated list of GitHub Issues and Pull Requests templates</p>
+															</li>
+															<li>
+																<p><a href="https://github.com/stevemao/github-issue-templates"><strong>stevemao/github-issue-templates</strong></a>:
+																	Wide range of issue templates you can customize for your own repositories.</p>
+															</li>
+														</ul>
+													</div>
+												</div>
 											</div>
 										</div>
-									</div>
-								</div>
-								<div class="sect1">
-									<h2 id="_case_study_teleirc">2. Case study: TeleIRC&nbsp;<a class="hanchor" href="#_case_study_teleirc">🔗</a> </h2>
-									<div class="sectionbody">
-										<div class="paragraph">
-											<p>To demonstrate how issue templates work, we will look at the <a href="https://github.com/RITlug/teleirc">TeleIRC</a> project.
-												TeleIRC is an Open Source back-end application to connect <a href="https://telegram.org">Telegram</a> groups and <a href="https://en.wikipedia.org/wiki/Internet_Relay_Chat">Internet Relay Chat</a> channels together.
-												TeleIRC uses issue templates to structure different types of feedback from developers and end-users.
-												Take a look at the four templates available in the project:</p>
-										</div>
-										<div class="imageblock">
-											<div class="content">
-												<a class="image" href="https://github.com/RITlug/teleirc/issues/new/choose"><img src="/inventory/images/project-management/teleirc-issue-templates.png" alt="Four issue templates available for the TeleIRC project."/></a>
+										<p class="post-meta border-bottom pb-3 mb-0 mt-3">Updated on 03 Dec 2021</p>
+										<nav class="pagination mt-3">
+											<a class="nav nav-prev" href="https://unicef.github.io/inventory/project-management/" aria-label="Previous page" ><i class="ti-arrow-left mr-2"></i> <span class="d-none d-md-block">Project Management</span></a>
+											<a class="nav nav-next" href="https://unicef.github.io/inventory/project-management/reading-list/" aria-label="Previous page" > <span class="d-none d-md-block">Outreach reading list</span><i class="ti-arrow-right ml-2"></i></a>
+										</nav>
+										<section class="my-3 py-3" id="related-articles">
+											<h5 class="text-center">Related Articles</h5>
+											<div class="row">
+												<div class="col-sm-4 my-2">
+													<a href="https://unicef.github.io/inventory/project-management/reading-list/">
+														<div class="card text-center">
+															<div class="card-body">
+																<h5 class="card-title">Outreach reading list</h5>
+																<p class="card-subtitle mb-2 text-muted">Various readings and learnings about outreach and marketing in an Open Source context.</p>
+															</div>
+														</div>
+													</a>
+												</div>
+												<div class="col-sm-4 my-2">
+													<a href="https://unicef.github.io/inventory/project-management/project-boards/">
+														<div class="card text-center">
+															<div class="card-body">
+																<h5 class="card-title">Project boards</h5>
+																<p class="card-subtitle mb-2 text-muted">An introduction to project/kanban boards for new Open Source project or community managers.</p>
+															</div>
+														</div>
+													</a>
+												</div>
 											</div>
-										</div>
-										<div class="paragraph">
-											<p>The following screenshot shows an example of a reporter using the &#34;bug report&#34; template to report a bug:</p>
-										</div>
-										<div class="imageblock">
-											<div class="content">
-												<a class="image" href="https://github.com/RITlug/teleirc/issues/359"><img src="/inventory/images/project-management/teleirc-bug-template-example.png" alt="Screenshot of a TeleIRC bug report completed using the issue template."/></a>
-											</div>
-										</div>
-										<div class="paragraph">
-											<p>These templates are used to quickly diagnose problems, discover interests in new features, and cut some of the chase out of troubleshooting.
-												Find the exact templates used by the TeleIRC project in their <a href="https://github.com/RITlug/teleirc/tree/master/.github/ISSUE_TEMPLATE"><code>.github/</code> folder</a>.</p>
-										</div>
-									</div>
-								</div>
-								<div class="sect1">
-									<h2 id="_additional_resources">3. Additional resources&nbsp;<a class="hanchor" href="#_additional_resources">🔗</a> </h2>
-									<div class="sectionbody">
-										<div class="ulist">
-											<ul>
-												<li>
-													<p><a href="https://github.com/devspace/awesome-github-templates"><strong>devspace/awesome-github-templates</strong></a>:
-														Curated list of GitHub Issues and Pull Requests templates</p>
-												</li>
-												<li>
-													<p><a href="https://github.com/stevemao/github-issue-templates"><strong>stevemao/github-issue-templates</strong></a>:
-														Wide range of issue templates you can customize for your own repositories.</p>
-												</li>
-											</ul>
-										</div>
+										</section>
 									</div>
 								</div>
 							</div>
-							<p class="post-meta border-bottom pb-3 mb-0 mt-3">Updated on 03 Dec 2021</p>
-							<nav class="pagination mt-3">
-								<a class="nav nav-prev" href="https://unicef.github.io/inventory/project-management/" aria-label="Previous page" ><i class="ti-arrow-left mr-2"></i> <span class="d-none d-md-block">Project Management</span></a>
-								<a class="nav nav-next" href="https://unicef.github.io/inventory/project-management/reading-list/" aria-label="Previous page" > <span class="d-none d-md-block">Outreach reading list</span><i class="ti-arrow-right ml-2"></i></a>
-							</nav>
-							<section class="my-3 py-3" id="related-articles">
-								<h5 class="text-center">Related Articles</h5>
-								<div class="row">
-									<div class="col-sm-4 my-2">
-										<a href="https://unicef.github.io/inventory/project-management/project-boards/">
-											<div class="card text-center">
-												<div class="card-body">
-													<h5 class="card-title">Project boards</h5>
-													<p class="card-subtitle mb-2 text-muted">An introduction to project/kanban boards for new Open Source project or community managers.</p>
-												</div>
-											</div>
-										</a>
-									</div>
-									<div class="col-sm-4 my-2">
-										<a href="https://unicef.github.io/inventory/project-management/reading-list/">
-											<div class="card text-center">
-												<div class="card-body">
-													<h5 class="card-title">Outreach reading list</h5>
-													<p class="card-subtitle mb-2 text-muted">Various readings and learnings about outreach and marketing in an Open Source context.</p>
-												</div>
-											</div>
-										</a>
-									</div>
-								</div>
-							</section>
 						</div>
 					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- /details page -->
-	<!-- footer -->
-	<footer class="section bg-primary p-4">
-		<div class="container">
-			<div class="row align-items-center">
-				<div class="col-md-3 text-md-left text-center">
-					<ul>
-						<li><a class="nav-link text-white" href="/inventory">HOME</a></li>
-						<li class="nav-item">
-							<a class="nav-link text-white text-uppercase" href="https://unicef.github.io/inventory/faq">FAQ</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link text-white text-uppercase" href="https://unicef.github.io/inventory/cohorts">cohorts</a>
-						</li>
-					</ul>
-				</div>
-				<div class="col-md-6 text-md-center text-center">
-					<p class="mb-md-0 mb-4 text-white">The UNICEF Open Source Inventory is a knowledge-base of best practices, resources, and information about working and leading Open. This is maintained as part of the Open Source Mentorship programme offered by the UNICEF Innovation Fund. The Inventory provides mentorship and guidance to anyone seeking to adopt best practices in their journey to building an Open Source project and community. It is self-serve, and can be used at various phases of building a project and community.</p>
-				</div>
-				<div class="col-md-3 text-md-right text-center">
-					<ul class="text-white">
-						<li class="nav-item">
-							<a class="nav-link text-white font-weight-bold" href="https://www.unicef.org/">UNICEF Global</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link text-white font-weight-bold" href="https://www.unicefinnovationfund.org/">UNICEF Innovation Fund</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link text-white font-weight-bold" href="https://www.unicef.org/legal">Legal</a>
-							<p class="h6 text-md-right font-weight-light"></p>
-						</li>
-					</ul>
-					<ul class="list-inline">
-						<li class="list-inline-item"><a class="text-color d-inline-block p-2 text-white" href="https://github.com/unicef/inventory" aria-label="UNICEF Open Source Inventory on GitHub"><i class="ti-github"></i></a></li>
-						<li class="list-inline-item"><a class="text-color d-inline-block p-2 text-white" href="https://twitter.com/UNICEFinnovate" aria-label="@UNICEFinnovate on Twitter"><i class="ti-twitter"></i></a></li>
-					</ul>
-				</div>
-			</div>
-		</div>
-		<p class="text-md-center text-center text-white mt-3 h6 font-italic">Creative Commons BY-SA 4.0. Site theme maintained by UNICEF. Original theme, Dot, created by ThemeFisher.</p>
-	</footer>
-	<!-- /footer -->
-	<!-- Main Script -->
-	<script src="https://unicef.github.io/inventory/js/script.min.js"></script>
-</body>
-</html>
+				</section>
+				<!-- /details page -->
+				<!-- footer -->
+				<footer class="section bg-primary p-4">
+					<div class="container">
+						<div class="row align-items-center">
+							<div class="col-md-3 text-md-left text-center">
+								<ul>
+									<li><a class="nav-link text-white" href="/inventory">HOME</a></li>
+									<li class="nav-item">
+										<a class="nav-link text-white text-uppercase" href="https://unicef.github.io/inventory/faq">FAQ</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link text-white text-uppercase" href="https://unicef.github.io/inventory/cohorts">cohorts</a>
+									</li>
+								</ul>
+							</div>
+							<div class="col-md-6 text-md-center text-center">
+								<p class="mb-md-0 mb-4 text-white">The UNICEF Open Source Inventory is a knowledge-base of best practices, resources, and information about working and leading Open. This is maintained as part of the Open Source Mentorship programme offered by the UNICEF Innovation Fund. The Inventory provides mentorship and guidance to anyone seeking to adopt best practices in their journey to building an Open Source project and community. It is self-serve, and can be used at various phases of building a project and community.</p>
+							</div>
+							<div class="col-md-3 text-md-right text-center">
+								<ul class="text-white">
+									<li class="nav-item">
+										<a class="nav-link text-white font-weight-bold" href="https://www.unicef.org/">UNICEF Global</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link text-white font-weight-bold" href="https://www.unicefinnovationfund.org/">UNICEF Innovation Fund</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link text-white font-weight-bold" href="https://www.unicef.org/legal">Legal</a>
+										<p class="h6 text-md-right font-weight-light"></p>
+									</li>
+								</ul>
+								<ul class="list-inline">
+									<li class="list-inline-item"><a class="text-color d-inline-block p-2 text-white" href="https://github.com/unicef/inventory" aria-label="UNICEF Open Source Inventory on GitHub"><i class="ti-github"></i></a></li>
+									<li class="list-inline-item"><a class="text-color d-inline-block p-2 text-white" href="https://twitter.com/UNICEFinnovate" aria-label="@UNICEFinnovate on Twitter"><i class="ti-twitter"></i></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<p class="text-md-center text-center text-white mt-3 h6 font-italic">Creative Commons BY-SA 4.0. Site theme maintained by UNICEF. Original theme, Dot, created by ThemeFisher.</p>
+				</footer>
+				<!-- /footer -->
+				<!-- Main Script -->
+				<script src="https://unicef.github.io/inventory/js/script.min.js"></script>
+			</body>
+		</html>

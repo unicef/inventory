@@ -77,7 +77,7 @@
 		<!-- header -->
 		<header class="shadow-bottom sticky-top bg-white">
 			<nav class="navbar navbar-expand-md navbar-dark" style=" background-color: #1CABE2">
-				<div class="container px-2 px-md-0">
+				<div class="container px-2 px-md-0 navigation-bar">
 					<div id="site-brand">
 						<a class="navbar-brand px-2" href="https://www.unicef.org/">
 							<div class="text-center nav-heading">
@@ -156,171 +156,193 @@
 					<div class="col-lg-3">
 						<div class="sidebar">
 							<a class="back-btn" href="/inventory" aria-label="back"></a>
-							<ul class="list-styled">
+							<ul>
 								<li data-nav-id="https://unicef.github.io/inventory/documentation/" title="Documentation" class="sidelist
   ">
-									<a href="https://unicef.github.io/inventory/documentation/">
+									<a href="https://unicef.github.io/inventory/documentation/" class="font-weight-bold">
 										Documentation
 									</a>
-									<ul>
-										<li data-nav-id="https://unicef.github.io/inventory/documentation/hall-of-fame/" title="Documentation Hall of Fame" class="sidelist
+									<div class="accordion" id="accordionExample">
+										<ul>
+											<li data-nav-id="https://unicef.github.io/inventory/documentation/hall-of-fame/" title="Documentation Hall of Fame" class="sidelist
   ">
-											<a href="https://unicef.github.io/inventory/documentation/hall-of-fame/">
-												Documentation Hall of Fame
-											</a>
-										</li>
-										<li data-nav-id="https://unicef.github.io/inventory/documentation/frontier-tech-tips/" title="Frontier technology tips" class="sidelist
+												<div class="container">
+													<div class="row">
+														<div class="col-10">
+															<a href="https://unicef.github.io/inventory/documentation/hall-of-fame/" class="">
+																Documentation Hall of Fame
+															</a>
+														</div>
+													</div>
+												</li>
+												<li data-nav-id="https://unicef.github.io/inventory/documentation/frontier-tech-tips/" title="Frontier technology tips" class="sidelist
   ">
-											<a href="https://unicef.github.io/inventory/documentation/frontier-tech-tips/">
-												Frontier technology tips
-											</a>
-										</li>
-										<li data-nav-id="https://unicef.github.io/inventory/documentation/reading-list/" title="Reading list" class="sidelist
+													<div class="container">
+														<div class="row">
+															<div class="col-10">
+																<a href="https://unicef.github.io/inventory/documentation/frontier-tech-tips/" class="">
+																	Frontier technology tips
+																</a>
+															</div>
+														</div>
+													</li>
+													<li data-nav-id="https://unicef.github.io/inventory/documentation/reading-list/" title="Reading list" class="sidelist
   ">
-											<a href="https://unicef.github.io/inventory/documentation/reading-list/">
-												Reading list
-											</a>
-										</li>
-										<li data-nav-id="https://unicef.github.io/inventory/documentation/text-editors/" title="Text editors" class="sidelist
+														<div class="container">
+															<div class="row">
+																<div class="col-10">
+																	<a href="https://unicef.github.io/inventory/documentation/reading-list/" class="">
+																		Reading list
+																	</a>
+																</div>
+															</div>
+														</li>
+														<li data-nav-id="https://unicef.github.io/inventory/documentation/text-editors/" title="Text editors" class="sidelist
   active">
-											<a href="https://unicef.github.io/inventory/documentation/text-editors/">
-												Text editors
-											</a>
-										</li>
-									</ul>
-								</li>
-								<div>
-									<button class="btn btn-primary btn-block" id="generatePDF" > Get Pdf  </button>
-								</div>
-							</ul>
-						</div>
-					</div>
-					<div class="col-lg-9">
-						<div class="bg-white" style="margin:auto">
-							<script language="JavaScript">
-								String.prototype.capitalizeFirstLetter = function() {
-								   return this.charAt(0).toUpperCase() + this.slice(1);
-								}
-
-								var path = "<a style='margin-left:2%' href='https:\/\/unicef.github.io\/inventory\/'>Home</a>";
-								var href = document.location.href;
-								var s = href.split("/");
-								for (var i=3;i<(s.length-2);i++) {
-								   path+=" &gt;  <a href=\""+href.substring(0,href.indexOf("/"+s[i])+s[i].length+1)+"/\">"+s[i].capitalizeFirstLetter()+"</a> ";
-								}
-								i=s.length-1;
-								path+="<a href=\""+href.substring(0,href.indexOf(s[i])+s[i].length)+"\">"+s[i]+"</a>";
-								path+="  &gt;  <b>Text editors</b>";
-								document.writeln(path);
-							</script>
-						</div>
-						<div class="p-lg-5 p-4 bg-white" id="content">
-							<h2 class="mb-5" id="title">Text editors</h2>
-							<div class="content">
-								<div class="paragraph">
-									<p>This page is focused on educational resources, not strictly comparisons of editors.</p>
-								</div>
-								<div class="sect1">
-									<h2 id="_vim">1. Vim&nbsp;<a class="hanchor" href="#_vim">🔗</a> </h2>
-									<div class="sectionbody">
-										<div class="ulist">
-											<ul>
-												<li>
-													<p><a href="https://www.openvim.com/tutorial.html">Interactive Vim tutorial</a>:
-														An interactive tutorial with several sections of common Vim actions.</p>
+															<div class="container">
+																<div class="row">
+																	<div class="col-10">
+																		<a href="https://unicef.github.io/inventory/documentation/text-editors/" class="">
+																			Text editors
+																		</a>
+																	</div>
+																</div>
+															</li>
+														</ul>
+													</div>
 												</li>
-												<li>
-													<p><a href="https://www.vimgolf.com/">VimGolf</a>:
-														Various take-home challenges of various actions in Vim to be completed in as few keystrokes as possible.</p>
-												</li>
-												<li>
-													<p><em>Game</em>:
-														<a href="https://vim-adventures.com/">Vim Adventures</a>, an adventure game that helps you learn Vim as you play.</p>
-												</li>
+												<div>
+													<button class="btn btn-primary btn-block" id="generatePDF">Get Pdf</button>
+												</div>
 											</ul>
+										</div>
+									</div>
+									<div class="col-lg-9">
+										<div class="bg-white" style="margin:auto">
+											<script language="JavaScript">
+												String.prototype.capitalizeFirstLetter = function() {
+												   return this.charAt(0).toUpperCase() + this.slice(1);
+												}
+
+												var path = "<a style='margin-left:2%' href='https:\/\/unicef.github.io\/inventory\/'>Home</a>";
+												var href = document.location.href;
+												var s = href.split("/");
+												for (var i=3;i<(s.length-2);i++) {
+												   path+=" &gt;  <a href=\""+href.substring(0,href.indexOf("/"+s[i])+s[i].length+1)+"/\">"+s[i].capitalizeFirstLetter()+"</a> ";
+												}
+												i=s.length-1;
+												path+="<a href=\""+href.substring(0,href.indexOf(s[i])+s[i].length)+"\">"+s[i]+"</a>";
+												path+="  &gt;  <b>Text editors</b>";
+												document.writeln(path);
+											</script>
+										</div>
+										<div class="p-lg-5 p-4 bg-white" id="content">
+											<h2 class="mb-5" id="title">Text editors</h2>
+											<div class="content">
+												<div class="paragraph">
+													<p>This page is focused on educational resources, not strictly comparisons of editors.</p>
+												</div>
+												<div class="sect1">
+													<h2 id="_vim">1. Vim&nbsp;<a class="hanchor" href="#_vim">🔗</a> </h2>
+													<div class="sectionbody">
+														<div class="ulist">
+															<ul>
+																<li>
+																	<p><a href="https://www.openvim.com/tutorial.html">Interactive Vim tutorial</a>:
+																		An interactive tutorial with several sections of common Vim actions.</p>
+																</li>
+																<li>
+																	<p><a href="https://www.vimgolf.com/">VimGolf</a>:
+																		Various take-home challenges of various actions in Vim to be completed in as few keystrokes as possible.</p>
+																</li>
+																<li>
+																	<p><em>Game</em>:
+																		<a href="https://vim-adventures.com/">Vim Adventures</a>, an adventure game that helps you learn Vim as you play.</p>
+																</li>
+															</ul>
+														</div>
+													</div>
+												</div>
+											</div>
+											<p class="post-meta border-bottom pb-3 mb-0 mt-3">Updated on 03 Dec 2021</p>
+											<nav class="pagination mt-3">
+												<a class="nav nav-prev" href="https://unicef.github.io/inventory/documentation/reading-list/" aria-label="Previous page" ><i class="ti-arrow-left mr-2"></i> <span class="d-none d-md-block">Reading list</span></a>
+												<a class="nav nav-next" href="https://unicef.github.io/inventory/faq/" aria-label="Previous page" > <span class="d-none d-md-block">Frequently Asked Questions</span><i class="ti-arrow-right ml-2"></i></a>
+											</nav>
+											<section class="my-3 py-3" id="related-articles">
+												<h5 class="text-center">Related Articles</h5>
+												<div class="row">
+													<div class="col-sm-4 my-2">
+														<a href="https://unicef.github.io/inventory/documentation/hall-of-fame/">
+															<div class="card text-center">
+																<div class="card-body">
+																	<h5 class="card-title">Documentation Hall of Fame</h5>
+																	<p class="card-subtitle mb-2 text-muted">Real examples of Open Source projects with excellent documentation.</p>
+																</div>
+															</div>
+														</a>
+													</div>
+													<div class="col-sm-4 my-2">
+														<a href="https://unicef.github.io/inventory/documentation/reading-list/">
+															<div class="card text-center">
+																<div class="card-body">
+																	<h5 class="card-title">Reading list</h5>
+																	<p class="card-subtitle mb-2 text-muted">Various readings and learnings about documentation in an Open Source context.</p>
+																</div>
+															</div>
+														</a>
+													</div>
+												</div>
+											</section>
 										</div>
 									</div>
 								</div>
 							</div>
-							<p class="post-meta border-bottom pb-3 mb-0 mt-3">Updated on 03 Dec 2021</p>
-							<nav class="pagination mt-3">
-								<a class="nav nav-prev" href="https://unicef.github.io/inventory/documentation/reading-list/" aria-label="Previous page" ><i class="ti-arrow-left mr-2"></i> <span class="d-none d-md-block">Reading list</span></a>
-								<a class="nav nav-next" href="https://unicef.github.io/inventory/faq/" aria-label="Previous page" > <span class="d-none d-md-block">Frequently Asked Questions</span><i class="ti-arrow-right ml-2"></i></a>
-							</nav>
-							<section class="my-3 py-3" id="related-articles">
-								<h5 class="text-center">Related Articles</h5>
-								<div class="row">
-									<div class="col-sm-4 my-2">
-										<a href="https://unicef.github.io/inventory/documentation/hall-of-fame/">
-											<div class="card text-center">
-												<div class="card-body">
-													<h5 class="card-title">Documentation Hall of Fame</h5>
-													<p class="card-subtitle mb-2 text-muted">Real examples of Open Source projects with excellent documentation.</p>
-												</div>
-											</div>
-										</a>
-									</div>
-									<div class="col-sm-4 my-2">
-										<a href="https://unicef.github.io/inventory/documentation/reading-list/">
-											<div class="card text-center">
-												<div class="card-body">
-													<h5 class="card-title">Reading list</h5>
-													<p class="card-subtitle mb-2 text-muted">Various readings and learnings about documentation in an Open Source context.</p>
-												</div>
-											</div>
-										</a>
-									</div>
-								</div>
-							</section>
 						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- /details page -->
-	<!-- footer -->
-	<footer class="section bg-primary p-4">
-		<div class="container">
-			<div class="row align-items-center">
-				<div class="col-md-3 text-md-left text-center">
-					<ul>
-						<li><a class="nav-link text-white" href="/inventory">HOME</a></li>
-						<li class="nav-item">
-							<a class="nav-link text-white text-uppercase" href="https://unicef.github.io/inventory/faq">FAQ</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link text-white text-uppercase" href="https://unicef.github.io/inventory/cohorts">cohorts</a>
-						</li>
-					</ul>
-				</div>
-				<div class="col-md-6 text-md-center text-center">
-					<p class="mb-md-0 mb-4 text-white">The UNICEF Open Source Inventory is a knowledge-base of best practices, resources, and information about working and leading Open. This is maintained as part of the Open Source Mentorship programme offered by the UNICEF Innovation Fund. The Inventory provides mentorship and guidance to anyone seeking to adopt best practices in their journey to building an Open Source project and community. It is self-serve, and can be used at various phases of building a project and community.</p>
-				</div>
-				<div class="col-md-3 text-md-right text-center">
-					<ul class="text-white">
-						<li class="nav-item">
-							<a class="nav-link text-white font-weight-bold" href="https://www.unicef.org/">UNICEF Global</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link text-white font-weight-bold" href="https://www.unicefinnovationfund.org/">UNICEF Innovation Fund</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link text-white font-weight-bold" href="https://www.unicef.org/legal">Legal</a>
-							<p class="h6 text-md-right font-weight-light"></p>
-						</li>
-					</ul>
-					<ul class="list-inline">
-						<li class="list-inline-item"><a class="text-color d-inline-block p-2 text-white" href="https://github.com/unicef/inventory" aria-label="UNICEF Open Source Inventory on GitHub"><i class="ti-github"></i></a></li>
-						<li class="list-inline-item"><a class="text-color d-inline-block p-2 text-white" href="https://twitter.com/UNICEFinnovate" aria-label="@UNICEFinnovate on Twitter"><i class="ti-twitter"></i></a></li>
-					</ul>
-				</div>
-			</div>
-		</div>
-		<p class="text-md-center text-center text-white mt-3 h6 font-italic">Creative Commons BY-SA 4.0. Site theme maintained by UNICEF. Original theme, Dot, created by ThemeFisher.</p>
-	</footer>
-	<!-- /footer -->
-	<!-- Main Script -->
-	<script src="https://unicef.github.io/inventory/js/script.min.js"></script>
-</body>
-</html>
+					</section>
+					<!-- /details page -->
+					<!-- footer -->
+					<footer class="section bg-primary p-4">
+						<div class="container">
+							<div class="row align-items-center">
+								<div class="col-md-3 text-md-left text-center">
+									<ul>
+										<li><a class="nav-link text-white" href="/inventory">HOME</a></li>
+										<li class="nav-item">
+											<a class="nav-link text-white text-uppercase" href="https://unicef.github.io/inventory/faq">FAQ</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link text-white text-uppercase" href="https://unicef.github.io/inventory/cohorts">cohorts</a>
+										</li>
+									</ul>
+								</div>
+								<div class="col-md-6 text-md-center text-center">
+									<p class="mb-md-0 mb-4 text-white">The UNICEF Open Source Inventory is a knowledge-base of best practices, resources, and information about working and leading Open. This is maintained as part of the Open Source Mentorship programme offered by the UNICEF Innovation Fund. The Inventory provides mentorship and guidance to anyone seeking to adopt best practices in their journey to building an Open Source project and community. It is self-serve, and can be used at various phases of building a project and community.</p>
+								</div>
+								<div class="col-md-3 text-md-right text-center">
+									<ul class="text-white">
+										<li class="nav-item">
+											<a class="nav-link text-white font-weight-bold" href="https://www.unicef.org/">UNICEF Global</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link text-white font-weight-bold" href="https://www.unicefinnovationfund.org/">UNICEF Innovation Fund</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link text-white font-weight-bold" href="https://www.unicef.org/legal">Legal</a>
+											<p class="h6 text-md-right font-weight-light"></p>
+										</li>
+									</ul>
+									<ul class="list-inline">
+										<li class="list-inline-item"><a class="text-color d-inline-block p-2 text-white" href="https://github.com/unicef/inventory" aria-label="UNICEF Open Source Inventory on GitHub"><i class="ti-github"></i></a></li>
+										<li class="list-inline-item"><a class="text-color d-inline-block p-2 text-white" href="https://twitter.com/UNICEFinnovate" aria-label="@UNICEFinnovate on Twitter"><i class="ti-twitter"></i></a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<p class="text-md-center text-center text-white mt-3 h6 font-italic">Creative Commons BY-SA 4.0. Site theme maintained by UNICEF. Original theme, Dot, created by ThemeFisher.</p>
+					</footer>
+					<!-- /footer -->
+					<!-- Main Script -->
+					<script src="https://unicef.github.io/inventory/js/script.min.js"></script>
+				</body>
+			</html>

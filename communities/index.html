@@ -76,7 +76,7 @@
 		<!-- header -->
 		<header class="shadow-bottom sticky-top bg-white">
 			<nav class="navbar navbar-expand-md navbar-dark" style=" background-color: #1CABE2">
-				<div class="container px-2 px-md-0">
+				<div class="container px-2 px-md-0 navigation-bar">
 					<div id="site-brand">
 						<a class="navbar-brand px-2" href="https://www.unicef.org/">
 							<div class="text-center nav-heading">
@@ -155,134 +155,169 @@
 					<div class="col-lg-3">
 						<div class="sidebar">
 							<a class="back-btn" href="/inventory" aria-label="back"></a>
-							<ul class="list-styled">
+							<ul>
 								<li data-nav-id="https://unicef.github.io/inventory/communities/" title="Communities" class="sidelist
   active">
-									<a href="https://unicef.github.io/inventory/communities/">
+									<a href="https://unicef.github.io/inventory/communities/" class="font-weight-bold">
 										Communities
 									</a>
-									<ul>
-										<li data-nav-id="https://unicef.github.io/inventory/communities/fedora/" title="Fedora Project" class="sidelist
-  ">
-											<a href="https://unicef.github.io/inventory/communities/fedora/">
-												Fedora Project
-											</a>
-										</li>
-										<li data-nav-id="https://unicef.github.io/inventory/communities/public-lab/" title="Public Lab" class="sidelist
-  ">
-											<a href="https://unicef.github.io/inventory/communities/public-lab/">
-												Public Lab
-											</a>
-										</li>
-									</ul>
-								</li>
-							</ul>
-						</div>
-					</div>
-					<div class="col-lg-9">
-						<div class="bg-white" style="margin:auto">
-							<script language="JavaScript">
-								String.prototype.capitalizeFirstLetter = function() {
-								   return this.charAt(0).toUpperCase() + this.slice(1);
-								}
-
-								var path = "<a style='margin-left:2%' href='https:\/\/unicef.github.io\/inventory\/'>Home</a>";
-								var href = document.location.href;
-								var s = href.split("/");
-								for (var i=3;i<(s.length-2);i++) {
-								   path+=" &gt;  <a href=\""+href.substring(0,href.indexOf("/"+s[i])+s[i].length+1)+"/\">"+s[i].capitalizeFirstLetter()+"</a> ";
-								}
-								i=s.length-1;
-								path+="<a href=\""+href.substring(0,href.indexOf(s[i])+s[i].length)+"\">"+s[i]+"</a>";
-								path+="  &gt;  <b>Communities</b>";
-								document.writeln(path);
-							</script>
-						</div>
-						<div class="p-lg-5 p-4 bg-white" id="content">
-							<h2 class="mb-5" id="title">Communities</h2>
-							<div class="bg-light p-4">
-								<ul class="page-list">
-									<li data-nav-id="https://unicef.github.io/inventory/communities/" title="Communities" class="sidelist
-  active">
-										<a href="https://unicef.github.io/inventory/communities/">
-											Communities
-										</a>
+									<div class="accordion" id="accordionExample">
 										<ul>
 											<li data-nav-id="https://unicef.github.io/inventory/communities/fedora/" title="Fedora Project" class="sidelist
   ">
-												<a href="https://unicef.github.io/inventory/communities/fedora/">
-													Fedora Project
-												</a>
-											</li>
-											<li data-nav-id="https://unicef.github.io/inventory/communities/public-lab/" title="Public Lab" class="sidelist
+												<div class="container">
+													<div class="row">
+														<div class="col-10">
+															<a href="https://unicef.github.io/inventory/communities/fedora/" class="">
+																Fedora Project
+															</a>
+														</div>
+													</div>
+												</li>
+												<li data-nav-id="https://unicef.github.io/inventory/communities/public-lab/" title="Public Lab" class="sidelist
   ">
-												<a href="https://unicef.github.io/inventory/communities/public-lab/">
-													Public Lab
-												</a>
+													<div class="container">
+														<div class="row">
+															<div class="col-10">
+																<a href="https://unicef.github.io/inventory/communities/public-lab/" class="">
+																	Public Lab
+																</a>
+															</div>
+														</div>
+													</li>
+												</ul>
+											</div>
+										</li>
+									</ul>
+								</div>
+							</div>
+							<div class="col-lg-9">
+								<div class="bg-white" style="margin:auto">
+									<script language="JavaScript">
+										String.prototype.capitalizeFirstLetter = function() {
+										   return this.charAt(0).toUpperCase() + this.slice(1);
+										}
+
+										var path = "<a style='margin-left:2%' href='https:\/\/unicef.github.io\/inventory\/'>Home</a>";
+										var href = document.location.href;
+										var s = href.split("/");
+										for (var i=3;i<(s.length-2);i++) {
+										   path+=" &gt;  <a href=\""+href.substring(0,href.indexOf("/"+s[i])+s[i].length+1)+"/\">"+s[i].capitalizeFirstLetter()+"</a> ";
+										}
+										i=s.length-1;
+										path+="<a href=\""+href.substring(0,href.indexOf(s[i])+s[i].length)+"\">"+s[i]+"</a>";
+										path+="  &gt;  <b>Communities</b>";
+										document.writeln(path);
+									</script>
+								</div>
+								<div class="p-lg-5 p-4 bg-white" id="content">
+									<h2 class="mb-5" id="title">Communities</h2>
+									<div class="bg-light p-4">
+										<ul class="page-list">
+											<li data-nav-id="https://unicef.github.io/inventory/communities/" title="Communities" class="sidelist
+  active">
+												<div class="container">
+													<div class="row">
+														<div class="col-10">
+															<a href="https://unicef.github.io/inventory/communities/" class="">
+																Communities
+															</a>
+														</div>
+														<div class="col-2 ">
+															<i class="fas fa-chevron-down align-middle" type="button" data-toggle="collapse" data-target="#collapsec43f5fe1fc409d8f99aca5ac20491639" aria-expanded="false" aria-controls='collapsec43f5fe1fc409d8f99aca5ac20491639'>
+															</i>
+														</div>
+													</div>
+													<div id='collapsec43f5fe1fc409d8f99aca5ac20491639' class="collapse" aria-labelledby="headingc43f5fe1fc409d8f99aca5ac20491639" data-parent="#accordionExample">
+														<div class="sidebar-scroll">
+															<ul>
+																<li data-nav-id="https://unicef.github.io/inventory/communities/fedora/" title="Fedora Project" class="sidelist
+  ">
+																	<div class="container">
+																		<div class="row">
+																			<div class="col-10">
+																				<a href="https://unicef.github.io/inventory/communities/fedora/" class="">
+																					Fedora Project
+																				</a>
+																			</div>
+																		</div>
+																	</li>
+																	<li data-nav-id="https://unicef.github.io/inventory/communities/public-lab/" title="Public Lab" class="sidelist
+  ">
+																		<div class="container">
+																			<div class="row">
+																				<div class="col-10">
+																					<a href="https://unicef.github.io/inventory/communities/public-lab/" class="">
+																						Public Lab
+																					</a>
+																				</div>
+																			</div>
+																		</li>
+																	</ul>
+																</div>
+															</div>
+														</li>
+													</ul>
+												</div>
+												<p class="post-meta border-bottom pb-3 mb-0 mt-3">Updated on 09 Aug 2021</p>
+												<nav class="pagination mt-3">
+													<a class="nav nav-prev" href="https://unicef.github.io/inventory/cohorts/vr-ar/scioxr/" aria-label="Previous page" ><i class="ti-arrow-left mr-2"></i> <span class="d-none d-md-block">ScioXR</span></a>
+													<a class="nav nav-next" href="https://unicef.github.io/inventory/communities/fedora/" aria-label="Previous page" > <span class="d-none d-md-block">Fedora Project</span><i class="ti-arrow-right ml-2"></i></a>
+												</nav>
+												<section class="my-3 py-3" id="related-articles">
+													<h5 class="text-center">Related Articles</h5>
+													<div class="row">
+													</div>
+												</section>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</section>
+						<!-- /details page -->
+						<!-- footer -->
+						<footer class="section bg-primary p-4">
+							<div class="container">
+								<div class="row align-items-center">
+									<div class="col-md-3 text-md-left text-center">
+										<ul>
+											<li><a class="nav-link text-white" href="/inventory">HOME</a></li>
+											<li class="nav-item">
+												<a class="nav-link text-white text-uppercase" href="https://unicef.github.io/inventory/faq">FAQ</a>
+											</li>
+											<li class="nav-item">
+												<a class="nav-link text-white text-uppercase" href="https://unicef.github.io/inventory/cohorts">cohorts</a>
 											</li>
 										</ul>
-									</li>
-								</ul>
-							</div>
-							<p class="post-meta border-bottom pb-3 mb-0 mt-3">Updated on 09 Aug 2021</p>
-							<nav class="pagination mt-3">
-								<a class="nav nav-prev" href="https://unicef.github.io/inventory/cohorts/vr-ar/scioxr/" aria-label="Previous page" ><i class="ti-arrow-left mr-2"></i> <span class="d-none d-md-block">ScioXR</span></a>
-								<a class="nav nav-next" href="https://unicef.github.io/inventory/communities/fedora/" aria-label="Previous page" > <span class="d-none d-md-block">Fedora Project</span><i class="ti-arrow-right ml-2"></i></a>
-							</nav>
-							<section class="my-3 py-3" id="related-articles">
-								<h5 class="text-center">Related Articles</h5>
-								<div class="row">
+									</div>
+									<div class="col-md-6 text-md-center text-center">
+										<p class="mb-md-0 mb-4 text-white">The UNICEF Open Source Inventory is a knowledge-base of best practices, resources, and information about working and leading Open. This is maintained as part of the Open Source Mentorship programme offered by the UNICEF Innovation Fund. The Inventory provides mentorship and guidance to anyone seeking to adopt best practices in their journey to building an Open Source project and community. It is self-serve, and can be used at various phases of building a project and community.</p>
+									</div>
+									<div class="col-md-3 text-md-right text-center">
+										<ul class="text-white">
+											<li class="nav-item">
+												<a class="nav-link text-white font-weight-bold" href="https://www.unicef.org/">UNICEF Global</a>
+											</li>
+											<li class="nav-item">
+												<a class="nav-link text-white font-weight-bold" href="https://www.unicefinnovationfund.org/">UNICEF Innovation Fund</a>
+											</li>
+											<li class="nav-item">
+												<a class="nav-link text-white font-weight-bold" href="https://www.unicef.org/legal">Legal</a>
+												<p class="h6 text-md-right font-weight-light"></p>
+											</li>
+										</ul>
+										<ul class="list-inline">
+											<li class="list-inline-item"><a class="text-color d-inline-block p-2 text-white" href="https://github.com/unicef/inventory" aria-label="UNICEF Open Source Inventory on GitHub"><i class="ti-github"></i></a></li>
+											<li class="list-inline-item"><a class="text-color d-inline-block p-2 text-white" href="https://twitter.com/UNICEFinnovate" aria-label="@UNICEFinnovate on Twitter"><i class="ti-twitter"></i></a></li>
+										</ul>
+									</div>
 								</div>
-							</section>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- /details page -->
-	<!-- footer -->
-	<footer class="section bg-primary p-4">
-		<div class="container">
-			<div class="row align-items-center">
-				<div class="col-md-3 text-md-left text-center">
-					<ul>
-						<li><a class="nav-link text-white" href="/inventory">HOME</a></li>
-						<li class="nav-item">
-							<a class="nav-link text-white text-uppercase" href="https://unicef.github.io/inventory/faq">FAQ</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link text-white text-uppercase" href="https://unicef.github.io/inventory/cohorts">cohorts</a>
-						</li>
-					</ul>
-				</div>
-				<div class="col-md-6 text-md-center text-center">
-					<p class="mb-md-0 mb-4 text-white">The UNICEF Open Source Inventory is a knowledge-base of best practices, resources, and information about working and leading Open. This is maintained as part of the Open Source Mentorship programme offered by the UNICEF Innovation Fund. The Inventory provides mentorship and guidance to anyone seeking to adopt best practices in their journey to building an Open Source project and community. It is self-serve, and can be used at various phases of building a project and community.</p>
-				</div>
-				<div class="col-md-3 text-md-right text-center">
-					<ul class="text-white">
-						<li class="nav-item">
-							<a class="nav-link text-white font-weight-bold" href="https://www.unicef.org/">UNICEF Global</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link text-white font-weight-bold" href="https://www.unicefinnovationfund.org/">UNICEF Innovation Fund</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link text-white font-weight-bold" href="https://www.unicef.org/legal">Legal</a>
-							<p class="h6 text-md-right font-weight-light"></p>
-						</li>
-					</ul>
-					<ul class="list-inline">
-						<li class="list-inline-item"><a class="text-color d-inline-block p-2 text-white" href="https://github.com/unicef/inventory" aria-label="UNICEF Open Source Inventory on GitHub"><i class="ti-github"></i></a></li>
-						<li class="list-inline-item"><a class="text-color d-inline-block p-2 text-white" href="https://twitter.com/UNICEFinnovate" aria-label="@UNICEFinnovate on Twitter"><i class="ti-twitter"></i></a></li>
-					</ul>
-				</div>
-			</div>
-		</div>
-		<p class="text-md-center text-center text-white mt-3 h6 font-italic">Creative Commons BY-SA 4.0. Site theme maintained by UNICEF. Original theme, Dot, created by ThemeFisher.</p>
-	</footer>
-	<!-- /footer -->
-	<!-- Main Script -->
-	<script src="https://unicef.github.io/inventory/js/script.min.js"></script>
-</body>
-</html>
+							</div>
+							<p class="text-md-center text-center text-white mt-3 h6 font-italic">Creative Commons BY-SA 4.0. Site theme maintained by UNICEF. Original theme, Dot, created by ThemeFisher.</p>
+						</footer>
+						<!-- /footer -->
+						<!-- Main Script -->
+						<script src="https://unicef.github.io/inventory/js/script.min.js"></script>
+					</body>
+				</html>
