@@ -1,0 +1,32 @@
+---
+title: Elsa Health
+weight: 30
+categories: "team"
+tags: ["team"]
+type: profiles
+
+description: AI-powered decision support tools for rural healthcare providers and health decision-makers.
+country: Tanzania
+date: 2020-09-25
+github: https://github.com/Elsa-Health
+linkedin: https://www.linkedin.com/company/inspired-ideas-africa/
+twitter: https://twitter.com/elsahealth
+website: https://www.elsa.health/
+community: https://discord.com/invite/aSfg5Y3kap
+logo: /inventory/cohorts/logo-elsa-health.jpg
+sdgs:
+    - 3
+dpgs:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 8
+
+---
+
+Elsa Health develops AI-powered clinical decision support algorithms for healthcare providers in East Africa.
+These algorithms are delivered through the Elsa Health Assistant or integrated into existing health information platforms to provide disease identification, triage support, adherence prediction, and outbreak predictions.
+Elsa Health currently powers decisions for 10,000 patient visits per month.
