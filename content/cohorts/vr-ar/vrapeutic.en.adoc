@@ -40,10 +40,10 @@ Meanwhile, it would take tens of years of therapy and can take up to $2.5M to ra
 
 VRapeautic design engaging and immersive virtual environments that are specially tailored to instill diverse life skills in children, such as social, motor, cognitive, and academic skills.
 The team delivers software, installed on VR headsets, to therapy centers, and content is delivered under full supervision from therapists.
-The educational scenarios are customizable, traceable, affordable efficient, and are enriched with AI and sensor-enabled experiences.
-Children responses and interactions are accessible on the cloud, which bolster scalability, and empower therapists to plan ahead for therapy sessions respectively.
-A library of modules currently include five modules for attention skills and two modules for motor skills, with 25% of the modules currently provided under open source licenses and are WebXR-ready.
+The educational scenarios are customizable, traceable, affordable, efficient, and can be enriched with AI and sensor-enabled experiences.
+Children's responses and interactions are accessible on the cloud, which bolster scalability, and empower therapists to plan ahead for therapy sessions respectively.
+A library of modules currently includes five modules for attention skills and two modules for motor skills, with 70% of the modules currently provided under open source licenses and are WebXR-ready.
 We are currently collaborating with 5 centers in 2 countries, giving us access to 100+ children.
 Although the mobility restrictions due to COVID have slowed down the validation experiments, available results have shown approximately 40% increase in the Attention Performance Index of the TOVA test in approximately one month of usage.
 Impulsivity and response time have also shown promising improvements.
-They have also started research collaborations with two universities to create alternative channels for validating and using the product, in parallel to the collaborations with therapy centers.
+We have also started research collaborations with two universities to create alternative channels for validating and using the product, in parallel to the collaborations with therapy centers.
