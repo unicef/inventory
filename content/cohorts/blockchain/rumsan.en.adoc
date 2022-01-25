@@ -11,7 +11,7 @@ github: https://github.com/esatya
 linkedin: https://www.linkedin.com/company/esatya/
 twitter: https://twitter.com/rahataid
 website: https://rahat.io/
-community: ""
+community: https://discord.gg/c73EXBJyMK
 logo: /inventory/cohorts/logo-rumsan.png
 sdgs:
     - 1
