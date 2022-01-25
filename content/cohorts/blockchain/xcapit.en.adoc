@@ -1,0 +1,25 @@
+---
+title: Xcapit
+categories: "team"
+tags: ["team"]
+type: profiles
+
+description: A platform using blockchain for wealth management, including financial planning and financial learning in a gamified way.
+country: Argentina
+date: 2021-07-25
+gitlab: https://gitlab.com/xcapit-foss
+linkedin: https://www.linkedin.com/company/xcapit/
+twitter: https://twitter.com/xcapitla
+website: https://xcapit.com/
+community: https://discord.com/channels/932696301265629214/932696301265629217
+logo: /inventory/cohorts/logo-xcapit.jpg
+sdgs:
+    - 8
+dpgs:
+    - 1
+    - 2
+
+---
+
+A platform using blockchain for wealth management, including financial planning and financial education in a gamified way.
+The Xcapit team has built an open source and self-custodial wallet and onboarded over 14,000 users from LatAm, especially from Mexico and Argentina within the first 2 months after launching.
