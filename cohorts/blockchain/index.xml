@@ -45,5 +45,15 @@
       <description>Treejer (trēʒər) is an open protocol connecting funders to rural planters worldwide. The project is experimenting with cutting-edge concepts such as decentralized finance (DeFi), non-fungible tokens (NFTs) and smart contracts to unlock new opportunities for climate finance, rural development and carbon credits. The team has on-boarded planters from over 10 countries located in the Latin America, Africa and Middle East. Users are enabled to make ecological and social impact even in unbanked communities.</description>
     </item>
     
+    <item>
+      <title>Xcapit</title>
+      <link>https://unicef.github.io/inventory/cohorts/blockchain/xcapit/</link>
+      <pubDate>Sun, 25 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://unicef.github.io/inventory/cohorts/blockchain/xcapit/</guid>
+      <description>A platform using blockchain for wealth management, including financial planning and financial education in a gamified way. The Xcapit team has built an open source and self-custodial wallet and onboarded over 14,000 users from LatAm, especially from Mexico and Argentina within the first 2 months after launching.
+ </description>
+    </item>
+    
   </channel>
 </rss>
