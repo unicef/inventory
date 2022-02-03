@@ -1,0 +1,27 @@
+---
+title: BX Smart Labs
+categories: "team"
+tags: ["team"]
+type: profiles
+
+description: Decentralized application that empowers users to create savings circles, generating trust among participants using smart contracts.
+country: Mexico
+date: 2021-07-25
+github: https://github.com/Bloinx
+linkedin: https://www.linkedin.com/company/bx-smart-labs/
+twitter: https://twitter.com/BXSmartLabs
+website: https://bloinx.io/
+community: https://t.me/bloinx
+logo: /inventory/cohorts/logo-bloinx.png
+sdgs:
+    - 5
+    - 8
+dpgs:
+    - 1
+    - 2
+
+---
+
+Decentralised application for saving circles.
+The payments will be done on the blockchain allowing the saving circles to be built regardless of the location of the users.
+The smart contract will automatize the payments and withdrawals on each period ensuring the users receive their funds.
