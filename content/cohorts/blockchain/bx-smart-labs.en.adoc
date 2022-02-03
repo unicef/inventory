@@ -12,7 +12,7 @@ linkedin: https://www.linkedin.com/company/bx-smart-labs/
 twitter: https://twitter.com/BXSmartLabs
 website: https://bloinx.io/
 community: https://t.me/bloinx
-logo: /inventory/cohorts/logo-bx-smart-labs.png
+logo: /inventory/cohorts/logo-bloinx.png
 sdgs:
     - 5
     - 8
