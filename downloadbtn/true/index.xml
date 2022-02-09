@@ -217,6 +217,16 @@
     </item>
     
     <item>
+      <title>Intern&#39;s guide for O.S. Inventory</title>
+      <link>https://unicef.github.io/inventory/meta/inventory/intern-guide/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unicef.github.io/inventory/meta/inventory/intern-guide/</guid>
+      <description>Table of Contents 1. Introducing Hugo 2. Introducing the UNICEF Inventory 3. Dev tips and tricks 4. Working with the team 5. What I wish I knew earlier   Originally written by Ida Delphine.
+ This document is an on-boarding guide for interns working on the UNICEF Open Source Inventory. It is written and maintained by interns who worked or are working on the project. Please help keep this guide up-to-date with your own experiences!</description>
+    </item>
+    
+    <item>
       <title>Intro to Creative Commons licenses</title>
       <link>https://unicef.github.io/inventory/legal-policy/creative-commons/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
