@@ -1,0 +1,90 @@
+---
+title: "Intern's guide for O.S. Inventory"
+description: On-boarding documentation and guidance for interns working on the Open Source Inventory.
+tags: ["onboarding"]
+downloadBtn: "true"
+
+---
+:toc:
+
+_Originally written by https://github.com/Idadelveloper[Ida Delphine]_.
+
+This document is an on-boarding guide for interns working on the UNICEF Open Source Inventory.
+It is written and maintained by interns who worked or are working on the project.
+Please help keep this guide up-to-date with your own experiences!
+
+
+[[intro-hugo]]
+== Introducing Hugo
+
+https://gohugo.io/[Hugo] is an open source static site generator written in Go to build fast and flexible websites.
+It is popular for building documentation websites and it is what the UNICEF Open Source Inventory utilizes.
+If you are new to Hugo, be sure to take a look at the https://gohugo.io/getting-started/quick-start/[docs] and also check out this https://www.youtube.com/playlist?list=PLLAZ4kZ9dFpOnyRlyS-liKL5ReHDcj4G3[YouTube playlist] by Mike Dane.
+
+
+[[intro-inventory]]
+== Introducing the UNICEF Inventory
+
+The link:++{{< ref "/" >}}++[UNICEF Open Source Inventory] is a knowledge base for open source best practices and resources related to open source.
+It also is a key resource used during the link:++{{< ref "/meta/mentorship/overview" >}}++[open source mentorship program] of the various https://www.unicefinnovationfund.org/[UNICEF Innovation Fund] cohorts.
+It is built on Hugo and made up of two repositories: the https://github.com/unicef/inventory[*Open Source Inventory*] and the https://github.com/unicef/inventory-hugo-theme[*UNICEF Inventory theme*].
+The Open Source Inventory is mostly for adding content to the site, while the UNICEF Inventory theme is actually the front-end interface of the site.
+The Open Source Inventory also contains global configurations of the Hugo site and also contains the UNICEF Inventory theme as a git submodule.
+
+Therefore, if you want to add some documentation or content to the site, head to the Open Source Inventory repo.
+If you want to make changes to the front-end, head to the UNICEF Inventory theme repo.
+
+NB: The file format used for the content pages is https://asciidoctor.org/[Asciidoc].
+
+
+[[dev-tips]]
+== Dev tips and tricks
+
+* Before starting, be sure to install https://gohugo.io/getting-started/installing/[Hugo] and https://docs.asciidoctor.org/asciidoctor/latest/install/[asciidoctor].
+* Since the theme is a git submodule in the inventory, make sure you add `--recurse-submodules` while cloning.
+* If you run into any difficulties, visit the https://discourse.gohugo.io/[Hugo discussion community] and ask your question.
+  Make sure you search before asking to avoid repetition.
+* Always create a new branch for each contribution or pull request.
+* Do not make changes for the theme in the theme submodule of the Open Source Inventory.
+  Instead, separately fork and clone the UNICEF Inventory theme's repo and make your changes.
+* Always update the daily stand-up log to keep track of your progress.
+  It helps a lot, especially in filling out your invoice.
+* If trying to implement a new feature, try creating a sample design, mockup, or wireframe first.
+* The UNICEF Inventory theme is being utilized by other projects than the Open Source Inventory.
+  Therefore, changes specific to the Open Source Inventory website should be made only in the Open Source Inventory repo.
+* Always try to get some work done before the daily stand-up, so that in case you faced difficulties, they can be discussed.
+
+
+[[working-with-team]]
+== Working with the team
+
+Work is being done in agile sprints.
+A sprint is usually a two-week period of time during which specific tasks must be completed.
+The tasks here are GitHub issues.
+There is the https://github.com/orgs/unicef/projects/7?fullscreen=true[project sprint board] which helps to track the progress of these tasks.
+Our sprint board has six tabs:
+
+* *Backlog*:
+  Ideas and tasks that are not yet triaged or prioritized.
+  Issues in the backlog should be discussed before working on them.
+* *Waiting on external*:
+  Tasks that are blocked by another action or person.
+* *Next sprint*:
+  Tasks that are to be done during the next sprint.
+* *Current sprint*:
+  Tasks that are to be done in the 2-week sprint.
+  Once you start working on a task, move it to the “In progress” tab.
+* *In progress*:
+  Tasks that are currently being worked on. Once the task is complete move it to the “Done” tab.
+* *Done*:
+  Completed tasks in the current sprint.
+
+
+[[wish-i-knew-earlier]]
+== What I wish I knew earlier
+
+* Thinking I could update the daily stand-up log accurately after a week has passed.
+  Try filling it out daily.
+* Not seeking help even after a week of trying to solve or figure out a problem.
+  Always seek help from your supervisor or the Hugo community after days of trying to solve a problem but to no avail.
+* Be ready to attend lots of meetings.
