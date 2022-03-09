@@ -11,10 +11,14 @@ gitlab: https://gitlab.com/xcapit-foss
 linkedin: https://www.linkedin.com/company/xcapit/
 twitter: https://twitter.com/xcapitla
 website: https://xcapit.com/
-community: https://discord.com/channels/932696301265629214/932696301265629217
+community: https://discord.gg/2VRMzMhvjX
 logo: /inventory/cohorts/logo-xcapit.jpg
 sdgs:
+    - 1
+    - 4
+    - 5
     - 8
+    - 10
 dpgs:
     - 1
     - 2
