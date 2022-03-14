@@ -4,7 +4,7 @@
 		<meta charset="utf-8">
 		<title>Project boards</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1"/>
-		<meta name="generator" content="Hugo 0.94.0" />
+		<meta name="generator" content="Hugo 0.94.2" />
 		<meta name="description" content="Project boards - UNICEF O.S. Inventory ">
 		<!-- ** CSS Plugins Needed for the Project ** -->
 		<!-- Bootstrap -->
@@ -43,6 +43,8 @@
 		<script src="https://unicef.github.io/inventory/plugins/jquery/jquery-ui.js"></script>
 		<!-- Bootstrap JS -->
 		<script src="https://unicef.github.io/inventory/plugins/bootstrap/bootstrap.min.js"></script>
+		<!-- PopperJS -->
+		<script src="https://unpkg.com/@popperjs/core@2"></script>
 		<!-- match-height JS -->
 		<script src="https://unicef.github.io/inventory/plugins/match-height/jquery.matchHeight-min.js"></script>
 		<script async src="https://www.googletagmanager.com/gtag/js?id=G-80FMX4TPM0"></script>
@@ -130,7 +132,7 @@
 								</div>
 							</li>
 						</ul>
-						<select class="lang-list bg-primary dark mb-3 mb-md-0" id="select-language"
+						<select class="lang-list bg-primary mb-3 mb-md-0" id="select-language"
         onchange="location = this.value;">
 							<option id="en" value="https://unicef.github.io/inventory/project-management/project-boards/" selected>en
 							</option>
@@ -440,21 +442,21 @@
 											<h5 class="text-center">Related Articles</h5>
 											<div class="row">
 												<div class="col-sm-4 my-2">
-													<a href="https://unicef.github.io/inventory/project-management/issue-templates/">
-														<div class="card text-center">
-															<div class="card-body">
-																<h5 class="card-title">Issue templates</h5>
-																<p class="card-subtitle mb-2 text-muted">An introduction to issue templates for new Open Source project or community managers.</p>
-															</div>
-														</div>
-													</a>
-												</div>
-												<div class="col-sm-4 my-2">
 													<a href="https://unicef.github.io/inventory/project-management/reading-list/">
 														<div class="card text-center">
 															<div class="card-body">
 																<h5 class="card-title">Outreach reading list</h5>
 																<p class="card-subtitle mb-2 text-muted">Various readings and learnings about outreach and marketing in an Open Source context.</p>
+															</div>
+														</div>
+													</a>
+												</div>
+												<div class="col-sm-4 my-2">
+													<a href="https://unicef.github.io/inventory/project-management/issue-templates/">
+														<div class="card text-center">
+															<div class="card-body">
+																<h5 class="card-title">Issue templates</h5>
+																<p class="card-subtitle mb-2 text-muted">An introduction to issue templates for new Open Source project or community managers.</p>
 															</div>
 														</div>
 													</a>
