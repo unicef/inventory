@@ -1,7 +1,7 @@
 ---
 title: Stakeholder Mapping Exercise
 description: Map key stakeholders and their roles. Create documentation that maps open source works to key stakeholders and their method of participation in the community.
-tags: ["stakeholder mapping"]
+tags: ["exercises"]
 categories: "documentation"
 downloadBtn: "true"
 
