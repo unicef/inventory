@@ -1,0 +1,80 @@
+---
+title: Stakeholder Mapping Exercise
+description: Map key stakeholders and their roles. Create documentation that maps open source works to key stakeholders and their method of participation in the community.
+tags: ["exercises"]
+categories: "documentation"
+downloadBtn: "true"
+
+---
+:toc:
+
+Map key stakeholders and their roles.
+Create documentation that maps open source works to key stakeholders and their method of participation in the community.
+
+== Introduction
+Stakeholder mapping is the process of identifying and visualizing the stakeholders in your open source project.
+This visual map can help you understand the composition and roles of the community that influences and builds your project.
+
+Your open source community should include internal stakeholders at your company along with external stakeholders.
+If your company already has a way to define stakeholders, use that to avoid context switching.
+If not, use whatever makes sense for the people and partners around your open source project.
+
+== Exercise
+_**Exercise:** Map key stakeholders and their roles.
+Create documentation that maps open source works to key stakeholders and their method of participation in the community._
+
+This is a great exercise to do in person using sticky notes, or using a tool like https://miro.com/[miro].
+
+1. List all your stakeholders.
+This could include:
+
+* Contributors / potential contributors / ideal contributors.
+This can be broken out into different types of contributors: documentation writers, help desk, engineers, designers, etc
+* Current and potential partner organizations
+* Users / customers / early adopters
+* Internal stakeholders: executives, product owners, engineering / design
+
+2. For each stakeholder group, list the role they have (or could have) on your open source product.
+This could include:
+* Contributing ideas or feedback
+* Contributing code / design
+* Answering support questions
+* Using the product
+* Project leadership / decision making
+* Setting vision
+* Project management
+* … and more!
+
+3. For each stakeholder group, list their interest or motivation in your open source product.
+Why do they use or contribute to this project? You may not be able to answer this for each group, but complete what you can.
+This information will help you build a community engagement plan.
+This could include:
+* To learn / get mentorship
+* The impact on sustainable development goals
+* To contribute to the project mission
+* To solve a problem they have
+* It’s free
+
+4. Do your stakeholders groups interact with each other? If so, draw a line between the groups and label their relationship.
+
+== Template
+This exercise works best in a more visual format where you can move notes and draw lines to represent connections.
+If that’s not available, here’s a table template.
+
+**Open Source Community Mapping Template**
+
+{{<table "table">}}
+
+| Stakeholder | Role | Motivation | Open Source Work |
+|----------|----------|----------|----------|
+| < stakeholder 1 > ||||
+| < stakeholder 2 > ||||
+| < stakeholder 3 > ||||
+
+{{</table>}}
+
+== Examples
+
+https://commons.wikimedia.org/wiki/File:Structured_Data_on_Wikimedia_Commons_-\_stakeholder_map\_-_June_2017.png[Structured Data on Wikimedia Commons - stakeholder map CC BY-SA 3.0 Wikimedia Foundation]
+
+https://flickr.com/photos/kl/9358533674/in/photolist-ffYW1S-fV7DoF-bUVh5D-VUxHaG-dDst1U-qZmKsq-rgUeN2-dCtcYe-dki2wo-WBVGAh-dCyDcm-dDdKsB-dDn5p2-dCyDff-VUxG6s-dDj8Hb-dDsthQ-WYrKMx-dDj8UL-dDn5jM-2hUr9cK-dDdKqe-dDn5hn-TwaGVh-dCtdak-TwaHbY-dDdKnB-dCyD3q-WyuKyJ-WYrHpB-VUxswy-TkYWFS-WytzaE-SifH7J-VTiJyh-SifHD5-dQQa22-WzDYiY-TomK2T-2hvQngX-WUquuf-dQVJ9J-2hvQmad-TomKaD-dQQ9MX-W6fKXj-X6wzRy-V3pRU9-dQQ9Hp-dQQ9AB[Mapping out stakeholders CC BY-SA 2.0 Kennisland on Flickr]

@@ -65,3 +65,6 @@ hugo serve
 
 The UNICEF Open Source Inventory website should appear locally in your browser.
 Navigate to [`localhost:1313/inventory/`](http://localhost:1313/inventory/) after starting the server to see a preview.
+
+### Writing
+Put [one sentence per line](https://asciidoctor.org/docs/asciidoc-recommended-practices/#one-sentence-per-line).
