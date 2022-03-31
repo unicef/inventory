@@ -21,7 +21,7 @@ rsync --archive --recursive --verbose --remove-source-files $HOME/hugo/$CIRCLE_P
 cd "$DEPLOY_DIR"
 git config --global push.default simple
 git config --global user.email "$(git --no-pager show --no-patch --format='%ae' HEAD)"
-if [ -n $CIRCLE_USERNAME ]; then
+if [ -z $CIRCLE_USERNAME ]; then
   git config --global user.name "$CIRCLE_USERNAME"
 else
   git config --global user.name "Committer not registered on CircleCI"
