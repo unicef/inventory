@@ -33,6 +33,9 @@ _What do you need to be successful to "launch" your … ?_
 [[preparing]]
 == Preparing for take-off
 
+_Get ready for launch!_
+_What actions do you need to take before …?_
+
 // This section provides context into pre-work or pre-planning to engage in before taking on the primary task.
 // Consider stakeholders, feedback to collect, brainstorming time, or any other "thinking ahead" type exercises.
 // Anything described here should be described in concrete terms, as specific actions one can take.
@@ -40,6 +43,9 @@ _What do you need to be successful to "launch" your … ?_
 
 [[launch]]
 == Take-off! Time to launch
+
+_Time for take-off!_
+_What are the ingredients to a successful project charter?_
 
 // This section defines the primary task and what goes into accomplishing a successful implementation.
 // Consider work that directly impacts the creation of the final deliverable.
