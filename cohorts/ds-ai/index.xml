@@ -17,5 +17,14 @@
  </description>
     </item>
     
+    <item>
+      <title>OTTAA Project</title>
+      <link>https://unicef.github.io/inventory/cohorts/ds-ai/ottaa-project/</link>
+      <pubDate>Fri, 25 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://unicef.github.io/inventory/cohorts/ds-ai/ottaa-project/</guid>
+      <description>OTTAA Project is the first real intelligent AAC platform that uses environmental data and a powerful AI algorithm that in combination with a pictogram based communication code allows users to create sentences and communicate effectively every single day. This AI-powered alternative and augmentative communication tool allow users with disabilities to communicate, express their feelings and basic needs. The team directly responds to the challenge of fostering social inclusion for people with disabilities and ensuring effective communication for those with complex communication needs.</description>
+    </item>
+    
   </channel>
 </rss>
