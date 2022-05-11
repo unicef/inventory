@@ -23,6 +23,30 @@ name = "FAQ"
 url = "faq"
 
 [[menu.main]]
+weight = 15
+name = "toolkits"
+url = "toolkits"
+hasChildren = true
+
+    [[menu.main]]
+    parent = "toolkits"
+    name = "Data Science & A.I."
+    url = "https://unicef.github.io/ooi-toolkit-ds/"
+    weight = 10
+
+    [[menu.main]]
+    parent = "toolkits"
+    name = "Drones"
+    url = "https://unicef.github.io/drone-4sdgtoolkit/"
+    weight = 20
+
+    [[menu.main]]
+    parent = "toolkits"
+    name = "Software Development"
+    url = "https://unicef.github.io/ooi-toolkit-software/"
+    weight = 30
+
+[[menu.main]]
 weight = 20
 name = "pages"
 url = "pages"
