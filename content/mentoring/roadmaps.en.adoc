@@ -1,0 +1,178 @@
+---
+title: "Roadmaps"
+description: Embark on a mission to create a 6- to 12-month roadmap for your Open Source work.
+categories: "missions"
+downloadBtn: "true"
+
+---
+:author: Justin W. Flory
+:toc:
+
+// Use this AsciiDoc template to create a new Mission.
+// Note to change front-matter metadata and document attributes above as needed.
+
+[link=https://creativecommons.org/licenses/by-sa/4.0/]
+image::https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg[License: CC BY-SA 4.0]
+
+This Mission is a guide to *building an open source roadmap*.
+An open source roadmap is important in an Open Source context because it aligns key stakeholders together on objectives and gives more accountability towards making marked progress.
+This Mission unpacks what goes into creating good open source roadmaps and why they are important.
+
+
+[[checklist]]
+== Launch checklist
+
+_What do you need to be successful to "launch" your open source roadmap?_
+
+// This section provides context into what the reader needs to take account of before beginning this Mission.
+// Consider who and what will be needed in order to "take off".
+// Anything described here is considered "mission critical" for the work to be worthwhile.
+
+Open source roadmaps provide a vision for the short-term future.
+While a link:++{{< relref "charters" >}}++[project charter] establishes the ultimate vision of a project, a roadmap helps you build a timeline to your ultimate vision.
+The open source roadmap acts as loose guidance to calibrate the project's path forward to the link:++{{< relref "charters#launch--vision-mission" >}}++[project vision].
+
+Generally, it is better to start an open source roadmap once the project is established and has already moved through the initial stages of launching the project.
+
+[[checklist-who]]
+=== Who?
+
+Open source roadmaps primarily impact two groups:
+
+. *Internal participants*:
+  Primary group leading the success and completion of the roadmap.
+  This group is characterized by working full-time or at least greater than half-time on a project.
+. *External participants*:
+  Secondary group who may participate in achieving parts of the roadmap.
+  This group is characterized by working less than half-time on a project.
+
+The "formula" to sharing decision-making power between internal and external participants depends on the unique dynamics of any project.
+It is important that a roadmap takes into account the perspectives of both participant types.
+
+[[checklist-what]]
+=== What?
+
+Open source roadmaps usually include a few key components:
+
+* *Problem statement*:
+  A definition of a current problem and its challenges.
+* *Timeline*:
+  A clear beginning and end for when the roadmap comes into effect.
+* *Key players*:
+  The drivers of the work are known.
+* *Benefit*:
+  An overview of how this proposal addresses the problem statement in the most effective way.
+* *Scope*:
+  Boundaries are defined for what is considered part of this shared effort and what is not.
+* *Documentation*:
+  An overview of how project documentation will be impacted by this work (additions, removals, changes).
+* *Release plan*:
+  A strategy to share the impact of this work.
+
+
+[[preparing]]
+== Preparing for take-off
+
+_Get ready for launch!_
+_What actions do you need to take before drafting the open source roadmap?_
+
+// This section provides context into pre-work or pre-planning to engage in before taking on the primary task.
+// Consider stakeholders, feedback to collect, brainstorming time, or any other "thinking ahead" type exercises.
+// Anything described here should be described in concrete terms, as specific actions one can take.
+
+There are key points to consider when entering into the drafting phase of the open source roadmap.
+Identifying firm boundaries and anticipating feedback makes the process easier.
+Taking these factors into account enables you to more effectively work with an open community:
+
+. *Be firm on scope*:
+  Know what constraints and variables are in play.
+  Define firm boundaries that protects the project's ability to succeed within the allotted time.
+. *Detail impact to different readers*:
+  Consider the different audiences for your roadmap.
+  What kind of people will read it?
+  What kind of questions or thoughts will they have?
+  When possible, account for those different key audiences and anticipate the impact to their needs.
+. *Have a contingency plan*:
+  If the original plan falls apart and is not successful, what will you do?
+  Think through what the worst plausible case could be.
+  What constraints could push the project to failure?
+  You do not need to write a white paper, but a realistic overview of how failure is mitigated will build confidence in the ability to deliver.
+. *Be open to constructive feedback*:
+  Feedback may come unexpectedly in open communities.
+  Effective open source strategies lean into those kinds of casual engagement.
+  Anticipate feedback at any point and how you will guide that feedback; one example could be a Frequently Asked Questions page in project documentation.
+  But all feedback should be made constructively, in line with your link:++{{< relref "codes-of-conduct" >}}++[community code of conduct].
+
+[[launch]]
+== Take-off! Time to launch
+
+_Time for take-off!_
+_What are the ingredients to a successful open source roadmap?_
+
+// This section defines the primary task and what goes into accomplishing a successful implementation.
+// Consider work that directly impacts the creation of the final deliverable.
+// Anything described here should be as specific actions directly related to the Mission's title.
+
+There are three phases of building and executing the roadmap:
+
+. Drafting and revision
+. Execution
+. Outreach
+
+By the end of all three phases, you will have built a roadmap, followed it through, and identified it as a successful or failed endeavor.
+Throughout this process, you support with key messaging and outreach about your endeavors, new insights and discoveries, and invitations to participate.
+
+[[launch-drafting]]
+=== Phase 1: Drafting and revision
+
+First, you need to create the roadmap within your project's existing documentation.
+What tool or platform to use for drafting depends on personal preference and where collaboration has the least friction.
+There is not a single way of writing a roadmap; it is fluid and you can use your own creativity for how you construct a roadmap.
+You may consider using https://chaoss.community/metrics/[CHAOSS metrics] as a tool for measuring success in key areas.
+
+To give you inspiration, you can refer to the following examples to guide your own drafting process:
+
+[[launch-drafting-fedora]]
+==== Example: Fedora Linux Changes
+
+Fedora Linux is an open source operating system and a Digital Public Good.
+It is link:++{{< ref "communities/fedora" >}}++[highlighted as a community] in the Open Source Inventory.
+Fedora Linux publishes new releases twice a year, and each release collects a series of _Changes_ from the community.
+Fedora Changes are proposals for major changes to the distribution that require other coordination with other developers and administrators.
+The Changes act as a roadmap that define the problem, outline a solution, and detail how it will happen in time for the next release of Fedora Linux.
+
+* *See all https://fedoraproject.org/wiki/Releases/37/ChangeSet[Fedora Linux 37 Changes] submitted*.
+* *See a specific Change, for https://fedoraproject.org/wiki/Changes/DNS_Over_TLS[DNS Over TLS], proposed for Fedora Linux 37*.
+
+[[launch-drafting-unicef]]
+==== Example: UNICEF MagicBox roadmap
+
+Another example is the route of the UNICEF MagicBox project.
+In 2018, MagicBox began a journey to become a more open and collaborative project with UNICEF's Office of Innovation.
+A 12-month roadmap was drafted, guiding the team forward in their open source approach.
+The roadmap begins with a reflection on what was already accomplished leading up to present.
+Then, it takes the reader through three-month periods of the year with key milestones and gate reviews.
+
+* *See the https://docs.google.com/document/d/1C745mS2WvONiGaKdfbF8xzkF48WW2Kzwp_fR6Y3gDZc/edit?usp=sharing[UNICEF MagicBox open source implementation plan]*.
+
+[[launch-execution]]
+=== Phase 2: Execution
+
+Once you draft the roadmap, you are ready to engage with stakeholders and rally the community together.
+This is where you follow through on the roadmap.
+
+[[launch-outreach]]
+=== Phase 3: Outreach
+get the word. out.
+
+[[destination]]
+== Destination: Targeted success (and sometimes, failure)
+
+// NOTE: Edit the header to specify the contextually-relevant "destination" that this Mission brings a project to.
+//
+// This section provides context on why this Mission is important for a healthy Open Source community.
+// Consider both short-term and long-term impacts linked to successfully implementing this Mission.
+// This section concludes the Mission and it is advised to keep it succinct and short.
+// The primary intention of a Mission is instruction, not clarification; clarification belongs as another type of content.
+
+Blind failure is not helpful, learned failures are essential
