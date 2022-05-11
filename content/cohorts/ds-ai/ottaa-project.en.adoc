@@ -1,0 +1,36 @@
+---
+title: OTTAA Project
+weight: 50
+categories: "team"
+tags: ["team"]
+type: profiles
+
+description: An Alternative Augmentative Communication (AAC) system, intended for people with speech disabilities.
+country: Chile
+date: 2020-09-25
+github: https://github.com/OTTAA-Project
+linkedin: https://www.linkedin.com/company/ottaa-project/
+twitter: https://twitter.com/OTTAAProject
+website: https://www.ottaaproject.com/
+community: ""
+logo: /inventory/cohorts/logo-ottaa-project.png
+sdgs:
+    - 3
+    - 4
+    - 10
+dpgs:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+
+---
+
+OTTAA Project is the first real intelligent AAC platform that uses environmental data and a powerful AI algorithm that in combination with a pictogram based communication code allows users to create sentences and communicate effectively every single day.
+This AI-powered alternative and augmentative communication tool allow users with disabilities to communicate, express their feelings and basic needs.
+The team directly responds to the challenge of fostering social inclusion for people with disabilities and ensuring effective communication for those with complex communication needs.
