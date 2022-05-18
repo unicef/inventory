@@ -15,7 +15,7 @@ downloadBtn: "true"
 // reference links
 :unicef-advisor: Justin W. Flory
 :unicef-advisor-email: jflory [at] unicef [dot] org
-:unicef-fund: https://www.unicefinnovationfund.org/[UNICEF Innovation Fund,window=read-later]
+:unicef-fund: https://www.unicefinnovationfund.org/[UNICEF Venture Fund,window=read-later]
 :unicef-colleague-support-timeframe: within 1-2 weeks
 
 This page documents and explains the general structure, approach, and methods of the Open Source Mentorship programme hosted on this website.
@@ -25,7 +25,7 @@ See the table of contents for navigating.
 //TODO fix hugo theme to correctly render toc attributes instead of hand-typing them out
 . link:#team[Programme team]
 . link:#eligibility[Eligibility]
-.. link:#eligibility-fund[Innovation Fund grantees]
+.. link:#eligibility-fund[Venture Fund grantees]
 .. link:#eligibility-unicef[UNICEF colleagues]
 .. link:#eligibility-others[Other groups]
 . link:#refs[References]
@@ -34,7 +34,7 @@ See the table of contents for navigating.
 [[team]]
 == Programme team
 
-The Open Source Mentorship programme is administered by the Innovation Fund _Open Source Technical Advisor_.
+The Open Source Mentorship programme is administered by the Venture Fund _Open Source Technical Advisor_.
 Currently, this is {unicef-advisor} <{unicef-advisor-email}>.
 
 Any mentor who is an active 3-month or longer engagement may be listed here as well.
@@ -47,11 +47,11 @@ The guided Open Source Mentorship programme is a 12-month incubator to help a sm
 Eligibility for this hands-on, interactive mentorship is a closed invitation for the groups below:
 
 [[eligibility-fund]]
-=== Innovation Fund grantees
+=== Venture Fund grantees
 
-*Innovation Fund grantees are eligible to enroll in the Open Source Mentorship programme for the duration of their workplans.*
+*Venture Fund grantees are eligible to enroll in the Open Source Mentorship programme for the duration of their workplans.*
 
-Innovation Fund grantees learn about the Open Source Mentorship programme in their on-boarding webinars with the Innovation Fund.
+Venture Fund grantees learn about the Open Source Mentorship programme in their on-boarding webinars with the Venture Fund.
 Their assigned Open Source mentor will reach out with more information after on-boarding about enrollment.
 
 [[eligibility-unicef]]

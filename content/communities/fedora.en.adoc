@@ -75,4 +75,4 @@ ____
 Fedora has a team of people to help newcomers get involved with Fedora, known as the https://docs.fedoraproject.org/en-US/fedora-join/[Fedora Join Special Interest Group].
 This is the best way to explore participation in Fedora and see what options there are out there.
 
-If you are a UNICEF Innovation Fund company, reach out to your Open Source Mentor for extra guidance in an Open Source check-in call.
+If you are a UNICEF Venture Fund company, reach out to your Open Source Mentor for extra guidance in an Open Source check-in call.

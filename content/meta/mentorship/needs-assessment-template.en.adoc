@@ -9,7 +9,7 @@ downloadBtn: "true"
 
 ---
 
-This document is an interview template for needs assessments with https://unicefinnovationfund.org/[UNICEF Innovation Fund] cohorts in Open Source induction calls.
+This document is an interview template for needs assessments with https://unicefinnovationfund.org/[UNICEF Venture Fund] cohorts in Open Source induction calls.
 The needs assessment is a tool to collect background and context for each team's experience and familiarity with open source.
 It also builds understanding for participation in existing open source communities.
 This template provides structure and guidance on what to ask to any team at the beginning of an Open Source Mentorship program.

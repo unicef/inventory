@@ -54,7 +54,7 @@ Even if there is goodwill between an original work and a new work, this can happ
 [[why--company-vs-project]]
 === Separating company and project trademarks: When to do it?
 
-A common question by https://www.unicefinnovationfund.org/[UNICEF Innovation Fund] start-ups is whether their company trademarks should be used for the project trademarks.
+A common question by https://www.unicefinnovationfund.org/[UNICEF Venture Fund] start-ups is whether their company trademarks should be used for the project trademarks.
 The short answer is, it depends!
 The option to take depends on your business model and how you envision the use of marks related to the project.
 

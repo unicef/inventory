@@ -16,10 +16,10 @@ A UNICEF Global Innovation knowledge base of best practices and resources for wo
 ## About
 
 This repository is a collection of various information about Open Source best practices.
-It was originally created to support [UNICEF Innovation Fund](https://unicefinnovationfund.org/) teams in building Open Source projects and communities.
+It was originally created to support [UNICEF Venture Fund](https://unicefinnovationfund.org/) teams in building Open Source projects and communities.
 The information here can be applied generally to Open Source projects.
 
-This repository also includes an inventory of Innovation Fund companies and their Open Source intellectual property.
+This repository also includes an inventory of Venture Fund companies and their Open Source intellectual property.
 
 
 ## Contributing
