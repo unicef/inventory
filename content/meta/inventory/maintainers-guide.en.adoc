@@ -91,7 +91,7 @@ git commit --signoff
 Development decisions are prioritized according to the needs of the following stakeholders:
 
 . UNICEF Office of Innovation staff and consultants
-. UNICEF Innovation Fund grantees and portfolio companies
+. UNICEF Venture Fund grantees and portfolio companies
 . UNICEF colleagues
 . UN colleagues
 . Open Source practitioners and subject-matter experts (e.g. associated to a private-sector Open Source Program Office)

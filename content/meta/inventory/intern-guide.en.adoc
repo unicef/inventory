@@ -26,7 +26,7 @@ If you are new to Hugo, be sure to take a look at the https://gohugo.io/getting-
 == Introducing the UNICEF Inventory
 
 The link:++{{< ref "/" >}}++[UNICEF Open Source Inventory] is a knowledge base for open source best practices and resources related to open source.
-It also is a key resource used during the link:++{{< ref "/meta/mentorship/overview" >}}++[open source mentorship program] of the various https://www.unicefinnovationfund.org/[UNICEF Innovation Fund] cohorts.
+It also is a key resource used during the link:++{{< ref "/meta/mentorship/overview" >}}++[open source mentorship program] of the various https://www.unicefinnovationfund.org/[UNICEF Venture Fund] cohorts.
 It is built on Hugo and made up of two repositories: the https://github.com/unicef/inventory[*Open Source Inventory*] and the https://github.com/unicef/inventory-hugo-theme[*UNICEF Inventory theme*].
 The Open Source Inventory is mostly for adding content to the site, while the UNICEF Inventory theme is actually the front-end interface of the site.
 The Open Source Inventory also contains global configurations of the Hugo site and also contains the UNICEF Inventory theme as a git submodule.

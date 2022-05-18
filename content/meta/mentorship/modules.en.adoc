@@ -165,10 +165,10 @@ The above modules are typically offered in groups with other modules.
 The programmes and most common combination of modules are described below:
 
 [[program-12mo]]
-=== 12-month Innovation Fund contracts
+=== 12-month Venture Fund contracts
 
 12 months is the standard length of the Open Source Mentorship programme.
-12-month contracts are typically offered through the procurement process through the UNICEF Innovation Fund.
+12-month contracts are typically offered through the procurement process through the UNICEF Venture Fund.
 The breakdown below orders the modules and adds context to what content is covered.
 
 [[program-12mo-q1]]
@@ -228,7 +228,7 @@ This quarter focuses on building strong entrypoints for new contributors to ente
 * Add ticket/issue templates to source code repositories for new tickets opened by the public and the core contributor team.
 * Create "Good First Issues" for bite-sized, low-commitment contributions for new developers to make to your source code repositories.
 * Establish a public communication platform for the public to interact with project development team.
-  (Suggested: UNICEF Innovation Fund community forum.)
+  (Suggested: UNICEF Venture Fund community forum.)
 * Add either developer or user documentation to the Open Source documentation site, whichever was not completed the previous quarter.
 
 [[program-12mo-q4]]

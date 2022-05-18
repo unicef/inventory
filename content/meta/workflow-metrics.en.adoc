@@ -1,13 +1,13 @@
 ---
 title: "Workflow: Update external UNICEF metrics"
-description: How a UNICEF contractor manages and updates metrics about Innovation Fund portfolio company projects.
+description: How a UNICEF contractor manages and updates metrics about Venture Fund portfolio company projects.
 tags: ["workflows"]
 categories: "meta"
 downloadBtn: "true"
 
 ---
 
-Open Source data and analytics are used across multiple tools and documents for talking about Innovation Fund portfolio companies.
+Open Source data and analytics are used across multiple tools and documents for talking about Venture Fund portfolio companies.
 When updating data sources in official UNICEF portals, follow this process for the quickest way of updating metrics.
 
 . Open data input source (e.g. Sharepoint doc, Google Doc shared with company, etc.)

@@ -217,8 +217,8 @@ parent_org_url_legal = "https://www.unicef.org/legal"
 
 [params.footer]
 mainSite = "https://www.unicefinnovationfund.org/"
-mainSiteName = "UNICEF Innovation Fund"
-description = "The UNICEF Open Source Inventory is a knowledge-base of best practices, resources, and information about working and leading Open. This is maintained as part of the Open Source Mentorship programme offered by the UNICEF Innovation Fund. The Inventory provides mentorship and guidance to anyone seeking to adopt best practices in their journey to building an Open Source project and community. It is self-serve, and can be used at various phases of building a project and community."
+mainSiteName = "UNICEF Venture Fund"
+description = "The UNICEF Open Source Inventory is a knowledge-base of best practices, resources, and information about working and leading Open. This is maintained as part of the Open Source Mentorship programme offered by the UNICEF Venture Fund. The Inventory provides mentorship and guidance to anyone seeking to adopt best practices in their journey to building an Open Source project and community. It is self-serve, and can be used at various phases of building a project and community."
 
 
 ############################# Social links #############################

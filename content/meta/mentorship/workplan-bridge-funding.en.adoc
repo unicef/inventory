@@ -15,7 +15,7 @@ downloadBtn: "true"
 :unicef-advisor: Justin W. Flory
 :unicef-advisor-email: jflory [at] unicef [dot] org
 
-This page documents the workplan requirements for the Bridge Fund cohort of the UNICEF Innovation Fund.
+This page documents the workplan requirements for the Bridge Fund cohort of the UNICEF Venture Fund.
 These graduation expectations are in place for UNICEF grantees receiving follow-on funding from UNICEF.
 See the table of contents for navigating.
 
@@ -63,7 +63,7 @@ By creating an environment for constructive contribution, we can more effectivel
 ==== Activity 2
 
 If needed:
-*Achieve updated Open Source standards and expectations* for 2021 Innovation Fund graduate companies.
+*Achieve updated Open Source standards and expectations* for 2021 Venture Fund graduate companies.
 
 ==== Activity 3
 

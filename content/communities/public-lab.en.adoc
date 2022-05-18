@@ -10,7 +10,7 @@ downloadBtn: "true"
 [link=https://creativecommons.org/licenses/by-sa/4.0/]
 image::https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg[License: CC BY-SA 4.0]
 
-Public Lab is a community of practice that has informally collaborated with UNICEF Innovation Fund team members in the past.
+Public Lab is a community of practice that has informally collaborated with UNICEF Venture Fund team members in the past.
 To learn more about this community, reach out to your assigned Open Source Mentor or see the contact info below.
 
 

@@ -1,5 +1,5 @@
 ---
-title: "On-boarding guide for UNICEF Innovation Fund teams"
+title: "On-boarding guide for UNICEF Venture Fund teams"
 description: Terms of reference for being on-boarded to the UNICEF Open Source Mentorship programme as a start-up.
 tags: [""]
 categories: "meta"
@@ -8,14 +8,14 @@ downloadBtn: "true"
 ---
 :toc:
 
-This document is for teams newly joining the UNICEF Innovation Fund.
+This document is for teams newly joining the UNICEF Venture Fund.
 It provides a high-level overview to the UNICEF Open Source Mentorship programme, a unique perk and strategic asset of being a UNICEF investee.
 
 
 [[summary]]
 == Summary of UNICEF Open Source Mentorship
 
-Your assigned Open Source Mentor from the Innovation Fund can be found on the link:++{{< relref "overview#team" >}}++[programme team list].
+Your assigned Open Source Mentor from the Venture Fund can be found on the link:++{{< relref "overview#team" >}}++[programme team list].
 In the next few months, your assigned mentor will work with you to develop your business models with Free and Open Source intellectual property, build an open-first intellectual property strategy, and explore early dynamics of building community around your intellectual property.
 
 There are two formats of mentorship to expect:
@@ -65,7 +65,7 @@ Additionally, there is a self-serve resource available: the UNICEF Open Source I
 You are browsing it now!
 
 The Open Source Inventory is a knowledge-base of best practices around creating and working with Open Source works.
-This is an important resource for the Open Source Mentorship and was created based on experiences of previous graduates of the UNICEF Innovation Fund.
+This is an important resource for the Open Source Mentorship and was created based on experiences of previous graduates of the UNICEF Venture Fund.
 You can also request new topics to be added to the knowledge-base too.
 
 
