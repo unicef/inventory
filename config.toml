@@ -170,6 +170,9 @@ hasChildren = true
 
 ############################# Default parameters #############################
 [params]
+# "Edit this page" feature: git forge content base link
+editPrefix = "https://github.com/unicef/inventory/blob/main/content"
+
 logo = "images/unicef-logo.png"
 
 # OpenGraph / Twitter Card metadata
