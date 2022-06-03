@@ -260,182 +260,196 @@
 													document.writeln(path);
 												</script>
 											</div>
-											<div class="p-lg-5 p-4 bg-white" id="content">
-												<h2 class="mb-5" id="title">Contributor License Agreements (CLAs)</h2>
-												<div class="content">
-													<div id="toc" class="toc">
-														<div id="toctitle">Table of Contents</div>
-														<ul class="sectlevel1">
-															<li><a href="#_what_are_they_for">1. What are they for?</a>
-																<ul class="sectlevel2">
-																	<li><a href="#_criticism_of_clas">1.1. Criticism of CLAs</a></li>
-																</ul>
-															</li>
-															<li><a href="#_what_alternatives_exist">2. What alternatives exist?</a>
-																<ul class="sectlevel2">
-																	<li><a href="#_fedora_project_contributor_agreement_fpca">2.1. Fedora Project Contributor Agreement (FPCA)</a></li>
-																</ul>
-															</li>
-															<li><a href="#_what_do_i_need_for_my_own_cla">3. What do I need for my own CLA?</a></li>
-														</ul>
-													</div>
-													<div class="paragraph">
-														<p><em>Originally authored by <a href="https://nolski.rocks">Mike Nolan</a>, edited and maintained by <a href="https://jwf.io">Justin W. Flory</a>.</em></p>
-													</div>
-													<div class="paragraph">
-														<p>This page introduces Contributor License Agreements (shortened C.L.As) in Open Source projects.</p>
-													</div>
-													<div class="sect1">
-														<h2 id="_what_are_they_for">1. What are they for?&nbsp;<a class="hanchor" href="#_what_are_they_for">🔗</a> </h2>
-														<div class="sectionbody">
-															<div class="paragraph">
-																<p>Contributor License Agreements (CLAs) are often used in Open Source projects to form a legal agreement between an individual or company and a project maintainer.
-																	This agreement usually includes a waiver of copyright (although not always) as well as the right to patent their contribution.</p>
-															</div>
-															<div class="paragraph">
-																<p>CLAs became popular during the early 2000s in open source.
-																	Prior to platforms like GitHub and GitLab, patches were often emailed to mailing lists and manually accepted by maintainers.
-																	Unfortunately, email patches did not always make clear the waiver of rights to whichever license the codebase was licensed under.
-																	To minimize the maintainer’s risk, CLAs made that waiver of rights explicit.</p>
-															</div>
-															<div class="sect2">
-																<h3 id="_criticism_of_clas">1.1. Criticism of CLAs&nbsp;<a class="hanchor" href="#_criticism_of_clas">🔗</a> </h3>
-																<div class="paragraph">
-																	<p>CLAs are less popular, even on large projects, due to the popularity and use of platforms such as GitHub.
-																		GitHub Terms of Service <a href="https://help.github.com/en/articles/github-terms-of-service#6-contributions-under-repository-license">explicitly state</a> a user waives their copyright to whichever license is included in the repository at that time of the contribution.
-																		This is considered by most to fulfill the need of a CLA.</p>
-																</div>
-															</div>
-														</div>
-													</div>
-													<div class="sect1">
-														<h2 id="_what_alternatives_exist">2. What alternatives exist?&nbsp;<a class="hanchor" href="#_what_alternatives_exist">🔗</a> </h2>
-														<div class="sectionbody">
-															<div class="paragraph">
-																<p>Other than the GitHub Terms of Service, the Linux Foundation introduced a Developer Certificate of Origin (DCO) as a more lightweight method to
-																	have developers waive their rights.
-																	Instead of maintaining a database of signed contracts, users can simply sign <a href="https://probot.github.io/apps/dco/">using specific formatting of commit messages</a> <em>provided a project publishes a CLA/DCO in its repository.</em></p>
-															</div>
-															<div class="sect2">
-																<h3 id="_fedora_project_contributor_agreement_fpca">2.1. Fedora Project Contributor Agreement (FPCA)&nbsp;<a class="hanchor" href="#_fedora_project_contributor_agreement_fpca">🔗</a> </h3>
-																<div class="paragraph">
-																	<p>The Fedora Project, an open source Linux distribution, has its <a href="https://fedoraproject.org/wiki/Legal:Fedora_Project_Contributor_Agreement">Fedora Project Contributor Agreement</a>, or FPCA.
-																		Agreeing to the FPCA is required to contribute in the Fedora Project.
-																		However, <strong>it does not take away legal ownership of contributions</strong>.
-																		It only asserts that Fedora has default permission to use contributions under a permissive free license.</p>
-																</div>
-																<div class="paragraph">
-																	<p>This is an innovative legal strategy to encourage open source collaboration without:</p>
-																</div>
-																<div class="olist arabic">
-																	<ol class="arabic">
-																		<li>
-																			<p>Anyone waiving their copyright</p>
-																		</li>
-																		<li>
-																			<p>Adding risk for project maintainers</p>
-																		</li>
-																	</ol>
-																</div>
-															</div>
-														</div>
-													</div>
-													<div class="sect1">
-														<h2 id="_what_do_i_need_for_my_own_cla">3. What do I need for my own CLA?&nbsp;<a class="hanchor" href="#_what_do_i_need_for_my_own_cla">🔗</a> </h2>
-														<div class="sectionbody">
-															<div class="paragraph">
-																<p>Unlike licenses, CLAs are not standardized due to lack of widespread adoption.
-																	Apache has an <a href="https://www.apache.org/licenses/icla.pdf">individual CLA</a> which can be used as base.
-																	It is highly recommended to work with a lawyer or legal professional to draft or modify a CLA to ensure there is clarity on which rights you expect contributors to waive.</p>
-															</div>
-															<div class="paragraph">
-																<p>Alternatively, the Fedora Project Contributor Agreement (above) presents an interesting alternative model to reduce friction in certain scenarios.</p>
-															</div>
-														</div>
-													</div>
+											<div class="p-lg-5 p-4 bg-white position-relative" id="content">
+												<div class="d-flex flex-row-reverse">
+													<button id="editBtn" value="https://github.com/unicef/inventory/blob/main/content/legal-policy/contributor-license-agreement-cla.en.adoc" class="editBtn py-2 px-3">Edit this Page</button>
 												</div>
-												<p class="post-meta border-bottom pb-3 mb-0 mt-3">Updated on 03 Dec 2021</p>
-												<nav class="pagination mt-3">
-													<a class="nav nav-prev" href="https://unicef.github.io/inventory/legal-policy/" aria-label="Previous page" ><i class="ti-arrow-left mr-2"></i> <span class="d-none d-md-block">Legal &amp; Policy</span></a>
-													<a class="nav nav-next" href="https://unicef.github.io/inventory/legal-policy/gpl-comparison/" aria-label="Previous page" > <span class="d-none d-md-block">GPLv2 vs. GPLv3</span><i class="ti-arrow-right ml-2"></i></a>
-												</nav>
-												<section class="my-3 py-3" id="related-articles">
-													<h5 class="text-center">Related Articles</h5>
-													<div class="row">
-														<div class="col-sm-4 my-2">
-															<a href="https://unicef.github.io/inventory/legal-policy/trademark/">
-																<div class="card text-center">
-																	<div class="card-body">
-																		<h5 class="card-title">Trademark strategies</h5>
-																		<p class="card-subtitle mb-2 text-muted">Guidance on developing a strategy for Open Source trademarks and branding.</p>
-																	</div>
-																</div>
-															</a>
+												<div class="p-lg-5 p-3 bg-white">
+													<h2 class="mb-5" id="title">Contributor License Agreements (CLAs)</h2>
+													<div class="content">
+														<div id="toc" class="toc">
+															<div id="toctitle">Table of Contents</div>
+															<ul class="sectlevel1">
+																<li><a href="#_what_are_they_for">1. What are they for?</a>
+																	<ul class="sectlevel2">
+																		<li><a href="#_criticism_of_clas">1.1. Criticism of CLAs</a></li>
+																	</ul>
+																</li>
+																<li><a href="#_what_alternatives_exist">2. What alternatives exist?</a>
+																	<ul class="sectlevel2">
+																		<li><a href="#_fedora_project_contributor_agreement_fpca">2.1. Fedora Project Contributor Agreement (FPCA)</a></li>
+																	</ul>
+																</li>
+																<li><a href="#_what_do_i_need_for_my_own_cla">3. What do I need for my own CLA?</a></li>
+															</ul>
 														</div>
-														<div class="col-sm-4 my-2">
-															<a href="https://unicef.github.io/inventory/legal-policy/creative-commons/">
-																<div class="card text-center">
-																	<div class="card-body">
-																		<h5 class="card-title">Intro to Creative Commons licenses</h5>
-																		<p class="card-subtitle mb-2 text-muted">A crash course on Creative Commons licenses and how they are applied at the UNICEF Venture Fund.</p>
+														<div class="paragraph">
+															<p><em>Originally authored by <a href="https://nolski.rocks">Mike Nolan</a>, edited and maintained by <a href="https://jwf.io">Justin W. Flory</a>.</em></p>
+														</div>
+														<div class="paragraph">
+															<p>This page introduces Contributor License Agreements (shortened C.L.As) in Open Source projects.</p>
+														</div>
+														<div class="sect1">
+															<h2 id="_what_are_they_for">1. What are they for?&nbsp;<a class="hanchor" href="#_what_are_they_for">🔗</a> </h2>
+															<div class="sectionbody">
+																<div class="paragraph">
+																	<p>Contributor License Agreements (CLAs) are often used in Open Source projects to form a legal agreement between an individual or company and a project maintainer.
+																		This agreement usually includes a waiver of copyright (although not always) as well as the right to patent their contribution.</p>
+																</div>
+																<div class="paragraph">
+																	<p>CLAs became popular during the early 2000s in open source.
+																		Prior to platforms like GitHub and GitLab, patches were often emailed to mailing lists and manually accepted by maintainers.
+																		Unfortunately, email patches did not always make clear the waiver of rights to whichever license the codebase was licensed under.
+																		To minimize the maintainer’s risk, CLAs made that waiver of rights explicit.</p>
+																</div>
+																<div class="sect2">
+																	<h3 id="_criticism_of_clas">1.1. Criticism of CLAs&nbsp;<a class="hanchor" href="#_criticism_of_clas">🔗</a> </h3>
+																	<div class="paragraph">
+																		<p>CLAs are less popular, even on large projects, due to the popularity and use of platforms such as GitHub.
+																			GitHub Terms of Service <a href="https://help.github.com/en/articles/github-terms-of-service#6-contributions-under-repository-license">explicitly state</a> a user waives their copyright to whichever license is included in the repository at that time of the contribution.
+																			This is considered by most to fulfill the need of a CLA.</p>
 																	</div>
 																</div>
-															</a>
+															</div>
+														</div>
+														<div class="sect1">
+															<h2 id="_what_alternatives_exist">2. What alternatives exist?&nbsp;<a class="hanchor" href="#_what_alternatives_exist">🔗</a> </h2>
+															<div class="sectionbody">
+																<div class="paragraph">
+																	<p>Other than the GitHub Terms of Service, the Linux Foundation introduced a Developer Certificate of Origin (DCO) as a more lightweight method to
+																		have developers waive their rights.
+																		Instead of maintaining a database of signed contracts, users can simply sign <a href="https://probot.github.io/apps/dco/">using specific formatting of commit messages</a> <em>provided a project publishes a CLA/DCO in its repository.</em></p>
+																</div>
+																<div class="sect2">
+																	<h3 id="_fedora_project_contributor_agreement_fpca">2.1. Fedora Project Contributor Agreement (FPCA)&nbsp;<a class="hanchor" href="#_fedora_project_contributor_agreement_fpca">🔗</a> </h3>
+																	<div class="paragraph">
+																		<p>The Fedora Project, an open source Linux distribution, has its <a href="https://fedoraproject.org/wiki/Legal:Fedora_Project_Contributor_Agreement">Fedora Project Contributor Agreement</a>, or FPCA.
+																			Agreeing to the FPCA is required to contribute in the Fedora Project.
+																			However, <strong>it does not take away legal ownership of contributions</strong>.
+																			It only asserts that Fedora has default permission to use contributions under a permissive free license.</p>
+																	</div>
+																	<div class="paragraph">
+																		<p>This is an innovative legal strategy to encourage open source collaboration without:</p>
+																	</div>
+																	<div class="olist arabic">
+																		<ol class="arabic">
+																			<li>
+																				<p>Anyone waiving their copyright</p>
+																			</li>
+																			<li>
+																				<p>Adding risk for project maintainers</p>
+																			</li>
+																		</ol>
+																	</div>
+																</div>
+															</div>
+														</div>
+														<div class="sect1">
+															<h2 id="_what_do_i_need_for_my_own_cla">3. What do I need for my own CLA?&nbsp;<a class="hanchor" href="#_what_do_i_need_for_my_own_cla">🔗</a> </h2>
+															<div class="sectionbody">
+																<div class="paragraph">
+																	<p>Unlike licenses, CLAs are not standardized due to lack of widespread adoption.
+																		Apache has an <a href="https://www.apache.org/licenses/icla.pdf">individual CLA</a> which can be used as base.
+																		It is highly recommended to work with a lawyer or legal professional to draft or modify a CLA to ensure there is clarity on which rights you expect contributors to waive.</p>
+																</div>
+																<div class="paragraph">
+																	<p>Alternatively, the Fedora Project Contributor Agreement (above) presents an interesting alternative model to reduce friction in certain scenarios.</p>
+																</div>
+															</div>
 														</div>
 													</div>
-												</section>
+													<p class="post-meta border-bottom pb-3 mb-0 mt-3">Updated on 03 Dec 2021</p>
+													<nav class="pagination mt-3">
+														<a class="nav nav-prev" href="https://unicef.github.io/inventory/legal-policy/" aria-label="Previous page" ><i class="ti-arrow-left mr-2"></i> <span class="d-none d-md-block">Legal &amp; Policy</span></a>
+														<a class="nav nav-next" href="https://unicef.github.io/inventory/legal-policy/gpl-comparison/" aria-label="Previous page" > <span class="d-none d-md-block">GPLv2 vs. GPLv3</span><i class="ti-arrow-right ml-2"></i></a>
+													</nav>
+													<section class="my-3 py-3" id="related-articles">
+														<h5 class="text-center">Related Articles</h5>
+														<div class="row">
+															<div class="col-sm-4 my-2">
+																<a href="https://unicef.github.io/inventory/legal-policy/gpl-comparison/">
+																	<div class="card text-center">
+																		<div class="card-body">
+																			<h5 class="card-title">GPLv2 vs. GPLv3</h5>
+																			<p class="card-subtitle mb-2 text-muted">A deep dive on the exact differences between the Free Software Foundation&#39;s two versions of the GPL license.</p>
+																		</div>
+																	</div>
+																</a>
+															</div>
+															<div class="col-sm-4 my-2">
+																<a href="https://unicef.github.io/inventory/legal-policy/trademark/">
+																	<div class="card text-center">
+																		<div class="card-body">
+																			<h5 class="card-title">Trademark strategies</h5>
+																			<p class="card-subtitle mb-2 text-muted">Guidance on developing a strategy for Open Source trademarks and branding.</p>
+																		</div>
+																	</div>
+																</a>
+															</div>
+															<div class="col-sm-4 my-2">
+																<a href="https://unicef.github.io/inventory/legal-policy/creative-commons/">
+																	<div class="card text-center">
+																		<div class="card-body">
+																			<h5 class="card-title">Intro to Creative Commons licenses</h5>
+																			<p class="card-subtitle mb-2 text-muted">A crash course on Creative Commons licenses and how they are applied at the UNICEF Venture Fund.</p>
+																		</div>
+																	</div>
+																</a>
+															</div>
+														</div>
+													</section>
+												</div>
 											</div>
 										</div>
 									</div>
 								</div>
-							</div>
-						</section>
-						<!-- /details page -->
-						<!-- footer -->
-						<footer class="section bg-primary p-4 mt-5">
-							<div class="container">
-								<div class="row align-items-center">
-									<div class="col-md-3 text-md-left text-center">
-										<ul>
-											<li><a class="nav-link text-white" href="/inventory">HOME</a></li>
-											<li class="nav-item">
-												<a class="nav-link text-white text-uppercase" href="https://unicef.github.io/inventory/faq">FAQ</a>
-											</li>
-											<li class="nav-item">
-												<a class="nav-link text-white text-uppercase" href="https://unicef.github.io/inventory/toolkits">toolkits</a>
-											</li>
-											<li class="nav-item">
-												<a class="nav-link text-white text-uppercase" href="https://unicef.github.io/inventory/cohorts">cohorts</a>
-											</li>
-										</ul>
-									</div>
-									<div class="col-md-6 text-md-center text-center">
-										<p class="mb-md-0 mb-4 text-white">The UNICEF Open Source Inventory is a knowledge-base of best practices, resources, and information about working and leading Open. This is maintained as part of the Open Source Mentorship programme offered by the UNICEF Venture Fund. The Inventory provides mentorship and guidance to anyone seeking to adopt best practices in their journey to building an Open Source project and community. It is self-serve, and can be used at various phases of building a project and community.</p>
-									</div>
-									<div class="col-md-3 text-md-right text-center">
-										<ul class="text-white">
-											<li class="nav-item">
-												<a class="nav-link text-white font-weight-bold" href="https://www.unicef.org/">UNICEF Global</a>
-											</li>
-											<li class="nav-item">
-												<a class="nav-link text-white font-weight-bold" href="https://www.unicefinnovationfund.org/">UNICEF Venture Fund</a>
-											</li>
-											<li class="nav-item">
-												<a class="nav-link text-white font-weight-bold" href="https://www.unicef.org/legal">Legal</a>
-												<p class="h6 text-md-right font-weight-light">Find legal information and policies related to UNICEF Global&#39;s digital communications.</p>
-											</li>
-										</ul>
-										<ul class="list-inline">
-											<li class="list-inline-item"><a class="text-color d-inline-block p-2 text-white" href="https://github.com/unicef/inventory" aria-label="UNICEF Open Source Inventory on GitHub"><i class="ti-github"></i></a></li>
-											<li class="list-inline-item"><a class="text-color d-inline-block p-2 text-white" href="https://twitter.com/UNICEFinnovate" aria-label="@UNICEFinnovate on Twitter"><i class="ti-twitter"></i></a></li>
-										</ul>
+							</section>
+							<!-- /details page -->
+							<!-- footer -->
+							<footer class="section bg-primary p-4 mt-5">
+								<div class="container">
+									<div class="row align-items-center">
+										<div class="col-md-3 text-md-left text-center">
+											<ul>
+												<li><a class="nav-link text-white" href="/inventory">HOME</a></li>
+												<li class="nav-item">
+													<a class="nav-link text-white text-uppercase" href="https://unicef.github.io/inventory/faq">FAQ</a>
+												</li>
+												<li class="nav-item">
+													<a class="nav-link text-white text-uppercase" href="https://unicef.github.io/inventory/toolkits">toolkits</a>
+												</li>
+												<li class="nav-item">
+													<a class="nav-link text-white text-uppercase" href="https://unicef.github.io/inventory/cohorts">cohorts</a>
+												</li>
+											</ul>
+										</div>
+										<div class="col-md-6 text-md-center text-center">
+											<p class="mb-md-0 mb-4 text-white">The UNICEF Open Source Inventory is a knowledge-base of best practices, resources, and information about working and leading Open. This is maintained as part of the Open Source Mentorship programme offered by the UNICEF Venture Fund. The Inventory provides mentorship and guidance to anyone seeking to adopt best practices in their journey to building an Open Source project and community. It is self-serve, and can be used at various phases of building a project and community.</p>
+										</div>
+										<div class="col-md-3 text-md-right text-center">
+											<ul class="text-white">
+												<li class="nav-item">
+													<a class="nav-link text-white font-weight-bold" href="https://www.unicef.org/">UNICEF Global</a>
+												</li>
+												<li class="nav-item">
+													<a class="nav-link text-white font-weight-bold" href="https://www.unicefinnovationfund.org/">UNICEF Venture Fund</a>
+												</li>
+												<li class="nav-item">
+													<a class="nav-link text-white font-weight-bold" href="https://www.unicef.org/legal">Legal</a>
+													<p class="h6 text-md-right font-weight-light">Find legal information and policies related to UNICEF Global&#39;s digital communications.</p>
+												</li>
+											</ul>
+											<ul class="list-inline">
+												<li class="list-inline-item"><a class="text-color d-inline-block p-2 text-white" href="https://github.com/unicef/inventory" aria-label="UNICEF Open Source Inventory on GitHub"><i class="ti-github"></i></a></li>
+												<li class="list-inline-item"><a class="text-color d-inline-block p-2 text-white" href="https://twitter.com/UNICEFinnovate" aria-label="@UNICEFinnovate on Twitter"><i class="ti-twitter"></i></a></li>
+											</ul>
+										</div>
 									</div>
 								</div>
-							</div>
-							<p class="text-md-center text-center text-white mt-3 h6 font-italic">Creative Commons BY-SA 4.0. Site theme maintained by UNICEF. Original theme, Dot, created by ThemeFisher.</p>
-						</footer>
-						<!-- /footer -->
-						<!-- Main Script -->
-						<script src="https://unicef.github.io/inventory/js/script.min.js"></script>
-					</body>
-				</html>
+								<p class="text-md-center text-center text-white mt-3 h6 font-italic">Creative Commons BY-SA 4.0. Site theme maintained by UNICEF. Original theme, Dot, created by ThemeFisher.</p>
+							</footer>
+							<!-- /footer -->
+							<!-- Main Script -->
+							<script src="https://unicef.github.io/inventory/js/script.min.js"></script>
+						</body>
+					</html>

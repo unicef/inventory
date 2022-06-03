@@ -249,227 +249,231 @@
 												document.writeln(path);
 											</script>
 										</div>
-										<div class="p-lg-5 p-4 bg-white" id="content">
-											<h2 class="mb-5" id="title">AI Ethics &amp; Transparency Roadmap - Template</h2>
-											<div class="content">
-												<div class="paragraph">
-													<p>This is your at a glance version of the document.
-														Details and resources are below.</p>
-												</div>
-												<div class="olist arabic">
-													<ol class="arabic">
-														<li>
-															<p>Milestone 1: <a href="#data-flow"><strong>Understanding the Data Flow</strong></a></p>
-															<div class="olist loweralpha">
-																<ol class="loweralpha" type="a">
-																	<li>
-																		<p>Data Ecosystem Map</p>
-																	</li>
-																	<li>
-																		<p>Information Sharing Protocol</p>
-																	</li>
-																</ol>
-															</div>
-														</li>
-														<li>
-															<p>Milestone 2: <a href="#understand-algo"><strong>Understanding the Algorithm</strong></a></p>
-															<div class="olist loweralpha">
-																<ol class="loweralpha" type="a">
-																	<li>
-																		<p>Dataset Structure</p>
-																	</li>
-																	<li>
-																		<p>Common Traps Mitigations</p>
-																	</li>
-																</ol>
-															</div>
-														</li>
-														<li>
-															<p>Milestone 3: <a href="#document-algo"><strong>Sharing the Model</strong></a></p>
-															<div class="olist loweralpha">
-																<ol class="loweralpha" type="a">
-																	<li>
-																		<p>Model Card Created</p>
-																	</li>
-																</ol>
-															</div>
-														</li>
-													</ol>
-												</div>
-												<div class="sect1">
-													<h2 id="data-flow">1. Understanding Data Flow&nbsp;<a class="hanchor" href="#data-flow">🔗</a> </h2>
-													<div class="sectionbody">
-														<div class="ulist">
-															<ul>
-																<li>
-																	<p><strong>Primary Goal</strong>:
-																		Create documentation that ensures you know what data you’re using and how you plan on sharing it.</p>
-																</li>
-															</ul>
-														</div>
-														<div class="paragraph">
-															<p>This first milestone is about initially understanding the underlying data powering your model.
-																This is generally important for understanding the plumbing and getting an idea about privacy and implications that may arise from sharing data.</p>
-														</div>
-														<div class="sect2">
-															<h3 id="data-flow--outcomes">1.1. Outcomes&nbsp;<a class="hanchor" href="#data-flow--outcomes">🔗</a> </h3>
-															<div class="ulist">
-																<ul>
-																	<li>
-																		<p><a href="https://docs.google.com/document/d/18Zg2JwUDJajVDX5VU0vMijL-c9yfumeAUYDc7rgC4iQ/edit#"><strong>Data Ecosystem Map</strong></a>:
-																			This is to document where their data is coming from, what’s using it, stakeholders, etc.
-																			The benefit here is not just helping organize how data collection will work in production but also projecting partnerships which may need to be formed in the future.</p>
-																	</li>
-																	<li>
-																		<p><a href="https://docs.google.com/document/d/1MISHbWU7KGo4Z4AR-b222f6uXrtpQ-GJiJemGYoL—​E/edit#"><strong>Information Sharing Protocol</strong></a>:
-																			This document is all about conducting an initial assessment of the sensitivity of information you are collecting, who you want to share it with, and how.
-																			It is fairly well-thought but is worth a review and potentially some edits.
-																			If you are in the EU, it might just be better to do a <a href="https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/data-protection-impact-assessments-dpias/what-is-a-dpia/">Data Protection Impact Assessment</a>.</p>
-																	</li>
-																</ul>
-															</div>
-														</div>
-													</div>
-												</div>
-												<div class="sect1">
-													<h2 id="understand-algo">2. Understanding the Algorithm&nbsp;<a class="hanchor" href="#understand-algo">🔗</a> </h2>
-													<div class="sectionbody">
-														<div class="ulist">
-															<ul>
-																<li>
-																	<p><strong>Primary Goal</strong>:
-																		Create documentation to ensure your whole team understand exactly how your model will be working.</p>
-																</li>
-															</ul>
-														</div>
-														<div class="paragraph">
-															<p>A large part of this will be determining the method of managing your datasets as they evolve over the development of the program.</p>
-														</div>
-														<div class="sect2">
-															<h3 id="understand-algo--outcomes">2.1. Outcomes&nbsp;<a class="hanchor" href="#understand-algo--outcomes">🔗</a> </h3>
-															<div class="ulist">
-																<ul>
-																	<li>
-																		<p><a href="https://humanitarian.atlassian.net/wiki/spaces/imtoolbox/pages/61734950/File+and+Dataset+Management"><strong>Determine Dataset Structure</strong></a>:
-																			As you create new data sets, update them, and remove old datasets, you should follow an easy to follow protocol for keeping track of your various data sets as they are updated and deprecated.</p>
-																	</li>
-																	<li>
-																		<p><a href="/inventory/data/traps/"><strong>Common Traps When Building Models</strong></a>:
-																			Review the following traps and document potential risks of your application falling into any of these traps.</p>
-																	</li>
-																</ul>
-															</div>
-														</div>
-													</div>
-												</div>
-												<div class="sect1">
-													<h2 id="document-algo">3. Documenting the Algorithm&nbsp;<a class="hanchor" href="#document-algo">🔗</a> </h2>
-													<div class="sectionbody">
-														<div class="ulist">
-															<ul>
-																<li>
-																	<p><strong>Primary Goal</strong>:
-																		Produce documentation that should be shared with the model.</p>
-																</li>
-															</ul>
-														</div>
-														<div class="sect2">
-															<h3 id="document-algo--outcomes">3.1. Outcomes&nbsp;<a class="hanchor" href="#document-algo--outcomes">🔗</a> </h3>
-															<div class="ulist">
-																<ul>
-																	<li>
-																		<p><a href="/inventory/data/model-card/"><strong>Document Machine Learning Model Card</strong></a>:
-																			Before you release or begin production use of your machine learning model, you can use the linked template to comprehensively document the effects, background, and purpose of your model.
-																			This will serve as a core document showing how the model makes the decision it does.</p>
-																	</li>
-																</ul>
-															</div>
-														</div>
-													</div>
-												</div>
+										<div class="p-lg-5 p-4 bg-white position-relative" id="content">
+											<div class="d-flex flex-row-reverse">
+												<button id="editBtn" value="https://github.com/unicef/inventory/blob/main/content/data/milestone-roadmap.en.adoc" class="editBtn py-2 px-3">Edit this Page</button>
 											</div>
-											<p class="post-meta border-bottom pb-3 mb-0 mt-3">Updated on 03 Dec 2021</p>
-											<nav class="pagination mt-3">
-												<a class="nav nav-prev" href="https://unicef.github.io/inventory/data/" aria-label="Previous page" ><i class="ti-arrow-left mr-2"></i> <span class="d-none d-md-block">Data Ethics &amp; Transparency</span></a>
-												<a class="nav nav-next" href="https://unicef.github.io/inventory/data/traps/" aria-label="Previous page" > <span class="d-none d-md-block">Common traps to avoid when building AI systems</span><i class="ti-arrow-right ml-2"></i></a>
-											</nav>
-											<section class="my-3 py-3" id="related-articles">
-												<h5 class="text-center">Related Articles</h5>
-												<div class="row">
-													<div class="col-sm-4 my-2">
-														<a href="https://unicef.github.io/inventory/data/model-card/">
-															<div class="card text-center">
-																<div class="card-body">
-																	<h5 class="card-title">Machine Learning Model Card</h5>
-																	<p class="card-subtitle mb-2 text-muted">Model cards help you document how your model was made. Use this overview to make your own model cards.</p>
-																</div>
-															</div>
-														</a>
+											<div class="p-lg-5 p-3 bg-white">
+												<h2 class="mb-5" id="title">AI Ethics &amp; Transparency Roadmap - Template</h2>
+												<div class="content">
+													<div class="paragraph">
+														<p>This is your at a glance version of the document.
+															Details and resources are below.</p>
 													</div>
-													<div class="col-sm-4 my-2">
-														<a href="https://unicef.github.io/inventory/data/traps/">
-															<div class="card text-center">
-																<div class="card-body">
-																	<h5 class="card-title">Common traps to avoid when building AI systems</h5>
-																	<p class="card-subtitle mb-2 text-muted">Assessing common AI/ML mistakes that lead to unintended side effects.</p>
+													<div class="olist arabic">
+														<ol class="arabic">
+															<li>
+																<p>Milestone 1: <a href="#data-flow"><strong>Understanding the Data Flow</strong></a></p>
+																<div class="olist loweralpha">
+																	<ol class="loweralpha" type="a">
+																		<li>
+																			<p>Data Ecosystem Map</p>
+																		</li>
+																		<li>
+																			<p>Information Sharing Protocol</p>
+																		</li>
+																	</ol>
+																</div>
+															</li>
+															<li>
+																<p>Milestone 2: <a href="#understand-algo"><strong>Understanding the Algorithm</strong></a></p>
+																<div class="olist loweralpha">
+																	<ol class="loweralpha" type="a">
+																		<li>
+																			<p>Dataset Structure</p>
+																		</li>
+																		<li>
+																			<p>Common Traps Mitigations</p>
+																		</li>
+																	</ol>
+																</div>
+															</li>
+															<li>
+																<p>Milestone 3: <a href="#document-algo"><strong>Sharing the Model</strong></a></p>
+																<div class="olist loweralpha">
+																	<ol class="loweralpha" type="a">
+																		<li>
+																			<p>Model Card Created</p>
+																		</li>
+																	</ol>
+																</div>
+															</li>
+														</ol>
+													</div>
+													<div class="sect1">
+														<h2 id="data-flow">1. Understanding Data Flow&nbsp;<a class="hanchor" href="#data-flow">🔗</a> </h2>
+														<div class="sectionbody">
+															<div class="ulist">
+																<ul>
+																	<li>
+																		<p><strong>Primary Goal</strong>:
+																			Create documentation that ensures you know what data you’re using and how you plan on sharing it.</p>
+																	</li>
+																</ul>
+															</div>
+															<div class="paragraph">
+																<p>This first milestone is about initially understanding the underlying data powering your model.
+																	This is generally important for understanding the plumbing and getting an idea about privacy and implications that may arise from sharing data.</p>
+															</div>
+															<div class="sect2">
+																<h3 id="data-flow--outcomes">1.1. Outcomes&nbsp;<a class="hanchor" href="#data-flow--outcomes">🔗</a> </h3>
+																<div class="ulist">
+																	<ul>
+																		<li>
+																			<p><a href="https://docs.google.com/document/d/18Zg2JwUDJajVDX5VU0vMijL-c9yfumeAUYDc7rgC4iQ/edit#"><strong>Data Ecosystem Map</strong></a>:
+																				This is to document where their data is coming from, what’s using it, stakeholders, etc.
+																				The benefit here is not just helping organize how data collection will work in production but also projecting partnerships which may need to be formed in the future.</p>
+																		</li>
+																		<li>
+																			<p><a href="https://docs.google.com/document/d/1MISHbWU7KGo4Z4AR-b222f6uXrtpQ-GJiJemGYoL—​E/edit#"><strong>Information Sharing Protocol</strong></a>:
+																				This document is all about conducting an initial assessment of the sensitivity of information you are collecting, who you want to share it with, and how.
+																				It is fairly well-thought but is worth a review and potentially some edits.
+																				If you are in the EU, it might just be better to do a <a href="https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/data-protection-impact-assessments-dpias/what-is-a-dpia/">Data Protection Impact Assessment</a>.</p>
+																		</li>
+																	</ul>
 																</div>
 															</div>
-														</a>
+														</div>
+													</div>
+													<div class="sect1">
+														<h2 id="understand-algo">2. Understanding the Algorithm&nbsp;<a class="hanchor" href="#understand-algo">🔗</a> </h2>
+														<div class="sectionbody">
+															<div class="ulist">
+																<ul>
+																	<li>
+																		<p><strong>Primary Goal</strong>:
+																			Create documentation to ensure your whole team understand exactly how your model will be working.</p>
+																	</li>
+																</ul>
+															</div>
+															<div class="paragraph">
+																<p>A large part of this will be determining the method of managing your datasets as they evolve over the development of the program.</p>
+															</div>
+															<div class="sect2">
+																<h3 id="understand-algo--outcomes">2.1. Outcomes&nbsp;<a class="hanchor" href="#understand-algo--outcomes">🔗</a> </h3>
+																<div class="ulist">
+																	<ul>
+																		<li>
+																			<p><a href="https://humanitarian.atlassian.net/wiki/spaces/imtoolbox/pages/61734950/File+and+Dataset+Management"><strong>Determine Dataset Structure</strong></a>:
+																				As you create new data sets, update them, and remove old datasets, you should follow an easy to follow protocol for keeping track of your various data sets as they are updated and deprecated.</p>
+																		</li>
+																		<li>
+																			<p><a href="/inventory/data/traps/"><strong>Common Traps When Building Models</strong></a>:
+																				Review the following traps and document potential risks of your application falling into any of these traps.</p>
+																		</li>
+																	</ul>
+																</div>
+															</div>
+														</div>
+													</div>
+													<div class="sect1">
+														<h2 id="document-algo">3. Documenting the Algorithm&nbsp;<a class="hanchor" href="#document-algo">🔗</a> </h2>
+														<div class="sectionbody">
+															<div class="ulist">
+																<ul>
+																	<li>
+																		<p><strong>Primary Goal</strong>:
+																			Produce documentation that should be shared with the model.</p>
+																	</li>
+																</ul>
+															</div>
+															<div class="sect2">
+																<h3 id="document-algo--outcomes">3.1. Outcomes&nbsp;<a class="hanchor" href="#document-algo--outcomes">🔗</a> </h3>
+																<div class="ulist">
+																	<ul>
+																		<li>
+																			<p><a href="/inventory/data/model-card/"><strong>Document Machine Learning Model Card</strong></a>:
+																				Before you release or begin production use of your machine learning model, you can use the linked template to comprehensively document the effects, background, and purpose of your model.
+																				This will serve as a core document showing how the model makes the decision it does.</p>
+																		</li>
+																	</ul>
+																</div>
+															</div>
+														</div>
 													</div>
 												</div>
-											</section>
+												<p class="post-meta border-bottom pb-3 mb-0 mt-3">Updated on 03 Dec 2021</p>
+												<nav class="pagination mt-3">
+													<a class="nav nav-prev" href="https://unicef.github.io/inventory/data/" aria-label="Previous page" ><i class="ti-arrow-left mr-2"></i> <span class="d-none d-md-block">Data Ethics &amp; Transparency</span></a>
+													<a class="nav nav-next" href="https://unicef.github.io/inventory/data/traps/" aria-label="Previous page" > <span class="d-none d-md-block">Common traps to avoid when building AI systems</span><i class="ti-arrow-right ml-2"></i></a>
+												</nav>
+												<section class="my-3 py-3" id="related-articles">
+													<h5 class="text-center">Related Articles</h5>
+													<div class="row">
+														<div class="col-sm-4 my-2">
+															<a href="https://unicef.github.io/inventory/data/traps/">
+																<div class="card text-center">
+																	<div class="card-body">
+																		<h5 class="card-title">Common traps to avoid when building AI systems</h5>
+																		<p class="card-subtitle mb-2 text-muted">Assessing common AI/ML mistakes that lead to unintended side effects.</p>
+																	</div>
+																</div>
+															</a>
+														</div>
+														<div class="col-sm-4 my-2">
+															<a href="https://unicef.github.io/inventory/data/policy-guidance-children/">
+																<div class="card text-center">
+																	<div class="card-body">
+																		<h5 class="card-title">Policy guidance on AI for children (via unicef.org)</h5>
+																		<p class="card-subtitle mb-2 text-muted">Recommendations for building AI policies and systems that uphold child rights. Part of UNICEF AI for children project.</p>
+																	</div>
+																</div>
+															</a>
+														</div>
+													</div>
+												</section>
+											</div>
 										</div>
 									</div>
 								</div>
 							</div>
-						</div>
-					</section>
-					<!-- /details page -->
-					<!-- footer -->
-					<footer class="section bg-primary p-4 mt-5">
-						<div class="container">
-							<div class="row align-items-center">
-								<div class="col-md-3 text-md-left text-center">
-									<ul>
-										<li><a class="nav-link text-white" href="/inventory">HOME</a></li>
-										<li class="nav-item">
-											<a class="nav-link text-white text-uppercase" href="https://unicef.github.io/inventory/faq">FAQ</a>
-										</li>
-										<li class="nav-item">
-											<a class="nav-link text-white text-uppercase" href="https://unicef.github.io/inventory/toolkits">toolkits</a>
-										</li>
-										<li class="nav-item">
-											<a class="nav-link text-white text-uppercase" href="https://unicef.github.io/inventory/cohorts">cohorts</a>
-										</li>
-									</ul>
-								</div>
-								<div class="col-md-6 text-md-center text-center">
-									<p class="mb-md-0 mb-4 text-white">The UNICEF Open Source Inventory is a knowledge-base of best practices, resources, and information about working and leading Open. This is maintained as part of the Open Source Mentorship programme offered by the UNICEF Venture Fund. The Inventory provides mentorship and guidance to anyone seeking to adopt best practices in their journey to building an Open Source project and community. It is self-serve, and can be used at various phases of building a project and community.</p>
-								</div>
-								<div class="col-md-3 text-md-right text-center">
-									<ul class="text-white">
-										<li class="nav-item">
-											<a class="nav-link text-white font-weight-bold" href="https://www.unicef.org/">UNICEF Global</a>
-										</li>
-										<li class="nav-item">
-											<a class="nav-link text-white font-weight-bold" href="https://www.unicefinnovationfund.org/">UNICEF Venture Fund</a>
-										</li>
-										<li class="nav-item">
-											<a class="nav-link text-white font-weight-bold" href="https://www.unicef.org/legal">Legal</a>
-											<p class="h6 text-md-right font-weight-light">Find legal information and policies related to UNICEF Global&#39;s digital communications.</p>
-										</li>
-									</ul>
-									<ul class="list-inline">
-										<li class="list-inline-item"><a class="text-color d-inline-block p-2 text-white" href="https://github.com/unicef/inventory" aria-label="UNICEF Open Source Inventory on GitHub"><i class="ti-github"></i></a></li>
-										<li class="list-inline-item"><a class="text-color d-inline-block p-2 text-white" href="https://twitter.com/UNICEFinnovate" aria-label="@UNICEFinnovate on Twitter"><i class="ti-twitter"></i></a></li>
-									</ul>
+						</section>
+						<!-- /details page -->
+						<!-- footer -->
+						<footer class="section bg-primary p-4 mt-5">
+							<div class="container">
+								<div class="row align-items-center">
+									<div class="col-md-3 text-md-left text-center">
+										<ul>
+											<li><a class="nav-link text-white" href="/inventory">HOME</a></li>
+											<li class="nav-item">
+												<a class="nav-link text-white text-uppercase" href="https://unicef.github.io/inventory/faq">FAQ</a>
+											</li>
+											<li class="nav-item">
+												<a class="nav-link text-white text-uppercase" href="https://unicef.github.io/inventory/toolkits">toolkits</a>
+											</li>
+											<li class="nav-item">
+												<a class="nav-link text-white text-uppercase" href="https://unicef.github.io/inventory/cohorts">cohorts</a>
+											</li>
+										</ul>
+									</div>
+									<div class="col-md-6 text-md-center text-center">
+										<p class="mb-md-0 mb-4 text-white">The UNICEF Open Source Inventory is a knowledge-base of best practices, resources, and information about working and leading Open. This is maintained as part of the Open Source Mentorship programme offered by the UNICEF Venture Fund. The Inventory provides mentorship and guidance to anyone seeking to adopt best practices in their journey to building an Open Source project and community. It is self-serve, and can be used at various phases of building a project and community.</p>
+									</div>
+									<div class="col-md-3 text-md-right text-center">
+										<ul class="text-white">
+											<li class="nav-item">
+												<a class="nav-link text-white font-weight-bold" href="https://www.unicef.org/">UNICEF Global</a>
+											</li>
+											<li class="nav-item">
+												<a class="nav-link text-white font-weight-bold" href="https://www.unicefinnovationfund.org/">UNICEF Venture Fund</a>
+											</li>
+											<li class="nav-item">
+												<a class="nav-link text-white font-weight-bold" href="https://www.unicef.org/legal">Legal</a>
+												<p class="h6 text-md-right font-weight-light">Find legal information and policies related to UNICEF Global&#39;s digital communications.</p>
+											</li>
+										</ul>
+										<ul class="list-inline">
+											<li class="list-inline-item"><a class="text-color d-inline-block p-2 text-white" href="https://github.com/unicef/inventory" aria-label="UNICEF Open Source Inventory on GitHub"><i class="ti-github"></i></a></li>
+											<li class="list-inline-item"><a class="text-color d-inline-block p-2 text-white" href="https://twitter.com/UNICEFinnovate" aria-label="@UNICEFinnovate on Twitter"><i class="ti-twitter"></i></a></li>
+										</ul>
+									</div>
 								</div>
 							</div>
-						</div>
-						<p class="text-md-center text-center text-white mt-3 h6 font-italic">Creative Commons BY-SA 4.0. Site theme maintained by UNICEF. Original theme, Dot, created by ThemeFisher.</p>
-					</footer>
-					<!-- /footer -->
-					<!-- Main Script -->
-					<script src="https://unicef.github.io/inventory/js/script.min.js"></script>
-				</body>
-			</html>
+							<p class="text-md-center text-center text-white mt-3 h6 font-italic">Creative Commons BY-SA 4.0. Site theme maintained by UNICEF. Original theme, Dot, created by ThemeFisher.</p>
+						</footer>
+						<!-- /footer -->
+						<!-- Main Script -->
+						<script src="https://unicef.github.io/inventory/js/script.min.js"></script>
+					</body>
+				</html>
