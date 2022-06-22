@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Data Ethics &amp; Transparency on UNICEF O.S. Inventory</title>
+    <title>Data on UNICEF O.S. Inventory</title>
     <link>https://unicef.github.io/inventory/data/</link>
-    <description>Recent content in Data Ethics &amp; Transparency on UNICEF O.S. Inventory</description>
+    <description>Recent content in Data on UNICEF O.S. Inventory</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Creative Commons BY-SA 4.0. Site theme maintained by UNICEF. Original theme, Dot, created by ThemeFisher.</copyright><atom:link href="https://unicef.github.io/inventory/data/index.xml" rel="self" type="application/rss+xml" />
@@ -13,16 +13,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://unicef.github.io/inventory/data/milestone-roadmap/</guid>
-      <description>This is your at a glance version of the document. Details and resources are below.
-  Milestone 1: Understanding the Data Flow
- Data Ecosystem Map
-  Information Sharing Protocol
-     Milestone 2: Understanding the Algorithm
- Dataset Structure
-  Common Traps Mitigations
-     Milestone 3: Sharing the Model
- Model Card Created
-      1.</description>
+      <description></description>
     </item>
     
     <item>
@@ -31,9 +22,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://unicef.github.io/inventory/data/traps/</guid>
-      <description>Assessing common mistakes that lead to unintended side effects. Information summarized from Fairness and Abstraction in Sociotechnical Systems, a paper published at the 2019 ACM Conference on Fairness, Accountability, and Transparency.
- 1. Framing Trap Failure to model the entire system over which a social criterion, such as fairness, will be enforced.
- For this trap, we will want to look at our outcome variables. Are these variables a proxy of the actual outcome you wish to achieve?</description>
+      <description></description>
     </item>
     
     <item>
@@ -42,14 +31,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://unicef.github.io/inventory/data/model-card/</guid>
-      <description>The following is an editable version of the model card proposed in arxiv.org/abs/1810.03993.
- 1. Model details Basic information about the model.
-   Person or organization developing model
-  Date of last update
-  Model version
-  Model type (information about training algorithms, parameters, fairness constraints or other applied approaches, and features)
-  Paper or other resource for more information
-  Citation details</description>
+      <description></description>
     </item>
     
     <item>
@@ -58,8 +40,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://unicef.github.io/inventory/data/policy-guidance-children/</guid>
-      <description>As part of our AI for children project, UNICEF has developed this policy guidance to promote children’s rights in government and private sector AI policies and practices, and to raise awareness of how AI systems can uphold or undermine these rights. The policy guidance explores AI systems, and considers the ways in which they impact children.
- 1. Read in full: unicef.org/globalinsight/reports/policy-guidance-ai-children Drawing on the Convention on the Rights of the Child, the guidance offers nine requirements for child-centered AI:</description>
+      <description></description>
     </item>
     
   </channel>

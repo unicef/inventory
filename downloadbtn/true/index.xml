@@ -33,24 +33,6 @@
     </item>
     
     <item>
-      <title>AI Ethics &amp; Transparency Roadmap - Template</title>
-      <link>https://unicef.github.io/inventory/data/milestone-roadmap/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://unicef.github.io/inventory/data/milestone-roadmap/</guid>
-      <description>This is your at a glance version of the document. Details and resources are below.
-  Milestone 1: Understanding the Data Flow
- Data Ecosystem Map
-  Information Sharing Protocol
-     Milestone 2: Understanding the Algorithm
- Dataset Structure
-  Common Traps Mitigations
-     Milestone 3: Sharing the Model
- Model Card Created
-      1.</description>
-    </item>
-    
-    <item>
       <title>Case studies</title>
       <link>https://unicef.github.io/inventory/hardware/case-studies/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -77,17 +59,6 @@
       
       <guid>https://unicef.github.io/inventory/missions/codes-of-conduct/</guid>
       <description>Table of Contents 1. Quality of writing 2. Clarity of expectations 3. Defined structure for handling enforcement 4. Two to four people responsible for handling sensitive reports 5. Use an existing Code of Conduct instead of writing one yourself 6. References      This Mission is a short exercise on understanding how Codes of Conduct fit into your Open Source community. In designing a Code of Conduct for a project community, we will explore these Requirements for this Mission:</description>
-    </item>
-    
-    <item>
-      <title>Common traps to avoid when building AI systems</title>
-      <link>https://unicef.github.io/inventory/data/traps/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://unicef.github.io/inventory/data/traps/</guid>
-      <description>Assessing common mistakes that lead to unintended side effects. Information summarized from Fairness and Abstraction in Sociotechnical Systems, a paper published at the 2019 ACM Conference on Fairness, Accountability, and Transparency.
- 1. Framing Trap Failure to model the entire system over which a social criterion, such as fairness, will be enforced.
- For this trap, we will want to look at our outcome variables. Are these variables a proxy of the actual outcome you wish to achieve?</description>
     </item>
     
     <item>
@@ -252,22 +223,6 @@
       <guid>https://unicef.github.io/inventory/hardware/licensing/</guid>
       <description>Table of Contents 1. Documentation 2. Licenses 2.1. Don’t Fear the Patent Clause!     This page collects information, resources, and other details about Open Hardware licensing.
  1. Documentation   Licensing and documentation: Learning material provided by Open Hardware Leaders program. Goal of material is to acquire best practices for hardware documentation and understand the different open licensing options available. Includes an explanation video and other helpful links.</description>
-    </item>
-    
-    <item>
-      <title>Machine Learning Model Card</title>
-      <link>https://unicef.github.io/inventory/data/model-card/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://unicef.github.io/inventory/data/model-card/</guid>
-      <description>The following is an editable version of the model card proposed in arxiv.org/abs/1810.03993.
- 1. Model details Basic information about the model.
-   Person or organization developing model
-  Date of last update
-  Model version
-  Model type (information about training algorithms, parameters, fairness constraints or other applied approaches, and features)
-  Paper or other resource for more information
-  Citation details</description>
     </item>
     
     <item>

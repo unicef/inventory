@@ -71,7 +71,7 @@
 		<meta property="og:description" content="Assessing common AI/ML mistakes that lead to unintended side effects." />
 		<meta property="og:type" content="article" />
 		<meta property="og:url" content="https://unicef.github.io/inventory/data/traps/" /><meta property="article:section" content="data" />
-		<meta property="article:modified_time" content="2021-12-03T13:35:25+01:00" />
+		<meta property="article:modified_time" content="2022-06-21T21:33:34-04:00" />
 		<meta name="twitter:card" content="summary"/>
 		<meta name="twitter:title" content="Common traps to avoid when building AI systems"/>
 		<meta name="twitter:description" content="Assessing common AI/ML mistakes that lead to unintended side effects."/>
@@ -154,287 +154,61 @@
 			</nav>
 		</header>
 		<!-- /header -->
-		<script>
-			remSpace()
-		</script>
-		<script>
-			function remSpace() {
-			  document.getElementById("section").style.paddingTop = "3rem";
-			}
-		</script>
-		<!-- details page -->
-		<section class="single section-sm main-section" id="section">
+		<!-- redirect -->
+		<meta http-equiv="refresh" content="5; url='https://unicef.github.io/ooi-toolkit-ds/privacy-ethics/traps/'"/>
+		<section class="section">
+			<div class="container text-center">
+				<h2 class="section-title text-dark">This page has moved</h2>
+				<p>This page has moved. You will be redirected in five seconds. Please update any bookmarks. If you are not redirected, please follow the link below.</p>
+				<h4><a href="https://unicef.github.io/ooi-toolkit-ds/privacy-ethics/traps/">https://unicef.github.io/ooi-toolkit-ds/privacy-ethics/traps/</a></h4>
+			</div>
+		</section>
+		<!-- /redirect -->
+		<!-- footer -->
+		<footer class="section bg-primary p-4 mt-5">
 			<div class="container">
-				<div class="row">
-					<div class="col-lg-3">
-						<div class="sidebar">
-							<a class="back-btn" href="/inventory" aria-label="back"></a>
-							<ul>
-								<li data-nav-id="https://unicef.github.io/inventory/data/" title="Data Ethics &amp; Transparency" class="sidelist
-  ">
-									<a href="https://unicef.github.io/inventory/data/" class="font-weight-bold">
-										Data Ethics &amp; Transparency
-									</a>
-									<div class="accordion" id="accordionExample">
-										<ul>
-											<li data-nav-id="https://unicef.github.io/inventory/data/milestone-roadmap/" title="AI Ethics &amp; Transparency Roadmap - Template" class="sidelist
-  ">
-												<div class="container">
-													<div class="row">
-														<div class="col-10">
-															<a href="https://unicef.github.io/inventory/data/milestone-roadmap/" class="">
-																AI Ethics &amp; Transparency Roadmap - Template
-															</a>
-														</div>
-													</div>
-												</li>
-												<li data-nav-id="https://unicef.github.io/inventory/data/traps/" title="Common traps to avoid when building AI systems" class="sidelist
-  active">
-													<div class="container">
-														<div class="row">
-															<div class="col-10">
-																<a href="https://unicef.github.io/inventory/data/traps/" class="">
-																	Common traps to avoid when building AI systems
-																</a>
-															</div>
-														</div>
-													</li>
-													<li data-nav-id="https://unicef.github.io/inventory/data/model-card/" title="Machine Learning Model Card" class="sidelist
-  ">
-														<div class="container">
-															<div class="row">
-																<div class="col-10">
-																	<a href="https://unicef.github.io/inventory/data/model-card/" class="">
-																		Machine Learning Model Card
-																	</a>
-																</div>
-															</div>
-														</li>
-														<li data-nav-id="https://unicef.github.io/inventory/data/policy-guidance-children/" title="Policy guidance on AI for children (via unicef.org)" class="sidelist
-  ">
-															<div class="container">
-																<div class="row">
-																	<div class="col-10">
-																		<a href="https://unicef.github.io/inventory/data/policy-guidance-children/" class="">
-																			Policy guidance on AI for children (via unicef.org)
-																		</a>
-																	</div>
-																</div>
-															</li>
-														</ul>
-													</div>
-												</li>
-												<div>
-													<button class="btn btn-primary btn-block" id="generatePDF">Get Pdf</button>
-												</div>
-											</ul>
-										</div>
-									</div>
-									<div class="col-lg-9">
-										<div class="bg-white p-3" style="margin:auto">
-											<script language="JavaScript">
-												String.prototype.capitalizeFirstLetter = function() {
-												   return this.charAt(0).toUpperCase() + this.slice(1);
-												}
-
-												var path = "<a style='margin-left:2%' href='https:\/\/unicef.github.io\/inventory\/'>Home</a>";
-												var href = document.location.href;
-												var s = href.split("/");
-												for (var i=3;i<(s.length-2);i++) {
-												   path+=" &gt;  <a href=\""+href.substring(0,href.indexOf("/"+s[i])+s[i].length+1)+"/\">"+s[i].capitalizeFirstLetter()+"</a> ";
-												}
-												i=s.length-1;
-												path+="<a href=\""+href.substring(0,href.indexOf(s[i])+s[i].length)+"\">"+s[i]+"</a>";
-												path+="  &gt;  <b>Common traps to avoid when building AI systems</b>";
-												document.writeln(path);
-											</script>
-										</div>
-										<div class="p-lg-5 p-4 bg-white position-relative" id="content">
-											<div class="d-flex flex-row-reverse">
-												<button id="editBtn" value="https://github.com/unicef/inventory/blob/main/content/data/traps.en.adoc" class="editBtn py-2 px-3">Edit this Page</button>
-											</div>
-											<div class="p-lg-5 p-3 bg-white">
-												<h2 id="title">Common traps to avoid when building AI systems</h2>
-												<div class="content mt-5">
-													<div class="paragraph">
-														<p><em>Assessing common mistakes that lead to unintended side effects.</em>
-															Information summarized from <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3265913"><em>Fairness and Abstraction in Sociotechnical Systems</em></a>, a paper published at the 2019 ACM Conference on Fairness, Accountability, and Transparency.</p>
-													</div>
-													<div class="sect1">
-														<h2 id="_framing_trap">1. Framing Trap&nbsp;<a class="hanchor" href="#_framing_trap">🔗</a> </h2>
-														<div class="sectionbody">
-															<div class="paragraph">
-																<p><em>Failure to model the entire system over which a social criterion, such as fairness, will be enforced.</em></p>
-															</div>
-															<div class="paragraph">
-																<p>For this trap, we will want to look at our outcome variables.
-																	Are these variables a proxy of the actual outcome you wish to achieve?
-																	What evidence of existing negative bias currently exists with regards to these variables?</p>
-															</div>
-														</div>
-													</div>
-													<div class="sect1">
-														<h2 id="_portability_trap">2. Portability Trap&nbsp;<a class="hanchor" href="#_portability_trap">🔗</a> </h2>
-														<div class="sectionbody">
-															<div class="paragraph">
-																<p><em>Failure to understand how repurposing algorithmic solutions designed for one social context may be misleading, inaccurate, or otherwise do harm when applied to a different context.</em></p>
-															</div>
-															<div class="paragraph">
-																<p>Here, you will want to be fully understanding of the context in which this model is being built for and the context in which you will be using it.
-																	There should be clear documentation distributed across the entire team focusing on this.
-																	What stakeholders do you expect to have an impact on where this technology will be used.
-																	Are they informed?</p>
-															</div>
-														</div>
-													</div>
-													<div class="sect1">
-														<h2 id="_formalism_trap">3. Formalism Trap&nbsp;<a class="hanchor" href="#_formalism_trap">🔗</a> </h2>
-														<div class="sectionbody">
-															<div class="paragraph">
-																<p><em>Failure to account for the full meaning of social concepts such as fairness, which can be procedural, contextual, and contestable, and cannot be resolved through mathematical formalisms.</em></p>
-															</div>
-															<div class="paragraph">
-																<p>How does your chosen outcome continue to implement and solve existing procedural &#34;catches&#34; in order to ensure the decision making process is fair?
-																	What method of recourse are available for those who are unfairly judged?</p>
-															</div>
-														</div>
-													</div>
-													<div class="sect1">
-														<h2 id="_ripple_effect_trap">4. Ripple Effect Trap&nbsp;<a class="hanchor" href="#_ripple_effect_trap">🔗</a> </h2>
-														<div class="sectionbody">
-															<div class="paragraph">
-																<p><em>Failure to understand how the insertion of technology into an existing social system changes the behaviors and embedded values of the pre-existing system.</em></p>
-															</div>
-															<div class="paragraph">
-																<p>How do you think the introduction of this recommendation system will affect your users?
-																	What changes in behavior do you intend to change?
-																	Can you think of any possible changes in behavior that you don’t intend as a result of your software?</p>
-															</div>
-														</div>
-													</div>
-													<div class="sect1">
-														<h2 id="_solutionism_trap">5. Solutionism Trap&nbsp;<a class="hanchor" href="#_solutionism_trap">🔗</a> </h2>
-														<div class="sectionbody">
-															<div class="paragraph">
-																<p><em>Failure to recognize the possibility that the best solution to a problem may not involve technology.</em></p>
-															</div>
-															<div class="paragraph">
-																<p>Will this technology elevate social values which can be quantified?
-																	Will it devalue those which cannot?
-																	What values might take a back seat if this technology is implemented?</p>
-															</div>
-														</div>
-													</div>
-													<div class="sect1">
-														<h2 id="_attributions">6. Attributions&nbsp;<a class="hanchor" href="#_attributions">🔗</a> </h2>
-														<div class="sectionbody">
-															<div class="paragraph">
-																<p>Thanks to the publishers of the <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3265913">original paper</a>:</p>
-															</div>
-															<div class="ulist">
-																<ul>
-																	<li>
-																		<p><strong>Andrew D. Selbst</strong> (UCLA School of Law)</p>
-																	</li>
-																	<li>
-																		<p><strong>Danah Boyd</strong> (Data &amp; Society Research Institute; Microsoft Research)</p>
-																	</li>
-																	<li>
-																		<p><strong>Sorelle Friedler</strong> (Haverford College)</p>
-																	</li>
-																	<li>
-																		<p><strong>Suresh Venkatasubramanian</strong> (University of Utah)</p>
-																	</li>
-																	<li>
-																		<p><strong>Janet Vertesi</strong> (Princeton University)</p>
-																	</li>
-																</ul>
-															</div>
-														</div>
-													</div>
-												</div>
-												<p class="post-meta border-bottom pb-3 mb-0 mt-3">Updated on 03 Dec 2021</p>
-												<nav class="pagination mt-3">
-													<a class="nav nav-prev" href="https://unicef.github.io/inventory/data/milestone-roadmap/" aria-label="Previous page" ><i class="ti-arrow-left mr-2"></i> <span class="d-none d-md-block">AI Ethics &amp; Transparency Roadmap - Template</span></a>
-													<a class="nav nav-next" href="https://unicef.github.io/inventory/data/model-card/" aria-label="Previous page" > <span class="d-none d-md-block">Machine Learning Model Card</span><i class="ti-arrow-right ml-2"></i></a>
-												</nav>
-												<section class="my-3 py-3" id="related-articles">
-													<h5 class="text-center">Related Articles</h5>
-													<div class="row">
-														<div class="col-sm-4 my-2">
-															<a href="https://unicef.github.io/inventory/data/milestone-roadmap/">
-																<div class="card text-center">
-																	<div class="card-body">
-																		<h5 class="card-title">AI Ethics &amp; Transparency Roadmap - Template</h5>
-																		<p class="card-subtitle mb-2 text-muted">How do you document your machine learning development process? This guide shares transparency best practices.</p>
-																	</div>
-																</div>
-															</a>
-														</div>
-														<div class="col-sm-4 my-2">
-															<a href="https://unicef.github.io/inventory/data/model-card/">
-																<div class="card text-center">
-																	<div class="card-body">
-																		<h5 class="card-title">Machine Learning Model Card</h5>
-																		<p class="card-subtitle mb-2 text-muted">Model cards help you document how your model was made. Use this overview to make your own model cards.</p>
-																	</div>
-																</div>
-															</a>
-														</div>
-													</div>
-												</section>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</section>
-						<!-- /details page -->
-						<!-- footer -->
-						<footer class="section bg-primary p-4 mt-5">
-							<div class="container">
-								<div class="row align-items-center">
-									<div class="col-md-3 text-md-left text-center">
-										<ul>
-											<li><a class="nav-link text-white" href="/inventory">HOME</a></li>
-											<li class="nav-item">
-												<a class="nav-link text-white text-uppercase" href="https://unicef.github.io/inventory/faq">FAQ</a>
-											</li>
-											<li class="nav-item">
-												<a class="nav-link text-white text-uppercase" href="https://unicef.github.io/inventory/toolkits">toolkits</a>
-											</li>
-											<li class="nav-item">
-												<a class="nav-link text-white text-uppercase" href="https://unicef.github.io/inventory/cohorts">cohorts</a>
-											</li>
-										</ul>
-									</div>
-									<div class="col-md-6 text-md-center text-center">
-										<p class="mb-md-0 mb-4 text-white">The UNICEF Open Source Inventory is a knowledge-base of best practices, resources, and information about working and leading Open. This is maintained as part of the Open Source Mentorship programme offered by the UNICEF Venture Fund. The Inventory provides mentorship and guidance to anyone seeking to adopt best practices in their journey to building an Open Source project and community. It is self-serve, and can be used at various phases of building a project and community.</p>
-									</div>
-									<div class="col-md-3 text-md-right text-center">
-										<ul class="text-white">
-											<li class="nav-item">
-												<a class="nav-link text-white font-weight-bold" href="https://www.unicef.org/">UNICEF Global</a>
-											</li>
-											<li class="nav-item">
-												<a class="nav-link text-white font-weight-bold" href="https://www.unicefinnovationfund.org/">UNICEF Venture Fund</a>
-											</li>
-											<li class="nav-item">
-												<a class="nav-link text-white font-weight-bold" href="https://www.unicef.org/legal">Legal</a>
-												<p class="h6 text-md-right font-weight-light">Find legal information and policies related to UNICEF Global&#39;s digital communications.</p>
-											</li>
-										</ul>
-										<ul class="list-inline">
-											<li class="list-inline-item"><a class="text-color d-inline-block p-2 text-white" href="https://github.com/unicef/inventory" aria-label="UNICEF Open Source Inventory on GitHub"><i class="ti-github"></i></a></li>
-											<li class="list-inline-item"><a class="text-color d-inline-block p-2 text-white" href="https://twitter.com/UNICEFinnovate" aria-label="@UNICEFinnovate on Twitter"><i class="ti-twitter"></i></a></li>
-										</ul>
-									</div>
-								</div>
-							</div>
-							<p class="text-md-center text-center text-white mt-3 h6 font-italic">Creative Commons BY-SA 4.0. Site theme maintained by UNICEF. Original theme, Dot, created by ThemeFisher.</p>
-						</footer>
-						<!-- /footer -->
-						<!-- Main Script -->
-						<script src="https://unicef.github.io/inventory/js/script.min.js"></script>
-					</body>
-				</html>
+				<div class="row align-items-center">
+					<div class="col-md-3 text-md-left text-center">
+						<ul>
+							<li><a class="nav-link text-white" href="/inventory">HOME</a></li>
+							<li class="nav-item">
+								<a class="nav-link text-white text-uppercase" href="https://unicef.github.io/inventory/faq">FAQ</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link text-white text-uppercase" href="https://unicef.github.io/inventory/toolkits">toolkits</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link text-white text-uppercase" href="https://unicef.github.io/inventory/cohorts">cohorts</a>
+							</li>
+						</ul>
+					</div>
+					<div class="col-md-6 text-md-center text-center">
+						<p class="mb-md-0 mb-4 text-white">The UNICEF Open Source Inventory is a knowledge-base of best practices, resources, and information about working and leading Open. This is maintained as part of the Open Source Mentorship programme offered by the UNICEF Venture Fund. The Inventory provides mentorship and guidance to anyone seeking to adopt best practices in their journey to building an Open Source project and community. It is self-serve, and can be used at various phases of building a project and community.</p>
+					</div>
+					<div class="col-md-3 text-md-right text-center">
+						<ul class="text-white">
+							<li class="nav-item">
+								<a class="nav-link text-white font-weight-bold" href="https://www.unicef.org/">UNICEF Global</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link text-white font-weight-bold" href="https://www.unicefinnovationfund.org/">UNICEF Venture Fund</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link text-white font-weight-bold" href="https://www.unicef.org/legal">Legal</a>
+								<p class="h6 text-md-right font-weight-light">Find legal information and policies related to UNICEF Global&#39;s digital communications.</p>
+							</li>
+						</ul>
+						<ul class="list-inline">
+							<li class="list-inline-item"><a class="text-color d-inline-block p-2 text-white" href="https://github.com/unicef/inventory" aria-label="UNICEF Open Source Inventory on GitHub"><i class="ti-github"></i></a></li>
+							<li class="list-inline-item"><a class="text-color d-inline-block p-2 text-white" href="https://twitter.com/UNICEFinnovate" aria-label="@UNICEFinnovate on Twitter"><i class="ti-twitter"></i></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<p class="text-md-center text-center text-white mt-3 h6 font-italic">Creative Commons BY-SA 4.0. Site theme maintained by UNICEF. Original theme, Dot, created by ThemeFisher.</p>
+		</footer>
+		<!-- /footer -->
+		<!-- Main Script -->
+		<script src="https://unicef.github.io/inventory/js/script.min.js"></script>
+	</body>
+</html>

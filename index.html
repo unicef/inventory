@@ -257,7 +257,7 @@
 
 									{
 										value: "AI Ethics \u0026 Transparency Roadmap - Template",
-										label: "<p>This is your at a glance version of the document. Details and resources are below.\n  Milestone 1: Understanding the Data Flow\n Data Ecosystem Map\n  Information Sharing Protocol\n     Milestone 2: Understanding the Algorithm\n Dataset Structure\n  Common Traps Mitigations\n     Milestone 3: Sharing the Model\n Model Card Created\n      1. Understanding Data Flow   Primary Goal: Create documentation that ensures you know what data you’re using and how you plan on sharing it.\n   This first milestone is about initially understanding the underlying data powering your model. This is generally important for understanding the plumbing and getting an idea about privacy and implications that may arise from sharing data.\n 1.1. Outcomes   Data Ecosystem Map: This is to document where their data is coming from, what’s using it, stakeholders, etc. The benefit here is not just helping organize how data collection will work in production but also projecting partnerships which may need to be formed in the future.\n  Information Sharing Protocol: This document is all about conducting an initial assessment of the sensitivity of information you are collecting, who you want to share it with, and how. It is fairly well-thought but is worth a review and potentially some edits. If you are in the EU, it might just be better to do a Data Protection Impact Assessment.\n      2. Understanding the Algorithm   Primary Goal: Create documentation to ensure your whole team understand exactly how your model will be working.\n   A large part of this will be determining the method of managing your datasets as they evolve over the development of the program.\n 2.1. Outcomes   Determine Dataset Structure: As you create new data sets, update them, and remove old datasets, you should follow an easy to follow protocol for keeping track of your various data sets as they are updated and deprecated.\n  Common Traps When Building Models: Review the following traps and document potential risks of your application falling into any of these traps.\n      3. Documenting the Algorithm   Primary Goal: Produce documentation that should be shared with the model.\n   3.1. Outcomes   Document Machine Learning Model Card: Before you release or begin production use of your machine learning model, you can use the linked template to comprehensively document the effects, background, and purpose of your model. This will serve as a core document showing how the model makes the decision it does.\n      </p>",
+										label: "<p></p>",
 										url:"https:\/\/unicef.github.io\/inventory\/data\/milestone-roadmap\/"
 									},
 
@@ -299,7 +299,7 @@
 
 									{
 										value: "Common traps to avoid when building AI systems",
-										label: "<p>Assessing common mistakes that lead to unintended side effects. Information summarized from Fairness and Abstraction in Sociotechnical Systems, a paper published at the 2019 ACM Conference on Fairness, Accountability, and Transparency.\n 1. Framing Trap Failure to model the entire system over which a social criterion, such as fairness, will be enforced.\n For this trap, we will want to look at our outcome variables. Are these variables a proxy of the actual outcome you wish to achieve? What evidence of existing negative bias currently exists with regards to these variables?\n   2. Portability Trap Failure to understand how repurposing algorithmic solutions designed for one social context may be misleading, inaccurate, or otherwise do harm when applied to a different context.\n Here, you will want to be fully understanding of the context in which this model is being built for and the context in which you will be using it. There should be clear documentation distributed across the entire team focusing on this. What stakeholders do you expect to have an impact on where this technology will be used. Are they informed?\n   3. Formalism Trap Failure to account for the full meaning of social concepts such as fairness, which can be procedural, contextual, and contestable, and cannot be resolved through mathematical formalisms.\n How does your chosen outcome continue to implement and solve existing procedural \u0026#34;catches\u0026#34; in order to ensure the decision making process is fair? What method of recourse are available for those who are unfairly judged?\n   4. Ripple Effect Trap Failure to understand how the insertion of technology into an existing social system changes the behaviors and embedded values of the pre-existing system.\n How do you think the introduction of this recommendation system will affect your users? What changes in behavior do you intend to change? Can you think of any possible changes in behavior that you don’t intend as a result of your software?\n   5. Solutionism Trap Failure to recognize the possibility that the best solution to a problem may not involve technology.\n Will this technology elevate social values which can be quantified? Will it devalue those which cannot? What values might take a back seat if this technology is implemented?\n   6. Attributions Thanks to the publishers of the original paper:\n   Andrew D. Selbst (UCLA School of Law)\n  Danah Boyd (Data \u0026amp; Society Research Institute; Microsoft Research)\n  Sorelle Friedler (Haverford College)\n  Suresh Venkatasubramanian (University of Utah)\n  Janet Vertesi (Princeton University)\n     </p>",
+										label: "<p></p>",
 										url:"https:\/\/unicef.github.io\/inventory\/data\/traps\/"
 									},
 
@@ -328,15 +328,15 @@
 									},
 
 									{
-										value: "data",
+										value: "Data",
 										label: "<p></p>",
-										url:"https:\/\/unicef.github.io\/inventory\/categories\/data\/"
+										url:"https:\/\/unicef.github.io\/inventory\/data\/"
 									},
 
 									{
-										value: "Data Ethics \u0026 Transparency",
+										value: "data",
 										label: "<p></p>",
-										url:"https:\/\/unicef.github.io\/inventory\/data\/"
+										url:"https:\/\/unicef.github.io\/inventory\/categories\/data\/"
 									},
 
 									{
@@ -497,7 +497,7 @@
 
 									{
 										value: "Machine Learning Model Card",
-										label: "<p>The following is an editable version of the model card proposed in arxiv.org\/abs\/1810.03993.\n 1. Model details Basic information about the model.\n   Person or organization developing model\n  Date of last update\n  Model version\n  Model type (information about training algorithms, parameters, fairness constraints or other applied approaches, and features)\n  Paper or other resource for more information\n  Citation details\n  License\n  Maintainer contact details\n     2. Intended use Use cases that were envisioned during development.\n   Primary intended uses\n  Primary intended users\n  Out-of-scope use cases\n     3. Factors Factors could include demographic or phenotypic groups, environmental conditions, technical attributes, or others.\n   Relevant factors\n  Evaluation factors\n     4. Metrics Metrics should be chosen to reflect potential real-world impacts of the model.\n   Model performance measures\n  Decision thresholds\n  Variation approaches\n     5. Evaluation data Details on the dataset(s) used for the quantitative analyses in the card.\n   Datasets\n  Motivation\n  Preprocessing\n     6. Training data May not be possible to provide in practice. When possible, this section should mirror Evaluation Data. If such detail is not possible, minimal allowable information should be provided here, such as details of the distribution over various factors in the training datasets.\n   7. Quantitative analyses Quantitative analyses should be broken down by the chosen factors.\n   Unitary results\n  Intersectional results\n     8. Ethical considerations In this section, you should explore and document the following:\n   Sensitive Data: Does the model use any sensitive data (e.g. protected classes)?\n  Human life: Is the model intended to inform decisions about matters central to human life or flourishing – e.g., health or safety? Or could it be used in such a way?\n  Mitigations: What risk mitigation strategies were used during model development?\n  Risks and harms: What risks may be present in model usage? Try to identify the potential recipients, likelihood, and magnitude of harms. If these cannot be determined, note that they were considered but remain unknown.\n  Use cases: Are there any known model use cases that are especially fraught?\n     9. Caveats and recommendations This section should list additional concerns that were not covered in the previous sections.\n To be written.\n   </p>",
+										label: "<p></p>",
 										url:"https:\/\/unicef.github.io\/inventory\/data\/model-card\/"
 									},
 
@@ -599,7 +599,7 @@
 
 									{
 										value: "Policy guidance on AI for children (via unicef.org)",
-										label: "<p>As part of our AI for children project, UNICEF has developed this policy guidance to promote children’s rights in government and private sector AI policies and practices, and to raise awareness of how AI systems can uphold or undermine these rights. The policy guidance explores AI systems, and considers the ways in which they impact children.\n 1. Read in full: unicef.org\/globalinsight\/reports\/policy-guidance-ai-children Drawing on the Convention on the Rights of the Child, the guidance offers nine requirements for child-centered AI:\n  Support children’s development and well-being\n  Ensure inclusion of and for children\n  Prioritize fairness and non-discrimination for children\n  Protect children’s data and privacy\n  Ensure safety for children\n  Provide transparency, explainability, and accountability for children\n  Empower governments and businesses with knowledge of AI and children’s rights\n  Prepare children for present and future developments in AI\n  Create an enabling environment\n   To support implementation of the guidance, a list of online resources and a set of practical implementation tools are provided, including:\n  Roadmap for policymakers\n  AI for children development canvas\n  AI guide for parents\n  AI guide for teens\n   To see how the guidance has been applied in practice, read about the eight case studies.\n Read more on unicef.org.\n   </p>",
+										label: "<p></p>",
 										url:"https:\/\/unicef.github.io\/inventory\/data\/policy-guidance-children\/"
 									},
 
@@ -768,13 +768,6 @@
 							<i class="ti-comments-smiley icon text-primary d-block mb-4"></i>
 							<h3 class="mb-3 mt-0">Communities</h3>
 							<p class="mb-0">Real communities of practice for you to meet and explore.</p>
-						</a>
-					</div>
-					<div class="col-lg-4 col-sm-6 mb-4">
-						<a href="https://unicef.github.io/inventory/data/" class="px-4 py-5 bg-white shadow text-center d-block match-height cardLink">
-							<i class="ti-eye icon text-primary d-block mb-4"></i>
-							<h3 class="mb-3 mt-0">Data Ethics &amp; Transparency</h3>
-							<p class="mb-0">Develop a more ethical, transparent, and safe AI system with these resources.</p>
 						</a>
 					</div>
 					<div class="col-lg-4 col-sm-6 mb-4">

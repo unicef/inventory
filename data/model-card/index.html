@@ -71,7 +71,7 @@
 		<meta property="og:description" content="Model cards help you document how your model was made. Use this overview to make your own model cards." />
 		<meta property="og:type" content="article" />
 		<meta property="og:url" content="https://unicef.github.io/inventory/data/model-card/" /><meta property="article:section" content="data" />
-		<meta property="article:modified_time" content="2021-12-03T13:35:25+01:00" />
+		<meta property="article:modified_time" content="2022-06-21T21:33:34-04:00" />
 		<meta name="twitter:card" content="summary"/>
 		<meta name="twitter:title" content="Machine Learning Model Card"/>
 		<meta name="twitter:description" content="Model cards help you document how your model was made. Use this overview to make your own model cards."/>
@@ -154,385 +154,61 @@
 			</nav>
 		</header>
 		<!-- /header -->
-		<script>
-			remSpace()
-		</script>
-		<script>
-			function remSpace() {
-			  document.getElementById("section").style.paddingTop = "3rem";
-			}
-		</script>
-		<!-- details page -->
-		<section class="single section-sm main-section" id="section">
+		<!-- redirect -->
+		<meta http-equiv="refresh" content="5; url='https://unicef.github.io/ooi-toolkit-ds/privacy-ethics/model-card/'"/>
+		<section class="section">
+			<div class="container text-center">
+				<h2 class="section-title text-dark">This page has moved</h2>
+				<p>This page has moved. You will be redirected in five seconds. Please update any bookmarks. If you are not redirected, please follow the link below.</p>
+				<h4><a href="https://unicef.github.io/ooi-toolkit-ds/privacy-ethics/model-card/">https://unicef.github.io/ooi-toolkit-ds/privacy-ethics/model-card/</a></h4>
+			</div>
+		</section>
+		<!-- /redirect -->
+		<!-- footer -->
+		<footer class="section bg-primary p-4 mt-5">
 			<div class="container">
-				<div class="row">
-					<div class="col-lg-3">
-						<div class="sidebar">
-							<a class="back-btn" href="/inventory" aria-label="back"></a>
-							<ul>
-								<li data-nav-id="https://unicef.github.io/inventory/data/" title="Data Ethics &amp; Transparency" class="sidelist
-  ">
-									<a href="https://unicef.github.io/inventory/data/" class="font-weight-bold">
-										Data Ethics &amp; Transparency
-									</a>
-									<div class="accordion" id="accordionExample">
-										<ul>
-											<li data-nav-id="https://unicef.github.io/inventory/data/milestone-roadmap/" title="AI Ethics &amp; Transparency Roadmap - Template" class="sidelist
-  ">
-												<div class="container">
-													<div class="row">
-														<div class="col-10">
-															<a href="https://unicef.github.io/inventory/data/milestone-roadmap/" class="">
-																AI Ethics &amp; Transparency Roadmap - Template
-															</a>
-														</div>
-													</div>
-												</li>
-												<li data-nav-id="https://unicef.github.io/inventory/data/traps/" title="Common traps to avoid when building AI systems" class="sidelist
-  ">
-													<div class="container">
-														<div class="row">
-															<div class="col-10">
-																<a href="https://unicef.github.io/inventory/data/traps/" class="">
-																	Common traps to avoid when building AI systems
-																</a>
-															</div>
-														</div>
-													</li>
-													<li data-nav-id="https://unicef.github.io/inventory/data/model-card/" title="Machine Learning Model Card" class="sidelist
-  active">
-														<div class="container">
-															<div class="row">
-																<div class="col-10">
-																	<a href="https://unicef.github.io/inventory/data/model-card/" class="">
-																		Machine Learning Model Card
-																	</a>
-																</div>
-															</div>
-														</li>
-														<li data-nav-id="https://unicef.github.io/inventory/data/policy-guidance-children/" title="Policy guidance on AI for children (via unicef.org)" class="sidelist
-  ">
-															<div class="container">
-																<div class="row">
-																	<div class="col-10">
-																		<a href="https://unicef.github.io/inventory/data/policy-guidance-children/" class="">
-																			Policy guidance on AI for children (via unicef.org)
-																		</a>
-																	</div>
-																</div>
-															</li>
-														</ul>
-													</div>
-												</li>
-												<div>
-													<button class="btn btn-primary btn-block" id="generatePDF">Get Pdf</button>
-												</div>
-											</ul>
-										</div>
-									</div>
-									<div class="col-lg-9">
-										<div class="bg-white p-3" style="margin:auto">
-											<script language="JavaScript">
-												String.prototype.capitalizeFirstLetter = function() {
-												   return this.charAt(0).toUpperCase() + this.slice(1);
-												}
-
-												var path = "<a style='margin-left:2%' href='https:\/\/unicef.github.io\/inventory\/'>Home</a>";
-												var href = document.location.href;
-												var s = href.split("/");
-												for (var i=3;i<(s.length-2);i++) {
-												   path+=" &gt;  <a href=\""+href.substring(0,href.indexOf("/"+s[i])+s[i].length+1)+"/\">"+s[i].capitalizeFirstLetter()+"</a> ";
-												}
-												i=s.length-1;
-												path+="<a href=\""+href.substring(0,href.indexOf(s[i])+s[i].length)+"\">"+s[i]+"</a>";
-												path+="  &gt;  <b>Machine Learning Model Card</b>";
-												document.writeln(path);
-											</script>
-										</div>
-										<div class="p-lg-5 p-4 bg-white position-relative" id="content">
-											<div class="d-flex flex-row-reverse">
-												<button id="editBtn" value="https://github.com/unicef/inventory/blob/main/content/data/model-card.en.adoc" class="editBtn py-2 px-3">Edit this Page</button>
-											</div>
-											<div class="p-lg-5 p-3 bg-white">
-												<h2 id="title">Machine Learning Model Card</h2>
-												<div class="content mt-5">
-													<div class="paragraph">
-														<p><em>The following is an editable version of the model card proposed in <a href="https://arxiv.org/abs/1810.03993">arxiv.org/abs/1810.03993</a>.</em></p>
-													</div>
-													<div class="sect1">
-														<h2 id="_model_details">1. Model details&nbsp;<a class="hanchor" href="#_model_details">🔗</a> </h2>
-														<div class="sectionbody">
-															<div class="paragraph">
-																<p>Basic information about the model.</p>
-															</div>
-															<div class="ulist">
-																<ul>
-																	<li>
-																		<p>Person or organization developing model</p>
-																	</li>
-																	<li>
-																		<p>Date of last update</p>
-																	</li>
-																	<li>
-																		<p>Model version</p>
-																	</li>
-																	<li>
-																		<p>Model type
-																			(information about training algorithms, parameters, fairness constraints or other applied approaches, and features)</p>
-																	</li>
-																	<li>
-																		<p>Paper or other resource for more information</p>
-																	</li>
-																	<li>
-																		<p>Citation details</p>
-																	</li>
-																	<li>
-																		<p>License</p>
-																	</li>
-																	<li>
-																		<p>Maintainer contact details</p>
-																	</li>
-																</ul>
-															</div>
-														</div>
-													</div>
-													<div class="sect1">
-														<h2 id="_intended_use">2. Intended use&nbsp;<a class="hanchor" href="#_intended_use">🔗</a> </h2>
-														<div class="sectionbody">
-															<div class="paragraph">
-																<p>Use cases that were envisioned during development.</p>
-															</div>
-															<div class="ulist">
-																<ul>
-																	<li>
-																		<p>Primary intended uses</p>
-																	</li>
-																	<li>
-																		<p>Primary intended users</p>
-																	</li>
-																	<li>
-																		<p>Out-of-scope use cases</p>
-																	</li>
-																</ul>
-															</div>
-														</div>
-													</div>
-													<div class="sect1">
-														<h2 id="_factors">3. Factors&nbsp;<a class="hanchor" href="#_factors">🔗</a> </h2>
-														<div class="sectionbody">
-															<div class="paragraph">
-																<p>Factors could include demographic or phenotypic groups, environmental conditions, technical attributes, or others.</p>
-															</div>
-															<div class="ulist">
-																<ul>
-																	<li>
-																		<p>Relevant factors</p>
-																	</li>
-																	<li>
-																		<p>Evaluation factors</p>
-																	</li>
-																</ul>
-															</div>
-														</div>
-													</div>
-													<div class="sect1">
-														<h2 id="_metrics">4. Metrics&nbsp;<a class="hanchor" href="#_metrics">🔗</a> </h2>
-														<div class="sectionbody">
-															<div class="paragraph">
-																<p>Metrics should be chosen to reflect potential real-world impacts of the model.</p>
-															</div>
-															<div class="ulist">
-																<ul>
-																	<li>
-																		<p>Model performance measures</p>
-																	</li>
-																	<li>
-																		<p>Decision thresholds</p>
-																	</li>
-																	<li>
-																		<p>Variation approaches</p>
-																	</li>
-																</ul>
-															</div>
-														</div>
-													</div>
-													<div class="sect1">
-														<h2 id="_evaluation_data">5. Evaluation data&nbsp;<a class="hanchor" href="#_evaluation_data">🔗</a> </h2>
-														<div class="sectionbody">
-															<div class="paragraph">
-																<p>Details on the dataset(s) used for the quantitative analyses in the card.</p>
-															</div>
-															<div class="ulist">
-																<ul>
-																	<li>
-																		<p>Datasets</p>
-																	</li>
-																	<li>
-																		<p>Motivation</p>
-																	</li>
-																	<li>
-																		<p>Preprocessing</p>
-																	</li>
-																</ul>
-															</div>
-														</div>
-													</div>
-													<div class="sect1">
-														<h2 id="_training_data">6. Training data&nbsp;<a class="hanchor" href="#_training_data">🔗</a> </h2>
-														<div class="sectionbody">
-															<div class="paragraph">
-																<p>May not be possible to provide in practice.
-																	When possible, this section should mirror Evaluation Data.
-																	If such detail is not possible, minimal allowable information should be provided here, such as details of the distribution over various factors in the training datasets.</p>
-															</div>
-														</div>
-													</div>
-													<div class="sect1">
-														<h2 id="_quantitative_analyses">7. Quantitative analyses&nbsp;<a class="hanchor" href="#_quantitative_analyses">🔗</a> </h2>
-														<div class="sectionbody">
-															<div class="paragraph">
-																<p>Quantitative analyses should be broken down by the chosen factors.</p>
-															</div>
-															<div class="ulist">
-																<ul>
-																	<li>
-																		<p>Unitary results</p>
-																	</li>
-																	<li>
-																		<p>Intersectional results</p>
-																	</li>
-																</ul>
-															</div>
-														</div>
-													</div>
-													<div class="sect1">
-														<h2 id="_ethical_considerations">8. Ethical considerations&nbsp;<a class="hanchor" href="#_ethical_considerations">🔗</a> </h2>
-														<div class="sectionbody">
-															<div class="paragraph">
-																<p>In this section, you should explore and document the following:</p>
-															</div>
-															<div class="ulist">
-																<ul>
-																	<li>
-																		<p><strong>Sensitive Data</strong>:
-																			Does the model use any sensitive data (e.g. protected classes)?</p>
-																	</li>
-																	<li>
-																		<p><strong>Human life</strong>:
-																			Is the model intended to inform decisions about matters central to human life or flourishing – e.g., health or safety? Or could it be used in such a way?</p>
-																	</li>
-																	<li>
-																		<p><strong>Mitigations</strong>:
-																			What risk mitigation strategies were used during model development?</p>
-																	</li>
-																	<li>
-																		<p><strong>Risks and harms</strong>:
-																			What risks may be present in model usage?
-																			Try to identify the potential recipients, likelihood, and magnitude of harms.
-																			If these cannot be determined, note that they were considered but remain unknown.</p>
-																	</li>
-																	<li>
-																		<p><strong>Use cases</strong>:
-																			Are there any known model use cases that are especially fraught?</p>
-																	</li>
-																</ul>
-															</div>
-														</div>
-													</div>
-													<div class="sect1">
-														<h2 id="_caveats_and_recommendations">9. Caveats and recommendations&nbsp;<a class="hanchor" href="#_caveats_and_recommendations">🔗</a> </h2>
-														<div class="sectionbody">
-															<div class="paragraph">
-																<p>This section should list additional concerns that were not covered in the previous sections.</p>
-															</div>
-															<div class="paragraph">
-																<p>To be written.</p>
-															</div>
-														</div>
-													</div>
-												</div>
-												<p class="post-meta border-bottom pb-3 mb-0 mt-3">Updated on 03 Dec 2021</p>
-												<nav class="pagination mt-3">
-													<a class="nav nav-prev" href="https://unicef.github.io/inventory/data/traps/" aria-label="Previous page" ><i class="ti-arrow-left mr-2"></i> <span class="d-none d-md-block">Common traps to avoid when building AI systems</span></a>
-													<a class="nav nav-next" href="https://unicef.github.io/inventory/data/policy-guidance-children/" aria-label="Previous page" > <span class="d-none d-md-block">Policy guidance on AI for children (via unicef.org)</span><i class="ti-arrow-right ml-2"></i></a>
-												</nav>
-												<section class="my-3 py-3" id="related-articles">
-													<h5 class="text-center">Related Articles</h5>
-													<div class="row">
-														<div class="col-sm-4 my-2">
-															<a href="https://unicef.github.io/inventory/data/milestone-roadmap/">
-																<div class="card text-center">
-																	<div class="card-body">
-																		<h5 class="card-title">AI Ethics &amp; Transparency Roadmap - Template</h5>
-																		<p class="card-subtitle mb-2 text-muted">How do you document your machine learning development process? This guide shares transparency best practices.</p>
-																	</div>
-																</div>
-															</a>
-														</div>
-														<div class="col-sm-4 my-2">
-															<a href="https://unicef.github.io/inventory/data/policy-guidance-children/">
-																<div class="card text-center">
-																	<div class="card-body">
-																		<h5 class="card-title">Policy guidance on AI for children (via unicef.org)</h5>
-																		<p class="card-subtitle mb-2 text-muted">Recommendations for building AI policies and systems that uphold child rights. Part of UNICEF AI for children project.</p>
-																	</div>
-																</div>
-															</a>
-														</div>
-													</div>
-												</section>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</section>
-						<!-- /details page -->
-						<!-- footer -->
-						<footer class="section bg-primary p-4 mt-5">
-							<div class="container">
-								<div class="row align-items-center">
-									<div class="col-md-3 text-md-left text-center">
-										<ul>
-											<li><a class="nav-link text-white" href="/inventory">HOME</a></li>
-											<li class="nav-item">
-												<a class="nav-link text-white text-uppercase" href="https://unicef.github.io/inventory/faq">FAQ</a>
-											</li>
-											<li class="nav-item">
-												<a class="nav-link text-white text-uppercase" href="https://unicef.github.io/inventory/toolkits">toolkits</a>
-											</li>
-											<li class="nav-item">
-												<a class="nav-link text-white text-uppercase" href="https://unicef.github.io/inventory/cohorts">cohorts</a>
-											</li>
-										</ul>
-									</div>
-									<div class="col-md-6 text-md-center text-center">
-										<p class="mb-md-0 mb-4 text-white">The UNICEF Open Source Inventory is a knowledge-base of best practices, resources, and information about working and leading Open. This is maintained as part of the Open Source Mentorship programme offered by the UNICEF Venture Fund. The Inventory provides mentorship and guidance to anyone seeking to adopt best practices in their journey to building an Open Source project and community. It is self-serve, and can be used at various phases of building a project and community.</p>
-									</div>
-									<div class="col-md-3 text-md-right text-center">
-										<ul class="text-white">
-											<li class="nav-item">
-												<a class="nav-link text-white font-weight-bold" href="https://www.unicef.org/">UNICEF Global</a>
-											</li>
-											<li class="nav-item">
-												<a class="nav-link text-white font-weight-bold" href="https://www.unicefinnovationfund.org/">UNICEF Venture Fund</a>
-											</li>
-											<li class="nav-item">
-												<a class="nav-link text-white font-weight-bold" href="https://www.unicef.org/legal">Legal</a>
-												<p class="h6 text-md-right font-weight-light">Find legal information and policies related to UNICEF Global&#39;s digital communications.</p>
-											</li>
-										</ul>
-										<ul class="list-inline">
-											<li class="list-inline-item"><a class="text-color d-inline-block p-2 text-white" href="https://github.com/unicef/inventory" aria-label="UNICEF Open Source Inventory on GitHub"><i class="ti-github"></i></a></li>
-											<li class="list-inline-item"><a class="text-color d-inline-block p-2 text-white" href="https://twitter.com/UNICEFinnovate" aria-label="@UNICEFinnovate on Twitter"><i class="ti-twitter"></i></a></li>
-										</ul>
-									</div>
-								</div>
-							</div>
-							<p class="text-md-center text-center text-white mt-3 h6 font-italic">Creative Commons BY-SA 4.0. Site theme maintained by UNICEF. Original theme, Dot, created by ThemeFisher.</p>
-						</footer>
-						<!-- /footer -->
-						<!-- Main Script -->
-						<script src="https://unicef.github.io/inventory/js/script.min.js"></script>
-					</body>
-				</html>
+				<div class="row align-items-center">
+					<div class="col-md-3 text-md-left text-center">
+						<ul>
+							<li><a class="nav-link text-white" href="/inventory">HOME</a></li>
+							<li class="nav-item">
+								<a class="nav-link text-white text-uppercase" href="https://unicef.github.io/inventory/faq">FAQ</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link text-white text-uppercase" href="https://unicef.github.io/inventory/toolkits">toolkits</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link text-white text-uppercase" href="https://unicef.github.io/inventory/cohorts">cohorts</a>
+							</li>
+						</ul>
+					</div>
+					<div class="col-md-6 text-md-center text-center">
+						<p class="mb-md-0 mb-4 text-white">The UNICEF Open Source Inventory is a knowledge-base of best practices, resources, and information about working and leading Open. This is maintained as part of the Open Source Mentorship programme offered by the UNICEF Venture Fund. The Inventory provides mentorship and guidance to anyone seeking to adopt best practices in their journey to building an Open Source project and community. It is self-serve, and can be used at various phases of building a project and community.</p>
+					</div>
+					<div class="col-md-3 text-md-right text-center">
+						<ul class="text-white">
+							<li class="nav-item">
+								<a class="nav-link text-white font-weight-bold" href="https://www.unicef.org/">UNICEF Global</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link text-white font-weight-bold" href="https://www.unicefinnovationfund.org/">UNICEF Venture Fund</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link text-white font-weight-bold" href="https://www.unicef.org/legal">Legal</a>
+								<p class="h6 text-md-right font-weight-light">Find legal information and policies related to UNICEF Global&#39;s digital communications.</p>
+							</li>
+						</ul>
+						<ul class="list-inline">
+							<li class="list-inline-item"><a class="text-color d-inline-block p-2 text-white" href="https://github.com/unicef/inventory" aria-label="UNICEF Open Source Inventory on GitHub"><i class="ti-github"></i></a></li>
+							<li class="list-inline-item"><a class="text-color d-inline-block p-2 text-white" href="https://twitter.com/UNICEFinnovate" aria-label="@UNICEFinnovate on Twitter"><i class="ti-twitter"></i></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<p class="text-md-center text-center text-white mt-3 h6 font-italic">Creative Commons BY-SA 4.0. Site theme maintained by UNICEF. Original theme, Dot, created by ThemeFisher.</p>
+		</footer>
+		<!-- /footer -->
+		<!-- Main Script -->
+		<script src="https://unicef.github.io/inventory/js/script.min.js"></script>
+	</body>
+</html>
