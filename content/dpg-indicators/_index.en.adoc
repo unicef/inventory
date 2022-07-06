@@ -1,0 +1,9 @@
+---
+title: "DPG Indicators"
+icon: "vr-cardboard"
+description: "Detailed information and guidance on the indicators of the DPG Standard and how to achieve them in an open source work."
+type: dpg-standard
+
+---
+
+

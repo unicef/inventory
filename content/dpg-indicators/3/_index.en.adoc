@@ -1,0 +1,7 @@
+---
+title: "3. Clear Ownership"
+icon: "ti-ink-pen"
+description: "Ownership of assets that the digital public good produces must be clearly defined and documented. For example, through copyright, trademark or other publicly available information"
+type: "indicator"
+
+---

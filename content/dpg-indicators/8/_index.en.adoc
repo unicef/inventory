@@ -1,0 +1,9 @@
+---
+title: "8. Adherence to Standards & Best Practices"
+icon: "ti-ink-pen"
+description: "Digital public goods must be designed and developed to align with relevant standards, best practices, and/or principles. For example, the Principles for Digital Development."
+type: "indicator"
+
+---
+
+

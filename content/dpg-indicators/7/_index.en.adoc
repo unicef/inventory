@@ -1,0 +1,7 @@
+---
+title: "7. Adherence to Privacy and Applicable Laws"
+icon: "ti-ink-pen"
+description: "Digital public goods must be designed and developed to comply with applicable privacy laws."
+type: "indicator"
+
+---

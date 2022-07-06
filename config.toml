@@ -1,5 +1,5 @@
 ############################# Base configuration #############################
-baseURL = "https://unicef.github.io/inventory/"
+baseURL = "https://unicef.github.io/inventory-staging/"
 title = "UNICEF O.S. Inventory"
 theme = "inventory"
 enableEmoji = true
@@ -17,13 +17,15 @@ googleAnalytics = "G-80FMX4TPM0"
 
 
 ############################# Navigation #############################
+
+################## Toolkits ###################
 [[menu.main]]
 weight = 10
 name = "toolkits"
 url = "toolkits"
 hasChildren = true
 
-    [[menu.main]]
+  [[menu.main]]
     parent = "toolkits"
     name = "Data Science & A.I."
     url = "https://unicef.github.io/ooi-toolkit-ds/"
@@ -41,84 +43,68 @@ hasChildren = true
     url = "https://unicef.github.io/ooi-toolkit-software/"
     weight = 30
 
+################## DPG Indicators ###################
 [[menu.main]]
 weight = 20
-name = "pages"
-url = "pages"
+name = "DPG indicators"
+url = "DPG indicators"
 hasChildren = true
 
-    [[menu.main]]
-    parent = "pages"
-    name = "Communities"
-    url = "communities"
-    weight = 10
-
   	[[menu.main]]
-  	parent = "pages"
-  	name = "Data Ethics & Transparency"
-  	url = "data"
-  	weight = 20
+  	parent = "DPG indicators"
+  	name = "1. Sustainable Development Goals"
+  	url = "dpg-indicators/1/"
+  	weight = 10
 
     [[menu.main]]
-    parent = "pages"
-    name = "Developer Tools & Automation"
-    url = "dev-tools"
+    parent = "DPG indicators"
+    name = "2. Use of Approved Open Licenses"
+    url = "dpg-indicators/2/"
+    weight = 20
+
+    [[menu.main]]
+    parent = "DPG indicators"
+    name = "3. Clear Ownership"
+    url = "dpg-indicators/3/"
+    weight = 30
+
+    [[menu.main]]
+    parent = "DPG indicators"
+    name = "4. Platform Independence"
+    url = "dpg-indicators/4/"
     weight = 40
 
     [[menu.main]]
-    parent = "pages"
-    name = "Documentation"
-    url = "documentation"
+    parent = "DPG indicators"
+    name = "5. Documentation"
+    url = "dpg-indicators/5/"
     weight = 50
 
     [[menu.main]]
-    parent = "pages"
-    name = "Governance"
-    url = "governance"
+    parent = "DPG indicators"
+    name = "6. Data extraction"
+    url = "dpg-indicators/6/"
     weight = 60
 
     [[menu.main]]
-    parent = "pages"
-    name = "Legal & Policy"
-    url = "legal-policy"
+    parent = "DPG indicators"
+    name = "7. Adherence to Privacy and Applicable Laws"
+    url = "dpg-indicators/7/"
     weight = 70
 
     [[menu.main]]
-    parent = "pages"
-    name = "Meta"
-    url = "meta"
+    parent = "DPG indicators"
+    name = "8. Adherence to Standards and Best Practices"
+    url = "dpg-indicators/8/"
     weight = 80
 
     [[menu.main]]
-    parent = "pages"
-    name = "Missions"
-    url = "missions"
+    parent = "DPG indicators"
+    name = "9. Do No Harm by Design"
+    url = "dpg-indicators/9/"
     weight = 90
 
-    [[menu.main]]
-    parent = "pages"
-    name = "Open Hardware"
-    url = "hardware"
-    weight = 100
-
-    [[menu.main]]
-    parent = "pages"
-    name = "Project Management"
-    url = "project-management"
-    weight = 110
-
-    [[menu.main]]
-    parent = "pages"
-    name = "Reproducibility"
-    url = "reproducibility"
-    weight = 120
-
-    [[menu.main]]
-    parent = "pages"
-    name = "Sustainability"
-    url = "sustainability"
-    weight = 130
-
+################## Cohorts ###################
 [[menu.main]]
 weight = 30
 name = "cohorts"
@@ -139,15 +125,15 @@ hasChildren = true
 
   [[menu.main]]
     parent = "cohorts"
-    name = "Drones"
-    url = "cohorts/drones"
-    weight = 40
-
-  [[menu.main]]
-    parent = "cohorts"
     name = "Data Science & AI"
     url = "cohorts/ds-ai"
     weight = 30
+
+  [[menu.main]]
+    parent = "cohorts"
+    name = "Drones"
+    url = "cohorts/drones"
+    weight = 40
 
   [[menu.main]]
     parent = "cohorts"

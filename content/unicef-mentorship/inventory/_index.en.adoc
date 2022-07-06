@@ -1,0 +1,10 @@
+---
+title: "Open Source Inventory maintenance"
+description: "Documentation and reference material about this website, the Open Source Inventory."
+draft: "true"
+
+---
+
+This sub-section includes documentation about managing and maintaining the Open Source Inventory, i.e. this website.
+You can find content specific to maintaining the site from software and content points-of-view.
+Use the sidebar to navigate to different topics.

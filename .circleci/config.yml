@@ -47,24 +47,24 @@ jobs:
       - image: cibuilds/base:latest
     working_directory: ~/hugo
     environment:
-      HUGO_BUILD_DIR: ~/hugo/inventory/public
+      HUGO_BUILD_DIR: ~/hugo/inventory-staging/public
     steps:
       # add repository deploy key (for pull/push access)
       - add_ssh_keys:
           fingerprints:
-            - "21:74:62:c8:10:59:77:7c:9d:96:cf:c8:69:84:1f:bb"
+            - "SHA256:iKLxm6RI1P7iuuug4dL2bxuVDaLQXkYFdlxOCChFwjk"
 
       # deploy.sh dependencies
       - run: apk add rsync
 
       # clone repo (required to access `.circleci/deploy.sh`)
-      - run: git clone --depth=1 https://github.com/unicef/inventory.git
+      - run: git clone --depth=1 https://github.com/unicef/inventory-staging.git
 
       # checkout generated html
       - attach_workspace:
-          at: inventory
+          at: inventory-staging
 
       # deploy to production
       - deploy:
           name: Deploy to GitHub Pages
-          command: ./inventory/.circleci/deploy.sh
+          command: ./inventory-staging/.circleci/deploy.sh

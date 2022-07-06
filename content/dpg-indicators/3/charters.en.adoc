@@ -1,0 +1,256 @@
+---
+title: "Charters"
+description: Embark on a mission to create a project charter for your Open Source work.
+tags: ["decision-making", documentation", "governance"]
+categories: "missions"
+downloadBtn: "true"
+aliases:
+    - /missions/charters/
+
+# search related keywords
+keywords: ["charter", "governance", "project charter"]
+
+---
+:author: Justin W. Flory
+:toc:
+
+This Mission is a guide to *project charters*.
+A project charter is important in an Open Source context because it acts as an anchor across the project's lifetime and provides a framework for making decisions and prioritizing future development work.
+This Mission unpacks what goes into creating good project charters and why it is important.
+
+
+[[checklist]]
+== Launch checklist
+
+_What do you need to be successful to "launch" your project charter?_
+
+Project charters are the backbone of an Open Source project.
+They shine a light on things that are often kept in a mysterious black box, especially with regard to how decisions are made and paths to leadership.
+A project charter also ensures that the community has a shared understanding and a single source of truth.
+When implemented justly in a fair community, they serve as guide-rails for the project over its lifetime.
+In order to implement a successful project charter, the design process should include key members from the beginning.
+
+[[checklist-who]]
+=== Who?
+
+This list is not fixed or rigid.
+Every organization may look different.
+Use your own creativity to decide if the description matches another role in your organization, or whether there is a team equipped to support the work described in the list below.
+
+* *Executive*:
+  Typically involves the Chief Technology Officer or equivalent in a traditional hierarchical organization.
+  In other organizations, this may be a product owner or someone with the ability to schedule or change the resources allocated to the work.
+* *Engineering*:
+  Developers and engineers on the internal project team.
+  This should be people who are committing to the project code base.
+* *Community, design, marketing*:
+  Community managers, designers, and marketing folks.
+  They should have a direct allocation in their work contracts to support the Open Source work.
+* *External partners*:
+  Anyone who is a major external stakeholder who impacts decision-making and scheduling of resources to the Open Source work.
+  This person or group will need to be consulted with to create a charter that reflects all key decision-makers.
+
+[[checklist-what]]
+=== What?
+
+* *Agreed understanding of division of labor*:
+  A project charter is an external view of a workflow compatible with an internal view of your organization hierarchy.
+  When you arrive at drafting a project charter, there should be a common understanding of who participates internally with the project.
+  Details like staffing, human resources, resource allocation, and internal process alignment are important but do not belong in a project charter.
+  These details are good to document in an internal Open Source policy for the company or organization.
+* *Ability to schedule resources*:
+  Project charters are aspirational, and sometimes require a firm commitment of resources by the organization.
+  The aspirations of the charter may require more cross-organizational collaboration.
+  Across the collective group involved in defining a project charter, there should be an ability to open doors into other parts of the organization.
+  In a smaller team, this may also mean hiring new talent to fill needs.
+* *Creativity*:
+  Project charters are your chance to think big.
+  Come into the drafting process with an open mind and willingness to think in the long-term.
+
+
+[[preparing]]
+== Preparing for take-off
+
+_Get ready for launch!_
+_What actions do you need to take before drafting the project charter?_
+
+To implement a project charter successfully, it is best for every key decision-maker to be informed throughout the process.
+This section describes actions to take in advance of writing the first complete draft of a charter.
+
+[[preparing-process]]
+=== Process
+
+* *Give sufficient time to think ahead*:
+  Do not rush a meeting with project members to "pick their brain".
+  Give folks a chance to think ahead of a meeting and give them context about what the meeting will be about.
+  This gives all meeting participants sufficient context before the meeting, to make the best use of time together.
+  In a start-up context, this may be a few days; in a larger team or project, it could be a week or two.
+* *Brainstorm with inclusive methods*:
+  Encourage more input methods in the design process, especially when the project member group is larger.
+  In addition to spoken word in an audio/video meeting, consider asynchronous and non-verbal methods of contribution.
+  This could mean adding notes to a document, leaving comments in a form or at a specific mail address, or something else.
+  However, it is important that any method offered is weighted evenly in the decision-making process.
+
+[[preparing-platform]]
+=== Platform
+
+* *Hosting platform*:
+  Identify public platforms where the project charter could live.
+  This could be a company website, a project website, a git repository, or somewhere else visible in the project community.
+* *Accessible editors*:
+  All key project members should feel empowered to use the chosen tools to propose future changes and revisions, if necessary.
+  This improves equity across role types to encourage a more flat hierarchy.
+
+
+[[launch]]
+== Take-off! Time to launch
+
+_Time for take-off!_
+_What are the ingredients to a successful project charter?_
+
+This section goes deeper to describe key components of what goes into a project charter.
+While the list is not exhaustive, it frames the generic components of a meaningful project charter.
+
+[[launch--vision-mission]]
+=== Vision and mission
+
+*Draft vision and mission statements for the project*.
+
+What is the difference between a vision and mission statement?
+A _vision statement_ is an aspirational statement that describes the ideal that the project reaches for.
+This is usually a futuristic statement that may appeal to emotion.
+A _mission statement_ is a more concrete statement that describes the work required to accomplish the vision statement.
+If the vision is the dream, what is the work that is required to make the vision possible?
+This is the role of the mission statement.
+Atlassian provides https://web.archive.org/web/20210703102327/https://www.atlassian.com/work-management/project-management/mission-and-vision[further reading] on the definitions of each, with examples.
+
+Explore what this might look like for your project.
+The more project members who authentically sign on and agree to the vision and mission statements, the more likely they are to stick.
+
+[[vision-mission--examples]]
+==== Examples
+
+* *Fedora Project community*:
+** https://docs.fedoraproject.org/en-US/project/#_our_vision[Vision statement]:
+   "The Fedora Project envisions a world where everyone benefits from free and open source software built by inclusive, welcoming, and open-minded communities."
+** https://docs.fedoraproject.org/en-US/project/#_our_mission[Mission statement]:
+   "Fedora creates an innovative platform for hardware, clouds, and containers that enables software developers and community members to build tailored solutions for their users."
+* *https://ottaa-project.github.io/[OTTAA] and https://www.cboard.io/about/[Cboard], projects previously supported by the UNICEF Venture Fund*:
+** Vision statement:
+   "Be a global one-stop solution for technological solutions for people with disabilities.
+   With innovation, affordability and empathy as key motivators and guidelines."
+** Mission statement:
+   "Everyday we work to improve people with disabilities lifestyle by returning the voice to all those who have lost it;
+   we are sure that technology can empower people with disabilities."
+* *https://talk2u.co/[Talk2U], a UNICEF Venture Fund company*:
+** Vision statement:
+   "We strive for safer, healthier and happier communities led by emotional intelligent young change makers."
+** Mission statement:
+   "Our purpose is to empower young people to build their socio-emotional skills so they can challenge their belief systems, face obstacles with ease and make change happen for their mental wellbeing, so they start living the lives they want and deserve."
+
+[[launch-community]]
+=== Community statement
+
+*Draft a commitment to the Open Source community*.
+
+A community is one of the most rewarding parts to cultivate around an Open Source work.
+By creating an Open Source work, there is an expectation or assumption to involve others.
+A community statement is an opportunity to define what community means to the project members.
+Often, these statements are written with broad strokes but may focus on a specific set of groups who may be more impacted by the Open Source work.
+
+[[community-examples]]
+==== Examples
+
+* https://docs.fedoraproject.org/en-US/project/#_our_community[*Fedora Project community statement*]:
+  Fedora specifically identifies both full-time employees and community volunteers in their community.
+  Furthermore, they identify key roles that make up the project community:
+  software engineers, designers and artists, system administrators, web designers, writers, speakers, translators, and more.
+* *https://ottaa-project.github.io/[OTTAA] and https://www.cboard.io/about/[Cboard] community statement*:
+  "Our community is a crucible of experiences and capabilities, from software developers, biomedical engineers, speech therapists, families, and people with disabilities.
+  We treat ourselves as equals with respect and empathy."
+* *https://talk2u.co/[Talk2U] community statement*:
+
+[quote, 'https://talk2u.co/[Talk2U] community statement']
+____
+Our project are created by multidisciplinary teams that can contribute with their expert know how as well as user feedback and expertise.
+These are the type of communities that are welcome to participate:
+
+* *Creative community members* can help with content development such as character creations, alternative narratives, specific use cases and dialogues, or even creating the audiovisual assets that enhance the experience.
+* *Tech community members* can help with AI training, QA testing, API integrations for data collection, data analysis and NLP.
+* *Academic community members* can help with foundational research, focus group facilitations, survey creation and analysis, as well as mapping and co-creating strategies to translate into a digital format.
+* *Youth community members* can help by testing the learning experience, recruiting collaborators, providing real life use cases and examples and bringing in their voice to include diversity in our co-creation sessions.
+
+If you feel summoned to contribute in the creation of our chat story interventions aimed to raise awareness on pressing issues for youth and to create the desire to change behaviors and attitudes in young people from 16 to 24 years old we would love to welcome you to join us.
+
+Join our Open Content Community and let’s change the world together, one conversation at a time.
+____
+
+[[launch-licensing]]
+=== Licensing approach
+
+*Know if you are permissive, copyleft, or hybrid*.
+
+Your project charter should make an account of the licensing approach used.
+For more guidance on understanding the different approaches of licensing, see link:++{{< ref "dpg-indicators/2/reading-list" >}}++[Legal & Policy Reading List].
+
+[[launch-coc]]
+=== Code of Conduct
+
+*Adopt a Code of Conduct and schedule human resources accordingly*.
+
+A Code of Conduct is the framework to frame an inclusive, welcoming environment.
+It is also relied on when there is strife in the community.
+It is important to adopt a Code of Conduct aligned to project values.
+Scheduling sufficient resources to its enforcement is also required for a sustainable human process.
+Consider the https://web.archive.org/web/20210815163252/https://arstechnica.com/gadgets/2021/08/the-perl-foundation-is-fragmenting-over-code-of-conduct-enforcement/[Perl Foundation] and its impact in the fragmentation of the Perl programming language community.
+
+For more guidance on adopting a code of conduct, see the link:++{{< relref "codes-of-conduct" >}}++[Codes of Conduct Mission].
+
+[[launch-trademark]]
+=== Trademark identification
+
+*Identify any trademarks or branding in the project charter*.
+
+Trademarks are an important part of building sustainable Open Source works.
+A project charter should account for any official marks associated to the project.
+Generally, a project mark should be visually distinct from the company mark and logo.
+
+More guidance on trademarks will come in a future Mission.
+
+
+[[destination]]
+== Destination: Sustainable governance
+
+Defining a project charter is a unique kind of creative work.
+But why is it important?
+Project charters act as the backbone of the Open Source work.
+They define a set of values up-front for the work.
+It should be clear to maintainers, contributors, and users what the project accomplishes.
+Building consensus and unity around a project charter builds a solid foundation for a project.
+
+While a charter may not seem essential in the earliest phases of a project, it provides a structure for the project to operate within.
+It also makes this structure clear to newcomers in the future, who were not present at the founding of your project.
+Over time, a project charter acts as a map to keep the project focused on living out the community values.
+Similar to how a constitution functions in a nation-state, a project charter provides the founding framework for the long-term future of a project community.
+
+[[destination-revisions]]
+=== Note on revisions
+
+Over time, a project may grow in necessary ways that are beyond the original project charter.
+A method to change or update the charter after its launch is important.
+This shouldn't happen often, but over time governance or other structures may need to change to meet the evolving community landscape.
+For example, the Fedora Project documents its https://docs.fedoraproject.org/en-US/council/#_making_decisions[decision-making process] in its charter.
+
+
+[[references]]
+== References
+
+* https://chaoss.community/about/charter/[*CHAOSS Project charter*]:
+  A more comprehensive charter for a community with several project members and funders.
+  While this level of detail is not required, the CHAOSS charter is a good example of other important provisions in a charter.
+
+
+[[thanks]]
+== Thanks
+
+Special thanks goes to Georg Link, Matt Germonprez, Elizabeth Naramore, and Ben Cotton for their contributions in reviewing this article.

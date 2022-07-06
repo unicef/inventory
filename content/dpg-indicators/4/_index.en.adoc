@@ -1,0 +1,7 @@
+---
+title: "4. Platform Independence"
+icon: "ti-ink-pen"
+description: "When the digital public good has mandatory dependencies that create more restrictions than the original license, proving independence from the closed component(s) and/or indicating the existence of functional, open alternatives that can be used without significant changes to the core product is required."
+type: "indicator"
+
+---

@@ -1,0 +1,7 @@
+---
+title: "6. Mechanism for Extracting Data"
+icon: "ti-ink-pen"
+description: "Digital public goods with non personally identifiable information (PII) design for possibility of extracting or importing non-PII data and content from the system in a non-proprietary format."
+type: "indicator"
+
+---

@@ -1,9 +1,0 @@
----
-title: "Open Source Mentorship"
-description: "Documentation and reference material about the UNICEF Open Source Mentorship programme."
-
----
-
-This sub-section includes documentation about the UNICEF link:++{{< relref "overview" >}}++[Open Source Mentorship programme].
-You can find content specific to logistics and day-to-day management of the programme by UNICEF Office of Innovation mentors.
-Use the sidebar to navigate to different topics.

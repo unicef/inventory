@@ -1,0 +1,147 @@
+---
+title: Open-first business approaches
+description: Information, best practices, and references about sustainable Open-first business approaches.
+tags: ["sustainability"]
+categories: "sustainability"
+aliases:
+    - sustainability/approaches/
+    - /foss/business-sustainability/
+    - /sustainability/business-sustainability/
+downloadBtn: "true"
+
+---
+:author: Justin W. Flory
+:toc:
+
+This page collects information, best practices, and references about sustainable Open-first business approaches.
+
+How do you build a sustainable business approach when you work Open?
+While the Open Source model of working is not completely new, it is a new way of working for many people who have not previously participated in highly collaborative, distributed communities.
+This article considers Open works to include, but not limited to, Open Source Software, Open Data, Open Science, Open Hardware, Open Educational Resources and Creative Commons licensed efforts.
+By the end of this article, you will have a better understanding of common approaches seen in the business world with regards to Open works.
+
+
+[[ask-question]]
+== Asking the right question
+
+Before mapping an approach, first you must decide whether you will *charge for the base product*.
+If you choose the charge for the base product, this adds a significant impact in how you promote and market your product.
+Choosing to charge for a base product is not impossible, but often it pushes against the nature of Open Source.
+
+If you choose to not charge for a base product, it is necessary to diversify the approaches for creating a sustainable business and ecosystem around the base product.
+Not charging for a base product enables you to share a common, useful work in the public and encourage others to collaborate, with less restrictions and considerations for how this impacts your bottom-line.
+To remain sustainable as a business, you need to adapt the business model for the free-as-in-cost base product to incorporate other strategies and approaches.
+
+
+[[seven-approaches]]
+== Seven approaches for building Open works
+
+This section describes seven approaches used by other Open Source works, businesses, and communities.
+
+[[approach--enterprise-version]]
+=== Enterprise or targeted versions
+
+Some Open works have an Open Source "core" version, with additional features and customization available in an enterprise version, targeted for a specific customer segment.
+
+What makes this approach unique?
+
+* *Different features*:
+  Offer key features that enhance the value-add of the product that are attractive for a specific customer segment.
+* *Optimization*:
+  Better tailor and optimize the Open Source base version with performance enhancements, expert configuration, or other ways for the customer to better tap into the value-add of the product.
+* *Flexibility*:
+  Offer additional pathways to customize or integrate the product with other technologies or business needs.
+
+A common example of this is the https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux[Red Hat Enterprise Linux operating system] and its Open Source base, link:++{{< ref "dpg-indicators/8/communities/fedora" >}}++[Fedora Linux].
+
+[[approach--services-around-product]]
+=== Services around your product
+
+Another common approach is to offer services around your product.
+To enhance the value-add of an Open Source product, the company can offer unique services and customization to the Open Source product.
+This is a unique place for the business that develops the Open Source product to be innovative.
+Few others in the market will have as extensive knowledge and background about how the product works as the team behind the product itself.
+
+What makes this approach unique?
+
+* *Consulting*:
+  Provide expert knowledge, guidance, and customer support to end-users, enterprises, or other organizations using the product.
+* *Customization*:
+  Provide unique customization, feature development, and tweaking to meet a specific customer's use case and needs.
+* *Extensions and plug-ins*:
+  Offer services in the form of additional software, like extensions or plug-ins, that provide additional enhancements that increase the value-add of the Open Source product.
+
+[[services-around-product--examples]]
+==== Examples
+
+Two common examples of this are Red Hat itself and the WordPress plug-in system maintained by https://automattic.com/[Automattic].
+
+Red Hat launched their business in 1993.
+At the beginning, their primary product was an operating system, Red Hat Linux (distinctly different from Red Hat's commercial offering today, Red Hat Enterprise Linux).
+In the 1990s and early 2000s, Red Hat used consulting and customer support to enable their customers to be more innovative using their Open Source product.
+While Red Hat has since diversified their business approach since then, this is still a fundamental segment of their business.
+
+Automattic is the company primarily responsible for the development of the https://wordpress.com/[WordPress content management system] (C.M.S.).
+In addition to the Open Source core, Automattic offers several additional services around their product, often but not limited to extensions and plug-ins to enhance the WordPress user experience.
+An example of this is their https://jetpack.com/[Jetpack service], which offers features like automated back-ups and daily security scans.
+Another service they offer is through the https://woocommerce.com/[WooCommerce] ecosystem, which adds point-of-sale support for businesses using WordPress as a virtual store-front.
+
+[[approach--services-are-product]]
+=== Services *are* your product
+
+In this approach, the business sells services with an Open Source product as the service delivery method.
+This approach is most common in the cloud computing space.
+The company develops the entire product as Open Source, and offers a powerful platform to enable customers to use the product with low barriers and easy on-boarding.
+
+A popular example of this is https://www.redhat.com/en/technologies/cloud-computing/openshift[Red Hat OpenShift], a (mostly) reverse-compatible extension to the https://kubernetes.io/[Google Kubernetes] platform.
+
+[[approach--content]]
+=== Content
+
+This approach is adapted for when content is the primary Open Source work offered by the company.
+It is more common to see this approach used in the gaming world.
+Two examples of how this is done is through chapters or levels.
+
+[[approach--packaging]]
+=== Packaging
+
+Packaging that enhances the ease of use and/or reduces barriers of getting started with the product is another approach.
+Examples of packaging in the market today are offering pre-compiled versions of complex software, bundling the Open Source product with other software, or offering integrations with other popular third-party services.
+
+[[approach-franchising]]
+=== Franchising
+
+NOTE: This section is incomplete. You can help complete it. See the https://github.com/unicef/inventory/blob/main/content/sustainability/approaches.en.adoc[source page] on GitHub.
+
+[[approach--training]]
+=== Training
+
+Finally, training and certification for using the Open Source product is another popular approach for sustainable Open Source business models.
+Paid training services are a way for you to improve the sustainability of the product by adding a new revenue stream while also improving customer expertise and knowledge of using the product.
+This approach comes with the added benefit of enhancing the ability of the customer to be an advocate for the product, and to ensure their implementation of the product is done in a way to get the most value out of its use.
+
+What makes this approach unique?
+
+* *Using the tech itself*:
+  Customers receive expert training by the vendor to improve their effectiveness and efficiency in using the Open Source product.
+* *Certifications around the tech*:
+  Enable others to market their skill set with your technology.
+  This is often done by offering examinations that certify the competency of an individual as legitimate with the product.
+
+[[training--red-hat-learning]]
+==== Example: Red Hat Learning Subscription
+
+As mentioned in the previous section, Red Hat is best known for their Red Hat Enterprise Linux operating system, or RHEL.
+In addition to RHEL, Red Hat has several other products for enterprise software development with Open Source products and tools.
+Many times, Red Hat is either the largest or one of the largest contributors to these products and tools.
+However, Red Hat also recognizes the need to validate end-user knowledge of their technologies and to create new relationships with users of their technology.
+In addition to creating a new revenue stream for the business, it also puts them closer to the needs and feedback of their clients or future clients.
+
+*For validation of end-user knowledge*, Red Hat has an extensive portfolio of certifications.
+A selection is shown below:
+
+* https://www.redhat.com/en/services/certifications[Red Hat certification portal]
+  (_all certifications_)
+** https://www.redhat.com/en/services/certification/rhcsa[Red Hat Certified System Administrator]
+** https://www.redhat.com/en/services/certification/rhca[Red Hat Certified Architect]
+** https://www.redhat.com/en/services/certification/red-hat-certified-specialist-in-containers-and-kubernetes[Red Hat Certified Specialist in Containers and Kubernetes]

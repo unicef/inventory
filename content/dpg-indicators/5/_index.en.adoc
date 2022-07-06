@@ -1,0 +1,7 @@
+---
+title: "5. Documentation"
+icon: "ti-ink-pen"
+description: "Digital public goods require documentation of the source code, use cases, and/or functional requirements. For content collections, this should include all relevant/compatible apps, software, or hardware required to access the content collection, and instructions regarding how to use it. For software solutions, this should be technical documentation that would allow a technical person unfamiliar with the project to launch and run the software. For data projects, this should be documentation that describes all the fields in the set, and provides context on how the dataset was collected, and how it should be interpreted."
+type: "indicator"
+
+---
