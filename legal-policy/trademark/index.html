@@ -76,23 +76,26 @@
 		<meta name="twitter:title" content="Trademark strategies"/>
 		<meta name="twitter:description" content="Guidance on developing a strategy for Open Source trademarks and branding."/>
 	</head>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 	<body>
 		<!-- header -->
 		<header class="shadow-bottom sticky-top bg-white">
-			<nav class="navbar navbar-expand-md navbar-dark" style=" background-color: #1CABE2">
-				<div class="container px-2 px-md-0 navigation-bar">
+			<nav class="navbar navbar-expand-md navbar-dark d-flex flex-column p-0" style=" background-color: #1CABE2">
+				<div class="w-100 container mx-0 navigation-bar">
 					<div id="site-brand">
-						<a class="navbar-brand px-2" href="https://www.unicef.org/">
+						<a class="navbar-brand px-2"
+        href="https://www.unicef.org/">
 							<div class="text-center nav-heading">
 								<img class="img-fluid nav-img" src="https://unicef.github.io/inventory/images/unicef-logo.png" alt="UNICEF O.S. Inventory">
 								<a class="d-block nav-title" href="/inventory">UNICEF O.S. Inventory</a>
 							</div>
 						</a>
 					</div>
-					<button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation"
+					<a class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation"
       aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
-						<span class="navbar-toggler-icon"></span>
-					</button>
+						<span class="sidebarIcon navbarMenu">Menu<i class="fa-solid fa-caret-down d-inline p-1"></i>
+						</span>
+					</a>
 					<div class="collapse navbar-collapse text-center" id="navigation">
 						<ul class="navbar-nav ml-auto">
 							<li class="nav-item">
@@ -148,459 +151,529 @@
 							<option id="en" value="https://unicef.github.io/inventory/legal-policy/trademark/" selected>en
 							</option>
 						</select>
+						<p class="text-white unicef-glob ml-4 mt-3">Visit <a href="https://www.unicef.org/" class="text-white">UNICEF Global <i
+        class="fas fa-angle-double-right"></i></a></p>
 					</div>
 				</div>
-				<p class="text-white unicef-glob mx-3">Visit <a href="https://www.unicef.org/" class="text-white">UNICEF Global <i class="fas fa-angle-double-right"></i></a></p>
-			</nav>
-		</header>
-		<!-- /header -->
-		<script>
-			remSpace()
-		</script>
-		<script>
-			function remSpace() {
-			  document.getElementById("section").style.paddingTop = "3rem";
-			}
-		</script>
-		<!-- details page -->
-		<section class="single section-sm main-section" id="section">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-3">
-						<div class="sidebar">
-							<a class="back-btn" href="/inventory" aria-label="back"></a>
-							<ul>
-								<li data-nav-id="https://unicef.github.io/inventory/legal-policy/" title="Legal &amp; Policy" class="sidelist
+				<div class="w-100 py-2 breadcrumbBar text-light" style=" background-color: #374ea2">
+					<div class="container">
+						<div class="breadcrumbs">
+							<a href="https://unicef.github.io/inventory/">Home</a>
+							&gt; <a href="https://unicef.github.io/inventory/legal-policy" class="breadcrumbLink">legal-policy</a>
+							&gt; <a href="https://unicef.github.io/inventory/legal-policy/trademark" class="breadcrumbLink">trademark</a>
+						</div>
+						<a data-toggle="collapse" data-target="#sidebarMobile"  aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation"> <i class="ti-menu text-light sidebarIcon"></i></a>
+						<div class="text-light text-center sidebarMobile collapse justify-content-center" id="sidebarMobile">
+							<div class="sidebarBox">
+								<ul>
+									<li data-nav-id="https://unicef.github.io/inventory/legal-policy/" title="Legal &amp; Policy" class="sidelist
   ">
-									<a href="https://unicef.github.io/inventory/legal-policy/" class="font-weight-bold">
-										Legal &amp; Policy
-									</a>
-									<div class="accordion" id="accordionExample">
-										<ul>
-											<li data-nav-id="https://unicef.github.io/inventory/legal-policy/contributor-license-agreement-cla/" title="Contributor License Agreements (CLAs)" class="sidelist
-  ">
-												<div class="container">
-													<div class="row">
-														<div class="col-10">
-															<a href="https://unicef.github.io/inventory/legal-policy/contributor-license-agreement-cla/" class="">
-																Contributor License Agreements (CLAs)
-															</a>
-														</div>
-													</div>
-												</li>
-												<li data-nav-id="https://unicef.github.io/inventory/legal-policy/gpl-comparison/" title="GPLv2 vs. GPLv3" class="sidelist
+										<a href="/inventory" class="d-inline  back-btn">
+											<i class="ti-back-right"></i>
+										</a>
+										<a href="https://unicef.github.io/inventory/legal-policy/" class="font-weight-bold d-inline">
+											Legal &amp; Policy
+										</a>
+										<div class="accordion" id="accordionExample">
+											<ul>
+												<li data-nav-id="https://unicef.github.io/inventory/legal-policy/contributor-license-agreement-cla/" title="Contributor License Agreements (CLAs)" class="sidelist
   ">
 													<div class="container">
 														<div class="row">
 															<div class="col-10">
-																<a href="https://unicef.github.io/inventory/legal-policy/gpl-comparison/" class="">
-																	GPLv2 vs. GPLv3
+																<a href="https://unicef.github.io/inventory/legal-policy/contributor-license-agreement-cla/" class="">
+																	Contributor License Agreements (CLAs)
 																</a>
 															</div>
 														</div>
 													</li>
-													<li data-nav-id="https://unicef.github.io/inventory/legal-policy/creative-commons/" title="Intro to Creative Commons licenses" class="sidelist
+													<li data-nav-id="https://unicef.github.io/inventory/legal-policy/gpl-comparison/" title="GPLv2 vs. GPLv3" class="sidelist
   ">
 														<div class="container">
 															<div class="row">
 																<div class="col-10">
-																	<a href="https://unicef.github.io/inventory/legal-policy/creative-commons/" class="">
-																		Intro to Creative Commons licenses
+																	<a href="https://unicef.github.io/inventory/legal-policy/gpl-comparison/" class="">
+																		GPLv2 vs. GPLv3
 																	</a>
 																</div>
 															</div>
 														</li>
-														<li data-nav-id="https://unicef.github.io/inventory/legal-policy/reading-list/" title="Reading List: Legal &amp; Business Aspects" class="sidelist
+														<li data-nav-id="https://unicef.github.io/inventory/legal-policy/creative-commons/" title="Intro to Creative Commons licenses" class="sidelist
   ">
 															<div class="container">
 																<div class="row">
 																	<div class="col-10">
-																		<a href="https://unicef.github.io/inventory/legal-policy/reading-list/" class="">
-																			Reading List: Legal &amp; Business Aspects
+																		<a href="https://unicef.github.io/inventory/legal-policy/creative-commons/" class="">
+																			Intro to Creative Commons licenses
 																		</a>
 																	</div>
 																</div>
 															</li>
-															<li data-nav-id="https://unicef.github.io/inventory/legal-policy/trademark/" title="Trademark strategies" class="sidelist
-  active">
+															<li data-nav-id="https://unicef.github.io/inventory/legal-policy/reading-list/" title="Reading List: Legal &amp; Business Aspects" class="sidelist
+  ">
 																<div class="container">
 																	<div class="row">
 																		<div class="col-10">
-																			<a href="https://unicef.github.io/inventory/legal-policy/trademark/" class="">
-																				Trademark strategies
+																			<a href="https://unicef.github.io/inventory/legal-policy/reading-list/" class="">
+																				Reading List: Legal &amp; Business Aspects
 																			</a>
 																		</div>
 																	</div>
 																</li>
-															</ul>
-														</div>
-													</li>
-													<div>
-														<button class="btn btn-primary btn-block" id="generatePDF">Get Pdf</button>
-													</div>
-												</ul>
-											</div>
-										</div>
-										<div class="col-lg-9">
-											<div class="bg-white p-3" style="margin:auto">
-												<script language="JavaScript">
-													String.prototype.capitalizeFirstLetter = function() {
-													   return this.charAt(0).toUpperCase() + this.slice(1);
-													}
-
-													var path = "<a style='margin-left:2%' href='https:\/\/unicef.github.io\/inventory\/'>Home</a>";
-													var href = document.location.href;
-													var s = href.split("/");
-													for (var i=3;i<(s.length-2);i++) {
-													   path+=" &gt;  <a href=\""+href.substring(0,href.indexOf("/"+s[i])+s[i].length+1)+"/\">"+s[i].capitalizeFirstLetter()+"</a> ";
-													}
-													i=s.length-1;
-													path+="<a href=\""+href.substring(0,href.indexOf(s[i])+s[i].length)+"\">"+s[i]+"</a>";
-													path+="  &gt;  <b>Trademark strategies</b>";
-													document.writeln(path);
-												</script>
-											</div>
-											<div class="p-lg-5 p-4 bg-white position-relative" id="content">
-												<div class="d-flex flex-row-reverse">
-													<button id="editBtn" value="https://github.com/unicef/inventory/blob/main/content/legal-policy/trademark.en.adoc" class="editBtn py-2 px-3">Edit this Page</button>
-												</div>
-												<div class="p-lg-5 p-3 bg-white">
-													<h2 id="title">Trademark strategies</h2>
-													<div class="content mt-5">
-														<div id="toc" class="toc">
-															<div id="toctitle">Table of Contents</div>
-															<ul class="sectlevel1">
-																<li><a href="#what">1. What are trademarks?</a></li>
-																<li><a href="#why">2. Why trademarks matter in Open Source</a>
-																	<ul class="sectlevel2">
-																		<li><a href="#why--company-vs-project">2.1. Separating company and project trademarks: When to do it?</a></li>
-																	</ul>
-																</li>
-																<li><a href="#case-study-moodle">3. Case study: Business models &amp; Moodle</a></li>
-																<li><a href="#resources">4. Resources</a>
-																	<ul class="sectlevel2">
-																		<li><a href="#resources-examples">4.1. Implementations &amp; examples</a></li>
-																		<li><a href="#resources-readings">4.2. Related readings</a></li>
-																		<li><a href="#resources-tools">4.3. Templates &amp; tools</a></li>
-																	</ul>
-																</li>
-																<li><a href="#thanks">5. Thanks</a></li>
-															</ul>
-														</div>
-														<div class="paragraph">
-															<p>Launching an Open Source project has many considerations.
-																Trademarks are one such consideration and are commonly misunderstood.
-																However, trademarks are an important legal aspect of building a sustainable Open Source product and community.
-																Being clear on your trademarks and their use provides clarity and guidance for others when they use, change, or modify your Open Source works.</p>
-														</div>
-														<div class="sect1">
-															<h2 id="what">1. What are trademarks?&nbsp;<a class="hanchor" href="#what">🔗</a> </h2>
-															<div class="sectionbody">
-																<div class="paragraph">
-																	<p>Before crafting a strategy, knowing what constitutes a trademark is important.
-																		Trademarks can be any of the following:</p>
-																</div>
-																<div class="ulist">
-																	<ul>
-																		<li>
-																			<p>Organization name</p>
-																		</li>
-																		<li>
-																			<p>Each of the Organization’s projects</p>
-																		</li>
-																		<li>
-																			<p>Any associated names to the organization and/or projects</p>
-																		</li>
-																		<li>
-																			<p>Service marks</p>
-																		</li>
-																		<li>
-																			<p>Logos</p>
-																		</li>
-																		<li>
-																			<p>Mascots</p>
-																		</li>
-																		<li>
-																			<p>Similar indicators of source or origin</p>
-																		</li>
-																	</ul>
-																</div>
-																<div class="paragraph">
-																	<p>In short, a trademark can be anything to distinguish your organization or your project from another.
-																		The trademark is how others will recognize you, your community, and your work.</p>
-																</div>
-															</div>
-														</div>
-														<div class="sect1">
-															<h2 id="why">2. Why trademarks matter in Open Source&nbsp;<a class="hanchor" href="#why">🔗</a> </h2>
-															<div class="sectionbody">
-																<div class="paragraph">
-																	<p>Trademarks carry an added weight in an Open Source context.
-																		When you have an Open Source work, you guarantee that anyone can <strong>read, run, revise, and redistribute</strong> the original work.
-																		Someone else (or another organization) may choose to modify your original Open Source work into a similar or different work.
-																		Sometimes this is done to submit upstream contributions back to the original work, and there is little to no need for strong trademark policies.
-																		Other times, this is done to create a competing solution or product to the original Open Source work.</p>
-																</div>
-																<div class="paragraph">
-																	<p>When an original work is used to create a new work, a clear trademark strategy becomes important.
-																		The new work may have a different vision from the original work.
-																		It may or may not try to be associated to the original work.
-																		If the new work opts to remain closely tied to the original work, a trademark is how the two works will be distinguished from each other.
-																		From a business model perspective, a clearly distinguished trademark is what allows your customers (and prospective customers) to recognize your work, your services, and your community from others.</p>
-																</div>
-																<div class="paragraph">
-																	<p>While Open Source works are meant to be shared, built upon, and extended by others, a trademark is something unique to the original creators of a work and is not meant to be widely reused or remixed.
-																		If a trademark is unclear or left ambiguous, it leaves room for a competitor or another project to disrupt the original project by using brand recognition and customer familiarity to shift focus to a new work.
-																		Even if there is goodwill between an original work and a new work, this can happen unintentionally and create confusion for both works if it is not clarified in advance.</p>
-																</div>
-																<div class="sect2">
-																	<h3 id="why--company-vs-project">2.1. Separating company and project trademarks: When to do it?&nbsp;<a class="hanchor" href="#why--company-vs-project">🔗</a> </h3>
-																	<div class="paragraph">
-																		<p>A common question by <a href="https://www.unicefinnovationfund.org/">UNICEF Venture Fund</a> start-ups is whether their company trademarks should be used for the project trademarks.
-																			The short answer is, it depends!
-																			The option to take depends on your business model and how you envision the use of marks related to the project.</p>
-																	</div>
-																	<div class="paragraph">
-																		<p>Generally it is a best practice to create unique trademarks for the Open Source product.
-																			This enables clear recognition of the product and/or services related to the product.
-																			It becomes possible to offer different permutations of the Open Source product by distinguishing the trademark, e.g. an enterprise or targeted version.
-																			Another approach is to give others permissions to use official trademarks with special conditions.</p>
-																	</div>
-																	<div class="paragraph">
-																		<p>Sometimes a company can use their same trademarks as a business for the Open Source product.
-																			This creates a tight coupling of the company/business and the Open Source product.
-																			This can be advantageous in some cases to more tightly control the marks related to the product with the company (e.g. GitLab Inc. is a <a href="https://www.bloomberg.com/profile/company/1295950D:NA">registered corporation</a> in the Netherlands, but also is the same name of their <a href="https://about.gitlab.com/">core offering</a>, GitLab).
-																			It can be disadvantageous in scenarios where the original Open Source product could be adapted or repurposed in new ways, and those derivative works must use a different mark to distinguish the derivative work from the original upstream work.</p>
-																	</div>
-																</div>
-															</div>
-														</div>
-														<div class="sect1">
-															<h2 id="case-study-moodle">3. Case study: Business models &amp; Moodle&nbsp;<a class="hanchor" href="#case-study-moodle">🔗</a> </h2>
-															<div class="sectionbody">
-																<div class="paragraph">
-																	<p>One example of how business models can impact trademarks is by looking at Moodle, an open-source learning management system (L.M.S.).
-																		The Moodle L.M.S. is described by the company below:</p>
-																</div>
-																<div class="quoteblock">
-																	<blockquote>
-																		<div class="paragraph">
-																			<p>Moodle LMS is the open source learning management system with inherent security and privacy features used by hundreds of millions of learners worldwide.
-																				Designed in collaboration with Moodle’s global community, Moodle LMS allows educators in any sector to create flexible, safe, accessible and highly engaging online spaces for their learners.</p>
+																<li data-nav-id="https://unicef.github.io/inventory/legal-policy/trademark/" title="Trademark strategies" class="sidelist
+  active">
+																	<div class="container">
+																		<div class="row">
+																			<div class="col-10">
+																				<a href="https://unicef.github.io/inventory/legal-policy/trademark/" class="">
+																					Trademark strategies
+																				</a>
+																			</div>
 																		</div>
-																	</blockquote>
-																	<div class="attribution">
-																		— moodle.com/lms/
-																	</div>
-																</div>
-																<div class="paragraph">
-																	<p>The Moodle trademark is governed under specific allowed and restricted uses.
-																		They offer a partner certification program, where service providers or resellers can obtain certification by Moodle.
-																		Certification also grants official permission to use the official Moodle trademark in marketing and outreach by the partner company.</p>
-																</div>
-																<div class="paragraph">
-																	<p>Furthermore, Moodle also leveraged its own competitors to buy into the Moodle business model.
-																		In 2012, the e-learning company Blackboard <a href="https://www.insidehighered.com/news/2012/03/27/blackboard-buys-moodlerooms-creates-open-source-division">acquired two companies</a> that provided support for using Moodle.
-																		Blackboard also launched an Open Source Services Group internally to go along with these acquisitions, a move that surprised many who were familiar with Blackboard’s business strategy pre-2012.</p>
-																</div>
-																<div class="quoteblock">
-																	<blockquote>
-																		<div class="paragraph">
-																			<p>“We think it’s a terrific time to be making investments in the leading brands behind providing Moodle services,” [Ray Henderson, president of Blackboard Learn] told Inside Higher Ed on Monday.
-																				In a <a href="https://web.archive.org/web/20160821040117/http://www.rayhblog.com/blog/2012/03/evolution-unbound-blackboard-embraces-open-source.html">blog post</a>, he called the growing popularity of open source “the most important new dimension shaping the LMS market today.”</p>
-																		</div>
-																	</blockquote>
-																	<div class="attribution">
-																		— insidehighered.com
-																	</div>
-																</div>
-																<div class="paragraph">
-																	<p>These investments into the Moodle L.M.S. by Blackboard were followed with code contributions and financial support from Blackboard to Moodle Trust, which funds core development on the Moodle platform.</p>
-																</div>
+																	</li>
+																</ul>
 															</div>
+														</li>
+														<div>
+															<button class="btn btn-primary btn-block" id="generatePDF">Get Pdf</button>
 														</div>
-														<div class="sect1">
-															<h2 id="resources">4. Resources&nbsp;<a class="hanchor" href="#resources">🔗</a> </h2>
-															<div class="sectionbody">
-																<div class="paragraph">
-																	<p>Various resources and information pertaining to trademarks in an open-source context.</p>
-																</div>
-																<div class="sect2">
-																	<h3 id="resources-examples">4.1. Implementations &amp; examples&nbsp;<a class="hanchor" href="#resources-examples">🔗</a> </h3>
-																	<div class="paragraph">
-																		<p>Trademark rules and guidelines from other Open Source projects.</p>
-																	</div>
-																	<div class="ulist">
-																		<ul>
-																			<li>
-																				<p><a href="http://www.apache.org/foundation/marks/">Apache Software Foundation trademark policy</a></p>
-																			</li>
-																			<li>
-																				<p><a href="https://fedoraproject.org/wiki/Legal:Trademark_guidelines">Fedora Project trademark guidelines</a></p>
-																			</li>
-																			<li>
-																				<p><a href="https://www.linuxfoundation.org/trademark-usage/">Linux Foundation trademark usage</a></p>
-																				<div class="ulist">
-																					<ul>
-																						<li>
-																							<p><a href="https://www.linuxfoundation.org/trademark-usage">The “Linux®” Trademark</a></p>
-																						</li>
-																					</ul>
-																				</div>
-																			</li>
-																			<li>
-																				<p><a href="https://moodle.com/trademarks/">The Moodle Trademark</a></p>
-																			</li>
-																			<li>
-																				<p><a href="https://www.python.org/psf/trademarks/">Python Software Foundation</a></p>
-																			</li>
-																		</ul>
-																	</div>
-																</div>
-																<div class="sect2">
-																	<h3 id="resources-readings">4.2. Related readings&nbsp;<a class="hanchor" href="#resources-readings">🔗</a> </h3>
-																	<div class="ulist">
-																		<ul>
-																			<li>
-																				<p><a href="https://web.archive.org/web/20211104210547/https://www.linuxfoundation.org/blog/driving-compatibility-with-code-and-specifications-through-conformance-trademark-programs/">Driving Compatibility with Code and Specifications through Conformance Trademark Programs</a>.
-																					<em>The Linux Foundation®</em>, 2020 July 2.</p>
-																			</li>
-																			<li>
-																				<p><a href="https://web.archive.org/web/20210428001205/https://www.linuxfoundation.org/blog/open-source-communities-and-trademarks-a-reprise/">Open Source Communities and Trademarks: A Reprise</a>
-																					<em>The Linux Foundation®</em>, 2020 July 8.</p>
-																			</li>
-																		</ul>
-																	</div>
-																</div>
-																<div class="sect2">
-																	<h3 id="resources-tools">4.3. Templates &amp; tools&nbsp;<a class="hanchor" href="#resources-tools">🔗</a> </h3>
-																	<div class="paragraph">
-																		<p>Templates and tools to help you create your own trademark policy.</p>
-																	</div>
-																	<div class="ulist">
-																		<ul>
-																			<li>
-																				<p>GitHub’s Minimum Viable Governance (MVG) <a href="https://github.com/github/MVG/blob/main/org-docs/TRADEMARKS.md">template for trademark policy</a></p>
-																			</li>
-																			<li>
-																				<p><a href="https://modeltrademarkguidelines.org/index.php/Home:_Model_Trademark_Guidelines">Model Trademark Guidelines Project</a>:</p>
-																				<div class="ulist">
-																					<ul>
-																						<li>
-																							<p><a href="https://modeltrademarkguidelines.org/index.php/Model_Trademark_Guidelines">Official guidelines</a></p>
-																						</li>
-																						<li>
-																							<p><a href="https://modeltrademarkguidelines.org/index.php/Case_law">Case law</a></p>
-																						</li>
-																					</ul>
-																				</div>
-																			</li>
-																		</ul>
-																	</div>
-																</div>
-															</div>
-														</div>
-														<div class="sect1">
-															<h2 id="thanks">5. Thanks&nbsp;<a class="hanchor" href="#thanks">🔗</a> </h2>
-															<div class="sectionbody">
-																<div class="paragraph">
-																	<p>Special thanks to <a href="https://aniszczyk.org/">Chris Aniszczyk</a> for his contribution in this article.</p>
-																</div>
-															</div>
-														</div>
-													</div>
-													<p class="post-meta border-bottom pb-3 mb-0 mt-3">Updated on 18 May 2022</p>
-													<nav class="pagination mt-3">
-														<a class="nav nav-prev" href="https://unicef.github.io/inventory/legal-policy/reading-list/" aria-label="Previous page" ><i class="ti-arrow-left mr-2"></i> <span class="d-none d-md-block">Reading List: Legal &amp; Business Aspects</span></a>
-														<a class="nav nav-next" href="https://unicef.github.io/inventory/meta/" aria-label="Previous page" > <span class="d-none d-md-block">Meta</span><i class="ti-arrow-right ml-2"></i></a>
-													</nav>
-													<section class="my-3 py-3" id="related-articles">
-														<h5 class="text-center">Related Articles</h5>
-														<div class="row">
-															<div class="col-sm-4 my-2">
-																<a href="https://unicef.github.io/inventory/legal-policy/reading-list/">
-																	<div class="card text-center">
-																		<div class="card-body">
-																			<h5 class="card-title">Reading List: Legal &amp; Business Aspects</h5>
-																			<p class="card-subtitle mb-2 text-muted">Various readings and learnings about business and legal aspects of Open Source intellectual property.</p>
-																		</div>
-																	</div>
-																</a>
-															</div>
-															<div class="col-sm-4 my-2">
-																<a href="https://unicef.github.io/inventory/legal-policy/contributor-license-agreement-cla/">
-																	<div class="card text-center">
-																		<div class="card-body">
-																			<h5 class="card-title">Contributor License Agreements (CLAs)</h5>
-																			<p class="card-subtitle mb-2 text-muted">When does your Open Source project need a CLA? What alternatives exist? Cover your copyright in this intro to CLAs.</p>
-																		</div>
-																	</div>
-																</a>
-															</div>
-															<div class="col-sm-4 my-2">
-																<a href="https://unicef.github.io/inventory/legal-policy/creative-commons/">
-																	<div class="card text-center">
-																		<div class="card-body">
-																			<h5 class="card-title">Intro to Creative Commons licenses</h5>
-																			<p class="card-subtitle mb-2 text-muted">A crash course on Creative Commons licenses and how they are applied at the UNICEF Venture Fund.</p>
-																		</div>
-																	</div>
-																</a>
-															</div>
-														</div>
-													</section>
+													</ul>
 												</div>
 											</div>
 										</div>
 									</div>
-								</div>
-							</section>
-							<!-- /details page -->
-							<!-- footer -->
-							<footer class="section bg-primary p-4 mt-5">
-								<div class="container">
-									<div class="row align-items-center">
-										<div class="col-md-3 text-md-left text-center">
+								</nav>
+							</header>
+							<!-- /header -->
+							<script>
+								remSpace()
+							</script>
+							<script>
+								function remSpace() {
+								  document.getElementById("section").style.paddingTop = "3rem";
+								}
+							</script>
+							<!-- details page -->
+							<section class="single section-sm" id="section">
+								<div class="d-flex w-100">
+									<div class="sidebarContainer">
+										<div class="sidebar">
 											<ul>
-												<li><a class="nav-link text-white" href="/inventory">HOME</a></li>
-												<li class="nav-item">
-													<a class="nav-link text-white text-uppercase" href="https://unicef.github.io/inventory/faq">FAQ</a>
-												</li>
-												<li class="nav-item">
-													<a class="nav-link text-white text-uppercase" href="https://unicef.github.io/inventory/toolkits">toolkits</a>
-												</li>
-												<li class="nav-item">
-													<a class="nav-link text-white text-uppercase" href="https://unicef.github.io/inventory/cohorts">cohorts</a>
-												</li>
-											</ul>
-										</div>
-										<div class="col-md-6 text-md-center text-center">
-											<p class="mb-md-0 mb-4 text-white">The UNICEF Open Source Inventory is a knowledge-base of best practices, resources, and information about working and leading Open. This is maintained as part of the Open Source Mentorship programme offered by the UNICEF Venture Fund. The Inventory provides mentorship and guidance to anyone seeking to adopt best practices in their journey to building an Open Source project and community. It is self-serve, and can be used at various phases of building a project and community.</p>
-										</div>
-										<div class="col-md-3 text-md-right text-center">
-											<ul class="text-white">
-												<li class="nav-item">
-													<a class="nav-link text-white font-weight-bold" href="https://www.unicef.org/">UNICEF Global</a>
-												</li>
-												<li class="nav-item">
-													<a class="nav-link text-white font-weight-bold" href="https://www.unicefinnovationfund.org/">UNICEF Venture Fund</a>
-												</li>
-												<li class="nav-item">
-													<a class="nav-link text-white font-weight-bold" href="https://www.unicef.org/legal">Legal</a>
-													<p class="h6 text-md-right font-weight-light">Find legal information and policies related to UNICEF Global&#39;s digital communications.</p>
-												</li>
-											</ul>
-											<ul class="list-inline">
-												<li class="list-inline-item"><a class="text-color d-inline-block p-2 text-white" href="https://github.com/unicef/inventory" aria-label="UNICEF Open Source Inventory on GitHub"><i class="ti-github"></i></a></li>
-												<li class="list-inline-item"><a class="text-color d-inline-block p-2 text-white" href="https://twitter.com/UNICEFinnovate" aria-label="@UNICEFinnovate on Twitter"><i class="ti-twitter"></i></a></li>
-											</ul>
-										</div>
-									</div>
-								</div>
-								<p class="text-md-center text-center text-white mt-3 h6 font-italic">Creative Commons BY-SA 4.0. Site theme maintained by UNICEF. Original theme, Dot, created by ThemeFisher.</p>
-							</footer>
-							<!-- /footer -->
-							<!-- Main Script -->
-							<script src="https://unicef.github.io/inventory/js/script.min.js"></script>
-						</body>
-					</html>
+												<li data-nav-id="https://unicef.github.io/inventory/legal-policy/" title="Legal &amp; Policy" class="sidelist
+  ">
+													<a href="/inventory" class="d-inline  back-btn">
+														<i class="ti-back-right"></i>
+													</a>
+													<a href="https://unicef.github.io/inventory/legal-policy/" class="font-weight-bold d-inline">
+														Legal &amp; Policy
+													</a>
+													<div class="accordion" id="accordionExample">
+														<ul>
+															<li data-nav-id="https://unicef.github.io/inventory/legal-policy/contributor-license-agreement-cla/" title="Contributor License Agreements (CLAs)" class="sidelist
+  ">
+																<div class="container">
+																	<div class="row">
+																		<div class="col-10">
+																			<a href="https://unicef.github.io/inventory/legal-policy/contributor-license-agreement-cla/" class="">
+																				Contributor License Agreements (CLAs)
+																			</a>
+																		</div>
+																	</div>
+																</li>
+																<li data-nav-id="https://unicef.github.io/inventory/legal-policy/gpl-comparison/" title="GPLv2 vs. GPLv3" class="sidelist
+  ">
+																	<div class="container">
+																		<div class="row">
+																			<div class="col-10">
+																				<a href="https://unicef.github.io/inventory/legal-policy/gpl-comparison/" class="">
+																					GPLv2 vs. GPLv3
+																				</a>
+																			</div>
+																		</div>
+																	</li>
+																	<li data-nav-id="https://unicef.github.io/inventory/legal-policy/creative-commons/" title="Intro to Creative Commons licenses" class="sidelist
+  ">
+																		<div class="container">
+																			<div class="row">
+																				<div class="col-10">
+																					<a href="https://unicef.github.io/inventory/legal-policy/creative-commons/" class="">
+																						Intro to Creative Commons licenses
+																					</a>
+																				</div>
+																			</div>
+																		</li>
+																		<li data-nav-id="https://unicef.github.io/inventory/legal-policy/reading-list/" title="Reading List: Legal &amp; Business Aspects" class="sidelist
+  ">
+																			<div class="container">
+																				<div class="row">
+																					<div class="col-10">
+																						<a href="https://unicef.github.io/inventory/legal-policy/reading-list/" class="">
+																							Reading List: Legal &amp; Business Aspects
+																						</a>
+																					</div>
+																				</div>
+																			</li>
+																			<li data-nav-id="https://unicef.github.io/inventory/legal-policy/trademark/" title="Trademark strategies" class="sidelist
+  active">
+																				<div class="container">
+																					<div class="row">
+																						<div class="col-10">
+																							<a href="https://unicef.github.io/inventory/legal-policy/trademark/" class="">
+																								Trademark strategies
+																							</a>
+																						</div>
+																					</div>
+																				</li>
+																			</ul>
+																		</div>
+																	</li>
+																	<div>
+																		<button class="btn btn-primary btn-block" id="generatePDF">Get Pdf</button>
+																	</div>
+																</ul>
+															</div>
+														</div>
+														<div class="contentContainer py-5 px-5">
+															<div class="p-lg-5 p-4 bg-white position-relative mx-5 my-3 w-100 contentBox" id="content">
+																<div class="d-flex flex-row-reverse p-absolute">
+																	<button id="editBtn" value="https://github.com/unicef/inventory/blob/main/content/legal-policy/trademark.en.adoc" class="editBtn py-2 px-3">Edit this Page</button>
+																</div>
+																<div class="p-lg-5 p-3 bg-white">
+																	<h2 id="title">Trademark strategies</h2>
+																	<div class="content mt-5">
+																		<div id="toc" class="toc">
+																			<div id="toctitle">Table of Contents</div>
+																			<ul class="sectlevel1">
+																				<li><a href="#what">1. What are trademarks?</a></li>
+																				<li><a href="#why">2. Why trademarks matter in Open Source</a>
+																					<ul class="sectlevel2">
+																						<li><a href="#why--company-vs-project">2.1. Separating company and project trademarks: When to do it?</a></li>
+																					</ul>
+																				</li>
+																				<li><a href="#case-study-moodle">3. Case study: Business models &amp; Moodle</a></li>
+																				<li><a href="#resources">4. Resources</a>
+																					<ul class="sectlevel2">
+																						<li><a href="#resources-examples">4.1. Implementations &amp; examples</a></li>
+																						<li><a href="#resources-readings">4.2. Related readings</a></li>
+																						<li><a href="#resources-tools">4.3. Templates &amp; tools</a></li>
+																					</ul>
+																				</li>
+																				<li><a href="#thanks">5. Thanks</a></li>
+																			</ul>
+																		</div>
+																		<div class="paragraph">
+																			<p>Launching an Open Source project has many considerations.
+																				Trademarks are one such consideration and are commonly misunderstood.
+																				However, trademarks are an important legal aspect of building a sustainable Open Source product and community.
+																				Being clear on your trademarks and their use provides clarity and guidance for others when they use, change, or modify your Open Source works.</p>
+																		</div>
+																		<div class="sect1">
+																			<h2 id="what">1. What are trademarks?&nbsp;<a class="hanchor" href="#what">🔗</a> </h2>
+																			<div class="sectionbody">
+																				<div class="paragraph">
+																					<p>Before crafting a strategy, knowing what constitutes a trademark is important.
+																						Trademarks can be any of the following:</p>
+																				</div>
+																				<div class="ulist">
+																					<ul>
+																						<li>
+																							<p>Organization name</p>
+																						</li>
+																						<li>
+																							<p>Each of the Organization’s projects</p>
+																						</li>
+																						<li>
+																							<p>Any associated names to the organization and/or projects</p>
+																						</li>
+																						<li>
+																							<p>Service marks</p>
+																						</li>
+																						<li>
+																							<p>Logos</p>
+																						</li>
+																						<li>
+																							<p>Mascots</p>
+																						</li>
+																						<li>
+																							<p>Similar indicators of source or origin</p>
+																						</li>
+																					</ul>
+																				</div>
+																				<div class="paragraph">
+																					<p>In short, a trademark can be anything to distinguish your organization or your project from another.
+																						The trademark is how others will recognize you, your community, and your work.</p>
+																				</div>
+																			</div>
+																		</div>
+																		<div class="sect1">
+																			<h2 id="why">2. Why trademarks matter in Open Source&nbsp;<a class="hanchor" href="#why">🔗</a> </h2>
+																			<div class="sectionbody">
+																				<div class="paragraph">
+																					<p>Trademarks carry an added weight in an Open Source context.
+																						When you have an Open Source work, you guarantee that anyone can <strong>read, run, revise, and redistribute</strong> the original work.
+																						Someone else (or another organization) may choose to modify your original Open Source work into a similar or different work.
+																						Sometimes this is done to submit upstream contributions back to the original work, and there is little to no need for strong trademark policies.
+																						Other times, this is done to create a competing solution or product to the original Open Source work.</p>
+																				</div>
+																				<div class="paragraph">
+																					<p>When an original work is used to create a new work, a clear trademark strategy becomes important.
+																						The new work may have a different vision from the original work.
+																						It may or may not try to be associated to the original work.
+																						If the new work opts to remain closely tied to the original work, a trademark is how the two works will be distinguished from each other.
+																						From a business model perspective, a clearly distinguished trademark is what allows your customers (and prospective customers) to recognize your work, your services, and your community from others.</p>
+																				</div>
+																				<div class="paragraph">
+																					<p>While Open Source works are meant to be shared, built upon, and extended by others, a trademark is something unique to the original creators of a work and is not meant to be widely reused or remixed.
+																						If a trademark is unclear or left ambiguous, it leaves room for a competitor or another project to disrupt the original project by using brand recognition and customer familiarity to shift focus to a new work.
+																						Even if there is goodwill between an original work and a new work, this can happen unintentionally and create confusion for both works if it is not clarified in advance.</p>
+																				</div>
+																				<div class="sect2">
+																					<h3 id="why--company-vs-project">2.1. Separating company and project trademarks: When to do it?&nbsp;<a class="hanchor" href="#why--company-vs-project">🔗</a> </h3>
+																					<div class="paragraph">
+																						<p>A common question by <a href="https://www.unicefinnovationfund.org/">UNICEF Venture Fund</a> start-ups is whether their company trademarks should be used for the project trademarks.
+																							The short answer is, it depends!
+																							The option to take depends on your business model and how you envision the use of marks related to the project.</p>
+																					</div>
+																					<div class="paragraph">
+																						<p>Generally it is a best practice to create unique trademarks for the Open Source product.
+																							This enables clear recognition of the product and/or services related to the product.
+																							It becomes possible to offer different permutations of the Open Source product by distinguishing the trademark, e.g. an enterprise or targeted version.
+																							Another approach is to give others permissions to use official trademarks with special conditions.</p>
+																					</div>
+																					<div class="paragraph">
+																						<p>Sometimes a company can use their same trademarks as a business for the Open Source product.
+																							This creates a tight coupling of the company/business and the Open Source product.
+																							This can be advantageous in some cases to more tightly control the marks related to the product with the company (e.g. GitLab Inc. is a <a href="https://www.bloomberg.com/profile/company/1295950D:NA">registered corporation</a> in the Netherlands, but also is the same name of their <a href="https://about.gitlab.com/">core offering</a>, GitLab).
+																							It can be disadvantageous in scenarios where the original Open Source product could be adapted or repurposed in new ways, and those derivative works must use a different mark to distinguish the derivative work from the original upstream work.</p>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																		<div class="sect1">
+																			<h2 id="case-study-moodle">3. Case study: Business models &amp; Moodle&nbsp;<a class="hanchor" href="#case-study-moodle">🔗</a> </h2>
+																			<div class="sectionbody">
+																				<div class="paragraph">
+																					<p>One example of how business models can impact trademarks is by looking at Moodle, an open-source learning management system (L.M.S.).
+																						The Moodle L.M.S. is described by the company below:</p>
+																				</div>
+																				<div class="quoteblock">
+																					<blockquote>
+																						<div class="paragraph">
+																							<p>Moodle LMS is the open source learning management system with inherent security and privacy features used by hundreds of millions of learners worldwide.
+																								Designed in collaboration with Moodle’s global community, Moodle LMS allows educators in any sector to create flexible, safe, accessible and highly engaging online spaces for their learners.</p>
+																						</div>
+																					</blockquote>
+																					<div class="attribution">
+																						— moodle.com/lms/
+																					</div>
+																				</div>
+																				<div class="paragraph">
+																					<p>The Moodle trademark is governed under specific allowed and restricted uses.
+																						They offer a partner certification program, where service providers or resellers can obtain certification by Moodle.
+																						Certification also grants official permission to use the official Moodle trademark in marketing and outreach by the partner company.</p>
+																				</div>
+																				<div class="paragraph">
+																					<p>Furthermore, Moodle also leveraged its own competitors to buy into the Moodle business model.
+																						In 2012, the e-learning company Blackboard <a href="https://www.insidehighered.com/news/2012/03/27/blackboard-buys-moodlerooms-creates-open-source-division">acquired two companies</a> that provided support for using Moodle.
+																						Blackboard also launched an Open Source Services Group internally to go along with these acquisitions, a move that surprised many who were familiar with Blackboard’s business strategy pre-2012.</p>
+																				</div>
+																				<div class="quoteblock">
+																					<blockquote>
+																						<div class="paragraph">
+																							<p>“We think it’s a terrific time to be making investments in the leading brands behind providing Moodle services,” [Ray Henderson, president of Blackboard Learn] told Inside Higher Ed on Monday.
+																								In a <a href="https://web.archive.org/web/20160821040117/http://www.rayhblog.com/blog/2012/03/evolution-unbound-blackboard-embraces-open-source.html">blog post</a>, he called the growing popularity of open source “the most important new dimension shaping the LMS market today.”</p>
+																						</div>
+																					</blockquote>
+																					<div class="attribution">
+																						— insidehighered.com
+																					</div>
+																				</div>
+																				<div class="paragraph">
+																					<p>These investments into the Moodle L.M.S. by Blackboard were followed with code contributions and financial support from Blackboard to Moodle Trust, which funds core development on the Moodle platform.</p>
+																				</div>
+																			</div>
+																		</div>
+																		<div class="sect1">
+																			<h2 id="resources">4. Resources&nbsp;<a class="hanchor" href="#resources">🔗</a> </h2>
+																			<div class="sectionbody">
+																				<div class="paragraph">
+																					<p>Various resources and information pertaining to trademarks in an open-source context.</p>
+																				</div>
+																				<div class="sect2">
+																					<h3 id="resources-examples">4.1. Implementations &amp; examples&nbsp;<a class="hanchor" href="#resources-examples">🔗</a> </h3>
+																					<div class="paragraph">
+																						<p>Trademark rules and guidelines from other Open Source projects.</p>
+																					</div>
+																					<div class="ulist">
+																						<ul>
+																							<li>
+																								<p><a href="http://www.apache.org/foundation/marks/">Apache Software Foundation trademark policy</a></p>
+																							</li>
+																							<li>
+																								<p><a href="https://fedoraproject.org/wiki/Legal:Trademark_guidelines">Fedora Project trademark guidelines</a></p>
+																							</li>
+																							<li>
+																								<p><a href="https://www.linuxfoundation.org/trademark-usage/">Linux Foundation trademark usage</a></p>
+																								<div class="ulist">
+																									<ul>
+																										<li>
+																											<p><a href="https://www.linuxfoundation.org/trademark-usage">The “Linux®” Trademark</a></p>
+																										</li>
+																									</ul>
+																								</div>
+																							</li>
+																							<li>
+																								<p><a href="https://moodle.com/trademarks/">The Moodle Trademark</a></p>
+																							</li>
+																							<li>
+																								<p><a href="https://www.python.org/psf/trademarks/">Python Software Foundation</a></p>
+																							</li>
+																						</ul>
+																					</div>
+																				</div>
+																				<div class="sect2">
+																					<h3 id="resources-readings">4.2. Related readings&nbsp;<a class="hanchor" href="#resources-readings">🔗</a> </h3>
+																					<div class="ulist">
+																						<ul>
+																							<li>
+																								<p><a href="https://web.archive.org/web/20211104210547/https://www.linuxfoundation.org/blog/driving-compatibility-with-code-and-specifications-through-conformance-trademark-programs/">Driving Compatibility with Code and Specifications through Conformance Trademark Programs</a>.
+																									<em>The Linux Foundation®</em>, 2020 July 2.</p>
+																							</li>
+																							<li>
+																								<p><a href="https://web.archive.org/web/20210428001205/https://www.linuxfoundation.org/blog/open-source-communities-and-trademarks-a-reprise/">Open Source Communities and Trademarks: A Reprise</a>
+																									<em>The Linux Foundation®</em>, 2020 July 8.</p>
+																							</li>
+																						</ul>
+																					</div>
+																				</div>
+																				<div class="sect2">
+																					<h3 id="resources-tools">4.3. Templates &amp; tools&nbsp;<a class="hanchor" href="#resources-tools">🔗</a> </h3>
+																					<div class="paragraph">
+																						<p>Templates and tools to help you create your own trademark policy.</p>
+																					</div>
+																					<div class="ulist">
+																						<ul>
+																							<li>
+																								<p>GitHub’s Minimum Viable Governance (MVG) <a href="https://github.com/github/MVG/blob/main/org-docs/TRADEMARKS.md">template for trademark policy</a></p>
+																							</li>
+																							<li>
+																								<p><a href="https://modeltrademarkguidelines.org/index.php/Home:_Model_Trademark_Guidelines">Model Trademark Guidelines Project</a>:</p>
+																								<div class="ulist">
+																									<ul>
+																										<li>
+																											<p><a href="https://modeltrademarkguidelines.org/index.php/Model_Trademark_Guidelines">Official guidelines</a></p>
+																										</li>
+																										<li>
+																											<p><a href="https://modeltrademarkguidelines.org/index.php/Case_law">Case law</a></p>
+																										</li>
+																									</ul>
+																								</div>
+																							</li>
+																						</ul>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																		<div class="sect1">
+																			<h2 id="thanks">5. Thanks&nbsp;<a class="hanchor" href="#thanks">🔗</a> </h2>
+																			<div class="sectionbody">
+																				<div class="paragraph">
+																					<p>Special thanks to <a href="https://aniszczyk.org/">Chris Aniszczyk</a> for his contribution in this article.</p>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																	<p class="post-meta border-bottom pb-3 mb-0 mt-3">Updated on 18 May 2022</p>
+																	<nav class="pagination mt-3">
+																		<a class="nav nav-prev" href="https://unicef.github.io/inventory/legal-policy/reading-list/" aria-label="Previous page" ><i class="ti-arrow-left mr-2"></i> <span class="d-none d-md-block">Reading List: Legal &amp; Business Aspects</span></a>
+																		<a class="nav nav-next" href="https://unicef.github.io/inventory/meta/" aria-label="Previous page" > <span class="d-none d-md-block">Meta</span><i class="ti-arrow-right ml-2"></i></a>
+																	</nav>
+																	<section class="my-3 py-3" id="related-articles">
+																		<h5 class="text-center">Related Articles</h5>
+																		<div class="row">
+																			<div class="col-sm-4 my-2">
+																				<a href="https://unicef.github.io/inventory/legal-policy/gpl-comparison/">
+																					<div class="card text-center">
+																						<div class="card-body">
+																							<h5 class="card-title">GPLv2 vs. GPLv3</h5>
+																							<p class="card-subtitle mb-2 text-muted">A deep dive on the exact differences between the Free Software Foundation&#39;s two versions of the GPL license.</p>
+																						</div>
+																					</div>
+																				</a>
+																			</div>
+																			<div class="col-sm-4 my-2">
+																				<a href="https://unicef.github.io/inventory/legal-policy/creative-commons/">
+																					<div class="card text-center">
+																						<div class="card-body">
+																							<h5 class="card-title">Intro to Creative Commons licenses</h5>
+																							<p class="card-subtitle mb-2 text-muted">A crash course on Creative Commons licenses and how they are applied at the UNICEF Venture Fund.</p>
+																						</div>
+																					</div>
+																				</a>
+																			</div>
+																			<div class="col-sm-4 my-2">
+																				<a href="https://unicef.github.io/inventory/legal-policy/reading-list/">
+																					<div class="card text-center">
+																						<div class="card-body">
+																							<h5 class="card-title">Reading List: Legal &amp; Business Aspects</h5>
+																							<p class="card-subtitle mb-2 text-muted">Various readings and learnings about business and legal aspects of Open Source intellectual property.</p>
+																						</div>
+																					</div>
+																				</a>
+																			</div>
+																		</div>
+																	</section>
+																</div>
+															</div>
+														</div>
+													</div>
+												</section>
+												<!-- /details page -->
+												<!-- footer -->
+												<footer class="section bg-primary p-4 mt-5">
+													<div class="container">
+														<div class="row align-items-center">
+															<div class="col-md-3 text-md-left text-center">
+																<ul>
+																	<li><a class="nav-link text-white" href="/inventory">HOME</a></li>
+																	<li class="nav-item">
+																		<a class="nav-link text-white text-uppercase" href="https://unicef.github.io/inventory/faq">FAQ</a>
+																	</li>
+																	<li class="nav-item">
+																		<a class="nav-link text-white text-uppercase" href="https://unicef.github.io/inventory/toolkits">toolkits</a>
+																	</li>
+																	<li class="nav-item">
+																		<a class="nav-link text-white text-uppercase" href="https://unicef.github.io/inventory/cohorts">cohorts</a>
+																	</li>
+																</ul>
+															</div>
+															<div class="col-md-6 text-md-center text-center">
+																<p class="mb-md-0 mb-4 text-white">The UNICEF Open Source Inventory is a knowledge-base of best practices, resources, and information about working and leading Open. This is maintained as part of the Open Source Mentorship programme offered by the UNICEF Venture Fund. The Inventory provides mentorship and guidance to anyone seeking to adopt best practices in their journey to building an Open Source project and community. It is self-serve, and can be used at various phases of building a project and community.</p>
+															</div>
+															<div class="col-md-3 text-md-right text-center">
+																<ul class="text-white">
+																	<li class="nav-item">
+																		<a class="nav-link text-white font-weight-bold px-0" href="https://www.unicef.org/">UNICEF Global</a>
+																	</li>
+																	<li class="nav-item">
+																		<a class="nav-link text-white font-weight-bold px-0" href="https://www.unicefinnovationfund.org/">UNICEF Venture Fund</a>
+																	</li>
+																	<li class="nav-item">
+																		<a class="nav-link text-white font-weight-bold px-0" href="https://www.unicef.org/legal">Legal</a>
+																		<p class="h6 text-md-right font-weight-light">Find legal information and policies related to UNICEF Global&#39;s digital communications.</p>
+																	</li>
+																</ul>
+																<ul class="list-inline">
+																	<li class="list-inline-item"><a class="text-color d-inline-block p-2 text-white socialIcon" href="https://github.com/unicef/inventory" aria-label="UNICEF Open Source Inventory on GitHub"><i class="ti-github"></i></a></li>
+																	<li class="list-inline-item"><a class="text-color d-inline-block p-2 text-white socialIcon" href="https://twitter.com/UNICEFinnovate" aria-label="@UNICEFinnovate on Twitter"><i class="ti-twitter"></i></a></li>
+																</ul>
+															</div>
+														</div>
+													</div>
+													<p class="text-md-center text-center text-white mt-3 h6 font-italic">Creative Commons BY-SA 4.0. Site theme maintained by UNICEF. Original theme, Dot, created by ThemeFisher.</p>
+												</footer>
+												<!-- /footer -->
+												<!-- Main Script -->
+												<script src="https://unicef.github.io/inventory/js/script.min.js"></script>
+											</body>
+										</html>

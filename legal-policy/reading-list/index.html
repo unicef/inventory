@@ -76,23 +76,26 @@
 		<meta name="twitter:title" content="Reading List: Legal &amp; Business Aspects"/>
 		<meta name="twitter:description" content="Various readings and learnings about business and legal aspects of Open Source intellectual property."/>
 	</head>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 	<body>
 		<!-- header -->
 		<header class="shadow-bottom sticky-top bg-white">
-			<nav class="navbar navbar-expand-md navbar-dark" style=" background-color: #1CABE2">
-				<div class="container px-2 px-md-0 navigation-bar">
+			<nav class="navbar navbar-expand-md navbar-dark d-flex flex-column p-0" style=" background-color: #1CABE2">
+				<div class="w-100 container mx-0 navigation-bar">
 					<div id="site-brand">
-						<a class="navbar-brand px-2" href="https://www.unicef.org/">
+						<a class="navbar-brand px-2"
+        href="https://www.unicef.org/">
 							<div class="text-center nav-heading">
 								<img class="img-fluid nav-img" src="https://unicef.github.io/inventory/images/unicef-logo.png" alt="UNICEF O.S. Inventory">
 								<a class="d-block nav-title" href="/inventory">UNICEF O.S. Inventory</a>
 							</div>
 						</a>
 					</div>
-					<button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation"
+					<a class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation"
       aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
-						<span class="navbar-toggler-icon"></span>
-					</button>
+						<span class="sidebarIcon navbarMenu">Menu<i class="fa-solid fa-caret-down d-inline p-1"></i>
+						</span>
+					</a>
 					<div class="collapse navbar-collapse text-center" id="navigation">
 						<ul class="navbar-nav ml-auto">
 							<li class="nav-item">
@@ -148,388 +151,448 @@
 							<option id="en" value="https://unicef.github.io/inventory/legal-policy/reading-list/" selected>en
 							</option>
 						</select>
+						<p class="text-white unicef-glob ml-4 mt-3">Visit <a href="https://www.unicef.org/" class="text-white">UNICEF Global <i
+        class="fas fa-angle-double-right"></i></a></p>
 					</div>
 				</div>
-				<p class="text-white unicef-glob mx-3">Visit <a href="https://www.unicef.org/" class="text-white">UNICEF Global <i class="fas fa-angle-double-right"></i></a></p>
-			</nav>
-		</header>
-		<!-- /header -->
-		<script>
-			remSpace()
-		</script>
-		<script>
-			function remSpace() {
-			  document.getElementById("section").style.paddingTop = "3rem";
-			}
-		</script>
-		<!-- details page -->
-		<section class="single section-sm main-section" id="section">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-3">
-						<div class="sidebar">
-							<a class="back-btn" href="/inventory" aria-label="back"></a>
-							<ul>
-								<li data-nav-id="https://unicef.github.io/inventory/legal-policy/" title="Legal &amp; Policy" class="sidelist
+				<div class="w-100 py-2 breadcrumbBar text-light" style=" background-color: #374ea2">
+					<div class="container">
+						<div class="breadcrumbs">
+							<a href="https://unicef.github.io/inventory/">Home</a>
+							&gt; <a href="https://unicef.github.io/inventory/legal-policy" class="breadcrumbLink">legal-policy</a>
+							&gt; <a href="https://unicef.github.io/inventory/legal-policy/reading-list" class="breadcrumbLink">reading-list</a>
+						</div>
+						<a data-toggle="collapse" data-target="#sidebarMobile"  aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation"> <i class="ti-menu text-light sidebarIcon"></i></a>
+						<div class="text-light text-center sidebarMobile collapse justify-content-center" id="sidebarMobile">
+							<div class="sidebarBox">
+								<ul>
+									<li data-nav-id="https://unicef.github.io/inventory/legal-policy/" title="Legal &amp; Policy" class="sidelist
   ">
-									<a href="https://unicef.github.io/inventory/legal-policy/" class="font-weight-bold">
-										Legal &amp; Policy
-									</a>
-									<div class="accordion" id="accordionExample">
-										<ul>
-											<li data-nav-id="https://unicef.github.io/inventory/legal-policy/contributor-license-agreement-cla/" title="Contributor License Agreements (CLAs)" class="sidelist
-  ">
-												<div class="container">
-													<div class="row">
-														<div class="col-10">
-															<a href="https://unicef.github.io/inventory/legal-policy/contributor-license-agreement-cla/" class="">
-																Contributor License Agreements (CLAs)
-															</a>
-														</div>
-													</div>
-												</li>
-												<li data-nav-id="https://unicef.github.io/inventory/legal-policy/gpl-comparison/" title="GPLv2 vs. GPLv3" class="sidelist
+										<a href="/inventory" class="d-inline  back-btn">
+											<i class="ti-back-right"></i>
+										</a>
+										<a href="https://unicef.github.io/inventory/legal-policy/" class="font-weight-bold d-inline">
+											Legal &amp; Policy
+										</a>
+										<div class="accordion" id="accordionExample">
+											<ul>
+												<li data-nav-id="https://unicef.github.io/inventory/legal-policy/contributor-license-agreement-cla/" title="Contributor License Agreements (CLAs)" class="sidelist
   ">
 													<div class="container">
 														<div class="row">
 															<div class="col-10">
-																<a href="https://unicef.github.io/inventory/legal-policy/gpl-comparison/" class="">
-																	GPLv2 vs. GPLv3
+																<a href="https://unicef.github.io/inventory/legal-policy/contributor-license-agreement-cla/" class="">
+																	Contributor License Agreements (CLAs)
 																</a>
 															</div>
 														</div>
 													</li>
-													<li data-nav-id="https://unicef.github.io/inventory/legal-policy/creative-commons/" title="Intro to Creative Commons licenses" class="sidelist
+													<li data-nav-id="https://unicef.github.io/inventory/legal-policy/gpl-comparison/" title="GPLv2 vs. GPLv3" class="sidelist
   ">
 														<div class="container">
 															<div class="row">
 																<div class="col-10">
-																	<a href="https://unicef.github.io/inventory/legal-policy/creative-commons/" class="">
-																		Intro to Creative Commons licenses
+																	<a href="https://unicef.github.io/inventory/legal-policy/gpl-comparison/" class="">
+																		GPLv2 vs. GPLv3
 																	</a>
 																</div>
 															</div>
 														</li>
-														<li data-nav-id="https://unicef.github.io/inventory/legal-policy/reading-list/" title="Reading List: Legal &amp; Business Aspects" class="sidelist
-  active">
+														<li data-nav-id="https://unicef.github.io/inventory/legal-policy/creative-commons/" title="Intro to Creative Commons licenses" class="sidelist
+  ">
 															<div class="container">
 																<div class="row">
 																	<div class="col-10">
-																		<a href="https://unicef.github.io/inventory/legal-policy/reading-list/" class="">
-																			Reading List: Legal &amp; Business Aspects
+																		<a href="https://unicef.github.io/inventory/legal-policy/creative-commons/" class="">
+																			Intro to Creative Commons licenses
 																		</a>
 																	</div>
 																</div>
 															</li>
-															<li data-nav-id="https://unicef.github.io/inventory/legal-policy/trademark/" title="Trademark strategies" class="sidelist
-  ">
+															<li data-nav-id="https://unicef.github.io/inventory/legal-policy/reading-list/" title="Reading List: Legal &amp; Business Aspects" class="sidelist
+  active">
 																<div class="container">
 																	<div class="row">
 																		<div class="col-10">
-																			<a href="https://unicef.github.io/inventory/legal-policy/trademark/" class="">
-																				Trademark strategies
+																			<a href="https://unicef.github.io/inventory/legal-policy/reading-list/" class="">
+																				Reading List: Legal &amp; Business Aspects
 																			</a>
 																		</div>
 																	</div>
 																</li>
-															</ul>
-														</div>
-													</li>
-													<div>
-														<button class="btn btn-primary btn-block" id="generatePDF">Get Pdf</button>
-													</div>
-												</ul>
-											</div>
-										</div>
-										<div class="col-lg-9">
-											<div class="bg-white p-3" style="margin:auto">
-												<script language="JavaScript">
-													String.prototype.capitalizeFirstLetter = function() {
-													   return this.charAt(0).toUpperCase() + this.slice(1);
-													}
-
-													var path = "<a style='margin-left:2%' href='https:\/\/unicef.github.io\/inventory\/'>Home</a>";
-													var href = document.location.href;
-													var s = href.split("/");
-													for (var i=3;i<(s.length-2);i++) {
-													   path+=" &gt;  <a href=\""+href.substring(0,href.indexOf("/"+s[i])+s[i].length+1)+"/\">"+s[i].capitalizeFirstLetter()+"</a> ";
-													}
-													i=s.length-1;
-													path+="<a href=\""+href.substring(0,href.indexOf(s[i])+s[i].length)+"\">"+s[i]+"</a>";
-													path+="  &gt;  <b>Reading List: Legal \u0026 Business Aspects</b>";
-													document.writeln(path);
-												</script>
-											</div>
-											<div class="p-lg-5 p-4 bg-white position-relative" id="content">
-												<div class="d-flex flex-row-reverse">
-													<button id="editBtn" value="https://github.com/unicef/inventory/blob/main/content/legal-policy/reading-list.en.adoc" class="editBtn py-2 px-3">Edit this Page</button>
-												</div>
-												<div class="p-lg-5 p-3 bg-white">
-													<h2 id="title">Reading List: Legal &amp; Business Aspects</h2>
-													<div class="content mt-5">
-														<div id="toc" class="toc">
-															<div id="toctitle">Table of Contents</div>
-															<ul class="sectlevel1">
-																<li><a href="#foundations">1. Foundations</a></li>
-																<li><a href="#choosing">2. Choosing a license</a>
-																	<ul class="sectlevel2">
-																		<li><a href="#choosing-permissive">2.1. Choosing permissive</a></li>
-																		<li><a href="#choosing-copyleft">2.2. Choosing copyleft</a></li>
-																	</ul>
-																</li>
-																<li><a href="#examples">3. Examples</a>
-																	<ul class="sectlevel2">
-																		<li><a href="#examples-software">3.1. Software licenses</a></li>
-																		<li><a href="#examples-content">3.2. Content licenses</a></li>
-																		<li><a href="#examples-data">3.3. Data licenses</a></li>
-																	</ul>
-																</li>
-															</ul>
-														</div>
-														<div class="paragraph">
-															<p>This reading list is a collection of resources on legal and business aspects of open source.
-																Legal and business aspects of an open source project are part of the foundation for building your project and community.
-																The resources linked here are intended to give you a better idea of open source from a legal perspective.</p>
-														</div>
-														<div class="sect1">
-															<h2 id="foundations">1. Foundations&nbsp;<a class="hanchor" href="#foundations">🔗</a> </h2>
-															<div class="sectionbody">
-																<div class="ulist">
-																	<ul>
-																		<li>
-																			<p><a href="https://opensource.org/osd-annotated">The Open Source Definition (Annotated)</a> - <em>Open Source Initiative</em></p>
-																		</li>
-																		<li>
-																			<p><a href="https://opensource.org/licenses/alphabetical">Open Source Licenses by Name</a> - <em>Open Source Initiative</em></p>
-																		</li>
-																		<li>
-																			<p><a href="https://opensource.com/resources/what-is-copyleft">What is copyleft?</a> - <em><a href="https://twitter.com/FunnelFiasco">Ben Cotton</a>, Opensource.com</em></p>
-																		</li>
-																	</ul>
-																</div>
-															</div>
-														</div>
-														<div class="sect1">
-															<h2 id="choosing">2. Choosing a license&nbsp;<a class="hanchor" href="#choosing">🔗</a> </h2>
-															<div class="sectionbody">
-																<div class="ulist">
-																	<ul>
-																		<li>
-																			<p><a href="https://choosealicense.com/">Choose an open source license</a> - <em>curated by GitHub</em></p>
-																		</li>
-																		<li>
-																			<p><a href="https://tldrlegal.com/">TLDRLegal - Software licenses explained in plain English</a> - <em>FOSSA, Inc</em></p>
-																		</li>
-																	</ul>
-																</div>
-																<div class="sect2">
-																	<h3 id="choosing-permissive">2.1. Choosing permissive&nbsp;<a class="hanchor" href="#choosing-permissive">🔗</a> </h3>
-																	<div class="paragraph">
-																		<p>You have decided you want to choose a permissive license, but now what?
-																			Unless you have a good reason, there are 3-4 licenses that are most appealing.
-																			These resources will help you figure out key differences between common permissive licenses.</p>
-																	</div>
-																	<div class="ulist">
-																		<ul>
-																			<li>
-																				<p><a href="https://opensource.com/article/18/2/how-make-sense-apache-2-patent-license">How to make sense of the Apache 2 patent license</a>:
-																					&#34;The Apache 2 license’s patent grant, often misunderstood, makes open source safe to use.&#34;
-																					(<a href="https://www.linkedin.com/in/jrkaufman/"><em>Jeffrey Robert Kaufman</em></a>, <em>Opensource.com</em>)</p>
-																			</li>
-																		</ul>
-																	</div>
-																</div>
-																<div class="sect2">
-																	<h3 id="choosing-copyleft">2.2. Choosing copyleft&nbsp;<a class="hanchor" href="#choosing-copyleft">🔗</a> </h3>
-																	<div class="paragraph">
-																		<p>You have decided you want to choose a copyleft license, but now what?
-																			These resources will help you figure out the differences between the most common copyleft licenses.</p>
-																	</div>
-																	<div class="ulist">
-																		<ul>
-																			<li>
-																				<p><a href="https://www.quora.com/What-is-the-difference-between-GPL-AGPL-and-LGPL-licenses">What is the difference between GPL, AGPL and LGPL licenses?</a> - <em>Quora</em></p>
-																			</li>
-																			<li>
-																				<p><a href="https://www.gnu.org/licenses/why-affero-gpl.en.html">Why the Affero GPL</a> - <em>Free Software Foundation (FSF)</em></p>
-																			</li>
-																		</ul>
-																	</div>
-																</div>
-															</div>
-														</div>
-														<div class="sect1">
-															<h2 id="examples">3. Examples&nbsp;<a class="hanchor" href="#examples">🔗</a> </h2>
-															<div class="sectionbody">
-																<div class="paragraph">
-																	<p>These are a collection of specific examples or scenarios with Open Source licenses.
-																		They may cover specific projects using a specific license, or may be more general-purpose considerations for any license.</p>
-																</div>
-																<div class="sect2">
-																	<h3 id="examples-software">3.1. Software licenses&nbsp;<a class="hanchor" href="#examples-software">🔗</a> </h3>
-																	<div class="ulist">
-																		<ul>
-																			<li>
-																				<p><a href="https://web.archive.org/web/20201022120640/https://raymii.org/s/blog/I_enforced_the_AGPL_on_my_code_heres_how_it_went.html">I enforced the AGPL on my code, here’s how it went</a>:
-																					When enforcing a copyleft license resulted in non-cooperation instead of collaboration.
-																					While effective at protecting your work, copyleft licenses can be overwhelming to others who do not understand Open Source.
-																					The practical example in this article is a good reminder of possible outcomes when it comes to enforcing copyleft licenses.</p>
-																			</li>
-																		</ul>
-																	</div>
-																</div>
-																<div class="sect2">
-																	<h3 id="examples-content">3.2. Content licenses&nbsp;<a class="hanchor" href="#examples-content">🔗</a> </h3>
-																	<div class="ulist">
-																		<ul>
-																			<li>
-																				<p>Creative Commons <strong>NonCommercial clause</strong>:</p>
-																				<div class="ulist">
-																					<ul>
-																						<li>
-																							<p><a href="https://creativecommons.org/faq/#does-my-use-violate-the-noncommercial-clause-of-the-licenses">Does my use violate the Creative Commons NonCommercial clause of the licenses?</a>:
-																								Commonly misunderstood, the NonCommercial clause of the Creative Commons licenses are clear in prohibiting uses that are “primarily intended for or directed toward commercial advantage or monetary compensation.”
-																								This F.A.Q. by the Creative Commons offers more details on what NonCommercial implies.</p>
-																						</li>
-																						<li>
-																							<p><a href="https://wiki.creativecommons.org/wiki/NonCommercial_interpretation">NonCommercial interpretation</a>:
-																								The NonCommercial license element, explained.
-																								If you want the deep dive on everything about Creative Commons NonCommercial licenses, this is it.</p>
-																						</li>
-																					</ul>
-																				</div>
-																			</li>
-																		</ul>
-																	</div>
-																</div>
-																<div class="sect2">
-																	<h3 id="examples-data">3.3. Data licenses&nbsp;<a class="hanchor" href="#examples-data">🔗</a> </h3>
-																	<div class="paragraph">
-																		<p>These are examples of licenses or projects with open data licenses.</p>
-																	</div>
-																	<div class="ulist">
-																		<ul>
-																			<li>
-																				<p><a href="https://www.openstreetmap.org/copyright">OpenStreetMap - Copyright and License</a> - <em>OpenStreetMap</em></p>
-																				<div class="ulist">
-																					<ul>
-																						<li>
-																							<p>Good example of a project with an open data license</p>
-																						</li>
-																					</ul>
-																				</div>
-																			</li>
-																			<li>
-																				<p>Open Data Commons Open Database License (ODbL)</p>
-																				<div class="ulist">
-																					<ul>
-																						<li>
-																							<p><a href="https://opendatacommons.org/licenses/odbl/">Overview</a></p>
-																						</li>
-																						<li>
-																							<p><a href="https://opendatacommons.org/licenses/odbl/summary/">Human-readable summary</a></p>
-																						</li>
-																					</ul>
-																				</div>
-																			</li>
-																		</ul>
-																	</div>
-																</div>
-															</div>
-														</div>
-													</div>
-													<p class="post-meta border-bottom pb-3 mb-0 mt-3">Updated on 03 Dec 2021</p>
-													<nav class="pagination mt-3">
-														<a class="nav nav-prev" href="https://unicef.github.io/inventory/legal-policy/creative-commons/" aria-label="Previous page" ><i class="ti-arrow-left mr-2"></i> <span class="d-none d-md-block">Intro to Creative Commons licenses</span></a>
-														<a class="nav nav-next" href="https://unicef.github.io/inventory/legal-policy/trademark/" aria-label="Previous page" > <span class="d-none d-md-block">Trademark strategies</span><i class="ti-arrow-right ml-2"></i></a>
-													</nav>
-													<section class="my-3 py-3" id="related-articles">
-														<h5 class="text-center">Related Articles</h5>
-														<div class="row">
-															<div class="col-sm-4 my-2">
-																<a href="https://unicef.github.io/inventory/legal-policy/creative-commons/">
-																	<div class="card text-center">
-																		<div class="card-body">
-																			<h5 class="card-title">Intro to Creative Commons licenses</h5>
-																			<p class="card-subtitle mb-2 text-muted">A crash course on Creative Commons licenses and how they are applied at the UNICEF Venture Fund.</p>
+																<li data-nav-id="https://unicef.github.io/inventory/legal-policy/trademark/" title="Trademark strategies" class="sidelist
+  ">
+																	<div class="container">
+																		<div class="row">
+																			<div class="col-10">
+																				<a href="https://unicef.github.io/inventory/legal-policy/trademark/" class="">
+																					Trademark strategies
+																				</a>
+																			</div>
 																		</div>
-																	</div>
-																</a>
+																	</li>
+																</ul>
 															</div>
-															<div class="col-sm-4 my-2">
-																<a href="https://unicef.github.io/inventory/legal-policy/contributor-license-agreement-cla/">
-																	<div class="card text-center">
-																		<div class="card-body">
-																			<h5 class="card-title">Contributor License Agreements (CLAs)</h5>
-																			<p class="card-subtitle mb-2 text-muted">When does your Open Source project need a CLA? What alternatives exist? Cover your copyright in this intro to CLAs.</p>
-																		</div>
-																	</div>
-																</a>
-															</div>
-															<div class="col-sm-4 my-2">
-																<a href="https://unicef.github.io/inventory/legal-policy/trademark/">
-																	<div class="card text-center">
-																		<div class="card-body">
-																			<h5 class="card-title">Trademark strategies</h5>
-																			<p class="card-subtitle mb-2 text-muted">Guidance on developing a strategy for Open Source trademarks and branding.</p>
-																		</div>
-																	</div>
-																</a>
-															</div>
+														</li>
+														<div>
+															<button class="btn btn-primary btn-block" id="generatePDF">Get Pdf</button>
 														</div>
-													</section>
+													</ul>
 												</div>
 											</div>
 										</div>
 									</div>
-								</div>
-							</section>
-							<!-- /details page -->
-							<!-- footer -->
-							<footer class="section bg-primary p-4 mt-5">
-								<div class="container">
-									<div class="row align-items-center">
-										<div class="col-md-3 text-md-left text-center">
+								</nav>
+							</header>
+							<!-- /header -->
+							<script>
+								remSpace()
+							</script>
+							<script>
+								function remSpace() {
+								  document.getElementById("section").style.paddingTop = "3rem";
+								}
+							</script>
+							<!-- details page -->
+							<section class="single section-sm" id="section">
+								<div class="d-flex w-100">
+									<div class="sidebarContainer">
+										<div class="sidebar">
 											<ul>
-												<li><a class="nav-link text-white" href="/inventory">HOME</a></li>
-												<li class="nav-item">
-													<a class="nav-link text-white text-uppercase" href="https://unicef.github.io/inventory/faq">FAQ</a>
-												</li>
-												<li class="nav-item">
-													<a class="nav-link text-white text-uppercase" href="https://unicef.github.io/inventory/toolkits">toolkits</a>
-												</li>
-												<li class="nav-item">
-													<a class="nav-link text-white text-uppercase" href="https://unicef.github.io/inventory/cohorts">cohorts</a>
-												</li>
-											</ul>
-										</div>
-										<div class="col-md-6 text-md-center text-center">
-											<p class="mb-md-0 mb-4 text-white">The UNICEF Open Source Inventory is a knowledge-base of best practices, resources, and information about working and leading Open. This is maintained as part of the Open Source Mentorship programme offered by the UNICEF Venture Fund. The Inventory provides mentorship and guidance to anyone seeking to adopt best practices in their journey to building an Open Source project and community. It is self-serve, and can be used at various phases of building a project and community.</p>
-										</div>
-										<div class="col-md-3 text-md-right text-center">
-											<ul class="text-white">
-												<li class="nav-item">
-													<a class="nav-link text-white font-weight-bold" href="https://www.unicef.org/">UNICEF Global</a>
-												</li>
-												<li class="nav-item">
-													<a class="nav-link text-white font-weight-bold" href="https://www.unicefinnovationfund.org/">UNICEF Venture Fund</a>
-												</li>
-												<li class="nav-item">
-													<a class="nav-link text-white font-weight-bold" href="https://www.unicef.org/legal">Legal</a>
-													<p class="h6 text-md-right font-weight-light">Find legal information and policies related to UNICEF Global&#39;s digital communications.</p>
-												</li>
-											</ul>
-											<ul class="list-inline">
-												<li class="list-inline-item"><a class="text-color d-inline-block p-2 text-white" href="https://github.com/unicef/inventory" aria-label="UNICEF Open Source Inventory on GitHub"><i class="ti-github"></i></a></li>
-												<li class="list-inline-item"><a class="text-color d-inline-block p-2 text-white" href="https://twitter.com/UNICEFinnovate" aria-label="@UNICEFinnovate on Twitter"><i class="ti-twitter"></i></a></li>
-											</ul>
-										</div>
-									</div>
-								</div>
-								<p class="text-md-center text-center text-white mt-3 h6 font-italic">Creative Commons BY-SA 4.0. Site theme maintained by UNICEF. Original theme, Dot, created by ThemeFisher.</p>
-							</footer>
-							<!-- /footer -->
-							<!-- Main Script -->
-							<script src="https://unicef.github.io/inventory/js/script.min.js"></script>
-						</body>
-					</html>
+												<li data-nav-id="https://unicef.github.io/inventory/legal-policy/" title="Legal &amp; Policy" class="sidelist
+  ">
+													<a href="/inventory" class="d-inline  back-btn">
+														<i class="ti-back-right"></i>
+													</a>
+													<a href="https://unicef.github.io/inventory/legal-policy/" class="font-weight-bold d-inline">
+														Legal &amp; Policy
+													</a>
+													<div class="accordion" id="accordionExample">
+														<ul>
+															<li data-nav-id="https://unicef.github.io/inventory/legal-policy/contributor-license-agreement-cla/" title="Contributor License Agreements (CLAs)" class="sidelist
+  ">
+																<div class="container">
+																	<div class="row">
+																		<div class="col-10">
+																			<a href="https://unicef.github.io/inventory/legal-policy/contributor-license-agreement-cla/" class="">
+																				Contributor License Agreements (CLAs)
+																			</a>
+																		</div>
+																	</div>
+																</li>
+																<li data-nav-id="https://unicef.github.io/inventory/legal-policy/gpl-comparison/" title="GPLv2 vs. GPLv3" class="sidelist
+  ">
+																	<div class="container">
+																		<div class="row">
+																			<div class="col-10">
+																				<a href="https://unicef.github.io/inventory/legal-policy/gpl-comparison/" class="">
+																					GPLv2 vs. GPLv3
+																				</a>
+																			</div>
+																		</div>
+																	</li>
+																	<li data-nav-id="https://unicef.github.io/inventory/legal-policy/creative-commons/" title="Intro to Creative Commons licenses" class="sidelist
+  ">
+																		<div class="container">
+																			<div class="row">
+																				<div class="col-10">
+																					<a href="https://unicef.github.io/inventory/legal-policy/creative-commons/" class="">
+																						Intro to Creative Commons licenses
+																					</a>
+																				</div>
+																			</div>
+																		</li>
+																		<li data-nav-id="https://unicef.github.io/inventory/legal-policy/reading-list/" title="Reading List: Legal &amp; Business Aspects" class="sidelist
+  active">
+																			<div class="container">
+																				<div class="row">
+																					<div class="col-10">
+																						<a href="https://unicef.github.io/inventory/legal-policy/reading-list/" class="">
+																							Reading List: Legal &amp; Business Aspects
+																						</a>
+																					</div>
+																				</div>
+																			</li>
+																			<li data-nav-id="https://unicef.github.io/inventory/legal-policy/trademark/" title="Trademark strategies" class="sidelist
+  ">
+																				<div class="container">
+																					<div class="row">
+																						<div class="col-10">
+																							<a href="https://unicef.github.io/inventory/legal-policy/trademark/" class="">
+																								Trademark strategies
+																							</a>
+																						</div>
+																					</div>
+																				</li>
+																			</ul>
+																		</div>
+																	</li>
+																	<div>
+																		<button class="btn btn-primary btn-block" id="generatePDF">Get Pdf</button>
+																	</div>
+																</ul>
+															</div>
+														</div>
+														<div class="contentContainer py-5 px-5">
+															<div class="p-lg-5 p-4 bg-white position-relative mx-5 my-3 w-100 contentBox" id="content">
+																<div class="d-flex flex-row-reverse p-absolute">
+																	<button id="editBtn" value="https://github.com/unicef/inventory/blob/main/content/legal-policy/reading-list.en.adoc" class="editBtn py-2 px-3">Edit this Page</button>
+																</div>
+																<div class="p-lg-5 p-3 bg-white">
+																	<h2 id="title">Reading List: Legal &amp; Business Aspects</h2>
+																	<div class="content mt-5">
+																		<div id="toc" class="toc">
+																			<div id="toctitle">Table of Contents</div>
+																			<ul class="sectlevel1">
+																				<li><a href="#foundations">1. Foundations</a></li>
+																				<li><a href="#choosing">2. Choosing a license</a>
+																					<ul class="sectlevel2">
+																						<li><a href="#choosing-permissive">2.1. Choosing permissive</a></li>
+																						<li><a href="#choosing-copyleft">2.2. Choosing copyleft</a></li>
+																					</ul>
+																				</li>
+																				<li><a href="#examples">3. Examples</a>
+																					<ul class="sectlevel2">
+																						<li><a href="#examples-software">3.1. Software licenses</a></li>
+																						<li><a href="#examples-content">3.2. Content licenses</a></li>
+																						<li><a href="#examples-data">3.3. Data licenses</a></li>
+																					</ul>
+																				</li>
+																			</ul>
+																		</div>
+																		<div class="paragraph">
+																			<p>This reading list is a collection of resources on legal and business aspects of open source.
+																				Legal and business aspects of an open source project are part of the foundation for building your project and community.
+																				The resources linked here are intended to give you a better idea of open source from a legal perspective.</p>
+																		</div>
+																		<div class="sect1">
+																			<h2 id="foundations">1. Foundations&nbsp;<a class="hanchor" href="#foundations">🔗</a> </h2>
+																			<div class="sectionbody">
+																				<div class="ulist">
+																					<ul>
+																						<li>
+																							<p><a href="https://opensource.org/osd-annotated">The Open Source Definition (Annotated)</a> - <em>Open Source Initiative</em></p>
+																						</li>
+																						<li>
+																							<p><a href="https://opensource.org/licenses/alphabetical">Open Source Licenses by Name</a> - <em>Open Source Initiative</em></p>
+																						</li>
+																						<li>
+																							<p><a href="https://opensource.com/resources/what-is-copyleft">What is copyleft?</a> - <em><a href="https://twitter.com/FunnelFiasco">Ben Cotton</a>, Opensource.com</em></p>
+																						</li>
+																					</ul>
+																				</div>
+																			</div>
+																		</div>
+																		<div class="sect1">
+																			<h2 id="choosing">2. Choosing a license&nbsp;<a class="hanchor" href="#choosing">🔗</a> </h2>
+																			<div class="sectionbody">
+																				<div class="ulist">
+																					<ul>
+																						<li>
+																							<p><a href="https://choosealicense.com/">Choose an open source license</a> - <em>curated by GitHub</em></p>
+																						</li>
+																						<li>
+																							<p><a href="https://tldrlegal.com/">TLDRLegal - Software licenses explained in plain English</a> - <em>FOSSA, Inc</em></p>
+																						</li>
+																					</ul>
+																				</div>
+																				<div class="sect2">
+																					<h3 id="choosing-permissive">2.1. Choosing permissive&nbsp;<a class="hanchor" href="#choosing-permissive">🔗</a> </h3>
+																					<div class="paragraph">
+																						<p>You have decided you want to choose a permissive license, but now what?
+																							Unless you have a good reason, there are 3-4 licenses that are most appealing.
+																							These resources will help you figure out key differences between common permissive licenses.</p>
+																					</div>
+																					<div class="ulist">
+																						<ul>
+																							<li>
+																								<p><a href="https://opensource.com/article/18/2/how-make-sense-apache-2-patent-license">How to make sense of the Apache 2 patent license</a>:
+																									&#34;The Apache 2 license’s patent grant, often misunderstood, makes open source safe to use.&#34;
+																									(<a href="https://www.linkedin.com/in/jrkaufman/"><em>Jeffrey Robert Kaufman</em></a>, <em>Opensource.com</em>)</p>
+																							</li>
+																						</ul>
+																					</div>
+																				</div>
+																				<div class="sect2">
+																					<h3 id="choosing-copyleft">2.2. Choosing copyleft&nbsp;<a class="hanchor" href="#choosing-copyleft">🔗</a> </h3>
+																					<div class="paragraph">
+																						<p>You have decided you want to choose a copyleft license, but now what?
+																							These resources will help you figure out the differences between the most common copyleft licenses.</p>
+																					</div>
+																					<div class="ulist">
+																						<ul>
+																							<li>
+																								<p><a href="https://www.quora.com/What-is-the-difference-between-GPL-AGPL-and-LGPL-licenses">What is the difference between GPL, AGPL and LGPL licenses?</a> - <em>Quora</em></p>
+																							</li>
+																							<li>
+																								<p><a href="https://www.gnu.org/licenses/why-affero-gpl.en.html">Why the Affero GPL</a> - <em>Free Software Foundation (FSF)</em></p>
+																							</li>
+																						</ul>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																		<div class="sect1">
+																			<h2 id="examples">3. Examples&nbsp;<a class="hanchor" href="#examples">🔗</a> </h2>
+																			<div class="sectionbody">
+																				<div class="paragraph">
+																					<p>These are a collection of specific examples or scenarios with Open Source licenses.
+																						They may cover specific projects using a specific license, or may be more general-purpose considerations for any license.</p>
+																				</div>
+																				<div class="sect2">
+																					<h3 id="examples-software">3.1. Software licenses&nbsp;<a class="hanchor" href="#examples-software">🔗</a> </h3>
+																					<div class="ulist">
+																						<ul>
+																							<li>
+																								<p><a href="https://web.archive.org/web/20201022120640/https://raymii.org/s/blog/I_enforced_the_AGPL_on_my_code_heres_how_it_went.html">I enforced the AGPL on my code, here’s how it went</a>:
+																									When enforcing a copyleft license resulted in non-cooperation instead of collaboration.
+																									While effective at protecting your work, copyleft licenses can be overwhelming to others who do not understand Open Source.
+																									The practical example in this article is a good reminder of possible outcomes when it comes to enforcing copyleft licenses.</p>
+																							</li>
+																						</ul>
+																					</div>
+																				</div>
+																				<div class="sect2">
+																					<h3 id="examples-content">3.2. Content licenses&nbsp;<a class="hanchor" href="#examples-content">🔗</a> </h3>
+																					<div class="ulist">
+																						<ul>
+																							<li>
+																								<p>Creative Commons <strong>NonCommercial clause</strong>:</p>
+																								<div class="ulist">
+																									<ul>
+																										<li>
+																											<p><a href="https://creativecommons.org/faq/#does-my-use-violate-the-noncommercial-clause-of-the-licenses">Does my use violate the Creative Commons NonCommercial clause of the licenses?</a>:
+																												Commonly misunderstood, the NonCommercial clause of the Creative Commons licenses are clear in prohibiting uses that are “primarily intended for or directed toward commercial advantage or monetary compensation.”
+																												This F.A.Q. by the Creative Commons offers more details on what NonCommercial implies.</p>
+																										</li>
+																										<li>
+																											<p><a href="https://wiki.creativecommons.org/wiki/NonCommercial_interpretation">NonCommercial interpretation</a>:
+																												The NonCommercial license element, explained.
+																												If you want the deep dive on everything about Creative Commons NonCommercial licenses, this is it.</p>
+																										</li>
+																									</ul>
+																								</div>
+																							</li>
+																						</ul>
+																					</div>
+																				</div>
+																				<div class="sect2">
+																					<h3 id="examples-data">3.3. Data licenses&nbsp;<a class="hanchor" href="#examples-data">🔗</a> </h3>
+																					<div class="paragraph">
+																						<p>These are examples of licenses or projects with open data licenses.</p>
+																					</div>
+																					<div class="ulist">
+																						<ul>
+																							<li>
+																								<p><a href="https://www.openstreetmap.org/copyright">OpenStreetMap - Copyright and License</a> - <em>OpenStreetMap</em></p>
+																								<div class="ulist">
+																									<ul>
+																										<li>
+																											<p>Good example of a project with an open data license</p>
+																										</li>
+																									</ul>
+																								</div>
+																							</li>
+																							<li>
+																								<p>Open Data Commons Open Database License (ODbL)</p>
+																								<div class="ulist">
+																									<ul>
+																										<li>
+																											<p><a href="https://opendatacommons.org/licenses/odbl/">Overview</a></p>
+																										</li>
+																										<li>
+																											<p><a href="https://opendatacommons.org/licenses/odbl/summary/">Human-readable summary</a></p>
+																										</li>
+																									</ul>
+																								</div>
+																							</li>
+																						</ul>
+																					</div>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																	<p class="post-meta border-bottom pb-3 mb-0 mt-3">Updated on 03 Dec 2021</p>
+																	<nav class="pagination mt-3">
+																		<a class="nav nav-prev" href="https://unicef.github.io/inventory/legal-policy/creative-commons/" aria-label="Previous page" ><i class="ti-arrow-left mr-2"></i> <span class="d-none d-md-block">Intro to Creative Commons licenses</span></a>
+																		<a class="nav nav-next" href="https://unicef.github.io/inventory/legal-policy/trademark/" aria-label="Previous page" > <span class="d-none d-md-block">Trademark strategies</span><i class="ti-arrow-right ml-2"></i></a>
+																	</nav>
+																	<section class="my-3 py-3" id="related-articles">
+																		<h5 class="text-center">Related Articles</h5>
+																		<div class="row">
+																			<div class="col-sm-4 my-2">
+																				<a href="https://unicef.github.io/inventory/legal-policy/gpl-comparison/">
+																					<div class="card text-center">
+																						<div class="card-body">
+																							<h5 class="card-title">GPLv2 vs. GPLv3</h5>
+																							<p class="card-subtitle mb-2 text-muted">A deep dive on the exact differences between the Free Software Foundation&#39;s two versions of the GPL license.</p>
+																						</div>
+																					</div>
+																				</a>
+																			</div>
+																			<div class="col-sm-4 my-2">
+																				<a href="https://unicef.github.io/inventory/legal-policy/trademark/">
+																					<div class="card text-center">
+																						<div class="card-body">
+																							<h5 class="card-title">Trademark strategies</h5>
+																							<p class="card-subtitle mb-2 text-muted">Guidance on developing a strategy for Open Source trademarks and branding.</p>
+																						</div>
+																					</div>
+																				</a>
+																			</div>
+																		</div>
+																	</section>
+																</div>
+															</div>
+														</div>
+													</div>
+												</section>
+												<!-- /details page -->
+												<!-- footer -->
+												<footer class="section bg-primary p-4 mt-5">
+													<div class="container">
+														<div class="row align-items-center">
+															<div class="col-md-3 text-md-left text-center">
+																<ul>
+																	<li><a class="nav-link text-white" href="/inventory">HOME</a></li>
+																	<li class="nav-item">
+																		<a class="nav-link text-white text-uppercase" href="https://unicef.github.io/inventory/faq">FAQ</a>
+																	</li>
+																	<li class="nav-item">
+																		<a class="nav-link text-white text-uppercase" href="https://unicef.github.io/inventory/toolkits">toolkits</a>
+																	</li>
+																	<li class="nav-item">
+																		<a class="nav-link text-white text-uppercase" href="https://unicef.github.io/inventory/cohorts">cohorts</a>
+																	</li>
+																</ul>
+															</div>
+															<div class="col-md-6 text-md-center text-center">
+																<p class="mb-md-0 mb-4 text-white">The UNICEF Open Source Inventory is a knowledge-base of best practices, resources, and information about working and leading Open. This is maintained as part of the Open Source Mentorship programme offered by the UNICEF Venture Fund. The Inventory provides mentorship and guidance to anyone seeking to adopt best practices in their journey to building an Open Source project and community. It is self-serve, and can be used at various phases of building a project and community.</p>
+															</div>
+															<div class="col-md-3 text-md-right text-center">
+																<ul class="text-white">
+																	<li class="nav-item">
+																		<a class="nav-link text-white font-weight-bold px-0" href="https://www.unicef.org/">UNICEF Global</a>
+																	</li>
+																	<li class="nav-item">
+																		<a class="nav-link text-white font-weight-bold px-0" href="https://www.unicefinnovationfund.org/">UNICEF Venture Fund</a>
+																	</li>
+																	<li class="nav-item">
+																		<a class="nav-link text-white font-weight-bold px-0" href="https://www.unicef.org/legal">Legal</a>
+																		<p class="h6 text-md-right font-weight-light">Find legal information and policies related to UNICEF Global&#39;s digital communications.</p>
+																	</li>
+																</ul>
+																<ul class="list-inline">
+																	<li class="list-inline-item"><a class="text-color d-inline-block p-2 text-white socialIcon" href="https://github.com/unicef/inventory" aria-label="UNICEF Open Source Inventory on GitHub"><i class="ti-github"></i></a></li>
+																	<li class="list-inline-item"><a class="text-color d-inline-block p-2 text-white socialIcon" href="https://twitter.com/UNICEFinnovate" aria-label="@UNICEFinnovate on Twitter"><i class="ti-twitter"></i></a></li>
+																</ul>
+															</div>
+														</div>
+													</div>
+													<p class="text-md-center text-center text-white mt-3 h6 font-italic">Creative Commons BY-SA 4.0. Site theme maintained by UNICEF. Original theme, Dot, created by ThemeFisher.</p>
+												</footer>
+												<!-- /footer -->
+												<!-- Main Script -->
+												<script src="https://unicef.github.io/inventory/js/script.min.js"></script>
+											</body>
+										</html>

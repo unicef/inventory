@@ -76,23 +76,26 @@
 		<meta name="twitter:title" content="How to create a new Inventory category"/>
 		<meta name="twitter:description" content="Guidance on creating a new content category in the Open Source Inventory."/>
 	</head>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 	<body>
 		<!-- header -->
 		<header class="shadow-bottom sticky-top bg-white">
-			<nav class="navbar navbar-expand-md navbar-dark" style=" background-color: #1CABE2">
-				<div class="container px-2 px-md-0 navigation-bar">
+			<nav class="navbar navbar-expand-md navbar-dark d-flex flex-column p-0" style=" background-color: #1CABE2">
+				<div class="w-100 container mx-0 navigation-bar">
 					<div id="site-brand">
-						<a class="navbar-brand px-2" href="https://www.unicef.org/">
+						<a class="navbar-brand px-2"
+        href="https://www.unicef.org/">
 							<div class="text-center nav-heading">
 								<img class="img-fluid nav-img" src="https://unicef.github.io/inventory/images/unicef-logo.png" alt="UNICEF O.S. Inventory">
 								<a class="d-block nav-title" href="/inventory">UNICEF O.S. Inventory</a>
 							</div>
 						</a>
 					</div>
-					<button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation"
+					<a class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation"
       aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
-						<span class="navbar-toggler-icon"></span>
-					</button>
+						<span class="sidebarIcon navbarMenu">Menu<i class="fa-solid fa-caret-down d-inline p-1"></i>
+						</span>
+					</a>
 					<div class="collapse navbar-collapse text-center" id="navigation">
 						<ul class="navbar-nav ml-auto">
 							<li class="nav-item">
@@ -148,279 +151,459 @@
 							<option id="en" value="https://unicef.github.io/inventory/meta/inventory/create-new-category/" selected>en
 							</option>
 						</select>
+						<p class="text-white unicef-glob ml-4 mt-3">Visit <a href="https://www.unicef.org/" class="text-white">UNICEF Global <i
+        class="fas fa-angle-double-right"></i></a></p>
 					</div>
 				</div>
-				<p class="text-white unicef-glob mx-3">Visit <a href="https://www.unicef.org/" class="text-white">UNICEF Global <i class="fas fa-angle-double-right"></i></a></p>
-			</nav>
-		</header>
-		<!-- /header -->
-		<script>
-			remSpace()
-		</script>
-		<script>
-			function remSpace() {
-			  document.getElementById("section").style.paddingTop = "3rem";
-			}
-		</script>
-		<!-- details page -->
-		<section class="single section-sm main-section" id="section">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-3">
-						<div class="sidebar">
-							<a class="back-btn" href="/inventory" aria-label="back"></a>
-							<ul>
-								<li data-nav-id="https://unicef.github.io/inventory/meta/" title="Meta" class="sidelist
+				<div class="w-100 py-2 breadcrumbBar text-light" style=" background-color: #374ea2">
+					<div class="container">
+						<div class="breadcrumbs">
+							<a href="https://unicef.github.io/inventory/">Home</a>
+							&gt; <a href="https://unicef.github.io/inventory/meta" class="breadcrumbLink">meta</a>
+							&gt; <a href="https://unicef.github.io/inventory/meta/inventory" class="breadcrumbLink">inventory</a>
+							&gt; <a href="https://unicef.github.io/inventory/meta/inventory/create-new-category" class="breadcrumbLink">create-new-category</a>
+						</div>
+						<a data-toggle="collapse" data-target="#sidebarMobile"  aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation"> <i class="ti-menu text-light sidebarIcon"></i></a>
+						<div class="text-light text-center sidebarMobile collapse justify-content-center" id="sidebarMobile">
+							<div class="sidebarBox">
+								<ul>
+									<li data-nav-id="https://unicef.github.io/inventory/meta/" title="Meta" class="sidelist
   ">
-									<a href="https://unicef.github.io/inventory/meta/" class="font-weight-bold">
-										Meta
-									</a>
-									<div class="accordion" id="accordionExample">
-										<ul>
-											<li data-nav-id="https://unicef.github.io/inventory/meta/inventory/" title="Open Source Inventory maintenance" class="sidelist
+										<a href="/inventory" class="d-inline  back-btn">
+											<i class="ti-back-right"></i>
+										</a>
+										<a href="https://unicef.github.io/inventory/meta/" class="font-weight-bold d-inline">
+											Meta
+										</a>
+										<div class="accordion" id="accordionExample">
+											<ul>
+												<li data-nav-id="https://unicef.github.io/inventory/meta/inventory/" title="Open Source Inventory maintenance" class="sidelist
   ">
-												<div class="container">
-													<div class="row">
-														<div class="col-10">
-															<a href="https://unicef.github.io/inventory/meta/inventory/" class="">
-																Open Source Inventory maintenance
-															</a>
+													<div class="container">
+														<div class="row">
+															<div class="col-10">
+																<a href="https://unicef.github.io/inventory/meta/inventory/" class="">
+																	Open Source Inventory maintenance
+																</a>
+															</div>
+															<div class="col-2 ">
+																<i class="fas fa-chevron-down align-middle" type="button" data-toggle="collapse" data-target="#collapse201a5f1fef99ccd8c9390544ca64fa39" aria-expanded="false" aria-controls='collapse201a5f1fef99ccd8c9390544ca64fa39'>
+																</i>
+															</div>
 														</div>
-														<div class="col-2 ">
-															<i class="fas fa-chevron-down align-middle" type="button" data-toggle="collapse" data-target="#collapsecc44596c959a0394ca3efaf19d0f1f28" aria-expanded="false" aria-controls='collapsecc44596c959a0394ca3efaf19d0f1f28'>
-															</i>
-														</div>
-													</div>
-													<div id='collapsecc44596c959a0394ca3efaf19d0f1f28' class="collapse" aria-labelledby="headingcc44596c959a0394ca3efaf19d0f1f28" data-parent="#accordionExample">
-														<div class="sidebar-scroll">
-															<ul>
-																<li data-nav-id="https://unicef.github.io/inventory/meta/inventory/create-new-category/" title="How to create a new Inventory category" class="sidelist
+														<div id='collapse201a5f1fef99ccd8c9390544ca64fa39' class="collapse" aria-labelledby="heading201a5f1fef99ccd8c9390544ca64fa39" data-parent="#accordionExample">
+															<div class="sidebar-scroll">
+																<ul>
+																	<li data-nav-id="https://unicef.github.io/inventory/meta/inventory/create-new-category/" title="How to create a new Inventory category" class="sidelist
   active">
-																	<div class="container">
-																		<div class="row">
-																			<div class="col-10">
-																				<a href="https://unicef.github.io/inventory/meta/inventory/create-new-category/" class="">
-																					How to create a new Inventory category
-																				</a>
-																			</div>
-																		</div>
-																	</li>
-																	<li data-nav-id="https://unicef.github.io/inventory/meta/inventory/create-new-mission/" title="How to create a new Inventory Mission" class="sidelist
-  ">
 																		<div class="container">
 																			<div class="row">
 																				<div class="col-10">
-																					<a href="https://unicef.github.io/inventory/meta/inventory/create-new-mission/" class="">
-																						How to create a new Inventory Mission
+																					<a href="https://unicef.github.io/inventory/meta/inventory/create-new-category/" class="">
+																						How to create a new Inventory category
 																					</a>
 																				</div>
 																			</div>
 																		</li>
-																		<li data-nav-id="https://unicef.github.io/inventory/meta/inventory/intern-guide/" title="Intern&#39;s guide for O.S. Inventory" class="sidelist
+																		<li data-nav-id="https://unicef.github.io/inventory/meta/inventory/create-new-mission/" title="How to create a new Inventory Mission" class="sidelist
   ">
 																			<div class="container">
 																				<div class="row">
 																					<div class="col-10">
-																						<a href="https://unicef.github.io/inventory/meta/inventory/intern-guide/" class="">
-																							Intern&#39;s guide for O.S. Inventory
+																						<a href="https://unicef.github.io/inventory/meta/inventory/create-new-mission/" class="">
+																							How to create a new Inventory Mission
 																						</a>
 																					</div>
 																				</div>
 																			</li>
-																			<li data-nav-id="https://unicef.github.io/inventory/meta/inventory/maintainers-guide/" title="Maintainer&#39;s guide for O.S. Inventory" class="sidelist
+																			<li data-nav-id="https://unicef.github.io/inventory/meta/inventory/intern-guide/" title="Intern&#39;s guide for O.S. Inventory" class="sidelist
   ">
 																				<div class="container">
 																					<div class="row">
 																						<div class="col-10">
-																							<a href="https://unicef.github.io/inventory/meta/inventory/maintainers-guide/" class="">
-																								Maintainer&#39;s guide for O.S. Inventory
+																							<a href="https://unicef.github.io/inventory/meta/inventory/intern-guide/" class="">
+																								Intern&#39;s guide for O.S. Inventory
 																							</a>
 																						</div>
 																					</div>
 																				</li>
-																			</ul>
-																		</div>
-																	</div>
-																</li>
-																<li data-nav-id="https://unicef.github.io/inventory/meta/mentorship/" title="Open Source Mentorship" class="sidelist
+																				<li data-nav-id="https://unicef.github.io/inventory/meta/inventory/maintainers-guide/" title="Maintainer&#39;s guide for O.S. Inventory" class="sidelist
   ">
-																	<div class="container">
-																		<div class="row">
-																			<div class="col-10">
-																				<a href="https://unicef.github.io/inventory/meta/mentorship/" class="">
-																					Open Source Mentorship
-																				</a>
-																			</div>
-																			<div class="col-2 ">
-																				<i class="fas fa-chevron-down align-middle" type="button" data-toggle="collapse" data-target="#collapse913e4389dc109afa5afcc4f9c4690f25" aria-expanded="false" aria-controls='collapse913e4389dc109afa5afcc4f9c4690f25'>
-																				</i>
-																			</div>
-																		</div>
-																		<div id='collapse913e4389dc109afa5afcc4f9c4690f25' class="collapse" aria-labelledby="heading913e4389dc109afa5afcc4f9c4690f25" data-parent="#accordionExample">
-																			<div class="sidebar-scroll">
-																				<ul>
-																					<li data-nav-id="https://unicef.github.io/inventory/meta/mentorship/overview/" title="Open Source Mentorship programme overview" class="sidelist
-  ">
-																						<div class="container">
-																							<div class="row">
-																								<div class="col-10">
-																									<a href="https://unicef.github.io/inventory/meta/mentorship/overview/" class="">
-																										Open Source Mentorship programme overview
-																									</a>
-																								</div>
+																					<div class="container">
+																						<div class="row">
+																							<div class="col-10">
+																								<a href="https://unicef.github.io/inventory/meta/inventory/maintainers-guide/" class="">
+																									Maintainer&#39;s guide for O.S. Inventory
+																								</a>
 																							</div>
-																						</li>
-																						<li data-nav-id="https://unicef.github.io/inventory/meta/mentorship/modules/" title="Modules" class="sidelist
+																						</div>
+																					</li>
+																				</ul>
+																			</div>
+																		</div>
+																	</li>
+																	<li data-nav-id="https://unicef.github.io/inventory/meta/mentorship/" title="Open Source Mentorship" class="sidelist
+  ">
+																		<div class="container">
+																			<div class="row">
+																				<div class="col-10">
+																					<a href="https://unicef.github.io/inventory/meta/mentorship/" class="">
+																						Open Source Mentorship
+																					</a>
+																				</div>
+																				<div class="col-2 ">
+																					<i class="fas fa-chevron-down align-middle" type="button" data-toggle="collapse" data-target="#collapse9c6999a159cf8a235440fd04ae3c1fcf" aria-expanded="false" aria-controls='collapse9c6999a159cf8a235440fd04ae3c1fcf'>
+																					</i>
+																				</div>
+																			</div>
+																			<div id='collapse9c6999a159cf8a235440fd04ae3c1fcf' class="collapse" aria-labelledby="heading9c6999a159cf8a235440fd04ae3c1fcf" data-parent="#accordionExample">
+																				<div class="sidebar-scroll">
+																					<ul>
+																						<li data-nav-id="https://unicef.github.io/inventory/meta/mentorship/overview/" title="Open Source Mentorship programme overview" class="sidelist
   ">
 																							<div class="container">
 																								<div class="row">
 																									<div class="col-10">
-																										<a href="https://unicef.github.io/inventory/meta/mentorship/modules/" class="">
-																											Modules
+																										<a href="https://unicef.github.io/inventory/meta/mentorship/overview/" class="">
+																											Open Source Mentorship programme overview
 																										</a>
 																									</div>
 																								</div>
 																							</li>
-																							<li data-nav-id="https://unicef.github.io/inventory/meta/mentorship/needs-assessment-template/" title="Needs assessment interview template" class="sidelist
+																							<li data-nav-id="https://unicef.github.io/inventory/meta/mentorship/modules/" title="Modules" class="sidelist
   ">
 																								<div class="container">
 																									<div class="row">
 																										<div class="col-10">
-																											<a href="https://unicef.github.io/inventory/meta/mentorship/needs-assessment-template/" class="">
-																												Needs assessment interview template
+																											<a href="https://unicef.github.io/inventory/meta/mentorship/modules/" class="">
+																												Modules
 																											</a>
 																										</div>
 																									</div>
 																								</li>
-																								<li data-nav-id="https://unicef.github.io/inventory/meta/mentorship/onboarding/" title="On-boarding guide for UNICEF Venture Fund teams" class="sidelist
+																								<li data-nav-id="https://unicef.github.io/inventory/meta/mentorship/needs-assessment-template/" title="Needs assessment interview template" class="sidelist
   ">
 																									<div class="container">
 																										<div class="row">
 																											<div class="col-10">
-																												<a href="https://unicef.github.io/inventory/meta/mentorship/onboarding/" class="">
-																													On-boarding guide for UNICEF Venture Fund teams
+																												<a href="https://unicef.github.io/inventory/meta/mentorship/needs-assessment-template/" class="">
+																													Needs assessment interview template
 																												</a>
 																											</div>
 																										</div>
 																									</li>
-																									<li data-nav-id="https://unicef.github.io/inventory/meta/mentorship/templates/" title="Templates for programme mentors" class="sidelist
+																									<li data-nav-id="https://unicef.github.io/inventory/meta/mentorship/onboarding/" title="On-boarding guide for UNICEF Venture Fund teams" class="sidelist
   ">
 																										<div class="container">
 																											<div class="row">
 																												<div class="col-10">
-																													<a href="https://unicef.github.io/inventory/meta/mentorship/templates/" class="">
-																														Templates for programme mentors
+																													<a href="https://unicef.github.io/inventory/meta/mentorship/onboarding/" class="">
+																														On-boarding guide for UNICEF Venture Fund teams
 																													</a>
 																												</div>
 																											</div>
 																										</li>
-																										<li data-nav-id="https://unicef.github.io/inventory/meta/mentorship/workplan-bridge-funding/" title="Workplan: Bridge Fund cohort" class="sidelist
+																										<li data-nav-id="https://unicef.github.io/inventory/meta/mentorship/templates/" title="Templates for programme mentors" class="sidelist
   ">
 																											<div class="container">
 																												<div class="row">
 																													<div class="col-10">
-																														<a href="https://unicef.github.io/inventory/meta/mentorship/workplan-bridge-funding/" class="">
-																															Workplan: Bridge Fund cohort
+																														<a href="https://unicef.github.io/inventory/meta/mentorship/templates/" class="">
+																															Templates for programme mentors
 																														</a>
 																													</div>
 																												</div>
 																											</li>
-																										</ul>
+																											<li data-nav-id="https://unicef.github.io/inventory/meta/mentorship/workplan-bridge-funding/" title="Workplan: Bridge Fund cohort" class="sidelist
+  ">
+																												<div class="container">
+																													<div class="row">
+																														<div class="col-10">
+																															<a href="https://unicef.github.io/inventory/meta/mentorship/workplan-bridge-funding/" class="">
+																																Workplan: Bridge Fund cohort
+																															</a>
+																														</div>
+																													</div>
+																												</li>
+																											</ul>
+																										</div>
 																									</div>
-																								</div>
-																							</li>
-																							<li data-nav-id="https://unicef.github.io/inventory/meta/workflow-metrics/" title="Workflow: Update external UNICEF metrics" class="sidelist
+																								</li>
+																								<li data-nav-id="https://unicef.github.io/inventory/meta/workflow-metrics/" title="Workflow: Update external UNICEF metrics" class="sidelist
+  ">
+																									<div class="container">
+																										<div class="row">
+																											<div class="col-10">
+																												<a href="https://unicef.github.io/inventory/meta/workflow-metrics/" class="">
+																													Workflow: Update external UNICEF metrics
+																												</a>
+																											</div>
+																										</div>
+																									</li>
+																								</ul>
+																							</div>
+																						</li>
+																						<div>
+																							<button class="btn btn-primary btn-block" id="generatePDF">Get Pdf</button>
+																						</div>
+																					</ul>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																</nav>
+															</header>
+															<!-- /header -->
+															<script>
+																remSpace()
+															</script>
+															<script>
+																function remSpace() {
+																  document.getElementById("section").style.paddingTop = "3rem";
+																}
+															</script>
+															<!-- details page -->
+															<section class="single section-sm" id="section">
+																<div class="d-flex w-100">
+																	<div class="sidebarContainer">
+																		<div class="sidebar">
+																			<ul>
+																				<li data-nav-id="https://unicef.github.io/inventory/meta/" title="Meta" class="sidelist
+  ">
+																					<a href="/inventory" class="d-inline  back-btn">
+																						<i class="ti-back-right"></i>
+																					</a>
+																					<a href="https://unicef.github.io/inventory/meta/" class="font-weight-bold d-inline">
+																						Meta
+																					</a>
+																					<div class="accordion" id="accordionExample">
+																						<ul>
+																							<li data-nav-id="https://unicef.github.io/inventory/meta/inventory/" title="Open Source Inventory maintenance" class="sidelist
   ">
 																								<div class="container">
 																									<div class="row">
 																										<div class="col-10">
-																											<a href="https://unicef.github.io/inventory/meta/workflow-metrics/" class="">
-																												Workflow: Update external UNICEF metrics
+																											<a href="https://unicef.github.io/inventory/meta/inventory/" class="">
+																												Open Source Inventory maintenance
 																											</a>
 																										</div>
+																										<div class="col-2 ">
+																											<i class="fas fa-chevron-down align-middle" type="button" data-toggle="collapse" data-target="#collapsefc6c2e1c999390f5410dfa384a4c95fa" aria-expanded="false" aria-controls='collapsefc6c2e1c999390f5410dfa384a4c95fa'>
+																											</i>
+																										</div>
 																									</div>
-																								</li>
-																							</ul>
-																						</div>
-																					</li>
-																					<div>
-																						<button class="btn btn-primary btn-block" id="generatePDF">Get Pdf</button>
-																					</div>
-																				</ul>
-																			</div>
-																		</div>
-																		<div class="col-lg-9">
-																			<div class="bg-white p-3" style="margin:auto">
-																				<script language="JavaScript">
-																					String.prototype.capitalizeFirstLetter = function() {
-																					   return this.charAt(0).toUpperCase() + this.slice(1);
-																					}
-
-																					var path = "<a style='margin-left:2%' href='https:\/\/unicef.github.io\/inventory\/'>Home</a>";
-																					var href = document.location.href;
-																					var s = href.split("/");
-																					for (var i=3;i<(s.length-2);i++) {
-																					   path+=" &gt;  <a href=\""+href.substring(0,href.indexOf("/"+s[i])+s[i].length+1)+"/\">"+s[i].capitalizeFirstLetter()+"</a> ";
-																					}
-																					i=s.length-1;
-																					path+="<a href=\""+href.substring(0,href.indexOf(s[i])+s[i].length)+"\">"+s[i]+"</a>";
-																					path+="  &gt;  <b>How to create a new Inventory category</b>";
-																					document.writeln(path);
-																				</script>
-																			</div>
-																			<div class="p-lg-5 p-4 bg-white position-relative" id="content">
-																				<div class="d-flex flex-row-reverse">
-																					<button id="editBtn" value="https://github.com/unicef/inventory/blob/main/content/meta/inventory/create-new-category.en.adoc" class="editBtn py-2 px-3">Edit this Page</button>
-																				</div>
-																				<div class="p-lg-5 p-3 bg-white">
-																					<h2 id="title">How to create a new Inventory category</h2>
-																					<div class="content mt-5">
-																						<div id="toc" class="toc">
-																							<div id="toctitle">Table of Contents</div>
-																							<ul class="sectlevel1">
-																								<li><a href="#steps">1. Steps</a></li>
-																								<li><a href="#template">2. Template for new index pages</a>
-																									<ul class="sectlevel2">
-																										<li><a href="#template--choose-icon">2.1. Choose an icon</a></li>
-																									</ul>
-																								</li>
-																							</ul>
-																						</div>
-																						<div class="paragraph">
-																							<p>This how-to article explains how to create a new category in the Open Source Inventory.</p>
-																						</div>
-																						<div class="sect1">
-																							<h2 id="steps">1. Steps&nbsp;<a class="hanchor" href="#steps">🔗</a> </h2>
-																							<div class="sectionbody">
-																								<div class="olist arabic">
-																									<ol class="arabic">
-																										<li>
-																											<p>Create a new folder in the <code>content/</code> directory.</p>
-																										</li>
-																										<li>
-																											<p>Create a <code>_index.en.adoc</code> page in the new directory (see <a href="#template">template</a>).</p>
-																										</li>
-																										<li>
-																											<p>Add the category to <code>config.yml</code> as a child to <code>[[menu.main]]</code>.
-																												See other categories in the config as an example.</p>
-																										</li>
-																									</ol>
-																								</div>
-																							</div>
-																						</div>
-																						<div class="sect1">
-																							<h2 id="template">2. Template for new index pages&nbsp;<a class="hanchor" href="#template">🔗</a> </h2>
-																							<div class="sectionbody">
-																								<div class="paragraph">
-																									<p>Use this base template for the front-matter of a new index page:</p>
-																								</div>
-																								<div class="paragraph">
-																									<div class="highlight">
-																										<div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;display:grid;">
-																											<table style="border-spacing:0;padding:0;margin:0;border:0;">
-																												<tr>
-																													<td style="vertical-align:top;padding:0;margin:0;border:0;">
-																														<pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;display:grid;"><code><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+																									<div id='collapsefc6c2e1c999390f5410dfa384a4c95fa' class="collapse" aria-labelledby="headingfc6c2e1c999390f5410dfa384a4c95fa" data-parent="#accordionExample">
+																										<div class="sidebar-scroll">
+																											<ul>
+																												<li data-nav-id="https://unicef.github.io/inventory/meta/inventory/create-new-category/" title="How to create a new Inventory category" class="sidelist
+  active">
+																													<div class="container">
+																														<div class="row">
+																															<div class="col-10">
+																																<a href="https://unicef.github.io/inventory/meta/inventory/create-new-category/" class="">
+																																	How to create a new Inventory category
+																																</a>
+																															</div>
+																														</div>
+																													</li>
+																													<li data-nav-id="https://unicef.github.io/inventory/meta/inventory/create-new-mission/" title="How to create a new Inventory Mission" class="sidelist
+  ">
+																														<div class="container">
+																															<div class="row">
+																																<div class="col-10">
+																																	<a href="https://unicef.github.io/inventory/meta/inventory/create-new-mission/" class="">
+																																		How to create a new Inventory Mission
+																																	</a>
+																																</div>
+																															</div>
+																														</li>
+																														<li data-nav-id="https://unicef.github.io/inventory/meta/inventory/intern-guide/" title="Intern&#39;s guide for O.S. Inventory" class="sidelist
+  ">
+																															<div class="container">
+																																<div class="row">
+																																	<div class="col-10">
+																																		<a href="https://unicef.github.io/inventory/meta/inventory/intern-guide/" class="">
+																																			Intern&#39;s guide for O.S. Inventory
+																																		</a>
+																																	</div>
+																																</div>
+																															</li>
+																															<li data-nav-id="https://unicef.github.io/inventory/meta/inventory/maintainers-guide/" title="Maintainer&#39;s guide for O.S. Inventory" class="sidelist
+  ">
+																																<div class="container">
+																																	<div class="row">
+																																		<div class="col-10">
+																																			<a href="https://unicef.github.io/inventory/meta/inventory/maintainers-guide/" class="">
+																																				Maintainer&#39;s guide for O.S. Inventory
+																																			</a>
+																																		</div>
+																																	</div>
+																																</li>
+																															</ul>
+																														</div>
+																													</div>
+																												</li>
+																												<li data-nav-id="https://unicef.github.io/inventory/meta/mentorship/" title="Open Source Mentorship" class="sidelist
+  ">
+																													<div class="container">
+																														<div class="row">
+																															<div class="col-10">
+																																<a href="https://unicef.github.io/inventory/meta/mentorship/" class="">
+																																	Open Source Mentorship
+																																</a>
+																															</div>
+																															<div class="col-2 ">
+																																<i class="fas fa-chevron-down align-middle" type="button" data-toggle="collapse" data-target="#collapse9cc60a4f319ff52ea49fadc509489c13" aria-expanded="false" aria-controls='collapse9cc60a4f319ff52ea49fadc509489c13'>
+																																</i>
+																															</div>
+																														</div>
+																														<div id='collapse9cc60a4f319ff52ea49fadc509489c13' class="collapse" aria-labelledby="heading9cc60a4f319ff52ea49fadc509489c13" data-parent="#accordionExample">
+																															<div class="sidebar-scroll">
+																																<ul>
+																																	<li data-nav-id="https://unicef.github.io/inventory/meta/mentorship/overview/" title="Open Source Mentorship programme overview" class="sidelist
+  ">
+																																		<div class="container">
+																																			<div class="row">
+																																				<div class="col-10">
+																																					<a href="https://unicef.github.io/inventory/meta/mentorship/overview/" class="">
+																																						Open Source Mentorship programme overview
+																																					</a>
+																																				</div>
+																																			</div>
+																																		</li>
+																																		<li data-nav-id="https://unicef.github.io/inventory/meta/mentorship/modules/" title="Modules" class="sidelist
+  ">
+																																			<div class="container">
+																																				<div class="row">
+																																					<div class="col-10">
+																																						<a href="https://unicef.github.io/inventory/meta/mentorship/modules/" class="">
+																																							Modules
+																																						</a>
+																																					</div>
+																																				</div>
+																																			</li>
+																																			<li data-nav-id="https://unicef.github.io/inventory/meta/mentorship/needs-assessment-template/" title="Needs assessment interview template" class="sidelist
+  ">
+																																				<div class="container">
+																																					<div class="row">
+																																						<div class="col-10">
+																																							<a href="https://unicef.github.io/inventory/meta/mentorship/needs-assessment-template/" class="">
+																																								Needs assessment interview template
+																																							</a>
+																																						</div>
+																																					</div>
+																																				</li>
+																																				<li data-nav-id="https://unicef.github.io/inventory/meta/mentorship/onboarding/" title="On-boarding guide for UNICEF Venture Fund teams" class="sidelist
+  ">
+																																					<div class="container">
+																																						<div class="row">
+																																							<div class="col-10">
+																																								<a href="https://unicef.github.io/inventory/meta/mentorship/onboarding/" class="">
+																																									On-boarding guide for UNICEF Venture Fund teams
+																																								</a>
+																																							</div>
+																																						</div>
+																																					</li>
+																																					<li data-nav-id="https://unicef.github.io/inventory/meta/mentorship/templates/" title="Templates for programme mentors" class="sidelist
+  ">
+																																						<div class="container">
+																																							<div class="row">
+																																								<div class="col-10">
+																																									<a href="https://unicef.github.io/inventory/meta/mentorship/templates/" class="">
+																																										Templates for programme mentors
+																																									</a>
+																																								</div>
+																																							</div>
+																																						</li>
+																																						<li data-nav-id="https://unicef.github.io/inventory/meta/mentorship/workplan-bridge-funding/" title="Workplan: Bridge Fund cohort" class="sidelist
+  ">
+																																							<div class="container">
+																																								<div class="row">
+																																									<div class="col-10">
+																																										<a href="https://unicef.github.io/inventory/meta/mentorship/workplan-bridge-funding/" class="">
+																																											Workplan: Bridge Fund cohort
+																																										</a>
+																																									</div>
+																																								</div>
+																																							</li>
+																																						</ul>
+																																					</div>
+																																				</div>
+																																			</li>
+																																			<li data-nav-id="https://unicef.github.io/inventory/meta/workflow-metrics/" title="Workflow: Update external UNICEF metrics" class="sidelist
+  ">
+																																				<div class="container">
+																																					<div class="row">
+																																						<div class="col-10">
+																																							<a href="https://unicef.github.io/inventory/meta/workflow-metrics/" class="">
+																																								Workflow: Update external UNICEF metrics
+																																							</a>
+																																						</div>
+																																					</div>
+																																				</li>
+																																			</ul>
+																																		</div>
+																																	</li>
+																																	<div>
+																																		<button class="btn btn-primary btn-block" id="generatePDF">Get Pdf</button>
+																																	</div>
+																																</ul>
+																															</div>
+																														</div>
+																														<div class="contentContainer py-5 px-5">
+																															<div class="p-lg-5 p-4 bg-white position-relative mx-5 my-3 w-100 contentBox" id="content">
+																																<div class="d-flex flex-row-reverse p-absolute">
+																																	<button id="editBtn" value="https://github.com/unicef/inventory/blob/main/content/meta/inventory/create-new-category.en.adoc" class="editBtn py-2 px-3">Edit this Page</button>
+																																</div>
+																																<div class="p-lg-5 p-3 bg-white">
+																																	<h2 id="title">How to create a new Inventory category</h2>
+																																	<div class="content mt-5">
+																																		<div id="toc" class="toc">
+																																			<div id="toctitle">Table of Contents</div>
+																																			<ul class="sectlevel1">
+																																				<li><a href="#steps">1. Steps</a></li>
+																																				<li><a href="#template">2. Template for new index pages</a>
+																																					<ul class="sectlevel2">
+																																						<li><a href="#template--choose-icon">2.1. Choose an icon</a></li>
+																																					</ul>
+																																				</li>
+																																			</ul>
+																																		</div>
+																																		<div class="paragraph">
+																																			<p>This how-to article explains how to create a new category in the Open Source Inventory.</p>
+																																		</div>
+																																		<div class="sect1">
+																																			<h2 id="steps">1. Steps&nbsp;<a class="hanchor" href="#steps">🔗</a> </h2>
+																																			<div class="sectionbody">
+																																				<div class="olist arabic">
+																																					<ol class="arabic">
+																																						<li>
+																																							<p>Create a new folder in the <code>content/</code> directory.</p>
+																																						</li>
+																																						<li>
+																																							<p>Create a <code>_index.en.adoc</code> page in the new directory (see <a href="#template">template</a>).</p>
+																																						</li>
+																																						<li>
+																																							<p>Add the category to <code>config.yml</code> as a child to <code>[[menu.main]]</code>.
+																																								See other categories in the config as an example.</p>
+																																						</li>
+																																					</ol>
+																																				</div>
+																																			</div>
+																																		</div>
+																																		<div class="sect1">
+																																			<h2 id="template">2. Template for new index pages&nbsp;<a class="hanchor" href="#template">🔗</a> </h2>
+																																			<div class="sectionbody">
+																																				<div class="paragraph">
+																																					<p>Use this base template for the front-matter of a new index page:</p>
+																																				</div>
+																																				<div class="paragraph">
+																																					<div class="highlight">
+																																						<div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;display:grid;">
+																																							<table style="border-spacing:0;padding:0;margin:0;border:0;">
+																																								<tr>
+																																									<td style="vertical-align:top;padding:0;margin:0;border:0;">
+																																										<pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;display:grid;"><code><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
 </span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
 </span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
 </span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4
@@ -428,123 +611,122 @@
 </span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">6
 </span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">7
 </span></code></pre>
-																													</td>
-																													<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-																														<pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;display:grid;"><code class="language-yaml" data-lang="yaml"><span style="display:flex;"><span><span style="color:#0e84b5;font-weight:bold">---</span><span style="color:#bbb">
+																																									</td>
+																																									<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+																																										<pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;display:grid;"><code class="language-yaml" data-lang="yaml"><span style="display:flex;"><span><span style="color:#0e84b5;font-weight:bold">---</span><span style="color:#bbb">
 </span></span></span><span style="display:flex;"><span><span style="color:#bbb"></span><span style="color:#070">title</span>:<span style="color:#bbb"> </span><span style="background-color:#e0e0ff">&#34;Pretty name&#34;</span><span style="color:#bbb">
 </span></span></span><span style="display:flex;"><span><span style="color:#bbb"></span><span style="color:#070">icon</span>:<span style="color:#bbb"> </span><span style="background-color:#e0e0ff">&#34;ti-layout-width-default-alt&#34;</span><span style="color:#bbb">
 </span></span></span><span style="display:flex;"><span><span style="color:#bbb"></span><span style="color:#070">description</span>:<span style="color:#bbb"> </span><span style="background-color:#e0e0ff">&#34;Subtitle to describe your category.&#34;</span><span style="color:#bbb">
 </span></span></span><span style="display:flex;"><span><span style="color:#bbb"></span><span style="color:#070">type</span>:<span style="color:#bbb"> </span><span style="background-color:#e0e0ff">&#34;docs&#34;</span><span style="color:#bbb">
 </span></span></span><span style="display:flex;"><span><span style="color:#bbb">
 </span></span></span><span style="display:flex;"><span><span style="color:#bbb"></span><span style="color:#0e84b5;font-weight:bold">---</span></span></span></code></pre>
-																													</td>
-																												</tr>
-																											</table>
-																										</div>
-																									</div>
-																								</div>
-																								<div class="sect2">
-																									<h3 id="template--choose-icon">2.1. Choose an icon&nbsp;<a class="hanchor" href="#template--choose-icon">🔗</a> </h3>
-																									<div class="paragraph">
-																										<p>The icon used in the index file comes from the <a href="https://themify.me/themify-icons">Themify Icons</a> set.
-																											The name of an icon must match the name of an icon appearing on this list.</p>
-																									</div>
-																								</div>
-																							</div>
-																						</div>
-																					</div>
-																					<p class="post-meta border-bottom pb-3 mb-0 mt-3">Updated on 03 Dec 2021</p>
-																					<nav class="pagination mt-3">
-																						<a class="nav nav-prev" href="https://unicef.github.io/inventory/meta/inventory/" aria-label="Previous page" ><i class="ti-arrow-left mr-2"></i> <span class="d-none d-md-block">Open Source Inventory maintenance</span></a>
-																						<a class="nav nav-next" href="https://unicef.github.io/inventory/meta/inventory/create-new-mission/" aria-label="Previous page" > <span class="d-none d-md-block">How to create a new Inventory Mission</span><i class="ti-arrow-right ml-2"></i></a>
-																					</nav>
-																					<section class="my-3 py-3" id="related-articles">
-																						<h5 class="text-center">Related Articles</h5>
-																						<div class="row">
-																							<div class="col-sm-4 my-2">
-																								<a href="https://unicef.github.io/inventory/meta/inventory/create-new-mission/">
-																									<div class="card text-center">
-																										<div class="card-body">
-																											<h5 class="card-title">How to create a new Inventory Mission</h5>
-																											<p class="card-subtitle mb-2 text-muted">Guidance on creating a new Mission in the Open Source Inventory.</p>
-																										</div>
-																									</div>
-																								</a>
-																							</div>
-																							<div class="col-sm-4 my-2">
-																								<a href="https://unicef.github.io/inventory/meta/mentorship/overview/">
-																									<div class="card text-center">
-																										<div class="card-body">
-																											<h5 class="card-title">Open Source Mentorship programme overview</h5>
-																											<p class="card-subtitle mb-2 text-muted">An introduction to the UNICEF Open Source Mentorship programme. Hosted by the Office of Innovation.</p>
-																										</div>
-																									</div>
-																								</a>
-																							</div>
-																							<div class="col-sm-4 my-2">
-																								<a href="https://unicef.github.io/inventory/meta/workflow-metrics/">
-																									<div class="card text-center">
-																										<div class="card-body">
-																											<h5 class="card-title">Workflow: Update external UNICEF metrics</h5>
-																											<p class="card-subtitle mb-2 text-muted">How a UNICEF contractor manages and updates metrics about Venture Fund portfolio company projects.</p>
-																										</div>
-																									</div>
-																								</a>
-																							</div>
-																						</div>
-																					</section>
-																				</div>
-																			</div>
-																		</div>
-																	</div>
-																</div>
-															</section>
-															<!-- /details page -->
-															<!-- footer -->
-															<footer class="section bg-primary p-4 mt-5">
-																<div class="container">
-																	<div class="row align-items-center">
-																		<div class="col-md-3 text-md-left text-center">
-																			<ul>
-																				<li><a class="nav-link text-white" href="/inventory">HOME</a></li>
-																				<li class="nav-item">
-																					<a class="nav-link text-white text-uppercase" href="https://unicef.github.io/inventory/faq">FAQ</a>
-																				</li>
-																				<li class="nav-item">
-																					<a class="nav-link text-white text-uppercase" href="https://unicef.github.io/inventory/toolkits">toolkits</a>
-																				</li>
-																				<li class="nav-item">
-																					<a class="nav-link text-white text-uppercase" href="https://unicef.github.io/inventory/cohorts">cohorts</a>
-																				</li>
-																			</ul>
-																		</div>
-																		<div class="col-md-6 text-md-center text-center">
-																			<p class="mb-md-0 mb-4 text-white">The UNICEF Open Source Inventory is a knowledge-base of best practices, resources, and information about working and leading Open. This is maintained as part of the Open Source Mentorship programme offered by the UNICEF Venture Fund. The Inventory provides mentorship and guidance to anyone seeking to adopt best practices in their journey to building an Open Source project and community. It is self-serve, and can be used at various phases of building a project and community.</p>
-																		</div>
-																		<div class="col-md-3 text-md-right text-center">
-																			<ul class="text-white">
-																				<li class="nav-item">
-																					<a class="nav-link text-white font-weight-bold" href="https://www.unicef.org/">UNICEF Global</a>
-																				</li>
-																				<li class="nav-item">
-																					<a class="nav-link text-white font-weight-bold" href="https://www.unicefinnovationfund.org/">UNICEF Venture Fund</a>
-																				</li>
-																				<li class="nav-item">
-																					<a class="nav-link text-white font-weight-bold" href="https://www.unicef.org/legal">Legal</a>
-																					<p class="h6 text-md-right font-weight-light">Find legal information and policies related to UNICEF Global&#39;s digital communications.</p>
-																				</li>
-																			</ul>
-																			<ul class="list-inline">
-																				<li class="list-inline-item"><a class="text-color d-inline-block p-2 text-white" href="https://github.com/unicef/inventory" aria-label="UNICEF Open Source Inventory on GitHub"><i class="ti-github"></i></a></li>
-																				<li class="list-inline-item"><a class="text-color d-inline-block p-2 text-white" href="https://twitter.com/UNICEFinnovate" aria-label="@UNICEFinnovate on Twitter"><i class="ti-twitter"></i></a></li>
-																			</ul>
-																		</div>
-																	</div>
-																</div>
-																<p class="text-md-center text-center text-white mt-3 h6 font-italic">Creative Commons BY-SA 4.0. Site theme maintained by UNICEF. Original theme, Dot, created by ThemeFisher.</p>
-															</footer>
-															<!-- /footer -->
-															<!-- Main Script -->
-															<script src="https://unicef.github.io/inventory/js/script.min.js"></script>
-														</body>
-													</html>
+																																									</td>
+																																								</tr>
+																																							</table>
+																																						</div>
+																																					</div>
+																																				</div>
+																																				<div class="sect2">
+																																					<h3 id="template--choose-icon">2.1. Choose an icon&nbsp;<a class="hanchor" href="#template--choose-icon">🔗</a> </h3>
+																																					<div class="paragraph">
+																																						<p>The icon used in the index file comes from the <a href="https://themify.me/themify-icons">Themify Icons</a> set.
+																																							The name of an icon must match the name of an icon appearing on this list.</p>
+																																					</div>
+																																				</div>
+																																			</div>
+																																		</div>
+																																	</div>
+																																	<p class="post-meta border-bottom pb-3 mb-0 mt-3">Updated on 03 Dec 2021</p>
+																																	<nav class="pagination mt-3">
+																																		<a class="nav nav-prev" href="https://unicef.github.io/inventory/meta/inventory/" aria-label="Previous page" ><i class="ti-arrow-left mr-2"></i> <span class="d-none d-md-block">Open Source Inventory maintenance</span></a>
+																																		<a class="nav nav-next" href="https://unicef.github.io/inventory/meta/inventory/create-new-mission/" aria-label="Previous page" > <span class="d-none d-md-block">How to create a new Inventory Mission</span><i class="ti-arrow-right ml-2"></i></a>
+																																	</nav>
+																																	<section class="my-3 py-3" id="related-articles">
+																																		<h5 class="text-center">Related Articles</h5>
+																																		<div class="row">
+																																			<div class="col-sm-4 my-2">
+																																				<a href="https://unicef.github.io/inventory/meta/mentorship/workplan-bridge-funding/">
+																																					<div class="card text-center">
+																																						<div class="card-body">
+																																							<h5 class="card-title">Workplan: Bridge Fund cohort</h5>
+																																							<p class="card-subtitle mb-2 text-muted">Open Source workplan requirements for UNICEF Open Source Mentorship programme. These requirements apply to companies in the Bridge Fund cohort.</p>
+																																						</div>
+																																					</div>
+																																				</a>
+																																			</div>
+																																			<div class="col-sm-4 my-2">
+																																				<a href="https://unicef.github.io/inventory/meta/mentorship/templates/">
+																																					<div class="card text-center">
+																																						<div class="card-body">
+																																							<h5 class="card-title">Templates for programme mentors</h5>
+																																							<p class="card-subtitle mb-2 text-muted">Various templates and reusable copytext for UNICEF Open Source Mentorship programme mentors.</p>
+																																						</div>
+																																					</div>
+																																				</a>
+																																			</div>
+																																			<div class="col-sm-4 my-2">
+																																				<a href="https://unicef.github.io/inventory/meta/mentorship/overview/">
+																																					<div class="card text-center">
+																																						<div class="card-body">
+																																							<h5 class="card-title">Open Source Mentorship programme overview</h5>
+																																							<p class="card-subtitle mb-2 text-muted">An introduction to the UNICEF Open Source Mentorship programme. Hosted by the Office of Innovation.</p>
+																																						</div>
+																																					</div>
+																																				</a>
+																																			</div>
+																																		</div>
+																																	</section>
+																																</div>
+																															</div>
+																														</div>
+																													</div>
+																												</section>
+																												<!-- /details page -->
+																												<!-- footer -->
+																												<footer class="section bg-primary p-4 mt-5">
+																													<div class="container">
+																														<div class="row align-items-center">
+																															<div class="col-md-3 text-md-left text-center">
+																																<ul>
+																																	<li><a class="nav-link text-white" href="/inventory">HOME</a></li>
+																																	<li class="nav-item">
+																																		<a class="nav-link text-white text-uppercase" href="https://unicef.github.io/inventory/faq">FAQ</a>
+																																	</li>
+																																	<li class="nav-item">
+																																		<a class="nav-link text-white text-uppercase" href="https://unicef.github.io/inventory/toolkits">toolkits</a>
+																																	</li>
+																																	<li class="nav-item">
+																																		<a class="nav-link text-white text-uppercase" href="https://unicef.github.io/inventory/cohorts">cohorts</a>
+																																	</li>
+																																</ul>
+																															</div>
+																															<div class="col-md-6 text-md-center text-center">
+																																<p class="mb-md-0 mb-4 text-white">The UNICEF Open Source Inventory is a knowledge-base of best practices, resources, and information about working and leading Open. This is maintained as part of the Open Source Mentorship programme offered by the UNICEF Venture Fund. The Inventory provides mentorship and guidance to anyone seeking to adopt best practices in their journey to building an Open Source project and community. It is self-serve, and can be used at various phases of building a project and community.</p>
+																															</div>
+																															<div class="col-md-3 text-md-right text-center">
+																																<ul class="text-white">
+																																	<li class="nav-item">
+																																		<a class="nav-link text-white font-weight-bold px-0" href="https://www.unicef.org/">UNICEF Global</a>
+																																	</li>
+																																	<li class="nav-item">
+																																		<a class="nav-link text-white font-weight-bold px-0" href="https://www.unicefinnovationfund.org/">UNICEF Venture Fund</a>
+																																	</li>
+																																	<li class="nav-item">
+																																		<a class="nav-link text-white font-weight-bold px-0" href="https://www.unicef.org/legal">Legal</a>
+																																		<p class="h6 text-md-right font-weight-light">Find legal information and policies related to UNICEF Global&#39;s digital communications.</p>
+																																	</li>
+																																</ul>
+																																<ul class="list-inline">
+																																	<li class="list-inline-item"><a class="text-color d-inline-block p-2 text-white socialIcon" href="https://github.com/unicef/inventory" aria-label="UNICEF Open Source Inventory on GitHub"><i class="ti-github"></i></a></li>
+																																	<li class="list-inline-item"><a class="text-color d-inline-block p-2 text-white socialIcon" href="https://twitter.com/UNICEFinnovate" aria-label="@UNICEFinnovate on Twitter"><i class="ti-twitter"></i></a></li>
+																																</ul>
+																															</div>
+																														</div>
+																													</div>
+																													<p class="text-md-center text-center text-white mt-3 h6 font-italic">Creative Commons BY-SA 4.0. Site theme maintained by UNICEF. Original theme, Dot, created by ThemeFisher.</p>
+																												</footer>
+																												<!-- /footer -->
+																												<!-- Main Script -->
+																												<script src="https://unicef.github.io/inventory/js/script.min.js"></script>
+																											</body>
+																										</html>

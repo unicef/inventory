@@ -76,23 +76,26 @@
 		<meta name="twitter:title" content="Codes of Conduct"/>
 		<meta name="twitter:description" content="Embark on a mission to add a Code of Conduct to your Open Source community."/>
 	</head>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 	<body>
 		<!-- header -->
 		<header class="shadow-bottom sticky-top bg-white">
-			<nav class="navbar navbar-expand-md navbar-dark" style=" background-color: #1CABE2">
-				<div class="container px-2 px-md-0 navigation-bar">
+			<nav class="navbar navbar-expand-md navbar-dark d-flex flex-column p-0" style=" background-color: #1CABE2">
+				<div class="w-100 container mx-0 navigation-bar">
 					<div id="site-brand">
-						<a class="navbar-brand px-2" href="https://www.unicef.org/">
+						<a class="navbar-brand px-2"
+        href="https://www.unicef.org/">
 							<div class="text-center nav-heading">
 								<img class="img-fluid nav-img" src="https://unicef.github.io/inventory/images/unicef-logo.png" alt="UNICEF O.S. Inventory">
 								<a class="d-block nav-title" href="/inventory">UNICEF O.S. Inventory</a>
 							</div>
 						</a>
 					</div>
-					<button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation"
+					<a class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation"
       aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
-						<span class="navbar-toggler-icon"></span>
-					</button>
+						<span class="sidebarIcon navbarMenu">Menu<i class="fa-solid fa-caret-down d-inline p-1"></i>
+						</span>
+					</a>
 					<div class="collapse navbar-collapse text-center" id="navigation">
 						<ul class="navbar-nav ml-auto">
 							<li class="nav-item">
@@ -148,397 +151,445 @@
 							<option id="en" value="https://unicef.github.io/inventory/missions/codes-of-conduct/" selected>en
 							</option>
 						</select>
+						<p class="text-white unicef-glob ml-4 mt-3">Visit <a href="https://www.unicef.org/" class="text-white">UNICEF Global <i
+        class="fas fa-angle-double-right"></i></a></p>
 					</div>
 				</div>
-				<p class="text-white unicef-glob mx-3">Visit <a href="https://www.unicef.org/" class="text-white">UNICEF Global <i class="fas fa-angle-double-right"></i></a></p>
-			</nav>
-		</header>
-		<!-- /header -->
-		<script>
-			remSpace()
-		</script>
-		<script>
-			function remSpace() {
-			  document.getElementById("section").style.paddingTop = "3rem";
-			}
-		</script>
-		<!-- details page -->
-		<section class="single section-sm main-section" id="section">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-3">
-						<div class="sidebar">
-							<a class="back-btn" href="/inventory" aria-label="back"></a>
-							<ul>
-								<li data-nav-id="https://unicef.github.io/inventory/missions/" title="Missions" class="sidelist
+				<div class="w-100 py-2 breadcrumbBar text-light" style=" background-color: #374ea2">
+					<div class="container">
+						<div class="breadcrumbs">
+							<a href="https://unicef.github.io/inventory/">Home</a>
+							&gt; <a href="https://unicef.github.io/inventory/missions" class="breadcrumbLink">missions</a>
+							&gt; <a href="https://unicef.github.io/inventory/missions/codes-of-conduct" class="breadcrumbLink">codes-of-conduct</a>
+						</div>
+						<a data-toggle="collapse" data-target="#sidebarMobile"  aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation"> <i class="ti-menu text-light sidebarIcon"></i></a>
+						<div class="text-light text-center sidebarMobile collapse justify-content-center" id="sidebarMobile">
+							<div class="sidebarBox">
+								<ul>
+									<li data-nav-id="https://unicef.github.io/inventory/missions/" title="Missions" class="sidelist
   ">
-									<a href="https://unicef.github.io/inventory/missions/" class="font-weight-bold">
-										Missions
-									</a>
-									<div class="accordion" id="accordionExample">
-										<ul>
-											<li data-nav-id="https://unicef.github.io/inventory/missions/charters/" title="Charters" class="sidelist
+										<a href="/inventory" class="d-inline  back-btn">
+											<i class="ti-back-right"></i>
+										</a>
+										<a href="https://unicef.github.io/inventory/missions/" class="font-weight-bold d-inline">
+											Missions
+										</a>
+										<div class="accordion" id="accordionExample">
+											<ul>
+												<li data-nav-id="https://unicef.github.io/inventory/missions/charters/" title="Charters" class="sidelist
   ">
-												<div class="container">
-													<div class="row">
-														<div class="col-10">
-															<a href="https://unicef.github.io/inventory/missions/charters/" class="">
-																Charters
-															</a>
-														</div>
-													</div>
-												</li>
-												<li data-nav-id="https://unicef.github.io/inventory/missions/codes-of-conduct/" title="Codes of Conduct" class="sidelist
-  active">
 													<div class="container">
 														<div class="row">
 															<div class="col-10">
-																<a href="https://unicef.github.io/inventory/missions/codes-of-conduct/" class="">
-																	Codes of Conduct
+																<a href="https://unicef.github.io/inventory/missions/charters/" class="">
+																	Charters
 																</a>
 															</div>
 														</div>
 													</li>
-													<li data-nav-id="https://unicef.github.io/inventory/missions/good-first-issue/" title="Good first issues" class="sidelist
-  ">
+													<li data-nav-id="https://unicef.github.io/inventory/missions/codes-of-conduct/" title="Codes of Conduct" class="sidelist
+  active">
 														<div class="container">
 															<div class="row">
 																<div class="col-10">
-																	<a href="https://unicef.github.io/inventory/missions/good-first-issue/" class="">
-																		Good first issues
+																	<a href="https://unicef.github.io/inventory/missions/codes-of-conduct/" class="">
+																		Codes of Conduct
 																	</a>
 																</div>
 															</div>
 														</li>
-													</ul>
+														<li data-nav-id="https://unicef.github.io/inventory/missions/good-first-issue/" title="Good first issues" class="sidelist
+  ">
+															<div class="container">
+																<div class="row">
+																	<div class="col-10">
+																		<a href="https://unicef.github.io/inventory/missions/good-first-issue/" class="">
+																			Good first issues
+																		</a>
+																	</div>
+																</div>
+															</li>
+														</ul>
+													</div>
+												</li>
+												<div>
+													<button class="btn btn-primary btn-block" id="generatePDF">Get Pdf</button>
 												</div>
-											</li>
-											<div>
-												<button class="btn btn-primary btn-block" id="generatePDF">Get Pdf</button>
-											</div>
-										</ul>
+											</ul>
+										</div>
 									</div>
 								</div>
-								<div class="col-lg-9">
-									<div class="bg-white p-3" style="margin:auto">
-										<script language="JavaScript">
-											String.prototype.capitalizeFirstLetter = function() {
-											   return this.charAt(0).toUpperCase() + this.slice(1);
-											}
-
-											var path = "<a style='margin-left:2%' href='https:\/\/unicef.github.io\/inventory\/'>Home</a>";
-											var href = document.location.href;
-											var s = href.split("/");
-											for (var i=3;i<(s.length-2);i++) {
-											   path+=" &gt;  <a href=\""+href.substring(0,href.indexOf("/"+s[i])+s[i].length+1)+"/\">"+s[i].capitalizeFirstLetter()+"</a> ";
-											}
-											i=s.length-1;
-											path+="<a href=\""+href.substring(0,href.indexOf(s[i])+s[i].length)+"\">"+s[i]+"</a>";
-											path+="  &gt;  <b>Codes of Conduct</b>";
-											document.writeln(path);
-										</script>
-									</div>
-									<div class="p-lg-5 p-4 bg-white position-relative" id="content">
-										<div class="d-flex flex-row-reverse">
-											<button id="editBtn" value="https://github.com/unicef/inventory/blob/main/content/missions/codes-of-conduct.en.adoc" class="editBtn py-2 px-3">Edit this Page</button>
-										</div>
-										<div class="p-lg-5 p-3 bg-white">
-											<h2 id="title">Codes of Conduct</h2>
-											<div class="content mt-5">
-												<div id="toc" class="toc">
-													<div id="toctitle">Table of Contents</div>
-													<ul class="sectlevel1">
-														<li><a href="#_quality_of_writing">1. Quality of writing</a></li>
-														<li><a href="#_clarity_of_expectations">2. Clarity of expectations</a></li>
-														<li><a href="#_defined_structure_for_handling_enforcement">3. Defined structure for handling enforcement</a></li>
-														<li><a href="#_two_to_four_people_responsible_for_handling_sensitive_reports">4. Two to four people responsible for handling sensitive reports</a></li>
-														<li><a href="#_use_an_existing_code_of_conduct_instead_of_writing_one_yourself">5. Use an existing Code of Conduct instead of writing one yourself</a></li>
-														<li><a href="#_references">6. References</a></li>
-													</ul>
-												</div>
-												<div class="imageblock">
-													<div class="content">
-														<a class="image" href="https://creativecommons.org/licenses/by-sa/4.0/"><img src="https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg" alt="License: CC BY-SA 4.0"/></a>
-													</div>
-												</div>
-												<div class="paragraph">
-													<p>This Mission is a short exercise on understanding how Codes of Conduct fit into your Open Source community.
-														In designing a Code of Conduct for a project community, we will explore these Requirements for this Mission:</p>
-												</div>
-												<div class="olist arabic">
-													<ol class="arabic">
-														<li>
-															<p>Quality of writing</p>
+							</div>
+						</nav>
+					</header>
+					<!-- /header -->
+					<script>
+						remSpace()
+					</script>
+					<script>
+						function remSpace() {
+						  document.getElementById("section").style.paddingTop = "3rem";
+						}
+					</script>
+					<!-- details page -->
+					<section class="single section-sm" id="section">
+						<div class="d-flex w-100">
+							<div class="sidebarContainer">
+								<div class="sidebar">
+									<ul>
+										<li data-nav-id="https://unicef.github.io/inventory/missions/" title="Missions" class="sidelist
+  ">
+											<a href="/inventory" class="d-inline  back-btn">
+												<i class="ti-back-right"></i>
+											</a>
+											<a href="https://unicef.github.io/inventory/missions/" class="font-weight-bold d-inline">
+												Missions
+											</a>
+											<div class="accordion" id="accordionExample">
+												<ul>
+													<li data-nav-id="https://unicef.github.io/inventory/missions/charters/" title="Charters" class="sidelist
+  ">
+														<div class="container">
+															<div class="row">
+																<div class="col-10">
+																	<a href="https://unicef.github.io/inventory/missions/charters/" class="">
+																		Charters
+																	</a>
+																</div>
+															</div>
 														</li>
-														<li>
-															<p>Clarity of expectations</p>
-														</li>
-														<li>
-															<p>Defined structure for handling enforcement</p>
-														</li>
-														<li>
-															<p>Two to four people responsible for handling sensitive reports</p>
-														</li>
-														<li>
-															<p>Use an existing Code of Conduct instead of writing one yourself</p>
-														</li>
-														<li>
-															<p>References</p>
-														</li>
-													</ol>
-												</div>
-												<div class="sect1">
-													<h2 id="_quality_of_writing">1. Quality of writing&nbsp;<a class="hanchor" href="#_quality_of_writing">🔗</a> </h2>
-													<div class="sectionbody">
-														<div class="paragraph">
-															<p>A Code of Conduct is an international document.
-																Unless you have equivalent translations by native speakers of other languages, the reader may not read or speak English like a native speaker.
-																So, use simple, easy to understand language and keep your vocabulary clear and simple.</p>
-														</div>
-														<div class="paragraph">
-															<p>Consider this checklist when evaluating on evaluating quality of writing for a Code of Conduct:</p>
-														</div>
-														<div class="olist arabic">
-															<ol class="arabic">
-																<li>
-																	<p>Few grammatical, technical, and semantic errors</p>
-																</li>
-																<li>
-																	<p>Seek feedback from diverse people who may not be native English speakers</p>
-																</li>
-																<li>
-																	<p>Avoids complex words or contextual phrases</p>
-																</li>
-															</ol>
-														</div>
-													</div>
-												</div>
-												<div class="sect1">
-													<h2 id="_clarity_of_expectations">2. Clarity of expectations&nbsp;<a class="hanchor" href="#_clarity_of_expectations">🔗</a> </h2>
-													<div class="sectionbody">
-														<div class="paragraph">
-															<p>A Code of Conduct states how your community is expected to behave.
-																But it also states expectations of how things are handled when that behavior is not followed.
-																A clear set of rules paired with examples makes it easier to label certain categories of wanted or unwanted community behavior.</p>
-														</div>
-														<div class="paragraph">
-															<p>Consider this checklist when evaluating on how clear expectations are set for a Code of Conduct:</p>
-														</div>
-														<div class="olist arabic">
-															<ol class="arabic">
-																<li>
-																	<p><strong>Essential verbosity level</strong>
-																		(a behavioral goal could be no more than 2-3 paragraphs per section)</p>
-																</li>
-																<li>
-																	<p><strong>Focus on broad identifications of negative behavior</strong>:
-																		Continually labeling toxic behavior is a never-ending rabbit hole.
-																		The number of combinations and permutations of bad/toxic behavior is significantly high.
-																		It is more rewarding of planning effort to define positive and welcoming behavior.
-																		This will make it easier to define examples of what acceptable or exemplary behavior is like in your community.</p>
-																</li>
-																<li>
-																	<p><strong>Err on over-describing what you <em>do</em> want instead of what you don’t want</strong>:
-																		Aim on setting clear expectations for what behavior is welcomed and encouraged in a project community.</p>
-																</li>
-															</ol>
-														</div>
-													</div>
-												</div>
-												<div class="sect1">
-													<h2 id="_defined_structure_for_handling_enforcement">3. Defined structure for handling enforcement&nbsp;<a class="hanchor" href="#_defined_structure_for_handling_enforcement">🔗</a> </h2>
-													<div class="sectionbody">
-														<div class="paragraph">
-															<p>Inevitably, someone <em>will</em> come along to your project who tests any thin lines in what your Code of Conduct is clear (or not) on.
-																Publicly documenting how moderation and enforcement is reviewed builds trust and sets clear expectations.
-																This does not mean you label out in great detail to the public on how a complaint travels through your organization.
-																But it should be clear on who reviews complaints, when they see them, and why they see them.
-																Even if someone does not know the result or outcome of every step, they should know what those steps are.</p>
-														</div>
-														<div class="paragraph">
-															<p>Consider this checklist when evaluating on a defined enforcement structure:</p>
-														</div>
-														<div class="olist arabic">
-															<ol class="arabic">
-																<li>
-																	<p><strong>Publicly explain how behavior complaints are reviewed and by whom</strong>:
-																		Identify how a complaint travels through your organization.
-																		Create a network or transparent map of how a complaint is reviewed, by whom in the organization, and who defines consequences for unacceptable behavior.</p>
-																</li>
-																<li>
-																	<p><strong>Explain when someone is brought in or added to a complaint review</strong>:
-																		The consent of the reporter must always be sought for changes to view access of a private complaint.
-																		The reporter should know when they will be contacted and for what.</p>
-																</li>
-																<li>
-																	<p><strong><a href="https://gdpr-info.eu/art-17-gdpr/">Art. 17 G.D.P.R.</a> - Right to erase (&#34;right to be forgotten&#34;)</strong>:
-																		At any point, the reporter may request an end to an investigation where they are a reported victim.
-																		Their identity should be erased from official records.
-																		The complaint of behavior does not need to be erased nor of whom it is a complaint of.
-																		But the reporter’s contact information must be anonymized and disconnected from other data objects or representations.
-																		(Selling or sharing private data on behavior of specific individuals may be a different legal question altogether.)</p>
-																</li>
-															</ol>
-														</div>
-													</div>
-												</div>
-												<div class="sect1">
-													<h2 id="_two_to_four_people_responsible_for_handling_sensitive_reports">4. Two to four people responsible for handling sensitive reports&nbsp;<a class="hanchor" href="#_two_to_four_people_responsible_for_handling_sensitive_reports">🔗</a> </h2>
-													<div class="sectionbody">
-														<div class="paragraph">
-															<p>Responsibility for handling sensitive reports must be explicit.
-																Between two to four people should be included in handling first-contact reports.
-																Having more than one person avoids bias if a report is about the person who handles reports.
-																Sage Sharp has a <a href="https://otter.technology/blog/2019/05/23/why-train-multiple-code-of-conduct-enforcers/">more thorough explanation</a> of why this is important.</p>
-														</div>
-														<div class="paragraph">
-															<p>Consider this checklist when evaluating on how sensitive reports are handled:</p>
-														</div>
-														<div class="olist arabic">
-															<ol class="arabic">
-																<li>
-																	<p><strong>Recusion in personal cases</strong>:
-																		If a complaint is about a person who oversees sensitive reports, they are immediately recused of any inclusion in the decision-making process.
-																		They are treated the same as a member of the community who was the subject of a report.
-																		Their role as a first-responder must not bias the first response for a complaint.</p>
-																</li>
-																<li>
-																	<p><strong>Define elevation criteria</strong>:
-																		Determine what disciplinary action is available to the group of first-responders and (approximately) when additional elevation is required.
-																		This way, complaints don’t get stuck in indecision.</p>
-																</li>
-															</ol>
-														</div>
-													</div>
-												</div>
-												<div class="sect1">
-													<h2 id="_use_an_existing_code_of_conduct_instead_of_writing_one_yourself">5. Use an existing Code of Conduct instead of writing one yourself&nbsp;<a class="hanchor" href="#_use_an_existing_code_of_conduct_instead_of_writing_one_yourself">🔗</a> </h2>
-													<div class="sectionbody">
-														<div class="paragraph">
-															<p>The previous sections focused on less-talked about, but equally important parts of implementing a Code of Conduct.
-																But what about actually writing the &#34;legal&#34; text?
-																A Code of Conduct is in effect a legal document.
-																In the world of licenses, we are often told not to write our own licenses and instead use one already available and widely understood in our legal systems.</p>
-														</div>
-														<div class="paragraph">
-															<p>The same mindset is useful when evaluating a Code of Conduct.
-																Avoid writing your own and use one that already exists and is more widely-used if possible.
-																This way, you can focus on the more challenging questions of defining enforcement instead of also becoming junior policy authors.</p>
-														</div>
-													</div>
-												</div>
-												<div class="sect1">
-													<h2 id="_references">6. References&nbsp;<a class="hanchor" href="#_references">🔗</a> </h2>
-													<div class="sectionbody">
-														<div class="ulist">
-															<ul>
-																<li>
-																	<p><a href="https://opensource.guide/code-of-conduct/">Open Source Guide - Code of Conduct</a></p>
-																</li>
-																<li>
-																	<p>Popular examples:</p>
-																	<div class="ulist">
-																		<ul>
-																			<li>
-																				<p><a href="https://www.contributor-covenant.org/">Contributor Covenant</a>
-																					(<em>recommended</em> - widely used, provides template to fill out</p>
-																			</li>
-																			<li>
-																				<p><a href="https://www.djangoproject.com/conduct/">Django Code of Conduct</a></p>
-																			</li>
-																			<li>
-																				<p><a href="https://citizencodeofconduct.org/">Citizen Code of Conduct</a></p>
-																			</li>
-																		</ul>
+														<li data-nav-id="https://unicef.github.io/inventory/missions/codes-of-conduct/" title="Codes of Conduct" class="sidelist
+  active">
+															<div class="container">
+																<div class="row">
+																	<div class="col-10">
+																		<a href="https://unicef.github.io/inventory/missions/codes-of-conduct/" class="">
+																			Codes of Conduct
+																		</a>
+																	</div>
+																</div>
+															</li>
+															<li data-nav-id="https://unicef.github.io/inventory/missions/good-first-issue/" title="Good first issues" class="sidelist
+  ">
+																<div class="container">
+																	<div class="row">
+																		<div class="col-10">
+																			<a href="https://unicef.github.io/inventory/missions/good-first-issue/" class="">
+																				Good first issues
+																			</a>
+																		</div>
 																	</div>
 																</li>
 															</ul>
 														</div>
+													</li>
+													<div>
+														<button class="btn btn-primary btn-block" id="generatePDF">Get Pdf</button>
 													</div>
+												</ul>
+											</div>
+										</div>
+										<div class="contentContainer py-5 px-5">
+											<div class="p-lg-5 p-4 bg-white position-relative mx-5 my-3 w-100 contentBox" id="content">
+												<div class="d-flex flex-row-reverse p-absolute">
+													<button id="editBtn" value="https://github.com/unicef/inventory/blob/main/content/missions/codes-of-conduct.en.adoc" class="editBtn py-2 px-3">Edit this Page</button>
+												</div>
+												<div class="p-lg-5 p-3 bg-white">
+													<h2 id="title">Codes of Conduct</h2>
+													<div class="content mt-5">
+														<div id="toc" class="toc">
+															<div id="toctitle">Table of Contents</div>
+															<ul class="sectlevel1">
+																<li><a href="#_quality_of_writing">1. Quality of writing</a></li>
+																<li><a href="#_clarity_of_expectations">2. Clarity of expectations</a></li>
+																<li><a href="#_defined_structure_for_handling_enforcement">3. Defined structure for handling enforcement</a></li>
+																<li><a href="#_two_to_four_people_responsible_for_handling_sensitive_reports">4. Two to four people responsible for handling sensitive reports</a></li>
+																<li><a href="#_use_an_existing_code_of_conduct_instead_of_writing_one_yourself">5. Use an existing Code of Conduct instead of writing one yourself</a></li>
+																<li><a href="#_references">6. References</a></li>
+															</ul>
+														</div>
+														<div class="imageblock">
+															<div class="content">
+																<a class="image" href="https://creativecommons.org/licenses/by-sa/4.0/"><img src="https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg" alt="License: CC BY-SA 4.0"/></a>
+															</div>
+														</div>
+														<div class="paragraph">
+															<p>This Mission is a short exercise on understanding how Codes of Conduct fit into your Open Source community.
+																In designing a Code of Conduct for a project community, we will explore these Requirements for this Mission:</p>
+														</div>
+														<div class="olist arabic">
+															<ol class="arabic">
+																<li>
+																	<p>Quality of writing</p>
+																</li>
+																<li>
+																	<p>Clarity of expectations</p>
+																</li>
+																<li>
+																	<p>Defined structure for handling enforcement</p>
+																</li>
+																<li>
+																	<p>Two to four people responsible for handling sensitive reports</p>
+																</li>
+																<li>
+																	<p>Use an existing Code of Conduct instead of writing one yourself</p>
+																</li>
+																<li>
+																	<p>References</p>
+																</li>
+															</ol>
+														</div>
+														<div class="sect1">
+															<h2 id="_quality_of_writing">1. Quality of writing&nbsp;<a class="hanchor" href="#_quality_of_writing">🔗</a> </h2>
+															<div class="sectionbody">
+																<div class="paragraph">
+																	<p>A Code of Conduct is an international document.
+																		Unless you have equivalent translations by native speakers of other languages, the reader may not read or speak English like a native speaker.
+																		So, use simple, easy to understand language and keep your vocabulary clear and simple.</p>
+																</div>
+																<div class="paragraph">
+																	<p>Consider this checklist when evaluating on evaluating quality of writing for a Code of Conduct:</p>
+																</div>
+																<div class="olist arabic">
+																	<ol class="arabic">
+																		<li>
+																			<p>Few grammatical, technical, and semantic errors</p>
+																		</li>
+																		<li>
+																			<p>Seek feedback from diverse people who may not be native English speakers</p>
+																		</li>
+																		<li>
+																			<p>Avoids complex words or contextual phrases</p>
+																		</li>
+																	</ol>
+																</div>
+															</div>
+														</div>
+														<div class="sect1">
+															<h2 id="_clarity_of_expectations">2. Clarity of expectations&nbsp;<a class="hanchor" href="#_clarity_of_expectations">🔗</a> </h2>
+															<div class="sectionbody">
+																<div class="paragraph">
+																	<p>A Code of Conduct states how your community is expected to behave.
+																		But it also states expectations of how things are handled when that behavior is not followed.
+																		A clear set of rules paired with examples makes it easier to label certain categories of wanted or unwanted community behavior.</p>
+																</div>
+																<div class="paragraph">
+																	<p>Consider this checklist when evaluating on how clear expectations are set for a Code of Conduct:</p>
+																</div>
+																<div class="olist arabic">
+																	<ol class="arabic">
+																		<li>
+																			<p><strong>Essential verbosity level</strong>
+																				(a behavioral goal could be no more than 2-3 paragraphs per section)</p>
+																		</li>
+																		<li>
+																			<p><strong>Focus on broad identifications of negative behavior</strong>:
+																				Continually labeling toxic behavior is a never-ending rabbit hole.
+																				The number of combinations and permutations of bad/toxic behavior is significantly high.
+																				It is more rewarding of planning effort to define positive and welcoming behavior.
+																				This will make it easier to define examples of what acceptable or exemplary behavior is like in your community.</p>
+																		</li>
+																		<li>
+																			<p><strong>Err on over-describing what you <em>do</em> want instead of what you don’t want</strong>:
+																				Aim on setting clear expectations for what behavior is welcomed and encouraged in a project community.</p>
+																		</li>
+																	</ol>
+																</div>
+															</div>
+														</div>
+														<div class="sect1">
+															<h2 id="_defined_structure_for_handling_enforcement">3. Defined structure for handling enforcement&nbsp;<a class="hanchor" href="#_defined_structure_for_handling_enforcement">🔗</a> </h2>
+															<div class="sectionbody">
+																<div class="paragraph">
+																	<p>Inevitably, someone <em>will</em> come along to your project who tests any thin lines in what your Code of Conduct is clear (or not) on.
+																		Publicly documenting how moderation and enforcement is reviewed builds trust and sets clear expectations.
+																		This does not mean you label out in great detail to the public on how a complaint travels through your organization.
+																		But it should be clear on who reviews complaints, when they see them, and why they see them.
+																		Even if someone does not know the result or outcome of every step, they should know what those steps are.</p>
+																</div>
+																<div class="paragraph">
+																	<p>Consider this checklist when evaluating on a defined enforcement structure:</p>
+																</div>
+																<div class="olist arabic">
+																	<ol class="arabic">
+																		<li>
+																			<p><strong>Publicly explain how behavior complaints are reviewed and by whom</strong>:
+																				Identify how a complaint travels through your organization.
+																				Create a network or transparent map of how a complaint is reviewed, by whom in the organization, and who defines consequences for unacceptable behavior.</p>
+																		</li>
+																		<li>
+																			<p><strong>Explain when someone is brought in or added to a complaint review</strong>:
+																				The consent of the reporter must always be sought for changes to view access of a private complaint.
+																				The reporter should know when they will be contacted and for what.</p>
+																		</li>
+																		<li>
+																			<p><strong><a href="https://gdpr-info.eu/art-17-gdpr/">Art. 17 G.D.P.R.</a> - Right to erase (&#34;right to be forgotten&#34;)</strong>:
+																				At any point, the reporter may request an end to an investigation where they are a reported victim.
+																				Their identity should be erased from official records.
+																				The complaint of behavior does not need to be erased nor of whom it is a complaint of.
+																				But the reporter’s contact information must be anonymized and disconnected from other data objects or representations.
+																				(Selling or sharing private data on behavior of specific individuals may be a different legal question altogether.)</p>
+																		</li>
+																	</ol>
+																</div>
+															</div>
+														</div>
+														<div class="sect1">
+															<h2 id="_two_to_four_people_responsible_for_handling_sensitive_reports">4. Two to four people responsible for handling sensitive reports&nbsp;<a class="hanchor" href="#_two_to_four_people_responsible_for_handling_sensitive_reports">🔗</a> </h2>
+															<div class="sectionbody">
+																<div class="paragraph">
+																	<p>Responsibility for handling sensitive reports must be explicit.
+																		Between two to four people should be included in handling first-contact reports.
+																		Having more than one person avoids bias if a report is about the person who handles reports.
+																		Sage Sharp has a <a href="https://otter.technology/blog/2019/05/23/why-train-multiple-code-of-conduct-enforcers/">more thorough explanation</a> of why this is important.</p>
+																</div>
+																<div class="paragraph">
+																	<p>Consider this checklist when evaluating on how sensitive reports are handled:</p>
+																</div>
+																<div class="olist arabic">
+																	<ol class="arabic">
+																		<li>
+																			<p><strong>Recusion in personal cases</strong>:
+																				If a complaint is about a person who oversees sensitive reports, they are immediately recused of any inclusion in the decision-making process.
+																				They are treated the same as a member of the community who was the subject of a report.
+																				Their role as a first-responder must not bias the first response for a complaint.</p>
+																		</li>
+																		<li>
+																			<p><strong>Define elevation criteria</strong>:
+																				Determine what disciplinary action is available to the group of first-responders and (approximately) when additional elevation is required.
+																				This way, complaints don’t get stuck in indecision.</p>
+																		</li>
+																	</ol>
+																</div>
+															</div>
+														</div>
+														<div class="sect1">
+															<h2 id="_use_an_existing_code_of_conduct_instead_of_writing_one_yourself">5. Use an existing Code of Conduct instead of writing one yourself&nbsp;<a class="hanchor" href="#_use_an_existing_code_of_conduct_instead_of_writing_one_yourself">🔗</a> </h2>
+															<div class="sectionbody">
+																<div class="paragraph">
+																	<p>The previous sections focused on less-talked about, but equally important parts of implementing a Code of Conduct.
+																		But what about actually writing the &#34;legal&#34; text?
+																		A Code of Conduct is in effect a legal document.
+																		In the world of licenses, we are often told not to write our own licenses and instead use one already available and widely understood in our legal systems.</p>
+																</div>
+																<div class="paragraph">
+																	<p>The same mindset is useful when evaluating a Code of Conduct.
+																		Avoid writing your own and use one that already exists and is more widely-used if possible.
+																		This way, you can focus on the more challenging questions of defining enforcement instead of also becoming junior policy authors.</p>
+																</div>
+															</div>
+														</div>
+														<div class="sect1">
+															<h2 id="_references">6. References&nbsp;<a class="hanchor" href="#_references">🔗</a> </h2>
+															<div class="sectionbody">
+																<div class="ulist">
+																	<ul>
+																		<li>
+																			<p><a href="https://opensource.guide/code-of-conduct/">Open Source Guide - Code of Conduct</a></p>
+																		</li>
+																		<li>
+																			<p>Popular examples:</p>
+																			<div class="ulist">
+																				<ul>
+																					<li>
+																						<p><a href="https://www.contributor-covenant.org/">Contributor Covenant</a>
+																							(<em>recommended</em> - widely used, provides template to fill out</p>
+																					</li>
+																					<li>
+																						<p><a href="https://www.djangoproject.com/conduct/">Django Code of Conduct</a></p>
+																					</li>
+																					<li>
+																						<p><a href="https://citizencodeofconduct.org/">Citizen Code of Conduct</a></p>
+																					</li>
+																				</ul>
+																			</div>
+																		</li>
+																	</ul>
+																</div>
+															</div>
+														</div>
+													</div>
+													<p class="post-meta border-bottom pb-3 mb-0 mt-3">Updated on 03 Dec 2021</p>
+													<nav class="pagination mt-3">
+														<a class="nav nav-prev" href="https://unicef.github.io/inventory/missions/charters/" aria-label="Previous page" ><i class="ti-arrow-left mr-2"></i> <span class="d-none d-md-block">Charters</span></a>
+														<a class="nav nav-next" href="https://unicef.github.io/inventory/missions/good-first-issue/" aria-label="Previous page" > <span class="d-none d-md-block">Good first issues</span><i class="ti-arrow-right ml-2"></i></a>
+													</nav>
+													<section class="my-3 py-3" id="related-articles">
+														<h5 class="text-center">Related Articles</h5>
+														<div class="row">
+															<div class="col-sm-4 my-2">
+																<a href="https://unicef.github.io/inventory/missions/good-first-issue/">
+																	<div class="card text-center">
+																		<div class="card-body">
+																			<h5 class="card-title">Good first issues</h5>
+																			<p class="card-subtitle mb-2 text-muted">Embark on a mission to enable new contributors to your Open Source project with Good First Issues (GFIs).</p>
+																		</div>
+																	</div>
+																</a>
+															</div>
+															<div class="col-sm-4 my-2">
+																<a href="https://unicef.github.io/inventory/missions/charters/">
+																	<div class="card text-center">
+																		<div class="card-body">
+																			<h5 class="card-title">Charters</h5>
+																			<p class="card-subtitle mb-2 text-muted">Embark on a mission to create a project charter for your Open Source work.</p>
+																		</div>
+																	</div>
+																</a>
+															</div>
+														</div>
+													</section>
 												</div>
 											</div>
-											<p class="post-meta border-bottom pb-3 mb-0 mt-3">Updated on 03 Dec 2021</p>
-											<nav class="pagination mt-3">
-												<a class="nav nav-prev" href="https://unicef.github.io/inventory/missions/charters/" aria-label="Previous page" ><i class="ti-arrow-left mr-2"></i> <span class="d-none d-md-block">Charters</span></a>
-												<a class="nav nav-next" href="https://unicef.github.io/inventory/missions/good-first-issue/" aria-label="Previous page" > <span class="d-none d-md-block">Good first issues</span><i class="ti-arrow-right ml-2"></i></a>
-											</nav>
-											<section class="my-3 py-3" id="related-articles">
-												<h5 class="text-center">Related Articles</h5>
-												<div class="row">
-													<div class="col-sm-4 my-2">
-														<a href="https://unicef.github.io/inventory/missions/good-first-issue/">
-															<div class="card text-center">
-																<div class="card-body">
-																	<h5 class="card-title">Good first issues</h5>
-																	<p class="card-subtitle mb-2 text-muted">Embark on a mission to enable new contributors to your Open Source project with Good First Issues (GFIs).</p>
-																</div>
-															</div>
-														</a>
-													</div>
-													<div class="col-sm-4 my-2">
-														<a href="https://unicef.github.io/inventory/missions/charters/">
-															<div class="card text-center">
-																<div class="card-body">
-																	<h5 class="card-title">Charters</h5>
-																	<p class="card-subtitle mb-2 text-muted">Embark on a mission to create a project charter for your Open Source work.</p>
-																</div>
-															</div>
-														</a>
-													</div>
-												</div>
-											</section>
 										</div>
 									</div>
-								</div>
-							</div>
-						</div>
-					</section>
-					<!-- /details page -->
-					<!-- footer -->
-					<footer class="section bg-primary p-4 mt-5">
-						<div class="container">
-							<div class="row align-items-center">
-								<div class="col-md-3 text-md-left text-center">
-									<ul>
-										<li><a class="nav-link text-white" href="/inventory">HOME</a></li>
-										<li class="nav-item">
-											<a class="nav-link text-white text-uppercase" href="https://unicef.github.io/inventory/faq">FAQ</a>
-										</li>
-										<li class="nav-item">
-											<a class="nav-link text-white text-uppercase" href="https://unicef.github.io/inventory/toolkits">toolkits</a>
-										</li>
-										<li class="nav-item">
-											<a class="nav-link text-white text-uppercase" href="https://unicef.github.io/inventory/cohorts">cohorts</a>
-										</li>
-									</ul>
-								</div>
-								<div class="col-md-6 text-md-center text-center">
-									<p class="mb-md-0 mb-4 text-white">The UNICEF Open Source Inventory is a knowledge-base of best practices, resources, and information about working and leading Open. This is maintained as part of the Open Source Mentorship programme offered by the UNICEF Venture Fund. The Inventory provides mentorship and guidance to anyone seeking to adopt best practices in their journey to building an Open Source project and community. It is self-serve, and can be used at various phases of building a project and community.</p>
-								</div>
-								<div class="col-md-3 text-md-right text-center">
-									<ul class="text-white">
-										<li class="nav-item">
-											<a class="nav-link text-white font-weight-bold" href="https://www.unicef.org/">UNICEF Global</a>
-										</li>
-										<li class="nav-item">
-											<a class="nav-link text-white font-weight-bold" href="https://www.unicefinnovationfund.org/">UNICEF Venture Fund</a>
-										</li>
-										<li class="nav-item">
-											<a class="nav-link text-white font-weight-bold" href="https://www.unicef.org/legal">Legal</a>
-											<p class="h6 text-md-right font-weight-light">Find legal information and policies related to UNICEF Global&#39;s digital communications.</p>
-										</li>
-									</ul>
-									<ul class="list-inline">
-										<li class="list-inline-item"><a class="text-color d-inline-block p-2 text-white" href="https://github.com/unicef/inventory" aria-label="UNICEF Open Source Inventory on GitHub"><i class="ti-github"></i></a></li>
-										<li class="list-inline-item"><a class="text-color d-inline-block p-2 text-white" href="https://twitter.com/UNICEFinnovate" aria-label="@UNICEFinnovate on Twitter"><i class="ti-twitter"></i></a></li>
-									</ul>
-								</div>
-							</div>
-						</div>
-						<p class="text-md-center text-center text-white mt-3 h6 font-italic">Creative Commons BY-SA 4.0. Site theme maintained by UNICEF. Original theme, Dot, created by ThemeFisher.</p>
-					</footer>
-					<!-- /footer -->
-					<!-- Main Script -->
-					<script src="https://unicef.github.io/inventory/js/script.min.js"></script>
-				</body>
-			</html>
+								</section>
+								<!-- /details page -->
+								<!-- footer -->
+								<footer class="section bg-primary p-4 mt-5">
+									<div class="container">
+										<div class="row align-items-center">
+											<div class="col-md-3 text-md-left text-center">
+												<ul>
+													<li><a class="nav-link text-white" href="/inventory">HOME</a></li>
+													<li class="nav-item">
+														<a class="nav-link text-white text-uppercase" href="https://unicef.github.io/inventory/faq">FAQ</a>
+													</li>
+													<li class="nav-item">
+														<a class="nav-link text-white text-uppercase" href="https://unicef.github.io/inventory/toolkits">toolkits</a>
+													</li>
+													<li class="nav-item">
+														<a class="nav-link text-white text-uppercase" href="https://unicef.github.io/inventory/cohorts">cohorts</a>
+													</li>
+												</ul>
+											</div>
+											<div class="col-md-6 text-md-center text-center">
+												<p class="mb-md-0 mb-4 text-white">The UNICEF Open Source Inventory is a knowledge-base of best practices, resources, and information about working and leading Open. This is maintained as part of the Open Source Mentorship programme offered by the UNICEF Venture Fund. The Inventory provides mentorship and guidance to anyone seeking to adopt best practices in their journey to building an Open Source project and community. It is self-serve, and can be used at various phases of building a project and community.</p>
+											</div>
+											<div class="col-md-3 text-md-right text-center">
+												<ul class="text-white">
+													<li class="nav-item">
+														<a class="nav-link text-white font-weight-bold px-0" href="https://www.unicef.org/">UNICEF Global</a>
+													</li>
+													<li class="nav-item">
+														<a class="nav-link text-white font-weight-bold px-0" href="https://www.unicefinnovationfund.org/">UNICEF Venture Fund</a>
+													</li>
+													<li class="nav-item">
+														<a class="nav-link text-white font-weight-bold px-0" href="https://www.unicef.org/legal">Legal</a>
+														<p class="h6 text-md-right font-weight-light">Find legal information and policies related to UNICEF Global&#39;s digital communications.</p>
+													</li>
+												</ul>
+												<ul class="list-inline">
+													<li class="list-inline-item"><a class="text-color d-inline-block p-2 text-white socialIcon" href="https://github.com/unicef/inventory" aria-label="UNICEF Open Source Inventory on GitHub"><i class="ti-github"></i></a></li>
+													<li class="list-inline-item"><a class="text-color d-inline-block p-2 text-white socialIcon" href="https://twitter.com/UNICEFinnovate" aria-label="@UNICEFinnovate on Twitter"><i class="ti-twitter"></i></a></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+									<p class="text-md-center text-center text-white mt-3 h6 font-italic">Creative Commons BY-SA 4.0. Site theme maintained by UNICEF. Original theme, Dot, created by ThemeFisher.</p>
+								</footer>
+								<!-- /footer -->
+								<!-- Main Script -->
+								<script src="https://unicef.github.io/inventory/js/script.min.js"></script>
+							</body>
+						</html>

@@ -75,23 +75,26 @@
 		<meta name="twitter:title" content="Categories"/>
 		<meta name="twitter:description" content="UNICEF Open Source Inventory. A UNICEF Global Innovation knowledge base of best practices and resources for working and leading Open."/>
 	</head>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 	<body>
 		<!-- header -->
 		<header class="shadow-bottom sticky-top bg-white">
-			<nav class="navbar navbar-expand-md navbar-dark" style=" background-color: #1CABE2">
-				<div class="container px-2 px-md-0 navigation-bar">
+			<nav class="navbar navbar-expand-md navbar-dark d-flex flex-column p-0" style=" background-color: #1CABE2">
+				<div class="w-100 container mx-0 navigation-bar">
 					<div id="site-brand">
-						<a class="navbar-brand px-2" href="https://www.unicef.org/">
+						<a class="navbar-brand px-2"
+        href="https://www.unicef.org/">
 							<div class="text-center nav-heading">
 								<img class="img-fluid nav-img" src="https://unicef.github.io/inventory/images/unicef-logo.png" alt="UNICEF O.S. Inventory">
 								<a class="d-block nav-title" href="/inventory">UNICEF O.S. Inventory</a>
 							</div>
 						</a>
 					</div>
-					<button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation"
+					<a class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation"
       aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
-						<span class="navbar-toggler-icon"></span>
-					</button>
+						<span class="sidebarIcon navbarMenu">Menu<i class="fa-solid fa-caret-down d-inline p-1"></i>
+						</span>
+					</a>
 					<div class="collapse navbar-collapse text-center" id="navigation">
 						<ul class="navbar-nav ml-auto">
 							<li class="nav-item">
@@ -148,9 +151,25 @@
 							</option>
 							<option id="es" value="https://unicef.github.io/inventory/es/categories/">es</option>
 						</select>
+						<p class="text-white unicef-glob ml-4 mt-3">Visit <a href="https://www.unicef.org/" class="text-white">UNICEF Global <i
+        class="fas fa-angle-double-right"></i></a></p>
 					</div>
 				</div>
-				<p class="text-white unicef-glob mx-3">Visit <a href="https://www.unicef.org/" class="text-white">UNICEF Global <i class="fas fa-angle-double-right"></i></a></p>
+				<div class="w-100 py-2 breadcrumbBar text-light" style=" background-color: #374ea2">
+					<div class="container">
+						<div class="breadcrumbs">
+							<a href="https://unicef.github.io/inventory/">Home</a>
+							&gt; <a href="https://unicef.github.io/inventory/categories" class="breadcrumbLink">categories</a>
+						</div>
+						<a data-toggle="collapse" data-target="#sidebarMobile"  aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation"> <i class="ti-menu text-light sidebarIcon"></i></a>
+						<div class="text-light text-center sidebarMobile collapse justify-content-center" id="sidebarMobile">
+							<div class="sidebarBox">
+								<ul>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
 			</nav>
 		</header>
 		<!-- /header -->
@@ -163,918 +182,851 @@
 			}
 		</script>
 		<!-- details page -->
-		<section class="single section-sm main-section" id="section">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-3">
-						<div class="sidebar">
-							<a class="back-btn" href="/inventory" aria-label="back"></a>
-							<ul>
-							</ul>
-						</div>
+		<section class="single section-sm" id="section">
+			<div class="d-flex w-100">
+				<div class="sidebarContainer">
+					<div class="sidebar">
+						<ul>
+						</ul>
 					</div>
-					<div class="col-lg-9">
-						<div class="bg-white p-3" style="margin:auto">
-							<script language="JavaScript">
-								String.prototype.capitalizeFirstLetter = function() {
-								   return this.charAt(0).toUpperCase() + this.slice(1);
-								}
-
-								var path = "<a style='margin-left:2%' href='https:\/\/unicef.github.io\/inventory\/'>Home</a>";
-								var href = document.location.href;
-								var s = href.split("/");
-								for (var i=3;i<(s.length-2);i++) {
-								   path+=" &gt;  <a href=\""+href.substring(0,href.indexOf("/"+s[i])+s[i].length+1)+"/\">"+s[i].capitalizeFirstLetter()+"</a> ";
-								}
-								i=s.length-1;
-								path+="<a href=\""+href.substring(0,href.indexOf(s[i])+s[i].length)+"\">"+s[i]+"</a>";
-								path+="  &gt;  <b>Categories</b>";
-								document.writeln(path);
-							</script>
+				</div>
+				<div class="contentContainer py-5 px-5">
+					<div class="p-lg-5 p-4 bg-white position-relative mx-5 my-3 w-100 contentBox" id="content">
+						<div class="d-flex flex-row-reverse p-absolute">
+							<button id="editBtn" value="https://github.com/unicef/inventory/blob/main/content/categories" class="editBtn py-2 px-3">Edit this Page</button>
 						</div>
-						<div class="p-lg-5 p-4 bg-white position-relative" id="content">
-							<div class="d-flex flex-row-reverse">
-								<button id="editBtn" value="https://github.com/unicef/inventory/blob/main/content/categories" class="editBtn py-2 px-3">Edit this Page</button>
-							</div>
-							<div class="p-lg-5 p-3 bg-white">
-								<h2 id="title">Categories</h2>
-								<div class="bg-light p-4">
-									<ul class="page-list">
-										<li data-nav-id="https://unicef.github.io/inventory/categories/" title="Categories" class="sidelist
+						<div class="p-lg-5 p-3 bg-white">
+							<h2 id="title">Categories</h2>
+							<div class="bg-light p-4">
+								<ul class="page-list">
+									<li data-nav-id="https://unicef.github.io/inventory/categories/" title="Categories" class="
   active">
-											<a href="https://unicef.github.io/inventory/categories/">
-												Categories
-											</a>
-											<ul>
-												<li data-nav-id="https://unicef.github.io/inventory/categories/team/" title="team" class="sidelist
+										<a href="https://unicef.github.io/inventory/categories/">
+											Categories
+										</a>
+										<ul>
+											<li data-nav-id="https://unicef.github.io/inventory/categories/team/" title="team" class="sidelist
   active">
-													<div class="container">
-														<div class="row">
-															<div class="col-10">
-																<a href="https://unicef.github.io/inventory/categories/team/" class="">
-																	team
-																</a>
-															</div>
-															<div class="col-2 ">
-																<i class="fas fa-chevron-down align-middle" type="button" data-toggle="collapse" data-target="#collapse03a496c4fcfacf523c99f8e99541a1d0" aria-expanded="false" aria-controls='collapse03a496c4fcfacf523c99f8e99541a1d0'>
-																</i>
-															</div>
+												<div class="container">
+													<div class="row">
+														<div class="col-10">
+															<a href="https://unicef.github.io/inventory/categories/team/" class="">
+																team
+															</a>
 														</div>
-														<div id='collapse03a496c4fcfacf523c99f8e99541a1d0' class="collapse" aria-labelledby="heading03a496c4fcfacf523c99f8e99541a1d0" data-parent="#accordionExample">
-															<div class="sidebar-scroll">
-																<ul>
-																	<li data-nav-id="https://unicef.github.io/inventory/cohorts/ds-ai/inspired-ideas/" title="Elsa Health" class="sidelist
+														<div class="col-2 ">
+															<i class="fas fa-chevron-down align-middle" type="button" data-toggle="collapse" data-target="#collapsefc31fa992954aacf490d5946c1e0cf83" aria-expanded="false" aria-controls='collapsefc31fa992954aacf490d5946c1e0cf83'>
+															</i>
+														</div>
+													</div>
+													<div id='collapsefc31fa992954aacf490d5946c1e0cf83' class="collapse" aria-labelledby="headingfc31fa992954aacf490d5946c1e0cf83" data-parent="#accordionExample">
+														<div class="sidebar-scroll">
+															<ul>
+																<li data-nav-id="https://unicef.github.io/inventory/cohorts/ds-ai/inspired-ideas/" title="Elsa Health" class="sidelist
+  ">
+																	<div class="container">
+																		<div class="row">
+																			<div class="col-10">
+																				<a href="https://unicef.github.io/inventory/cohorts/ds-ai/inspired-ideas/" class="">
+																					Elsa Health
+																				</a>
+																			</div>
+																		</div>
+																	</li>
+																	<li data-nav-id="https://unicef.github.io/inventory/cohorts/ds-ai/ottaa-project/" title="OTTAA Project" class="sidelist
   ">
 																		<div class="container">
 																			<div class="row">
 																				<div class="col-10">
-																					<a href="https://unicef.github.io/inventory/cohorts/ds-ai/inspired-ideas/" class="">
-																						Elsa Health
+																					<a href="https://unicef.github.io/inventory/cohorts/ds-ai/ottaa-project/" class="">
+																						OTTAA Project
 																					</a>
 																				</div>
 																			</div>
 																		</li>
-																		<li data-nav-id="https://unicef.github.io/inventory/cohorts/ds-ai/ottaa-project/" title="OTTAA Project" class="sidelist
+																		<li data-nav-id="https://unicef.github.io/inventory/cohorts/vr-ar/vrapeutic/" title="VRapeutic" class="sidelist
   ">
 																			<div class="container">
 																				<div class="row">
 																					<div class="col-10">
-																						<a href="https://unicef.github.io/inventory/cohorts/ds-ai/ottaa-project/" class="">
-																							OTTAA Project
+																						<a href="https://unicef.github.io/inventory/cohorts/vr-ar/vrapeutic/" class="">
+																							VRapeutic
 																						</a>
 																					</div>
 																				</div>
 																			</li>
-																			<li data-nav-id="https://unicef.github.io/inventory/cohorts/vr-ar/vrapeutic/" title="VRapeutic" class="sidelist
+																			<li data-nav-id="https://unicef.github.io/inventory/cohorts/blockchain/bx-smart-labs/" title="BX Smart Labs" class="sidelist
   ">
 																				<div class="container">
 																					<div class="row">
 																						<div class="col-10">
-																							<a href="https://unicef.github.io/inventory/cohorts/vr-ar/vrapeutic/" class="">
-																								VRapeutic
+																							<a href="https://unicef.github.io/inventory/cohorts/blockchain/bx-smart-labs/" class="">
+																								BX Smart Labs
 																							</a>
 																						</div>
 																					</div>
 																				</li>
-																				<li data-nav-id="https://unicef.github.io/inventory/cohorts/blockchain/bx-smart-labs/" title="BX Smart Labs" class="sidelist
+																				<li data-nav-id="https://unicef.github.io/inventory/cohorts/blockchain/kotani-pay/" title="Kotani Pay" class="sidelist
   ">
 																					<div class="container">
 																						<div class="row">
 																							<div class="col-10">
-																								<a href="https://unicef.github.io/inventory/cohorts/blockchain/bx-smart-labs/" class="">
-																									BX Smart Labs
+																								<a href="https://unicef.github.io/inventory/cohorts/blockchain/kotani-pay/" class="">
+																									Kotani Pay
 																								</a>
 																							</div>
 																						</div>
 																					</li>
-																					<li data-nav-id="https://unicef.github.io/inventory/cohorts/blockchain/kotani-pay/" title="Kotani Pay" class="sidelist
+																					<li data-nav-id="https://unicef.github.io/inventory/cohorts/blockchain/leaf-global-fintech/" title="Leaf Global Fintech" class="sidelist
   ">
 																						<div class="container">
 																							<div class="row">
 																								<div class="col-10">
-																									<a href="https://unicef.github.io/inventory/cohorts/blockchain/kotani-pay/" class="">
-																										Kotani Pay
+																									<a href="https://unicef.github.io/inventory/cohorts/blockchain/leaf-global-fintech/" class="">
+																										Leaf Global Fintech
 																									</a>
 																								</div>
 																							</div>
 																						</li>
-																						<li data-nav-id="https://unicef.github.io/inventory/cohorts/blockchain/leaf-global-fintech/" title="Leaf Global Fintech" class="sidelist
+																						<li data-nav-id="https://unicef.github.io/inventory/cohorts/blockchain/rumsan/" title="Rumsan" class="sidelist
   ">
 																							<div class="container">
 																								<div class="row">
 																									<div class="col-10">
-																										<a href="https://unicef.github.io/inventory/cohorts/blockchain/leaf-global-fintech/" class="">
-																											Leaf Global Fintech
+																										<a href="https://unicef.github.io/inventory/cohorts/blockchain/rumsan/" class="">
+																											Rumsan
 																										</a>
 																									</div>
 																								</div>
 																							</li>
-																							<li data-nav-id="https://unicef.github.io/inventory/cohorts/blockchain/rumsan/" title="Rumsan" class="sidelist
+																							<li data-nav-id="https://unicef.github.io/inventory/cohorts/blockchain/treejer/" title="Treejer" class="sidelist
   ">
 																								<div class="container">
 																									<div class="row">
 																										<div class="col-10">
-																											<a href="https://unicef.github.io/inventory/cohorts/blockchain/rumsan/" class="">
-																												Rumsan
+																											<a href="https://unicef.github.io/inventory/cohorts/blockchain/treejer/" class="">
+																												Treejer
 																											</a>
 																										</div>
 																									</div>
 																								</li>
-																								<li data-nav-id="https://unicef.github.io/inventory/cohorts/blockchain/treejer/" title="Treejer" class="sidelist
+																								<li data-nav-id="https://unicef.github.io/inventory/cohorts/blockchain/xcapit/" title="Xcapit" class="sidelist
   ">
 																									<div class="container">
 																										<div class="row">
 																											<div class="col-10">
-																												<a href="https://unicef.github.io/inventory/cohorts/blockchain/treejer/" class="">
-																													Treejer
+																												<a href="https://unicef.github.io/inventory/cohorts/blockchain/xcapit/" class="">
+																													Xcapit
 																												</a>
 																											</div>
 																										</div>
 																									</li>
-																									<li data-nav-id="https://unicef.github.io/inventory/cohorts/blockchain/xcapit/" title="Xcapit" class="sidelist
+																									<li data-nav-id="https://unicef.github.io/inventory/cohorts/vr-ar/scioxr/" title="ScioXR" class="sidelist
   ">
 																										<div class="container">
 																											<div class="row">
 																												<div class="col-10">
-																													<a href="https://unicef.github.io/inventory/cohorts/blockchain/xcapit/" class="">
-																														Xcapit
+																													<a href="https://unicef.github.io/inventory/cohorts/vr-ar/scioxr/" class="">
+																														ScioXR
 																													</a>
 																												</div>
 																											</div>
 																										</li>
-																										<li data-nav-id="https://unicef.github.io/inventory/cohorts/vr-ar/scioxr/" title="ScioXR" class="sidelist
-  ">
-																											<div class="container">
-																												<div class="row">
-																													<div class="col-10">
-																														<a href="https://unicef.github.io/inventory/cohorts/vr-ar/scioxr/" class="">
-																															ScioXR
-																														</a>
-																													</div>
-																												</div>
-																											</li>
-																										</ul>
+																									</ul>
+																								</div>
+																							</div>
+																						</li>
+																						<li data-nav-id="https://unicef.github.io/inventory/categories/communities/" title="communities" class="sidelist
+  active">
+																							<div class="container">
+																								<div class="row">
+																									<div class="col-10">
+																										<a href="https://unicef.github.io/inventory/categories/communities/" class="">
+																											communities
+																										</a>
+																									</div>
+																									<div class="col-2 ">
+																										<i class="fas fa-chevron-down align-middle" type="button" data-toggle="collapse" data-target="#collapseaf5836cf4c9f0ca9d4095319412ea9fc" aria-expanded="false" aria-controls='collapseaf5836cf4c9f0ca9d4095319412ea9fc'>
+																										</i>
 																									</div>
 																								</div>
-																							</li>
-																							<li data-nav-id="https://unicef.github.io/inventory/categories/communities/" title="communities" class="sidelist
-  active">
-																								<div class="container">
-																									<div class="row">
-																										<div class="col-10">
-																											<a href="https://unicef.github.io/inventory/categories/communities/" class="">
-																												communities
-																											</a>
-																										</div>
-																										<div class="col-2 ">
-																											<i class="fas fa-chevron-down align-middle" type="button" data-toggle="collapse" data-target="#collapse41c19d25099f599a36ecacfc80a34f4f" aria-expanded="false" aria-controls='collapse41c19d25099f599a36ecacfc80a34f4f'>
-																											</i>
-																										</div>
-																									</div>
-																									<div id='collapse41c19d25099f599a36ecacfc80a34f4f' class="collapse" aria-labelledby="heading41c19d25099f599a36ecacfc80a34f4f" data-parent="#accordionExample">
-																										<div class="sidebar-scroll">
-																											<ul>
-																												<li data-nav-id="https://unicef.github.io/inventory/communities/fedora/" title="Fedora Project" class="sidelist
+																								<div id='collapseaf5836cf4c9f0ca9d4095319412ea9fc' class="collapse" aria-labelledby="headingaf5836cf4c9f0ca9d4095319412ea9fc" data-parent="#accordionExample">
+																									<div class="sidebar-scroll">
+																										<ul>
+																											<li data-nav-id="https://unicef.github.io/inventory/communities/fedora/" title="Fedora Project" class="sidelist
+  ">
+																												<div class="container">
+																													<div class="row">
+																														<div class="col-10">
+																															<a href="https://unicef.github.io/inventory/communities/fedora/" class="">
+																																Fedora Project
+																															</a>
+																														</div>
+																													</div>
+																												</li>
+																												<li data-nav-id="https://unicef.github.io/inventory/communities/public-lab/" title="Public Lab" class="sidelist
   ">
 																													<div class="container">
 																														<div class="row">
 																															<div class="col-10">
-																																<a href="https://unicef.github.io/inventory/communities/fedora/" class="">
-																																	Fedora Project
+																																<a href="https://unicef.github.io/inventory/communities/public-lab/" class="">
+																																	Public Lab
 																																</a>
 																															</div>
 																														</div>
 																													</li>
-																													<li data-nav-id="https://unicef.github.io/inventory/communities/public-lab/" title="Public Lab" class="sidelist
-  ">
-																														<div class="container">
-																															<div class="row">
-																																<div class="col-10">
-																																	<a href="https://unicef.github.io/inventory/communities/public-lab/" class="">
-																																		Public Lab
-																																	</a>
-																																</div>
-																															</div>
-																														</li>
-																													</ul>
+																												</ul>
+																											</div>
+																										</div>
+																									</li>
+																									<li data-nav-id="https://unicef.github.io/inventory/categories/data/" title="data" class="sidelist
+  active">
+																										<div class="container">
+																											<div class="row">
+																												<div class="col-10">
+																													<a href="https://unicef.github.io/inventory/categories/data/" class="">
+																														data
+																													</a>
+																												</div>
+																												<div class="col-2 ">
+																													<i class="fas fa-chevron-down align-middle" type="button" data-toggle="collapse" data-target="#collapse4f3e191dcaf5a84c904ffa2c3909659c" aria-expanded="false" aria-controls='collapse4f3e191dcaf5a84c904ffa2c3909659c'>
+																													</i>
 																												</div>
 																											</div>
-																										</li>
-																										<li data-nav-id="https://unicef.github.io/inventory/categories/data/" title="data" class="sidelist
-  active">
-																											<div class="container">
-																												<div class="row">
-																													<div class="col-10">
-																														<a href="https://unicef.github.io/inventory/categories/data/" class="">
-																															data
-																														</a>
-																													</div>
-																													<div class="col-2 ">
-																														<i class="fas fa-chevron-down align-middle" type="button" data-toggle="collapse" data-target="#collapse5c9ac03989fa1464f3ae1f905cfd9c42" aria-expanded="false" aria-controls='collapse5c9ac03989fa1464f3ae1f905cfd9c42'>
-																														</i>
-																													</div>
-																												</div>
-																												<div id='collapse5c9ac03989fa1464f3ae1f905cfd9c42' class="collapse" aria-labelledby="heading5c9ac03989fa1464f3ae1f905cfd9c42" data-parent="#accordionExample">
-																													<div class="sidebar-scroll">
-																														<ul>
-																															<li data-nav-id="https://unicef.github.io/inventory/data/milestone-roadmap/" title="AI Ethics &amp; Transparency Roadmap - Template" class="sidelist
+																											<div id='collapse4f3e191dcaf5a84c904ffa2c3909659c' class="collapse" aria-labelledby="heading4f3e191dcaf5a84c904ffa2c3909659c" data-parent="#accordionExample">
+																												<div class="sidebar-scroll">
+																													<ul>
+																														<li data-nav-id="https://unicef.github.io/inventory/data/milestone-roadmap/" title="AI Ethics &amp; Transparency Roadmap - Template" class="sidelist
+  ">
+																															<div class="container">
+																																<div class="row">
+																																	<div class="col-10">
+																																		<a href="https://unicef.github.io/inventory/data/milestone-roadmap/" class="">
+																																			AI Ethics &amp; Transparency Roadmap - Template
+																																		</a>
+																																	</div>
+																																</div>
+																															</li>
+																															<li data-nav-id="https://unicef.github.io/inventory/data/traps/" title="Common traps to avoid when building AI systems" class="sidelist
   ">
 																																<div class="container">
 																																	<div class="row">
 																																		<div class="col-10">
-																																			<a href="https://unicef.github.io/inventory/data/milestone-roadmap/" class="">
-																																				AI Ethics &amp; Transparency Roadmap - Template
+																																			<a href="https://unicef.github.io/inventory/data/traps/" class="">
+																																				Common traps to avoid when building AI systems
 																																			</a>
 																																		</div>
 																																	</div>
 																																</li>
-																																<li data-nav-id="https://unicef.github.io/inventory/data/traps/" title="Common traps to avoid when building AI systems" class="sidelist
+																																<li data-nav-id="https://unicef.github.io/inventory/data/model-card/" title="Machine Learning Model Card" class="sidelist
   ">
 																																	<div class="container">
 																																		<div class="row">
 																																			<div class="col-10">
-																																				<a href="https://unicef.github.io/inventory/data/traps/" class="">
-																																					Common traps to avoid when building AI systems
+																																				<a href="https://unicef.github.io/inventory/data/model-card/" class="">
+																																					Machine Learning Model Card
 																																				</a>
 																																			</div>
 																																		</div>
 																																	</li>
-																																	<li data-nav-id="https://unicef.github.io/inventory/data/model-card/" title="Machine Learning Model Card" class="sidelist
+																																	<li data-nav-id="https://unicef.github.io/inventory/data/policy-guidance-children/" title="Policy guidance on AI for children (via unicef.org)" class="sidelist
   ">
 																																		<div class="container">
 																																			<div class="row">
 																																				<div class="col-10">
-																																					<a href="https://unicef.github.io/inventory/data/model-card/" class="">
-																																						Machine Learning Model Card
+																																					<a href="https://unicef.github.io/inventory/data/policy-guidance-children/" class="">
+																																						Policy guidance on AI for children (via unicef.org)
 																																					</a>
 																																				</div>
 																																			</div>
 																																		</li>
-																																		<li data-nav-id="https://unicef.github.io/inventory/data/policy-guidance-children/" title="Policy guidance on AI for children (via unicef.org)" class="sidelist
-  ">
-																																			<div class="container">
-																																				<div class="row">
-																																					<div class="col-10">
-																																						<a href="https://unicef.github.io/inventory/data/policy-guidance-children/" class="">
-																																							Policy guidance on AI for children (via unicef.org)
-																																						</a>
-																																					</div>
-																																				</div>
-																																			</li>
-																																		</ul>
+																																	</ul>
+																																</div>
+																															</div>
+																														</li>
+																														<li data-nav-id="https://unicef.github.io/inventory/categories/dev-tools/" title="dev-tools" class="sidelist
+  active">
+																															<div class="container">
+																																<div class="row">
+																																	<div class="col-10">
+																																		<a href="https://unicef.github.io/inventory/categories/dev-tools/" class="">
+																																			dev-tools
+																																		</a>
+																																	</div>
+																																	<div class="col-2 ">
+																																		<i class="fas fa-chevron-down align-middle" type="button" data-toggle="collapse" data-target="#collapse49c45a601fcac19952f9a383ff94e0dc" aria-expanded="false" aria-controls='collapse49c45a601fcac19952f9a383ff94e0dc'>
+																																		</i>
 																																	</div>
 																																</div>
-																															</li>
-																															<li data-nav-id="https://unicef.github.io/inventory/categories/dev-tools/" title="dev-tools" class="sidelist
-  active">
-																																<div class="container">
-																																	<div class="row">
-																																		<div class="col-10">
-																																			<a href="https://unicef.github.io/inventory/categories/dev-tools/" class="">
-																																				dev-tools
-																																			</a>
-																																		</div>
-																																		<div class="col-2 ">
-																																			<i class="fas fa-chevron-down align-middle" type="button" data-toggle="collapse" data-target="#collapsea6fea89105fcf5c9049399da442cf1c3" aria-expanded="false" aria-controls='collapsea6fea89105fcf5c9049399da442cf1c3'>
-																																			</i>
+																																<div id='collapse49c45a601fcac19952f9a383ff94e0dc' class="collapse" aria-labelledby="heading49c45a601fcac19952f9a383ff94e0dc" data-parent="#accordionExample">
+																																	<div class="sidebar-scroll">
+																																		<ul>
+																																			<li data-nav-id="https://unicef.github.io/inventory/dev-tools/continuous-integration/" title="Continuous Integration (CI)" class="sidelist
+  ">
+																																				<div class="container">
+																																					<div class="row">
+																																						<div class="col-10">
+																																							<a href="https://unicef.github.io/inventory/dev-tools/continuous-integration/" class="">
+																																								Continuous Integration (CI)
+																																							</a>
+																																						</div>
+																																					</div>
+																																				</li>
+																																			</ul>
 																																		</div>
 																																	</div>
-																																	<div id='collapsea6fea89105fcf5c9049399da442cf1c3' class="collapse" aria-labelledby="headinga6fea89105fcf5c9049399da442cf1c3" data-parent="#accordionExample">
-																																		<div class="sidebar-scroll">
-																																			<ul>
-																																				<li data-nav-id="https://unicef.github.io/inventory/dev-tools/continuous-integration/" title="Continuous Integration (CI)" class="sidelist
-  ">
-																																					<div class="container">
-																																						<div class="row">
-																																							<div class="col-10">
-																																								<a href="https://unicef.github.io/inventory/dev-tools/continuous-integration/" class="">
-																																									Continuous Integration (CI)
-																																								</a>
-																																							</div>
-																																						</div>
-																																					</li>
-																																				</ul>
+																																</li>
+																																<li data-nav-id="https://unicef.github.io/inventory/categories/documentation/" title="documentation" class="sidelist
+  active">
+																																	<div class="container">
+																																		<div class="row">
+																																			<div class="col-10">
+																																				<a href="https://unicef.github.io/inventory/categories/documentation/" class="">
+																																					documentation
+																																				</a>
+																																			</div>
+																																			<div class="col-2 ">
+																																				<i class="fas fa-chevron-down align-middle" type="button" data-toggle="collapse" data-target="#collapse5f4ac993ff2a3cc1401d499fea850c69" aria-expanded="false" aria-controls='collapse5f4ac993ff2a3cc1401d499fea850c69'>
+																																				</i>
 																																			</div>
 																																		</div>
-																																	</li>
-																																	<li data-nav-id="https://unicef.github.io/inventory/categories/documentation/" title="documentation" class="sidelist
-  active">
-																																		<div class="container">
-																																			<div class="row">
-																																				<div class="col-10">
-																																					<a href="https://unicef.github.io/inventory/categories/documentation/" class="">
-																																						documentation
-																																					</a>
-																																				</div>
-																																				<div class="col-2 ">
-																																					<i class="fas fa-chevron-down align-middle" type="button" data-toggle="collapse" data-target="#collapseaa035d49ff5c9429f9f3ecc8a10916c4" aria-expanded="false" aria-controls='collapseaa035d49ff5c9429f9f3ecc8a10916c4'>
-																																					</i>
-																																				</div>
-																																			</div>
-																																			<div id='collapseaa035d49ff5c9429f9f3ecc8a10916c4' class="collapse" aria-labelledby="headingaa035d49ff5c9429f9f3ecc8a10916c4" data-parent="#accordionExample">
-																																				<div class="sidebar-scroll">
-																																					<ul>
-																																						<li data-nav-id="https://unicef.github.io/inventory/documentation/hall-of-fame/" title="Documentation Hall of Fame" class="sidelist
+																																		<div id='collapse5f4ac993ff2a3cc1401d499fea850c69' class="collapse" aria-labelledby="heading5f4ac993ff2a3cc1401d499fea850c69" data-parent="#accordionExample">
+																																			<div class="sidebar-scroll">
+																																				<ul>
+																																					<li data-nav-id="https://unicef.github.io/inventory/documentation/hall-of-fame/" title="Documentation Hall of Fame" class="sidelist
+  ">
+																																						<div class="container">
+																																							<div class="row">
+																																								<div class="col-10">
+																																									<a href="https://unicef.github.io/inventory/documentation/hall-of-fame/" class="">
+																																										Documentation Hall of Fame
+																																									</a>
+																																								</div>
+																																							</div>
+																																						</li>
+																																						<li data-nav-id="https://unicef.github.io/inventory/documentation/frontier-tech-tips/" title="Frontier technology tips" class="sidelist
   ">
 																																							<div class="container">
 																																								<div class="row">
 																																									<div class="col-10">
-																																										<a href="https://unicef.github.io/inventory/documentation/hall-of-fame/" class="">
-																																											Documentation Hall of Fame
+																																										<a href="https://unicef.github.io/inventory/documentation/frontier-tech-tips/" class="">
+																																											Frontier technology tips
 																																										</a>
 																																									</div>
 																																								</div>
 																																							</li>
-																																							<li data-nav-id="https://unicef.github.io/inventory/documentation/frontier-tech-tips/" title="Frontier technology tips" class="sidelist
+																																							<li data-nav-id="https://unicef.github.io/inventory/documentation/reading-list/" title="Reading list" class="sidelist
   ">
 																																								<div class="container">
 																																									<div class="row">
 																																										<div class="col-10">
-																																											<a href="https://unicef.github.io/inventory/documentation/frontier-tech-tips/" class="">
-																																												Frontier technology tips
+																																											<a href="https://unicef.github.io/inventory/documentation/reading-list/" class="">
+																																												Reading list
 																																											</a>
 																																										</div>
 																																									</div>
 																																								</li>
-																																								<li data-nav-id="https://unicef.github.io/inventory/documentation/reading-list/" title="Reading list" class="sidelist
+																																								<li data-nav-id="https://unicef.github.io/inventory/documentation/stakeholder-mapping/" title="Stakeholder Mapping Exercise" class="sidelist
   ">
 																																									<div class="container">
 																																										<div class="row">
 																																											<div class="col-10">
-																																												<a href="https://unicef.github.io/inventory/documentation/reading-list/" class="">
-																																													Reading list
+																																												<a href="https://unicef.github.io/inventory/documentation/stakeholder-mapping/" class="">
+																																													Stakeholder Mapping Exercise
 																																												</a>
 																																											</div>
 																																										</div>
 																																									</li>
-																																									<li data-nav-id="https://unicef.github.io/inventory/documentation/stakeholder-mapping/" title="Stakeholder Mapping Exercise" class="sidelist
+																																									<li data-nav-id="https://unicef.github.io/inventory/documentation/text-editors/" title="Text editors" class="sidelist
   ">
 																																										<div class="container">
 																																											<div class="row">
 																																												<div class="col-10">
-																																													<a href="https://unicef.github.io/inventory/documentation/stakeholder-mapping/" class="">
-																																														Stakeholder Mapping Exercise
+																																													<a href="https://unicef.github.io/inventory/documentation/text-editors/" class="">
+																																														Text editors
 																																													</a>
 																																												</div>
 																																											</div>
 																																										</li>
-																																										<li data-nav-id="https://unicef.github.io/inventory/documentation/text-editors/" title="Text editors" class="sidelist
-  ">
-																																											<div class="container">
-																																												<div class="row">
-																																													<div class="col-10">
-																																														<a href="https://unicef.github.io/inventory/documentation/text-editors/" class="">
-																																															Text editors
-																																														</a>
-																																													</div>
-																																												</div>
-																																											</li>
-																																										</ul>
+																																									</ul>
+																																								</div>
+																																							</div>
+																																						</li>
+																																						<li data-nav-id="https://unicef.github.io/inventory/categories/governance/" title="governance" class="sidelist
+  active">
+																																							<div class="container">
+																																								<div class="row">
+																																									<div class="col-10">
+																																										<a href="https://unicef.github.io/inventory/categories/governance/" class="">
+																																											governance
+																																										</a>
+																																									</div>
+																																									<div class="col-2 ">
+																																										<i class="fas fa-chevron-down align-middle" type="button" data-toggle="collapse" data-target="#collapse16010cf9f2d95ea3ccf493849f5c4aa9" aria-expanded="false" aria-controls='collapse16010cf9f2d95ea3ccf493849f5c4aa9'>
+																																										</i>
 																																									</div>
 																																								</div>
-																																							</li>
-																																							<li data-nav-id="https://unicef.github.io/inventory/categories/governance/" title="governance" class="sidelist
-  active">
-																																								<div class="container">
-																																									<div class="row">
-																																										<div class="col-10">
-																																											<a href="https://unicef.github.io/inventory/categories/governance/" class="">
-																																												governance
-																																											</a>
-																																										</div>
-																																										<div class="col-2 ">
-																																											<i class="fas fa-chevron-down align-middle" type="button" data-toggle="collapse" data-target="#collapse34d40cf2cf11f80ce95969493acaf9a5" aria-expanded="false" aria-controls='collapse34d40cf2cf11f80ce95969493acaf9a5'>
-																																											</i>
-																																										</div>
-																																									</div>
-																																									<div id='collapse34d40cf2cf11f80ce95969493acaf9a5' class="collapse" aria-labelledby="heading34d40cf2cf11f80ce95969493acaf9a5" data-parent="#accordionExample">
-																																										<div class="sidebar-scroll">
-																																											<ul>
-																																												<li data-nav-id="https://unicef.github.io/inventory/governance/governance/" title="Governance" class="sidelist
+																																								<div id='collapse16010cf9f2d95ea3ccf493849f5c4aa9' class="collapse" aria-labelledby="heading16010cf9f2d95ea3ccf493849f5c4aa9" data-parent="#accordionExample">
+																																									<div class="sidebar-scroll">
+																																										<ul>
+																																											<li data-nav-id="https://unicef.github.io/inventory/governance/governance/" title="Governance" class="sidelist
+  ">
+																																												<div class="container">
+																																													<div class="row">
+																																														<div class="col-10">
+																																															<a href="https://unicef.github.io/inventory/governance/governance/" class="">
+																																																Governance
+																																															</a>
+																																														</div>
+																																													</div>
+																																												</li>
+																																												<li data-nav-id="https://unicef.github.io/inventory/governance/reading-list/" title="Reading list: FOSS" class="sidelist
   ">
 																																													<div class="container">
 																																														<div class="row">
 																																															<div class="col-10">
-																																																<a href="https://unicef.github.io/inventory/governance/governance/" class="">
-																																																	Governance
+																																																<a href="https://unicef.github.io/inventory/governance/reading-list/" class="">
+																																																	Reading list: FOSS
 																																																</a>
 																																															</div>
 																																														</div>
 																																													</li>
-																																													<li data-nav-id="https://unicef.github.io/inventory/governance/reading-list/" title="Reading list: FOSS" class="sidelist
-  ">
-																																														<div class="container">
-																																															<div class="row">
-																																																<div class="col-10">
-																																																	<a href="https://unicef.github.io/inventory/governance/reading-list/" class="">
-																																																		Reading list: FOSS
-																																																	</a>
-																																																</div>
-																																															</div>
-																																														</li>
-																																													</ul>
+																																												</ul>
+																																											</div>
+																																										</div>
+																																									</li>
+																																									<li data-nav-id="https://unicef.github.io/inventory/categories/hardware/" title="hardware" class="sidelist
+  active">
+																																										<div class="container">
+																																											<div class="row">
+																																												<div class="col-10">
+																																													<a href="https://unicef.github.io/inventory/categories/hardware/" class="">
+																																														hardware
+																																													</a>
+																																												</div>
+																																												<div class="col-2 ">
+																																													<i class="fas fa-chevron-down align-middle" type="button" data-toggle="collapse" data-target="#collapse6c4adf91e989109ffa4ac0c53359cf24" aria-expanded="false" aria-controls='collapse6c4adf91e989109ffa4ac0c53359cf24'>
+																																													</i>
 																																												</div>
 																																											</div>
-																																										</li>
-																																										<li data-nav-id="https://unicef.github.io/inventory/categories/hardware/" title="hardware" class="sidelist
-  active">
-																																											<div class="container">
-																																												<div class="row">
-																																													<div class="col-10">
-																																														<a href="https://unicef.github.io/inventory/categories/hardware/" class="">
-																																															hardware
-																																														</a>
-																																													</div>
-																																													<div class="col-2 ">
-																																														<i class="fas fa-chevron-down align-middle" type="button" data-toggle="collapse" data-target="#collapsef824ace5c904caf399413d91f96cfa05" aria-expanded="false" aria-controls='collapsef824ace5c904caf399413d91f96cfa05'>
-																																														</i>
-																																													</div>
-																																												</div>
-																																												<div id='collapsef824ace5c904caf399413d91f96cfa05' class="collapse" aria-labelledby="headingf824ace5c904caf399413d91f96cfa05" data-parent="#accordionExample">
-																																													<div class="sidebar-scroll">
-																																														<ul>
-																																															<li data-nav-id="https://unicef.github.io/inventory/hardware/intro/" title="Introduction to Open Source Hardware" class="sidelist
+																																											<div id='collapse6c4adf91e989109ffa4ac0c53359cf24' class="collapse" aria-labelledby="heading6c4adf91e989109ffa4ac0c53359cf24" data-parent="#accordionExample">
+																																												<div class="sidebar-scroll">
+																																													<ul>
+																																														<li data-nav-id="https://unicef.github.io/inventory/hardware/intro/" title="Introduction to Open Source Hardware" class="sidelist
+  ">
+																																															<div class="container">
+																																																<div class="row">
+																																																	<div class="col-10">
+																																																		<a href="https://unicef.github.io/inventory/hardware/intro/" class="">
+																																																			Introduction to Open Source Hardware
+																																																		</a>
+																																																	</div>
+																																																</div>
+																																															</li>
+																																															<li data-nav-id="https://unicef.github.io/inventory/hardware/case-studies/" title="Case studies" class="sidelist
   ">
 																																																<div class="container">
 																																																	<div class="row">
 																																																		<div class="col-10">
-																																																			<a href="https://unicef.github.io/inventory/hardware/intro/" class="">
-																																																				Introduction to Open Source Hardware
+																																																			<a href="https://unicef.github.io/inventory/hardware/case-studies/" class="">
+																																																				Case studies
 																																																			</a>
 																																																		</div>
 																																																	</div>
 																																																</li>
-																																																<li data-nav-id="https://unicef.github.io/inventory/hardware/case-studies/" title="Case studies" class="sidelist
+																																																<li data-nav-id="https://unicef.github.io/inventory/hardware/documentation/" title="Documentation" class="sidelist
   ">
 																																																	<div class="container">
 																																																		<div class="row">
 																																																			<div class="col-10">
-																																																				<a href="https://unicef.github.io/inventory/hardware/case-studies/" class="">
-																																																					Case studies
+																																																				<a href="https://unicef.github.io/inventory/hardware/documentation/" class="">
+																																																					Documentation
 																																																				</a>
 																																																			</div>
 																																																		</div>
 																																																	</li>
-																																																	<li data-nav-id="https://unicef.github.io/inventory/hardware/documentation/" title="Documentation" class="sidelist
+																																																	<li data-nav-id="https://unicef.github.io/inventory/hardware/licensing/" title="Licensing" class="sidelist
   ">
 																																																		<div class="container">
 																																																			<div class="row">
 																																																				<div class="col-10">
-																																																					<a href="https://unicef.github.io/inventory/hardware/documentation/" class="">
-																																																						Documentation
+																																																					<a href="https://unicef.github.io/inventory/hardware/licensing/" class="">
+																																																						Licensing
 																																																					</a>
 																																																				</div>
 																																																			</div>
 																																																		</li>
-																																																		<li data-nav-id="https://unicef.github.io/inventory/hardware/licensing/" title="Licensing" class="sidelist
+																																																		<li data-nav-id="https://unicef.github.io/inventory/hardware/reading-list/" title="Open Hardware reading list" class="sidelist
   ">
 																																																			<div class="container">
 																																																				<div class="row">
 																																																					<div class="col-10">
-																																																						<a href="https://unicef.github.io/inventory/hardware/licensing/" class="">
-																																																							Licensing
+																																																						<a href="https://unicef.github.io/inventory/hardware/reading-list/" class="">
+																																																							Open Hardware reading list
 																																																						</a>
 																																																					</div>
 																																																				</div>
 																																																			</li>
-																																																			<li data-nav-id="https://unicef.github.io/inventory/hardware/reading-list/" title="Open Hardware reading list" class="sidelist
+																																																			<li data-nav-id="https://unicef.github.io/inventory/hardware/projects/" title="Project Hall of Fame" class="sidelist
   ">
 																																																				<div class="container">
 																																																					<div class="row">
 																																																						<div class="col-10">
-																																																							<a href="https://unicef.github.io/inventory/hardware/reading-list/" class="">
-																																																								Open Hardware reading list
+																																																							<a href="https://unicef.github.io/inventory/hardware/projects/" class="">
+																																																								Project Hall of Fame
 																																																							</a>
 																																																						</div>
 																																																					</div>
 																																																				</li>
-																																																				<li data-nav-id="https://unicef.github.io/inventory/hardware/projects/" title="Project Hall of Fame" class="sidelist
-  ">
-																																																					<div class="container">
-																																																						<div class="row">
-																																																							<div class="col-10">
-																																																								<a href="https://unicef.github.io/inventory/hardware/projects/" class="">
-																																																									Project Hall of Fame
-																																																								</a>
-																																																							</div>
-																																																						</div>
-																																																					</li>
-																																																				</ul>
+																																																			</ul>
+																																																		</div>
+																																																	</div>
+																																																</li>
+																																																<li data-nav-id="https://unicef.github.io/inventory/categories/legal/" title="legal" class="sidelist
+  active">
+																																																	<div class="container">
+																																																		<div class="row">
+																																																			<div class="col-10">
+																																																				<a href="https://unicef.github.io/inventory/categories/legal/" class="">
+																																																					legal
+																																																				</a>
+																																																			</div>
+																																																			<div class="col-2 ">
+																																																				<i class="fas fa-chevron-down align-middle" type="button" data-toggle="collapse" data-target="#collapseae0cc03145c3a9ff6cd9fa99528449f1" aria-expanded="false" aria-controls='collapseae0cc03145c3a9ff6cd9fa99528449f1'>
+																																																				</i>
 																																																			</div>
 																																																		</div>
-																																																	</li>
-																																																	<li data-nav-id="https://unicef.github.io/inventory/categories/legal/" title="legal" class="sidelist
-  active">
-																																																		<div class="container">
-																																																			<div class="row">
-																																																				<div class="col-10">
-																																																					<a href="https://unicef.github.io/inventory/categories/legal/" class="">
-																																																						legal
-																																																					</a>
-																																																				</div>
-																																																				<div class="col-2 ">
-																																																					<i class="fas fa-chevron-down align-middle" type="button" data-toggle="collapse" data-target="#collapse1a992ce30859fd9cc135f0af4c49f4a6" aria-expanded="false" aria-controls='collapse1a992ce30859fd9cc135f0af4c49f4a6'>
-																																																					</i>
-																																																				</div>
-																																																			</div>
-																																																			<div id='collapse1a992ce30859fd9cc135f0af4c49f4a6' class="collapse" aria-labelledby="heading1a992ce30859fd9cc135f0af4c49f4a6" data-parent="#accordionExample">
-																																																				<div class="sidebar-scroll">
-																																																					<ul>
-																																																						<li data-nav-id="https://unicef.github.io/inventory/legal-policy/contributor-license-agreement-cla/" title="Contributor License Agreements (CLAs)" class="sidelist
+																																																		<div id='collapseae0cc03145c3a9ff6cd9fa99528449f1' class="collapse" aria-labelledby="headingae0cc03145c3a9ff6cd9fa99528449f1" data-parent="#accordionExample">
+																																																			<div class="sidebar-scroll">
+																																																				<ul>
+																																																					<li data-nav-id="https://unicef.github.io/inventory/legal-policy/contributor-license-agreement-cla/" title="Contributor License Agreements (CLAs)" class="sidelist
+  ">
+																																																						<div class="container">
+																																																							<div class="row">
+																																																								<div class="col-10">
+																																																									<a href="https://unicef.github.io/inventory/legal-policy/contributor-license-agreement-cla/" class="">
+																																																										Contributor License Agreements (CLAs)
+																																																									</a>
+																																																								</div>
+																																																							</div>
+																																																						</li>
+																																																						<li data-nav-id="https://unicef.github.io/inventory/legal-policy/gpl-comparison/" title="GPLv2 vs. GPLv3" class="sidelist
   ">
 																																																							<div class="container">
 																																																								<div class="row">
 																																																									<div class="col-10">
-																																																										<a href="https://unicef.github.io/inventory/legal-policy/contributor-license-agreement-cla/" class="">
-																																																											Contributor License Agreements (CLAs)
+																																																										<a href="https://unicef.github.io/inventory/legal-policy/gpl-comparison/" class="">
+																																																											GPLv2 vs. GPLv3
 																																																										</a>
 																																																									</div>
 																																																								</div>
 																																																							</li>
-																																																							<li data-nav-id="https://unicef.github.io/inventory/legal-policy/gpl-comparison/" title="GPLv2 vs. GPLv3" class="sidelist
+																																																							<li data-nav-id="https://unicef.github.io/inventory/legal-policy/creative-commons/" title="Intro to Creative Commons licenses" class="sidelist
   ">
 																																																								<div class="container">
 																																																									<div class="row">
 																																																										<div class="col-10">
-																																																											<a href="https://unicef.github.io/inventory/legal-policy/gpl-comparison/" class="">
-																																																												GPLv2 vs. GPLv3
+																																																											<a href="https://unicef.github.io/inventory/legal-policy/creative-commons/" class="">
+																																																												Intro to Creative Commons licenses
 																																																											</a>
 																																																										</div>
 																																																									</div>
 																																																								</li>
-																																																								<li data-nav-id="https://unicef.github.io/inventory/legal-policy/creative-commons/" title="Intro to Creative Commons licenses" class="sidelist
+																																																								<li data-nav-id="https://unicef.github.io/inventory/legal-policy/reading-list/" title="Reading List: Legal &amp; Business Aspects" class="sidelist
   ">
 																																																									<div class="container">
 																																																										<div class="row">
 																																																											<div class="col-10">
-																																																												<a href="https://unicef.github.io/inventory/legal-policy/creative-commons/" class="">
-																																																													Intro to Creative Commons licenses
+																																																												<a href="https://unicef.github.io/inventory/legal-policy/reading-list/" class="">
+																																																													Reading List: Legal &amp; Business Aspects
 																																																												</a>
 																																																											</div>
 																																																										</div>
 																																																									</li>
-																																																									<li data-nav-id="https://unicef.github.io/inventory/legal-policy/reading-list/" title="Reading List: Legal &amp; Business Aspects" class="sidelist
+																																																									<li data-nav-id="https://unicef.github.io/inventory/legal-policy/trademark/" title="Trademark strategies" class="sidelist
   ">
 																																																										<div class="container">
 																																																											<div class="row">
 																																																												<div class="col-10">
-																																																													<a href="https://unicef.github.io/inventory/legal-policy/reading-list/" class="">
-																																																														Reading List: Legal &amp; Business Aspects
+																																																													<a href="https://unicef.github.io/inventory/legal-policy/trademark/" class="">
+																																																														Trademark strategies
 																																																													</a>
 																																																												</div>
 																																																											</div>
 																																																										</li>
-																																																										<li data-nav-id="https://unicef.github.io/inventory/legal-policy/trademark/" title="Trademark strategies" class="sidelist
-  ">
-																																																											<div class="container">
-																																																												<div class="row">
-																																																													<div class="col-10">
-																																																														<a href="https://unicef.github.io/inventory/legal-policy/trademark/" class="">
-																																																															Trademark strategies
-																																																														</a>
-																																																													</div>
-																																																												</div>
-																																																											</li>
-																																																										</ul>
+																																																									</ul>
+																																																								</div>
+																																																							</div>
+																																																						</li>
+																																																						<li data-nav-id="https://unicef.github.io/inventory/categories/meta/" title="meta" class="sidelist
+  active">
+																																																							<div class="container">
+																																																								<div class="row">
+																																																									<div class="col-10">
+																																																										<a href="https://unicef.github.io/inventory/categories/meta/" class="">
+																																																											meta
+																																																										</a>
+																																																									</div>
+																																																									<div class="col-2 ">
+																																																										<i class="fas fa-chevron-down align-middle" type="button" data-toggle="collapse" data-target="#collapse192a40fc3455c639cff99194c8efaa0d" aria-expanded="false" aria-controls='collapse192a40fc3455c639cff99194c8efaa0d'>
+																																																										</i>
 																																																									</div>
 																																																								</div>
-																																																							</li>
-																																																							<li data-nav-id="https://unicef.github.io/inventory/categories/meta/" title="meta" class="sidelist
-  active">
-																																																								<div class="container">
-																																																									<div class="row">
-																																																										<div class="col-10">
-																																																											<a href="https://unicef.github.io/inventory/categories/meta/" class="">
-																																																												meta
-																																																											</a>
-																																																										</div>
-																																																										<div class="col-2 ">
-																																																											<i class="fas fa-chevron-down align-middle" type="button" data-toggle="collapse" data-target="#collapsec01459d9a414fcf336fac990fea9852c" aria-expanded="false" aria-controls='collapsec01459d9a414fcf336fac990fea9852c'>
-																																																											</i>
-																																																										</div>
-																																																									</div>
-																																																									<div id='collapsec01459d9a414fcf336fac990fea9852c' class="collapse" aria-labelledby="headingc01459d9a414fcf336fac990fea9852c" data-parent="#accordionExample">
-																																																										<div class="sidebar-scroll">
-																																																											<ul>
-																																																												<li data-nav-id="https://unicef.github.io/inventory/meta/mentorship/overview/" title="Open Source Mentorship programme overview" class="sidelist
+																																																								<div id='collapse192a40fc3455c639cff99194c8efaa0d' class="collapse" aria-labelledby="heading192a40fc3455c639cff99194c8efaa0d" data-parent="#accordionExample">
+																																																									<div class="sidebar-scroll">
+																																																										<ul>
+																																																											<li data-nav-id="https://unicef.github.io/inventory/meta/mentorship/overview/" title="Open Source Mentorship programme overview" class="sidelist
+  ">
+																																																												<div class="container">
+																																																													<div class="row">
+																																																														<div class="col-10">
+																																																															<a href="https://unicef.github.io/inventory/meta/mentorship/overview/" class="">
+																																																																Open Source Mentorship programme overview
+																																																															</a>
+																																																														</div>
+																																																													</div>
+																																																												</li>
+																																																												<li data-nav-id="https://unicef.github.io/inventory/meta/inventory/create-new-category/" title="How to create a new Inventory category" class="sidelist
   ">
 																																																													<div class="container">
 																																																														<div class="row">
 																																																															<div class="col-10">
-																																																																<a href="https://unicef.github.io/inventory/meta/mentorship/overview/" class="">
-																																																																	Open Source Mentorship programme overview
+																																																																<a href="https://unicef.github.io/inventory/meta/inventory/create-new-category/" class="">
+																																																																	How to create a new Inventory category
 																																																																</a>
 																																																															</div>
 																																																														</div>
 																																																													</li>
-																																																													<li data-nav-id="https://unicef.github.io/inventory/meta/inventory/create-new-category/" title="How to create a new Inventory category" class="sidelist
+																																																													<li data-nav-id="https://unicef.github.io/inventory/meta/inventory/create-new-mission/" title="How to create a new Inventory Mission" class="sidelist
   ">
 																																																														<div class="container">
 																																																															<div class="row">
 																																																																<div class="col-10">
-																																																																	<a href="https://unicef.github.io/inventory/meta/inventory/create-new-category/" class="">
-																																																																		How to create a new Inventory category
+																																																																	<a href="https://unicef.github.io/inventory/meta/inventory/create-new-mission/" class="">
+																																																																		How to create a new Inventory Mission
 																																																																	</a>
 																																																																</div>
 																																																															</div>
 																																																														</li>
-																																																														<li data-nav-id="https://unicef.github.io/inventory/meta/inventory/create-new-mission/" title="How to create a new Inventory Mission" class="sidelist
+																																																														<li data-nav-id="https://unicef.github.io/inventory/meta/mentorship/modules/" title="Modules" class="sidelist
   ">
 																																																															<div class="container">
 																																																																<div class="row">
 																																																																	<div class="col-10">
-																																																																		<a href="https://unicef.github.io/inventory/meta/inventory/create-new-mission/" class="">
-																																																																			How to create a new Inventory Mission
+																																																																		<a href="https://unicef.github.io/inventory/meta/mentorship/modules/" class="">
+																																																																			Modules
 																																																																		</a>
 																																																																	</div>
 																																																																</div>
 																																																															</li>
-																																																															<li data-nav-id="https://unicef.github.io/inventory/meta/mentorship/modules/" title="Modules" class="sidelist
+																																																															<li data-nav-id="https://unicef.github.io/inventory/meta/mentorship/needs-assessment-template/" title="Needs assessment interview template" class="sidelist
   ">
 																																																																<div class="container">
 																																																																	<div class="row">
 																																																																		<div class="col-10">
-																																																																			<a href="https://unicef.github.io/inventory/meta/mentorship/modules/" class="">
-																																																																				Modules
+																																																																			<a href="https://unicef.github.io/inventory/meta/mentorship/needs-assessment-template/" class="">
+																																																																				Needs assessment interview template
 																																																																			</a>
 																																																																		</div>
 																																																																	</div>
 																																																																</li>
-																																																																<li data-nav-id="https://unicef.github.io/inventory/meta/mentorship/needs-assessment-template/" title="Needs assessment interview template" class="sidelist
+																																																																<li data-nav-id="https://unicef.github.io/inventory/meta/mentorship/onboarding/" title="On-boarding guide for UNICEF Venture Fund teams" class="sidelist
   ">
 																																																																	<div class="container">
 																																																																		<div class="row">
 																																																																			<div class="col-10">
-																																																																				<a href="https://unicef.github.io/inventory/meta/mentorship/needs-assessment-template/" class="">
-																																																																					Needs assessment interview template
+																																																																				<a href="https://unicef.github.io/inventory/meta/mentorship/onboarding/" class="">
+																																																																					On-boarding guide for UNICEF Venture Fund teams
 																																																																				</a>
 																																																																			</div>
 																																																																		</div>
 																																																																	</li>
-																																																																	<li data-nav-id="https://unicef.github.io/inventory/meta/mentorship/onboarding/" title="On-boarding guide for UNICEF Venture Fund teams" class="sidelist
+																																																																	<li data-nav-id="https://unicef.github.io/inventory/meta/mentorship/templates/" title="Templates for programme mentors" class="sidelist
   ">
 																																																																		<div class="container">
 																																																																			<div class="row">
 																																																																				<div class="col-10">
-																																																																					<a href="https://unicef.github.io/inventory/meta/mentorship/onboarding/" class="">
-																																																																						On-boarding guide for UNICEF Venture Fund teams
+																																																																					<a href="https://unicef.github.io/inventory/meta/mentorship/templates/" class="">
+																																																																						Templates for programme mentors
 																																																																					</a>
 																																																																				</div>
 																																																																			</div>
 																																																																		</li>
-																																																																		<li data-nav-id="https://unicef.github.io/inventory/meta/mentorship/templates/" title="Templates for programme mentors" class="sidelist
+																																																																		<li data-nav-id="https://unicef.github.io/inventory/meta/workflow-metrics/" title="Workflow: Update external UNICEF metrics" class="sidelist
   ">
 																																																																			<div class="container">
 																																																																				<div class="row">
 																																																																					<div class="col-10">
-																																																																						<a href="https://unicef.github.io/inventory/meta/mentorship/templates/" class="">
-																																																																							Templates for programme mentors
+																																																																						<a href="https://unicef.github.io/inventory/meta/workflow-metrics/" class="">
+																																																																							Workflow: Update external UNICEF metrics
 																																																																						</a>
 																																																																					</div>
 																																																																				</div>
 																																																																			</li>
-																																																																			<li data-nav-id="https://unicef.github.io/inventory/meta/workflow-metrics/" title="Workflow: Update external UNICEF metrics" class="sidelist
+																																																																			<li data-nav-id="https://unicef.github.io/inventory/meta/mentorship/workplan-bridge-funding/" title="Workplan: Bridge Fund cohort" class="sidelist
   ">
 																																																																				<div class="container">
 																																																																					<div class="row">
 																																																																						<div class="col-10">
-																																																																							<a href="https://unicef.github.io/inventory/meta/workflow-metrics/" class="">
-																																																																								Workflow: Update external UNICEF metrics
+																																																																							<a href="https://unicef.github.io/inventory/meta/mentorship/workplan-bridge-funding/" class="">
+																																																																								Workplan: Bridge Fund cohort
 																																																																							</a>
 																																																																						</div>
 																																																																					</div>
 																																																																				</li>
-																																																																				<li data-nav-id="https://unicef.github.io/inventory/meta/mentorship/workplan-bridge-funding/" title="Workplan: Bridge Fund cohort" class="sidelist
-  ">
-																																																																					<div class="container">
-																																																																						<div class="row">
-																																																																							<div class="col-10">
-																																																																								<a href="https://unicef.github.io/inventory/meta/mentorship/workplan-bridge-funding/" class="">
-																																																																									Workplan: Bridge Fund cohort
-																																																																								</a>
-																																																																							</div>
-																																																																						</div>
-																																																																					</li>
-																																																																				</ul>
+																																																																			</ul>
+																																																																		</div>
+																																																																	</div>
+																																																																</li>
+																																																																<li data-nav-id="https://unicef.github.io/inventory/categories/missions/" title="missions" class="sidelist
+  active">
+																																																																	<div class="container">
+																																																																		<div class="row">
+																																																																			<div class="col-10">
+																																																																				<a href="https://unicef.github.io/inventory/categories/missions/" class="">
+																																																																					missions
+																																																																				</a>
+																																																																			</div>
+																																																																			<div class="col-2 ">
+																																																																				<i class="fas fa-chevron-down align-middle" type="button" data-toggle="collapse" data-target="#collapsecf00e519fc8f4fc1a9395caa9944362d" aria-expanded="false" aria-controls='collapsecf00e519fc8f4fc1a9395caa9944362d'>
+																																																																				</i>
 																																																																			</div>
 																																																																		</div>
-																																																																	</li>
-																																																																	<li data-nav-id="https://unicef.github.io/inventory/categories/missions/" title="missions" class="sidelist
-  active">
-																																																																		<div class="container">
-																																																																			<div class="row">
-																																																																				<div class="col-10">
-																																																																					<a href="https://unicef.github.io/inventory/categories/missions/" class="">
-																																																																						missions
-																																																																					</a>
-																																																																				</div>
-																																																																				<div class="col-2 ">
-																																																																					<i class="fas fa-chevron-down align-middle" type="button" data-toggle="collapse" data-target="#collapse095a9d6ac9c0344cf1492cf98ffa351e" aria-expanded="false" aria-controls='collapse095a9d6ac9c0344cf1492cf98ffa351e'>
-																																																																					</i>
-																																																																				</div>
-																																																																			</div>
-																																																																			<div id='collapse095a9d6ac9c0344cf1492cf98ffa351e' class="collapse" aria-labelledby="heading095a9d6ac9c0344cf1492cf98ffa351e" data-parent="#accordionExample">
-																																																																				<div class="sidebar-scroll">
-																																																																					<ul>
-																																																																						<li data-nav-id="https://unicef.github.io/inventory/missions/charters/" title="Charters" class="sidelist
+																																																																		<div id='collapsecf00e519fc8f4fc1a9395caa9944362d' class="collapse" aria-labelledby="headingcf00e519fc8f4fc1a9395caa9944362d" data-parent="#accordionExample">
+																																																																			<div class="sidebar-scroll">
+																																																																				<ul>
+																																																																					<li data-nav-id="https://unicef.github.io/inventory/missions/charters/" title="Charters" class="sidelist
+  ">
+																																																																						<div class="container">
+																																																																							<div class="row">
+																																																																								<div class="col-10">
+																																																																									<a href="https://unicef.github.io/inventory/missions/charters/" class="">
+																																																																										Charters
+																																																																									</a>
+																																																																								</div>
+																																																																							</div>
+																																																																						</li>
+																																																																						<li data-nav-id="https://unicef.github.io/inventory/missions/codes-of-conduct/" title="Codes of Conduct" class="sidelist
   ">
 																																																																							<div class="container">
 																																																																								<div class="row">
 																																																																									<div class="col-10">
-																																																																										<a href="https://unicef.github.io/inventory/missions/charters/" class="">
-																																																																											Charters
+																																																																										<a href="https://unicef.github.io/inventory/missions/codes-of-conduct/" class="">
+																																																																											Codes of Conduct
 																																																																										</a>
 																																																																									</div>
 																																																																								</div>
 																																																																							</li>
-																																																																							<li data-nav-id="https://unicef.github.io/inventory/missions/codes-of-conduct/" title="Codes of Conduct" class="sidelist
+																																																																							<li data-nav-id="https://unicef.github.io/inventory/missions/good-first-issue/" title="Good first issues" class="sidelist
   ">
 																																																																								<div class="container">
 																																																																									<div class="row">
 																																																																										<div class="col-10">
-																																																																											<a href="https://unicef.github.io/inventory/missions/codes-of-conduct/" class="">
-																																																																												Codes of Conduct
+																																																																											<a href="https://unicef.github.io/inventory/missions/good-first-issue/" class="">
+																																																																												Good first issues
 																																																																											</a>
 																																																																										</div>
 																																																																									</div>
 																																																																								</li>
-																																																																								<li data-nav-id="https://unicef.github.io/inventory/missions/good-first-issue/" title="Good first issues" class="sidelist
-  ">
-																																																																									<div class="container">
-																																																																										<div class="row">
-																																																																											<div class="col-10">
-																																																																												<a href="https://unicef.github.io/inventory/missions/good-first-issue/" class="">
-																																																																													Good first issues
-																																																																												</a>
-																																																																											</div>
-																																																																										</div>
-																																																																									</li>
-																																																																								</ul>
+																																																																							</ul>
+																																																																						</div>
+																																																																					</div>
+																																																																				</li>
+																																																																				<li data-nav-id="https://unicef.github.io/inventory/categories/project-management/" title="project-management" class="sidelist
+  active">
+																																																																					<div class="container">
+																																																																						<div class="row">
+																																																																							<div class="col-10">
+																																																																								<a href="https://unicef.github.io/inventory/categories/project-management/" class="">
+																																																																									project-management
+																																																																								</a>
+																																																																							</div>
+																																																																							<div class="col-2 ">
+																																																																								<i class="fas fa-chevron-down align-middle" type="button" data-toggle="collapse" data-target="#collapse46c94cad4a1f999efa585f0fc19023c3" aria-expanded="false" aria-controls='collapse46c94cad4a1f999efa585f0fc19023c3'>
+																																																																								</i>
 																																																																							</div>
 																																																																						</div>
-																																																																					</li>
-																																																																					<li data-nav-id="https://unicef.github.io/inventory/categories/project-management/" title="project-management" class="sidelist
-  active">
-																																																																						<div class="container">
-																																																																							<div class="row">
-																																																																								<div class="col-10">
-																																																																									<a href="https://unicef.github.io/inventory/categories/project-management/" class="">
-																																																																										project-management
-																																																																									</a>
-																																																																								</div>
-																																																																								<div class="col-2 ">
-																																																																									<i class="fas fa-chevron-down align-middle" type="button" data-toggle="collapse" data-target="#collapse633d4f0cf51c14298e4af99c5fa9a9c0" aria-expanded="false" aria-controls='collapse633d4f0cf51c14298e4af99c5fa9a9c0'>
-																																																																									</i>
-																																																																								</div>
-																																																																							</div>
-																																																																							<div id='collapse633d4f0cf51c14298e4af99c5fa9a9c0' class="collapse" aria-labelledby="heading633d4f0cf51c14298e4af99c5fa9a9c0" data-parent="#accordionExample">
-																																																																								<div class="sidebar-scroll">
-																																																																									<ul>
-																																																																										<li data-nav-id="https://unicef.github.io/inventory/project-management/issue-templates/" title="Issue templates" class="sidelist
+																																																																						<div id='collapse46c94cad4a1f999efa585f0fc19023c3' class="collapse" aria-labelledby="heading46c94cad4a1f999efa585f0fc19023c3" data-parent="#accordionExample">
+																																																																							<div class="sidebar-scroll">
+																																																																								<ul>
+																																																																									<li data-nav-id="https://unicef.github.io/inventory/project-management/issue-templates/" title="Issue templates" class="sidelist
+  ">
+																																																																										<div class="container">
+																																																																											<div class="row">
+																																																																												<div class="col-10">
+																																																																													<a href="https://unicef.github.io/inventory/project-management/issue-templates/" class="">
+																																																																														Issue templates
+																																																																													</a>
+																																																																												</div>
+																																																																											</div>
+																																																																										</li>
+																																																																										<li data-nav-id="https://unicef.github.io/inventory/project-management/reading-list/" title="Outreach reading list" class="sidelist
   ">
 																																																																											<div class="container">
 																																																																												<div class="row">
 																																																																													<div class="col-10">
-																																																																														<a href="https://unicef.github.io/inventory/project-management/issue-templates/" class="">
-																																																																															Issue templates
+																																																																														<a href="https://unicef.github.io/inventory/project-management/reading-list/" class="">
+																																																																															Outreach reading list
 																																																																														</a>
 																																																																													</div>
 																																																																												</div>
 																																																																											</li>
-																																																																											<li data-nav-id="https://unicef.github.io/inventory/project-management/reading-list/" title="Outreach reading list" class="sidelist
+																																																																											<li data-nav-id="https://unicef.github.io/inventory/project-management/project-boards/" title="Project boards" class="sidelist
   ">
 																																																																												<div class="container">
 																																																																													<div class="row">
 																																																																														<div class="col-10">
-																																																																															<a href="https://unicef.github.io/inventory/project-management/reading-list/" class="">
-																																																																																Outreach reading list
+																																																																															<a href="https://unicef.github.io/inventory/project-management/project-boards/" class="">
+																																																																																Project boards
 																																																																															</a>
 																																																																														</div>
 																																																																													</div>
 																																																																												</li>
-																																																																												<li data-nav-id="https://unicef.github.io/inventory/project-management/project-boards/" title="Project boards" class="sidelist
-  ">
-																																																																													<div class="container">
-																																																																														<div class="row">
-																																																																															<div class="col-10">
-																																																																																<a href="https://unicef.github.io/inventory/project-management/project-boards/" class="">
-																																																																																	Project boards
-																																																																																</a>
-																																																																															</div>
-																																																																														</div>
-																																																																													</li>
-																																																																												</ul>
+																																																																											</ul>
+																																																																										</div>
+																																																																									</div>
+																																																																								</li>
+																																																																								<li data-nav-id="https://unicef.github.io/inventory/categories/reproducibility/" title="reproducibility" class="sidelist
+  active">
+																																																																									<div class="container">
+																																																																										<div class="row">
+																																																																											<div class="col-10">
+																																																																												<a href="https://unicef.github.io/inventory/categories/reproducibility/" class="">
+																																																																													reproducibility
+																																																																												</a>
+																																																																											</div>
+																																																																											<div class="col-2 ">
+																																																																												<i class="fas fa-chevron-down align-middle" type="button" data-toggle="collapse" data-target="#collapsef91691fa83cc492c9ff5453ec0d049aa" aria-expanded="false" aria-controls='collapsef91691fa83cc492c9ff5453ec0d049aa'>
+																																																																												</i>
 																																																																											</div>
 																																																																										</div>
-																																																																									</li>
-																																																																									<li data-nav-id="https://unicef.github.io/inventory/categories/reproducibility/" title="reproducibility" class="sidelist
-  active">
-																																																																										<div class="container">
-																																																																											<div class="row">
-																																																																												<div class="col-10">
-																																																																													<a href="https://unicef.github.io/inventory/categories/reproducibility/" class="">
-																																																																														reproducibility
-																																																																													</a>
-																																																																												</div>
-																																																																												<div class="col-2 ">
-																																																																													<i class="fas fa-chevron-down align-middle" type="button" data-toggle="collapse" data-target="#collapse5310e6c098f5ad9cc9949a34f21fcaf4" aria-expanded="false" aria-controls='collapse5310e6c098f5ad9cc9949a34f21fcaf4'>
-																																																																													</i>
-																																																																												</div>
-																																																																											</div>
-																																																																											<div id='collapse5310e6c098f5ad9cc9949a34f21fcaf4' class="collapse" aria-labelledby="heading5310e6c098f5ad9cc9949a34f21fcaf4" data-parent="#accordionExample">
-																																																																												<div class="sidebar-scroll">
-																																																																													<ul>
-																																																																														<li data-nav-id="https://unicef.github.io/inventory/reproducibility/" title="Reproducibility" class="sidelist
+																																																																										<div id='collapsef91691fa83cc492c9ff5453ec0d049aa' class="collapse" aria-labelledby="headingf91691fa83cc492c9ff5453ec0d049aa" data-parent="#accordionExample">
+																																																																											<div class="sidebar-scroll">
+																																																																												<ul>
+																																																																													<li data-nav-id="https://unicef.github.io/inventory/reproducibility/" title="Reproducibility" class="sidelist
   ">
-																																																																															<div class="container">
-																																																																																<div class="row">
-																																																																																	<div class="col-10">
-																																																																																		<a href="https://unicef.github.io/inventory/reproducibility/" class="">
-																																																																																			Reproducibility
-																																																																																		</a>
-																																																																																	</div>
-																																																																																	<div class="col-2 ">
-																																																																																		<i class="fas fa-chevron-down align-middle" type="button" data-toggle="collapse" data-target="#collapsea5f94eacd94f16fcc195a08fc9203439" aria-expanded="false" aria-controls='collapsea5f94eacd94f16fcc195a08fc9203439'>
-																																																																																		</i>
-																																																																																	</div>
-																																																																																</div>
-																																																																																<div id='collapsea5f94eacd94f16fcc195a08fc9203439' class="collapse" aria-labelledby="headinga5f94eacd94f16fcc195a08fc9203439" data-parent="#accordionExample">
-																																																																																	<div class="sidebar-scroll">
-																																																																																		<ul>
-																																																																																			<li data-nav-id="https://unicef.github.io/inventory/reproducibility/reading-list/" title="Reproducibility reading list" class="sidelist
-  ">
-																																																																																				<div class="container">
-																																																																																					<div class="row">
-																																																																																						<div class="col-10">
-																																																																																							<a href="https://unicef.github.io/inventory/reproducibility/reading-list/" class="">
-																																																																																								Reproducibility reading list
-																																																																																							</a>
-																																																																																						</div>
-																																																																																					</div>
-																																																																																				</li>
-																																																																																			</ul>
-																																																																																		</div>
-																																																																																	</div>
-																																																																																</li>
-																																																																																<li data-nav-id="https://unicef.github.io/inventory/reproducibility/reading-list/" title="Reproducibility reading list" class="sidelist
-  ">
-																																																																																	<div class="container">
-																																																																																		<div class="row">
-																																																																																			<div class="col-10">
-																																																																																				<a href="https://unicef.github.io/inventory/reproducibility/reading-list/" class="">
-																																																																																					Reproducibility reading list
-																																																																																				</a>
-																																																																																			</div>
-																																																																																		</div>
-																																																																																	</li>
-																																																																																</ul>
-																																																																															</div>
-																																																																														</div>
-																																																																													</li>
-																																																																													<li data-nav-id="https://unicef.github.io/inventory/categories/sustainability/" title="sustainability" class="sidelist
-  active">
 																																																																														<div class="container">
 																																																																															<div class="row">
 																																																																																<div class="col-10">
-																																																																																	<a href="https://unicef.github.io/inventory/categories/sustainability/" class="">
-																																																																																		sustainability
+																																																																																	<a href="https://unicef.github.io/inventory/reproducibility/" class="">
+																																																																																		Reproducibility
 																																																																																	</a>
 																																																																																</div>
 																																																																																<div class="col-2 ">
-																																																																																	<i class="fas fa-chevron-down align-middle" type="button" data-toggle="collapse" data-target="#collapse4605345a92f1ca98c19c99efcdf3a04f" aria-expanded="false" aria-controls='collapse4605345a92f1ca98c19c99efcdf3a04f'>
+																																																																																	<i class="fas fa-chevron-down align-middle" type="button" data-toggle="collapse" data-target="#collapse2fdfa903c9aecc9163f09c544451fa98" aria-expanded="false" aria-controls='collapse2fdfa903c9aecc9163f09c544451fa98'>
 																																																																																	</i>
 																																																																																</div>
 																																																																															</div>
-																																																																															<div id='collapse4605345a92f1ca98c19c99efcdf3a04f' class="collapse" aria-labelledby="heading4605345a92f1ca98c19c99efcdf3a04f" data-parent="#accordionExample">
+																																																																															<div id='collapse2fdfa903c9aecc9163f09c544451fa98' class="collapse" aria-labelledby="heading2fdfa903c9aecc9163f09c544451fa98" data-parent="#accordionExample">
 																																																																																<div class="sidebar-scroll">
 																																																																																	<ul>
-																																																																																		<li data-nav-id="https://unicef.github.io/inventory/sustainability/approaches/" title="Open-first business approaches" class="sidelist
+																																																																																		<li data-nav-id="https://unicef.github.io/inventory/reproducibility/reading-list/" title="Reproducibility reading list" class="sidelist
   ">
 																																																																																			<div class="container">
 																																																																																				<div class="row">
 																																																																																					<div class="col-10">
-																																																																																						<a href="https://unicef.github.io/inventory/sustainability/approaches/" class="">
-																																																																																							Open-first business approaches
+																																																																																						<a href="https://unicef.github.io/inventory/reproducibility/reading-list/" class="">
+																																																																																							Reproducibility reading list
 																																																																																						</a>
 																																																																																					</div>
 																																																																																				</div>
@@ -1083,15 +1035,61 @@
 																																																																																	</div>
 																																																																																</div>
 																																																																															</li>
-																																																																														</ul>
-																																																																													</li>
-																																																																												</ul>
-																																																																											</div>
-																																																																											<p class="post-meta border-bottom pb-3 mb-0 mt-3">Updated on 21 Jun 2022</p>
-																																																																											<nav class="pagination mt-3">
-																																																																												<a class="nav nav-next" href="https://unicef.github.io/inventory/cohorts/" aria-label="Previous page" > <span class="d-none d-md-block">Cohorts</span><i class="ti-arrow-right ml-2"></i></a>
-																																																																											</nav>
+																																																																															<li data-nav-id="https://unicef.github.io/inventory/reproducibility/reading-list/" title="Reproducibility reading list" class="sidelist
+  ">
+																																																																																<div class="container">
+																																																																																	<div class="row">
+																																																																																		<div class="col-10">
+																																																																																			<a href="https://unicef.github.io/inventory/reproducibility/reading-list/" class="">
+																																																																																				Reproducibility reading list
+																																																																																			</a>
+																																																																																		</div>
+																																																																																	</div>
+																																																																																</li>
+																																																																															</ul>
+																																																																														</div>
+																																																																													</div>
+																																																																												</li>
+																																																																												<li data-nav-id="https://unicef.github.io/inventory/categories/sustainability/" title="sustainability" class="sidelist
+  active">
+																																																																													<div class="container">
+																																																																														<div class="row">
+																																																																															<div class="col-10">
+																																																																																<a href="https://unicef.github.io/inventory/categories/sustainability/" class="">
+																																																																																	sustainability
+																																																																																</a>
+																																																																															</div>
+																																																																															<div class="col-2 ">
+																																																																																<i class="fas fa-chevron-down align-middle" type="button" data-toggle="collapse" data-target="#collapsea5f189fc1e32909aad5c44f6c49fc309" aria-expanded="false" aria-controls='collapsea5f189fc1e32909aad5c44f6c49fc309'>
+																																																																																</i>
+																																																																															</div>
+																																																																														</div>
+																																																																														<div id='collapsea5f189fc1e32909aad5c44f6c49fc309' class="collapse" aria-labelledby="headinga5f189fc1e32909aad5c44f6c49fc309" data-parent="#accordionExample">
+																																																																															<div class="sidebar-scroll">
+																																																																																<ul>
+																																																																																	<li data-nav-id="https://unicef.github.io/inventory/sustainability/approaches/" title="Open-first business approaches" class="sidelist
+  ">
+																																																																																		<div class="container">
+																																																																																			<div class="row">
+																																																																																				<div class="col-10">
+																																																																																					<a href="https://unicef.github.io/inventory/sustainability/approaches/" class="">
+																																																																																						Open-first business approaches
+																																																																																					</a>
+																																																																																				</div>
+																																																																																			</div>
+																																																																																		</li>
+																																																																																	</ul>
+																																																																																</div>
+																																																																															</div>
+																																																																														</li>
+																																																																													</ul>
+																																																																												</li>
+																																																																											</ul>
 																																																																										</div>
+																																																																										<p class="post-meta border-bottom pb-3 mb-0 mt-3">Updated on 21 Jun 2022</p>
+																																																																										<nav class="pagination mt-3">
+																																																																											<a class="nav nav-next" href="https://unicef.github.io/inventory/cohorts/" aria-label="Previous page" > <span class="d-none d-md-block">Cohorts</span><i class="ti-arrow-right ml-2"></i></a>
+																																																																										</nav>
 																																																																									</div>
 																																																																								</div>
 																																																																							</div>
@@ -1122,19 +1120,19 @@
 																																																																								<div class="col-md-3 text-md-right text-center">
 																																																																									<ul class="text-white">
 																																																																										<li class="nav-item">
-																																																																											<a class="nav-link text-white font-weight-bold" href="https://www.unicef.org/">UNICEF Global</a>
+																																																																											<a class="nav-link text-white font-weight-bold px-0" href="https://www.unicef.org/">UNICEF Global</a>
 																																																																										</li>
 																																																																										<li class="nav-item">
-																																																																											<a class="nav-link text-white font-weight-bold" href="https://www.unicefinnovationfund.org/">UNICEF Venture Fund</a>
+																																																																											<a class="nav-link text-white font-weight-bold px-0" href="https://www.unicefinnovationfund.org/">UNICEF Venture Fund</a>
 																																																																										</li>
 																																																																										<li class="nav-item">
-																																																																											<a class="nav-link text-white font-weight-bold" href="https://www.unicef.org/legal">Legal</a>
+																																																																											<a class="nav-link text-white font-weight-bold px-0" href="https://www.unicef.org/legal">Legal</a>
 																																																																											<p class="h6 text-md-right font-weight-light">Find legal information and policies related to UNICEF Global&#39;s digital communications.</p>
 																																																																										</li>
 																																																																									</ul>
 																																																																									<ul class="list-inline">
-																																																																										<li class="list-inline-item"><a class="text-color d-inline-block p-2 text-white" href="https://github.com/unicef/inventory" aria-label="UNICEF Open Source Inventory on GitHub"><i class="ti-github"></i></a></li>
-																																																																										<li class="list-inline-item"><a class="text-color d-inline-block p-2 text-white" href="https://twitter.com/UNICEFinnovate" aria-label="@UNICEFinnovate on Twitter"><i class="ti-twitter"></i></a></li>
+																																																																										<li class="list-inline-item"><a class="text-color d-inline-block p-2 text-white socialIcon" href="https://github.com/unicef/inventory" aria-label="UNICEF Open Source Inventory on GitHub"><i class="ti-github"></i></a></li>
+																																																																										<li class="list-inline-item"><a class="text-color d-inline-block p-2 text-white socialIcon" href="https://twitter.com/UNICEFinnovate" aria-label="@UNICEFinnovate on Twitter"><i class="ti-twitter"></i></a></li>
 																																																																									</ul>
 																																																																								</div>
 																																																																							</div>

@@ -76,23 +76,26 @@
 		<meta name="twitter:title" content="Licensing"/>
 		<meta name="twitter:description" content="Information, resources, and details about common licenses used for Open Source Hardware projects."/>
 	</head>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 	<body>
 		<!-- header -->
 		<header class="shadow-bottom sticky-top bg-white">
-			<nav class="navbar navbar-expand-md navbar-dark" style=" background-color: #1CABE2">
-				<div class="container px-2 px-md-0 navigation-bar">
+			<nav class="navbar navbar-expand-md navbar-dark d-flex flex-column p-0" style=" background-color: #1CABE2">
+				<div class="w-100 container mx-0 navigation-bar">
 					<div id="site-brand">
-						<a class="navbar-brand px-2" href="https://www.unicef.org/">
+						<a class="navbar-brand px-2"
+        href="https://www.unicef.org/">
 							<div class="text-center nav-heading">
 								<img class="img-fluid nav-img" src="https://unicef.github.io/inventory/images/unicef-logo.png" alt="UNICEF O.S. Inventory">
 								<a class="d-block nav-title" href="/inventory">UNICEF O.S. Inventory</a>
 							</div>
 						</a>
 					</div>
-					<button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation"
+					<a class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation"
       aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
-						<span class="navbar-toggler-icon"></span>
-					</button>
+						<span class="sidebarIcon navbarMenu">Menu<i class="fa-solid fa-caret-down d-inline p-1"></i>
+						</span>
+					</a>
 					<div class="collapse navbar-collapse text-center" id="navigation">
 						<ul class="navbar-nav ml-auto">
 							<li class="nav-item">
@@ -148,315 +151,396 @@
 							<option id="en" value="https://unicef.github.io/inventory/hardware/licensing/" selected>en
 							</option>
 						</select>
+						<p class="text-white unicef-glob ml-4 mt-3">Visit <a href="https://www.unicef.org/" class="text-white">UNICEF Global <i
+        class="fas fa-angle-double-right"></i></a></p>
 					</div>
 				</div>
-				<p class="text-white unicef-glob mx-3">Visit <a href="https://www.unicef.org/" class="text-white">UNICEF Global <i class="fas fa-angle-double-right"></i></a></p>
-			</nav>
-		</header>
-		<!-- /header -->
-		<script>
-			remSpace()
-		</script>
-		<script>
-			function remSpace() {
-			  document.getElementById("section").style.paddingTop = "3rem";
-			}
-		</script>
-		<!-- details page -->
-		<section class="single section-sm main-section" id="section">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-3">
-						<div class="sidebar">
-							<a class="back-btn" href="/inventory" aria-label="back"></a>
-							<ul>
-								<li data-nav-id="https://unicef.github.io/inventory/hardware/" title="Open Hardware" class="sidelist
+				<div class="w-100 py-2 breadcrumbBar text-light" style=" background-color: #374ea2">
+					<div class="container">
+						<div class="breadcrumbs">
+							<a href="https://unicef.github.io/inventory/">Home</a>
+							&gt; <a href="https://unicef.github.io/inventory/hardware" class="breadcrumbLink">hardware</a>
+							&gt; <a href="https://unicef.github.io/inventory/hardware/licensing" class="breadcrumbLink">licensing</a>
+						</div>
+						<a data-toggle="collapse" data-target="#sidebarMobile"  aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation"> <i class="ti-menu text-light sidebarIcon"></i></a>
+						<div class="text-light text-center sidebarMobile collapse justify-content-center" id="sidebarMobile">
+							<div class="sidebarBox">
+								<ul>
+									<li data-nav-id="https://unicef.github.io/inventory/hardware/" title="Open Hardware" class="sidelist
   ">
-									<a href="https://unicef.github.io/inventory/hardware/" class="font-weight-bold">
-										Open Hardware
-									</a>
-									<div class="accordion" id="accordionExample">
-										<ul>
-											<li data-nav-id="https://unicef.github.io/inventory/hardware/intro/" title="Introduction to Open Source Hardware" class="sidelist
-  ">
-												<div class="container">
-													<div class="row">
-														<div class="col-10">
-															<a href="https://unicef.github.io/inventory/hardware/intro/" class="">
-																Introduction to Open Source Hardware
-															</a>
-														</div>
-													</div>
-												</li>
-												<li data-nav-id="https://unicef.github.io/inventory/hardware/case-studies/" title="Case studies" class="sidelist
+										<a href="/inventory" class="d-inline  back-btn">
+											<i class="ti-back-right"></i>
+										</a>
+										<a href="https://unicef.github.io/inventory/hardware/" class="font-weight-bold d-inline">
+											Open Hardware
+										</a>
+										<div class="accordion" id="accordionExample">
+											<ul>
+												<li data-nav-id="https://unicef.github.io/inventory/hardware/intro/" title="Introduction to Open Source Hardware" class="sidelist
   ">
 													<div class="container">
 														<div class="row">
 															<div class="col-10">
-																<a href="https://unicef.github.io/inventory/hardware/case-studies/" class="">
-																	Case studies
+																<a href="https://unicef.github.io/inventory/hardware/intro/" class="">
+																	Introduction to Open Source Hardware
 																</a>
 															</div>
 														</div>
 													</li>
-													<li data-nav-id="https://unicef.github.io/inventory/hardware/documentation/" title="Documentation" class="sidelist
+													<li data-nav-id="https://unicef.github.io/inventory/hardware/case-studies/" title="Case studies" class="sidelist
   ">
 														<div class="container">
 															<div class="row">
 																<div class="col-10">
-																	<a href="https://unicef.github.io/inventory/hardware/documentation/" class="">
-																		Documentation
+																	<a href="https://unicef.github.io/inventory/hardware/case-studies/" class="">
+																		Case studies
 																	</a>
 																</div>
 															</div>
 														</li>
-														<li data-nav-id="https://unicef.github.io/inventory/hardware/licensing/" title="Licensing" class="sidelist
-  active">
+														<li data-nav-id="https://unicef.github.io/inventory/hardware/documentation/" title="Documentation" class="sidelist
+  ">
 															<div class="container">
 																<div class="row">
 																	<div class="col-10">
-																		<a href="https://unicef.github.io/inventory/hardware/licensing/" class="">
-																			Licensing
+																		<a href="https://unicef.github.io/inventory/hardware/documentation/" class="">
+																			Documentation
 																		</a>
 																	</div>
 																</div>
 															</li>
-															<li data-nav-id="https://unicef.github.io/inventory/hardware/reading-list/" title="Open Hardware reading list" class="sidelist
-  ">
+															<li data-nav-id="https://unicef.github.io/inventory/hardware/licensing/" title="Licensing" class="sidelist
+  active">
 																<div class="container">
 																	<div class="row">
 																		<div class="col-10">
-																			<a href="https://unicef.github.io/inventory/hardware/reading-list/" class="">
-																				Open Hardware reading list
+																			<a href="https://unicef.github.io/inventory/hardware/licensing/" class="">
+																				Licensing
 																			</a>
 																		</div>
 																	</div>
 																</li>
-																<li data-nav-id="https://unicef.github.io/inventory/hardware/projects/" title="Project Hall of Fame" class="sidelist
+																<li data-nav-id="https://unicef.github.io/inventory/hardware/reading-list/" title="Open Hardware reading list" class="sidelist
   ">
 																	<div class="container">
 																		<div class="row">
 																			<div class="col-10">
-																				<a href="https://unicef.github.io/inventory/hardware/projects/" class="">
-																					Project Hall of Fame
+																				<a href="https://unicef.github.io/inventory/hardware/reading-list/" class="">
+																					Open Hardware reading list
 																				</a>
 																			</div>
 																		</div>
 																	</li>
-																</ul>
+																	<li data-nav-id="https://unicef.github.io/inventory/hardware/projects/" title="Project Hall of Fame" class="sidelist
+  ">
+																		<div class="container">
+																			<div class="row">
+																				<div class="col-10">
+																					<a href="https://unicef.github.io/inventory/hardware/projects/" class="">
+																						Project Hall of Fame
+																					</a>
+																				</div>
+																			</div>
+																		</li>
+																	</ul>
+																</div>
+															</li>
+															<div>
+																<button class="btn btn-primary btn-block" id="generatePDF">Get Pdf</button>
 															</div>
-														</li>
-														<div>
-															<button class="btn btn-primary btn-block" id="generatePDF">Get Pdf</button>
-														</div>
-													</ul>
+														</ul>
+													</div>
 												</div>
 											</div>
-											<div class="col-lg-9">
-												<div class="bg-white p-3" style="margin:auto">
-													<script language="JavaScript">
-														String.prototype.capitalizeFirstLetter = function() {
-														   return this.charAt(0).toUpperCase() + this.slice(1);
-														}
-
-														var path = "<a style='margin-left:2%' href='https:\/\/unicef.github.io\/inventory\/'>Home</a>";
-														var href = document.location.href;
-														var s = href.split("/");
-														for (var i=3;i<(s.length-2);i++) {
-														   path+=" &gt;  <a href=\""+href.substring(0,href.indexOf("/"+s[i])+s[i].length+1)+"/\">"+s[i].capitalizeFirstLetter()+"</a> ";
-														}
-														i=s.length-1;
-														path+="<a href=\""+href.substring(0,href.indexOf(s[i])+s[i].length)+"\">"+s[i]+"</a>";
-														path+="  &gt;  <b>Licensing</b>";
-														document.writeln(path);
-													</script>
-												</div>
-												<div class="p-lg-5 p-4 bg-white position-relative" id="content">
-													<div class="d-flex flex-row-reverse">
-														<button id="editBtn" value="https://github.com/unicef/inventory/blob/main/content/hardware/licensing.en.adoc" class="editBtn py-2 px-3">Edit this Page</button>
-													</div>
-													<div class="p-lg-5 p-3 bg-white">
-														<h2 id="title">Licensing</h2>
-														<div class="content mt-5">
-															<div id="toc" class="toc">
-																<div id="toctitle">Table of Contents</div>
-																<ul class="sectlevel1">
-																	<li><a href="#_documentation">1. Documentation</a></li>
-																	<li><a href="#_licenses">2. Licenses</a>
-																		<ul class="sectlevel2">
-																			<li><a href="#_dont_fear_the_patent_clause">2.1. Don’t Fear the Patent Clause!</a></li>
-																		</ul>
+										</div>
+									</nav>
+								</header>
+								<!-- /header -->
+								<script>
+									remSpace()
+								</script>
+								<script>
+									function remSpace() {
+									  document.getElementById("section").style.paddingTop = "3rem";
+									}
+								</script>
+								<!-- details page -->
+								<section class="single section-sm" id="section">
+									<div class="d-flex w-100">
+										<div class="sidebarContainer">
+											<div class="sidebar">
+												<ul>
+													<li data-nav-id="https://unicef.github.io/inventory/hardware/" title="Open Hardware" class="sidelist
+  ">
+														<a href="/inventory" class="d-inline  back-btn">
+															<i class="ti-back-right"></i>
+														</a>
+														<a href="https://unicef.github.io/inventory/hardware/" class="font-weight-bold d-inline">
+															Open Hardware
+														</a>
+														<div class="accordion" id="accordionExample">
+															<ul>
+																<li data-nav-id="https://unicef.github.io/inventory/hardware/intro/" title="Introduction to Open Source Hardware" class="sidelist
+  ">
+																	<div class="container">
+																		<div class="row">
+																			<div class="col-10">
+																				<a href="https://unicef.github.io/inventory/hardware/intro/" class="">
+																					Introduction to Open Source Hardware
+																				</a>
+																			</div>
+																		</div>
 																	</li>
-																</ul>
-															</div>
-															<div class="paragraph">
-																<p>This page collects information, resources, and other details about Open Hardware licensing.</p>
-															</div>
-															<div class="sect1">
-																<h2 id="_documentation">1. Documentation&nbsp;<a class="hanchor" href="#_documentation">🔗</a> </h2>
-																<div class="sectionbody">
-																	<div class="ulist">
-																		<ul>
-																			<li>
-																				<p><a href="https://openhardware4.me/open-hardware-leaders.github.io/Program/17_Week10.html">Licensing and documentation</a>:
-																					Learning material provided by Open Hardware Leaders program.
-																					Goal of material is to acquire best practices for hardware documentation and understand the different open licensing options available.
-																					Includes an explanation video and other helpful links.</p>
+																	<li data-nav-id="https://unicef.github.io/inventory/hardware/case-studies/" title="Case studies" class="sidelist
+  ">
+																		<div class="container">
+																			<div class="row">
+																				<div class="col-10">
+																					<a href="https://unicef.github.io/inventory/hardware/case-studies/" class="">
+																						Case studies
+																					</a>
+																				</div>
+																			</div>
+																		</li>
+																		<li data-nav-id="https://unicef.github.io/inventory/hardware/documentation/" title="Documentation" class="sidelist
+  ">
+																			<div class="container">
+																				<div class="row">
+																					<div class="col-10">
+																						<a href="https://unicef.github.io/inventory/hardware/documentation/" class="">
+																							Documentation
+																						</a>
+																					</div>
+																				</div>
 																			</li>
+																			<li data-nav-id="https://unicef.github.io/inventory/hardware/licensing/" title="Licensing" class="sidelist
+  active">
+																				<div class="container">
+																					<div class="row">
+																						<div class="col-10">
+																							<a href="https://unicef.github.io/inventory/hardware/licensing/" class="">
+																								Licensing
+																							</a>
+																						</div>
+																					</div>
+																				</li>
+																				<li data-nav-id="https://unicef.github.io/inventory/hardware/reading-list/" title="Open Hardware reading list" class="sidelist
+  ">
+																					<div class="container">
+																						<div class="row">
+																							<div class="col-10">
+																								<a href="https://unicef.github.io/inventory/hardware/reading-list/" class="">
+																									Open Hardware reading list
+																								</a>
+																							</div>
+																						</div>
+																					</li>
+																					<li data-nav-id="https://unicef.github.io/inventory/hardware/projects/" title="Project Hall of Fame" class="sidelist
+  ">
+																						<div class="container">
+																							<div class="row">
+																								<div class="col-10">
+																									<a href="https://unicef.github.io/inventory/hardware/projects/" class="">
+																										Project Hall of Fame
+																									</a>
+																								</div>
+																							</div>
+																						</li>
+																					</ul>
+																				</div>
+																			</li>
+																			<div>
+																				<button class="btn btn-primary btn-block" id="generatePDF">Get Pdf</button>
+																			</div>
 																		</ul>
 																	</div>
 																</div>
-															</div>
-															<div class="sect1">
-																<h2 id="_licenses">2. Licenses&nbsp;<a class="hanchor" href="#_licenses">🔗</a> </h2>
-																<div class="sectionbody">
-																	<div class="paragraph">
-																		<p>There are two generally accepted Open Hardware licenses:</p>
-																	</div>
-																	<div class="ulist">
-																		<ul>
-																			<li>
-																				<p><a href="https://ohwr.org/cernohl">CERN Open Hardware Licence</a></p>
-																			</li>
-																			<li>
-																				<p><a href="https://tapr.org/the-tapr-open-hardware-license/">TAPR Open Hardware License</a></p>
-																			</li>
-																		</ul>
-																	</div>
-																	<div class="paragraph">
-																		<p>Each can come with its own strategy.
-																			For example, the <a href="https://home.cern/news/news/knowledge-sharing/cern-updates-its-open-hardware-licence">2.0 version of the CERN open hardware license</a> includes three versions:</p>
-																	</div>
-																	<div class="ulist">
-																		<ul>
-																			<li>
-																				<p>&#34;Weakly&#34; reciprocal</p>
-																			</li>
-																			<li>
-																				<p>&#34;Strongly&#34; reciprocal</p>
-																			</li>
-																			<li>
-																				<p>Non-reciprocal</p>
-																			</li>
-																		</ul>
-																	</div>
-																	<div class="paragraph">
-																		<p>A reciprocal license is similar to <a href="https://opensource.com/resources/what-is-copyleft">copyleft</a> for software licenses, meaning others who make use of your work must share their derivatives under the same license.
-																			This way, no one can take what you made, make changes, and turn it into a closed-source product.
-																			You will benefit from others’ contributions, especially if you build a community around your product.</p>
-																	</div>
-																	<div class="sect2">
-																		<h3 id="_dont_fear_the_patent_clause">2.1. <a href="https://linuxfestnorthwest.org/conferences/lfnw18/program/proposals/72">Don’t Fear the Patent Clause!</a>&nbsp;<a class="hanchor" href="#_dont_fear_the_patent_clause">🔗</a> </h3>
-																		<div class="paragraph">
-																			<p>A talk from Deb Nicholson at LinuxFest Northwest 2018:</p>
+																<div class="contentContainer py-5 px-5">
+																	<div class="p-lg-5 p-4 bg-white position-relative mx-5 my-3 w-100 contentBox" id="content">
+																		<div class="d-flex flex-row-reverse p-absolute">
+																			<button id="editBtn" value="https://github.com/unicef/inventory/blob/main/content/hardware/licensing.en.adoc" class="editBtn py-2 px-3">Edit this Page</button>
 																		</div>
-																		<div class="quoteblock">
-																			<blockquote>
-																				<div class="paragraph">
-																					<p>Several different patent clauses are embedded in modern open source licenses and there’s some confusion about exactly what they each mean.
-																						Most developers would prefer to have nothing to do with patents or patent clauses, but avoiding the topic isn’t a smart strategy.
-																						None of the popular clauses have been tested in court, so no one can predict exactly how the courts might deal with hybrid copyright and patent licenses.</p>
+																		<div class="p-lg-5 p-3 bg-white">
+																			<h2 id="title">Licensing</h2>
+																			<div class="content mt-5">
+																				<div id="toc" class="toc">
+																					<div id="toctitle">Table of Contents</div>
+																					<ul class="sectlevel1">
+																						<li><a href="#_documentation">1. Documentation</a></li>
+																						<li><a href="#_licenses">2. Licenses</a>
+																							<ul class="sectlevel2">
+																								<li><a href="#_dont_fear_the_patent_clause">2.1. Don’t Fear the Patent Clause!</a></li>
+																							</ul>
+																						</li>
+																					</ul>
 																				</div>
 																				<div class="paragraph">
-																					<p>That said, savvy open source participants can still make some reasonable assumptions based on the license author’s intentions, trends in patent law and the way other common open source licenses have functioned.
-																						Understanding the players and the history that lead to patent clauses in open source licenses will help practitioners make informed choices about what licenses to apply to their own work and how these various licenses can help large multi-stakeholder projects.</p>
+																					<p>This page collects information, resources, and other details about Open Hardware licensing.</p>
 																				</div>
-																			</blockquote>
-																			<div class="attribution">
-																				— Deb Nicholson
+																				<div class="sect1">
+																					<h2 id="_documentation">1. Documentation&nbsp;<a class="hanchor" href="#_documentation">🔗</a> </h2>
+																					<div class="sectionbody">
+																						<div class="ulist">
+																							<ul>
+																								<li>
+																									<p><a href="https://openhardware4.me/open-hardware-leaders.github.io/Program/17_Week10.html">Licensing and documentation</a>:
+																										Learning material provided by Open Hardware Leaders program.
+																										Goal of material is to acquire best practices for hardware documentation and understand the different open licensing options available.
+																										Includes an explanation video and other helpful links.</p>
+																								</li>
+																							</ul>
+																						</div>
+																					</div>
+																				</div>
+																				<div class="sect1">
+																					<h2 id="_licenses">2. Licenses&nbsp;<a class="hanchor" href="#_licenses">🔗</a> </h2>
+																					<div class="sectionbody">
+																						<div class="paragraph">
+																							<p>There are two generally accepted Open Hardware licenses:</p>
+																						</div>
+																						<div class="ulist">
+																							<ul>
+																								<li>
+																									<p><a href="https://ohwr.org/cernohl">CERN Open Hardware Licence</a></p>
+																								</li>
+																								<li>
+																									<p><a href="https://tapr.org/the-tapr-open-hardware-license/">TAPR Open Hardware License</a></p>
+																								</li>
+																							</ul>
+																						</div>
+																						<div class="paragraph">
+																							<p>Each can come with its own strategy.
+																								For example, the <a href="https://home.cern/news/news/knowledge-sharing/cern-updates-its-open-hardware-licence">2.0 version of the CERN open hardware license</a> includes three versions:</p>
+																						</div>
+																						<div class="ulist">
+																							<ul>
+																								<li>
+																									<p>&#34;Weakly&#34; reciprocal</p>
+																								</li>
+																								<li>
+																									<p>&#34;Strongly&#34; reciprocal</p>
+																								</li>
+																								<li>
+																									<p>Non-reciprocal</p>
+																								</li>
+																							</ul>
+																						</div>
+																						<div class="paragraph">
+																							<p>A reciprocal license is similar to <a href="https://opensource.com/resources/what-is-copyleft">copyleft</a> for software licenses, meaning others who make use of your work must share their derivatives under the same license.
+																								This way, no one can take what you made, make changes, and turn it into a closed-source product.
+																								You will benefit from others’ contributions, especially if you build a community around your product.</p>
+																						</div>
+																						<div class="sect2">
+																							<h3 id="_dont_fear_the_patent_clause">2.1. <a href="https://linuxfestnorthwest.org/conferences/lfnw18/program/proposals/72">Don’t Fear the Patent Clause!</a>&nbsp;<a class="hanchor" href="#_dont_fear_the_patent_clause">🔗</a> </h3>
+																							<div class="paragraph">
+																								<p>A talk from Deb Nicholson at LinuxFest Northwest 2018:</p>
+																							</div>
+																							<div class="quoteblock">
+																								<blockquote>
+																									<div class="paragraph">
+																										<p>Several different patent clauses are embedded in modern open source licenses and there’s some confusion about exactly what they each mean.
+																											Most developers would prefer to have nothing to do with patents or patent clauses, but avoiding the topic isn’t a smart strategy.
+																											None of the popular clauses have been tested in court, so no one can predict exactly how the courts might deal with hybrid copyright and patent licenses.</p>
+																									</div>
+																									<div class="paragraph">
+																										<p>That said, savvy open source participants can still make some reasonable assumptions based on the license author’s intentions, trends in patent law and the way other common open source licenses have functioned.
+																											Understanding the players and the history that lead to patent clauses in open source licenses will help practitioners make informed choices about what licenses to apply to their own work and how these various licenses can help large multi-stakeholder projects.</p>
+																									</div>
+																								</blockquote>
+																								<div class="attribution">
+																									— Deb Nicholson
+																								</div>
+																							</div>
+																							<div class="paragraph">
+																								<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+																									<iframe src="https://www.youtube.com/embed/LqMdaKE8zkI" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+																								</div>
+																							</div>
+																						</div>
+																					</div>
+																				</div>
 																			</div>
-																		</div>
-																		<div class="paragraph">
-																			<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-																				<iframe src="https://www.youtube.com/embed/LqMdaKE8zkI" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
-																			</div>
+																			<p class="post-meta border-bottom pb-3 mb-0 mt-3">Updated on 03 Dec 2021</p>
+																			<nav class="pagination mt-3">
+																				<a class="nav nav-prev" href="https://unicef.github.io/inventory/hardware/documentation/" aria-label="Previous page" ><i class="ti-arrow-left mr-2"></i> <span class="d-none d-md-block">Documentation</span></a>
+																				<a class="nav nav-next" href="https://unicef.github.io/inventory/hardware/reading-list/" aria-label="Previous page" > <span class="d-none d-md-block">Open Hardware reading list</span><i class="ti-arrow-right ml-2"></i></a>
+																			</nav>
+																			<section class="my-3 py-3" id="related-articles">
+																				<h5 class="text-center">Related Articles</h5>
+																				<div class="row">
+																					<div class="col-sm-4 my-2">
+																						<a href="https://unicef.github.io/inventory/hardware/intro/">
+																							<div class="card text-center">
+																								<div class="card-body">
+																									<h5 class="card-title">Introduction to Open Source Hardware</h5>
+																									<p class="card-subtitle mb-2 text-muted">So, you want to know about Open Source Hardware? Start here to get an introduction to the landscape in the 2020s.</p>
+																								</div>
+																							</div>
+																						</a>
+																					</div>
+																					<div class="col-sm-4 my-2">
+																						<a href="https://unicef.github.io/inventory/hardware/documentation/">
+																							<div class="card text-center">
+																								<div class="card-body">
+																									<h5 class="card-title">Documentation</h5>
+																									<p class="card-subtitle mb-2 text-muted">How does documentation work for Open Source Hardware? This page provides a brief introduction.</p>
+																								</div>
+																							</div>
+																						</a>
+																					</div>
+																				</div>
+																			</section>
 																		</div>
 																	</div>
-																</div>
-															</div>
-														</div>
-														<p class="post-meta border-bottom pb-3 mb-0 mt-3">Updated on 03 Dec 2021</p>
-														<nav class="pagination mt-3">
-															<a class="nav nav-prev" href="https://unicef.github.io/inventory/hardware/documentation/" aria-label="Previous page" ><i class="ti-arrow-left mr-2"></i> <span class="d-none d-md-block">Documentation</span></a>
-															<a class="nav nav-next" href="https://unicef.github.io/inventory/hardware/reading-list/" aria-label="Previous page" > <span class="d-none d-md-block">Open Hardware reading list</span><i class="ti-arrow-right ml-2"></i></a>
-														</nav>
-														<section class="my-3 py-3" id="related-articles">
-															<h5 class="text-center">Related Articles</h5>
-															<div class="row">
-																<div class="col-sm-4 my-2">
-																	<a href="https://unicef.github.io/inventory/hardware/projects/">
-																		<div class="card text-center">
-																			<div class="card-body">
-																				<h5 class="card-title">Project Hall of Fame</h5>
-																				<p class="card-subtitle mb-2 text-muted">Various Open Source Hardware projects and links back to their projects and/or communities.</p>
-																			</div>
-																		</div>
-																	</a>
-																</div>
-																<div class="col-sm-4 my-2">
-																	<a href="https://unicef.github.io/inventory/hardware/documentation/">
-																		<div class="card text-center">
-																			<div class="card-body">
-																				<h5 class="card-title">Documentation</h5>
-																				<p class="card-subtitle mb-2 text-muted">How does documentation work for Open Source Hardware? This page provides a brief introduction.</p>
-																			</div>
-																		</div>
-																	</a>
 																</div>
 															</div>
 														</section>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-								</section>
-								<!-- /details page -->
-								<!-- footer -->
-								<footer class="section bg-primary p-4 mt-5">
-									<div class="container">
-										<div class="row align-items-center">
-											<div class="col-md-3 text-md-left text-center">
-												<ul>
-													<li><a class="nav-link text-white" href="/inventory">HOME</a></li>
-													<li class="nav-item">
-														<a class="nav-link text-white text-uppercase" href="https://unicef.github.io/inventory/faq">FAQ</a>
-													</li>
-													<li class="nav-item">
-														<a class="nav-link text-white text-uppercase" href="https://unicef.github.io/inventory/toolkits">toolkits</a>
-													</li>
-													<li class="nav-item">
-														<a class="nav-link text-white text-uppercase" href="https://unicef.github.io/inventory/cohorts">cohorts</a>
-													</li>
-												</ul>
-											</div>
-											<div class="col-md-6 text-md-center text-center">
-												<p class="mb-md-0 mb-4 text-white">The UNICEF Open Source Inventory is a knowledge-base of best practices, resources, and information about working and leading Open. This is maintained as part of the Open Source Mentorship programme offered by the UNICEF Venture Fund. The Inventory provides mentorship and guidance to anyone seeking to adopt best practices in their journey to building an Open Source project and community. It is self-serve, and can be used at various phases of building a project and community.</p>
-											</div>
-											<div class="col-md-3 text-md-right text-center">
-												<ul class="text-white">
-													<li class="nav-item">
-														<a class="nav-link text-white font-weight-bold" href="https://www.unicef.org/">UNICEF Global</a>
-													</li>
-													<li class="nav-item">
-														<a class="nav-link text-white font-weight-bold" href="https://www.unicefinnovationfund.org/">UNICEF Venture Fund</a>
-													</li>
-													<li class="nav-item">
-														<a class="nav-link text-white font-weight-bold" href="https://www.unicef.org/legal">Legal</a>
-														<p class="h6 text-md-right font-weight-light">Find legal information and policies related to UNICEF Global&#39;s digital communications.</p>
-													</li>
-												</ul>
-												<ul class="list-inline">
-													<li class="list-inline-item"><a class="text-color d-inline-block p-2 text-white" href="https://github.com/unicef/inventory" aria-label="UNICEF Open Source Inventory on GitHub"><i class="ti-github"></i></a></li>
-													<li class="list-inline-item"><a class="text-color d-inline-block p-2 text-white" href="https://twitter.com/UNICEFinnovate" aria-label="@UNICEFinnovate on Twitter"><i class="ti-twitter"></i></a></li>
-												</ul>
-											</div>
-										</div>
-									</div>
-									<p class="text-md-center text-center text-white mt-3 h6 font-italic">Creative Commons BY-SA 4.0. Site theme maintained by UNICEF. Original theme, Dot, created by ThemeFisher.</p>
-								</footer>
-								<!-- /footer -->
-								<!-- Main Script -->
-								<script src="https://unicef.github.io/inventory/js/script.min.js"></script>
-							</body>
-						</html>
+														<!-- /details page -->
+														<!-- footer -->
+														<footer class="section bg-primary p-4 mt-5">
+															<div class="container">
+																<div class="row align-items-center">
+																	<div class="col-md-3 text-md-left text-center">
+																		<ul>
+																			<li><a class="nav-link text-white" href="/inventory">HOME</a></li>
+																			<li class="nav-item">
+																				<a class="nav-link text-white text-uppercase" href="https://unicef.github.io/inventory/faq">FAQ</a>
+																			</li>
+																			<li class="nav-item">
+																				<a class="nav-link text-white text-uppercase" href="https://unicef.github.io/inventory/toolkits">toolkits</a>
+																			</li>
+																			<li class="nav-item">
+																				<a class="nav-link text-white text-uppercase" href="https://unicef.github.io/inventory/cohorts">cohorts</a>
+																			</li>
+																		</ul>
+																	</div>
+																	<div class="col-md-6 text-md-center text-center">
+																		<p class="mb-md-0 mb-4 text-white">The UNICEF Open Source Inventory is a knowledge-base of best practices, resources, and information about working and leading Open. This is maintained as part of the Open Source Mentorship programme offered by the UNICEF Venture Fund. The Inventory provides mentorship and guidance to anyone seeking to adopt best practices in their journey to building an Open Source project and community. It is self-serve, and can be used at various phases of building a project and community.</p>
+																	</div>
+																	<div class="col-md-3 text-md-right text-center">
+																		<ul class="text-white">
+																			<li class="nav-item">
+																				<a class="nav-link text-white font-weight-bold px-0" href="https://www.unicef.org/">UNICEF Global</a>
+																			</li>
+																			<li class="nav-item">
+																				<a class="nav-link text-white font-weight-bold px-0" href="https://www.unicefinnovationfund.org/">UNICEF Venture Fund</a>
+																			</li>
+																			<li class="nav-item">
+																				<a class="nav-link text-white font-weight-bold px-0" href="https://www.unicef.org/legal">Legal</a>
+																				<p class="h6 text-md-right font-weight-light">Find legal information and policies related to UNICEF Global&#39;s digital communications.</p>
+																			</li>
+																		</ul>
+																		<ul class="list-inline">
+																			<li class="list-inline-item"><a class="text-color d-inline-block p-2 text-white socialIcon" href="https://github.com/unicef/inventory" aria-label="UNICEF Open Source Inventory on GitHub"><i class="ti-github"></i></a></li>
+																			<li class="list-inline-item"><a class="text-color d-inline-block p-2 text-white socialIcon" href="https://twitter.com/UNICEFinnovate" aria-label="@UNICEFinnovate on Twitter"><i class="ti-twitter"></i></a></li>
+																		</ul>
+																	</div>
+																</div>
+															</div>
+															<p class="text-md-center text-center text-white mt-3 h6 font-italic">Creative Commons BY-SA 4.0. Site theme maintained by UNICEF. Original theme, Dot, created by ThemeFisher.</p>
+														</footer>
+														<!-- /footer -->
+														<!-- Main Script -->
+														<script src="https://unicef.github.io/inventory/js/script.min.js"></script>
+													</body>
+												</html>
