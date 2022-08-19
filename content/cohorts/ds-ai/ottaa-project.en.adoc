@@ -9,8 +9,10 @@ description: An Alternative Augmentative Communication (AAC) system, intended fo
 country: Chile
 date: 2020-09-25
 github: https://github.com/OTTAA-Project
-linkedin: https://www.linkedin.com/company/ottaa-project/
+facebook: https://www.facebook.com/ottaaproject/
 twitter: https://twitter.com/OTTAAProject
+instagram: https://www.instagram.com/OTTAAProject/
+linkedin: https://www.linkedin.com/company/ottaa-project/
 website: https://www.ottaaproject.com/
 community: ""
 logo: /inventory/cohorts/logo-ottaa-project.png
