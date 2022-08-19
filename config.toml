@@ -19,11 +19,6 @@ googleAnalytics = "G-80FMX4TPM0"
 ############################# Navigation #############################
 [[menu.main]]
 weight = 10
-name = "FAQ"
-url = "faq"
-
-[[menu.main]]
-weight = 15
 name = "toolkits"
 url = "toolkits"
 hasChildren = true
@@ -58,11 +53,11 @@ hasChildren = true
     url = "communities"
     weight = 10
 
-	[[menu.main]]
-	parent = "pages"
-	name = "Data Ethics & Transparency"
-	url = "data"
-	weight = 20
+  	[[menu.main]]
+  	parent = "pages"
+  	name = "Data Ethics & Transparency"
+  	url = "data"
+  	weight = 20
 
     [[menu.main]]
     parent = "pages"
@@ -124,7 +119,6 @@ hasChildren = true
     url = "sustainability"
     weight = 130
 
-
 [[menu.main]]
 weight = 30
 name = "cohorts"
@@ -166,6 +160,11 @@ hasChildren = true
     name = "Others"
     url = "cohorts/others"
     weight = 60
+
+[[menu.main]]
+weight = 40
+name = "FAQ"
+url = "faq"
 
 
 ############################# Default parameters #############################
