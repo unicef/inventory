@@ -18,7 +18,7 @@ googleAnalytics = "G-80FMX4TPM0"
 
 ############################# Navigation #############################
 [[menu.main]]
-weight = 10
+weight = 140
 name = "FAQ"
 url = "faq"
 
