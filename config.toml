@@ -18,30 +18,10 @@ googleAnalytics = "G-80FMX4TPM0"
 
 ############################# Navigation #############################
 
-################## Toolkits ###################
 [[menu.main]]
 weight = 10
-name = "toolkits"
-url = "toolkits"
-hasChildren = true
-
-  [[menu.main]]
-    parent = "toolkits"
-    name = "Data Science & A.I."
-    url = "https://unicef.github.io/ooi-toolkit-ds/"
-    weight = 10
-
-    [[menu.main]]
-    parent = "toolkits"
-    name = "Drones"
-    url = "https://unicef.github.io/drone-4sdgtoolkit/"
-    weight = 20
-
-    [[menu.main]]
-    parent = "toolkits"
-    name = "Software Development"
-    url = "https://unicef.github.io/ooi-toolkit-software/"
-    weight = 30
+name = "FAQ"
+url = "faq"
 
 ################## DPG Indicators ###################
 [[menu.main]]
@@ -146,11 +126,6 @@ hasChildren = true
     name = "Others"
     url = "cohorts/others"
     weight = 60
-
-[[menu.main]]
-weight = 40
-name = "FAQ"
-url = "faq"
 
 
 ############################# Default parameters #############################
