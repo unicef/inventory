@@ -1,9 +1,12 @@
 ---
 title: "Charters"
 description: Embark on a mission to create a project charter for your Open Source work.
-tags: ["documentation"]
+tags: ["decision-making", documentation", "governance"]
 categories: "missions"
 downloadBtn: "true"
+
+# search related keywords
+keywords: ["charter", "governance", "project charter"]
 
 ---
 :author: Justin W. Flory
@@ -130,13 +133,18 @@ The more project members who authentically sign on and agree to the vision and m
    "The Fedora Project envisions a world where everyone benefits from free and open source software built by inclusive, welcoming, and open-minded communities."
 ** https://docs.fedoraproject.org/en-US/project/#_our_mission[Mission statement]:
    "Fedora creates an innovative platform for hardware, clouds, and containers that enables software developers and community members to build tailored solutions for their users."
-* *https://ottaa-project.github.io/[OTTAA] and https://www.cboard.io/about/[Cboard] communities*:
+* *https://ottaa-project.github.io/[OTTAA] and https://www.cboard.io/about/[Cboard], projects previously supported by the UNICEF Venture Fund*:
 ** Vision statement:
    "Be a global one-stop solution for technological solutions for people with disabilities.
    With innovation, affordability and empathy as key motivators and guidelines."
 ** Mission statement:
-   Everyday we work to improve people with disabilities lifestyle by returning the voice to all those who have lost it;
-   we are sure that technology can empower people with disabilities.
+   "Everyday we work to improve people with disabilities lifestyle by returning the voice to all those who have lost it;
+   we are sure that technology can empower people with disabilities."
+* *https://talk2u.co/[Talk2U], a UNICEF Venture Fund company*:
+** Vision statement:
+   "We strive for safer, healthier and happier communities led by emotional intelligent young change makers."
+** Mission statement:
+   "Our purpose is to empower young people to build their socio-emotional skills so they can challenge their belief systems, face obstacles with ease and make change happen for their mental wellbeing, so they start living the lives they want and deserve."
 
 [[launch-community]]
 === Community statement
@@ -158,6 +166,22 @@ Often, these statements are written with broad strokes but may focus on a specif
 * *https://ottaa-project.github.io/[OTTAA] and https://www.cboard.io/about/[Cboard] community statement*:
   "Our community is a crucible of experiences and capabilities, from software developers, biomedical engineers, speech therapists, families, and people with disabilities.
   We treat ourselves as equals with respect and empathy."
+* *https://talk2u.co/[Talk2U] community statement*:
+
+[quote, 'https://talk2u.co/[Talk2U] community statement']
+____
+Our project are created by multidisciplinary teams that can contribute with their expert know how as well as user feedback and expertise.
+These are the type of communities that are welcome to participate:
+
+* *Creative community members* can help with content development such as character creations, alternative narratives, specific use cases and dialogues, or even creating the audiovisual assets that enhance the experience.
+* *Tech community members* can help with AI training, QA testing, API integrations for data collection, data analysis and NLP.
+* *Academic community members* can help with foundational research, focus group facilitations, survey creation and analysis, as well as mapping and co-creating strategies to translate into a digital format.
+* *Youth community members* can help by testing the learning experience, recruiting collaborators, providing real life use cases and examples and bringing in their voice to include diversity in our co-creation sessions.
+
+If you feel summoned to contribute in the creation of our chat story interventions aimed to raise awareness on pressing issues for youth and to create the desire to change behaviors and attitudes in young people from 16 to 24 years old we would love to welcome you to join us.
+
+Join our Open Content Community and let’s change the world together, one conversation at a time.
+____
 
 [[launch-licensing]]
 === Licensing approach
