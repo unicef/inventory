@@ -1,5 +1,5 @@
 ############################# Base configuration #############################
-baseURL = "https://unicef.github.io/inventory-staging/"
+baseURL = "https://unicef.github.io/inventory/"
 title = "UNICEF O.S. Inventory"
 theme = "inventory"
 enableEmoji = true
