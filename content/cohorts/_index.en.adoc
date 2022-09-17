@@ -1,7 +1,7 @@
 ---
-title: "Cohorts"
-icon: "vr-cardboard"
-description: "Explore UNICEF Venture Fund start-up companies and Open Source projects by cohort."
-type: "docs"
+title: UNICEF Venture Fund Cohorts
+icon: ti-dashboard
+description: Explore UNICEF Venture Fund start-up companies and Open Source projects by cohort.
+type: team
 
 ---
