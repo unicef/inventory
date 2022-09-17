@@ -1,11 +1,13 @@
 ---
-title: "Frontier technology tips"
+title: Tips for documenting frontier technology
 description: A summary of Andrew Burden's DevConf 2020 talk about best practices for documenting emerging technology.
-tags: ["innovation"]
-categories: "documentation"
+tags: ["best practices", "innovation"]
 downloadBtn: "true"
-aliases: 
-    - documentation/frontier-tech-tips/
+aliases:
+    - /documentation/frontier-tech-tips/
+
+# search related keywords
+keywords: ["best practice", "docs", "documentation", "emerging", "frontier", "video"]
 
 ---
 

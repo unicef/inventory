@@ -1,10 +1,14 @@
 ---
-title: "Maintainer's guide for O.S. Inventory"
-description: Overview of learning modules currently offered through the UNICEF Open Source Mentorship programme.
-tags: ["docs", "testing"]
-aliases:
-    - /meta/maintainers-guide/
+title: Maintainer's guide for O.S. Inventory
+description: Essential day-to-day admin tasks and maintenance of the UNICEF Open Source Inventory.
+author: Justin W. Flory
+tags: ["admin"]
 downloadBtn: "true"
+aliases:
+    - /meta/inventory/maintainers-guide/
+
+# search related keywords
+keywords: ["admin", "inventory"]
 
 ---
 // document settings

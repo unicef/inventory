@@ -1,11 +1,14 @@
 ---
-title: "Project boards"
+title: Project boards
 description: An introduction to project/kanban boards for new Open Source project or community managers.
-tags: ["community"]
-categories: "project-management"
+tags: ["community", "organization"]
 downloadBtn: "true"
 aliases:
-    - project-management/project-boards/
+    - /project-management/project-boards/
+
+# search related keywords
+keywords: ["agile", "board", "github", "gitlab", "kanban", "management", "methodology", "scrum", "teleirc", "workflow"]
+
 ---
 :toc:
 

@@ -2,8 +2,12 @@
 title: Fedora Project
 description: The Fedora Project is a community of people working together to build a free and open source operating system.
 tags: ["linux"]
-categories: "communities"
 downloadBtn: "true"
+aliases:
+    - /communities/fedora/
+
+# search related keywords
+keywords: ["distribution", "fedora", "linux"]
 
 ---
 :toc:

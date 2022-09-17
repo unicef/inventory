@@ -1,11 +1,14 @@
 ---
-title: "Needs assessment interview template"
+title: Needs assessment interview template
 description: Interview template for UNICEF mentors when meeting a team for the first time.
-tags: ["tools"]
-categories: "meta"
-aliases:
-    - /meta/needs-assessment-template/
+author: Justin W. Flory
+tags: ["mentoring"]
 downloadBtn: "true"
+aliases:
+    - /meta/mentorship/needs-assessment-template/
+
+# search related keywords
+keywords: ["mentor", "template", "unicef"]
 
 ---
 
@@ -48,7 +51,7 @@ These questions explore project management and any tools or processes that are a
 These questions explore development best practices and how the team produces source code.
 It covers a range of periphery activities around development, such as unit testing, static analysis, automation, and more.
 The goal is to understand where the team is currently, and where Open Source Mentorship will focus initially.
-This intersects with other topics like link:++{{< ref "unicef-mentorship/dev-tools/continuous-integration" >}}++[Continuous Integration].
+This intersects with other topics like link:++{{< ref "dpg-indicators/8/continuous-integration" >}}++[Continuous Integration].
 
 === Testing
 

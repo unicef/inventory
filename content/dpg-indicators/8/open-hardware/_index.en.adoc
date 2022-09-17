@@ -1,7 +1,13 @@
 ---
-title: "Open Hardware"
-icon: "ti-signal"
-description: "Resources and advice specific to building Open Hardware projects and communities."
+title: Open Hardware
+description: Resources and advice specific to building Open Hardware projects and communities.
+tags: ["hardware"]
+downloadBtn: "true"
+aliases:
+    - /hardware/
+
+# search related keywords
+keywords: ["example", "hardware", "legal", "license"]
 
 ---
 

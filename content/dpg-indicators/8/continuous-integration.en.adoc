@@ -1,15 +1,20 @@
 ---
-title: "Continuous Integration (CI)"
-description: An introduction to creating a Continuous Integration (CI) pipeline for an Open Source project.
-tags: ["testing"]
-categories: "dev-tools"
+title: Continuous Integration (C.I.)
+description: An introduction to creating a Continuous Integration (C.I.) pipeline for an Open Source project.
+author: Justin W. Flory
+tags: ["development", "quality", "testing"]
 downloadBtn: "true"
+aliases:
+    - /dev-tools/
+    - /dev-tools/continuous-integration/
+
+# search related keywords
+keywords: ["ci", "ci/cd", "ci cd", "circleci", "develop", "github", "gitlab", "quality", "quality assurance", "test", "testing"]
 
 ---
 :toc:
 
 This guide is an introduction to Continuous Integration (C.I.) for Open Source projects.
-In this guide, you will learn about the following topics:
 
 
 [[what-why]]

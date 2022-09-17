@@ -1,6 +1,8 @@
 ---
-title: "Communities"
-icon: "ti-comments-smiley"
-description: "Real communities of practice for you to meet and explore."
+title: Communities
+description: Real communities of practice for you to meet and explore.
+tags: ["community", "examples"]
+aliases:
+    - /communities/
 
 ---

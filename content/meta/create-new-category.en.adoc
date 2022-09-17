@@ -1,11 +1,14 @@
 ---
-title: "How to create a new Inventory category"
-description: Guidance on creating a new content category in the Open Source Inventory.
+title: How to create a new Inventory category
+description: Guidance on creating a new content category in the UNICEF Open Source Inventory.
+author: Justin W. Flory
 tags: ["admin"]
-categories: "meta"
-aliases:
-    - /meta/create-new-category/
 downloadBtn: "true"
+aliases:
+    - /meta/inventory/create-new-category/
+
+# search related keywords
+keywords: ["admin", "inventory"]
 
 ---
 :toc:

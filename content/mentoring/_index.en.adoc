@@ -1,7 +1,11 @@
 ---
-title: "Open Source Mentorship"
-description: "Documentation and reference material about the UNICEF Open Source Mentorship programme."
-draft: "false"
+title: UNICEF Mentorship
+icon: ti-blackboard
+description: Information about the Open Source Technical Assistance mentoring programme offered by the UNICEF Venture Fund.
+type: docs
+weight: 30
+aliases:
+    - /meta/mentorship/
 
 ---
 

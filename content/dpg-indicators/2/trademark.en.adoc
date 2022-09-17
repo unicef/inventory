@@ -1,11 +1,14 @@
 ---
-title: "Trademark strategies"
+title: Trademark strategies
 description: Guidance on developing a strategy for Open Source trademarks and branding.
-tags: ["trademark", "legal"]
-categories: "legal"
+tags: ["legal", "trademarks"]
 downloadBtn: "true"
-aliases: 
-    - legal-policy/trademark/
+aliases:
+    - /legal-policy/trademark/
+
+# search related keywords
+keywords: ["brand", "identity", "legal", "logo", "moodle", "trademark"]
+
 ---
 :toc:
 

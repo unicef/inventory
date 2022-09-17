@@ -2,12 +2,14 @@
 title: Open-first business approaches
 description: Information, best practices, and references about sustainable Open-first business approaches.
 tags: ["sustainability"]
-categories: "sustainability"
-aliases:
-    - sustainability/approaches/
-    - /foss/business-sustainability/
-    - /sustainability/business-sustainability/
 downloadBtn: "true"
+aliases:
+    - /foss/business-sustainability/
+    - /sustainability/approaches/
+    - /sustainability/business-sustainability/
+
+# search related keywords
+keywords: ["business", "enterprise", "franchise", "model", "packaging", "service", "sustainability", "training"]
 
 ---
 :author: Justin W. Flory

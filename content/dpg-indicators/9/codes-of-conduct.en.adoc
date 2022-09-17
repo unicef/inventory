@@ -1,27 +1,19 @@
 ---
-title: "Codes of Conduct"
+title: Codes of Conduct
 description: Embark on a mission to add a Code of Conduct to your Open Source community.
+author: Justin W. Flory
 tags: ["community"]
-categories: "missions"
 downloadBtn: "true"
 aliases:
-    - missions/codes-of-conduct/
+    - /missions/codes-of-conduct/
+
+# search related keywords
+keywords: ["abuse", "behavior", "community", "conduct", "ethics", "moderate", "moderation"]
+
 ---
-:author: Justin W. Flory
 :toc:
 
-[link=https://creativecommons.org/licenses/by-sa/4.0/]
-image::https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg[License: CC BY-SA 4.0]
-
 This Mission is a short exercise on understanding how Codes of Conduct fit into your Open Source community.
-In designing a Code of Conduct for a project community, we will explore these Requirements for this Mission:
-
-. Quality of writing
-. Clarity of expectations
-. Defined structure for handling enforcement
-. Two to four people responsible for handling sensitive reports
-. Use an existing Code of Conduct instead of writing one yourself
-. References
 
 
 == Quality of writing

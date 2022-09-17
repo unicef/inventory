@@ -1,19 +1,17 @@
 ---
 title: "Workplan: Bridge Fund cohort"
-description: Open Source workplan requirements for UNICEF Open Source Mentorship programme. These requirements apply to companies in the Bridge Fund cohort.
-tags: []
-categories: "meta"
-aliases:
-    - /meta/workplan-bridge-funding/
+description: Open Source workplan milestones for the UNICEF Venture Fund. These requirements apply to companies in Bridge Fund cohorts.
+author: Justin W. Flory
+tags: ["mentoring"]
 downloadBtn: "true"
+aliases:
+    - /meta/mentorship/workplan-bridge-funding/
+
+# search related keywords
+keywords: ["evaluation", "management", "mentor", "portfolio", "unicef", "workplan"]
 
 ---
-// document settings
-:hide-uri-scheme:
 :toc:
-// reference links
-:unicef-advisor: Justin W. Flory
-:unicef-advisor-email: jflory [at] unicef [dot] org
 
 This page documents the workplan requirements for the Bridge Fund cohort of the UNICEF Venture Fund.
 These graduation expectations are in place for UNICEF grantees receiving follow-on funding from UNICEF.

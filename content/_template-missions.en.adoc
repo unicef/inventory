@@ -1,12 +1,16 @@
 ---
-title: "Template for new missions"
+title: Template for new missions
 description: Embark on a mission to create XYZ for your Open Source work.
-categories: "missions"
+author: Your Name
+tags: ["exercises"]
 downloadBtn: "true"
+
+# search related keywords
+keywords: ["exercise", "mission"]
+
 draft: true
 
 ---
-:author: Justin W. Flory
 :toc:
 
 // Use this AsciiDoc template to create a new Mission.

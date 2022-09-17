@@ -1,9 +1,13 @@
 ---
-title: Licensing
+title: Open Hardware licensing
 description: Information, resources, and details about common licenses used for Open Source Hardware projects.
-tags: ["legal"]
-categories: "hardware"
+tags: ["legal", "licenses"]
 downloadBtn: "true"
+aliases:
+    - /hardware/licensing/
+
+# search related keywords
+keywords: ["cern", "cernohl", "cern-ohl", "hardware", "legal", "license", "patent", "tapr"]
 
 ---
 :toc:

@@ -1,9 +1,14 @@
 ---
-title: "Reproducibility reading list"
+title: Reproducibility reading list
 description: Various readings and learnings about reproducibility in an Open Source context.
-tags: ["reading list"]
-categories: "reproducibility"
+tags: ["reading list", "science"]
 downloadBtn: "true"
+aliases:
+    - /reproducibility/
+    - /reproducibility/reading-list/
+
+# search related keywords
+keywords: ["free software", "reproduce", "science", "software", "workflow"]
 
 ---
 

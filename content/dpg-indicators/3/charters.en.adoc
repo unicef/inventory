@@ -1,14 +1,13 @@
 ---
-title: "Charters"
+title: Charters
 description: Embark on a mission to create a project charter for your Open Source work.
 tags: ["decision-making", documentation", "governance"]
-categories: "missions"
 downloadBtn: "true"
 aliases:
     - /missions/charters/
 
 # search related keywords
-keywords: ["charter", "governance", "project charter"]
+keywords: ["charter", "docs", "mission", "governance", "project charter", "vision"]
 
 ---
 :author: Justin W. Flory

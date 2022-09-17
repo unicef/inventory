@@ -1,12 +1,14 @@
 ---
-title: "Reading list: FOSS"
+title: Free & Open Source reading list
 description: Various readings and learnings about Free and Open Source Software.
-tags: ["reading list"]
-categories: "governance"
+tags: ["decision-making", "licenses", "reading list"]
 aliases:
-    - governance/reading-list/
     - /foss/reading-list-foss/
+    - /governance/reading-list/
 downloadBtn: "true"
+
+# search related keywords
+keywords: ["free software", "governance", "license", "software"]
 
 ---
 :toc:

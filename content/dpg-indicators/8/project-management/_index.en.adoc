@@ -1,6 +1,12 @@
 ---
-title: "Project Management"
-icon: "ti-agenda"
-description: "Resources related to open source project management and product development."
+title: Project Management
+description: Resources related to open source project management and product development.
+tags: ["organization"]
+downloadBtn: "true"
+aliases:
+    - /project-management/
+
+# search related keywords
+keywords: ["agile", "management", "methodology", "workflow"]
 
 ---

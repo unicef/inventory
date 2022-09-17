@@ -1,17 +1,19 @@
 ---
-title: "How to create a new Inventory Mission"
+title: How to create a new Inventory Mission
 description: Guidance on creating a new Mission in the Open Source Inventory.
-tags: ["content"]
-categories: "meta"
-aliases:
-    - /meta/create-new-mission/
+author: Justin W. Flory
+tags: ["admin"]
 downloadBtn: "true"
+aliases:
+    - /meta/inventory/create-new-mission/
+
+# search related keywords
+keywords: ["admin", "inventory"]
 
 ---
 :toc:
 
-This how-to article explains how to create a new category in the Open Source Inventory.
-This how-to article explains how to create a new link:++{{< ref "missions" >}}>++[Mission] in the Open Source Inventory.
+This how-to article explains how to create a new Mission in the Open Source Inventory.
 
 
 [#steps]

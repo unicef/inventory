@@ -1,11 +1,13 @@
 ---
-title: "Issue templates"
-description: An introduction to issue templates for new Open Source project or community managers.
-tags: ["community"]
-categories: "project-management"
+title: Issue templates
+description: An introduction to issue or user feedback templates for new Open Source project or community managers.
+tags: ["community", "organization", "templates"]
 downloadBtn: "true"
 aliases:
-    - project-management/issue-templates/
+    - /project-management/issue-templates/
+
+# search related keywords
+keywords: ["agile", "bug", "feedback", "issue", "github", "gitlab", "management", "methodology", "report", "template", "workflow"]
 
 ---
 

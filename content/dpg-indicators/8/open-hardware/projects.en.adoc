@@ -1,9 +1,13 @@
 ---
-title: Project Hall of Fame
+title: Open Hardware Hall of Fame
 description: Various Open Source Hardware projects and links back to their projects and/or communities.
-tags: ["hall of fame"]
-categories: "hardware"
+tags: ["examples", "hall of fame"]
 downloadBtn: "true"
+aliases:
+    - /hardware/projects/
+
+# search related keywords
+keywords: ["business", "company", "example", "hardware", "model", "neuroscience", "product"]
 
 ---
 

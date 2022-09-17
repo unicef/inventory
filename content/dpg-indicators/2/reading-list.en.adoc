@@ -1,12 +1,14 @@
 ---
 title: "Reading List: Legal & Business Aspects"
 description: Various readings and learnings about business and legal aspects of Open Source intellectual property.
-tags: ["reading list"]
-categories: "legal"
-aliases:
-    - legal-policy/reading-list/
-    - /foss/reading-list-legal/
+tags: ["copyleft", "legal", "permissive", "reading list"]
 downloadBtn: "true"
+aliases:
+    - /foss/reading-list-legal/
+    - /legal-policy/reading-list/
+
+# search related keywords
+keywords: ["business", "content", "copyleft", "data", "legal", "license", "model", "permissive", "reading list", "software"]
 
 ---
 :toc:

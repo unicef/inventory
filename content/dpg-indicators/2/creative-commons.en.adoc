@@ -1,11 +1,14 @@
 ---
-title: "Intro to Creative Commons licenses"
+title: Intro to Creative Commons licenses
 description: A crash course on Creative Commons licenses and how they are applied at the UNICEF Venture Fund.
 tags: ["content", "licenses", "legal"]
-categories: "legal"
 downloadBtn: "true"
 aliases:
-    - legal-policy/creative-commons/
+    - /legal-policy/creative-commons/
+
+# search related keywords
+keywords: ["commons", "content", "creative", "free culture", "license", "sharing"]
+
 ---
 :toc:
 

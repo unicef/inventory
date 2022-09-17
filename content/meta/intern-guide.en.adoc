@@ -1,17 +1,21 @@
 ---
-title: "Intern's guide for O.S. Inventory"
+title: Intern's guide for O.S. Inventory
 description: On-boarding documentation and guidance for interns working on the Open Source Inventory.
-tags: ["onboarding"]
+author: Ida Delphine
+tags: ["admin", "internships"]
 downloadBtn: "true"
+aliases:
+    - /meta/inventory/intern-guide/
+
+# search related keywords
+keywords: ["admin", "intern", "inventory", "outreachy"]
 
 ---
 :toc:
 
-_Originally written by https://github.com/Idadelveloper[Ida Delphine]_.
-
 This document is an on-boarding guide for interns working on the UNICEF Open Source Inventory.
 It is written and maintained by interns who worked or are working on the project.
-Please help keep this guide up-to-date with your own experiences!
+Please help keep this guide up-to-date by documenting your own experiences and adding your name as an author!
 
 
 [[intro-hugo]]
@@ -26,7 +30,7 @@ If you are new to Hugo, be sure to take a look at the https://gohugo.io/getting-
 == Introducing the UNICEF Inventory
 
 The link:++{{< ref "/" >}}++[UNICEF Open Source Inventory] is a knowledge base for open source best practices and resources related to open source.
-It also is a key resource used during the link:++{{< ref "/meta/mentorship/overview" >}}++[open source mentorship program] of the various https://www.unicefinnovationfund.org/[UNICEF Venture Fund] cohorts.
+It also is a key resource used during the link:++{{< ref "mentoring/overview" >}}++[open source mentorship program] of the various https://www.unicefinnovationfund.org/[UNICEF Venture Fund] cohorts.
 It is built on Hugo and made up of two repositories: the https://github.com/unicef/inventory[*Open Source Inventory*] and the https://github.com/unicef/inventory-hugo-theme[*UNICEF Inventory theme*].
 The Open Source Inventory is mostly for adding content to the site, while the UNICEF Inventory theme is actually the front-end interface of the site.
 The Open Source Inventory also contains global configurations of the Hugo site and also contains the UNICEF Inventory theme as a git submodule.

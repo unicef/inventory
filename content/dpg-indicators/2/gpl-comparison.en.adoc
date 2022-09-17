@@ -1,12 +1,14 @@
 ---
-title: "GPLv2 vs. GPLv3"
+title: GPLv2 vs. GPLv3
 description: A deep dive on the exact differences between the Free Software Foundation's two versions of the GPL license.
-tags: ["legal"]
-categories: "legal"
-aliases:
-    - legal-policy/gpl-comparison/
-    - /foss/gpl-comparison/
+tags: ["legal", "licenses"]
 downloadBtn: "true"
+aliases:
+    - /foss/gpl-comparison/
+    - /legal-policy/gpl-comparison/
+
+# search related keywords
+keywords: ["free culture", "free software", "FSF", "GPL", "license", "linux", "sharing", "stallman", "tivoization"]
 
 ---
 :toc:

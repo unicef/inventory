@@ -1,14 +1,16 @@
 ---
-title: "Modules"
+title: Mentoring modules
 description: Overview of learning modules currently offered through the UNICEF Open Source Mentorship programme.
-tags: ["docs", "legal", "testing"]
-categories: "meta"
-aliases:
-    - /meta/modules/
+author: Justin W. Flory
+tags: ["docs", "legal", "mentoring", "testing"]
 downloadBtn: "true"
+aliases:
+    - /meta/mentorship/modules/
+
+# search related keywords
+keywords: ["learn", "learning", "mentor", "modules", "unicef"]
 
 ---
-// document settings
 :toc:
 
 The UNICEF Open Source Mentorship programme offers multiple learning modules and mentorship topics.

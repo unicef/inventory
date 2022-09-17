@@ -1,9 +1,13 @@
 ---
-title: Case studies
+title: Open Hardware case studies
 description: Detailed case studies and analysis of different Open Hardware organizations, projects, and products.
-tags: ["hall of fame"]
-categories: "hardware"
+tags: ["examples", "hall of fame"]
 downloadBtn: "true"
+aliases:
+    - /hardware/case-studies/
+
+# search related keywords
+keywords: ["arduino", "example", "hardware", "science"]
 
 ---
 :toc:

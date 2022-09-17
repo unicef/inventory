@@ -2,9 +2,13 @@
 title: Introduction to Open Source Hardware
 weight: 1
 description: So, you want to know about Open Source Hardware? Start here to get an introduction to the landscape in the 2020s.
-tags: ["philosophy"]
-categories: "hardware"
+tags: ["philosophy", "trademarks"]
 downloadBtn: "true"
+aliases:
+    - /hardware/intro/
+
+# search related keywords
+keywords: ["community", "hardware", "legal", "oshw", "philosophy", "reproduce", "reproducibility", "trademark"]
 
 ---
 :definition: https://www.oshwa.org/definition/

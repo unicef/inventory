@@ -1,13 +1,21 @@
 ---
-title: "Text editors"
+title: Text editors
 description: Educational resources, guides, and information about text editors and IDEs.
 tags: ["tools"]
-categories: "documentation"
 downloadBtn: "true"
 aliases:
-    - documentation/text-editors/
-     
+    - /documentation/text-editors/
+
+# search related keywords
+keywords: ["docs", "documentation", "editor", "tool", "vim"]
+
 ---
+
+{{< notice warning >}}
+**This page is flagged for deletion**.
+This article is not a good fit for this UNICEF Toolkit.
+It is proposed for future deletion from the UNICEF Open Source Inventory.
+{{< /notice >}}
 
 This page is focused on educational resources, not strictly comparisons of editors.
 

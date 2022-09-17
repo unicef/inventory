@@ -1,17 +1,19 @@
 ---
-title: "Open Source Mentorship programme overview"
+title: Open Source Mentorship programme overview
 weight: 1
 description: An introduction to the UNICEF Open Source Mentorship programme. Hosted by the Office of Innovation.
-tags: []
-categories: "meta"
+author: Justin W. Flory
+tags: ["mentoring"]
+downloadBtn: "true"
 aliases:
     - /foss/
-    - /meta/overview/
-downloadBtn: "true"
+    - /meta/mentorship/overview/
+
+# search related keywords
+keywords: ["learn", "learning", "mentor", "overview", "unicef"]
 
 ---
-// document settings
-:hide-uri-scheme:
+:toc:
 // reference links
 :unicef-advisor: Justin W. Flory
 :unicef-advisor-email: jflory [at] unicef [dot] org
@@ -20,15 +22,6 @@ downloadBtn: "true"
 
 This page documents and explains the general structure, approach, and methods of the Open Source Mentorship programme hosted on this website.
 The Open Source Mentorship programme is offered by the {unicef-fund}.
-See the table of contents for navigating.
-
-//TODO fix hugo theme to correctly render toc attributes instead of hand-typing them out
-. link:#team[Programme team]
-. link:#eligibility[Eligibility]
-.. link:#eligibility-fund[Venture Fund grantees]
-.. link:#eligibility-unicef[UNICEF colleagues]
-.. link:#eligibility-others[Other groups]
-. link:#refs[References]
 
 
 [[team]]

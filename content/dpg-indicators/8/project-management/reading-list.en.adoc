@@ -1,12 +1,15 @@
 ---
-title: "Outreach reading list"
+title: Outreach reading list
 description: Various readings and learnings about outreach and marketing in an Open Source context.
-tags: ["reading list"]
-categories: "project-management"
-aliases:
-    - project-management/reading-list/
-    - /foss/reading-list-outreach/
+tags: ["engagement", "reading list"]
 downloadBtn: "true"
+aliases:
+    - /foss/reading-list-outreach/
+    - /project-management/reading-list/
+
+# search related keywords
+keywords: ["agile", "management", "marketing", "methodology", "outreach", "reading", "success", "workflow"]
+
 
 ---
 

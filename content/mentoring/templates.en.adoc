@@ -1,11 +1,14 @@
 ---
-title: "Templates for programme mentors"
+title: Templates for programme mentors
 description: Various templates and reusable copytext for UNICEF Open Source Mentorship programme mentors.
-tags: ["tools"]
-categories: "meta"
-aliases:
-    - /meta/templates/
+author: Justin W. Flory
+tags: ["mentoring", "templates"]
 downloadBtn: "true"
+aliases:
+    - /meta/mentorship/templates/
+
+# search related keywords
+keywords: ["induction", "meeting", "mentor", "template", "unicef"]
 
 ---
 :toc:

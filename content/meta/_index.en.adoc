@@ -1,0 +1,14 @@
+---
+title: Site maintenance
+icon: ti-pencil-alt
+description: Documentation and reference material about this website, the UNICEF Open Source Inventory.
+type: docs
+weight: 50
+aliases:
+    - /meta/inventory/
+
+---
+
+This section includes documentation about managing and maintaining the UNICEF Open Source Inventory, i.e. this website.
+You can find content specific to maintaining the site from the software and content point-of-view.
+Use the sidebar to navigate to different topics.

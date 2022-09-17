@@ -2,10 +2,12 @@
 title: Documentation Hall of Fame
 description: Real examples of Open Source projects with excellent documentation.
 tags: ["hall of fame"]
-categories: "documentation"
 downloadBtn: "true"
 aliases:
-    - documentation/hall-of-fame/
+    - /documentation/hall-of-fame/
+
+# search related keywords
+keywords: ["docs", "documentation", "docusaurus", "example", "fame", "hugo", "sphinx"]
 
 ---
 :toc:

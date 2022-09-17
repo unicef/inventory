@@ -1,9 +1,14 @@
 ---
-title: "On-boarding guide for UNICEF Venture Fund teams"
+title: On-boarding guide for UNICEF Venture Fund teams
 description: Terms of reference for being on-boarded to the UNICEF Open Source Mentorship programme as a start-up.
-tags: [""]
-categories: "meta"
+author: Justin W. Flory
+tags: ["mentoring", "onboarding"]
 downloadBtn: "true"
+aliases:
+    - /meta/mentorship/onboarding/
+
+# search related keywords
+keywords: ["induction", "mentor", "onboard", "on-board", "unicef"]
 
 ---
 :toc:

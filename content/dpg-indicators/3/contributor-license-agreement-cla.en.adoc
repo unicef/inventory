@@ -1,12 +1,14 @@
 ---
-title: "Contributor License Agreements (CLAs)"
+title: Contributor License Agreements (CLAs)
 description: When does your Open Source project need a CLA? What alternatives exist? Cover your copyright in this intro to CLAs.
-tags: ["legal"]
-categories: "legal"
-aliases:
-    - legal-policy/contributor-license-agreement-cla/
-    - /foss/contributor-license-agreement-cla/
+tags: ["copyright", "intellectual property (I.P.)", "legal"]
 downloadBtn: "true"
+aliases:
+    - /foss/contributor-license-agreement-cla/
+    - /legal-policy/contributor-license-agreement-cla/
+
+# search related keywords
+keywords: ["cla", "copyright", "ip", "legal", "ownership"]
 
 ---
 :author: Mike Nolan; Justin W. Flory
