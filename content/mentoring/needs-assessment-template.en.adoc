@@ -6,6 +6,7 @@ tags: ["mentoring"]
 downloadBtn: "true"
 aliases:
     - /meta/mentorship/needs-assessment-template/
+    - /meta/needs-assessment-template/
 
 # search related keywords
 keywords: ["mentor", "template", "unicef"]

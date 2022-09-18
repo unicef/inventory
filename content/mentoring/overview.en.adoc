@@ -8,6 +8,7 @@ downloadBtn: "true"
 aliases:
     - /foss/
     - /meta/mentorship/overview/
+    - /meta/overview/
 
 # search related keywords
 keywords: ["learn", "learning", "mentor", "overview", "unicef"]

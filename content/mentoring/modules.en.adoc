@@ -6,6 +6,7 @@ tags: ["docs", "legal", "mentoring", "testing"]
 downloadBtn: "true"
 aliases:
     - /meta/mentorship/modules/
+    - /meta/modules/
 
 # search related keywords
 keywords: ["learn", "learning", "mentor", "modules", "unicef"]

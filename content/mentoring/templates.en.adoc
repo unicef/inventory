@@ -6,6 +6,7 @@ tags: ["mentoring", "templates"]
 downloadBtn: "true"
 aliases:
     - /meta/mentorship/templates/
+    - /meta/templates/
 
 # search related keywords
 keywords: ["induction", "meeting", "mentor", "template", "unicef"]

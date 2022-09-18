@@ -1,6 +1,7 @@
 ---
 title: Contributor License Agreements (CLAs)
 description: When does your Open Source project need a CLA? What alternatives exist? Cover your copyright in this intro to CLAs.
+author: Justin W. Flory, Mike Nolan
 tags: ["copyright", "intellectual property (I.P.)", "legal"]
 downloadBtn: "true"
 aliases:
@@ -11,7 +12,6 @@ aliases:
 keywords: ["cla", "copyright", "ip", "legal", "ownership"]
 
 ---
-:author: Mike Nolan; Justin W. Flory
 :toc:
 
 _Originally authored by https://nolski.rocks[Mike Nolan], edited and maintained by https://jwf.io[Justin W. Flory]._

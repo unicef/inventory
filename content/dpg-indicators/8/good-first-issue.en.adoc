@@ -1,5 +1,5 @@
 ---
-title: "Good first issues"
+title: Good first issues
 description: Embark on a mission to enable new contributors to your Open Source project with Good First Issues (GFIs).
 author: Justin W. Flory
 tags: ["community", "contributing", "engagement"]

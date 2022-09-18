@@ -6,6 +6,7 @@ tags: ["mentoring"]
 downloadBtn: "true"
 aliases:
     - /meta/mentorship/workplan-bridge-funding/
+    - /meta/workplan-bridge-funding/
 
 # search related keywords
 keywords: ["evaluation", "management", "mentor", "portfolio", "unicef", "workplan"]

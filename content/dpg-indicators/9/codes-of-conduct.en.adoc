@@ -2,13 +2,13 @@
 title: Codes of Conduct
 description: Embark on a mission to add a Code of Conduct to your Open Source community.
 author: Justin W. Flory
-tags: ["community"]
+tags: ["community", "exercises"]
 downloadBtn: "true"
 aliases:
     - /missions/codes-of-conduct/
 
 # search related keywords
-keywords: ["abuse", "behavior", "community", "conduct", "ethics", "moderate", "moderation"]
+keywords: ["abuse", "behavior", "community", "conduct", "ethics", "exercise", "mission", "moderate", "moderation"]
 
 ---
 :toc:
