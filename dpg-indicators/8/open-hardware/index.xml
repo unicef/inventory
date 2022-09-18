@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Open Hardware on UNICEF O.S. Inventory</title>
+    <link>https://unicef.github.io/inventory/dpg-indicators/8/open-hardware/</link>
+    <description>Recent content in Open Hardware on UNICEF O.S. Inventory</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Creative Commons BY-SA 4.0. Site theme maintained by UNICEF. Original theme, Dot, created by ThemeFisher.</copyright><atom:link href="https://unicef.github.io/inventory/dpg-indicators/8/open-hardware/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introduction to Open Source Hardware</title>
+      <link>https://unicef.github.io/inventory/dpg-indicators/8/open-hardware/intro/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unicef.github.io/inventory/dpg-indicators/8/open-hardware/intro/</guid>
+      <description>Table of Contents 1. What is Open Source Hardware? 1.1. Takeaway   2. Where does Open Source Hardware exist today? 3. Why Open Source Hardware is a win for your project 3.1. Reason no. 1: Reproducibility 3.2. Reason no. 2: Community participation 3.3. Reason no. 3: Trademark protections   4. Open Source Hardware Association 5. Resources and other references   So… you want to know about Open Source Hardware?</description>
+    </item>
+    
+    <item>
+      <title>Open Hardware case studies</title>
+      <link>https://unicef.github.io/inventory/dpg-indicators/8/open-hardware/case-studies/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unicef.github.io/inventory/dpg-indicators/8/open-hardware/case-studies/</guid>
+      <description>Table of Contents 1. Opentrons 2. Arduino 3. REMODEL toolkit 4. Honorable mentions 4.1. Ultimate Hacking Keyboard     Below are more detailed case studios of different Open Hardware organizations, projects, and products. Unlike the Projects page, these examples are more detailed and provide more context.
+ 1. Opentrons Scientific-focused hardware.
+  Several highly successful and well-regarded biology/chemistry lab automation robots. By going 100% open source, they substantially reduced costs.</description>
+    </item>
+    
+    <item>
+      <title>Open Hardware documentation</title>
+      <link>https://unicef.github.io/inventory/dpg-indicators/8/open-hardware/documentation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unicef.github.io/inventory/dpg-indicators/8/open-hardware/documentation/</guid>
+      <description>This page offers information and resources about documenting Open Hardware projects.
+ 1. Conventions &amp;amp; standards   Open Know-How Manifest Specification: &amp;#34;The objective of this specification is to improve the open-ness of know-how for making hardware by improving the discoverability, portability and translatability of knowledge.&amp;#34; Provides a format and specification for how to document and release Open Hardware projects and design schematics.
+     </description>
+    </item>
+    
+    <item>
+      <title>Open Hardware Hall of Fame</title>
+      <link>https://unicef.github.io/inventory/dpg-indicators/8/open-hardware/projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unicef.github.io/inventory/dpg-indicators/8/open-hardware/projects/</guid>
+      <description>This page collects various Open Hardware projects. These projects are not officially endorsed, but are listed here as a convenience to generate a list of examples for reference. For more detailed overviews, see the Case Studies page.
+ Check out the list of certified hardware from the Open Source Hardware Association for more inspiration.
+ 1. Businesses &amp;amp; companies   Adafruit Industries
+  Aleph Objects: Makers of LulzBot family of 3D printers.</description>
+    </item>
+    
+    <item>
+      <title>Open Hardware licensing</title>
+      <link>https://unicef.github.io/inventory/dpg-indicators/8/open-hardware/licensing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unicef.github.io/inventory/dpg-indicators/8/open-hardware/licensing/</guid>
+      <description>Table of Contents 1. Documentation 2. Licenses 2.1. Don’t Fear the Patent Clause!     This page collects information, resources, and other details about Open Hardware licensing.
+ 1. Documentation   Licensing and documentation: Learning material provided by Open Hardware Leaders program. Goal of material is to acquire best practices for hardware documentation and understand the different open licensing options available. Includes an explanation video and other helpful links.</description>
+    </item>
+    
+    <item>
+      <title>Open Hardware reading list</title>
+      <link>https://unicef.github.io/inventory/dpg-indicators/8/open-hardware/reading-list/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unicef.github.io/inventory/dpg-indicators/8/open-hardware/reading-list/</guid>
+      <description>A collection of various readings and articles related to Open Hardware.
+ 1. Innovation   How Low and Middle-Income Countries Are Innovating to Combat Covid, HBR.org: &amp;#34;One-fifth of the innovative solutions to fight the Covid-19 pandemic have emerged from low and middle-income countries, and these responses offer promising insights for how we think about, manage, and enable innovation. As the international community now faces the historic challenge of vaccinating the world, more attention and resources must be directed to the innovators who are developing technically novel, contextually relevant, and socially inclusive alternatives to mainstream innovation management practices.</description>
+    </item>
+    
+  </channel>
+</rss>

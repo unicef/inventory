@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>8. Adherence to Standards &amp; Best Practices on UNICEF O.S. Inventory</title>
+    <link>https://unicef.github.io/inventory/dpg-indicators/8/</link>
+    <description>Recent content in 8. Adherence to Standards &amp; Best Practices on UNICEF O.S. Inventory</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Creative Commons BY-SA 4.0. Site theme maintained by UNICEF. Original theme, Dot, created by ThemeFisher.</copyright><atom:link href="https://unicef.github.io/inventory/dpg-indicators/8/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Continuous Integration (C.I.)</title>
+      <link>https://unicef.github.io/inventory/dpg-indicators/8/continuous-integration/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unicef.github.io/inventory/dpg-indicators/8/continuous-integration/</guid>
+      <description>Table of Contents 1. What is CI and why does it matter? 1.1. Tests vs. CI 1.2. Benefits   2. CI platforms 3. Tips and tricks 4. Examples 5. Other resources   This guide is an introduction to Continuous Integration (C.I.) for Open Source projects.
+ 1. What is CI and why does it matter? Continuous Integration can be a few different things. However, for the open source context, think of CI as the tool or platform which runs a code test suite.</description>
+    </item>
+    
+    <item>
+      <title>Free &amp; Open Source reading list</title>
+      <link>https://unicef.github.io/inventory/dpg-indicators/8/reading-list-foss/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unicef.github.io/inventory/dpg-indicators/8/reading-list-foss/</guid>
+      <description>Table of Contents 1. Foundations 2. Governance   Readings on a variety of topics about Free &amp;amp; Open Source Software.
+ 1. Foundations   Four Freedoms of Free Software: Before understanding anything else about Open Source, you must first understand the core foundation of what decades of Open Source development built upon: the Four Freedoms. The Four Freedoms can be remembered as the freedoms to Read, Run, Revise, &amp;amp; Redistribute.</description>
+    </item>
+    
+    <item>
+      <title>Good first issues</title>
+      <link>https://unicef.github.io/inventory/dpg-indicators/8/good-first-issue/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unicef.github.io/inventory/dpg-indicators/8/good-first-issue/</guid>
+      <description>Table of Contents 1. GFIs exist 2. Assignee ratio 3. Simple language 4. Actionable 5. Purpose 6. Deadlines 7. Low committment 8. References 8.1. Resources &amp;amp; tools 8.2. Readings     This Mission is a guide to making &amp;#34;good first issues&amp;#34; (shortened to G.F.I.&amp;#39;s) for your Open Source community.
+ 1. GFIs exist The first requirement to having good GFIs is to… create GFIs!
+ In the case of writing new GFIs, it is usually better to publish something sooner than later, and not overthink it.</description>
+    </item>
+    
+    <item>
+      <title>Open-first business approaches</title>
+      <link>https://unicef.github.io/inventory/dpg-indicators/8/approaches/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unicef.github.io/inventory/dpg-indicators/8/approaches/</guid>
+      <description>Table of Contents 1. Asking the right question 2. Seven approaches for building Open works 2.1. Enterprise or targeted versions 2.2. Services around your product 2.3. Services are your product 2.4. Content 2.5. Packaging 2.6. Franchising 2.7. Training     This page collects information, best practices, and references about sustainable Open-first business approaches.
+ How do you build a sustainable business approach when you work Open? While the Open Source model of working is not completely new, it is a new way of working for many people who have not previously participated in highly collaborative, distributed communities.</description>
+    </item>
+    
+    <item>
+      <title>Reproducibility reading list</title>
+      <link>https://unicef.github.io/inventory/dpg-indicators/8/reading-list-reproducibility/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unicef.github.io/inventory/dpg-indicators/8/reading-list-reproducibility/</guid>
+      <description>  A Guide to Reproducible Code: A guide written by scientists, for scientists, on creating reproducible code. Includes topics like A simple reproducible project workflow, Organising projects for reproducibility, Reproducible reports, and more. Edited by Natalie Cooper and Pen-Yuan Hsing. Featuring contributions from Mike Croucher, Laura Graham, Tamora James, Anna Krystalli, and François Michonneau.
+   </description>
+    </item>
+    
+  </channel>
+</rss>

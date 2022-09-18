@@ -2,20 +2,35 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://unicef.github.io/inventory/hardware/intro/</loc>
-    <lastmod>2021-09-10T13:22:39+01:00</lastmod>
+    <loc>https://unicef.github.io/inventory/dpg-indicators/8/open-hardware/intro/</loc>
+    <lastmod>2022-09-19T01:17:18+05:30</lastmod>
   </url><url>
-    <loc>https://unicef.github.io/inventory/meta/mentorship/overview/</loc>
-    <lastmod>2022-05-18T08:27:09-04:00</lastmod>
+    <loc>https://unicef.github.io/inventory/mentoring/overview/</loc>
+    <lastmod>2022-09-19T01:17:18+05:30</lastmod>
+  </url><url>
+    <loc>https://unicef.github.io/inventory/dpg-indicators/</loc>
+    <lastmod>2022-09-19T01:17:18+05:30</lastmod>
+  </url><url>
+    <loc>https://unicef.github.io/inventory/cohorts/</loc>
+    <lastmod>2022-09-19T01:17:18+05:30</lastmod>
   </url><url>
     <loc>https://unicef.github.io/inventory/cohorts/ds-ai/inspired-ideas/</loc>
     <lastmod>2022-01-10T10:27:32-05:00</lastmod>
   </url><url>
+    <loc>https://unicef.github.io/inventory/mentoring/</loc>
+    <lastmod>2022-09-19T01:17:18+05:30</lastmod>
+  </url><url>
     <loc>https://unicef.github.io/inventory/cohorts/ds-ai/i-stem/</loc>
     <lastmod>2022-08-19T12:39:53+02:00</lastmod>
   </url><url>
+    <loc>https://unicef.github.io/inventory/toolkits/</loc>
+    <lastmod>2022-09-19T01:17:18+05:30</lastmod>
+  </url><url>
     <loc>https://unicef.github.io/inventory/cohorts/ds-ai/ottaa-project/</loc>
     <lastmod>2022-08-19T12:30:07+02:00</lastmod>
+  </url><url>
+    <loc>https://unicef.github.io/inventory/meta/</loc>
+    <lastmod>2022-09-19T01:17:18+05:30</lastmod>
   </url><url>
     <loc>https://unicef.github.io/inventory/cohorts/vr-ar/vrapeutic/</loc>
     <lastmod>2022-01-10T09:37:50-05:00</lastmod>
@@ -24,7 +39,7 @@
     <lastmod>2022-02-03T06:02:50-05:00</lastmod>
   </url><url>
     <loc>https://unicef.github.io/inventory/categories/</loc>
-    <lastmod>2022-09-02T21:40:46+02:00</lastmod>
+    <lastmod>2022-09-19T01:17:18+05:30</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
@@ -52,7 +67,7 @@
     <lastmod>2021-12-14T16:50:10-05:00</lastmod>
   </url><url>
     <loc>https://unicef.github.io/inventory/</loc>
-    <lastmod>2022-09-02T21:40:46+02:00</lastmod>
+    <lastmod>2022-09-19T01:17:18+05:30</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
@@ -69,6 +84,33 @@
   </url><url>
     <loc>https://unicef.github.io/inventory/cohorts/vr-ar/scioxr/</loc>
     <lastmod>2021-12-03T13:35:25+01:00</lastmod>
+  </url><url>
+    <loc>https://unicef.github.io/inventory/dpg-indicators/1/</loc>
+    <lastmod>2022-09-19T01:17:18+05:30</lastmod>
+  </url><url>
+    <loc>https://unicef.github.io/inventory/dpg-indicators/2/</loc>
+    <lastmod>2022-09-19T01:17:18+05:30</lastmod>
+  </url><url>
+    <loc>https://unicef.github.io/inventory/dpg-indicators/3/</loc>
+    <lastmod>2022-09-19T01:17:18+05:30</lastmod>
+  </url><url>
+    <loc>https://unicef.github.io/inventory/dpg-indicators/4/</loc>
+    <lastmod>2022-09-19T01:17:18+05:30</lastmod>
+  </url><url>
+    <loc>https://unicef.github.io/inventory/dpg-indicators/5/</loc>
+    <lastmod>2022-09-19T01:17:18+05:30</lastmod>
+  </url><url>
+    <loc>https://unicef.github.io/inventory/dpg-indicators/6/</loc>
+    <lastmod>2022-09-19T01:17:18+05:30</lastmod>
+  </url><url>
+    <loc>https://unicef.github.io/inventory/dpg-indicators/7/</loc>
+    <lastmod>2022-09-19T01:17:18+05:30</lastmod>
+  </url><url>
+    <loc>https://unicef.github.io/inventory/dpg-indicators/8/</loc>
+    <lastmod>2022-09-19T01:17:18+05:30</lastmod>
+  </url><url>
+    <loc>https://unicef.github.io/inventory/dpg-indicators/9/</loc>
+    <lastmod>2022-09-19T01:17:18+05:30</lastmod>
   </url><url>
     <loc>https://unicef.github.io/inventory/data/milestone-roadmap/</loc>
     <lastmod>2022-06-21T21:33:34-04:00</lastmod>
@@ -88,32 +130,23 @@
     <loc>https://unicef.github.io/inventory/cohorts/blockchain/</loc>
     <lastmod>2021-11-09T18:28:08+01:00</lastmod>
   </url><url>
-    <loc>https://unicef.github.io/inventory/hardware/case-studies/</loc>
-    <lastmod>2021-12-03T13:35:25+01:00</lastmod>
+    <loc>https://unicef.github.io/inventory/dpg-indicators/3/charters/</loc>
+    <lastmod>2022-09-19T01:17:18+05:30</lastmod>
   </url><url>
-    <loc>https://unicef.github.io/inventory/missions/charters/</loc>
-    <lastmod>2022-09-02T21:40:46+02:00</lastmod>
-  </url><url>
-    <loc>https://unicef.github.io/inventory/missions/codes-of-conduct/</loc>
-    <lastmod>2021-12-03T13:35:25+01:00</lastmod>
-  </url><url>
-    <loc>https://unicef.github.io/inventory/cohorts/</loc>
-    <lastmod>2022-05-18T08:27:09-04:00</lastmod>
+    <loc>https://unicef.github.io/inventory/dpg-indicators/9/codes-of-conduct/</loc>
+    <lastmod>2022-09-19T01:17:18+05:30</lastmod>
   </url><url>
     <loc>https://unicef.github.io/inventory/data/traps/</loc>
     <lastmod>2022-06-21T21:33:34-04:00</lastmod>
   </url><url>
-    <loc>https://unicef.github.io/inventory/communities/</loc>
-    <lastmod>2021-08-09T05:53:26-04:00</lastmod>
+    <loc>https://unicef.github.io/inventory/dpg-indicators/8/communities/</loc>
+    <lastmod>2022-09-19T01:17:18+05:30</lastmod>
   </url><url>
-    <loc>https://unicef.github.io/inventory/categories/communities/</loc>
-    <lastmod>2022-05-18T08:27:09-04:00</lastmod>
+    <loc>https://unicef.github.io/inventory/dpg-indicators/8/continuous-integration/</loc>
+    <lastmod>2022-09-19T01:17:18+05:30</lastmod>
   </url><url>
-    <loc>https://unicef.github.io/inventory/dev-tools/continuous-integration/</loc>
-    <lastmod>2021-12-03T13:35:25+01:00</lastmod>
-  </url><url>
-    <loc>https://unicef.github.io/inventory/legal-policy/contributor-license-agreement-cla/</loc>
-    <lastmod>2021-12-03T13:35:25+01:00</lastmod>
+    <loc>https://unicef.github.io/inventory/dpg-indicators/3/contributor-license-agreement-cla/</loc>
+    <lastmod>2022-09-19T01:17:18+05:30</lastmod>
   </url><url>
     <loc>https://unicef.github.io/inventory/data/</loc>
     <lastmod>2022-06-21T21:33:34-04:00</lastmod>
@@ -124,26 +157,14 @@
     <loc>https://unicef.github.io/inventory/cohorts/ds-ai/</loc>
     <lastmod>2021-11-09T18:28:08+01:00</lastmod>
   </url><url>
-    <loc>https://unicef.github.io/inventory/categories/dev-tools/</loc>
-    <lastmod>2021-12-03T13:35:25+01:00</lastmod>
+    <loc>https://unicef.github.io/inventory/dpg-indicators/5/hall-of-fame/</loc>
+    <lastmod>2022-09-19T01:17:18+05:30</lastmod>
   </url><url>
-    <loc>https://unicef.github.io/inventory/dev-tools/</loc>
-    <lastmod>2021-08-09T05:53:26-04:00</lastmod>
-  </url><url>
-    <loc>https://unicef.github.io/inventory/documentation/</loc>
-    <lastmod>2021-08-09T05:53:26-04:00</lastmod>
-  </url><url>
-    <loc>https://unicef.github.io/inventory/hardware/documentation/</loc>
-    <lastmod>2021-12-03T13:35:25+01:00</lastmod>
-  </url><url>
-    <loc>https://unicef.github.io/inventory/categories/documentation/</loc>
-    <lastmod>2022-03-15T12:43:59-04:00</lastmod>
-  </url><url>
-    <loc>https://unicef.github.io/inventory/documentation/hall-of-fame/</loc>
-    <lastmod>2021-12-03T13:35:25+01:00</lastmod>
+    <loc>https://unicef.github.io/inventory/dpg-indicators/5/reading-list/</loc>
+    <lastmod>2022-09-19T01:17:18+05:30</lastmod>
   </url><url>
     <loc>https://unicef.github.io/inventory/downloadbtn/</loc>
-    <lastmod>2022-09-02T21:40:46+02:00</lastmod>
+    <lastmod>2022-09-19T01:17:18+05:30</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
@@ -158,172 +179,139 @@
     <loc>https://unicef.github.io/inventory/cohorts/drones/</loc>
     <lastmod>2021-11-09T18:28:08+01:00</lastmod>
   </url><url>
-    <loc>https://unicef.github.io/inventory/communities/fedora/</loc>
-    <lastmod>2022-05-18T08:27:09-04:00</lastmod>
+    <loc>https://unicef.github.io/inventory/dpg-indicators/8/communities/fedora/</loc>
+    <lastmod>2022-09-19T01:17:18+05:30</lastmod>
+  </url><url>
+    <loc>https://unicef.github.io/inventory/dpg-indicators/8/reading-list-foss/</loc>
+    <lastmod>2022-09-19T01:17:18+05:30</lastmod>
   </url><url>
     <loc>https://unicef.github.io/inventory/faq/</loc>
     <lastmod>2021-08-09T05:53:26-04:00</lastmod>
   </url><url>
-    <loc>https://unicef.github.io/inventory/documentation/frontier-tech-tips/</loc>
-    <lastmod>2021-12-03T13:35:25+01:00</lastmod>
+    <loc>https://unicef.github.io/inventory/dpg-indicators/8/good-first-issue/</loc>
+    <lastmod>2022-09-19T01:17:18+05:30</lastmod>
   </url><url>
-    <loc>https://unicef.github.io/inventory/missions/good-first-issue/</loc>
-    <lastmod>2021-12-03T13:35:25+01:00</lastmod>
+    <loc>https://unicef.github.io/inventory/dpg-indicators/3/governance/</loc>
+    <lastmod>2022-09-19T01:17:18+05:30</lastmod>
   </url><url>
-    <loc>https://unicef.github.io/inventory/governance/</loc>
-    <lastmod>2021-08-16T10:52:00-04:00</lastmod>
+    <loc>https://unicef.github.io/inventory/dpg-indicators/2/gpl-comparison/</loc>
+    <lastmod>2022-09-19T01:17:18+05:30</lastmod>
   </url><url>
-    <loc>https://unicef.github.io/inventory/governance/governance/</loc>
-    <lastmod>2021-12-03T13:35:25+01:00</lastmod>
+    <loc>https://unicef.github.io/inventory/meta/create-new-category/</loc>
+    <lastmod>2022-09-19T01:17:18+05:30</lastmod>
   </url><url>
-    <loc>https://unicef.github.io/inventory/categories/governance/</loc>
-    <lastmod>2021-12-03T13:35:25+01:00</lastmod>
+    <loc>https://unicef.github.io/inventory/meta/create-new-mission/</loc>
+    <lastmod>2022-09-19T01:17:18+05:30</lastmod>
   </url><url>
-    <loc>https://unicef.github.io/inventory/legal-policy/gpl-comparison/</loc>
-    <lastmod>2021-12-03T13:35:25+01:00</lastmod>
+    <loc>https://unicef.github.io/inventory/meta/intern-guide/</loc>
+    <lastmod>2022-09-19T01:17:18+05:30</lastmod>
   </url><url>
-    <loc>https://unicef.github.io/inventory/categories/hardware/</loc>
-    <lastmod>2021-12-03T13:35:25+01:00</lastmod>
+    <loc>https://unicef.github.io/inventory/dpg-indicators/2/creative-commons/</loc>
+    <lastmod>2022-09-19T01:17:18+05:30</lastmod>
   </url><url>
-    <loc>https://unicef.github.io/inventory/meta/inventory/create-new-category/</loc>
-    <lastmod>2021-12-03T13:35:25+01:00</lastmod>
-  </url><url>
-    <loc>https://unicef.github.io/inventory/meta/inventory/create-new-mission/</loc>
-    <lastmod>2021-12-03T13:35:25+01:00</lastmod>
-  </url><url>
-    <loc>https://unicef.github.io/inventory/meta/inventory/intern-guide/</loc>
-    <lastmod>2022-05-18T08:27:09-04:00</lastmod>
-  </url><url>
-    <loc>https://unicef.github.io/inventory/legal-policy/creative-commons/</loc>
-    <lastmod>2021-12-03T13:35:25+01:00</lastmod>
-  </url><url>
-    <loc>https://unicef.github.io/inventory/project-management/issue-templates/</loc>
-    <lastmod>2021-12-03T13:35:25+01:00</lastmod>
-  </url><url>
-    <loc>https://unicef.github.io/inventory/categories/legal/</loc>
-    <lastmod>2022-05-18T08:27:09-04:00</lastmod>
-  </url><url>
-    <loc>https://unicef.github.io/inventory/legal-policy/</loc>
-    <lastmod>2021-08-16T10:52:00-04:00</lastmod>
-  </url><url>
-    <loc>https://unicef.github.io/inventory/hardware/licensing/</loc>
-    <lastmod>2021-12-03T13:35:25+01:00</lastmod>
+    <loc>https://unicef.github.io/inventory/dpg-indicators/8/project-management/issue-templates/</loc>
+    <lastmod>2022-09-19T01:17:18+05:30</lastmod>
   </url><url>
     <loc>https://unicef.github.io/inventory/data/model-card/</loc>
     <lastmod>2022-06-21T21:33:34-04:00</lastmod>
   </url><url>
-    <loc>https://unicef.github.io/inventory/meta/inventory/maintainers-guide/</loc>
-    <lastmod>2022-05-18T08:27:09-04:00</lastmod>
+    <loc>https://unicef.github.io/inventory/meta/maintainers-guide/</loc>
+    <lastmod>2022-09-19T01:17:18+05:30</lastmod>
   </url><url>
-    <loc>https://unicef.github.io/inventory/meta/</loc>
-    <lastmod>2020-10-05T10:19:27-04:00</lastmod>
+    <loc>https://unicef.github.io/inventory/mentoring/modules/</loc>
+    <lastmod>2022-09-19T01:17:18+05:30</lastmod>
   </url><url>
-    <loc>https://unicef.github.io/inventory/categories/meta/</loc>
-    <lastmod>2022-05-18T08:27:09-04:00</lastmod>
-  </url><url>
-    <loc>https://unicef.github.io/inventory/missions/</loc>
-    <lastmod>2021-08-09T05:53:26-04:00</lastmod>
-  </url><url>
-    <loc>https://unicef.github.io/inventory/categories/missions/</loc>
-    <lastmod>2022-09-02T21:40:46+02:00</lastmod>
-  </url><url>
-    <loc>https://unicef.github.io/inventory/meta/mentorship/modules/</loc>
-    <lastmod>2022-05-18T08:27:09-04:00</lastmod>
-  </url><url>
-    <loc>https://unicef.github.io/inventory/meta/mentorship/needs-assessment-template/</loc>
-    <lastmod>2022-05-18T08:27:09-04:00</lastmod>
+    <loc>https://unicef.github.io/inventory/mentoring/needs-assessment-template/</loc>
+    <lastmod>2022-09-19T01:17:18+05:30</lastmod>
   </url><url>
     <loc>https://unicef.github.io/inventory/announcements/</loc>
     <lastmod>2022-05-18T08:27:09-04:00</lastmod>
   </url><url>
-    <loc>https://unicef.github.io/inventory/meta/mentorship/onboarding/</loc>
-    <lastmod>2022-05-18T08:27:09-04:00</lastmod>
+    <loc>https://unicef.github.io/inventory/mentoring/onboarding/</loc>
+    <lastmod>2022-09-19T01:17:18+05:30</lastmod>
   </url><url>
-    <loc>https://unicef.github.io/inventory/hardware/</loc>
-    <lastmod>2020-12-07T16:29:14-05:00</lastmod>
+    <loc>https://unicef.github.io/inventory/dpg-indicators/8/open-hardware/</loc>
+    <lastmod>2022-09-19T01:17:18+05:30</lastmod>
   </url><url>
-    <loc>https://unicef.github.io/inventory/hardware/reading-list/</loc>
-    <lastmod>2021-12-03T13:35:25+01:00</lastmod>
+    <loc>https://unicef.github.io/inventory/dpg-indicators/8/open-hardware/case-studies/</loc>
+    <lastmod>2022-09-19T01:17:18+05:30</lastmod>
   </url><url>
-    <loc>https://unicef.github.io/inventory/meta/inventory/</loc>
-    <lastmod>2022-01-06T18:54:52-05:00</lastmod>
+    <loc>https://unicef.github.io/inventory/dpg-indicators/8/open-hardware/documentation/</loc>
+    <lastmod>2022-09-19T01:17:18+05:30</lastmod>
   </url><url>
-    <loc>https://unicef.github.io/inventory/meta/mentorship/</loc>
-    <lastmod>2022-01-06T18:54:52-05:00</lastmod>
+    <loc>https://unicef.github.io/inventory/dpg-indicators/8/open-hardware/projects/</loc>
+    <lastmod>2022-09-19T01:17:18+05:30</lastmod>
   </url><url>
-    <loc>https://unicef.github.io/inventory/sustainability/approaches/</loc>
-    <lastmod>2021-12-03T13:35:25+01:00</lastmod>
+    <loc>https://unicef.github.io/inventory/dpg-indicators/8/open-hardware/licensing/</loc>
+    <lastmod>2022-09-19T01:17:18+05:30</lastmod>
+  </url><url>
+    <loc>https://unicef.github.io/inventory/dpg-indicators/8/open-hardware/reading-list/</loc>
+    <lastmod>2022-09-19T01:17:18+05:30</lastmod>
+  </url><url>
+    <loc>https://unicef.github.io/inventory/dpg-indicators/8/approaches/</loc>
+    <lastmod>2022-09-19T01:17:18+05:30</lastmod>
   </url><url>
     <loc>https://unicef.github.io/inventory/cohorts/others/</loc>
     <lastmod>2022-05-18T08:27:09-04:00</lastmod>
   </url><url>
-    <loc>https://unicef.github.io/inventory/project-management/reading-list/</loc>
-    <lastmod>2021-12-03T13:35:25+01:00</lastmod>
+    <loc>https://unicef.github.io/inventory/dpg-indicators/8/project-management/reading-list/</loc>
+    <lastmod>2022-09-19T01:17:18+05:30</lastmod>
   </url><url>
     <loc>https://unicef.github.io/inventory/data/policy-guidance-children/</loc>
     <lastmod>2022-06-21T21:33:34-04:00</lastmod>
   </url><url>
-    <loc>https://unicef.github.io/inventory/project-management/project-boards/</loc>
-    <lastmod>2021-12-03T13:35:25+01:00</lastmod>
+    <loc>https://unicef.github.io/inventory/dpg-indicators/8/project-management/project-boards/</loc>
+    <lastmod>2022-09-19T01:17:18+05:30</lastmod>
   </url><url>
-    <loc>https://unicef.github.io/inventory/hardware/projects/</loc>
-    <lastmod>2021-12-03T13:35:25+01:00</lastmod>
+    <loc>https://unicef.github.io/inventory/dpg-indicators/8/project-management/</loc>
+    <lastmod>2022-09-19T01:17:18+05:30</lastmod>
   </url><url>
-    <loc>https://unicef.github.io/inventory/project-management/</loc>
-    <lastmod>2021-08-09T05:53:26-04:00</lastmod>
+    <loc>https://unicef.github.io/inventory/dpg-indicators/8/communities/public-lab/</loc>
+    <lastmod>2022-09-19T01:17:18+05:30</lastmod>
   </url><url>
-    <loc>https://unicef.github.io/inventory/categories/project-management/</loc>
-    <lastmod>2021-12-03T13:35:25+01:00</lastmod>
+    <loc>https://unicef.github.io/inventory/dpg-indicators/2/reading-list/</loc>
+    <lastmod>2022-09-19T01:17:18+05:30</lastmod>
   </url><url>
-    <loc>https://unicef.github.io/inventory/communities/public-lab/</loc>
-    <lastmod>2022-05-18T08:27:09-04:00</lastmod>
+    <loc>https://unicef.github.io/inventory/dpg-indicators/8/reading-list-reproducibility/</loc>
+    <lastmod>2022-09-19T01:17:18+05:30</lastmod>
   </url><url>
-    <loc>https://unicef.github.io/inventory/documentation/reading-list/</loc>
-    <lastmod>2021-12-03T13:35:25+01:00</lastmod>
+    <loc>https://unicef.github.io/inventory/dpg-indicators/5/stakeholder-mapping/</loc>
+    <lastmod>2022-09-19T01:17:18+05:30</lastmod>
   </url><url>
-    <loc>https://unicef.github.io/inventory/governance/reading-list/</loc>
-    <lastmod>2021-12-03T13:35:25+01:00</lastmod>
+    <loc>https://unicef.github.io/inventory/mentoring/templates/</loc>
+    <lastmod>2022-09-19T01:17:18+05:30</lastmod>
   </url><url>
-    <loc>https://unicef.github.io/inventory/legal-policy/reading-list/</loc>
-    <lastmod>2021-12-03T13:35:25+01:00</lastmod>
+    <loc>https://unicef.github.io/inventory/dpg-indicators/5/text-editors/</loc>
+    <lastmod>2022-09-19T01:17:18+05:30</lastmod>
   </url><url>
-    <loc>https://unicef.github.io/inventory/reproducibility/</loc>
-    <lastmod>2021-08-10T17:43:46+01:00</lastmod>
+    <loc>https://unicef.github.io/inventory/dpg-indicators/5/frontier-tech-tips/</loc>
+    <lastmod>2022-09-19T01:17:18+05:30</lastmod>
   </url><url>
-    <loc>https://unicef.github.io/inventory/categories/reproducibility/</loc>
-    <lastmod>2021-12-03T13:35:25+01:00</lastmod>
+    <loc>https://unicef.github.io/inventory/categories/toolkits/</loc>
+    <lastmod>2022-09-19T01:17:18+05:30</lastmod>
   </url><url>
-    <loc>https://unicef.github.io/inventory/reproducibility/reading-list/</loc>
-    <lastmod>2021-12-03T13:35:25+01:00</lastmod>
-  </url><url>
-    <loc>https://unicef.github.io/inventory/documentation/stakeholder-mapping/</loc>
-    <lastmod>2022-03-15T12:43:59-04:00</lastmod>
-  </url><url>
-    <loc>https://unicef.github.io/inventory/sustainability/</loc>
-    <lastmod>2021-08-16T10:52:00-04:00</lastmod>
-  </url><url>
-    <loc>https://unicef.github.io/inventory/categories/sustainability/</loc>
-    <lastmod>2021-12-03T13:35:25+01:00</lastmod>
-  </url><url>
-    <loc>https://unicef.github.io/inventory/meta/mentorship/templates/</loc>
-    <lastmod>2021-12-03T13:35:25+01:00</lastmod>
-  </url><url>
-    <loc>https://unicef.github.io/inventory/documentation/text-editors/</loc>
-    <lastmod>2021-12-03T13:35:25+01:00</lastmod>
-  </url><url>
-    <loc>https://unicef.github.io/inventory/legal-policy/trademark/</loc>
-    <lastmod>2022-05-18T08:27:09-04:00</lastmod>
+    <loc>https://unicef.github.io/inventory/dpg-indicators/2/trademark/</loc>
+    <lastmod>2022-09-19T01:17:18+05:30</lastmod>
   </url><url>
     <loc>https://unicef.github.io/inventory/downloadbtn/true/</loc>
-    <lastmod>2022-09-02T21:40:46+02:00</lastmod>
+    <lastmod>2022-09-19T01:17:18+05:30</lastmod>
+  </url><url>
+    <loc>https://unicef.github.io/inventory/toolkits/data-science/</loc>
+    <lastmod>2022-09-19T01:17:18+05:30</lastmod>
+  </url><url>
+    <loc>https://unicef.github.io/inventory/toolkits/drones/</loc>
+    <lastmod>2022-09-19T01:17:18+05:30</lastmod>
+  </url><url>
+    <loc>https://unicef.github.io/inventory/toolkits/software-development/</loc>
+    <lastmod>2022-09-19T01:17:18+05:30</lastmod>
   </url><url>
     <loc>https://unicef.github.io/inventory/cohorts/vr-ar/</loc>
     <lastmod>2022-05-18T08:27:09-04:00</lastmod>
   </url><url>
-    <loc>https://unicef.github.io/inventory/meta/workflow-metrics/</loc>
-    <lastmod>2022-05-18T08:27:09-04:00</lastmod>
+    <loc>https://unicef.github.io/inventory/mentoring/workflow-metrics/</loc>
+    <lastmod>2022-09-19T01:17:18+05:30</lastmod>
   </url><url>
-    <loc>https://unicef.github.io/inventory/meta/mentorship/workplan-bridge-funding/</loc>
-    <lastmod>2022-05-18T08:27:09-04:00</lastmod>
+    <loc>https://unicef.github.io/inventory/mentoring/workplan-bridge-funding/</loc>
+    <lastmod>2022-09-19T01:17:18+05:30</lastmod>
   </url>
 </urlset>

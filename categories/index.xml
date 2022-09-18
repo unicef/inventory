@@ -18,15 +18,6 @@
     </item>
     
     <item>
-      <title>communities</title>
-      <link>https://unicef.github.io/inventory/categories/communities/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://unicef.github.io/inventory/categories/communities/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>data</title>
       <link>https://unicef.github.io/inventory/categories/data/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -36,92 +27,11 @@
     </item>
     
     <item>
-      <title>dev-tools</title>
-      <link>https://unicef.github.io/inventory/categories/dev-tools/</link>
+      <title>toolkits</title>
+      <link>https://unicef.github.io/inventory/categories/toolkits/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://unicef.github.io/inventory/categories/dev-tools/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>documentation</title>
-      <link>https://unicef.github.io/inventory/categories/documentation/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://unicef.github.io/inventory/categories/documentation/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>governance</title>
-      <link>https://unicef.github.io/inventory/categories/governance/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://unicef.github.io/inventory/categories/governance/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>hardware</title>
-      <link>https://unicef.github.io/inventory/categories/hardware/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://unicef.github.io/inventory/categories/hardware/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>legal</title>
-      <link>https://unicef.github.io/inventory/categories/legal/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://unicef.github.io/inventory/categories/legal/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>meta</title>
-      <link>https://unicef.github.io/inventory/categories/meta/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://unicef.github.io/inventory/categories/meta/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>missions</title>
-      <link>https://unicef.github.io/inventory/categories/missions/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://unicef.github.io/inventory/categories/missions/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>project-management</title>
-      <link>https://unicef.github.io/inventory/categories/project-management/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://unicef.github.io/inventory/categories/project-management/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>reproducibility</title>
-      <link>https://unicef.github.io/inventory/categories/reproducibility/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://unicef.github.io/inventory/categories/reproducibility/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>sustainability</title>
-      <link>https://unicef.github.io/inventory/categories/sustainability/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://unicef.github.io/inventory/categories/sustainability/</guid>
+      <guid>https://unicef.github.io/inventory/categories/toolkits/</guid>
       <description></description>
     </item>
     

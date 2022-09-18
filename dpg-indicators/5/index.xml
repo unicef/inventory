@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>5. Documentation on UNICEF O.S. Inventory</title>
+    <link>https://unicef.github.io/inventory/dpg-indicators/5/</link>
+    <description>Recent content in 5. Documentation on UNICEF O.S. Inventory</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Creative Commons BY-SA 4.0. Site theme maintained by UNICEF. Original theme, Dot, created by ThemeFisher.</copyright><atom:link href="https://unicef.github.io/inventory/dpg-indicators/5/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Documentation Hall of Fame</title>
+      <link>https://unicef.github.io/inventory/dpg-indicators/5/hall-of-fame/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unicef.github.io/inventory/dpg-indicators/5/hall-of-fame/</guid>
+      <description>Table of Contents 1. Aggregations 2. Developer documentation 3. Toolchain-specific examples 3.1. Golang Hugo 3.2. Python Sphinx     This page is a collection of good examples of Open Source documentation projects. The projects and examples listed here are not endorsements. It is a collection of good examples to inspire your own Open Source documentation!
+ 1. Aggregations The projects listed below aggregate several existing documentation projects:
+   Awesome Documentation: Community-curated resource with examples of great documentation in Open Source projects.</description>
+    </item>
+    
+    <item>
+      <title>Documentation reading list</title>
+      <link>https://unicef.github.io/inventory/dpg-indicators/5/reading-list/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unicef.github.io/inventory/dpg-indicators/5/reading-list/</guid>
+      <description>1. Basics   How to write effective documentation for your open source project: Documentation quality can make the difference in people trying your project or passing it by.
+  What is good documentation for software projects?: Mixing experienced tech writers with open source communities reveals new approaches for creating better docs.
+  Your step-by-step guide to more effective documentation - Lauri Apple (@LappleApple)
+   1.1. Español   Documenta tu proyecto con README.</description>
+    </item>
+    
+    <item>
+      <title>Stakeholder Mapping Exercise</title>
+      <link>https://unicef.github.io/inventory/dpg-indicators/5/stakeholder-mapping/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unicef.github.io/inventory/dpg-indicators/5/stakeholder-mapping/</guid>
+      <description>Table of Contents 1. Introduction 2. Exercise 3. Template 4. Examples   Map key stakeholders and their roles. Create documentation that maps open source works to key stakeholders and their method of participation in the community.
+ 1. Introduction Stakeholder mapping is the process of identifying and visualizing the stakeholders in your open source project. This visual map can help you understand the composition and roles of the community that influences and builds your project.</description>
+    </item>
+    
+    <item>
+      <title>Text editors</title>
+      <link>https://unicef.github.io/inventory/dpg-indicators/5/text-editors/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unicef.github.io/inventory/dpg-indicators/5/text-editors/</guid>
+      <description>This page is flagged for deletion. This article is not a good fit for this UNICEF Toolkit. It is proposed for future deletion from the UNICEF Open Source Inventory.
+  This page is focused on educational resources, not strictly comparisons of editors.
+ 1. Vim   Interactive Vim tutorial: An interactive tutorial with several sections of common Vim actions.
+  VimGolf: Various take-home challenges of various actions in Vim to be completed in as few keystrokes as possible.</description>
+    </item>
+    
+    <item>
+      <title>Tips for documenting frontier technology</title>
+      <link>https://unicef.github.io/inventory/dpg-indicators/5/frontier-tech-tips/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unicef.github.io/inventory/dpg-indicators/5/frontier-tech-tips/</guid>
+      <description>This is a summary of a talk, &amp;#34;Uncharted waters: Documenting emerging technology&amp;#34;. It was given at DevConf 2020 in Brno, Czech Republic by Andrew Burden.
+ 1. Video      2. Abstract  We can’t help but feel the lure towards the hot new thing, especially when it comes to technology. Part of that lure is the breaking of ground, venturing into the unknown, and working on solutions to new problems.</description>
+    </item>
+    
+  </channel>
+</rss>

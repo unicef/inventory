@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2. Use of Approved Open Licenses on UNICEF O.S. Inventory</title>
+    <link>https://unicef.github.io/inventory/dpg-indicators/2/</link>
+    <description>Recent content in 2. Use of Approved Open Licenses on UNICEF O.S. Inventory</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Creative Commons BY-SA 4.0. Site theme maintained by UNICEF. Original theme, Dot, created by ThemeFisher.</copyright><atom:link href="https://unicef.github.io/inventory/dpg-indicators/2/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GPLv2 vs. GPLv3</title>
+      <link>https://unicef.github.io/inventory/dpg-indicators/2/gpl-comparison/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unicef.github.io/inventory/dpg-indicators/2/gpl-comparison/</guid>
+      <description>Table of Contents 1. Why update? Stallman’s objection to Tivoization 1.1. Other opinions   2. Legal overview 2.1. Anti-Circumvention Law 2.2. User Product rules 2.3. Cure period and the GPL Cooperation Commitment 2.4. &amp;#34;Legalese&amp;#34;     The information shared on this page does not constitute legal or financial advice.
+ This page provides an interpretation of the key differences between v2 and v3 of the GNU Public License, or G.</description>
+    </item>
+    
+    <item>
+      <title>Intro to Creative Commons licenses</title>
+      <link>https://unicef.github.io/inventory/dpg-indicators/2/creative-commons/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unicef.github.io/inventory/dpg-indicators/2/creative-commons/</guid>
+      <description>Table of Contents 1. What are Creative Commons licenses? 2. Acceptable licenses for UNICEF Venture Fund 3. Free Cultural Works 3.1. Why does UNICEF prefer Free Culture licenses?   4. Resources   1. What are Creative Commons licenses? The Creative Commons licenses are a family of licenses meant for &amp;#34;open&amp;#34; content. The licenses are maintained by the Creative Commons, &amp;#34;a nonprofit organization that helps overcome legal obstacles to the sharing of knowledge and creativity to address the world’s pressing challenges.</description>
+    </item>
+    
+    <item>
+      <title>Reading List: Legal &amp; Business Aspects</title>
+      <link>https://unicef.github.io/inventory/dpg-indicators/2/reading-list/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unicef.github.io/inventory/dpg-indicators/2/reading-list/</guid>
+      <description>Table of Contents 1. Foundations 2. Choosing a license 2.1. Choosing permissive 2.2. Choosing copyleft   3. Examples 3.1. Software licenses 3.2. Content licenses 3.3. Data licenses     This reading list is a collection of resources on legal and business aspects of open source. Legal and business aspects of an open source project are part of the foundation for building your project and community. The resources linked here are intended to give you a better idea of open source from a legal perspective.</description>
+    </item>
+    
+    <item>
+      <title>Trademark strategies</title>
+      <link>https://unicef.github.io/inventory/dpg-indicators/2/trademark/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unicef.github.io/inventory/dpg-indicators/2/trademark/</guid>
+      <description>Table of Contents 1. What are trademarks? 2. Why trademarks matter in Open Source 2.1. Separating company and project trademarks: When to do it?   3. Case study: Business models &amp;amp; Moodle 4. Resources 4.1. Implementations &amp;amp; examples 4.2. Related readings 4.3. Templates &amp;amp; tools   5. Thanks   Launching an Open Source project has many considerations. Trademarks are one such consideration and are commonly misunderstood. However, trademarks are an important legal aspect of building a sustainable Open Source product and community.</description>
+    </item>
+    
+  </channel>
+</rss>

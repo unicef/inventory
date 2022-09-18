@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>3. Clear Ownership on UNICEF O.S. Inventory</title>
+    <link>https://unicef.github.io/inventory/dpg-indicators/3/</link>
+    <description>Recent content in 3. Clear Ownership on UNICEF O.S. Inventory</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Creative Commons BY-SA 4.0. Site theme maintained by UNICEF. Original theme, Dot, created by ThemeFisher.</copyright><atom:link href="https://unicef.github.io/inventory/dpg-indicators/3/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Charters</title>
+      <link>https://unicef.github.io/inventory/dpg-indicators/3/charters/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unicef.github.io/inventory/dpg-indicators/3/charters/</guid>
+      <description>Table of Contents 1. Launch checklist 1.1. Who? 1.2. What?   2. Preparing for take-off 2.1. Process 2.2. Platform   3. Take-off! Time to launch 3.1. Vision and mission 3.2. Community statement 3.3. Licensing approach 3.4. Code of Conduct 3.5. Trademark identification   4. Destination: Sustainable governance 4.1. Note on revisions   5. References 6. Thanks   This Mission is a guide to project charters. A project charter is important in an Open Source context because it acts as an anchor across the project’s lifetime and provides a framework for making decisions and prioritizing future development work.</description>
+    </item>
+    
+    <item>
+      <title>Contributor License Agreements (CLAs)</title>
+      <link>https://unicef.github.io/inventory/dpg-indicators/3/contributor-license-agreement-cla/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unicef.github.io/inventory/dpg-indicators/3/contributor-license-agreement-cla/</guid>
+      <description>Table of Contents 1. What are they for? 1.1. Criticism of CLAs   2. What alternatives exist? 2.1. Fedora Project Contributor Agreement (FPCA)   3. What do I need for my own CLA?   Originally authored by Mike Nolan, edited and maintained by Justin W. Flory.
+ This page introduces Contributor License Agreements (shortened C.L.As) in Open Source projects.
+ 1. What are they for? Contributor License Agreements (CLAs) are often used in Open Source projects to form a legal agreement between an individual or company and a project maintainer.</description>
+    </item>
+    
+    <item>
+      <title>Governance</title>
+      <link>https://unicef.github.io/inventory/dpg-indicators/3/governance/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unicef.github.io/inventory/dpg-indicators/3/governance/</guid>
+      <description>Table of Contents 1. What is Open Source governance? 2. Models 3. Examples 3.1. Linux kernel 3.2. Fedora Project   4. Resources 4.1. Exploratory 4.2. Journalism     This page defines and provides examples of Open Source governance. This includes Open Source project governance models, examples of other projects, frameworks for decision-making, and more.
+ 1. What is Open Source governance? The phrase &amp;#34;Open Source governance&amp;#34; generally refers to the decision-making model or documented process for how an Open Source project makes decisions.</description>
+    </item>
+    
+  </channel>
+</rss>

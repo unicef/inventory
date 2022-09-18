@@ -1,22 +1,52 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Meta on UNICEF O.S. Inventory</title>
+    <title>Site maintenance on UNICEF O.S. Inventory</title>
     <link>https://unicef.github.io/inventory/meta/</link>
-    <description>Recent content in Meta on UNICEF O.S. Inventory</description>
+    <description>Recent content in Site maintenance on UNICEF O.S. Inventory</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Creative Commons BY-SA 4.0. Site theme maintained by UNICEF. Original theme, Dot, created by ThemeFisher.</copyright><atom:link href="https://unicef.github.io/inventory/meta/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Workflow: Update external UNICEF metrics</title>
-      <link>https://unicef.github.io/inventory/meta/workflow-metrics/</link>
+      <title>How to create a new Inventory category</title>
+      <link>https://unicef.github.io/inventory/meta/create-new-category/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://unicef.github.io/inventory/meta/workflow-metrics/</guid>
-      <description>Open Source data and analytics are used across multiple tools and documents for talking about Venture Fund portfolio companies. When updating data sources in official UNICEF portals, follow this process for the quickest way of updating metrics.
-  Open data input source (e.g. Sharepoint doc, Google Doc shared with company, etc.)
-  Open Cauldron.io dashboard for company/project
-  Look at annual ranges first before doing quarterly ranges. Some metrics need to be collected manually for annual ranges:</description>
+      <guid>https://unicef.github.io/inventory/meta/create-new-category/</guid>
+      <description>Table of Contents 1. Steps 2. Template for new index pages 2.1. Choose an icon     This how-to article explains how to create a new category in the Open Source Inventory.
+ 1. Steps  Create a new folder in the content/ directory.
+  Create a _index.en.adoc page in the new directory (see template).
+  Add the category to config.yml as a child to [[menu.main]]. See other categories in the config as an example.</description>
+    </item>
+    
+    <item>
+      <title>How to create a new Inventory Mission</title>
+      <link>https://unicef.github.io/inventory/meta/create-new-mission/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unicef.github.io/inventory/meta/create-new-mission/</guid>
+      <description>Table of Contents 1. Steps 2. Front-matter data values   This how-to article explains how to create a new Mission in the Open Source Inventory.
+ 1. Steps  Copy the Mission template as a new file using the file committed at content/meta/_template.en.adoc.
+  Edit the template front-matter to include a weight, description, tags, and categories (see descriptions below).
+  Edit the content using the questions in the template as structural guidelines.</description>
+    </item>
+    
+    <item>
+      <title>Intern&#39;s guide for O.S. Inventory</title>
+      <link>https://unicef.github.io/inventory/meta/intern-guide/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unicef.github.io/inventory/meta/intern-guide/</guid>
+      <description>Table of Contents 1. Introducing Hugo 2. Introducing the UNICEF Inventory 3. Dev tips and tricks 4. Working with the team 5. What I wish I knew earlier   This document is an on-boarding guide for interns working on the UNICEF Open Source Inventory. It is written and maintained by interns who worked or are working on the project. Please help keep this guide up-to-date by documenting your own experiences and adding your name as an author!</description>
+    </item>
+    
+    <item>
+      <title>Maintainer&#39;s guide for O.S. Inventory</title>
+      <link>https://unicef.github.io/inventory/meta/maintainers-guide/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://unicef.github.io/inventory/meta/maintainers-guide/</guid>
+      <description>Table of Contents 1. Contribution conventions 1.1. Label conventions 1.2. Commit message conventions 1.3. How to update git submodule as a maintainer 1.4. How development decisions are prioritized   2. Common resources and cheat sheets 2.1. AsciiDoc syntax cheat sheet 2.2. Hugo documentation 2.3. CI pipeline (diagram)     This document is a maintainer’s guide for the UNICEF Open Source Inventory. Yes, this very site! This guide covers key information and helpful resources, as well as best practices when maintaining the O.</description>
     </item>
     
   </channel>

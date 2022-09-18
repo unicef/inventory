@@ -1,0 +1,1357 @@
+<!DOCTYPE html>
+<html lang="en-us">
+	<head>
+		<meta charset="utf-8">
+		<title>Reproducibility reading list</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<meta name="generator" content="Hugo 0.96.0" />
+		<meta name="description" content="Reproducibility reading list - UNICEF O.S. Inventory ">
+		<!-- ** CSS Plugins Needed for the Project ** -->
+		<!-- Bootstrap -->
+		<link rel="stylesheet" href="https://unicef.github.io/inventory/plugins/bootstrap/bootstrap.min.css">
+		<!-- themefy-icon -->
+		<link rel="stylesheet" href="https://unicef.github.io/inventory/plugins/themify-icons/themify-icons.css">
+		<!-- drones-categories-icon -->
+		<link rel="stylesheet" href="https://unicef.github.io/inventory/plugins/drone-dpgtoolkit-icons/icons.css">
+		<!--Favicon-->
+		<link rel="icon" href="https://unicef.github.io/inventory/images/favicon.png" type="image/x-icon">
+		<!-- fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Open%2bSans:300,400,700&display=swap" rel="stylesheet">
+		<!-- PDF.js -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.9.359/pdf.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.3/html2pdf.bundle.js"></script>
+		<!-- fonts -->
+		<script src="https://kit.fontawesome.com/9196e0632a.js" crossorigin="anonymous"></script>
+		<style>
+			:root{
+			  --primary-color:#1CABE2;
+			  --primary-color-light:#1b66b1;
+			  --body-color:#f2f4f6;
+			  --text-color:#636363;
+			  --text-color-dark:#374ea2;
+			  --text-title-color:#ffffff;
+			  --white-color:#ffffff;
+			  --light-color:#f8f9fa;
+			  --font-family:Open+Sans;
+			}
+		</style>
+		<!-- Main Stylesheet -->
+		<link href="https://unicef.github.io/inventory/css/style.min.css" rel="stylesheet" media="screen"/>
+		<!-- ** JS Plugins Needed for the Project ** -->
+		<!-- jquiry -->
+		<script src="https://unicef.github.io/inventory/plugins/jquery/jquery-1.12.4.js"></script>
+		<!-- jquary ui -->
+		<script src="https://unicef.github.io/inventory/plugins/jquery/jquery-ui.js"></script>
+		<!-- Bootstrap JS -->
+		<script src="https://unicef.github.io/inventory/plugins/bootstrap/bootstrap.min.js"></script>
+		<!-- PopperJS -->
+		<script src="https://unpkg.com/@popperjs/core@2"></script>
+		<!-- match-height JS -->
+		<script src="https://unicef.github.io/inventory/plugins/match-height/jquery.matchHeight-min.js"></script>
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-80FMX4TPM0"></script>
+		<script>
+			var doNotTrack = false;
+			if (!doNotTrack) {
+				window.dataLayer = window.dataLayer || [];
+				function gtag(){dataLayer.push(arguments);}
+				gtag('js', new Date());
+				gtag('config', 'G-80FMX4TPM0', { 'anonymize_ip': false });
+			}
+		</script>
+		<!-- create /layouts/partials/overrides/header.html in your own theme or root directory to add your custom content here -->
+		<meta property="og:image" content="https://unicef.github.io/inventory/images/UNI309823.jpg" />
+		<meta name="twitter:image" content="https://unicef.github.io/inventory/images/UNI309823.jpg"/>
+		<meta name="twitter:card" content="summary_large_image">
+		<meta property="og:image:width" content="1440">
+		<meta property="og:image:height" content="960">
+		<meta property="og:image:type" content="image/jpeg">
+		<meta name="twitter:title" content="Reproducibility reading list"/>
+		<meta name="twitter:description" content="Various readings and learnings about reproducibility in an Open Source context."/>
+		<meta property="og:title" content="Reproducibility reading list" />
+		<meta property="og:description" content="Various readings and learnings about reproducibility in an Open Source context." />
+		<meta property="og:type" content="article" />
+		<meta property="og:url" content="https://unicef.github.io/inventory/dpg-indicators/8/reading-list-reproducibility/" /><meta property="article:section" content="dpg-indicators" />
+		<meta property="article:modified_time" content="2022-09-19T01:17:18+05:30" />
+		<meta name="twitter:card" content="summary"/>
+		<meta name="twitter:title" content="Reproducibility reading list"/>
+		<meta name="twitter:description" content="Various readings and learnings about reproducibility in an Open Source context."/>
+	</head>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<body>
+		<!-- header -->
+		<header class="shadow-bottom sticky-top bg-white">
+			<nav class="navbar navbar-expand-md navbar-dark d-flex flex-column p-0" style=" background-color: #1CABE2">
+				<div class="w-100 container mx-0 navigation-bar">
+					<div id="site-brand">
+						<div class="navbar-brand">
+							<img class="img-fluid d-inline globalLogoImg"
+          src="https://unicef.github.io/inventory/images/unicef-logo.png"
+          alt="UNICEF O.S. Inventory">
+							<a class="text-center text-white d-block px-1" href="/inventory">UNICEF O.S. Inventory</a>
+						</div>
+					</div>
+					<a class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation"
+      aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="sidebarIcon navbarMenu">Menu<i class="fa-solid fa-caret-down d-inline p-1"></i>
+						</span>
+					</a>
+					<div class="collapse navbar-collapse text-center" id="navigation">
+						<ul class="navbar-nav ml-auto">
+							<li class="nav-item">
+								<a class="nav-link text-white" href="https://unicef.github.io/inventory/faq">FAQ</a>
+							</li>
+							<li class="nav-item dropdown">
+								<a class="nav-link dropdown-toggle text-white" href="#" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+									DPG indicators
+								</a>
+								<div class="dropdown-menu">
+									<a class="dropdown-item" href="https://unicef.github.io/inventory/dpg-indicators/1/">1. Sustainable Development Goals</a>
+									<a class="dropdown-item" href="https://unicef.github.io/inventory/dpg-indicators/2/">2. Use of Approved Open Licenses</a>
+									<a class="dropdown-item" href="https://unicef.github.io/inventory/dpg-indicators/3/">3. Clear Ownership</a>
+									<a class="dropdown-item" href="https://unicef.github.io/inventory/dpg-indicators/4/">4. Platform Independence</a>
+									<a class="dropdown-item" href="https://unicef.github.io/inventory/dpg-indicators/5/">5. Documentation</a>
+									<a class="dropdown-item" href="https://unicef.github.io/inventory/dpg-indicators/6/">6. Data extraction</a>
+									<a class="dropdown-item" href="https://unicef.github.io/inventory/dpg-indicators/7/">7. Adherence to Privacy and Applicable Laws</a>
+									<a class="dropdown-item" href="https://unicef.github.io/inventory/dpg-indicators/8/">8. Adherence to Standards and Best Practices</a>
+									<a class="dropdown-item" href="https://unicef.github.io/inventory/dpg-indicators/9/">9. Do No Harm by Design</a>
+								</div>
+							</li>
+							<li class="nav-item dropdown">
+								<a class="nav-link dropdown-toggle text-white" href="#" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+									cohorts
+								</a>
+								<div class="dropdown-menu">
+									<a class="dropdown-item" href="https://unicef.github.io/inventory/cohorts">All</a>
+									<a class="dropdown-item" href="https://unicef.github.io/inventory/cohorts/blockchain">Blockchain</a>
+									<a class="dropdown-item" href="https://unicef.github.io/inventory/cohorts/ds-ai">Data Science &amp; AI</a>
+									<a class="dropdown-item" href="https://unicef.github.io/inventory/cohorts/drones">Drones</a>
+									<a class="dropdown-item" href="https://unicef.github.io/inventory/cohorts/vr-ar">VR &#43; AR</a>
+									<a class="dropdown-item" href="https://unicef.github.io/inventory/cohorts/others">Others</a>
+								</div>
+							</li>
+						</ul>
+						<select class="lang-list bg-primary mb-3 mb-md-0" id="select-language"
+        onchange="location = this.value;">
+							<option id="en" value="https://unicef.github.io/inventory/dpg-indicators/8/reading-list-reproducibility/" selected>en
+							</option>
+						</select>
+						<p class="text-white unicef-glob ml-4 mt-3">Visit <a href="https://www.unicef.org/" class="text-white">UNICEF Global <i
+        class="fas fa-angle-double-right"></i></a></p>
+					</div>
+				</div>
+				<div class="w-100 py-2 breadcrumbBar text-light" style=" background-color: #374ea2">
+					<div class="container">
+						<div class="breadcrumbs">
+							<a href="https://unicef.github.io/inventory/">Home</a>
+							&gt; <a href="https://unicef.github.io/inventory/dpg-indicators" class="breadcrumbLink">dpg-indicators</a>
+							&gt; <a href="https://unicef.github.io/inventory/dpg-indicators/8" class="breadcrumbLink">8</a>
+							&gt; <a href="https://unicef.github.io/inventory/dpg-indicators/8/reading-list-reproducibility" class="breadcrumbLink">reading-list-reproducibility</a>
+						</div>
+						<a data-toggle="collapse" data-target="#sidebarMobile"  aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation"> <i class="ti-menu text-light sidebarIcon"></i></a>
+						<div class="text-light text-center sidebarMobile collapse justify-content-center" id="sidebarMobile">
+							<div class="sidebarBox">
+								<ul>
+									<li data-nav-id="https://unicef.github.io/inventory/dpg-indicators/" title="DPG Standard indicators" class="sidelist
+  ">
+										<a href="/inventory" class="d-inline  back-btn">
+											<i class="ti-back-right"></i>
+										</a>
+										<a href="https://unicef.github.io/inventory/dpg-indicators/" class="font-weight-bold d-inline">
+											DPG Standard indicators
+										</a>
+										<div class="accordion" id="accordionExample">
+											<ul>
+												<li data-nav-id="https://unicef.github.io/inventory/dpg-indicators/1/" title="1. Relevance to Sustainable Development Goals" class="sidelist
+  ">
+													<div class="container">
+														<div class="row">
+															<div class="col-10">
+																<a href="https://unicef.github.io/inventory/dpg-indicators/1/" class="">
+																	1. Relevance to Sustainable Development Goals
+																</a>
+															</div>
+														</div>
+													</li>
+													<li data-nav-id="https://unicef.github.io/inventory/dpg-indicators/2/" title="2. Use of Approved Open Licenses" class="sidelist
+  ">
+														<div class="container">
+															<div class="row">
+																<div class="col-10">
+																	<a href="https://unicef.github.io/inventory/dpg-indicators/2/" class="">
+																		2. Use of Approved Open Licenses
+																	</a>
+																</div>
+																<div class="col-2 ">
+																	<i class="fas fa-chevron-down align-middle" type="button" data-toggle="collapse" data-target="#collapsec091a95acfd9ff238a453499ec1cf406" aria-expanded="false" aria-controls='collapsec091a95acfd9ff238a453499ec1cf406'>
+																	</i>
+																</div>
+															</div>
+															<div id='collapsec091a95acfd9ff238a453499ec1cf406' class="collapse" aria-labelledby="headingc091a95acfd9ff238a453499ec1cf406" data-parent="#accordionExample">
+																<div class="sidebar-scroll">
+																	<ul>
+																		<li data-nav-id="https://unicef.github.io/inventory/dpg-indicators/2/gpl-comparison/" title="GPLv2 vs. GPLv3" class="sidelist
+  ">
+																			<div class="container">
+																				<div class="row">
+																					<div class="col-10">
+																						<a href="https://unicef.github.io/inventory/dpg-indicators/2/gpl-comparison/" class="">
+																							GPLv2 vs. GPLv3
+																						</a>
+																					</div>
+																				</div>
+																			</li>
+																			<li data-nav-id="https://unicef.github.io/inventory/dpg-indicators/2/creative-commons/" title="Intro to Creative Commons licenses" class="sidelist
+  ">
+																				<div class="container">
+																					<div class="row">
+																						<div class="col-10">
+																							<a href="https://unicef.github.io/inventory/dpg-indicators/2/creative-commons/" class="">
+																								Intro to Creative Commons licenses
+																							</a>
+																						</div>
+																					</div>
+																				</li>
+																				<li data-nav-id="https://unicef.github.io/inventory/dpg-indicators/2/reading-list/" title="Reading List: Legal &amp; Business Aspects" class="sidelist
+  ">
+																					<div class="container">
+																						<div class="row">
+																							<div class="col-10">
+																								<a href="https://unicef.github.io/inventory/dpg-indicators/2/reading-list/" class="">
+																									Reading List: Legal &amp; Business Aspects
+																								</a>
+																							</div>
+																						</div>
+																					</li>
+																					<li data-nav-id="https://unicef.github.io/inventory/dpg-indicators/2/trademark/" title="Trademark strategies" class="sidelist
+  ">
+																						<div class="container">
+																							<div class="row">
+																								<div class="col-10">
+																									<a href="https://unicef.github.io/inventory/dpg-indicators/2/trademark/" class="">
+																										Trademark strategies
+																									</a>
+																								</div>
+																							</div>
+																						</li>
+																					</ul>
+																				</div>
+																			</div>
+																		</li>
+																		<li data-nav-id="https://unicef.github.io/inventory/dpg-indicators/3/" title="3. Clear Ownership" class="sidelist
+  ">
+																			<div class="container">
+																				<div class="row">
+																					<div class="col-10">
+																						<a href="https://unicef.github.io/inventory/dpg-indicators/3/" class="">
+																							3. Clear Ownership
+																						</a>
+																					</div>
+																					<div class="col-2 ">
+																						<i class="fas fa-chevron-down align-middle" type="button" data-toggle="collapse" data-target="#collapse4a49caf4f90e5f9c2813cc06f39ad159" aria-expanded="false" aria-controls='collapse4a49caf4f90e5f9c2813cc06f39ad159'>
+																						</i>
+																					</div>
+																				</div>
+																				<div id='collapse4a49caf4f90e5f9c2813cc06f39ad159' class="collapse" aria-labelledby="heading4a49caf4f90e5f9c2813cc06f39ad159" data-parent="#accordionExample">
+																					<div class="sidebar-scroll">
+																						<ul>
+																							<li data-nav-id="https://unicef.github.io/inventory/dpg-indicators/3/charters/" title="Charters" class="sidelist
+  ">
+																								<div class="container">
+																									<div class="row">
+																										<div class="col-10">
+																											<a href="https://unicef.github.io/inventory/dpg-indicators/3/charters/" class="">
+																												Charters
+																											</a>
+																										</div>
+																									</div>
+																								</li>
+																								<li data-nav-id="https://unicef.github.io/inventory/dpg-indicators/3/contributor-license-agreement-cla/" title="Contributor License Agreements (CLAs)" class="sidelist
+  ">
+																									<div class="container">
+																										<div class="row">
+																											<div class="col-10">
+																												<a href="https://unicef.github.io/inventory/dpg-indicators/3/contributor-license-agreement-cla/" class="">
+																													Contributor License Agreements (CLAs)
+																												</a>
+																											</div>
+																										</div>
+																									</li>
+																									<li data-nav-id="https://unicef.github.io/inventory/dpg-indicators/3/governance/" title="Governance" class="sidelist
+  ">
+																										<div class="container">
+																											<div class="row">
+																												<div class="col-10">
+																													<a href="https://unicef.github.io/inventory/dpg-indicators/3/governance/" class="">
+																														Governance
+																													</a>
+																												</div>
+																											</div>
+																										</li>
+																									</ul>
+																								</div>
+																							</div>
+																						</li>
+																						<li data-nav-id="https://unicef.github.io/inventory/dpg-indicators/4/" title="4. Platform Independence" class="sidelist
+  ">
+																							<div class="container">
+																								<div class="row">
+																									<div class="col-10">
+																										<a href="https://unicef.github.io/inventory/dpg-indicators/4/" class="">
+																											4. Platform Independence
+																										</a>
+																									</div>
+																								</div>
+																							</li>
+																							<li data-nav-id="https://unicef.github.io/inventory/dpg-indicators/5/" title="5. Documentation" class="sidelist
+  ">
+																								<div class="container">
+																									<div class="row">
+																										<div class="col-10">
+																											<a href="https://unicef.github.io/inventory/dpg-indicators/5/" class="">
+																												5. Documentation
+																											</a>
+																										</div>
+																										<div class="col-2 ">
+																											<i class="fas fa-chevron-down align-middle" type="button" data-toggle="collapse" data-target="#collapsef5a0a93d5c19a903fcfc84c6942e91f4" aria-expanded="false" aria-controls='collapsef5a0a93d5c19a903fcfc84c6942e91f4'>
+																											</i>
+																										</div>
+																									</div>
+																									<div id='collapsef5a0a93d5c19a903fcfc84c6942e91f4' class="collapse" aria-labelledby="headingf5a0a93d5c19a903fcfc84c6942e91f4" data-parent="#accordionExample">
+																										<div class="sidebar-scroll">
+																											<ul>
+																												<li data-nav-id="https://unicef.github.io/inventory/dpg-indicators/5/hall-of-fame/" title="Documentation Hall of Fame" class="sidelist
+  ">
+																													<div class="container">
+																														<div class="row">
+																															<div class="col-10">
+																																<a href="https://unicef.github.io/inventory/dpg-indicators/5/hall-of-fame/" class="">
+																																	Documentation Hall of Fame
+																																</a>
+																															</div>
+																														</div>
+																													</li>
+																													<li data-nav-id="https://unicef.github.io/inventory/dpg-indicators/5/reading-list/" title="Documentation reading list" class="sidelist
+  ">
+																														<div class="container">
+																															<div class="row">
+																																<div class="col-10">
+																																	<a href="https://unicef.github.io/inventory/dpg-indicators/5/reading-list/" class="">
+																																		Documentation reading list
+																																	</a>
+																																</div>
+																															</div>
+																														</li>
+																														<li data-nav-id="https://unicef.github.io/inventory/dpg-indicators/5/stakeholder-mapping/" title="Stakeholder Mapping Exercise" class="sidelist
+  ">
+																															<div class="container">
+																																<div class="row">
+																																	<div class="col-10">
+																																		<a href="https://unicef.github.io/inventory/dpg-indicators/5/stakeholder-mapping/" class="">
+																																			Stakeholder Mapping Exercise
+																																		</a>
+																																	</div>
+																																</div>
+																															</li>
+																															<li data-nav-id="https://unicef.github.io/inventory/dpg-indicators/5/text-editors/" title="Text editors" class="sidelist
+  ">
+																																<div class="container">
+																																	<div class="row">
+																																		<div class="col-10">
+																																			<a href="https://unicef.github.io/inventory/dpg-indicators/5/text-editors/" class="">
+																																				Text editors
+																																			</a>
+																																		</div>
+																																	</div>
+																																</li>
+																																<li data-nav-id="https://unicef.github.io/inventory/dpg-indicators/5/frontier-tech-tips/" title="Tips for documenting frontier technology" class="sidelist
+  ">
+																																	<div class="container">
+																																		<div class="row">
+																																			<div class="col-10">
+																																				<a href="https://unicef.github.io/inventory/dpg-indicators/5/frontier-tech-tips/" class="">
+																																					Tips for documenting frontier technology
+																																				</a>
+																																			</div>
+																																		</div>
+																																	</li>
+																																</ul>
+																															</div>
+																														</div>
+																													</li>
+																													<li data-nav-id="https://unicef.github.io/inventory/dpg-indicators/6/" title="6. Mechanism for Extracting Data" class="sidelist
+  ">
+																														<div class="container">
+																															<div class="row">
+																																<div class="col-10">
+																																	<a href="https://unicef.github.io/inventory/dpg-indicators/6/" class="">
+																																		6. Mechanism for Extracting Data
+																																	</a>
+																																</div>
+																															</div>
+																														</li>
+																														<li data-nav-id="https://unicef.github.io/inventory/dpg-indicators/7/" title="7. Adherence to Privacy and Applicable Laws" class="sidelist
+  ">
+																															<div class="container">
+																																<div class="row">
+																																	<div class="col-10">
+																																		<a href="https://unicef.github.io/inventory/dpg-indicators/7/" class="">
+																																			7. Adherence to Privacy and Applicable Laws
+																																		</a>
+																																	</div>
+																																</div>
+																															</li>
+																															<li data-nav-id="https://unicef.github.io/inventory/dpg-indicators/8/" title="8. Adherence to Standards &amp; Best Practices" class="sidelist
+  ">
+																																<div class="container">
+																																	<div class="row">
+																																		<div class="col-10">
+																																			<a href="https://unicef.github.io/inventory/dpg-indicators/8/" class="">
+																																				8. Adherence to Standards &amp; Best Practices
+																																			</a>
+																																		</div>
+																																		<div class="col-2 ">
+																																			<i class="fas fa-chevron-down align-middle" type="button" data-toggle="collapse" data-target="#collapse5394c01dea341f9a0cfc89af95cf6942" aria-expanded="false" aria-controls='collapse5394c01dea341f9a0cfc89af95cf6942'>
+																																			</i>
+																																		</div>
+																																	</div>
+																																	<div id='collapse5394c01dea341f9a0cfc89af95cf6942' class="collapse" aria-labelledby="heading5394c01dea341f9a0cfc89af95cf6942" data-parent="#accordionExample">
+																																		<div class="sidebar-scroll">
+																																			<ul>
+																																				<li data-nav-id="https://unicef.github.io/inventory/dpg-indicators/8/communities/" title="Communities" class="sidelist
+  ">
+																																					<div class="container">
+																																						<div class="row">
+																																							<div class="col-10">
+																																								<a href="https://unicef.github.io/inventory/dpg-indicators/8/communities/" class="">
+																																									Communities
+																																								</a>
+																																							</div>
+																																							<div class="col-2 ">
+																																								<i class="fas fa-chevron-down align-middle" type="button" data-toggle="collapse" data-target="#collapse49c3501a9f92f6a94c09a1cec54f8d3f" aria-expanded="false" aria-controls='collapse49c3501a9f92f6a94c09a1cec54f8d3f'>
+																																								</i>
+																																							</div>
+																																						</div>
+																																						<div id='collapse49c3501a9f92f6a94c09a1cec54f8d3f' class="collapse" aria-labelledby="heading49c3501a9f92f6a94c09a1cec54f8d3f" data-parent="#accordionExample">
+																																							<div class="sidebar-scroll">
+																																								<ul>
+																																									<li data-nav-id="https://unicef.github.io/inventory/dpg-indicators/8/communities/fedora/" title="Fedora Project" class="sidelist
+  ">
+																																										<div class="container">
+																																											<div class="row">
+																																												<div class="col-10">
+																																													<a href="https://unicef.github.io/inventory/dpg-indicators/8/communities/fedora/" class="">
+																																														Fedora Project
+																																													</a>
+																																												</div>
+																																											</div>
+																																										</li>
+																																										<li data-nav-id="https://unicef.github.io/inventory/dpg-indicators/8/communities/public-lab/" title="Public Lab" class="sidelist
+  ">
+																																											<div class="container">
+																																												<div class="row">
+																																													<div class="col-10">
+																																														<a href="https://unicef.github.io/inventory/dpg-indicators/8/communities/public-lab/" class="">
+																																															Public Lab
+																																														</a>
+																																													</div>
+																																												</div>
+																																											</li>
+																																										</ul>
+																																									</div>
+																																								</div>
+																																							</li>
+																																							<li data-nav-id="https://unicef.github.io/inventory/dpg-indicators/8/continuous-integration/" title="Continuous Integration (C.I.)" class="sidelist
+  ">
+																																								<div class="container">
+																																									<div class="row">
+																																										<div class="col-10">
+																																											<a href="https://unicef.github.io/inventory/dpg-indicators/8/continuous-integration/" class="">
+																																												Continuous Integration (C.I.)
+																																											</a>
+																																										</div>
+																																									</div>
+																																								</li>
+																																								<li data-nav-id="https://unicef.github.io/inventory/dpg-indicators/8/reading-list-foss/" title="Free &amp; Open Source reading list" class="sidelist
+  ">
+																																									<div class="container">
+																																										<div class="row">
+																																											<div class="col-10">
+																																												<a href="https://unicef.github.io/inventory/dpg-indicators/8/reading-list-foss/" class="">
+																																													Free &amp; Open Source reading list
+																																												</a>
+																																											</div>
+																																										</div>
+																																									</li>
+																																									<li data-nav-id="https://unicef.github.io/inventory/dpg-indicators/8/good-first-issue/" title="Good first issues" class="sidelist
+  ">
+																																										<div class="container">
+																																											<div class="row">
+																																												<div class="col-10">
+																																													<a href="https://unicef.github.io/inventory/dpg-indicators/8/good-first-issue/" class="">
+																																														Good first issues
+																																													</a>
+																																												</div>
+																																											</div>
+																																										</li>
+																																										<li data-nav-id="https://unicef.github.io/inventory/dpg-indicators/8/open-hardware/" title="Open Hardware" class="sidelist
+  ">
+																																											<div class="container">
+																																												<div class="row">
+																																													<div class="col-10">
+																																														<a href="https://unicef.github.io/inventory/dpg-indicators/8/open-hardware/" class="">
+																																															Open Hardware
+																																														</a>
+																																													</div>
+																																													<div class="col-2 ">
+																																														<i class="fas fa-chevron-down align-middle" type="button" data-toggle="collapse" data-target="#collapse0c04ca68c1299f5fcd35f4e3af49a919" aria-expanded="false" aria-controls='collapse0c04ca68c1299f5fcd35f4e3af49a919'>
+																																														</i>
+																																													</div>
+																																												</div>
+																																												<div id='collapse0c04ca68c1299f5fcd35f4e3af49a919' class="collapse" aria-labelledby="heading0c04ca68c1299f5fcd35f4e3af49a919" data-parent="#accordionExample">
+																																													<div class="sidebar-scroll">
+																																														<ul>
+																																															<li data-nav-id="https://unicef.github.io/inventory/dpg-indicators/8/open-hardware/intro/" title="Introduction to Open Source Hardware" class="sidelist
+  ">
+																																																<div class="container">
+																																																	<div class="row">
+																																																		<div class="col-10">
+																																																			<a href="https://unicef.github.io/inventory/dpg-indicators/8/open-hardware/intro/" class="">
+																																																				Introduction to Open Source Hardware
+																																																			</a>
+																																																		</div>
+																																																	</div>
+																																																</li>
+																																																<li data-nav-id="https://unicef.github.io/inventory/dpg-indicators/8/open-hardware/case-studies/" title="Open Hardware case studies" class="sidelist
+  ">
+																																																	<div class="container">
+																																																		<div class="row">
+																																																			<div class="col-10">
+																																																				<a href="https://unicef.github.io/inventory/dpg-indicators/8/open-hardware/case-studies/" class="">
+																																																					Open Hardware case studies
+																																																				</a>
+																																																			</div>
+																																																		</div>
+																																																	</li>
+																																																	<li data-nav-id="https://unicef.github.io/inventory/dpg-indicators/8/open-hardware/documentation/" title="Open Hardware documentation" class="sidelist
+  ">
+																																																		<div class="container">
+																																																			<div class="row">
+																																																				<div class="col-10">
+																																																					<a href="https://unicef.github.io/inventory/dpg-indicators/8/open-hardware/documentation/" class="">
+																																																						Open Hardware documentation
+																																																					</a>
+																																																				</div>
+																																																			</div>
+																																																		</li>
+																																																		<li data-nav-id="https://unicef.github.io/inventory/dpg-indicators/8/open-hardware/projects/" title="Open Hardware Hall of Fame" class="sidelist
+  ">
+																																																			<div class="container">
+																																																				<div class="row">
+																																																					<div class="col-10">
+																																																						<a href="https://unicef.github.io/inventory/dpg-indicators/8/open-hardware/projects/" class="">
+																																																							Open Hardware Hall of Fame
+																																																						</a>
+																																																					</div>
+																																																				</div>
+																																																			</li>
+																																																			<li data-nav-id="https://unicef.github.io/inventory/dpg-indicators/8/open-hardware/licensing/" title="Open Hardware licensing" class="sidelist
+  ">
+																																																				<div class="container">
+																																																					<div class="row">
+																																																						<div class="col-10">
+																																																							<a href="https://unicef.github.io/inventory/dpg-indicators/8/open-hardware/licensing/" class="">
+																																																								Open Hardware licensing
+																																																							</a>
+																																																						</div>
+																																																					</div>
+																																																				</li>
+																																																				<li data-nav-id="https://unicef.github.io/inventory/dpg-indicators/8/open-hardware/reading-list/" title="Open Hardware reading list" class="sidelist
+  ">
+																																																					<div class="container">
+																																																						<div class="row">
+																																																							<div class="col-10">
+																																																								<a href="https://unicef.github.io/inventory/dpg-indicators/8/open-hardware/reading-list/" class="">
+																																																									Open Hardware reading list
+																																																								</a>
+																																																							</div>
+																																																						</div>
+																																																					</li>
+																																																				</ul>
+																																																			</div>
+																																																		</div>
+																																																	</li>
+																																																	<li data-nav-id="https://unicef.github.io/inventory/dpg-indicators/8/approaches/" title="Open-first business approaches" class="sidelist
+  ">
+																																																		<div class="container">
+																																																			<div class="row">
+																																																				<div class="col-10">
+																																																					<a href="https://unicef.github.io/inventory/dpg-indicators/8/approaches/" class="">
+																																																						Open-first business approaches
+																																																					</a>
+																																																				</div>
+																																																			</div>
+																																																		</li>
+																																																		<li data-nav-id="https://unicef.github.io/inventory/dpg-indicators/8/project-management/" title="Project Management" class="sidelist
+  ">
+																																																			<div class="container">
+																																																				<div class="row">
+																																																					<div class="col-10">
+																																																						<a href="https://unicef.github.io/inventory/dpg-indicators/8/project-management/" class="">
+																																																							Project Management
+																																																						</a>
+																																																					</div>
+																																																					<div class="col-2 ">
+																																																						<i class="fas fa-chevron-down align-middle" type="button" data-toggle="collapse" data-target="#collapse9c0a9445f4cced99693fc8f35af2a110" aria-expanded="false" aria-controls='collapse9c0a9445f4cced99693fc8f35af2a110'>
+																																																						</i>
+																																																					</div>
+																																																				</div>
+																																																				<div id='collapse9c0a9445f4cced99693fc8f35af2a110' class="collapse" aria-labelledby="heading9c0a9445f4cced99693fc8f35af2a110" data-parent="#accordionExample">
+																																																					<div class="sidebar-scroll">
+																																																						<ul>
+																																																							<li data-nav-id="https://unicef.github.io/inventory/dpg-indicators/8/project-management/issue-templates/" title="Issue templates" class="sidelist
+  ">
+																																																								<div class="container">
+																																																									<div class="row">
+																																																										<div class="col-10">
+																																																											<a href="https://unicef.github.io/inventory/dpg-indicators/8/project-management/issue-templates/" class="">
+																																																												Issue templates
+																																																											</a>
+																																																										</div>
+																																																									</div>
+																																																								</li>
+																																																								<li data-nav-id="https://unicef.github.io/inventory/dpg-indicators/8/project-management/reading-list/" title="Outreach reading list" class="sidelist
+  ">
+																																																									<div class="container">
+																																																										<div class="row">
+																																																											<div class="col-10">
+																																																												<a href="https://unicef.github.io/inventory/dpg-indicators/8/project-management/reading-list/" class="">
+																																																													Outreach reading list
+																																																												</a>
+																																																											</div>
+																																																										</div>
+																																																									</li>
+																																																									<li data-nav-id="https://unicef.github.io/inventory/dpg-indicators/8/project-management/project-boards/" title="Project boards" class="sidelist
+  ">
+																																																										<div class="container">
+																																																											<div class="row">
+																																																												<div class="col-10">
+																																																													<a href="https://unicef.github.io/inventory/dpg-indicators/8/project-management/project-boards/" class="">
+																																																														Project boards
+																																																													</a>
+																																																												</div>
+																																																											</div>
+																																																										</li>
+																																																									</ul>
+																																																								</div>
+																																																							</div>
+																																																						</li>
+																																																						<li data-nav-id="https://unicef.github.io/inventory/dpg-indicators/8/reading-list-reproducibility/" title="Reproducibility reading list" class="sidelist
+  active">
+																																																							<div class="container">
+																																																								<div class="row">
+																																																									<div class="col-10">
+																																																										<a href="https://unicef.github.io/inventory/dpg-indicators/8/reading-list-reproducibility/" class="">
+																																																											Reproducibility reading list
+																																																										</a>
+																																																									</div>
+																																																								</div>
+																																																							</li>
+																																																						</ul>
+																																																					</div>
+																																																				</div>
+																																																			</li>
+																																																			<li data-nav-id="https://unicef.github.io/inventory/dpg-indicators/9/" title="9. Do No Harm by Design" class="sidelist
+  ">
+																																																				<div class="container">
+																																																					<div class="row">
+																																																						<div class="col-10">
+																																																							<a href="https://unicef.github.io/inventory/dpg-indicators/9/" class="">
+																																																								9. Do No Harm by Design
+																																																							</a>
+																																																						</div>
+																																																						<div class="col-2 ">
+																																																							<i class="fas fa-chevron-down align-middle" type="button" data-toggle="collapse" data-target="#collapseff8942c534c30a965d0fcaa49ec91f19" aria-expanded="false" aria-controls='collapseff8942c534c30a965d0fcaa49ec91f19'>
+																																																							</i>
+																																																						</div>
+																																																					</div>
+																																																					<div id='collapseff8942c534c30a965d0fcaa49ec91f19' class="collapse" aria-labelledby="headingff8942c534c30a965d0fcaa49ec91f19" data-parent="#accordionExample">
+																																																						<div class="sidebar-scroll">
+																																																							<ul>
+																																																								<li data-nav-id="https://unicef.github.io/inventory/dpg-indicators/9/codes-of-conduct/" title="Codes of Conduct" class="sidelist
+  ">
+																																																									<div class="container">
+																																																										<div class="row">
+																																																											<div class="col-10">
+																																																												<a href="https://unicef.github.io/inventory/dpg-indicators/9/codes-of-conduct/" class="">
+																																																													Codes of Conduct
+																																																												</a>
+																																																											</div>
+																																																										</div>
+																																																									</li>
+																																																								</ul>
+																																																							</div>
+																																																						</div>
+																																																					</li>
+																																																				</ul>
+																																																			</div>
+																																																		</li>
+																																																		<div>
+																																																			<button class="btn btn-primary btn-block" id="generatePDF">Get Pdf</button>
+																																																		</div>
+																																																	</ul>
+																																																</div>
+																																															</div>
+																																														</div>
+																																													</div>
+																																												</nav>
+																																											</header>
+																																											<!-- /header -->
+																																											<script>
+																																												remSpace()
+																																											</script>
+																																											<script>
+																																												function remSpace() {
+																																												  document.getElementById("section").style.paddingTop = "3rem";
+																																												}
+																																											</script>
+																																											<!-- details page -->
+																																											<section class="single section-sm" id="section">
+																																												<div class="d-flex w-100">
+																																													<div class="sidebarContainer">
+																																														<div class="sidebar">
+																																															<ul>
+																																																<li data-nav-id="https://unicef.github.io/inventory/dpg-indicators/" title="DPG Standard indicators" class="sidelist
+  ">
+																																																	<a href="/inventory" class="d-inline  back-btn">
+																																																		<i class="ti-back-right"></i>
+																																																	</a>
+																																																	<a href="https://unicef.github.io/inventory/dpg-indicators/" class="font-weight-bold d-inline">
+																																																		DPG Standard indicators
+																																																	</a>
+																																																	<div class="accordion" id="accordionExample">
+																																																		<ul>
+																																																			<li data-nav-id="https://unicef.github.io/inventory/dpg-indicators/1/" title="1. Relevance to Sustainable Development Goals" class="sidelist
+  ">
+																																																				<div class="container">
+																																																					<div class="row">
+																																																						<div class="col-10">
+																																																							<a href="https://unicef.github.io/inventory/dpg-indicators/1/" class="">
+																																																								1. Relevance to Sustainable Development Goals
+																																																							</a>
+																																																						</div>
+																																																					</div>
+																																																				</li>
+																																																				<li data-nav-id="https://unicef.github.io/inventory/dpg-indicators/2/" title="2. Use of Approved Open Licenses" class="sidelist
+  ">
+																																																					<div class="container">
+																																																						<div class="row">
+																																																							<div class="col-10">
+																																																								<a href="https://unicef.github.io/inventory/dpg-indicators/2/" class="">
+																																																									2. Use of Approved Open Licenses
+																																																								</a>
+																																																							</div>
+																																																							<div class="col-2 ">
+																																																								<i class="fas fa-chevron-down align-middle" type="button" data-toggle="collapse" data-target="#collapseacfa90399f4c1a9f55c902cd4e3f1684" aria-expanded="false" aria-controls='collapseacfa90399f4c1a9f55c902cd4e3f1684'>
+																																																								</i>
+																																																							</div>
+																																																						</div>
+																																																						<div id='collapseacfa90399f4c1a9f55c902cd4e3f1684' class="collapse" aria-labelledby="headingacfa90399f4c1a9f55c902cd4e3f1684" data-parent="#accordionExample">
+																																																							<div class="sidebar-scroll">
+																																																								<ul>
+																																																									<li data-nav-id="https://unicef.github.io/inventory/dpg-indicators/2/gpl-comparison/" title="GPLv2 vs. GPLv3" class="sidelist
+  ">
+																																																										<div class="container">
+																																																											<div class="row">
+																																																												<div class="col-10">
+																																																													<a href="https://unicef.github.io/inventory/dpg-indicators/2/gpl-comparison/" class="">
+																																																														GPLv2 vs. GPLv3
+																																																													</a>
+																																																												</div>
+																																																											</div>
+																																																										</li>
+																																																										<li data-nav-id="https://unicef.github.io/inventory/dpg-indicators/2/creative-commons/" title="Intro to Creative Commons licenses" class="sidelist
+  ">
+																																																											<div class="container">
+																																																												<div class="row">
+																																																													<div class="col-10">
+																																																														<a href="https://unicef.github.io/inventory/dpg-indicators/2/creative-commons/" class="">
+																																																															Intro to Creative Commons licenses
+																																																														</a>
+																																																													</div>
+																																																												</div>
+																																																											</li>
+																																																											<li data-nav-id="https://unicef.github.io/inventory/dpg-indicators/2/reading-list/" title="Reading List: Legal &amp; Business Aspects" class="sidelist
+  ">
+																																																												<div class="container">
+																																																													<div class="row">
+																																																														<div class="col-10">
+																																																															<a href="https://unicef.github.io/inventory/dpg-indicators/2/reading-list/" class="">
+																																																																Reading List: Legal &amp; Business Aspects
+																																																															</a>
+																																																														</div>
+																																																													</div>
+																																																												</li>
+																																																												<li data-nav-id="https://unicef.github.io/inventory/dpg-indicators/2/trademark/" title="Trademark strategies" class="sidelist
+  ">
+																																																													<div class="container">
+																																																														<div class="row">
+																																																															<div class="col-10">
+																																																																<a href="https://unicef.github.io/inventory/dpg-indicators/2/trademark/" class="">
+																																																																	Trademark strategies
+																																																																</a>
+																																																															</div>
+																																																														</div>
+																																																													</li>
+																																																												</ul>
+																																																											</div>
+																																																										</div>
+																																																									</li>
+																																																									<li data-nav-id="https://unicef.github.io/inventory/dpg-indicators/3/" title="3. Clear Ownership" class="sidelist
+  ">
+																																																										<div class="container">
+																																																											<div class="row">
+																																																												<div class="col-10">
+																																																													<a href="https://unicef.github.io/inventory/dpg-indicators/3/" class="">
+																																																														3. Clear Ownership
+																																																													</a>
+																																																												</div>
+																																																												<div class="col-2 ">
+																																																													<i class="fas fa-chevron-down align-middle" type="button" data-toggle="collapse" data-target="#collapsec341cac049a899f9c51230d9a65f4ffe" aria-expanded="false" aria-controls='collapsec341cac049a899f9c51230d9a65f4ffe'>
+																																																													</i>
+																																																												</div>
+																																																											</div>
+																																																											<div id='collapsec341cac049a899f9c51230d9a65f4ffe' class="collapse" aria-labelledby="headingc341cac049a899f9c51230d9a65f4ffe" data-parent="#accordionExample">
+																																																												<div class="sidebar-scroll">
+																																																													<ul>
+																																																														<li data-nav-id="https://unicef.github.io/inventory/dpg-indicators/3/charters/" title="Charters" class="sidelist
+  ">
+																																																															<div class="container">
+																																																																<div class="row">
+																																																																	<div class="col-10">
+																																																																		<a href="https://unicef.github.io/inventory/dpg-indicators/3/charters/" class="">
+																																																																			Charters
+																																																																		</a>
+																																																																	</div>
+																																																																</div>
+																																																															</li>
+																																																															<li data-nav-id="https://unicef.github.io/inventory/dpg-indicators/3/contributor-license-agreement-cla/" title="Contributor License Agreements (CLAs)" class="sidelist
+  ">
+																																																																<div class="container">
+																																																																	<div class="row">
+																																																																		<div class="col-10">
+																																																																			<a href="https://unicef.github.io/inventory/dpg-indicators/3/contributor-license-agreement-cla/" class="">
+																																																																				Contributor License Agreements (CLAs)
+																																																																			</a>
+																																																																		</div>
+																																																																	</div>
+																																																																</li>
+																																																																<li data-nav-id="https://unicef.github.io/inventory/dpg-indicators/3/governance/" title="Governance" class="sidelist
+  ">
+																																																																	<div class="container">
+																																																																		<div class="row">
+																																																																			<div class="col-10">
+																																																																				<a href="https://unicef.github.io/inventory/dpg-indicators/3/governance/" class="">
+																																																																					Governance
+																																																																				</a>
+																																																																			</div>
+																																																																		</div>
+																																																																	</li>
+																																																																</ul>
+																																																															</div>
+																																																														</div>
+																																																													</li>
+																																																													<li data-nav-id="https://unicef.github.io/inventory/dpg-indicators/4/" title="4. Platform Independence" class="sidelist
+  ">
+																																																														<div class="container">
+																																																															<div class="row">
+																																																																<div class="col-10">
+																																																																	<a href="https://unicef.github.io/inventory/dpg-indicators/4/" class="">
+																																																																		4. Platform Independence
+																																																																	</a>
+																																																																</div>
+																																																															</div>
+																																																														</li>
+																																																														<li data-nav-id="https://unicef.github.io/inventory/dpg-indicators/5/" title="5. Documentation" class="sidelist
+  ">
+																																																															<div class="container">
+																																																																<div class="row">
+																																																																	<div class="col-10">
+																																																																		<a href="https://unicef.github.io/inventory/dpg-indicators/5/" class="">
+																																																																			5. Documentation
+																																																																		</a>
+																																																																	</div>
+																																																																	<div class="col-2 ">
+																																																																		<i class="fas fa-chevron-down align-middle" type="button" data-toggle="collapse" data-target="#collapsed0f1a4e9c2f9905a895fa3316fccc449" aria-expanded="false" aria-controls='collapsed0f1a4e9c2f9905a895fa3316fccc449'>
+																																																																		</i>
+																																																																	</div>
+																																																																</div>
+																																																																<div id='collapsed0f1a4e9c2f9905a895fa3316fccc449' class="collapse" aria-labelledby="headingd0f1a4e9c2f9905a895fa3316fccc449" data-parent="#accordionExample">
+																																																																	<div class="sidebar-scroll">
+																																																																		<ul>
+																																																																			<li data-nav-id="https://unicef.github.io/inventory/dpg-indicators/5/hall-of-fame/" title="Documentation Hall of Fame" class="sidelist
+  ">
+																																																																				<div class="container">
+																																																																					<div class="row">
+																																																																						<div class="col-10">
+																																																																							<a href="https://unicef.github.io/inventory/dpg-indicators/5/hall-of-fame/" class="">
+																																																																								Documentation Hall of Fame
+																																																																							</a>
+																																																																						</div>
+																																																																					</div>
+																																																																				</li>
+																																																																				<li data-nav-id="https://unicef.github.io/inventory/dpg-indicators/5/reading-list/" title="Documentation reading list" class="sidelist
+  ">
+																																																																					<div class="container">
+																																																																						<div class="row">
+																																																																							<div class="col-10">
+																																																																								<a href="https://unicef.github.io/inventory/dpg-indicators/5/reading-list/" class="">
+																																																																									Documentation reading list
+																																																																								</a>
+																																																																							</div>
+																																																																						</div>
+																																																																					</li>
+																																																																					<li data-nav-id="https://unicef.github.io/inventory/dpg-indicators/5/stakeholder-mapping/" title="Stakeholder Mapping Exercise" class="sidelist
+  ">
+																																																																						<div class="container">
+																																																																							<div class="row">
+																																																																								<div class="col-10">
+																																																																									<a href="https://unicef.github.io/inventory/dpg-indicators/5/stakeholder-mapping/" class="">
+																																																																										Stakeholder Mapping Exercise
+																																																																									</a>
+																																																																								</div>
+																																																																							</div>
+																																																																						</li>
+																																																																						<li data-nav-id="https://unicef.github.io/inventory/dpg-indicators/5/text-editors/" title="Text editors" class="sidelist
+  ">
+																																																																							<div class="container">
+																																																																								<div class="row">
+																																																																									<div class="col-10">
+																																																																										<a href="https://unicef.github.io/inventory/dpg-indicators/5/text-editors/" class="">
+																																																																											Text editors
+																																																																										</a>
+																																																																									</div>
+																																																																								</div>
+																																																																							</li>
+																																																																							<li data-nav-id="https://unicef.github.io/inventory/dpg-indicators/5/frontier-tech-tips/" title="Tips for documenting frontier technology" class="sidelist
+  ">
+																																																																								<div class="container">
+																																																																									<div class="row">
+																																																																										<div class="col-10">
+																																																																											<a href="https://unicef.github.io/inventory/dpg-indicators/5/frontier-tech-tips/" class="">
+																																																																												Tips for documenting frontier technology
+																																																																											</a>
+																																																																										</div>
+																																																																									</div>
+																																																																								</li>
+																																																																							</ul>
+																																																																						</div>
+																																																																					</div>
+																																																																				</li>
+																																																																				<li data-nav-id="https://unicef.github.io/inventory/dpg-indicators/6/" title="6. Mechanism for Extracting Data" class="sidelist
+  ">
+																																																																					<div class="container">
+																																																																						<div class="row">
+																																																																							<div class="col-10">
+																																																																								<a href="https://unicef.github.io/inventory/dpg-indicators/6/" class="">
+																																																																									6. Mechanism for Extracting Data
+																																																																								</a>
+																																																																							</div>
+																																																																						</div>
+																																																																					</li>
+																																																																					<li data-nav-id="https://unicef.github.io/inventory/dpg-indicators/7/" title="7. Adherence to Privacy and Applicable Laws" class="sidelist
+  ">
+																																																																						<div class="container">
+																																																																							<div class="row">
+																																																																								<div class="col-10">
+																																																																									<a href="https://unicef.github.io/inventory/dpg-indicators/7/" class="">
+																																																																										7. Adherence to Privacy and Applicable Laws
+																																																																									</a>
+																																																																								</div>
+																																																																							</div>
+																																																																						</li>
+																																																																						<li data-nav-id="https://unicef.github.io/inventory/dpg-indicators/8/" title="8. Adherence to Standards &amp; Best Practices" class="sidelist
+  ">
+																																																																							<div class="container">
+																																																																								<div class="row">
+																																																																									<div class="col-10">
+																																																																										<a href="https://unicef.github.io/inventory/dpg-indicators/8/" class="">
+																																																																											8. Adherence to Standards &amp; Best Practices
+																																																																										</a>
+																																																																									</div>
+																																																																									<div class="col-2 ">
+																																																																										<i class="fas fa-chevron-down align-middle" type="button" data-toggle="collapse" data-target="#collapse01950aa35c81d3f4ecf9fa9c249c9f46" aria-expanded="false" aria-controls='collapse01950aa35c81d3f4ecf9fa9c249c9f46'>
+																																																																										</i>
+																																																																									</div>
+																																																																								</div>
+																																																																								<div id='collapse01950aa35c81d3f4ecf9fa9c249c9f46' class="collapse" aria-labelledby="heading01950aa35c81d3f4ecf9fa9c249c9f46" data-parent="#accordionExample">
+																																																																									<div class="sidebar-scroll">
+																																																																										<ul>
+																																																																											<li data-nav-id="https://unicef.github.io/inventory/dpg-indicators/8/communities/" title="Communities" class="sidelist
+  ">
+																																																																												<div class="container">
+																																																																													<div class="row">
+																																																																														<div class="col-10">
+																																																																															<a href="https://unicef.github.io/inventory/dpg-indicators/8/communities/" class="">
+																																																																																Communities
+																																																																															</a>
+																																																																														</div>
+																																																																														<div class="col-2 ">
+																																																																															<i class="fas fa-chevron-down align-middle" type="button" data-toggle="collapse" data-target="#collapsecef5594cf39901f49ac1adf68ac02934" aria-expanded="false" aria-controls='collapsecef5594cf39901f49ac1adf68ac02934'>
+																																																																															</i>
+																																																																														</div>
+																																																																													</div>
+																																																																													<div id='collapsecef5594cf39901f49ac1adf68ac02934' class="collapse" aria-labelledby="headingcef5594cf39901f49ac1adf68ac02934" data-parent="#accordionExample">
+																																																																														<div class="sidebar-scroll">
+																																																																															<ul>
+																																																																																<li data-nav-id="https://unicef.github.io/inventory/dpg-indicators/8/communities/fedora/" title="Fedora Project" class="sidelist
+  ">
+																																																																																	<div class="container">
+																																																																																		<div class="row">
+																																																																																			<div class="col-10">
+																																																																																				<a href="https://unicef.github.io/inventory/dpg-indicators/8/communities/fedora/" class="">
+																																																																																					Fedora Project
+																																																																																				</a>
+																																																																																			</div>
+																																																																																		</div>
+																																																																																	</li>
+																																																																																	<li data-nav-id="https://unicef.github.io/inventory/dpg-indicators/8/communities/public-lab/" title="Public Lab" class="sidelist
+  ">
+																																																																																		<div class="container">
+																																																																																			<div class="row">
+																																																																																				<div class="col-10">
+																																																																																					<a href="https://unicef.github.io/inventory/dpg-indicators/8/communities/public-lab/" class="">
+																																																																																						Public Lab
+																																																																																					</a>
+																																																																																				</div>
+																																																																																			</div>
+																																																																																		</li>
+																																																																																	</ul>
+																																																																																</div>
+																																																																															</div>
+																																																																														</li>
+																																																																														<li data-nav-id="https://unicef.github.io/inventory/dpg-indicators/8/continuous-integration/" title="Continuous Integration (C.I.)" class="sidelist
+  ">
+																																																																															<div class="container">
+																																																																																<div class="row">
+																																																																																	<div class="col-10">
+																																																																																		<a href="https://unicef.github.io/inventory/dpg-indicators/8/continuous-integration/" class="">
+																																																																																			Continuous Integration (C.I.)
+																																																																																		</a>
+																																																																																	</div>
+																																																																																</div>
+																																																																															</li>
+																																																																															<li data-nav-id="https://unicef.github.io/inventory/dpg-indicators/8/reading-list-foss/" title="Free &amp; Open Source reading list" class="sidelist
+  ">
+																																																																																<div class="container">
+																																																																																	<div class="row">
+																																																																																		<div class="col-10">
+																																																																																			<a href="https://unicef.github.io/inventory/dpg-indicators/8/reading-list-foss/" class="">
+																																																																																				Free &amp; Open Source reading list
+																																																																																			</a>
+																																																																																		</div>
+																																																																																	</div>
+																																																																																</li>
+																																																																																<li data-nav-id="https://unicef.github.io/inventory/dpg-indicators/8/good-first-issue/" title="Good first issues" class="sidelist
+  ">
+																																																																																	<div class="container">
+																																																																																		<div class="row">
+																																																																																			<div class="col-10">
+																																																																																				<a href="https://unicef.github.io/inventory/dpg-indicators/8/good-first-issue/" class="">
+																																																																																					Good first issues
+																																																																																				</a>
+																																																																																			</div>
+																																																																																		</div>
+																																																																																	</li>
+																																																																																	<li data-nav-id="https://unicef.github.io/inventory/dpg-indicators/8/open-hardware/" title="Open Hardware" class="sidelist
+  ">
+																																																																																		<div class="container">
+																																																																																			<div class="row">
+																																																																																				<div class="col-10">
+																																																																																					<a href="https://unicef.github.io/inventory/dpg-indicators/8/open-hardware/" class="">
+																																																																																						Open Hardware
+																																																																																					</a>
+																																																																																				</div>
+																																																																																				<div class="col-2 ">
+																																																																																					<i class="fas fa-chevron-down align-middle" type="button" data-toggle="collapse" data-target="#collapse53149fa4af9cd5e93ca1cf029f694c80" aria-expanded="false" aria-controls='collapse53149fa4af9cd5e93ca1cf029f694c80'>
+																																																																																					</i>
+																																																																																				</div>
+																																																																																			</div>
+																																																																																			<div id='collapse53149fa4af9cd5e93ca1cf029f694c80' class="collapse" aria-labelledby="heading53149fa4af9cd5e93ca1cf029f694c80" data-parent="#accordionExample">
+																																																																																				<div class="sidebar-scroll">
+																																																																																					<ul>
+																																																																																						<li data-nav-id="https://unicef.github.io/inventory/dpg-indicators/8/open-hardware/intro/" title="Introduction to Open Source Hardware" class="sidelist
+  ">
+																																																																																							<div class="container">
+																																																																																								<div class="row">
+																																																																																									<div class="col-10">
+																																																																																										<a href="https://unicef.github.io/inventory/dpg-indicators/8/open-hardware/intro/" class="">
+																																																																																											Introduction to Open Source Hardware
+																																																																																										</a>
+																																																																																									</div>
+																																																																																								</div>
+																																																																																							</li>
+																																																																																							<li data-nav-id="https://unicef.github.io/inventory/dpg-indicators/8/open-hardware/case-studies/" title="Open Hardware case studies" class="sidelist
+  ">
+																																																																																								<div class="container">
+																																																																																									<div class="row">
+																																																																																										<div class="col-10">
+																																																																																											<a href="https://unicef.github.io/inventory/dpg-indicators/8/open-hardware/case-studies/" class="">
+																																																																																												Open Hardware case studies
+																																																																																											</a>
+																																																																																										</div>
+																																																																																									</div>
+																																																																																								</li>
+																																																																																								<li data-nav-id="https://unicef.github.io/inventory/dpg-indicators/8/open-hardware/documentation/" title="Open Hardware documentation" class="sidelist
+  ">
+																																																																																									<div class="container">
+																																																																																										<div class="row">
+																																																																																											<div class="col-10">
+																																																																																												<a href="https://unicef.github.io/inventory/dpg-indicators/8/open-hardware/documentation/" class="">
+																																																																																													Open Hardware documentation
+																																																																																												</a>
+																																																																																											</div>
+																																																																																										</div>
+																																																																																									</li>
+																																																																																									<li data-nav-id="https://unicef.github.io/inventory/dpg-indicators/8/open-hardware/projects/" title="Open Hardware Hall of Fame" class="sidelist
+  ">
+																																																																																										<div class="container">
+																																																																																											<div class="row">
+																																																																																												<div class="col-10">
+																																																																																													<a href="https://unicef.github.io/inventory/dpg-indicators/8/open-hardware/projects/" class="">
+																																																																																														Open Hardware Hall of Fame
+																																																																																													</a>
+																																																																																												</div>
+																																																																																											</div>
+																																																																																										</li>
+																																																																																										<li data-nav-id="https://unicef.github.io/inventory/dpg-indicators/8/open-hardware/licensing/" title="Open Hardware licensing" class="sidelist
+  ">
+																																																																																											<div class="container">
+																																																																																												<div class="row">
+																																																																																													<div class="col-10">
+																																																																																														<a href="https://unicef.github.io/inventory/dpg-indicators/8/open-hardware/licensing/" class="">
+																																																																																															Open Hardware licensing
+																																																																																														</a>
+																																																																																													</div>
+																																																																																												</div>
+																																																																																											</li>
+																																																																																											<li data-nav-id="https://unicef.github.io/inventory/dpg-indicators/8/open-hardware/reading-list/" title="Open Hardware reading list" class="sidelist
+  ">
+																																																																																												<div class="container">
+																																																																																													<div class="row">
+																																																																																														<div class="col-10">
+																																																																																															<a href="https://unicef.github.io/inventory/dpg-indicators/8/open-hardware/reading-list/" class="">
+																																																																																																Open Hardware reading list
+																																																																																															</a>
+																																																																																														</div>
+																																																																																													</div>
+																																																																																												</li>
+																																																																																											</ul>
+																																																																																										</div>
+																																																																																									</div>
+																																																																																								</li>
+																																																																																								<li data-nav-id="https://unicef.github.io/inventory/dpg-indicators/8/approaches/" title="Open-first business approaches" class="sidelist
+  ">
+																																																																																									<div class="container">
+																																																																																										<div class="row">
+																																																																																											<div class="col-10">
+																																																																																												<a href="https://unicef.github.io/inventory/dpg-indicators/8/approaches/" class="">
+																																																																																													Open-first business approaches
+																																																																																												</a>
+																																																																																											</div>
+																																																																																										</div>
+																																																																																									</li>
+																																																																																									<li data-nav-id="https://unicef.github.io/inventory/dpg-indicators/8/project-management/" title="Project Management" class="sidelist
+  ">
+																																																																																										<div class="container">
+																																																																																											<div class="row">
+																																																																																												<div class="col-10">
+																																																																																													<a href="https://unicef.github.io/inventory/dpg-indicators/8/project-management/" class="">
+																																																																																														Project Management
+																																																																																													</a>
+																																																																																												</div>
+																																																																																												<div class="col-2 ">
+																																																																																													<i class="fas fa-chevron-down align-middle" type="button" data-toggle="collapse" data-target="#collapsef4a3192d8940545e991ca69ccaf30fcf" aria-expanded="false" aria-controls='collapsef4a3192d8940545e991ca69ccaf30fcf'>
+																																																																																													</i>
+																																																																																												</div>
+																																																																																											</div>
+																																																																																											<div id='collapsef4a3192d8940545e991ca69ccaf30fcf' class="collapse" aria-labelledby="headingf4a3192d8940545e991ca69ccaf30fcf" data-parent="#accordionExample">
+																																																																																												<div class="sidebar-scroll">
+																																																																																													<ul>
+																																																																																														<li data-nav-id="https://unicef.github.io/inventory/dpg-indicators/8/project-management/issue-templates/" title="Issue templates" class="sidelist
+  ">
+																																																																																															<div class="container">
+																																																																																																<div class="row">
+																																																																																																	<div class="col-10">
+																																																																																																		<a href="https://unicef.github.io/inventory/dpg-indicators/8/project-management/issue-templates/" class="">
+																																																																																																			Issue templates
+																																																																																																		</a>
+																																																																																																	</div>
+																																																																																																</div>
+																																																																																															</li>
+																																																																																															<li data-nav-id="https://unicef.github.io/inventory/dpg-indicators/8/project-management/reading-list/" title="Outreach reading list" class="sidelist
+  ">
+																																																																																																<div class="container">
+																																																																																																	<div class="row">
+																																																																																																		<div class="col-10">
+																																																																																																			<a href="https://unicef.github.io/inventory/dpg-indicators/8/project-management/reading-list/" class="">
+																																																																																																				Outreach reading list
+																																																																																																			</a>
+																																																																																																		</div>
+																																																																																																	</div>
+																																																																																																</li>
+																																																																																																<li data-nav-id="https://unicef.github.io/inventory/dpg-indicators/8/project-management/project-boards/" title="Project boards" class="sidelist
+  ">
+																																																																																																	<div class="container">
+																																																																																																		<div class="row">
+																																																																																																			<div class="col-10">
+																																																																																																				<a href="https://unicef.github.io/inventory/dpg-indicators/8/project-management/project-boards/" class="">
+																																																																																																					Project boards
+																																																																																																				</a>
+																																																																																																			</div>
+																																																																																																		</div>
+																																																																																																	</li>
+																																																																																																</ul>
+																																																																																															</div>
+																																																																																														</div>
+																																																																																													</li>
+																																																																																													<li data-nav-id="https://unicef.github.io/inventory/dpg-indicators/8/reading-list-reproducibility/" title="Reproducibility reading list" class="sidelist
+  active">
+																																																																																														<div class="container">
+																																																																																															<div class="row">
+																																																																																																<div class="col-10">
+																																																																																																	<a href="https://unicef.github.io/inventory/dpg-indicators/8/reading-list-reproducibility/" class="">
+																																																																																																		Reproducibility reading list
+																																																																																																	</a>
+																																																																																																</div>
+																																																																																															</div>
+																																																																																														</li>
+																																																																																													</ul>
+																																																																																												</div>
+																																																																																											</div>
+																																																																																										</li>
+																																																																																										<li data-nav-id="https://unicef.github.io/inventory/dpg-indicators/9/" title="9. Do No Harm by Design" class="sidelist
+  ">
+																																																																																											<div class="container">
+																																																																																												<div class="row">
+																																																																																													<div class="col-10">
+																																																																																														<a href="https://unicef.github.io/inventory/dpg-indicators/9/" class="">
+																																																																																															9. Do No Harm by Design
+																																																																																														</a>
+																																																																																													</div>
+																																																																																													<div class="col-2 ">
+																																																																																														<i class="fas fa-chevron-down align-middle" type="button" data-toggle="collapse" data-target="#collapse5ca1c3c4dcf9e4f1f4a99026a998530f" aria-expanded="false" aria-controls='collapse5ca1c3c4dcf9e4f1f4a99026a998530f'>
+																																																																																														</i>
+																																																																																													</div>
+																																																																																												</div>
+																																																																																												<div id='collapse5ca1c3c4dcf9e4f1f4a99026a998530f' class="collapse" aria-labelledby="heading5ca1c3c4dcf9e4f1f4a99026a998530f" data-parent="#accordionExample">
+																																																																																													<div class="sidebar-scroll">
+																																																																																														<ul>
+																																																																																															<li data-nav-id="https://unicef.github.io/inventory/dpg-indicators/9/codes-of-conduct/" title="Codes of Conduct" class="sidelist
+  ">
+																																																																																																<div class="container">
+																																																																																																	<div class="row">
+																																																																																																		<div class="col-10">
+																																																																																																			<a href="https://unicef.github.io/inventory/dpg-indicators/9/codes-of-conduct/" class="">
+																																																																																																				Codes of Conduct
+																																																																																																			</a>
+																																																																																																		</div>
+																																																																																																	</div>
+																																																																																																</li>
+																																																																																															</ul>
+																																																																																														</div>
+																																																																																													</div>
+																																																																																												</li>
+																																																																																											</ul>
+																																																																																										</div>
+																																																																																									</li>
+																																																																																									<div>
+																																																																																										<button class="btn btn-primary btn-block" id="generatePDF">Get Pdf</button>
+																																																																																									</div>
+																																																																																								</ul>
+																																																																																							</div>
+																																																																																						</div>
+																																																																																						<div class="contentContainer py-5 px-5">
+																																																																																							<div class="p-lg-5 p-4 bg-white position-relative mx-5 my-3 w-100 contentBox" id="content">
+																																																																																								<div class="d-flex flex-row-reverse p-absolute">
+																																																																																									<button id="editBtn" value="https://github.com/unicef/inventory/blob/main/content/dpg-indicators/8/reading-list-reproducibility.en.adoc" class="editBtn py-2 px-3">Edit this Page</button>
+																																																																																								</div>
+																																																																																								<div class="p-lg-5 p-3 bg-white">
+																																																																																									<h2 id="title">Reproducibility reading list</h2>
+																																																																																									<div class="container">
+																																																																																									</div>
+																																																																																									<div class="container">
+																																																																																										Various readings and learnings about reproducibility in an Open Source context.
+																																																																																									</div>
+																																																																																									<div class="content mt-5">
+																																																																																										<div class="ulist">
+																																																																																											<ul>
+																																																																																												<li>
+																																																																																													<p><a href="https://www.britishecologicalsociety.org/wp-content/uploads/2019/06/BES-Guide-Reproducible-Code-2019.pdf">A Guide to Reproducible Code</a>:
+																																																																																														A guide written by scientists, for scientists, on creating reproducible code.
+																																																																																														Includes topics like <em>A simple reproducible project workflow</em>, <em>Organising projects for reproducibility</em>, <em>Reproducible reports</em>, and more. Edited by Natalie Cooper and Pen-Yuan Hsing.
+																																																																																														Featuring contributions from Mike Croucher, Laura Graham, Tamora James, Anna Krystalli, and François Michonneau.</p>
+																																																																																												</li>
+																																																																																											</ul>
+																																																																																										</div>
+																																																																																									</div>
+																																																																																									<p class="post-meta border-bottom pb-3 mb-0 mt-3">Updated on 19 Sep 2022</p>
+																																																																																									<nav class="pagination mt-3">
+																																																																																										<a class="nav nav-prev" href="https://unicef.github.io/inventory/dpg-indicators/8/project-management/project-boards/" aria-label="Previous page" ><i class="ti-arrow-left mr-2"></i> <span class="d-none d-md-block">Project boards</span></a>
+																																																																																										<a class="nav nav-next" href="https://unicef.github.io/inventory/dpg-indicators/9/" aria-label="Previous page" > <span class="d-none d-md-block">9. Do No Harm by Design</span><i class="ti-arrow-right ml-2"></i></a>
+																																																																																									</nav>
+																																																																																								</div>
+																																																																																							</div>
+																																																																																						</div>
+																																																																																					</div>
+																																																																																				</section>
+																																																																																				<!-- /details page -->
+																																																																																				<!-- footer -->
+																																																																																				<footer class="section bg-primary p-4 mt-5">
+																																																																																					<div class="container">
+																																																																																						<div class="row align-items-center">
+																																																																																							<div class="col-md-3 text-md-left text-center">
+																																																																																								<ul>
+																																																																																									<li><a class="nav-link text-white" href="/inventory">HOME</a></li>
+																																																																																									<li class="nav-item">
+																																																																																										<a class="nav-link text-white text-uppercase" href="https://unicef.github.io/inventory/faq">FAQ</a>
+																																																																																									</li>
+																																																																																									<li class="nav-item">
+																																																																																										<a class="nav-link text-white text-uppercase" href="https://unicef.github.io/inventory/DPG%20indicators">DPG indicators</a>
+																																																																																									</li>
+																																																																																									<li class="nav-item">
+																																																																																										<a class="nav-link text-white text-uppercase" href="https://unicef.github.io/inventory/cohorts">cohorts</a>
+																																																																																									</li>
+																																																																																								</ul>
+																																																																																							</div>
+																																																																																							<div class="col-md-6 text-md-center text-center">
+																																																																																								<p class="mb-md-0 mb-4 text-white">The UNICEF Open Source Inventory is a knowledge-base of best practices, resources, and information about working and leading Open. This is maintained as part of the Open Source Mentorship programme offered by the UNICEF Venture Fund. The Inventory provides mentorship and guidance to anyone seeking to adopt best practices in their journey to building an Open Source project and community. It is self-serve, and can be used at various phases of building a project and community.</p>
+																																																																																							</div>
+																																																																																							<div class="col-md-3 text-md-right text-center">
+																																																																																								<ul class="text-white">
+																																																																																									<li class="nav-item">
+																																																																																										<a class="nav-link text-white font-weight-bold px-0" href="https://www.unicef.org/">UNICEF Global</a>
+																																																																																									</li>
+																																																																																									<li class="nav-item">
+																																																																																										<a class="nav-link text-white font-weight-bold px-0" href="https://www.unicefinnovationfund.org/">UNICEF Venture Fund</a>
+																																																																																									</li>
+																																																																																									<li class="nav-item">
+																																																																																										<a class="nav-link text-white font-weight-bold px-0" href="https://www.unicef.org/legal">Legal</a>
+																																																																																										<p class="h6 text-md-right font-weight-light">Find legal information and policies related to UNICEF Global&#39;s digital communications.</p>
+																																																																																									</li>
+																																																																																								</ul>
+																																																																																								<ul class="list-inline">
+																																																																																									<li class="list-inline-item"><a class="text-color d-inline-block p-2 text-white socialIcon" href="https://github.com/unicef/inventory" aria-label="UNICEF Open Source Inventory on GitHub"><i class="ti-github"></i></a></li>
+																																																																																									<li class="list-inline-item"><a class="text-color d-inline-block p-2 text-white socialIcon" href="https://twitter.com/UNICEFinnovate" aria-label="@UNICEFinnovate on Twitter"><i class="ti-twitter"></i></a></li>
+																																																																																								</ul>
+																																																																																							</div>
+																																																																																						</div>
+																																																																																					</div>
+																																																																																					<p class="text-md-center text-center text-white mt-3 h6 font-italic">Creative Commons BY-SA 4.0. Site theme maintained by UNICEF. Original theme, Dot, created by ThemeFisher.</p>
+																																																																																				</footer>
+																																																																																				<!-- /footer -->
+																																																																																				<!-- Main Script -->
+																																																																																				<script src="https://unicef.github.io/inventory/js/script.min.js"></script>
+																																																																																			</body>
+																																																																																		</html>

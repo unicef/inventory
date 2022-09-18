@@ -1,0 +1,920 @@
+<!DOCTYPE html>
+<html lang="en-us">
+	<head>
+		<meta charset="utf-8">
+		<title>Mentoring modules</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<meta name="generator" content="Hugo 0.96.0" />
+		<meta name="description" content="Mentoring modules - UNICEF O.S. Inventory ">
+		<!-- ** CSS Plugins Needed for the Project ** -->
+		<!-- Bootstrap -->
+		<link rel="stylesheet" href="https://unicef.github.io/inventory/plugins/bootstrap/bootstrap.min.css">
+		<!-- themefy-icon -->
+		<link rel="stylesheet" href="https://unicef.github.io/inventory/plugins/themify-icons/themify-icons.css">
+		<!-- drones-categories-icon -->
+		<link rel="stylesheet" href="https://unicef.github.io/inventory/plugins/drone-dpgtoolkit-icons/icons.css">
+		<!--Favicon-->
+		<link rel="icon" href="https://unicef.github.io/inventory/images/favicon.png" type="image/x-icon">
+		<!-- fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Open%2bSans:300,400,700&display=swap" rel="stylesheet">
+		<!-- PDF.js -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.9.359/pdf.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.3/html2pdf.bundle.js"></script>
+		<!-- fonts -->
+		<script src="https://kit.fontawesome.com/9196e0632a.js" crossorigin="anonymous"></script>
+		<style>
+			:root{
+			  --primary-color:#1CABE2;
+			  --primary-color-light:#1b66b1;
+			  --body-color:#f2f4f6;
+			  --text-color:#636363;
+			  --text-color-dark:#374ea2;
+			  --text-title-color:#ffffff;
+			  --white-color:#ffffff;
+			  --light-color:#f8f9fa;
+			  --font-family:Open+Sans;
+			}
+		</style>
+		<!-- Main Stylesheet -->
+		<link href="https://unicef.github.io/inventory/css/style.min.css" rel="stylesheet" media="screen"/>
+		<!-- ** JS Plugins Needed for the Project ** -->
+		<!-- jquiry -->
+		<script src="https://unicef.github.io/inventory/plugins/jquery/jquery-1.12.4.js"></script>
+		<!-- jquary ui -->
+		<script src="https://unicef.github.io/inventory/plugins/jquery/jquery-ui.js"></script>
+		<!-- Bootstrap JS -->
+		<script src="https://unicef.github.io/inventory/plugins/bootstrap/bootstrap.min.js"></script>
+		<!-- PopperJS -->
+		<script src="https://unpkg.com/@popperjs/core@2"></script>
+		<!-- match-height JS -->
+		<script src="https://unicef.github.io/inventory/plugins/match-height/jquery.matchHeight-min.js"></script>
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-80FMX4TPM0"></script>
+		<script>
+			var doNotTrack = false;
+			if (!doNotTrack) {
+				window.dataLayer = window.dataLayer || [];
+				function gtag(){dataLayer.push(arguments);}
+				gtag('js', new Date());
+				gtag('config', 'G-80FMX4TPM0', { 'anonymize_ip': false });
+			}
+		</script>
+		<!-- create /layouts/partials/overrides/header.html in your own theme or root directory to add your custom content here -->
+		<meta property="og:image" content="https://unicef.github.io/inventory/images/UNI309823.jpg" />
+		<meta name="twitter:image" content="https://unicef.github.io/inventory/images/UNI309823.jpg"/>
+		<meta name="twitter:card" content="summary_large_image">
+		<meta property="og:image:width" content="1440">
+		<meta property="og:image:height" content="960">
+		<meta property="og:image:type" content="image/jpeg">
+		<meta name="twitter:title" content="Mentoring modules"/>
+		<meta name="twitter:description" content="Overview of learning modules currently offered through the UNICEF Open Source Mentorship programme."/>
+		<meta property="og:title" content="Mentoring modules" />
+		<meta property="og:description" content="Overview of learning modules currently offered through the UNICEF Open Source Mentorship programme." />
+		<meta property="og:type" content="article" />
+		<meta property="og:url" content="https://unicef.github.io/inventory/mentoring/modules/" /><meta property="article:section" content="mentoring" />
+		<meta property="article:modified_time" content="2022-09-19T01:17:18+05:30" />
+		<meta name="twitter:card" content="summary"/>
+		<meta name="twitter:title" content="Mentoring modules"/>
+		<meta name="twitter:description" content="Overview of learning modules currently offered through the UNICEF Open Source Mentorship programme."/>
+	</head>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<body>
+		<!-- header -->
+		<header class="shadow-bottom sticky-top bg-white">
+			<nav class="navbar navbar-expand-md navbar-dark d-flex flex-column p-0" style=" background-color: #1CABE2">
+				<div class="w-100 container mx-0 navigation-bar">
+					<div id="site-brand">
+						<div class="navbar-brand">
+							<img class="img-fluid d-inline globalLogoImg"
+          src="https://unicef.github.io/inventory/images/unicef-logo.png"
+          alt="UNICEF O.S. Inventory">
+							<a class="text-center text-white d-block px-1" href="/inventory">UNICEF O.S. Inventory</a>
+						</div>
+					</div>
+					<a class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation"
+      aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="sidebarIcon navbarMenu">Menu<i class="fa-solid fa-caret-down d-inline p-1"></i>
+						</span>
+					</a>
+					<div class="collapse navbar-collapse text-center" id="navigation">
+						<ul class="navbar-nav ml-auto">
+							<li class="nav-item">
+								<a class="nav-link text-white" href="https://unicef.github.io/inventory/faq">FAQ</a>
+							</li>
+							<li class="nav-item dropdown">
+								<a class="nav-link dropdown-toggle text-white" href="#" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+									DPG indicators
+								</a>
+								<div class="dropdown-menu">
+									<a class="dropdown-item" href="https://unicef.github.io/inventory/dpg-indicators/1/">1. Sustainable Development Goals</a>
+									<a class="dropdown-item" href="https://unicef.github.io/inventory/dpg-indicators/2/">2. Use of Approved Open Licenses</a>
+									<a class="dropdown-item" href="https://unicef.github.io/inventory/dpg-indicators/3/">3. Clear Ownership</a>
+									<a class="dropdown-item" href="https://unicef.github.io/inventory/dpg-indicators/4/">4. Platform Independence</a>
+									<a class="dropdown-item" href="https://unicef.github.io/inventory/dpg-indicators/5/">5. Documentation</a>
+									<a class="dropdown-item" href="https://unicef.github.io/inventory/dpg-indicators/6/">6. Data extraction</a>
+									<a class="dropdown-item" href="https://unicef.github.io/inventory/dpg-indicators/7/">7. Adherence to Privacy and Applicable Laws</a>
+									<a class="dropdown-item" href="https://unicef.github.io/inventory/dpg-indicators/8/">8. Adherence to Standards and Best Practices</a>
+									<a class="dropdown-item" href="https://unicef.github.io/inventory/dpg-indicators/9/">9. Do No Harm by Design</a>
+								</div>
+							</li>
+							<li class="nav-item dropdown">
+								<a class="nav-link dropdown-toggle text-white" href="#" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+									cohorts
+								</a>
+								<div class="dropdown-menu">
+									<a class="dropdown-item" href="https://unicef.github.io/inventory/cohorts">All</a>
+									<a class="dropdown-item" href="https://unicef.github.io/inventory/cohorts/blockchain">Blockchain</a>
+									<a class="dropdown-item" href="https://unicef.github.io/inventory/cohorts/ds-ai">Data Science &amp; AI</a>
+									<a class="dropdown-item" href="https://unicef.github.io/inventory/cohorts/drones">Drones</a>
+									<a class="dropdown-item" href="https://unicef.github.io/inventory/cohorts/vr-ar">VR &#43; AR</a>
+									<a class="dropdown-item" href="https://unicef.github.io/inventory/cohorts/others">Others</a>
+								</div>
+							</li>
+						</ul>
+						<select class="lang-list bg-primary mb-3 mb-md-0" id="select-language"
+        onchange="location = this.value;">
+							<option id="en" value="https://unicef.github.io/inventory/mentoring/modules/" selected>en
+							</option>
+						</select>
+						<p class="text-white unicef-glob ml-4 mt-3">Visit <a href="https://www.unicef.org/" class="text-white">UNICEF Global <i
+        class="fas fa-angle-double-right"></i></a></p>
+					</div>
+				</div>
+				<div class="w-100 py-2 breadcrumbBar text-light" style=" background-color: #374ea2">
+					<div class="container">
+						<div class="breadcrumbs">
+							<a href="https://unicef.github.io/inventory/">Home</a>
+							&gt; <a href="https://unicef.github.io/inventory/mentoring" class="breadcrumbLink">mentoring</a>
+							&gt; <a href="https://unicef.github.io/inventory/mentoring/modules" class="breadcrumbLink">modules</a>
+						</div>
+						<a data-toggle="collapse" data-target="#sidebarMobile"  aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation"> <i class="ti-menu text-light sidebarIcon"></i></a>
+						<div class="text-light text-center sidebarMobile collapse justify-content-center" id="sidebarMobile">
+							<div class="sidebarBox">
+								<ul>
+									<li data-nav-id="https://unicef.github.io/inventory/mentoring/" title="UNICEF Mentorship" class="sidelist
+  ">
+										<a href="/inventory" class="d-inline  back-btn">
+											<i class="ti-back-right"></i>
+										</a>
+										<a href="https://unicef.github.io/inventory/mentoring/" class="font-weight-bold d-inline">
+											UNICEF Mentorship
+										</a>
+										<div class="accordion" id="accordionExample">
+											<ul>
+												<li data-nav-id="https://unicef.github.io/inventory/mentoring/overview/" title="Open Source Mentorship programme overview" class="sidelist
+  ">
+													<div class="container">
+														<div class="row">
+															<div class="col-10">
+																<a href="https://unicef.github.io/inventory/mentoring/overview/" class="">
+																	Open Source Mentorship programme overview
+																</a>
+															</div>
+														</div>
+													</li>
+													<li data-nav-id="https://unicef.github.io/inventory/mentoring/modules/" title="Mentoring modules" class="sidelist
+  active">
+														<div class="container">
+															<div class="row">
+																<div class="col-10">
+																	<a href="https://unicef.github.io/inventory/mentoring/modules/" class="">
+																		Mentoring modules
+																	</a>
+																</div>
+															</div>
+														</li>
+														<li data-nav-id="https://unicef.github.io/inventory/mentoring/needs-assessment-template/" title="Needs assessment interview template" class="sidelist
+  ">
+															<div class="container">
+																<div class="row">
+																	<div class="col-10">
+																		<a href="https://unicef.github.io/inventory/mentoring/needs-assessment-template/" class="">
+																			Needs assessment interview template
+																		</a>
+																	</div>
+																</div>
+															</li>
+															<li data-nav-id="https://unicef.github.io/inventory/mentoring/onboarding/" title="On-boarding guide for UNICEF Venture Fund teams" class="sidelist
+  ">
+																<div class="container">
+																	<div class="row">
+																		<div class="col-10">
+																			<a href="https://unicef.github.io/inventory/mentoring/onboarding/" class="">
+																				On-boarding guide for UNICEF Venture Fund teams
+																			</a>
+																		</div>
+																	</div>
+																</li>
+																<li data-nav-id="https://unicef.github.io/inventory/mentoring/templates/" title="Templates for programme mentors" class="sidelist
+  ">
+																	<div class="container">
+																		<div class="row">
+																			<div class="col-10">
+																				<a href="https://unicef.github.io/inventory/mentoring/templates/" class="">
+																					Templates for programme mentors
+																				</a>
+																			</div>
+																		</div>
+																	</li>
+																	<li data-nav-id="https://unicef.github.io/inventory/mentoring/workflow-metrics/" title="Workflow: Update external UNICEF metrics" class="sidelist
+  ">
+																		<div class="container">
+																			<div class="row">
+																				<div class="col-10">
+																					<a href="https://unicef.github.io/inventory/mentoring/workflow-metrics/" class="">
+																						Workflow: Update external UNICEF metrics
+																					</a>
+																				</div>
+																			</div>
+																		</li>
+																		<li data-nav-id="https://unicef.github.io/inventory/mentoring/workplan-bridge-funding/" title="Workplan: Bridge Fund cohort" class="sidelist
+  ">
+																			<div class="container">
+																				<div class="row">
+																					<div class="col-10">
+																						<a href="https://unicef.github.io/inventory/mentoring/workplan-bridge-funding/" class="">
+																							Workplan: Bridge Fund cohort
+																						</a>
+																					</div>
+																				</div>
+																			</li>
+																		</ul>
+																	</div>
+																</li>
+																<div>
+																	<button class="btn btn-primary btn-block" id="generatePDF">Get Pdf</button>
+																</div>
+															</ul>
+														</div>
+													</div>
+												</div>
+											</div>
+										</nav>
+									</header>
+									<!-- /header -->
+									<script>
+										remSpace()
+									</script>
+									<script>
+										function remSpace() {
+										  document.getElementById("section").style.paddingTop = "3rem";
+										}
+									</script>
+									<!-- details page -->
+									<section class="single section-sm" id="section">
+										<div class="d-flex w-100">
+											<div class="sidebarContainer">
+												<div class="sidebar">
+													<ul>
+														<li data-nav-id="https://unicef.github.io/inventory/mentoring/" title="UNICEF Mentorship" class="sidelist
+  ">
+															<a href="/inventory" class="d-inline  back-btn">
+																<i class="ti-back-right"></i>
+															</a>
+															<a href="https://unicef.github.io/inventory/mentoring/" class="font-weight-bold d-inline">
+																UNICEF Mentorship
+															</a>
+															<div class="accordion" id="accordionExample">
+																<ul>
+																	<li data-nav-id="https://unicef.github.io/inventory/mentoring/overview/" title="Open Source Mentorship programme overview" class="sidelist
+  ">
+																		<div class="container">
+																			<div class="row">
+																				<div class="col-10">
+																					<a href="https://unicef.github.io/inventory/mentoring/overview/" class="">
+																						Open Source Mentorship programme overview
+																					</a>
+																				</div>
+																			</div>
+																		</li>
+																		<li data-nav-id="https://unicef.github.io/inventory/mentoring/modules/" title="Mentoring modules" class="sidelist
+  active">
+																			<div class="container">
+																				<div class="row">
+																					<div class="col-10">
+																						<a href="https://unicef.github.io/inventory/mentoring/modules/" class="">
+																							Mentoring modules
+																						</a>
+																					</div>
+																				</div>
+																			</li>
+																			<li data-nav-id="https://unicef.github.io/inventory/mentoring/needs-assessment-template/" title="Needs assessment interview template" class="sidelist
+  ">
+																				<div class="container">
+																					<div class="row">
+																						<div class="col-10">
+																							<a href="https://unicef.github.io/inventory/mentoring/needs-assessment-template/" class="">
+																								Needs assessment interview template
+																							</a>
+																						</div>
+																					</div>
+																				</li>
+																				<li data-nav-id="https://unicef.github.io/inventory/mentoring/onboarding/" title="On-boarding guide for UNICEF Venture Fund teams" class="sidelist
+  ">
+																					<div class="container">
+																						<div class="row">
+																							<div class="col-10">
+																								<a href="https://unicef.github.io/inventory/mentoring/onboarding/" class="">
+																									On-boarding guide for UNICEF Venture Fund teams
+																								</a>
+																							</div>
+																						</div>
+																					</li>
+																					<li data-nav-id="https://unicef.github.io/inventory/mentoring/templates/" title="Templates for programme mentors" class="sidelist
+  ">
+																						<div class="container">
+																							<div class="row">
+																								<div class="col-10">
+																									<a href="https://unicef.github.io/inventory/mentoring/templates/" class="">
+																										Templates for programme mentors
+																									</a>
+																								</div>
+																							</div>
+																						</li>
+																						<li data-nav-id="https://unicef.github.io/inventory/mentoring/workflow-metrics/" title="Workflow: Update external UNICEF metrics" class="sidelist
+  ">
+																							<div class="container">
+																								<div class="row">
+																									<div class="col-10">
+																										<a href="https://unicef.github.io/inventory/mentoring/workflow-metrics/" class="">
+																											Workflow: Update external UNICEF metrics
+																										</a>
+																									</div>
+																								</div>
+																							</li>
+																							<li data-nav-id="https://unicef.github.io/inventory/mentoring/workplan-bridge-funding/" title="Workplan: Bridge Fund cohort" class="sidelist
+  ">
+																								<div class="container">
+																									<div class="row">
+																										<div class="col-10">
+																											<a href="https://unicef.github.io/inventory/mentoring/workplan-bridge-funding/" class="">
+																												Workplan: Bridge Fund cohort
+																											</a>
+																										</div>
+																									</div>
+																								</li>
+																							</ul>
+																						</div>
+																					</li>
+																					<div>
+																						<button class="btn btn-primary btn-block" id="generatePDF">Get Pdf</button>
+																					</div>
+																				</ul>
+																			</div>
+																		</div>
+																		<div class="contentContainer py-5 px-5">
+																			<div class="p-lg-5 p-4 bg-white position-relative mx-5 my-3 w-100 contentBox" id="content">
+																				<div class="d-flex flex-row-reverse p-absolute">
+																					<button id="editBtn" value="https://github.com/unicef/inventory/blob/main/content/mentoring/modules.en.adoc" class="editBtn py-2 px-3">Edit this Page</button>
+																				</div>
+																				<div class="p-lg-5 p-3 bg-white">
+																					<h2 id="title">Mentoring modules</h2>
+																					<div class="container">
+																						<span class="text-dark">Justin W. Flory</span>
+																					</div>
+																					<div class="container">
+																						Overview of learning modules currently offered through the UNICEF Open Source Mentorship programme.
+																					</div>
+																					<div class="content mt-5">
+																						<div id="toc" class="toc">
+																							<div id="toctitle">Table of Contents</div>
+																							<ul class="sectlevel1">
+																								<li><a href="#offered">1. Offered modules</a>
+																									<ul class="sectlevel2">
+																										<li><a href="#offered-legal">1.1. Legal &amp; Licensing: Foundations of Open Source intellectual property</a></li>
+																										<li><a href="#offered-launching">1.2. Launching your Open Source project</a></li>
+																										<li><a href="#offered-docs">1.3. Open Source documentation</a></li>
+																										<li><a href="#offered-ci">1.4. Continuous Integration for continuous contribution</a></li>
+																										<li><a href="#offered-archetypes">1.5. Archetypes: Shape and size of Open Source over time</a></li>
+																									</ul>
+																								</li>
+																								<li><a href="#program">2. Module programming</a>
+																									<ul class="sectlevel2">
+																										<li><a href="#program-12mo">2.1. 12-month Venture Fund contracts</a></li>
+																									</ul>
+																								</li>
+																							</ul>
+																						</div>
+																						<div class="paragraph">
+																							<p>The UNICEF Open Source Mentorship programme offers multiple learning modules and mentorship topics.
+																								This page provides an overview of the different modules currently offered through the Open Source Mentorship programme.</p>
+																						</div>
+																						<div class="sect1">
+																							<h2 id="offered">1. Offered modules&nbsp;<a class="hanchor" href="#offered">🔗</a> </h2>
+																							<div class="sectionbody">
+																								<div class="paragraph">
+																									<p>The following modules are currently offered in UNICEF-facilitated mentorship:</p>
+																								</div>
+																								<div class="sect2">
+																									<h3 id="offered-legal">1.1. Legal &amp; Licensing: Foundations of Open Source intellectual property&nbsp;<a class="hanchor" href="#offered-legal">🔗</a> </h3>
+																									<div class="quoteblock">
+																										<blockquote>
+																											<div class="paragraph">
+																												<p>Building an Open Source community is like building a house.
+																													A good house must have a solid foundation, and Open Source projects are no different.
+																													The licenses surrounding Open Source, sometimes called Free Software, are part of the foundation of your Open Source project.
+																													This module introduces the Open Source Definition, the types of Open Source licenses, and how to be strategic and intentional in your choice of licenses.</p>
+																											</div>
+																											<div class="paragraph">
+																												<p>The Open Source licenses are the legal foundation of your project.
+																													By the end of this module, you should understand how the limits and bounds of your Open Source license impact the rules of your business model.</p>
+																											</div>
+																										</blockquote>
+																									</div>
+																									<div class="paragraph">
+																										<p><strong>Topics included</strong>:</p>
+																									</div>
+																									<div class="ulist">
+																										<ul>
+																											<li>
+																												<p>Contributor License Agreements (CLAs)</p>
+																											</li>
+																											<li>
+																												<p>Licenses
+																													(MIT License, Apache License, GPL licenses, etc.)</p>
+																												<div class="ulist">
+																													<ul>
+																														<li>
+																															<p>Copyleft licenses</p>
+																														</li>
+																														<li>
+																															<p>Permissive licenses</p>
+																														</li>
+																													</ul>
+																												</div>
+																											</li>
+																											<li>
+																												<p>Open Source business models</p>
+																											</li>
+																											<li>
+																												<p>Open Source Definition</p>
+																											</li>
+																											<li>
+																												<p>Open Source Initiative</p>
+																											</li>
+																										</ul>
+																									</div>
+																								</div>
+																								<div class="sect2">
+																									<h3 id="offered-launching">1.2. Launching your Open Source project&nbsp;<a class="hanchor" href="#offered-launching">🔗</a> </h3>
+																									<div class="quoteblock">
+																										<blockquote>
+																											<div class="paragraph">
+																												<p>Lift-off!
+																													You know your licensing strategy and you are ready to go Open Source.
+																													Now what?
+																													This module introduces Open Source forges and collaboration platforms.
+																													You will learn how to use these tools effectively and efficiently, as well as ways to structure your project in order to scale with a community over time.</p>
+																											</div>
+																											<div class="paragraph">
+																												<p>This module is for early-stage Open Source projects that are still in active development.
+																													By the end of this module, you should understand common Open Source development workflows and how to enable collaboration with advanced features of your source code-hosting platform.</p>
+																											</div>
+																										</blockquote>
+																									</div>
+																									<div class="paragraph">
+																										<p><strong>Topics included</strong>:</p>
+																									</div>
+																									<div class="ulist">
+																										<ul>
+																											<li>
+																												<p>Brand and identity</p>
+																											</li>
+																											<li>
+																												<p>Git platforms:
+																													GitHub, GitLab, Bitbucket, Pagure, etc.</p>
+																											</li>
+																											<li>
+																												<p>Pull Request workflow</p>
+																											</li>
+																											<li>
+																												<p>READMEs</p>
+																											</li>
+																											<li>
+																												<p>Using issues to manage product feedback</p>
+																											</li>
+																										</ul>
+																									</div>
+																								</div>
+																								<div class="sect2">
+																									<h3 id="offered-docs">1.3. Open Source documentation&nbsp;<a class="hanchor" href="#offered-docs">🔗</a> </h3>
+																									<div class="quoteblock">
+																										<blockquote>
+																											<div class="paragraph">
+																												<p>If everyone knew a programming language, source code alone might be enough.
+																													But most people do not know a programming language, and some people who use your project will not be engineers or developers with specialized knowledge.
+																													Planning, creating, and maintaining Open Source documentation fills an unavoidable gap to improve accessibility and understanding of your Open Source project.
+																													This module introduces the following:</p>
+																											</div>
+																											<div class="ulist">
+																												<ul>
+																													<li>
+																														<p>Common tools and platforms used for Open Source documentation;</p>
+																													</li>
+																													<li>
+																														<p>How to build an automated pipeline to deploy new documentation in real-time;</p>
+																													</li>
+																													<li>
+																														<p>Building a documentation culture and community in your project;</p>
+																													</li>
+																													<li>
+																														<p>Creating structure to enable external contributions to documentation.</p>
+																													</li>
+																												</ul>
+																											</div>
+																											<div class="paragraph">
+																												<p>By the end of this module, your project will have an Open Source documentation site and a plan on how to maintain the documentation over time.
+																													This module is for any Open Source project, at any stage, that wants to improve their documentation acumen and invite others to collaborate and contribute.</p>
+																											</div>
+																										</blockquote>
+																									</div>
+																									<div class="paragraph">
+																										<p><strong>Topics included</strong>:</p>
+																									</div>
+																									<div class="ulist">
+																										<ul>
+																											<li>
+																												<p>Automation tools
+																													(e.g. GitHub Actions, Circle CI, etc.)</p>
+																											</li>
+																											<li>
+																												<p>Contribution guidelines</p>
+																											</li>
+																											<li>
+																												<p>Documentation for developers</p>
+																											</li>
+																											<li>
+																												<p>Documentation for users</p>
+																											</li>
+																											<li>
+																												<p>Tool-chains</p>
+																												<div class="ulist">
+																													<ul>
+																														<li>
+																															<p>Python Sphinx</p>
+																														</li>
+																														<li>
+																															<p>Hugo</p>
+																														</li>
+																														<li>
+																															<p>Docusaurus
+																																(Facebook)</p>
+																														</li>
+																													</ul>
+																												</div>
+																											</li>
+																										</ul>
+																									</div>
+																								</div>
+																								<div class="sect2">
+																									<h3 id="offered-ci">1.4. Continuous Integration for continuous contribution&nbsp;<a class="hanchor" href="#offered-ci">🔗</a> </h3>
+																									<div class="quoteblock">
+																										<blockquote>
+																											<div class="paragraph">
+																												<p>As in life, Open Source projects will change over time.
+																													As you manage new changes to the source code of a project, how do you verify that new changes do not break existing code?
+																													You can spend time manually validating changes and testing them locally.
+																													But you can also automate it using workflow automation tools.
+																													This module introduces Continuous Integration (C.I.) and Continuous Deployment (C.D.) in an Open Source context.</p>
+																											</div>
+																											<div class="paragraph">
+																												<p>By the end of this module, your project will have a working CI/CD pipeline for your Open Source repositories.
+																													New changes to the repositories will be validated against a basic set of tests, depending on what kind of software you are building.
+																													This module is for any Open Source project, at any stage, that wants to improve code quality, code health, and save time from manually testing and validating new code changes.</p>
+																											</div>
+																										</blockquote>
+																									</div>
+																									<div class="paragraph">
+																										<p><strong>Topics included</strong>:</p>
+																									</div>
+																									<div class="ulist">
+																										<ul>
+																											<li>
+																												<p>CI/CD platforms
+																													(e.g. Circle CI, GitHub Actions, Jenkins, etc.)</p>
+																											</li>
+																											<li>
+																												<p>Code test coverage and unit tests, if applicable</p>
+																											</li>
+																											<li>
+																												<p>Deploy new changes to software or documentation to a testing or production environment</p>
+																											</li>
+																											<li>
+																												<p>Pull Request Workflows with a CI pipeline</p>
+																											</li>
+																											<li>
+																												<p>Code health tools to monitor and alert to best practices and warning signs</p>
+																											</li>
+																										</ul>
+																									</div>
+																								</div>
+																								<div class="sect2">
+																									<h3 id="offered-archetypes">1.5. Archetypes: Shape and size of Open Source over time&nbsp;<a class="hanchor" href="#offered-archetypes">🔗</a> </h3>
+																									<div class="quoteblock">
+																										<blockquote>
+																											<div class="paragraph">
+																												<p>Building an Open Source community is like building a house.
+																													Before you can invite people over, you need a solid foundation to build your community on.
+																													If you have completed the previous modules, your project is primed for working with new contributors.
+																													This reflective module introduces you to the Mozilla Open Source Archetypes report and understanding a theory of change for Open Source.</p>
+																											</div>
+																											<div class="paragraph">
+																												<p>By the end of this module, you will have an understanding of the different forms an Open Source project and community may take.
+																													You will also be able to identify where your project falls and make predictions on where it will go next.
+																													This module is for any Open Source project anticipating growth, change, or evolution to its code or the community.</p>
+																											</div>
+																										</blockquote>
+																									</div>
+																									<div class="paragraph">
+																										<p><strong>Topics included</strong>:</p>
+																									</div>
+																									<div class="ulist">
+																										<ul>
+																											<li>
+																												<p>Project archetypes:</p>
+																												<div class="ulist">
+																													<ul>
+																														<li>
+																															<p>Business-to-Business (B2B) Open Source</p>
+																														</li>
+																														<li>
+																															<p>Multi-Vendor Infrastructure</p>
+																														</li>
+																														<li>
+																															<p>Rocket Ship to Mars</p>
+																														</li>
+																														<li>
+																															<p>Controlled Ecosystem</p>
+																														</li>
+																														<li>
+																															<p>Wide Open</p>
+																														</li>
+																														<li>
+																															<p>Mass Market</p>
+																														</li>
+																														<li>
+																															<p>Speciality Library</p>
+																														</li>
+																														<li>
+																															<p>Trusted Vendor</p>
+																														</li>
+																														<li>
+																															<p>Upstream Dependency</p>
+																														</li>
+																													</ul>
+																												</div>
+																											</li>
+																											<li>
+																												<p>Business models:</p>
+																												<div class="ulist">
+																													<ul>
+																														<li>
+																															<p>Professional/enterprise versions</p>
+																														</li>
+																														<li>
+																															<p>Services around your product</p>
+																														</li>
+																														<li>
+																															<p>Services <em>*are*</em> your product</p>
+																														</li>
+																														<li>
+																															<p>Content</p>
+																														</li>
+																														<li>
+																															<p>Packaging</p>
+																														</li>
+																														<li>
+																															<p>Franchising</p>
+																														</li>
+																														<li>
+																															<p>Training</p>
+																														</li>
+																													</ul>
+																												</div>
+																											</li>
+																										</ul>
+																									</div>
+																								</div>
+																							</div>
+																						</div>
+																						<div class="sect1">
+																							<h2 id="program">2. Module programming&nbsp;<a class="hanchor" href="#program">🔗</a> </h2>
+																							<div class="sectionbody">
+																								<div class="paragraph">
+																									<p>The above modules are typically offered in groups with other modules.
+																										The programmes and most common combination of modules are described below:</p>
+																								</div>
+																								<div class="sect2">
+																									<h3 id="program-12mo">2.1. 12-month Venture Fund contracts&nbsp;<a class="hanchor" href="#program-12mo">🔗</a> </h3>
+																									<div class="paragraph">
+																										<p>12 months is the standard length of the Open Source Mentorship programme.
+																											12-month contracts are typically offered through the procurement process through the UNICEF Venture Fund.
+																											The breakdown below orders the modules and adds context to what content is covered.</p>
+																									</div>
+																									<div class="sect3">
+																										<h4 id="program-12mo-q1">2.1.1. Q1: Foundations&nbsp;<a class="hanchor" href="#program-12mo-q1">🔗</a> </h4>
+																										<div class="paragraph">
+																											<p>This quarter focuses on establishing an Open Source project and laying the groundwork for future work.</p>
+																										</div>
+																										<div class="paragraph">
+																											<p><strong>Milestones</strong>:</p>
+																										</div>
+																										<div class="ulist">
+																											<ul>
+																												<li>
+																													<p>Determine licensing strategy for Open Source intellectual property (i.e. permissive or copyleft).
+																														Apply an Open Source Initiative-approved license to a public source code repository.</p>
+																												</li>
+																												<li>
+																													<p>Create READMEs (in English) for all public repositories.
+																														READMEs should include:</p>
+																													<div class="ulist">
+																														<ul>
+																															<li>
+																																<p>Overview of specific repo</p>
+																															</li>
+																															<li>
+																																<p>Developer environment instructions (i.e. how to set software up)</p>
+																															</li>
+																															<li>
+																																<p>Note how repo connects into overall product</p>
+																															</li>
+																															<li>
+																																<p>List of any Open Source software used to create product (including tools and frameworks).</p>
+																															</li>
+																														</ul>
+																													</div>
+																												</li>
+																												<li>
+																													<p>Create a public Open Source documentation with a corresponding public source code repository.
+																														Use automation tools to set up automatic deployments of HTML documentation site from public source code repository (e.g. with Continuous Integration).</p>
+																												</li>
+																												<li>
+																													<p>Establish an Open Source quality assurance process.
+																														Explore unit testing frameworks for front-end/back-end software, if applicable.
+																														Document user stories and test cases for games, if applicable.
+																														Document data structures and algorithm decisions for data science, if applicable.</p>
+																												</li>
+																												<li>
+																													<p>Identify a Code of Conduct for any public Open Source repositories.
+																														Upload it to public source code repositories.
+																														Create internal documentation for how to respond to a Code of Conduct report, if one were to be made.</p>
+																												</li>
+																												<li>
+																													<p>Follow the Pull Request Workflow when contributing code into your Open Source repositories.</p>
+																												</li>
+																											</ul>
+																										</div>
+																									</div>
+																									<div class="sect3">
+																										<h4 id="program-12mo-q2">2.1.2. Q2: Structures&nbsp;<a class="hanchor" href="#program-12mo-q2">🔗</a> </h4>
+																										<div class="paragraph">
+																											<p>This quarter focuses on building structure, process, and organization into your Open Source project and community.</p>
+																										</div>
+																										<div class="paragraph">
+																											<p><strong>Milestones</strong>:</p>
+																										</div>
+																										<div class="ulist">
+																											<ul>
+																												<li>
+																													<p>MUST have a OSI-approved license distributed with public source code repositories by end of Q2.</p>
+																												</li>
+																												<li>
+																													<p>Create contributing guidelines for all Open Source repositories.
+																														Explain how someone makes a contribution to the projects.</p>
+																												</li>
+																												<li>
+																													<p>Create public tickets/issues that correspond to planned features and known bugs/problems with Open Source repositories.</p>
+																												</li>
+																												<li>
+																													<p>Use a public project management board to track progress on public tickets/issues (e.g. Taiga, GitHub/GitLab Projects, JIRA, Trello, or similar).</p>
+																												</li>
+																												<li>
+																													<p>Add either developer or user documentation to the Open Source documentation site.
+																														(Hint: Developer docs often include API docs, architecture or system state diagrams, or deployment guides.)</p>
+																												</li>
+																												<li>
+																													<p>Advance Open Source quality assurance.
+																														Target 15% code coverage for unit tests, if applicable.</p>
+																												</li>
+																											</ul>
+																										</div>
+																									</div>
+																									<div class="sect3">
+																										<h4 id="program-12mo-q3">2.1.3. Q3: Entrypoints&nbsp;<a class="hanchor" href="#program-12mo-q3">🔗</a> </h4>
+																										<div class="paragraph">
+																											<p>This quarter focuses on building strong entrypoints for new contributors to enter your project community.</p>
+																										</div>
+																										<div class="paragraph">
+																											<p><strong>Milestones</strong>:</p>
+																										</div>
+																										<div class="ulist">
+																											<ul>
+																												<li>
+																													<p>Advance Open Source quality assurance.
+																														Set up a Continuous Integration / Continuous Deployment (CI/CD) pipeline from source code repository.
+																														Set up checks or tests on new Pull Requests.
+																														Target 40% code coverage, if applicable.</p>
+																												</li>
+																												<li>
+																													<p>Add ticket/issue templates to source code repositories for new tickets opened by the public and the core contributor team.</p>
+																												</li>
+																												<li>
+																													<p>Create &#34;Good First Issues&#34; for bite-sized, low-commitment contributions for new developers to make to your source code repositories.</p>
+																												</li>
+																												<li>
+																													<p>Establish a public communication platform for the public to interact with project development team.
+																														(Suggested: UNICEF Venture Fund community forum.)</p>
+																												</li>
+																												<li>
+																													<p>Add either developer or user documentation to the Open Source documentation site, whichever was not completed the previous quarter.</p>
+																												</li>
+																											</ul>
+																										</div>
+																									</div>
+																									<div class="sect3">
+																										<h4 id="program-12mo-q4">2.1.4. Q4: Graduation&nbsp;<a class="hanchor" href="#program-12mo-q4">🔗</a> </h4>
+																										<div class="paragraph">
+																											<p>This quarter leaves time to address any pending items from previous quarters, and looks at creative opportunities based on the context of a specific project.</p>
+																										</div>
+																										<div class="paragraph">
+																											<p><strong>Milestones</strong>:</p>
+																										</div>
+																										<div class="ulist">
+																											<ul>
+																												<li>
+																													<p>Finalize Open Source documentation. User and developer documentation should be available.</p>
+																												</li>
+																												<li>
+																													<p>Finalize Open Source quality assurance. Achieve 80% code test coverage, if applicable.</p>
+																												</li>
+																												<li>
+																													<p>Growth planning, contextual analysis, and focused support with Open Source Mentor.</p>
+																												</li>
+																											</ul>
+																										</div>
+																									</div>
+																								</div>
+																							</div>
+																						</div>
+																					</div>
+																					<p class="post-meta border-bottom pb-3 mb-0 mt-3">Updated on 19 Sep 2022</p>
+																					<nav class="pagination mt-3">
+																						<a class="nav nav-prev" href="https://unicef.github.io/inventory/mentoring/overview/" aria-label="Previous page" ><i class="ti-arrow-left mr-2"></i> <span class="d-none d-md-block">Open Source Mentorship programme overview</span></a>
+																						<a class="nav nav-next" href="https://unicef.github.io/inventory/mentoring/needs-assessment-template/" aria-label="Previous page" > <span class="d-none d-md-block">Needs assessment interview template</span><i class="ti-arrow-right ml-2"></i></a>
+																					</nav>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																</section>
+																<!-- /details page -->
+																<!-- footer -->
+																<footer class="section bg-primary p-4 mt-5">
+																	<div class="container">
+																		<div class="row align-items-center">
+																			<div class="col-md-3 text-md-left text-center">
+																				<ul>
+																					<li><a class="nav-link text-white" href="/inventory">HOME</a></li>
+																					<li class="nav-item">
+																						<a class="nav-link text-white text-uppercase" href="https://unicef.github.io/inventory/faq">FAQ</a>
+																					</li>
+																					<li class="nav-item">
+																						<a class="nav-link text-white text-uppercase" href="https://unicef.github.io/inventory/DPG%20indicators">DPG indicators</a>
+																					</li>
+																					<li class="nav-item">
+																						<a class="nav-link text-white text-uppercase" href="https://unicef.github.io/inventory/cohorts">cohorts</a>
+																					</li>
+																				</ul>
+																			</div>
+																			<div class="col-md-6 text-md-center text-center">
+																				<p class="mb-md-0 mb-4 text-white">The UNICEF Open Source Inventory is a knowledge-base of best practices, resources, and information about working and leading Open. This is maintained as part of the Open Source Mentorship programme offered by the UNICEF Venture Fund. The Inventory provides mentorship and guidance to anyone seeking to adopt best practices in their journey to building an Open Source project and community. It is self-serve, and can be used at various phases of building a project and community.</p>
+																			</div>
+																			<div class="col-md-3 text-md-right text-center">
+																				<ul class="text-white">
+																					<li class="nav-item">
+																						<a class="nav-link text-white font-weight-bold px-0" href="https://www.unicef.org/">UNICEF Global</a>
+																					</li>
+																					<li class="nav-item">
+																						<a class="nav-link text-white font-weight-bold px-0" href="https://www.unicefinnovationfund.org/">UNICEF Venture Fund</a>
+																					</li>
+																					<li class="nav-item">
+																						<a class="nav-link text-white font-weight-bold px-0" href="https://www.unicef.org/legal">Legal</a>
+																						<p class="h6 text-md-right font-weight-light">Find legal information and policies related to UNICEF Global&#39;s digital communications.</p>
+																					</li>
+																				</ul>
+																				<ul class="list-inline">
+																					<li class="list-inline-item"><a class="text-color d-inline-block p-2 text-white socialIcon" href="https://github.com/unicef/inventory" aria-label="UNICEF Open Source Inventory on GitHub"><i class="ti-github"></i></a></li>
+																					<li class="list-inline-item"><a class="text-color d-inline-block p-2 text-white socialIcon" href="https://twitter.com/UNICEFinnovate" aria-label="@UNICEFinnovate on Twitter"><i class="ti-twitter"></i></a></li>
+																				</ul>
+																			</div>
+																		</div>
+																	</div>
+																	<p class="text-md-center text-center text-white mt-3 h6 font-italic">Creative Commons BY-SA 4.0. Site theme maintained by UNICEF. Original theme, Dot, created by ThemeFisher.</p>
+																</footer>
+																<!-- /footer -->
+																<!-- Main Script -->
+																<script src="https://unicef.github.io/inventory/js/script.min.js"></script>
+															</body>
+														</html>
