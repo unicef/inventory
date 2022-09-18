@@ -1,0 +1,21 @@
+---
+title: Open Hardware documentation
+description: How does documentation work for Open Source Hardware? This page provides a brief introduction.
+tags: ["reading list"]
+downloadBtn: "true"
+aliases:
+    - /hardware/documentation/
+
+# search related keywords
+keywords: ["docs", "documentation", "hardware", "openknowhow"]
+
+---
+
+This page offers information and resources about documenting Open Hardware projects.
+
+
+== Conventions & standards
+
+* https://app.standardsrepo.com/MakerNetAlliance/OpenKnowHow/wiki[Open Know-How Manifest Specification]:
+  "_The objective of this specification is to improve the open-ness of know-how for making hardware by improving the discoverability, portability and translatability of knowledge._"
+  Provides a format and specification for how to document and release Open Hardware projects and design schematics.

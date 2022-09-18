@@ -1,0 +1,10 @@
+---
+title: 1. Relevance to Sustainable Development Goals
+description: Digital public goods must be designed and developed to advance the Sustainable Development Goals (SDGs) and demonstrate such by providing links/documentation that support their relevance.
+type: indicator
+tags: ["SDGs", "sustainability"]
+downloadBtn: "true"
+
+---
+
+_There is no content here yet!_

@@ -1,7 +1,0 @@
----
-title: "Sustainability"
-icon: "ti-support"
-description: "Creating Open works with a future-oriented mindset for sustainability."
-type: "docs"
-
----

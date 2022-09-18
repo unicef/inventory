@@ -1,0 +1,6 @@
+---
+title: 9. Do No Harm by Design
+description: Digital public goods must be designed to anticipate, prevent, and do no harm by design.
+type: indicator
+
+---

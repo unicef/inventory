@@ -1,0 +1,7 @@
+---
+title: 2. Use of Approved Open Licenses
+description: Digital public goods must demonstrate the use of an approved open license. For Open Source software, only OSI-approved licenses are accepted. For open content collections, the use of a Creative Commons license is required. DPGs are encourageed to use a license that allows for both derivatives and commercial reuse (CC-BY and CC-BY-SA), or dedicate content to the public domain (CC0); licenses that do not allow for commercial reuse (CC-BY-NC and CC-BY-NC-SA) are also accepted. For open data, an Open Data Commons-approved license is required.
+type: indicator
+
+---
+

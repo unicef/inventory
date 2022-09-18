@@ -1,0 +1,8 @@
+---
+title: UNICEF Drones for Sustainable Development Goals Toolkit
+description: A collection of tools curated by the Office of Innovation. The primary objective of the toolkit is to provide an easily accessible repository of drone-related open-source software, data, A.I. models, standards, courseware, and guides that address the SDGs.
+categories: toolkits
+type: redirect
+redirectUrl: https://unicef.github.io/drone-4sdgtoolkit
+
+---

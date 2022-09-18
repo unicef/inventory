@@ -1,13 +1,14 @@
 ---
-title: "Meta"
-icon: "ti-blackboard"
-description: "Meta documents, notes, and templates for mentors and program admins."
-type: "docs"
+title: Site maintenance
+icon: ti-pencil-alt
+description: Documentation and reference material about this website, the UNICEF Open Source Inventory.
+type: docs
+weight: 50
+aliases:
+    - /meta/inventory/
 
 ---
 
-This section includes documents, notes, and other templates used by mentors or program admins.
-If you want to run your own Open Source Mentorship program, this is a good place to reference!
-If you are a team receiving Open Source Mentorship, this section may not be very useful.
-
+This section includes documentation about managing and maintaining the UNICEF Open Source Inventory, i.e. this website.
+You can find content specific to maintaining the site from the software and content point-of-view.
 Use the sidebar to navigate to different topics.

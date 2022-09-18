@@ -1,0 +1,14 @@
+---
+title: UNICEF Mentorship
+icon: ti-blackboard
+description: Information about the Open Source Technical Assistance mentoring programme offered by the UNICEF Venture Fund.
+type: docs
+weight: 30
+aliases:
+    - /meta/mentorship/
+
+---
+
+This sub-section includes documentation about the UNICEF link:++{{< relref "overview" >}}++[Open Source Mentorship programme].
+You can find content specific to logistics and day-to-day management of the programme by UNICEF Office of Innovation mentors.
+Use the sidebar to navigate to different topics.
