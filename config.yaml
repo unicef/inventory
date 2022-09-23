@@ -1,0 +1,394 @@
+---
+###############################################################################
+#                                                                             #
+#                            WEBSITE CONFIGURATION                            #
+#                                                                             #
+###############################################################################
+
+
+# --- base website settings ---
+
+baseURL: https://unicef.github.io/inventory/
+title: UNICEF O.S. Inventory
+theme: inventory
+languageCode: en-us
+enableEmoji: true
+enableGitInfo: true
+
+# Optional: Add Google Analytics tracking support.
+googleAnalytics: "G-80FMX4TPM0"
+
+
+# --- security settings ---
+
+security:
+  exec:
+    allow: ['^dart-sass-embedded$', '^go$', '^npx$', '^postcss$', '^asciidoctor$']
+
+
+# --- markup settings ---
+
+markup:
+  asciidocExt:
+    preserveTOC: true
+    sectionNumbers: true
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    anchorLineNos: false
+    codeFences: true
+    guessSyntax: false
+    hl_Lines: ""
+    lineAnchors: ""
+    lineNoStart: 1
+    lineNos: false
+    lineNumbersInTable: true
+    noClasses: true
+    style: murphy
+    tabWidth: 4
+
+
+# --- privacy settings ---
+
+privacy:
+  googleAnalytics:
+    anonymizeIP: true
+    respectDoNotTrack: true
+  twitter:
+    enableDNT: true
+  vimeo:
+    enableDNT: true
+  youtube:
+    privacyEnhanced: true
+
+
+# --- custom settings ---
+
+params:
+  # "Edit this page" feature: git forge content base link
+  # [Example] editPrefix: https://github.com/username/repo-name/blob/main/content
+  editPrefix: https://github.com/unicef/inventory/blob/main/content
+
+  # Shown on all pages. When logo is empty, it will show your site title, set above.
+  logo: "images/unicef-logo.png"
+
+  # OpenGraph data
+  description: UNICEF Open Source Inventory. A UNICEF Global Innovation knowledge base of best practices and resources for working and leading Open.
+  author: Justin W. Flory, UNICEF Office of Innovation, and others
+  # Tip: Find a royalty-free image from unsplash.com for an OpenGraph image.
+  image: "images/UNI309823.jpg"
+
+  # customize color
+  primary_color: "#1CABE2"
+  primary_color_light: "#1b66b1"
+  body_color: "#f2f4f6"
+  text_color: "#636363"
+  text_color_dark: "#374ea2"
+  text_title_color: "#ffffff"
+  white_color: "#ffffff"
+  light_color: "#f8f9fa"
+
+  # font family (choose from https://fonts.google.com/)
+  font_family: "Open+Sans"
+
+  # contact form action (works with https://formspree.io)
+  contact_form_action: "#"
+
+  # related article number limit
+  article_count: 3
+
+  # brand and identity information
+  brand:
+    parent_org_name: UNICEF Global
+    parent_org_url: https://www.unicef.org/
+    parent_org_url_legal: https://www.unicef.org/legal
+
+  # DPG Standard indicators
+  dpgs:
+    - dpg1: Relevance to Sustainable Development Goals
+    - dpg2: Use of Approved Open Licenses
+    - dpg3: Clear Ownership
+    - dpg4: Platform Independence
+    - dpg5: Documentation
+    - dpg6: Mechanism for Extracting Data
+    - dpg7: Adherence to Privacy and Applicable Laws
+    - dpg8: Adherence to Standards & Best Practices
+    - dpg9: Do No Harm by Design
+
+
+# --- social platform settings ---
+# themify icon pack : https://themify.me/themify-icons
+
+  social:
+    - icon: ti-github
+      name: UNICEF Open Source Inventory on GitHub
+      link: https://github.com/unicef/inventory
+    - icon: ti-twitter-alt
+      name: "@UNICEFinnovate on Twitter"
+      link: https://twitter.com/UNICEFinnovate
+
+
+# --- taxonomy settings ---
+
+taxonomies:
+  alert: alerts
+  category: categories
+  downloadable: downloadBtn
+
+
+# --- Team Profiles settings ---
+
+cascade:
+  - type: profiles
+    _target:
+      path: "/cohorts/*/**"
+  - type: team
+    _target:
+      path: "/cohorts/**"
+
+
+# --- multilingual settings ---
+
+Languages:
+############################# English #############################
+  en:
+    languageName: en
+    languageCode: en-us
+    weight: 1
+    home: Home
+    copyright: "Creative Commons Attribution-ShareAlike 4.0 (CC BY-SA-4.0). Site theme maintained by the [UNICEF Office of Innovation](https://www.unicef.org/innovation/)."
+    params:
+      banner:
+        title: UNICEF Open Source Inventory
+        subtitle: A UNICEF Global Innovation knowledge base of best practices and resources for working and leading Open.
+        bg_image: images/banner.jpg
+        placeholder: Have a question? Search the site here.
+      cta:
+        enable: false
+        title: Formspree integration
+        content: Create a quick and easy contact form for site visitors to get in touch using built-in Formspree integration.
+        button:
+          enable: false
+          label: See the form
+          link: contact
+      footer:
+        mainSite: https://www.unicefinnovationfund.org/
+        mainSiteName: UNICEF Venture Fund
+        description: The UNICEF Open Source Inventory is a knowledge-base of best practices, resources, and information about working and leading Open. This is maintained as part of the Open Source Mentorship programme offered by the UNICEF Venture Fund. The Inventory provides mentorship and guidance to anyone seeking to adopt best practices in their journey to building an Open Source project and community. It is self-serve, and can be used at various phases of building a project and community.
+
+    # --- navigation menu ---
+    menu:
+      main:
+        # --- navigation option 1: FAQ ---
+        - name: FAQ
+          weight: 10
+          url: faq
+
+        # --- navigation option 2: DPG indicators ---
+        - name: DPG indicators
+          weight: 20
+          url: dpg-indicators
+          hasChildren: true
+
+        - name: 1. Sustainable Development Goals
+          parent: DPG indicators
+          weight: 10
+          url: dpg-indicators/1/
+
+        - name: 2. Use of Approved Open Licenses
+          parent: DPG indicators
+          weight: 20
+          url: dpg-indicators/2/
+
+        - name: 3. Clear Ownership
+          parent: DPG indicators
+          weight: 30
+          url: dpg-indicators/3/
+
+        - name: 4. Platform Independence
+          parent: DPG indicators
+          weight: 40
+          url: dpg-indicators/4/
+
+        - name: 5. Documentation
+          parent: DPG indicators
+          weight: 50
+          url: dpg-indicators/5/
+
+        - name: 6. Data extraction
+          parent: DPG indicators
+          weight: 60
+          url: dpg-indicators/6/
+
+        - name: 7. Adherence to Privacy and Applicable Laws
+          parent: DPG indicators
+          weight: 70
+          url: dpg-indicators/7/
+
+        - name: 8. Adherence to Standards and Best Practices
+          parent: DPG indicators
+          weight: 80
+          url: dpg-indicators/8/
+
+        - name: 9. Do No Harm by Design
+          parent: DPG indicators
+          weight: 90
+          url: dpg-indicators/9/
+
+        # --- navigation option 3: Venture Fund cohorts ---
+        - name: Venture Fund cohorts
+          weight: 30
+          url: cohorts
+          hasChildren: true
+
+        - name: All
+          parent: Venture Fund cohorts
+          weight: 10
+          url: cohorts
+
+        - name: Blockchain
+          parent: Venture Fund cohorts
+          weight: 20
+          url: cohorts/blockchain
+
+        - name: Data Science & A.I.
+          parent: Venture Fund cohorts
+          weight: 30
+          url: cohorts/ds-ai
+
+        - name: Drones
+          parent: Venture Fund cohorts
+          weight: 40
+          url: cohorts/drones
+
+        - name: VR + AR
+          parent: Venture Fund cohorts
+          weight: 50
+          url: cohorts/vr-ar
+          
+        - name: Others
+          parent: Venture Fund cohorts
+          weight: 60
+          url: cohorts/others
+
+############################# español / Spanish #############################
+  es:
+    languageName: es
+    languageCode: es-mx
+    weight: 2
+    home: Página principal
+    copyright: "Creative Commons Attribution-ShareAlike 4.0 (CC BY-SA-4.0). La plantilla del sitio mantenido por la [Oficina de Innovación de UNICEF](https://www.unicef.org/innovation/)."
+    params:
+      banner:
+        title: Inventario de Open Source de UNICEF
+        subtitle: Una base de conocimientos de innovación mundial del UNICEF sobre mejores prácticas y recursos para trabajar y dirigir Open.
+        bg_image: images/banner.jpg
+        placeholder: ¿Ud. tiene una pregunta? Usted busca el sitio aquí.
+      cta:
+        enable: false
+        title: Integración de Formspree
+        content: Cree un formulario de contacto rápido y fácil para que los visitantes del sitio se comuniquen con la integración integrada de Formspree.
+        button:
+          enable: false
+          label: Ver el formulario
+          link: contact
+      footer:
+        mainSite: https://www.unicefinnovationfund.org/
+        mainSiteName: UNICEF Venture Fund
+        description: El Inventario de Open Source de UNICEF es una base de conocimiento de mejores prácticas, recursos e información sobre cómo trabajar y liderar Open. Esto se mantiene como parte del programa Open Source Mentorship ofrecido por UNICEF Venture Fund. El Inventario brinda tutoría y orientación a cualquier persona que busque adoptar las mejores prácticas en su camino hacia la construcción de un proyecto y una comunidad de Open Source. Es de autoservicio y se puede utilizar en varias fases de la construcción de un proyecto y una comunidad.
+
+    # --- navigation menu ---
+    menu:
+      main:
+        # --- navigation option 1: FAQ ---
+        - name: FAQ
+          weight: 10
+          url: faq
+
+        # --- navigation option 2: DPG indicators ---
+        - name: Indicadores DPG
+          weight: 20
+          url: dpg-indicators
+          hasChildren: true
+
+        - name: 1. Metas de Desarrollo Sostenible
+          parent: Indicadores DPG
+          weight: 10
+          url: dpg-indicators/1/
+
+        - name: 2. Uso de licencias "Open" aprobadas
+          parent: Indicadores DPG
+          weight: 20
+          url: dpg-indicators/2/
+
+        - name: 3. La propiedad es clara
+          parent: Indicadores DPG
+          weight: 30
+          url: dpg-indicators/3/
+
+        - name: 4. Independencia de la plataforma
+          parent: Indicadores DPG
+          weight: 40
+          url: dpg-indicators/4/
+
+        - name: 5. Documentación
+          parent: Indicadores DPG
+          weight: 50
+          url: dpg-indicators/5/
+
+        - name: 6. Extracción de datos
+          parent: Indicadores DPG
+          weight: 60
+          url: dpg-indicators/6/
+
+        - name: 7. Cumplimiento de la privacidad y las leyes aplicables
+          parent: Indicadores DPG
+          weight: 70
+          url: dpg-indicators/7/
+
+        - name: 8. Cumplimiento de estándares y mejores prácticas
+          parent: Indicadores DPG
+          weight: 80
+          url: dpg-indicators/8/
+
+        - name: 9. No hacer daño por diseño
+          parent: Indicadores DPG
+          weight: 90
+          url: dpg-indicators/9/
+
+        # --- navigation option 3: Venture Fund cohorts ---
+        - name: Cohortes de Venture Fund
+          weight: 30
+          url: cohorts
+          hasChildren: true
+
+        - name: Todos
+          parent: Cohortes de Venture Fund
+          weight: 10
+          url: cohorts
+
+        - name: Blockchain
+          parent: Cohortes de Venture Fund
+          weight: 20
+          url: cohorts/blockchain
+
+        - name: Ciencia de datos e I.A.
+          parent: Cohortes de Venture Fund
+          weight: 30
+          url: cohorts/ds-ai
+
+        - name: Drones
+          parent: Cohortes de Venture Fund
+          weight: 40
+          url: cohorts/drones
+
+        - name: VR + AR
+          parent: Cohortes de Venture Fund
+          weight: 50
+          url: cohorts/vr-ar
+          
+        - name: Otras
+          parent: Cohortes de Venture Fund
+          weight: 60
+          url: cohorts/others
