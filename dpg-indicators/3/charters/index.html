@@ -50,12 +50,13 @@
 		<script src="https://unicef.github.io/inventory/plugins/match-height/jquery.matchHeight-min.js"></script>
 		<script async src="https://www.googletagmanager.com/gtag/js?id=G-80FMX4TPM0"></script>
 		<script>
-			var doNotTrack = false;
+			var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+			var doNotTrack = (dnt == "1" || dnt == "yes");
 			if (!doNotTrack) {
 				window.dataLayer = window.dataLayer || [];
 				function gtag(){dataLayer.push(arguments);}
 				gtag('js', new Date());
-				gtag('config', 'G-80FMX4TPM0', { 'anonymize_ip': false });
+				gtag('config', 'G-80FMX4TPM0', { 'anonymize_ip': true });
 			}
 		</script>
 		<!-- create /layouts/partials/overrides/header.html in your own theme or root directory to add your custom content here -->
@@ -120,12 +121,12 @@
 							<li class="nav-item dropdown">
 								<a class="nav-link dropdown-toggle text-white" href="#" role="button" data-toggle="dropdown"
             aria-haspopup="true" aria-expanded="false">
-									cohorts
+									Venture Fund cohorts
 								</a>
 								<div class="dropdown-menu">
 									<a class="dropdown-item" href="https://unicef.github.io/inventory/cohorts">All</a>
 									<a class="dropdown-item" href="https://unicef.github.io/inventory/cohorts/blockchain">Blockchain</a>
-									<a class="dropdown-item" href="https://unicef.github.io/inventory/cohorts/ds-ai">Data Science &amp; AI</a>
+									<a class="dropdown-item" href="https://unicef.github.io/inventory/cohorts/ds-ai">Data Science &amp; A.I.</a>
 									<a class="dropdown-item" href="https://unicef.github.io/inventory/cohorts/drones">Drones</a>
 									<a class="dropdown-item" href="https://unicef.github.io/inventory/cohorts/vr-ar">VR &#43; AR</a>
 									<a class="dropdown-item" href="https://unicef.github.io/inventory/cohorts/others">Others</a>
@@ -184,11 +185,11 @@
 																	</a>
 																</div>
 																<div class="col-2 ">
-																	<i class="fas fa-chevron-down align-middle" type="button" data-toggle="collapse" data-target="#collapse956fa89e3c4ff215a1c04c309cf49da9" aria-expanded="false" aria-controls='collapse956fa89e3c4ff215a1c04c309cf49da9'>
+																	<i class="fas fa-chevron-down align-middle" type="button" data-toggle="collapse" data-target="#collapsed9f0930e49919a6f852f1cc4caa3f4c5" aria-expanded="false" aria-controls='collapsed9f0930e49919a6f852f1cc4caa3f4c5'>
 																	</i>
 																</div>
 															</div>
-															<div id='collapse956fa89e3c4ff215a1c04c309cf49da9' class="collapse" aria-labelledby="heading956fa89e3c4ff215a1c04c309cf49da9" data-parent="#accordionExample">
+															<div id='collapsed9f0930e49919a6f852f1cc4caa3f4c5' class="collapse" aria-labelledby="headingd9f0930e49919a6f852f1cc4caa3f4c5" data-parent="#accordionExample">
 																<div class="sidebar-scroll">
 																	<ul>
 																		<li data-nav-id="https://unicef.github.io/inventory/dpg-indicators/2/gpl-comparison/" title="GPLv2 vs. GPLv3" class="sidelist
@@ -249,11 +250,11 @@
 																						</a>
 																					</div>
 																					<div class="col-2 ">
-																						<i class="fas fa-chevron-down align-middle" type="button" data-toggle="collapse" data-target="#collapse9099594944f8afcaa1de352c6c1fc0f3" aria-expanded="false" aria-controls='collapse9099594944f8afcaa1de352c6c1fc0f3'>
+																						<i class="fas fa-chevron-down align-middle" type="button" data-toggle="collapse" data-target="#collapsec4d9a9501cffa8a39ec9c31940f465f2" aria-expanded="false" aria-controls='collapsec4d9a9501cffa8a39ec9c31940f465f2'>
 																						</i>
 																					</div>
 																				</div>
-																				<div id='collapse9099594944f8afcaa1de352c6c1fc0f3' class="collapse" aria-labelledby="heading9099594944f8afcaa1de352c6c1fc0f3" data-parent="#accordionExample">
+																				<div id='collapsec4d9a9501cffa8a39ec9c31940f465f2' class="collapse" aria-labelledby="headingc4d9a9501cffa8a39ec9c31940f465f2" data-parent="#accordionExample">
 																					<div class="sidebar-scroll">
 																						<ul>
 																							<li data-nav-id="https://unicef.github.io/inventory/dpg-indicators/3/charters/" title="Charters" class="sidelist
@@ -314,11 +315,11 @@
 																											</a>
 																										</div>
 																										<div class="col-2 ">
-																											<i class="fas fa-chevron-down align-middle" type="button" data-toggle="collapse" data-target="#collapsec9c290419895ca03456dfe1ffa9fa4c3" aria-expanded="false" aria-controls='collapsec9c290419895ca03456dfe1ffa9fa4c3'>
+																											<i class="fas fa-chevron-down align-middle" type="button" data-toggle="collapse" data-target="#collapsea4c9f91fa591d0f6cf8a2c45c393e904" aria-expanded="false" aria-controls='collapsea4c9f91fa591d0f6cf8a2c45c393e904'>
 																											</i>
 																										</div>
 																									</div>
-																									<div id='collapsec9c290419895ca03456dfe1ffa9fa4c3' class="collapse" aria-labelledby="headingc9c290419895ca03456dfe1ffa9fa4c3" data-parent="#accordionExample">
+																									<div id='collapsea4c9f91fa591d0f6cf8a2c45c393e904' class="collapse" aria-labelledby="headinga4c9f91fa591d0f6cf8a2c45c393e904" data-parent="#accordionExample">
 																										<div class="sidebar-scroll">
 																											<ul>
 																												<li data-nav-id="https://unicef.github.io/inventory/dpg-indicators/5/hall-of-fame/" title="Documentation Hall of Fame" class="sidelist
@@ -412,11 +413,11 @@
 																																			</a>
 																																		</div>
 																																		<div class="col-2 ">
-																																			<i class="fas fa-chevron-down align-middle" type="button" data-toggle="collapse" data-target="#collapse3c4943a0dc2ff19595ac801f4a6fe9c9" aria-expanded="false" aria-controls='collapse3c4943a0dc2ff19595ac801f4a6fe9c9'>
+																																			<i class="fas fa-chevron-down align-middle" type="button" data-toggle="collapse" data-target="#collapsef1c0f532fc98a6dc9994ae449af3c105" aria-expanded="false" aria-controls='collapsef1c0f532fc98a6dc9994ae449af3c105'>
 																																			</i>
 																																		</div>
 																																	</div>
-																																	<div id='collapse3c4943a0dc2ff19595ac801f4a6fe9c9' class="collapse" aria-labelledby="heading3c4943a0dc2ff19595ac801f4a6fe9c9" data-parent="#accordionExample">
+																																	<div id='collapsef1c0f532fc98a6dc9994ae449af3c105' class="collapse" aria-labelledby="headingf1c0f532fc98a6dc9994ae449af3c105" data-parent="#accordionExample">
 																																		<div class="sidebar-scroll">
 																																			<ul>
 																																				<li data-nav-id="https://unicef.github.io/inventory/dpg-indicators/8/communities/" title="Communities" class="sidelist
@@ -429,11 +430,11 @@
 																																								</a>
 																																							</div>
 																																							<div class="col-2 ">
-																																								<i class="fas fa-chevron-down align-middle" type="button" data-toggle="collapse" data-target="#collapse592c1094c64a951f48a0d3ff9fa3c9ec" aria-expanded="false" aria-controls='collapse592c1094c64a951f48a0d3ff9fa3c9ec'>
+																																								<i class="fas fa-chevron-down align-middle" type="button" data-toggle="collapse" data-target="#collapse98da3ff0acc4c0f2ca59e919f4154963" aria-expanded="false" aria-controls='collapse98da3ff0acc4c0f2ca59e919f4154963'>
 																																								</i>
 																																							</div>
 																																						</div>
-																																						<div id='collapse592c1094c64a951f48a0d3ff9fa3c9ec' class="collapse" aria-labelledby="heading592c1094c64a951f48a0d3ff9fa3c9ec" data-parent="#accordionExample">
+																																						<div id='collapse98da3ff0acc4c0f2ca59e919f4154963' class="collapse" aria-labelledby="heading98da3ff0acc4c0f2ca59e919f4154963" data-parent="#accordionExample">
 																																							<div class="sidebar-scroll">
 																																								<ul>
 																																									<li data-nav-id="https://unicef.github.io/inventory/dpg-indicators/8/communities/fedora/" title="Fedora Project" class="sidelist
@@ -505,11 +506,11 @@
 																																														</a>
 																																													</div>
 																																													<div class="col-2 ">
-																																														<i class="fas fa-chevron-down align-middle" type="button" data-toggle="collapse" data-target="#collapsef94043dc95e5fa84ac69a31c0129f9fc" aria-expanded="false" aria-controls='collapsef94043dc95e5fa84ac69a31c0129f9fc'>
+																																														<i class="fas fa-chevron-down align-middle" type="button" data-toggle="collapse" data-target="#collapsea409c59f11a95af24986ccf334ef09dc" aria-expanded="false" aria-controls='collapsea409c59f11a95af24986ccf334ef09dc'>
 																																														</i>
 																																													</div>
 																																												</div>
-																																												<div id='collapsef94043dc95e5fa84ac69a31c0129f9fc' class="collapse" aria-labelledby="headingf94043dc95e5fa84ac69a31c0129f9fc" data-parent="#accordionExample">
+																																												<div id='collapsea409c59f11a95af24986ccf334ef09dc' class="collapse" aria-labelledby="headinga409c59f11a95af24986ccf334ef09dc" data-parent="#accordionExample">
 																																													<div class="sidebar-scroll">
 																																														<ul>
 																																															<li data-nav-id="https://unicef.github.io/inventory/dpg-indicators/8/open-hardware/intro/" title="Introduction to Open Source Hardware" class="sidelist
@@ -603,11 +604,11 @@
 																																																						</a>
 																																																					</div>
 																																																					<div class="col-2 ">
-																																																						<i class="fas fa-chevron-down align-middle" type="button" data-toggle="collapse" data-target="#collapse5196c10fa29cdce89f95f0cfa433a449" aria-expanded="false" aria-controls='collapse5196c10fa29cdce89f95f0cfa433a449'>
+																																																						<i class="fas fa-chevron-down align-middle" type="button" data-toggle="collapse" data-target="#collapsee93fc4d6ca2481faf99ac9fc41505093" aria-expanded="false" aria-controls='collapsee93fc4d6ca2481faf99ac9fc41505093'>
 																																																						</i>
 																																																					</div>
 																																																				</div>
-																																																				<div id='collapse5196c10fa29cdce89f95f0cfa433a449' class="collapse" aria-labelledby="heading5196c10fa29cdce89f95f0cfa433a449" data-parent="#accordionExample">
+																																																				<div id='collapsee93fc4d6ca2481faf99ac9fc41505093' class="collapse" aria-labelledby="headinge93fc4d6ca2481faf99ac9fc41505093" data-parent="#accordionExample">
 																																																					<div class="sidebar-scroll">
 																																																						<ul>
 																																																							<li data-nav-id="https://unicef.github.io/inventory/dpg-indicators/8/project-management/issue-templates/" title="Issue templates" class="sidelist
@@ -672,11 +673,11 @@
 																																																							</a>
 																																																						</div>
 																																																						<div class="col-2 ">
-																																																							<i class="fas fa-chevron-down align-middle" type="button" data-toggle="collapse" data-target="#collapsea8fa999443fef40d62c510ccac39f591" aria-expanded="false" aria-controls='collapsea8fa999443fef40d62c510ccac39f591'>
+																																																							<i class="fas fa-chevron-down align-middle" type="button" data-toggle="collapse" data-target="#collapse399fcd19fa8914aa430ccf554f6e029c" aria-expanded="false" aria-controls='collapse399fcd19fa8914aa430ccf554f6e029c'>
 																																																							</i>
 																																																						</div>
 																																																					</div>
-																																																					<div id='collapsea8fa999443fef40d62c510ccac39f591' class="collapse" aria-labelledby="headinga8fa999443fef40d62c510ccac39f591" data-parent="#accordionExample">
+																																																					<div id='collapse399fcd19fa8914aa430ccf554f6e029c' class="collapse" aria-labelledby="heading399fcd19fa8914aa430ccf554f6e029c" data-parent="#accordionExample">
 																																																						<div class="sidebar-scroll">
 																																																							<ul>
 																																																								<li data-nav-id="https://unicef.github.io/inventory/dpg-indicators/9/codes-of-conduct/" title="Codes of Conduct" class="sidelist
@@ -753,11 +754,11 @@
 																																																								</a>
 																																																							</div>
 																																																							<div class="col-2 ">
-																																																								<i class="fas fa-chevron-down align-middle" type="button" data-toggle="collapse" data-target="#collapsef901543f032c4cedfcaa8c99f965a491" aria-expanded="false" aria-controls='collapsef901543f032c4cedfcaa8c99f965a491'>
+																																																								<i class="fas fa-chevron-down align-middle" type="button" data-toggle="collapse" data-target="#collapsec59304f119ac4899509cf3eff4d26caa" aria-expanded="false" aria-controls='collapsec59304f119ac4899509cf3eff4d26caa'>
 																																																								</i>
 																																																							</div>
 																																																						</div>
-																																																						<div id='collapsef901543f032c4cedfcaa8c99f965a491' class="collapse" aria-labelledby="headingf901543f032c4cedfcaa8c99f965a491" data-parent="#accordionExample">
+																																																						<div id='collapsec59304f119ac4899509cf3eff4d26caa' class="collapse" aria-labelledby="headingc59304f119ac4899509cf3eff4d26caa" data-parent="#accordionExample">
 																																																							<div class="sidebar-scroll">
 																																																								<ul>
 																																																									<li data-nav-id="https://unicef.github.io/inventory/dpg-indicators/2/gpl-comparison/" title="GPLv2 vs. GPLv3" class="sidelist
@@ -818,11 +819,11 @@
 																																																													</a>
 																																																												</div>
 																																																												<div class="col-2 ">
-																																																													<i class="fas fa-chevron-down align-middle" type="button" data-toggle="collapse" data-target="#collapsefaccc5302a998396e14f159f9dc0f4a4" aria-expanded="false" aria-controls='collapsefaccc5302a998396e14f159f9dc0f4a4'>
+																																																													<i class="fas fa-chevron-down align-middle" type="button" data-toggle="collapse" data-target="#collapsee890c9c9344cdf5a115fa29c4f9a63f0" aria-expanded="false" aria-controls='collapsee890c9c9344cdf5a115fa29c4f9a63f0'>
 																																																													</i>
 																																																												</div>
 																																																											</div>
-																																																											<div id='collapsefaccc5302a998396e14f159f9dc0f4a4' class="collapse" aria-labelledby="headingfaccc5302a998396e14f159f9dc0f4a4" data-parent="#accordionExample">
+																																																											<div id='collapsee890c9c9344cdf5a115fa29c4f9a63f0' class="collapse" aria-labelledby="headinge890c9c9344cdf5a115fa29c4f9a63f0" data-parent="#accordionExample">
 																																																												<div class="sidebar-scroll">
 																																																													<ul>
 																																																														<li data-nav-id="https://unicef.github.io/inventory/dpg-indicators/3/charters/" title="Charters" class="sidelist
@@ -883,11 +884,11 @@
 																																																																		</a>
 																																																																	</div>
 																																																																	<div class="col-2 ">
-																																																																		<i class="fas fa-chevron-down align-middle" type="button" data-toggle="collapse" data-target="#collapsef96c19f9a9ec0c494a2adc8533f510f4" aria-expanded="false" aria-controls='collapsef96c19f9a9ec0c494a2adc8533f510f4'>
+																																																																		<i class="fas fa-chevron-down align-middle" type="button" data-toggle="collapse" data-target="#collapsec1f9419532fc6a3df4e8940ca9a0c95f" aria-expanded="false" aria-controls='collapsec1f9419532fc6a3df4e8940ca9a0c95f'>
 																																																																		</i>
 																																																																	</div>
 																																																																</div>
-																																																																<div id='collapsef96c19f9a9ec0c494a2adc8533f510f4' class="collapse" aria-labelledby="headingf96c19f9a9ec0c494a2adc8533f510f4" data-parent="#accordionExample">
+																																																																<div id='collapsec1f9419532fc6a3df4e8940ca9a0c95f' class="collapse" aria-labelledby="headingc1f9419532fc6a3df4e8940ca9a0c95f" data-parent="#accordionExample">
 																																																																	<div class="sidebar-scroll">
 																																																																		<ul>
 																																																																			<li data-nav-id="https://unicef.github.io/inventory/dpg-indicators/5/hall-of-fame/" title="Documentation Hall of Fame" class="sidelist
@@ -981,11 +982,11 @@
 																																																																										</a>
 																																																																									</div>
 																																																																									<div class="col-2 ">
-																																																																										<i class="fas fa-chevron-down align-middle" type="button" data-toggle="collapse" data-target="#collapsea9ec4399ca65cf1f54a919dc328ff004" aria-expanded="false" aria-controls='collapsea9ec4399ca65cf1f54a919dc328ff004'>
+																																																																										<i class="fas fa-chevron-down align-middle" type="button" data-toggle="collapse" data-target="#collapsec1f93a2f4a0541569ffcd8ca399e0c94" aria-expanded="false" aria-controls='collapsec1f93a2f4a0541569ffcd8ca399e0c94'>
 																																																																										</i>
 																																																																									</div>
 																																																																								</div>
-																																																																								<div id='collapsea9ec4399ca65cf1f54a919dc328ff004' class="collapse" aria-labelledby="headinga9ec4399ca65cf1f54a919dc328ff004" data-parent="#accordionExample">
+																																																																								<div id='collapsec1f93a2f4a0541569ffcd8ca399e0c94' class="collapse" aria-labelledby="headingc1f93a2f4a0541569ffcd8ca399e0c94" data-parent="#accordionExample">
 																																																																									<div class="sidebar-scroll">
 																																																																										<ul>
 																																																																											<li data-nav-id="https://unicef.github.io/inventory/dpg-indicators/8/communities/" title="Communities" class="sidelist
@@ -998,11 +999,11 @@
 																																																																															</a>
 																																																																														</div>
 																																																																														<div class="col-2 ">
-																																																																															<i class="fas fa-chevron-down align-middle" type="button" data-toggle="collapse" data-target="#collapsececf9d1c9423ff489469faaa1500539c" aria-expanded="false" aria-controls='collapsececf9d1c9423ff489469faaa1500539c'>
+																																																																															<i class="fas fa-chevron-down align-middle" type="button" data-toggle="collapse" data-target="#collapsec8601a5319ec0a9c9435f9442a9dfffc" aria-expanded="false" aria-controls='collapsec8601a5319ec0a9c9435f9442a9dfffc'>
 																																																																															</i>
 																																																																														</div>
 																																																																													</div>
-																																																																													<div id='collapsececf9d1c9423ff489469faaa1500539c' class="collapse" aria-labelledby="headingcecf9d1c9423ff489469faaa1500539c" data-parent="#accordionExample">
+																																																																													<div id='collapsec8601a5319ec0a9c9435f9442a9dfffc' class="collapse" aria-labelledby="headingc8601a5319ec0a9c9435f9442a9dfffc" data-parent="#accordionExample">
 																																																																														<div class="sidebar-scroll">
 																																																																															<ul>
 																																																																																<li data-nav-id="https://unicef.github.io/inventory/dpg-indicators/8/communities/fedora/" title="Fedora Project" class="sidelist
@@ -1074,11 +1075,11 @@
 																																																																																					</a>
 																																																																																				</div>
 																																																																																				<div class="col-2 ">
-																																																																																					<i class="fas fa-chevron-down align-middle" type="button" data-toggle="collapse" data-target="#collapsea6a99f9f9c4595e132acc34f0dcf0481" aria-expanded="false" aria-controls='collapsea6a99f9f9c4595e132acc34f0dcf0481'>
+																																																																																					<i class="fas fa-chevron-down align-middle" type="button" data-toggle="collapse" data-target="#collapse4c194c9529fc4c993a1d0f586afa03fe" aria-expanded="false" aria-controls='collapse4c194c9529fc4c993a1d0f586afa03fe'>
 																																																																																					</i>
 																																																																																				</div>
 																																																																																			</div>
-																																																																																			<div id='collapsea6a99f9f9c4595e132acc34f0dcf0481' class="collapse" aria-labelledby="headinga6a99f9f9c4595e132acc34f0dcf0481" data-parent="#accordionExample">
+																																																																																			<div id='collapse4c194c9529fc4c993a1d0f586afa03fe' class="collapse" aria-labelledby="heading4c194c9529fc4c993a1d0f586afa03fe" data-parent="#accordionExample">
 																																																																																				<div class="sidebar-scroll">
 																																																																																					<ul>
 																																																																																						<li data-nav-id="https://unicef.github.io/inventory/dpg-indicators/8/open-hardware/intro/" title="Introduction to Open Source Hardware" class="sidelist
@@ -1172,11 +1173,11 @@
 																																																																																													</a>
 																																																																																												</div>
 																																																																																												<div class="col-2 ">
-																																																																																													<i class="fas fa-chevron-down align-middle" type="button" data-toggle="collapse" data-target="#collapsefa9fcead94fc4591064c9f9a033c8215" aria-expanded="false" aria-controls='collapsefa9fcead94fc4591064c9f9a033c8215'>
+																																																																																													<i class="fas fa-chevron-down align-middle" type="button" data-toggle="collapse" data-target="#collapseaeaaf9c4569c8d3c1291f499503f0c4f" aria-expanded="false" aria-controls='collapseaeaaf9c4569c8d3c1291f499503f0c4f'>
 																																																																																													</i>
 																																																																																												</div>
 																																																																																											</div>
-																																																																																											<div id='collapsefa9fcead94fc4591064c9f9a033c8215' class="collapse" aria-labelledby="headingfa9fcead94fc4591064c9f9a033c8215" data-parent="#accordionExample">
+																																																																																											<div id='collapseaeaaf9c4569c8d3c1291f499503f0c4f' class="collapse" aria-labelledby="headingaeaaf9c4569c8d3c1291f499503f0c4f" data-parent="#accordionExample">
 																																																																																												<div class="sidebar-scroll">
 																																																																																													<ul>
 																																																																																														<li data-nav-id="https://unicef.github.io/inventory/dpg-indicators/8/project-management/issue-templates/" title="Issue templates" class="sidelist
@@ -1241,11 +1242,11 @@
 																																																																																														</a>
 																																																																																													</div>
 																																																																																													<div class="col-2 ">
-																																																																																														<i class="fas fa-chevron-down align-middle" type="button" data-toggle="collapse" data-target="#collapse04d1134a8fc99f4caf6902cafce99535" aria-expanded="false" aria-controls='collapse04d1134a8fc99f4caf6902cafce99535'>
+																																																																																														<i class="fas fa-chevron-down align-middle" type="button" data-toggle="collapse" data-target="#collapsedc3c9a9a4190caf484f9213655e9ff0c" aria-expanded="false" aria-controls='collapsedc3c9a9a4190caf484f9213655e9ff0c'>
 																																																																																														</i>
 																																																																																													</div>
 																																																																																												</div>
-																																																																																												<div id='collapse04d1134a8fc99f4caf6902cafce99535' class="collapse" aria-labelledby="heading04d1134a8fc99f4caf6902cafce99535" data-parent="#accordionExample">
+																																																																																												<div id='collapsedc3c9a9a4190caf484f9213655e9ff0c' class="collapse" aria-labelledby="headingdc3c9a9a4190caf484f9213655e9ff0c" data-parent="#accordionExample">
 																																																																																													<div class="sidebar-scroll">
 																																																																																														<ul>
 																																																																																															<li data-nav-id="https://unicef.github.io/inventory/dpg-indicators/9/codes-of-conduct/" title="Codes of Conduct" class="sidelist
@@ -1712,10 +1713,10 @@
 																																																																																										<a class="nav-link text-white text-uppercase" href="https://unicef.github.io/inventory/faq">FAQ</a>
 																																																																																									</li>
 																																																																																									<li class="nav-item">
-																																																																																										<a class="nav-link text-white text-uppercase" href="https://unicef.github.io/inventory/DPG%20indicators">DPG indicators</a>
+																																																																																										<a class="nav-link text-white text-uppercase" href="https://unicef.github.io/inventory/dpg-indicators">DPG indicators</a>
 																																																																																									</li>
 																																																																																									<li class="nav-item">
-																																																																																										<a class="nav-link text-white text-uppercase" href="https://unicef.github.io/inventory/cohorts">cohorts</a>
+																																																																																										<a class="nav-link text-white text-uppercase" href="https://unicef.github.io/inventory/cohorts">Venture Fund cohorts</a>
 																																																																																									</li>
 																																																																																								</ul>
 																																																																																							</div>
@@ -1737,12 +1738,12 @@
 																																																																																								</ul>
 																																																																																								<ul class="list-inline">
 																																																																																									<li class="list-inline-item"><a class="text-color d-inline-block p-2 text-white socialIcon" href="https://github.com/unicef/inventory" aria-label="UNICEF Open Source Inventory on GitHub"><i class="ti-github"></i></a></li>
-																																																																																									<li class="list-inline-item"><a class="text-color d-inline-block p-2 text-white socialIcon" href="https://twitter.com/UNICEFinnovate" aria-label="@UNICEFinnovate on Twitter"><i class="ti-twitter"></i></a></li>
+																																																																																									<li class="list-inline-item"><a class="text-color d-inline-block p-2 text-white socialIcon" href="https://twitter.com/UNICEFinnovate" aria-label="@UNICEFinnovate on Twitter"><i class="ti-twitter-alt"></i></a></li>
 																																																																																								</ul>
 																																																																																							</div>
 																																																																																						</div>
 																																																																																					</div>
-																																																																																					<p class="text-md-center text-center text-white mt-3 h6 font-italic">Creative Commons BY-SA 4.0. Site theme maintained by UNICEF. Original theme, Dot, created by ThemeFisher.</p>
+																																																																																					<p class="text-md-center text-center text-white mt-3 h6 font-italic">Creative Commons Attribution-ShareAlike 4.0 (CC BY-SA-4.0). Site theme maintained by the <a href="https://www.unicef.org/innovation/">UNICEF Office of Innovation</a>.</p>
 																																																																																				</footer>
 																																																																																				<!-- /footer -->
 																																																																																				<!-- Main Script -->

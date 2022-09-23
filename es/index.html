@@ -50,12 +50,13 @@
 		<script src="https://unicef.github.io/inventory/plugins/match-height/jquery.matchHeight-min.js"></script>
 		<script async src="https://www.googletagmanager.com/gtag/js?id=G-80FMX4TPM0"></script>
 		<script>
-			var doNotTrack = false;
+			var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+			var doNotTrack = (dnt == "1" || dnt == "yes");
 			if (!doNotTrack) {
 				window.dataLayer = window.dataLayer || [];
 				function gtag(){dataLayer.push(arguments);}
 				gtag('js', new Date());
-				gtag('config', 'G-80FMX4TPM0', { 'anonymize_ip': false });
+				gtag('config', 'G-80FMX4TPM0', { 'anonymize_ip': true });
 			}
 		</script>
 		<!-- create /layouts/partials/overrides/header.html in your own theme or root directory to add your custom content here -->
@@ -102,32 +103,32 @@
 							<li class="nav-item dropdown">
 								<a class="nav-link dropdown-toggle text-white" href="#" role="button" data-toggle="dropdown"
             aria-haspopup="true" aria-expanded="false">
-									DPG indicators
+									Indicadores DPG
 								</a>
 								<div class="dropdown-menu">
-									<a class="dropdown-item" href="https://unicef.github.io/inventory/es/dpg-indicators/1/">1. Sustainable Development Goals</a>
-									<a class="dropdown-item" href="https://unicef.github.io/inventory/es/dpg-indicators/2/">2. Use of Approved Open Licenses</a>
-									<a class="dropdown-item" href="https://unicef.github.io/inventory/es/dpg-indicators/3/">3. Clear Ownership</a>
-									<a class="dropdown-item" href="https://unicef.github.io/inventory/es/dpg-indicators/4/">4. Platform Independence</a>
-									<a class="dropdown-item" href="https://unicef.github.io/inventory/es/dpg-indicators/5/">5. Documentation</a>
-									<a class="dropdown-item" href="https://unicef.github.io/inventory/es/dpg-indicators/6/">6. Data extraction</a>
-									<a class="dropdown-item" href="https://unicef.github.io/inventory/es/dpg-indicators/7/">7. Adherence to Privacy and Applicable Laws</a>
-									<a class="dropdown-item" href="https://unicef.github.io/inventory/es/dpg-indicators/8/">8. Adherence to Standards and Best Practices</a>
-									<a class="dropdown-item" href="https://unicef.github.io/inventory/es/dpg-indicators/9/">9. Do No Harm by Design</a>
+									<a class="dropdown-item" href="https://unicef.github.io/inventory/es/dpg-indicators/1/">1. Metas de Desarrollo Sostenible</a>
+									<a class="dropdown-item" href="https://unicef.github.io/inventory/es/dpg-indicators/2/">2. Uso de licencias &#34;Open&#34; aprobadas</a>
+									<a class="dropdown-item" href="https://unicef.github.io/inventory/es/dpg-indicators/3/">3. La propiedad es clara</a>
+									<a class="dropdown-item" href="https://unicef.github.io/inventory/es/dpg-indicators/4/">4. Independencia de la plataforma</a>
+									<a class="dropdown-item" href="https://unicef.github.io/inventory/es/dpg-indicators/5/">5. Documentación</a>
+									<a class="dropdown-item" href="https://unicef.github.io/inventory/es/dpg-indicators/6/">6. Extracción de datos</a>
+									<a class="dropdown-item" href="https://unicef.github.io/inventory/es/dpg-indicators/7/">7. Cumplimiento de la privacidad y las leyes aplicables</a>
+									<a class="dropdown-item" href="https://unicef.github.io/inventory/es/dpg-indicators/8/">8. Cumplimiento de estándares y mejores prácticas</a>
+									<a class="dropdown-item" href="https://unicef.github.io/inventory/es/dpg-indicators/9/">9. No hacer daño por diseño</a>
 								</div>
 							</li>
 							<li class="nav-item dropdown">
 								<a class="nav-link dropdown-toggle text-white" href="#" role="button" data-toggle="dropdown"
             aria-haspopup="true" aria-expanded="false">
-									cohorts
+									Cohortes de Venture Fund
 								</a>
 								<div class="dropdown-menu">
-									<a class="dropdown-item" href="https://unicef.github.io/inventory/es/cohorts">All</a>
+									<a class="dropdown-item" href="https://unicef.github.io/inventory/es/cohorts">Todos</a>
 									<a class="dropdown-item" href="https://unicef.github.io/inventory/es/cohorts/blockchain">Blockchain</a>
-									<a class="dropdown-item" href="https://unicef.github.io/inventory/es/cohorts/ds-ai">Data Science &amp; AI</a>
+									<a class="dropdown-item" href="https://unicef.github.io/inventory/es/cohorts/ds-ai">Ciencia de datos e I.A.</a>
 									<a class="dropdown-item" href="https://unicef.github.io/inventory/es/cohorts/drones">Drones</a>
 									<a class="dropdown-item" href="https://unicef.github.io/inventory/es/cohorts/vr-ar">VR &#43; AR</a>
-									<a class="dropdown-item" href="https://unicef.github.io/inventory/es/cohorts/others">Others</a>
+									<a class="dropdown-item" href="https://unicef.github.io/inventory/es/cohorts/others">Otras</a>
 								</div>
 							</li>
 						</ul>
@@ -149,7 +150,7 @@
 						<h1 class="text-white mb-3">Inventario de Open Source de UNICEF</h1>
 						<p class="text-white mb-4">Una base de conocimientos de innovación mundial del UNICEF sobre mejores prácticas y recursos para trabajar y dirigir Open.</p>
 						<div class="position-relative">
-							<input id="search" class="form-control" placeholder="¿Tienes una pregunta? Busque en el sitio aquí.">
+							<input id="search" class="form-control" placeholder="¿Ud. tiene una pregunta? Usted busca el sitio aquí.">
 							<i class="ti-search search-icon"></i>
 							<script>
 								$(function() {
@@ -228,15 +229,15 @@
 								<a class="nav-link text-white text-uppercase" href="https://unicef.github.io/inventory/es/faq">FAQ</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link text-white text-uppercase" href="https://unicef.github.io/inventory/es/DPG%20indicators">DPG indicators</a>
+								<a class="nav-link text-white text-uppercase" href="https://unicef.github.io/inventory/es/dpg-indicators">Indicadores DPG</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link text-white text-uppercase" href="https://unicef.github.io/inventory/es/cohorts">cohorts</a>
+								<a class="nav-link text-white text-uppercase" href="https://unicef.github.io/inventory/es/cohorts">Cohortes de Venture Fund</a>
 							</li>
 						</ul>
 					</div>
 					<div class="col-md-6 text-md-center text-center">
-						<p class="mb-md-0 mb-4 text-white">The UNICEF Open Source Inventory is a knowledge-base of best practices, resources, and information about working and leading Open. This is maintained as part of the Open Source Mentorship programme offered by the UNICEF Venture Fund. The Inventory provides mentorship and guidance to anyone seeking to adopt best practices in their journey to building an Open Source project and community. It is self-serve, and can be used at various phases of building a project and community.</p>
+						<p class="mb-md-0 mb-4 text-white">El Inventario de Open Source de UNICEF es una base de conocimiento de mejores prácticas, recursos e información sobre cómo trabajar y liderar Open. Esto se mantiene como parte del programa Open Source Mentorship ofrecido por UNICEF Venture Fund. El Inventario brinda tutoría y orientación a cualquier persona que busque adoptar las mejores prácticas en su camino hacia la construcción de un proyecto y una comunidad de Open Source. Es de autoservicio y se puede utilizar en varias fases de la construcción de un proyecto y una comunidad.</p>
 					</div>
 					<div class="col-md-3 text-md-right text-center">
 						<ul class="text-white">
@@ -253,12 +254,12 @@
 						</ul>
 						<ul class="list-inline">
 							<li class="list-inline-item"><a class="text-color d-inline-block p-2 text-white socialIcon" href="https://github.com/unicef/inventory" aria-label="UNICEF Open Source Inventory on GitHub"><i class="ti-github"></i></a></li>
-							<li class="list-inline-item"><a class="text-color d-inline-block p-2 text-white socialIcon" href="https://twitter.com/UNICEFinnovate" aria-label="@UNICEFinnovate on Twitter"><i class="ti-twitter"></i></a></li>
+							<li class="list-inline-item"><a class="text-color d-inline-block p-2 text-white socialIcon" href="https://twitter.com/UNICEFinnovate" aria-label="@UNICEFinnovate on Twitter"><i class="ti-twitter-alt"></i></a></li>
 						</ul>
 					</div>
 				</div>
 			</div>
-			<p class="text-md-center text-center text-white mt-3 h6 font-italic">Creative Commons BY-SA 4.0</p>
+			<p class="text-md-center text-center text-white mt-3 h6 font-italic">Creative Commons Attribution-ShareAlike 4.0 (CC BY-SA-4.0). La plantilla del sitio mantenido por la <a href="https://www.unicef.org/innovation/">Oficina de Innovación de UNICEF</a>.</p>
 		</footer>
 		<!-- /footer -->
 		<!-- Main Script -->

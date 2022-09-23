@@ -50,12 +50,13 @@
 		<script src="https://unicef.github.io/inventory/plugins/match-height/jquery.matchHeight-min.js"></script>
 		<script async src="https://www.googletagmanager.com/gtag/js?id=G-80FMX4TPM0"></script>
 		<script>
-			var doNotTrack = false;
+			var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+			var doNotTrack = (dnt == "1" || dnt == "yes");
 			if (!doNotTrack) {
 				window.dataLayer = window.dataLayer || [];
 				function gtag(){dataLayer.push(arguments);}
 				gtag('js', new Date());
-				gtag('config', 'G-80FMX4TPM0', { 'anonymize_ip': false });
+				gtag('config', 'G-80FMX4TPM0', { 'anonymize_ip': true });
 			}
 		</script>
 		<!-- create /layouts/partials/overrides/header.html in your own theme or root directory to add your custom content here -->
@@ -119,12 +120,12 @@
 							<li class="nav-item dropdown">
 								<a class="nav-link dropdown-toggle text-white" href="#" role="button" data-toggle="dropdown"
             aria-haspopup="true" aria-expanded="false">
-									cohorts
+									Venture Fund cohorts
 								</a>
 								<div class="dropdown-menu">
 									<a class="dropdown-item" href="https://unicef.github.io/inventory/cohorts">All</a>
 									<a class="dropdown-item" href="https://unicef.github.io/inventory/cohorts/blockchain">Blockchain</a>
-									<a class="dropdown-item" href="https://unicef.github.io/inventory/cohorts/ds-ai">Data Science &amp; AI</a>
+									<a class="dropdown-item" href="https://unicef.github.io/inventory/cohorts/ds-ai">Data Science &amp; A.I.</a>
 									<a class="dropdown-item" href="https://unicef.github.io/inventory/cohorts/drones">Drones</a>
 									<a class="dropdown-item" href="https://unicef.github.io/inventory/cohorts/vr-ar">VR &#43; AR</a>
 									<a class="dropdown-item" href="https://unicef.github.io/inventory/cohorts/others">Others</a>
@@ -204,11 +205,11 @@
 																</a>
 															</div>
 															<div class="col-2 ">
-																<i class="fas fa-chevron-down align-middle" type="button" data-toggle="collapse" data-target="#collapse9f14a429039cacf65cec319f54f890ad" aria-expanded="false" aria-controls='collapse9f14a429039cacf65cec319f54f890ad'>
+																<i class="fas fa-chevron-down align-middle" type="button" data-toggle="collapse" data-target="#collapse05cc4fa8fda9afc19932045e93691f4c" aria-expanded="false" aria-controls='collapse05cc4fa8fda9afc19932045e93691f4c'>
 																</i>
 															</div>
 														</div>
-														<div id='collapse9f14a429039cacf65cec319f54f890ad' class="collapse" aria-labelledby="heading9f14a429039cacf65cec319f54f890ad" data-parent="#accordionExample">
+														<div id='collapse05cc4fa8fda9afc19932045e93691f4c' class="collapse" aria-labelledby="heading05cc4fa8fda9afc19932045e93691f4c" data-parent="#accordionExample">
 															<div class="sidebar-scroll">
 																<ul>
 																	<li data-nav-id="https://unicef.github.io/inventory/cohorts/ds-ai/inspired-ideas/" title="Elsa Health" class="sidelist
@@ -346,11 +347,11 @@
 																												</a>
 																											</div>
 																											<div class="col-2 ">
-																												<i class="fas fa-chevron-down align-middle" type="button" data-toggle="collapse" data-target="#collapse450f13cacf8c91afc9d994ae296540f3" aria-expanded="false" aria-controls='collapse450f13cacf8c91afc9d994ae296540f3'>
+																												<i class="fas fa-chevron-down align-middle" type="button" data-toggle="collapse" data-target="#collapsecf29edf4399c914096afca543f850ac1" aria-expanded="false" aria-controls='collapsecf29edf4399c914096afca543f850ac1'>
 																												</i>
 																											</div>
 																										</div>
-																										<div id='collapse450f13cacf8c91afc9d994ae296540f3' class="collapse" aria-labelledby="heading450f13cacf8c91afc9d994ae296540f3" data-parent="#accordionExample">
+																										<div id='collapsecf29edf4399c914096afca543f850ac1' class="collapse" aria-labelledby="headingcf29edf4399c914096afca543f850ac1" data-parent="#accordionExample">
 																											<div class="sidebar-scroll">
 																												<ul>
 																													<li data-nav-id="https://unicef.github.io/inventory/data/milestone-roadmap/" title="AI Ethics &amp; Transparency Roadmap - Template" class="sidelist
@@ -411,11 +412,11 @@
 																																	</a>
 																																</div>
 																																<div class="col-2 ">
-																																	<i class="fas fa-chevron-down align-middle" type="button" data-toggle="collapse" data-target="#collapseff49ec5acaf04801949316d9ca9f523c" aria-expanded="false" aria-controls='collapseff49ec5acaf04801949316d9ca9f523c'>
+																																	<i class="fas fa-chevron-down align-middle" type="button" data-toggle="collapse" data-target="#collapse64981ad04ccf13a0fe943599acc5ff29" aria-expanded="false" aria-controls='collapse64981ad04ccf13a0fe943599acc5ff29'>
 																																	</i>
 																																</div>
 																															</div>
-																															<div id='collapseff49ec5acaf04801949316d9ca9f523c' class="collapse" aria-labelledby="headingff49ec5acaf04801949316d9ca9f523c" data-parent="#accordionExample">
+																															<div id='collapse64981ad04ccf13a0fe943599acc5ff29' class="collapse" aria-labelledby="heading64981ad04ccf13a0fe943599acc5ff29" data-parent="#accordionExample">
 																																<div class="sidebar-scroll">
 																																	<ul>
 																																		<li data-nav-id="https://unicef.github.io/inventory/toolkits/data-science/" title="UNICEF Data Science &amp; A.I. Toolkit" class="sidelist
@@ -480,10 +481,10 @@
 																														<a class="nav-link text-white text-uppercase" href="https://unicef.github.io/inventory/faq">FAQ</a>
 																													</li>
 																													<li class="nav-item">
-																														<a class="nav-link text-white text-uppercase" href="https://unicef.github.io/inventory/DPG%20indicators">DPG indicators</a>
+																														<a class="nav-link text-white text-uppercase" href="https://unicef.github.io/inventory/dpg-indicators">DPG indicators</a>
 																													</li>
 																													<li class="nav-item">
-																														<a class="nav-link text-white text-uppercase" href="https://unicef.github.io/inventory/cohorts">cohorts</a>
+																														<a class="nav-link text-white text-uppercase" href="https://unicef.github.io/inventory/cohorts">Venture Fund cohorts</a>
 																													</li>
 																												</ul>
 																											</div>
@@ -505,12 +506,12 @@
 																												</ul>
 																												<ul class="list-inline">
 																													<li class="list-inline-item"><a class="text-color d-inline-block p-2 text-white socialIcon" href="https://github.com/unicef/inventory" aria-label="UNICEF Open Source Inventory on GitHub"><i class="ti-github"></i></a></li>
-																													<li class="list-inline-item"><a class="text-color d-inline-block p-2 text-white socialIcon" href="https://twitter.com/UNICEFinnovate" aria-label="@UNICEFinnovate on Twitter"><i class="ti-twitter"></i></a></li>
+																													<li class="list-inline-item"><a class="text-color d-inline-block p-2 text-white socialIcon" href="https://twitter.com/UNICEFinnovate" aria-label="@UNICEFinnovate on Twitter"><i class="ti-twitter-alt"></i></a></li>
 																												</ul>
 																											</div>
 																										</div>
 																									</div>
-																									<p class="text-md-center text-center text-white mt-3 h6 font-italic">Creative Commons BY-SA 4.0. Site theme maintained by UNICEF. Original theme, Dot, created by ThemeFisher.</p>
+																									<p class="text-md-center text-center text-white mt-3 h6 font-italic">Creative Commons Attribution-ShareAlike 4.0 (CC BY-SA-4.0). Site theme maintained by the <a href="https://www.unicef.org/innovation/">UNICEF Office of Innovation</a>.</p>
 																								</footer>
 																								<!-- /footer -->
 																								<!-- Main Script -->

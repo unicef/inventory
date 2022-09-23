@@ -50,12 +50,13 @@
 		<script src="https://unicef.github.io/inventory/plugins/match-height/jquery.matchHeight-min.js"></script>
 		<script async src="https://www.googletagmanager.com/gtag/js?id=G-80FMX4TPM0"></script>
 		<script>
-			var doNotTrack = false;
+			var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+			var doNotTrack = (dnt == "1" || dnt == "yes");
 			if (!doNotTrack) {
 				window.dataLayer = window.dataLayer || [];
 				function gtag(){dataLayer.push(arguments);}
 				gtag('js', new Date());
-				gtag('config', 'G-80FMX4TPM0', { 'anonymize_ip': false });
+				gtag('config', 'G-80FMX4TPM0', { 'anonymize_ip': true });
 			}
 		</script>
 		<!-- create /layouts/partials/overrides/header.html in your own theme or root directory to add your custom content here -->
@@ -119,12 +120,12 @@
 							<li class="nav-item dropdown">
 								<a class="nav-link dropdown-toggle text-white" href="#" role="button" data-toggle="dropdown"
             aria-haspopup="true" aria-expanded="false">
-									cohorts
+									Venture Fund cohorts
 								</a>
 								<div class="dropdown-menu">
 									<a class="dropdown-item" href="https://unicef.github.io/inventory/cohorts">All</a>
 									<a class="dropdown-item" href="https://unicef.github.io/inventory/cohorts/blockchain">Blockchain</a>
-									<a class="dropdown-item" href="https://unicef.github.io/inventory/cohorts/ds-ai">Data Science &amp; AI</a>
+									<a class="dropdown-item" href="https://unicef.github.io/inventory/cohorts/ds-ai">Data Science &amp; A.I.</a>
 									<a class="dropdown-item" href="https://unicef.github.io/inventory/cohorts/drones">Drones</a>
 									<a class="dropdown-item" href="https://unicef.github.io/inventory/cohorts/vr-ar">VR &#43; AR</a>
 									<a class="dropdown-item" href="https://unicef.github.io/inventory/cohorts/others">Others</a>
@@ -204,11 +205,11 @@
 																</a>
 															</div>
 															<div class="col-2 ">
-																<i class="fas fa-chevron-down align-middle" type="button" data-toggle="collapse" data-target="#collapsef3d95442c9541ccaff69f9a19cea0038" aria-expanded="false" aria-controls='collapsef3d95442c9541ccaff69f9a19cea0038'>
+																<i class="fas fa-chevron-down align-middle" type="button" data-toggle="collapse" data-target="#collapse4c6f293f541afac109cf9c8dae540939" aria-expanded="false" aria-controls='collapse4c6f293f541afac109cf9c8dae540939'>
 																</i>
 															</div>
 														</div>
-														<div id='collapsef3d95442c9541ccaff69f9a19cea0038' class="collapse" aria-labelledby="headingf3d95442c9541ccaff69f9a19cea0038" data-parent="#accordionExample">
+														<div id='collapse4c6f293f541afac109cf9c8dae540939' class="collapse" aria-labelledby="heading4c6f293f541afac109cf9c8dae540939" data-parent="#accordionExample">
 															<div class="sidebar-scroll">
 																<ul>
 																	<li data-nav-id="https://unicef.github.io/inventory/dpg-indicators/8/open-hardware/intro/" title="Introduction to Open Source Hardware" class="sidelist
@@ -474,11 +475,11 @@
 																																												</a>
 																																											</div>
 																																											<div class="col-2 ">
-																																												<i class="fas fa-chevron-down align-middle" type="button" data-toggle="collapse" data-target="#collapse92415c9e81f5dfaca03c9c0f3f694a49" aria-expanded="false" aria-controls='collapse92415c9e81f5dfaca03c9c0f3f694a49'>
+																																												<i class="fas fa-chevron-down align-middle" type="button" data-toggle="collapse" data-target="#collapsec2ac941a5f859f4a49199f33cfdc0e60" aria-expanded="false" aria-controls='collapsec2ac941a5f859f4a49199f33cfdc0e60'>
 																																												</i>
 																																											</div>
 																																										</div>
-																																										<div id='collapse92415c9e81f5dfaca03c9c0f3f694a49' class="collapse" aria-labelledby="heading92415c9e81f5dfaca03c9c0f3f694a49" data-parent="#accordionExample">
+																																										<div id='collapsec2ac941a5f859f4a49199f33cfdc0e60' class="collapse" aria-labelledby="headingc2ac941a5f859f4a49199f33cfdc0e60" data-parent="#accordionExample">
 																																											<div class="sidebar-scroll">
 																																												<ul>
 																																													<li data-nav-id="https://unicef.github.io/inventory/dpg-indicators/8/open-hardware/intro/" title="Introduction to Open Source Hardware" class="sidelist
@@ -649,11 +650,11 @@
 																																																											</a>
 																																																										</div>
 																																																										<div class="col-2 ">
-																																																											<i class="fas fa-chevron-down align-middle" type="button" data-toggle="collapse" data-target="#collapsef8a1efac4c24f1c59c956f309940da39" aria-expanded="false" aria-controls='collapsef8a1efac4c24f1c59c956f309940da39'>
+																																																											<i class="fas fa-chevron-down align-middle" type="button" data-toggle="collapse" data-target="#collapsecaa5949c6991fc814f2fc0d305a943ef" aria-expanded="false" aria-controls='collapsecaa5949c6991fc814f2fc0d305a943ef'>
 																																																											</i>
 																																																										</div>
 																																																									</div>
-																																																									<div id='collapsef8a1efac4c24f1c59c956f309940da39' class="collapse" aria-labelledby="headingf8a1efac4c24f1c59c956f309940da39" data-parent="#accordionExample">
+																																																									<div id='collapsecaa5949c6991fc814f2fc0d305a943ef' class="collapse" aria-labelledby="headingcaa5949c6991fc814f2fc0d305a943ef" data-parent="#accordionExample">
 																																																										<div class="sidebar-scroll">
 																																																											<ul>
 																																																												<li data-nav-id="https://unicef.github.io/inventory/dpg-indicators/8/project-management/issue-templates/" title="Issue templates" class="sidelist
@@ -832,10 +833,10 @@
 																																																														<a class="nav-link text-white text-uppercase" href="https://unicef.github.io/inventory/faq">FAQ</a>
 																																																													</li>
 																																																													<li class="nav-item">
-																																																														<a class="nav-link text-white text-uppercase" href="https://unicef.github.io/inventory/DPG%20indicators">DPG indicators</a>
+																																																														<a class="nav-link text-white text-uppercase" href="https://unicef.github.io/inventory/dpg-indicators">DPG indicators</a>
 																																																													</li>
 																																																													<li class="nav-item">
-																																																														<a class="nav-link text-white text-uppercase" href="https://unicef.github.io/inventory/cohorts">cohorts</a>
+																																																														<a class="nav-link text-white text-uppercase" href="https://unicef.github.io/inventory/cohorts">Venture Fund cohorts</a>
 																																																													</li>
 																																																												</ul>
 																																																											</div>
@@ -857,12 +858,12 @@
 																																																												</ul>
 																																																												<ul class="list-inline">
 																																																													<li class="list-inline-item"><a class="text-color d-inline-block p-2 text-white socialIcon" href="https://github.com/unicef/inventory" aria-label="UNICEF Open Source Inventory on GitHub"><i class="ti-github"></i></a></li>
-																																																													<li class="list-inline-item"><a class="text-color d-inline-block p-2 text-white socialIcon" href="https://twitter.com/UNICEFinnovate" aria-label="@UNICEFinnovate on Twitter"><i class="ti-twitter"></i></a></li>
+																																																													<li class="list-inline-item"><a class="text-color d-inline-block p-2 text-white socialIcon" href="https://twitter.com/UNICEFinnovate" aria-label="@UNICEFinnovate on Twitter"><i class="ti-twitter-alt"></i></a></li>
 																																																												</ul>
 																																																											</div>
 																																																										</div>
 																																																									</div>
-																																																									<p class="text-md-center text-center text-white mt-3 h6 font-italic">Creative Commons BY-SA 4.0. Site theme maintained by UNICEF. Original theme, Dot, created by ThemeFisher.</p>
+																																																									<p class="text-md-center text-center text-white mt-3 h6 font-italic">Creative Commons Attribution-ShareAlike 4.0 (CC BY-SA-4.0). Site theme maintained by the <a href="https://www.unicef.org/innovation/">UNICEF Office of Innovation</a>.</p>
 																																																								</footer>
 																																																								<!-- /footer -->
 																																																								<!-- Main Script -->

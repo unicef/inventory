@@ -50,12 +50,13 @@
 		<script src="https://unicef.github.io/inventory/plugins/match-height/jquery.matchHeight-min.js"></script>
 		<script async src="https://www.googletagmanager.com/gtag/js?id=G-80FMX4TPM0"></script>
 		<script>
-			var doNotTrack = false;
+			var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+			var doNotTrack = (dnt == "1" || dnt == "yes");
 			if (!doNotTrack) {
 				window.dataLayer = window.dataLayer || [];
 				function gtag(){dataLayer.push(arguments);}
 				gtag('js', new Date());
-				gtag('config', 'G-80FMX4TPM0', { 'anonymize_ip': false });
+				gtag('config', 'G-80FMX4TPM0', { 'anonymize_ip': true });
 			}
 		</script>
 		<!-- create /layouts/partials/overrides/header.html in your own theme or root directory to add your custom content here -->
@@ -121,12 +122,12 @@
 							<li class="nav-item dropdown">
 								<a class="nav-link dropdown-toggle text-white" href="#" role="button" data-toggle="dropdown"
             aria-haspopup="true" aria-expanded="false">
-									cohorts
+									Venture Fund cohorts
 								</a>
 								<div class="dropdown-menu">
 									<a class="dropdown-item" href="https://unicef.github.io/inventory/cohorts">All</a>
 									<a class="dropdown-item" href="https://unicef.github.io/inventory/cohorts/blockchain">Blockchain</a>
-									<a class="dropdown-item" href="https://unicef.github.io/inventory/cohorts/ds-ai">Data Science &amp; AI</a>
+									<a class="dropdown-item" href="https://unicef.github.io/inventory/cohorts/ds-ai">Data Science &amp; A.I.</a>
 									<a class="dropdown-item" href="https://unicef.github.io/inventory/cohorts/drones">Drones</a>
 									<a class="dropdown-item" href="https://unicef.github.io/inventory/cohorts/vr-ar">VR &#43; AR</a>
 									<a class="dropdown-item" href="https://unicef.github.io/inventory/cohorts/others">Others</a>
@@ -174,11 +175,11 @@
 																</a>
 															</div>
 															<div class="col-2 ">
-																<i class="fas fa-chevron-down align-middle" type="button" data-toggle="collapse" data-target="#collapse39c4ca0ff9a9c58a1ed14469f2cf9530" aria-expanded="false" aria-controls='collapse39c4ca0ff9a9c58a1ed14469f2cf9530'>
+																<i class="fas fa-chevron-down align-middle" type="button" data-toggle="collapse" data-target="#collapse955af9f8cd999fa43241c1ecf4a3c060" aria-expanded="false" aria-controls='collapse955af9f8cd999fa43241c1ecf4a3c060'>
 																</i>
 															</div>
 														</div>
-														<div id='collapse39c4ca0ff9a9c58a1ed14469f2cf9530' class="collapse" aria-labelledby="heading39c4ca0ff9a9c58a1ed14469f2cf9530" data-parent="#accordionExample">
+														<div id='collapse955af9f8cd999fa43241c1ecf4a3c060' class="collapse" aria-labelledby="heading955af9f8cd999fa43241c1ecf4a3c060" data-parent="#accordionExample">
 															<div class="sidebar-scroll">
 																<ul>
 																	<li data-nav-id="https://unicef.github.io/inventory/cohorts/blockchain/bx-smart-labs/" title="BX Smart Labs" class="sidelist
@@ -261,11 +262,11 @@
 																							</a>
 																						</div>
 																						<div class="col-2 ">
-																							<i class="fas fa-chevron-down align-middle" type="button" data-toggle="collapse" data-target="#collapsea31096cfda84e99f5199c4af23c540fc" aria-expanded="false" aria-controls='collapsea31096cfda84e99f5199c4af23c540fc'>
+																							<i class="fas fa-chevron-down align-middle" type="button" data-toggle="collapse" data-target="#collapse018a59ccf9359caf6341f29fa4d90e4c" aria-expanded="false" aria-controls='collapse018a59ccf9359caf6341f29fa4d90e4c'>
 																							</i>
 																						</div>
 																					</div>
-																					<div id='collapsea31096cfda84e99f5199c4af23c540fc' class="collapse" aria-labelledby="headinga31096cfda84e99f5199c4af23c540fc" data-parent="#accordionExample">
+																					<div id='collapse018a59ccf9359caf6341f29fa4d90e4c' class="collapse" aria-labelledby="heading018a59ccf9359caf6341f29fa4d90e4c" data-parent="#accordionExample">
 																						<div class="sidebar-scroll">
 																							<ul>
 																								<li data-nav-id="https://unicef.github.io/inventory/cohorts/ds-ai/inspired-ideas/" title="Elsa Health" class="sidelist
@@ -337,11 +338,11 @@
 																													</a>
 																												</div>
 																												<div class="col-2 ">
-																													<i class="fas fa-chevron-down align-middle" type="button" data-toggle="collapse" data-target="#collapse3fc0d1ca3a462f809a5ec41cf99954f9" aria-expanded="false" aria-controls='collapse3fc0d1ca3a462f809a5ec41cf99954f9'>
+																													<i class="fas fa-chevron-down align-middle" type="button" data-toggle="collapse" data-target="#collapse305214ac94939fa9df098f4e6fca1c5c" aria-expanded="false" aria-controls='collapse305214ac94939fa9df098f4e6fca1c5c'>
 																													</i>
 																												</div>
 																											</div>
-																											<div id='collapse3fc0d1ca3a462f809a5ec41cf99954f9' class="collapse" aria-labelledby="heading3fc0d1ca3a462f809a5ec41cf99954f9" data-parent="#accordionExample">
+																											<div id='collapse305214ac94939fa9df098f4e6fca1c5c' class="collapse" aria-labelledby="heading305214ac94939fa9df098f4e6fca1c5c" data-parent="#accordionExample">
 																												<div class="sidebar-scroll">
 																													<ul>
 																														<li data-nav-id="https://unicef.github.io/inventory/cohorts/vr-ar/vrapeutic/" title="VRapeutic" class="sidelist
@@ -406,11 +407,11 @@
 																														</a>
 																													</div>
 																													<div class="col-2 ">
-																														<i class="fas fa-chevron-down align-middle" type="button" data-toggle="collapse" data-target="#collapsef04a941ec5d895969c34ac391ffc20af" aria-expanded="false" aria-controls='collapsef04a941ec5d895969c34ac391ffc20af'>
+																														<i class="fas fa-chevron-down align-middle" type="button" data-toggle="collapse" data-target="#collapsecc1a94d6f5940c32f4a5a80991f9efc3" aria-expanded="false" aria-controls='collapsecc1a94d6f5940c32f4a5a80991f9efc3'>
 																														</i>
 																													</div>
 																												</div>
-																												<div id='collapsef04a941ec5d895969c34ac391ffc20af' class="collapse" aria-labelledby="headingf04a941ec5d895969c34ac391ffc20af" data-parent="#accordionExample">
+																												<div id='collapsecc1a94d6f5940c32f4a5a80991f9efc3' class="collapse" aria-labelledby="headingcc1a94d6f5940c32f4a5a80991f9efc3" data-parent="#accordionExample">
 																													<div class="sidebar-scroll">
 																														<ul>
 																															<li data-nav-id="https://unicef.github.io/inventory/cohorts/blockchain/bx-smart-labs/" title="BX Smart Labs" class="sidelist
@@ -493,11 +494,11 @@
 																																					</a>
 																																				</div>
 																																				<div class="col-2 ">
-																																					<i class="fas fa-chevron-down align-middle" type="button" data-toggle="collapse" data-target="#collapse9359f89a90f5acc93f640c41ae24c1df" aria-expanded="false" aria-controls='collapse9359f89a90f5acc93f640c41ae24c1df'>
+																																					<i class="fas fa-chevron-down align-middle" type="button" data-toggle="collapse" data-target="#collapse09653ac44fc991f9fc4d25f91aec3a08" aria-expanded="false" aria-controls='collapse09653ac44fc991f9fc4d25f91aec3a08'>
 																																					</i>
 																																				</div>
 																																			</div>
-																																			<div id='collapse9359f89a90f5acc93f640c41ae24c1df' class="collapse" aria-labelledby="heading9359f89a90f5acc93f640c41ae24c1df" data-parent="#accordionExample">
+																																			<div id='collapse09653ac44fc991f9fc4d25f91aec3a08' class="collapse" aria-labelledby="heading09653ac44fc991f9fc4d25f91aec3a08" data-parent="#accordionExample">
 																																				<div class="sidebar-scroll">
 																																					<ul>
 																																						<li data-nav-id="https://unicef.github.io/inventory/cohorts/ds-ai/inspired-ideas/" title="Elsa Health" class="sidelist
@@ -569,11 +570,11 @@
 																																											</a>
 																																										</div>
 																																										<div class="col-2 ">
-																																											<i class="fas fa-chevron-down align-middle" type="button" data-toggle="collapse" data-target="#collapse2368f5dc31f59acc4a49f9ca0990ef41" aria-expanded="false" aria-controls='collapse2368f5dc31f59acc4a49f9ca0990ef41'>
+																																											<i class="fas fa-chevron-down align-middle" type="button" data-toggle="collapse" data-target="#collapsec51cc9a91f8d0435f9c9ef3a4f620a49" aria-expanded="false" aria-controls='collapsec51cc9a91f8d0435f9c9ef3a4f620a49'>
 																																											</i>
 																																										</div>
 																																									</div>
-																																									<div id='collapse2368f5dc31f59acc4a49f9ca0990ef41' class="collapse" aria-labelledby="heading2368f5dc31f59acc4a49f9ca0990ef41" data-parent="#accordionExample">
+																																									<div id='collapsec51cc9a91f8d0435f9c9ef3a4f620a49' class="collapse" aria-labelledby="headingc51cc9a91f8d0435f9c9ef3a4f620a49" data-parent="#accordionExample">
 																																										<div class="sidebar-scroll">
 																																											<ul>
 																																												<li data-nav-id="https://unicef.github.io/inventory/cohorts/vr-ar/vrapeutic/" title="VRapeutic" class="sidelist
@@ -667,31 +668,31 @@
 																																							<h5 class="text-center">Related Articles</h5>
 																																							<div class="row">
 																																								<div class="col-sm-4 my-2">
-																																									<a href="https://unicef.github.io/inventory/cohorts/blockchain/bx-smart-labs/">
-																																										<div class="card text-center">
-																																											<div class="card-body">
-																																												<h5 class="card-title">BX Smart Labs</h5>
-																																												<p class="card-subtitle mb-2 text-muted">Decentralized application that empowers users to create savings circles, generating trust among participants using smart contracts.</p>
-																																											</div>
-																																										</div>
-																																									</a>
-																																								</div>
-																																								<div class="col-sm-4 my-2">
-																																									<a href="https://unicef.github.io/inventory/cohorts/ds-ai/inspired-ideas/">
-																																										<div class="card text-center">
-																																											<div class="card-body">
-																																												<h5 class="card-title">Elsa Health</h5>
-																																												<p class="card-subtitle mb-2 text-muted">AI-powered decision support tools for rural healthcare providers and health decision-makers.</p>
-																																											</div>
-																																										</div>
-																																									</a>
-																																								</div>
-																																								<div class="col-sm-4 my-2">
 																																									<a href="https://unicef.github.io/inventory/cohorts/blockchain/xcapit/">
 																																										<div class="card text-center">
 																																											<div class="card-body">
 																																												<h5 class="card-title">Xcapit</h5>
 																																												<p class="card-subtitle mb-2 text-muted">A platform using blockchain for wealth management, including financial planning and financial learning in a gamified way.</p>
+																																											</div>
+																																										</div>
+																																									</a>
+																																								</div>
+																																								<div class="col-sm-4 my-2">
+																																									<a href="https://unicef.github.io/inventory/cohorts/blockchain/treejer/">
+																																										<div class="card text-center">
+																																											<div class="card-body">
+																																												<h5 class="card-title">Treejer</h5>
+																																												<p class="card-subtitle mb-2 text-muted">Forest-based climate action protocol to track trees and growth, a financing tool to facilitate micro-loans and payments to rural tree planters.</p>
+																																											</div>
+																																										</div>
+																																									</a>
+																																								</div>
+																																								<div class="col-sm-4 my-2">
+																																									<a href="https://unicef.github.io/inventory/cohorts/blockchain/bx-smart-labs/">
+																																										<div class="card text-center">
+																																											<div class="card-body">
+																																												<h5 class="card-title">BX Smart Labs</h5>
+																																												<p class="card-subtitle mb-2 text-muted">Decentralized application that empowers users to create savings circles, generating trust among participants using smart contracts.</p>
 																																											</div>
 																																										</div>
 																																									</a>
@@ -715,10 +716,10 @@
 																																							<a class="nav-link text-white text-uppercase" href="https://unicef.github.io/inventory/faq">FAQ</a>
 																																						</li>
 																																						<li class="nav-item">
-																																							<a class="nav-link text-white text-uppercase" href="https://unicef.github.io/inventory/DPG%20indicators">DPG indicators</a>
+																																							<a class="nav-link text-white text-uppercase" href="https://unicef.github.io/inventory/dpg-indicators">DPG indicators</a>
 																																						</li>
 																																						<li class="nav-item">
-																																							<a class="nav-link text-white text-uppercase" href="https://unicef.github.io/inventory/cohorts">cohorts</a>
+																																							<a class="nav-link text-white text-uppercase" href="https://unicef.github.io/inventory/cohorts">Venture Fund cohorts</a>
 																																						</li>
 																																					</ul>
 																																				</div>
@@ -740,12 +741,12 @@
 																																					</ul>
 																																					<ul class="list-inline">
 																																						<li class="list-inline-item"><a class="text-color d-inline-block p-2 text-white socialIcon" href="https://github.com/unicef/inventory" aria-label="UNICEF Open Source Inventory on GitHub"><i class="ti-github"></i></a></li>
-																																						<li class="list-inline-item"><a class="text-color d-inline-block p-2 text-white socialIcon" href="https://twitter.com/UNICEFinnovate" aria-label="@UNICEFinnovate on Twitter"><i class="ti-twitter"></i></a></li>
+																																						<li class="list-inline-item"><a class="text-color d-inline-block p-2 text-white socialIcon" href="https://twitter.com/UNICEFinnovate" aria-label="@UNICEFinnovate on Twitter"><i class="ti-twitter-alt"></i></a></li>
 																																					</ul>
 																																				</div>
 																																			</div>
 																																		</div>
-																																		<p class="text-md-center text-center text-white mt-3 h6 font-italic">Creative Commons BY-SA 4.0. Site theme maintained by UNICEF. Original theme, Dot, created by ThemeFisher.</p>
+																																		<p class="text-md-center text-center text-white mt-3 h6 font-italic">Creative Commons Attribution-ShareAlike 4.0 (CC BY-SA-4.0). Site theme maintained by the <a href="https://www.unicef.org/innovation/">UNICEF Office of Innovation</a>.</p>
 																																	</footer>
 																																	<!-- /footer -->
 																																	<!-- Main Script -->
