@@ -1,7 +1,7 @@
 ---
 title: Charters
 description: Embark on a mission to create a project charter for your Open Source work.
-tags: ["decision-making", documentation", "governance"]
+tags: ["decision-making", "documentation", "governance"]
 downloadBtn: "true"
 aliases:
     - /missions/charters/
