@@ -16,8 +16,8 @@ keywords: ["learn", "learning", "mentor", "overview", "unicef"]
 ---
 :toc:
 // reference links
-:unicef-advisor: Justin W. Flory
-:unicef-advisor-email: jflory [at] unicef [dot] org
+:unicef-advisor: Jesse Orndorff
+:unicef-advisor-email: jorndorff [at] unicef [dot] org
 :unicef-fund: https://www.unicefinnovationfund.org/[UNICEF Venture Fund,window=read-later]
 :unicef-colleague-support-timeframe: within 1-2 weeks
 
