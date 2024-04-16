@@ -7,7 +7,6 @@
 -->
 
 [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)][cc-by-sa-legal]
-[![Build Status](https://circleci.com/gh/unicef/inventory/tree/main.svg?style=shield)](https://app.circleci.com/pipelines/github/unicef/inventory?branch=main)
 
 Innovation Inventory.
 A UNICEF Global Innovation knowledge base of best practices and resources for working and leading Open.
