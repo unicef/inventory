@@ -5,6 +5,115 @@ title: "Frequently Asked Questions"
 
 // The content written in the FAQ blocks is only parsed as Markdown! 💀
 
+{{< faq "Licensing and Copyright" >}}
+
+### Q: My software is already on GitHub, why is it not Open Source?
+
+A solution isn't Open Source unless it's shipped with an [Open Source Initiative (OSI) approved license](https://opensource.org/licenses). Open Source authors wish their solution to be used, modified, and shared. As the legal default is exclusive copyright, you need to explicitly give these permissions with a license.
+
+### Q: Will UNICEF lose Copyright on the solution when made Open Source?
+
+No, Copyright is fundamental to Open Source. Each Open Source license requires you to provide attribution to the copyright holder and follow the license requirements. Open Source authors grant permissions for their work to be used, modified, and shared, which must be explicitly stated through a license.
+
+### Q: What if someone takes my branding and misuses it?
+
+Open source licenses, such as the Apache License provide legal safeguards against use of the original project's brand. These licenses require any derivative (copied and further modified) works to be clearly distinguished from the original project, preventing unauthorized use of project's brand and identity. The open source community can also self-police and report instances of brand misuse. Both Google Play and the Apple App Store have trademark reporting mechanisms in place to address such issues.
+
+It's also important to note that being closed source doesn't eliminate this problem. I recommend registering brand and logo in common markets as this is a problem beyond tech.
+
+### Q: How do I know which license is suitable for me?
+
+Choosing the right license depends on your project's goals and requirements. The Open Source Initiative (OSI) provides information on various approved licenses. Consider factors such as compatibility with other licenses, attribution requirements, and whether you want to allow commercial use. For complex cases, seeking legal advice is recommended. For basic understanding, Open Source Specialist can help you if needed.
+
+{{</ faq >}}
+
+{{< faq "Security and Data Privacy" >}}
+
+### Q: Does Open Source mean I have to share users' data?
+
+This is a common misconception. When we talk about Open Source product, we're referring to the software itself, not the private data it uses. You can absolutely open source your software while keeping sensitive data private.
+
+To approach it:
+
+* **Separate code from data**: Ensure your codebase is separate from any private or sensitive data. This separation allows you to open source the code while maintaining control over the data.
+* **Use configuration files**: Store sensitive information like API keys, database credentials, and other private data in separate configuration files that are not included in the open source repository.
+* **Implement data abstraction**: Design your software to work with abstract data interfaces, allowing users to plug in their own data sources without compromising the core functionality.
+* **Document data handling**: Clearly document how your software handles data and provide guidelines for users on how to securely use the software with their own private data.
+
+### Q: How can I ensure the security of my open source product?
+
+Security is a crucial concern for any software, and Open Source software are no exception. However following Open Source methodology and good practices, Open Source can often lead to more secure software. Beyond the "Given enough eyeballs, all bugs are shallow" principle, Here's how you can ensure the security of your open source product:
+
+* **Implement robust security measures**: This includes extracting and erasing Personally Identifiable Information (PII) or adding additional security layers. Use encryption for sensitive data, implement secure authentication methods, and follow security best practices in your code.
+* **Establish a clear privacy policy**: Outline how data is collected and used. This transparency builds trust with your users and contributors.
+* **Focus on deployment security**: Focus more on deployment rather than the code itself. Ensure that your documentation includes best practices for secure deployment.
+* **Implement multiple layers of security**: Use techniques such as two-factor authentication, role-based access control, and secured shell connections. Always hash sensitive information.
+* **Regular security audits**: Conduct or encourage regular security audits of your codebase. Many eyes on the code can help identify potential vulnerabilities quickly.
+* **Responsive security team**: Establish a security team or point of contact to quickly address any reported vulnerabilities.
+* **Use security tools**: Implement automated security scanning tools in your development pipeline to catch potential issues early.
+* **Educate contributors**: Provide guidelines and resources for contributors to ensure they understand and follow security best practices.
+
+{{</ faq >}}
+
+{{< faq "Development and Maintenance" >}}
+
+### Q: Does Open Source mean anyone can modify my software?
+
+While anyone can view and copy your source code, they can't modify your original repository without permission. In Open/Inner Source, there's a workflow where changes are proposed, and maintainers review new code before adding it to the original project. Well-developed projects often have automated tests to check for problematic code.
+
+### Q: Does developing Open Source cost more money than developing Proprietary solutions?
+
+Open Source isn't inherently more or less expensive. It's a different development approach. It may incur costs for training if the team isn't familiar with open source practices. Open Source often incentivizes following best practices, which can add upfront costs but may reduce long-term maintenance expenses and improve software quality.
+
+### Q: Will it cost me to make my existing solution Open Source?
+
+If your existing solution has security issues (like hardcoded passwords or API tokens), it's best to remove them as variables, following software development best practices. This process might incur some cost but is beneficial for overall security and maintainability.
+
+### Q: What if my code has bugs?
+
+It's normal for software to have bugs initially. Open Source invites collective effort to improve and refine the code. Sharing your work opens it up to feedback and contributions, accelerating your growth and understanding. Adopting good development practices becomes natural as you prepare your project for public scrutiny.
+
+### Q: How much effort is involved in maintaining an Open Source project?
+
+Maintenance does require effort, but it's about setting boundaries. Clear contribution guidelines and delegation can reduce the burden. Not all projects need indefinite active maintenance; sometimes it's about building a foundation others can build upon or fork.
+
+Here's [a template of contribution guideline](https://github.com/nayafia/contributing-template/blob/master/CONTRIBUTING-template.md) that can be followed.
+
+{{</ faq >}}
+
+{{< faq "Community and Collaboration" >}}
+
+### Q: How can I ensure my contributions are recognized?
+
+Open Source operates on a foundation of attribution and acknowledgment. Licensing agreements ensure your work is cited, and modern development practices facilitate easy acknowledgment through tools like CITATION files.
+
+### Q: What's the value of contributing to Open Source?
+
+Contributions to Open Source are investments in your skills, network, and professional visibility. They offer a platform to demonstrate practical skills and collaboration, which are valued by employers across industries.
+
+### Q: How can I start contributing to Open Source?
+
+The Open Source ecosystem is broad and welcoming, offering opportunities for contributors of all skill levels and backgrounds. Projects need more than just code; they need documentation, design, testing, and community management, providing many entry points for newcomers.
+
+{{</ faq >}}
+
+{{< faq "Business and Sustainability" >}}
+
+### Q: How does open source affect efficiency and cost-saving?
+
+Open source can boost efficiency and lead to cost savings through:
+
+* Community-driven quality assurance and faster bug detection
+* Improved scalability
+* Resource optimization by building on existing solutions
+* Substantial economic impact (estimated $8.8 trillion in demand-side value)
+
+### Q: Are Open Source projects financially viable?
+
+Yes, Open Source projects can achieve financial sustainability through diverse models, including many different business models around the solutions, community support, commercial partnerships, and dual licensing. These models enable continued innovation and support.
+
+{{</ faq >}}
+
 {{< faq "How is content on this site licensed?" >}}
 Licensed under [Creative Commons Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/).
 Not a lawyer?
