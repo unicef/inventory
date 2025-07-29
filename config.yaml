@@ -71,7 +71,7 @@ params:
   editPrefix: https://github.com/unicef/inventory/blob/main/content
 
   # Shown on all pages. When logo is empty, it will show your site title, set above.
-  logo: "images/unicef-logo.png"
+  #logo: "images/unicef-logo.png"
 
   # OpenGraph data
   description: UNICEF Open Source Inventory. A UNICEF Global Innovation knowledge base of best practices and resources for working and leading Open.
