@@ -80,7 +80,7 @@ params:
   image: "images/UNI309823.jpg"
 
   # customize color
-  primary_color: "#e1b61c"
+  primary_color: "#4169E1"
   primary_color_light: "#1b66b1"
   body_color: "#f2f4f6"
   text_color: "#636363"
